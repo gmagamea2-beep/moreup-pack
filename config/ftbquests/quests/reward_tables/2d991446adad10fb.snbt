@@ -1,0 +1,22 @@
+{
+	id: "2D991446ADAD10FB"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "_"
+	}
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ item: "mekanism:basic_control_circuit" }
+		{ item: "mekanism:advanced_control_circuit" }
+		{ item: "mekanism:alloy_infused" }
+		{ item: "mekanism:enriched_carbon" }
+		{ item: "mekanism:enriched_redstone" }
+	]
+	title: "메카니즘 초급"
+}

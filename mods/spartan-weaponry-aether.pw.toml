@@ -1,0 +1,13 @@
+name = "Spartan Weaponry: Aether"
+filename = "spartanaether-1.20.1-1.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0730a086a7299d29953d627b8328d1fd35947dd5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5686127
+project-id = 1062314

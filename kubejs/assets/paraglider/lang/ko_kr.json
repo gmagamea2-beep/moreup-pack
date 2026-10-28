@@ -1,0 +1,4 @@
+{
+  "commands.paraglider.reload_player_states.success": "플레이어 상태를 다시 불러왔습니다.",
+  "commands.paraglider.reload_player_states.fail": "플레이어 상태를 다시 불러오지 못했습니다."
+}

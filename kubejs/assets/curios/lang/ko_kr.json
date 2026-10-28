@@ -1,0 +1,7 @@
+{
+  "commands.curios.drop.success": "%2$s의 %1$s 칸 아이템을 떨어뜨렸습니다",
+  "commands.curios.dropAll.success": "%s의 모든 칸 아이템을 떨어뜨렸습니다",
+  "commands.curios.replace.success": "%2$s의 %1$s 칸을 %3$s(으)로 바꿨습니다",
+  "gui.curios.toggle.cosmetics": "치장 전환",
+  "gui.curios.page": "%d / %d 쪽"
+}

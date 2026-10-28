@@ -1,0 +1,13 @@
+name = "Simply! Spartan Shields Retexture"
+filename = "SimplySpartanShields.zip"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "59961796ab0961cb7a01f7d5ad433aa22ba7ed67"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6686012
+project-id = 1292541

@@ -1,0 +1,36 @@
+
+#Etherium material stats (restart required to apply changes)
+[etherium]
+	#Harvest level
+	#Range: 0 ~ 10
+	harvestLevel = 5
+	#Durability (uses)
+	#Range: 1 ~ 100000
+	durability = 8888
+	#Mining speed
+	#Range: 0.0 ~ 100.0
+	speed = 10.0
+	#Attack damage bonus
+	#Range: 0.0 ~ 100.0
+	attackDamageBonus = 8.0
+	#Enchantability
+	#Range: 0 ~ 100
+	enchantability = 35
+
+#Etherium Shield trait (defaults mirror Enigmatic Legacy's etherium shield)
+[shield]
+	#Health fraction at/below which the shield reaches full strength
+	#Range: 0.0 ~ 1.0
+	shieldThreshold = 0.4
+	#Melee damage reduction at full shield
+	#Range: 0.0 ~ 1.0
+	maxShieldReduction = 0.5
+	#Fraction of max health drained per attack while above the threshold
+	#Range: 0.0 ~ 1.0
+	drainPercent = 0.05
+	#Whether attacking drains your own health above the threshold
+	drainEnabled = true
+	#Bonus entity (attack) reach while holding
+	#Range: 0.0 ~ 16.0
+	reachBonus = 1.0
+

@@ -1,0 +1,17 @@
+{
+	id: "7A1886A0C6896A1C"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{ item: "ebwizardry:attunement_upgrade" }
+		{ item: "ebwizardry:blast_upgrade" }
+		{ item: "ebwizardry:condenser_upgrade" }
+		{ item: "ebwizardry:cooldown_upgrade" }
+		{ item: "ebwizardry:duration_upgrade" }
+		{ item: "ebwizardry:melee_upgrade" }
+		{ item: "ebwizardry:siphon_upgrade" }
+		{ item: "ebwizardry:range_upgrade" }
+		{ item: "ebwizardry:storage_upgrade" }
+	]
+	title: "마법"
+}

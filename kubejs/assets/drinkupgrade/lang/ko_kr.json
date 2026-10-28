@@ -1,0 +1,15 @@
+{
+  "gui.sophisticatedcore.upgrades.drink": "마시기",
+  "gui.sophisticatedcore.upgrades.drink.tooltip": "마시기 설정",
+  "gui.sophisticatedcore.upgrades.advanced_drink.tooltip": "고급 마시기 설정",
+  "gui.sophisticatedcore.upgrades.advanced_drink": "고급 마시기",
+  "item.drinkupgrade.drink_upgrade": "마시기 강화",
+  "item.drinkupgrade.drink_upgrade.tooltip": "배낭 안의 유체로 플레이어의 갈증을 채운다",
+  "item.drinkupgrade.advanced_drink_upgrade": "고급 마시기 강화",
+  "item.drinkupgrade.advanced_drink_upgrade.tooltip": "배낭 안의 유체로 플레이어의 갈증을 채운다\n유체를 마실 시점을 더 세밀하게 정할 수 있다",
+  "upgrade.drinkupgrade.thirst_any": "조금만 목말라도 바로 마신다\n유체의 갈증 회복량을 꽤 낭비한다",
+  "upgrade.drinkupgrade.thirst_half": "충분히 목마를 때만 마신다\n갈증 회복량을 많아야 절반만 낭비한다",
+  "upgrade.drinkupgrade.thirst_full": "충분히 목마를 때만 마신다\n갈증 회복량을 전혀 낭비하지 않는다",
+  "upgrade.drinkupgrade.drink_hurt": "다치면 바로 마신다\n체력이 가득 차지 않았으면 갈증 설정을 무시한다",
+  "upgrade.drinkupgrade.ignore_health": "체력을 고려하지 않는다\n체력은 무시하고 갈증 설정대로만 마신다"
+}

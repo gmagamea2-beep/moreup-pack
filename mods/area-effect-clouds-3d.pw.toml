@@ -1,0 +1,13 @@
+name = "Area Effect Clouds 3D"
+filename = "areaeffectcloud3d-1.0.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e4ec3bf548f4fd67e798fa805e3bfe787f5fa373"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6570066
+project-id = 1273303

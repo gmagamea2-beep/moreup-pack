@@ -1,0 +1,7 @@
+{
+  "hud.endertanks.server_data_missing": " §6⚠ §4서버에서 HUD 데이터를 받지 못했다 §6⚠",
+  "config.jade.plugin_endertanks.hud": "플러그인 활성화",
+  "config.jade.plugin_endertanks.hud.basic": "소유자와 코드",
+  "config.jade.plugin_endertanks.hud.contents": "내용물",
+  "config.jade.plugin_endertanks.hud.status": "펌프·비교기 상태"
+}

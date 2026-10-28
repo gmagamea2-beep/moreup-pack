@@ -1,0 +1,9 @@
+{
+  "embeddium.conflicting_mod": "Embeddium이 렌더링 문제나 충돌을 일으킨다고 알려진 모드를 찾았다. 지우는 것을 권장한다. 아래 목록을 확인하세요.",
+  "embeddium.conflicting_mod_list": "[{2}]",
+  "embeddium.search_bar_empty": "옵션 검색...",
+  "embeddium.options.added_by_mod_string": "추가한 모드: %s",
+  "embeddium.options.fullscreen.resolution.tooltip": "전체 화면 모드의 해상도를 정한다.",
+  "embeddium.options.use_quad_normals_for_lighting.name": "정확한 면 음영 사용",
+  "embeddium.options.use_quad_normals_for_lighting.tooltip": "켜면 Embeddium이 바닐라가 아닌 블록 면에, 축 방향이 아니라 실제로 향한 방향을 기준으로 음영을 넣는다. Forge 실험적 조명 파이프라인이 꺼져 있을 때(최고 성능을 위해 권장) 조명 품질이 좋아진다.\n\n실험적 조명 파이프라인이 켜져 있으면 효과가 없다."
+}

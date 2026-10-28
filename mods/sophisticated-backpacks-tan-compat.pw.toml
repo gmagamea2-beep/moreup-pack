@@ -1,0 +1,13 @@
+name = "Sophisticated Backpacks: TAN Compat"
+filename = "drinkupgrade-1.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5dcbdd59c26b5c04c13b62e4746ce61c59b30a0c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7294228
+project-id = 1395643

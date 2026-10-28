@@ -1,0 +1,7 @@
+{
+  "constants.mekanismgenerators.mod_name": "Mekanism: Generators",
+  "constants.mekanismgenerators.pack_description": "Mekanism: Generators에 쓰이는 자원",
+  "turbine.mekanismgenerators.tooltip.steamdump": "증기 배출 중",
+  "turbine.mekanismgenerators.tooltip.steamdump.warning": "물을 재활용하지 않는다",
+  "turbine.mekanismgenerators.tooltip.steamdump_excess": "남는 증기 배출 중"
+}

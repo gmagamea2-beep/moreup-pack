@@ -1,0 +1,13 @@
+name = "Stay True Amendments"
+filename = "Stay_True_Amendment3.zip"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "09e821cb3ef09e9f8bfca65b382ed95db19de23f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7868403
+project-id = 1494563

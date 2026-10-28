@@ -1,0 +1,8 @@
+
+["Fast Food Delight Config"]
+	#Generate Fast Food Shop Structures in Villages
+	"Generate Structures" = true
+	#Fast Food Shop Structure Weight, max is 50
+	#Range: 0 ~ 50
+	"Structure Weight" = 25
+

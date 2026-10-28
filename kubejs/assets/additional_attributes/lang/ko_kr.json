@@ -1,0 +1,13 @@
+{
+  "attribute.additional_attributes.fishing_luck": "낚시 행운",
+  "attribute.additional_attributes.fishing_luck.desc": "플레이어의 바다의 행운 레벨을 바꾼다",
+  "attribute.additional_attributes.fishing_lure": "낚시 미끼",
+  "attribute.additional_attributes.fishing_lure.desc": "플레이어의 미끼 레벨을 바꾼다",
+  "attribute.additional_attributes.harvest": "수확량",
+  "attribute.additional_attributes.harvest.desc": "수확하는 작물의 양을 바꾼다",
+  "attribute.additional_attributes.looting": "약탈",
+  "attribute.additional_attributes.looting.desc": "플레이어의 약탈 레벨을 바꾼다",
+  "attribute.additional_attributes.respiration": "호흡",
+  "attribute.additional_attributes.respiration.desc": "플레이어의 호흡 레벨을 바꾼다",
+  "ui.additional_attributes.cast_error_no_spell_level": "이 주문을 시전할 지식이 없다"
+}

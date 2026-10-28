@@ -1,0 +1,760 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "moreup_accessories"
+	group: "7E05AA7C371599AC"
+	icon: "bhc:red_heart_canister"
+	id: "774ADF6C893DC0A8"
+	order_index: 22
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["몹에게서 얻는 빨간 하트로 최대 체력을 늘린다."]
+			id: "7C7CC95C7EFBA9FA"
+			rewards: [
+				{
+					id: "5E17EA8CDD649C9B"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 4
+					id: "36E31354D47D66CB"
+					item: "relics:relic_experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2D1D33EF6F006944"
+					item: "bhc:red_heart_canister"
+					type: "item"
+				}
+			]
+			title: "&c&l[ ✦ 빨간 하트 캐니스터 ]"
+			x: 0.0d
+			y: -1.5d
+			icon: "bhc:red_heart_canister"
+		}
+		{
+			dependencies: ["7C7CC95C7EFBA9FA"]
+			id: "7CAA0BD4D6BE47AA"
+			rewards: [
+				{
+					id: "0BA3823571B755B9"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 4
+					id: "2C0AB39902D87148"
+					item: "relics:relic_experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "78EC9B5F0271C848"
+					item: "bhc:yellow_heart_canister"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 노란 하트 캐니스터 ]"
+			x: 1.75d
+			y: -10.5d
+			icon: "bhc:yellow_heart_canister"
+		}
+		{
+			dependencies: ["7CAA0BD4D6BE47AA"]
+			id: "4DFBEC9F0CA45B09"
+			rewards: [
+				{
+					id: "703E07765993CB57"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "75E3489D90FC8C31"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7FE2C1000BC0AC09"
+					item: "bhc:green_heart_canister"
+					type: "item"
+				}
+			]
+			title: "&a&l[ ✦ 초록 하트 캐니스터 ]"
+			x: 3.5d
+			y: -2.25d
+			icon: "bhc:green_heart_canister"
+		}
+		{
+			dependencies: ["4DFBEC9F0CA45B09"]
+			id: "548097AC2C8AD85B"
+			rewards: [
+				{
+					id: "7C4EA1FB9A5154DB"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					count: 4
+					id: "72DAF2721F10CDD9"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "706DF7E878D3BDBF"
+					item: "bhc:blue_heart_canister"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 파란 하트 캐니스터 ]"
+			x: 5.25d
+			y: -2.25d
+			icon: "bhc:blue_heart_canister"
+		}
+		{
+			description: ["Artifacts. 공중에서 한 번 더 점프."]
+			id: "7F311BB37688063A"
+			rewards: [
+				{
+					id: "2A4B010667E89F62"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "75A19CE424C0705A"
+					item: "relics:relic_experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "282A845BDBF819E5"
+					item: "artifacts:cloud_in_a_bottle"
+					type: "item"
+				}
+			]
+			title: "&f&l[ ✦ 병 속의 구름 ]"
+			x: 0.0d
+			y: 0.0d
+			icon: "artifacts:cloud_in_a_bottle"
+		}
+		{
+			dependencies: ["7F311BB37688063A"]
+			id: "71FA200049F783DD"
+			rewards: [
+				{
+					id: "75F54A7BE8FD69B0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "7860C9B3D55A8FD7"
+					item: "relics:relic_experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "510BDBC9A34E6E5C"
+					item: "artifacts:running_shoes"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 달리기 신발 ]"
+			x: 1.75d
+			y: -9.0d
+			icon: "artifacts:running_shoes"
+		}
+		{
+			dependencies: ["7F311BB37688063A"]
+			id: "76199CAA49F71A99"
+			rewards: [
+				{
+					id: "7793365EB02FEDAD"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "779DD83B5E511E94"
+					item: "relics:relic_experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "76126C7E96E78134"
+					item: "artifacts:power_glove"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 힘의 장갑 ]"
+			x: 1.75d
+			y: -7.5d
+			icon: "artifacts:power_glove"
+		}
+		{
+			dependencies: ["7F311BB37688063A"]
+			id: "23A68A67E7DFC27C"
+			rewards: [
+				{
+					id: "79C088AE24029684"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 4
+					id: "7C457A00BBA3095A"
+					item: "relics:relic_experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7626497BFC7464C8"
+					item: "artifacts:crystal_heart"
+					type: "item"
+				}
+			]
+			title: "&c&l[ ✦ 수정 심장 ]"
+			x: 1.75d
+			y: -6.0d
+			icon: "artifacts:crystal_heart"
+		}
+		{
+			description: ["Relics. 유물을 연구하면 능력이 성장한다."]
+			id: "376B22463F3CDB46"
+			rewards: [
+				{
+					id: "7C5DFCA3685AB111"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "7E68C5C6E1B785FE"
+					item: "relics:relic_experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5AEB4BD12548B55F"
+					item: "relics:researching_table"
+					type: "item"
+				}
+			]
+			title: "&d&l[ ✦ 유물 연구대 ]"
+			x: 0.0d
+			y: 1.5d
+			icon: "relics:researching_table"
+		}
+		{
+			dependencies: ["376B22463F3CDB46"]
+			id: "725B032F5C5524CD"
+			rewards: [
+				{
+					id: "2B56C785F31A6886"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "78E5EE9E638FBC9A"
+					item: "relics:relic_experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "10DE65B03A22EE92"
+					item: "relics:leather_belt"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 가죽 벨트 ]"
+			x: 1.75d
+			y: -4.5d
+			icon: "relics:leather_belt"
+		}
+		{
+			dependencies: ["376B22463F3CDB46"]
+			id: "5D819FA951989459"
+			rewards: [
+				{
+					id: "4466D9BF908374EB"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 2
+					id: "473A89B0921BBF1F"
+					item: "relics:relic_experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6C4C11078355CD3B"
+					item: "relics:magic_mirror"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 마법 거울 ]"
+			x: 1.75d
+			y: -3.0d
+			icon: "relics:magic_mirror"
+		}
+		{
+			dependencies: ["7F311BB37688063A"]
+			description: ["캐는 속도와 공격 속도가 오른다."]
+			id: "261E94FC454CBEB6"
+			rewards: [
+				{
+					id: "592A26638257DAEC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "1D2AF9B5A113C56D"
+					item: "relics:relic_experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7BE1A53623E26AAB"
+					item: "artifacts:digging_claws"
+					type: "item"
+				}
+				{
+					id: "446279CD2D6EDD4B"
+					item: "artifacts:feral_claws"
+					type: "item"
+				}
+			]
+			title: "&7&l[ ✦ 두더쥐 발톱과 야생 발톱 ]"
+			x: 1.75d
+			y: -1.5d
+			icon: "artifacts:digging_claws"
+		}
+		{
+			dependencies: ["7F311BB37688063A"]
+			description: ["물속에서 빠르게 헤엄친다."]
+			id: "75B8EBCDD1184AD4"
+			rewards: [
+				{
+					id: "3D095A791745232A"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 6
+					id: "77024B633C5CF9FE"
+					item: "minecraft:bread"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7E75670D4263B586"
+					item: "artifacts:flippers"
+					type: "item"
+				}
+			]
+			title: "&9&l[ ✦ 오리발 ]"
+			x: 1.75d
+			y: 0.0d
+			icon: "artifacts:flippers"
+		}
+		{
+			dependencies: ["7F311BB37688063A"]
+			id: "0459D7DF09B640B9"
+			rewards: [
+				{
+					id: "05D63550856B7423"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 4
+					id: "764FD2BF57A43462"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7261D60CB58B94C8"
+					item: "artifacts:night_vision_goggles"
+					type: "item"
+				}
+			]
+			title: "&a&l[ ✦ 야간투시경 ]"
+			x: 1.75d
+			y: 1.5d
+			icon: "artifacts:night_vision_goggles"
+		}
+		{
+			dependencies: ["7F311BB37688063A"]
+			description: ["불에 처음 닿으면 잠시 화염 저항이 생긴다."]
+			id: "278FE69DFAE1197E"
+			rewards: [
+				{
+					id: "74E4D02C469227E7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "266AD134783BB549"
+					item: "relics:relic_experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5C6A2A033421A16F"
+					item: "artifacts:obsidian_skull"
+					type: "item"
+				}
+			]
+			title: "&8&l[ ✦ 흑요석 해골 ]"
+			x: 1.75d
+			y: 3.0d
+			icon: "artifacts:obsidian_skull"
+		}
+		{
+			dependencies: ["7F311BB37688063A"]
+			description: ["근처 아이템을 끌어당긴다."]
+			id: "4B97A8FEC89722B7"
+			rewards: [
+				{
+					id: "1B46A369140D4000"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "5B8B1657A2E8AE28"
+					item: "relics:relic_experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "78C455ECD7E8D9DF"
+					item: "artifacts:universal_attractor"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 아이템 자석 ]"
+			x: 1.75d
+			y: 4.5d
+			icon: "artifacts:universal_attractor"
+		}
+		{
+			dependencies: ["376B22463F3CDB46"]
+			description: ["화살을 많이 담는 화살통."]
+			id: "02E9F38DE1D42C82"
+			rewards: [
+				{
+					id: "0B1C3A32CDF19E0F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "7C4B6AA9561232E1"
+					item: "relics:relic_experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3A173A11A1C2368F"
+					item: "relics:arrow_quiver"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 화살통 ]"
+			x: 1.75d
+			y: 6.0d
+			icon: "relics:arrow_quiver"
+		}
+		{
+			dependencies: ["376B22463F3CDB46"]
+			id: "52BBB1601B67C954"
+			rewards: [
+				{
+					id: "2949C8364A734D71"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 2
+					id: "656E41B1F40D6399"
+					item: "relics:relic_experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "75C9800550644F9C"
+					item: "relics:enders_hand"
+					type: "item"
+				}
+			]
+			title: "&5&l[ ✦ 엔더 핸드 ]"
+			x: 1.75d
+			y: 7.5d
+			icon: "relics:enders_hand"
+		}
+		{
+			dependencies: ["376B22463F3CDB46"]
+			id: "799254ADAEACB375"
+			rewards: [
+				{
+					id: "24428304DF844F4B"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 2
+					id: "79CCBD2C19549AD1"
+					item: "relics:relic_experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4241D74E4EE50F95"
+					item: "relics:holy_locket"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 성스러운 로켓 ]"
+			x: 1.75d
+			y: 9.0d
+			icon: "relics:holy_locket"
+		}
+		{
+			dependencies: ["376B22463F3CDB46"]
+			id: "783EB8E92CE14FAE"
+			rewards: [
+				{
+					id: "2E0D2F1C7609EB8F"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 2
+					id: "774D5F23056FF2AE"
+					item: "relics:relic_experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "37AFEE644B831CB3"
+					item: "relics:elytra_booster"
+					type: "item"
+				}
+			]
+			title: "&f&l[ ✦ 겉날개 부스터 ]"
+			x: 1.75d
+			y: 10.5d
+			icon: "relics:elytra_booster"
+		}
+		{
+			dependencies: ["23A68A67E7DFC27C"]
+			id: "75221C07C40FE189"
+			rewards: [
+				{
+					id: "40565EA6EC5A0AD7"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 2
+					id: "7437760A42C274D9"
+					item: "relics:relic_experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "70808CBFD493279F"
+					item: "celestial_artifacts:flight_ring"
+					type: "item"
+				}
+				{
+					id: "079EC9A284EB9DEF"
+					item: "celestial_artifacts:freeze_ring"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 천상의 반지 (Celestial Artifacts) ]"
+			x: 3.5d
+			y: -0.75d
+			icon: "celestial_artifacts:flight_ring"
+		}
+		{
+			dependencies: ["75221C07C40FE189"]
+			id: "7B2C89DA67B7BF01"
+			rewards: [
+				{
+					id: "1F8BCF2391B8ABF9"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 4
+					id: "23F31853C446CA1F"
+					item: "relics:relic_experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5689AC26C1A29817"
+					item: "celestial_artifacts:angel_heart"
+					type: "item"
+				}
+			]
+			title: "&f&l[ ✦ 천사의 심장 ]"
+			x: 5.25d
+			y: -0.75d
+			icon: "celestial_artifacts:angel_heart"
+		}
+		{
+			dependencies: ["75221C07C40FE189"]
+			id: "7D48A0D83EB4A761"
+			rewards: [
+				{
+					id: "754DC211DDA7F567"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 4
+					id: "7445793BA79C2603"
+					item: "relics:relic_experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7B748D71F518A1EA"
+					item: "celestial_artifacts:demon_heart"
+					type: "item"
+				}
+			]
+			title: "&c&l[ ✦ 악마의 심장 ]"
+			x: 5.25d
+			y: 0.75d
+			icon: "celestial_artifacts:demon_heart"
+		}
+		{
+			dependencies: ["23A68A67E7DFC27C"]
+			id: "5B6196A3BDAC363A"
+			rewards: [
+				{
+					id: "1A6CA51273B15398"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 2
+					id: "11E137F1642401BD"
+					item: "relics:relic_experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "29B51DFE3DBB3657"
+					item: "curseofpandora:charm_of_health"
+					type: "item"
+				}
+				{
+					id: "4EA63E354D99F5C8"
+					item: "curseofpandora:charm_of_damage"
+					type: "item"
+				}
+			]
+			title: "&d&l[ ✦ 판도라의 부적 (Curse of Pandora) ]"
+			x: 3.5d
+			y: 0.75d
+			icon: "curseofpandora:charm_of_health"
+		}
+		{
+			dependencies: ["5B6196A3BDAC363A"]
+			id: "4FB059EA65852507"
+			rewards: [
+				{
+					id: "7F7552B5D2842B10"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 4
+					id: "78F5D09CEA987509"
+					item: "relics:relic_experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "73379F619F16CBED"
+					item: "curseofpandora:angelic_feather"
+					type: "item"
+				}
+			]
+			title: "&f&l[ ✦ 천사의 깃털 ]"
+			x: 5.25d
+			y: 2.25d
+			icon: "curseofpandora:angelic_feather"
+		}
+		{
+			dependencies: ["5D819FA951989459"]
+			id: "7221C0B898872FEE"
+			rewards: [
+				{
+					id: "2C376159F3E01726"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 4
+					id: "48F9D0439EAE78E5"
+					item: "relics:relic_experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "734EC4A381B36E00"
+					item: "l2complements:eternal_totem_of_dream"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 영원한 꿈의 토템 ]"
+			x: 3.5d
+			y: 2.25d
+			icon: "l2complements:eternal_totem_of_dream"
+		}
+	]
+	title: "&b&l✦ 장신구와 성장"
+}

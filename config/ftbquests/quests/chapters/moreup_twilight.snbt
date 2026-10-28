@@ -1,0 +1,1016 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "moreup_twilight"
+	group: "7E05AA7C371599AC"
+	icon: "twilightforest:naga_trophy"
+	id: "6CC3F1860236F022"
+	order_index: 14
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2DD015E09CDA7F92"]
+			description: ["나가의 안뜰을 지키는 거대한 뱀."]
+			id: "349F9D615CE78B6F"
+			rewards: [
+				{
+					id: "6DE21263B160ADE6"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 12
+					id: "7F1FDB515AF81845"
+					item: "minecraft:cooked_beef"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "10A3532AB03ECFAC"
+					item: "moreup:boss_essence_low"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "twilightforest:naga"
+					id: "4D64FBDCEE15C1F9"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&a&l[ ⚔ 나가 ]"
+			x: 0.0d
+			y: 0.0d
+			icon: "twilightforest:naga_trophy"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["349F9D615CE78B6F"]
+			id: "3A6EE8A3E69D9832"
+			rewards: [
+				{
+					id: "64E802939ECEDD0A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "04C7B83320EBCFB4"
+					item: "twilightforest:ironwood_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 6L
+					id: "7FDFB72E12D69911"
+					item: "twilightforest:naga_scale"
+					type: "item"
+				}
+			]
+			title: "&a&l[ ✦ 나가 비늘 ]"
+			x: 1.75d
+			y: -4.5d
+			icon: "twilightforest:naga_scale"
+		}
+		{
+			dependencies: ["349F9D615CE78B6F"]
+			description: ["리치의 탑 꼭대기에서 기다린다. 그림자를 공격하지 말 것."]
+			id: "7AFF924FF6F8F9A3"
+			rewards: [
+				{
+					id: "7FBE9E2F3146BC93"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 8
+					id: "772169B04FB0EA59"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6AC993372DAEC913"
+					item: "moreup:boss_essence_low"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "twilightforest:lich"
+					id: "3A4A25F3FFF3092B"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&e&l[ ⚔ 리치 ]"
+			x: 1.75d
+			y: -3.0d
+			icon: "twilightforest:lich_trophy"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["7AFF924FF6F8F9A3"]
+			id: "10B0E7A6561FFAC8"
+			rewards: [
+				{
+					id: "7867D7455CD03236"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "7C13751C48A9157E"
+					item: "twilightforest:steeleaf_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4283AF8A200B07EA"
+					item: "twilightforest:twilight_scepter"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 리치의 왕홀 ]"
+			x: 3.5d
+			y: -4.5d
+			icon: "twilightforest:twilight_scepter"
+		}
+		{
+			dependencies: ["7AFF924FF6F8F9A3"]
+			description: ["미로 깊은 곳의 우두머리."]
+			id: "643DEBD440273A18"
+			rewards: [
+				{
+					id: "581430C5B81ADAC9"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 8
+					id: "7C8CD49997CFB064"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "7816535A8369F62D"
+					item: "moreup:boss_essence_low"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "twilightforest:minoshroom"
+					id: "70C541457611FDE9"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&6&l[ ⚔ 미노슈룸 ]"
+			x: 3.5d
+			y: -3.0d
+			icon: "twilightforest:minoshroom_trophy"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["643DEBD440273A18"]
+			description: ["불의 늪 깊은 곳의 머리 셋 달린 용."]
+			id: "77974D144B50FD6E"
+			rewards: [
+				{
+					id: "4F57C2B0C5E32521"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 8
+					id: "0C9F2F2F6015563B"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					count: 1
+					id: "7833EA33FA3F49AF"
+					item: "moreup:boss_essence_mid"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "twilightforest:hydra"
+					id: "66EFBB1B9118FE61"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&c&l[ ⚔ 히드라 ]"
+			x: 5.25d
+			y: -4.5d
+			icon: "twilightforest:hydra_trophy"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["77974D144B50FD6E"]
+			description: ["히드라의 피로 단련한 금속. &d황혼의 인장&r 재료."]
+			id: "0423231E220671F3"
+			rewards: [
+				{
+					id: "7CC72B71E23354A1"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "6FCB6DCD383DF68A"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "10E38FBDE82F9952"
+					item: "twilightforest:fiery_ingot"
+					type: "item"
+				}
+			]
+			title: "&c&l[ ✦ 불꽃 주괴 ]"
+			x: 7.0d
+			y: -2.25d
+			icon: "twilightforest:fiery_ingot"
+		}
+		{
+			dependencies: ["7AFF924FF6F8F9A3"]
+			description: ["다크 숲의 고블린 요새 깊은 곳."]
+			id: "7EAB351CC68FF746"
+			rewards: [
+				{
+					id: "77A7ED7605ADA397"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 2
+					id: "636FCA0142D80C18"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "57DA296D8D58410C"
+					item: "moreup:boss_essence_low"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "twilightforest:knight_phantom"
+					id: "72CED43D584C8BD7"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&7&l[ ⚔ 기사 유령 ]"
+			x: 3.5d
+			y: -1.5d
+			icon: "twilightforest:knight_phantom_trophy"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["7EAB351CC68FF746"]
+			id: "70CB3F493E1DE1D6"
+			rewards: [
+				{
+					id: "7D75FE82DF75B372"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 2
+					id: "7F5E4354FCB62A26"
+					item: "twilightforest:ironwood_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "7355F35A8C972E3F"
+					item: "twilightforest:knightmetal_ingot"
+					type: "item"
+				}
+			]
+			title: "&7&l[ ✦ 기사 금속 ]"
+			x: 5.25d
+			y: -3.0d
+			icon: "twilightforest:knightmetal_ingot"
+		}
+		{
+			dependencies: ["7EAB351CC68FF746"]
+			description: ["어둠의 탑 꼭대기."]
+			id: "73D05D96E25F957E"
+			rewards: [
+				{
+					id: "6488DF8B41F187D7"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 8
+					id: "57FB80490FF4F818"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					count: 1
+					id: "67D45BCAF36C8365"
+					item: "moreup:boss_essence_mid"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "twilightforest:ur_ghast"
+					id: "5E7159B3AC7E8294"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&4&l[ ⚔ 우르가스트 ]"
+			x: 5.25d
+			y: -1.5d
+			icon: "twilightforest:ur_ghast_trophy"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["7AFF924FF6F8F9A3"]
+			description: ["눈 덮인 숲의 동굴."]
+			id: "41F296B3EA6B12B1"
+			rewards: [
+				{
+					id: "0E5D79874362DAC9"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 8
+					id: "7B6B6A93CCA19724"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6CE692A7469401C0"
+					item: "moreup:boss_essence_low"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "twilightforest:alpha_yeti"
+					id: "783134FF816420DA"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&f&l[ ⚔ 알파 예티 ]"
+			x: 3.5d
+			y: 0.0d
+			icon: "twilightforest:alpha_yeti_trophy"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["41F296B3EA6B12B1"]
+			description: ["오로라 궁전의 주인."]
+			id: "7170B260F3804D24"
+			rewards: [
+				{
+					id: "645549015210E8A5"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 3
+					id: "759A7FF137C431B2"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					count: 1
+					id: "796BF28CCD193CFF"
+					item: "moreup:boss_essence_mid"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "twilightforest:snow_queen"
+					id: "75FE63E9F42E6803"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&b&l[ ⚔ 눈의 여왕 ]"
+			x: 5.25d
+			y: 0.0d
+			icon: "twilightforest:snow_queen_trophy"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["77974D144B50FD6E", "73D05D96E25F957E", "7170B260F3804D24"]
+			description: ["트로피 9종을 모으면 &e세계의 파편: 황혼&r을 만들 수 있다."]
+			id: "75460F8B40B5D20F"
+			rewards: [
+				{
+					id: "2469CF968E4C98A5"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 16
+					id: "1D524A7A35F381AF"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "48705EE8B85B07AE"
+					item: "twilightforest:naga_trophy"
+					type: "item"
+				}
+				{
+					id: "3136C06C08FDCEF8"
+					item: "twilightforest:lich_trophy"
+					type: "item"
+				}
+				{
+					id: "681C3D08A593A73D"
+					item: "twilightforest:minoshroom_trophy"
+					type: "item"
+				}
+				{
+					id: "605ADE5DD1132C92"
+					item: "twilightforest:hydra_trophy"
+					type: "item"
+				}
+				{
+					id: "798CA9835F42E329"
+					item: "twilightforest:knight_phantom_trophy"
+					type: "item"
+				}
+				{
+					id: "70DC18DB16D737F2"
+					item: "twilightforest:ur_ghast_trophy"
+					type: "item"
+				}
+				{
+					id: "7B4AB8393A008424"
+					item: "twilightforest:alpha_yeti_trophy"
+					type: "item"
+				}
+				{
+					id: "4EDA5D6D6DC47FFC"
+					item: "twilightforest:snow_queen_trophy"
+					type: "item"
+				}
+				{
+					id: "14807154AE4D4397"
+					item: "twilightforest:quest_ram_trophy"
+					type: "item"
+				}
+			]
+			title: "&2&l[ ✦ 황혼의 수호자들 ]"
+			x: 7.0d
+			y: -0.75d
+			icon: "twilightforest:naga_trophy"
+		}
+		{
+			dependencies: ["75460F8B40B5D20F"]
+			description: ["등불·사슬 철퇴·큐브 부적을 대장장이 작업대에서 합치자."]
+			id: "7FFBA7158CC1488A"
+			rewards: [
+				{
+					id: "7DB2D70D6DD0D687"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 16
+					id: "21F5ABF2388D8FBF"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "070657239B98E1E2"
+					item: "twilightforest:cube_of_annihilation"
+					type: "item"
+				}
+			]
+			title: "&5&l[ ✦ 소멸의 큐브 ]"
+			x: 8.75d
+			y: -1.5d
+			icon: "twilightforest:cube_of_annihilation"
+		}
+		{
+			dependencies: ["349F9D615CE78B6F"]
+			description: ["아이언우드 나무 뿌리로 만드는 금속."]
+			id: "760E851D5FFEA87B"
+			rewards: [
+				{
+					id: "70AB1EEA2099660C"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 8
+					id: "74ED78F70D0BAD1A"
+					item: "twilightforest:torchberries"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "7850D6D944672436"
+					item: "twilightforest:ironwood_ingot"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 아이언우드괴 ]"
+			x: 1.75d
+			y: -1.5d
+			icon: "twilightforest:ironwood_ingot"
+		}
+		{
+			dependencies: ["349F9D615CE78B6F"]
+			description: ["강철잎 덤불에서 나오는 재료."]
+			id: "6F3DE588A8709B65"
+			rewards: [
+				{
+					id: "79EC70C78091FF8C"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 8
+					id: "7C021E8007267098"
+					item: "twilightforest:torchberries"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "2CDB4C1685AD93A2"
+					item: "twilightforest:steeleaf_ingot"
+					type: "item"
+				}
+			]
+			title: "&a&l[ ✦ 강철잎 ]"
+			x: 1.75d
+			y: 0.0d
+			icon: "twilightforest:steeleaf_ingot"
+		}
+		{
+			dependencies: ["760E851D5FFEA87B", "6F3DE588A8709B65"]
+			id: "7D639B8DC65B1822"
+			rewards: [
+				{
+					id: "0A617180D9D36D8B"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 2
+					id: "79AAF406216C541A"
+					item: "twilightforest:steeleaf_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4F49A197F703E648"
+					item: "twilightforest:ironwood_chestplate"
+					type: "item"
+				}
+				{
+					id: "7BF4E546341E4BB8"
+					item: "twilightforest:steeleaf_chestplate"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 아이언우드와 강철잎 장비 ]"
+			x: 3.5d
+			y: 1.5d
+			icon: "twilightforest:ironwood_chestplate"
+		}
+		{
+			dependencies: ["349F9D615CE78B6F"]
+			description: ["생명의 부적은 죽을 때 한 번 살려 주고, 보존의 부적은 죽어도 아이템을 지켜 준다."]
+			id: "76AF956524F7A16D"
+			rewards: [
+				{
+					id: "7F2384528CDE4D56"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 2
+					id: "73C855DCBB79293A"
+					item: "twilightforest:ironwood_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7D531D7D2BA03820"
+					item: "twilightforest:charm_of_life_1"
+					type: "item"
+				}
+				{
+					id: "66AE2B017D3134F6"
+					item: "twilightforest:charm_of_keeping_1"
+					type: "item"
+				}
+			]
+			title: "&d&l[ ✦ 생명과 보존의 부적 ]"
+			x: 1.75d
+			y: 1.5d
+			icon: "twilightforest:charm_of_life_1"
+		}
+		{
+			dependencies: ["349F9D615CE78B6F"]
+			description: ["아이템을 재료로 되돌린다."]
+			id: "41503C148A13B3ED"
+			rewards: [
+				{
+					id: "1C9F1A3942FEA700"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 2
+					id: "63E8A90CE75219FE"
+					item: "twilightforest:ironwood_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2D2CCE1FA336B459"
+					item: "twilightforest:uncrafting_table"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 역제작대 ]"
+			x: 1.75d
+			y: 3.0d
+			icon: "twilightforest:uncrafting_table"
+		}
+		{
+			dependencies: ["349F9D615CE78B6F"]
+			description: ["마법의 지도는 보스 위치를, 미궁 지도는 미궁 구조를 보여 준다."]
+			id: "74F7187387E08A3E"
+			rewards: [
+				{
+					id: "42125BCF79889699"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "5E7320E455CAA361"
+					item: "twilightforest:steeleaf_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7F538D08F8DB0C79"
+					item: "twilightforest:filled_magic_map"
+					type: "item"
+				}
+				{
+					id: "76345F7BCF768113"
+					item: "twilightforest:maze_map"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 마법의 지도와 미궁 지도 ]"
+			x: 1.75d
+			y: 4.5d
+			icon: "twilightforest:filled_magic_map"
+		}
+		{
+			dependencies: ["7AFF924FF6F8F9A3"]
+			description: ["생명력 흡수·좀비 소환·방어 강화 지팡이 (리치의 탑)."]
+			id: "76ADAC9C6B07CA03"
+			rewards: [
+				{
+					id: "73E31CB2CBCE1D29"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 2
+					id: "7E7FC668186F68D9"
+					item: "twilightforest:ironwood_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5D2687F6D010C32D"
+					item: "twilightforest:lifedrain_scepter"
+					type: "item"
+				}
+				{
+					id: "2C4C5759357FD426"
+					item: "twilightforest:zombie_scepter"
+					type: "item"
+				}
+				{
+					id: "7AC77B598CB09D49"
+					item: "twilightforest:fortification_scepter"
+					type: "item"
+				}
+			]
+			title: "&5&l[ ✦ 지팡이 3종 ]"
+			x: 3.5d
+			y: 3.0d
+			icon: "twilightforest:lifedrain_scepter"
+		}
+		{
+			dependencies: ["643DEBD440273A18"]
+			description: ["얼음 활·세 갈래 활·추적의 활·엔더 활. 미궁과 보물 상자에서 나온다."]
+			id: "760F14B2C758CDB8"
+			rewards: [
+				{
+					id: "7202411EF2C34A26"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "3C2D287161FADB06"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "202C5214CE54E656"
+					item: "twilightforest:ice_bow"
+					type: "item"
+				}
+				{
+					id: "74BE546911E1EA32"
+					item: "twilightforest:triple_bow"
+					type: "item"
+				}
+				{
+					id: "07A6DEDFEA66A876"
+					item: "twilightforest:seeker_bow"
+					type: "item"
+				}
+				{
+					id: "7D05C5D7914221FC"
+					item: "twilightforest:ender_bow"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 미궁의 활 ]"
+			x: 5.25d
+			y: 1.5d
+			icon: "twilightforest:ice_bow"
+		}
+		{
+			dependencies: ["0423231E220671F3"]
+			id: "209890FA5E08AF0F"
+			rewards: [
+				{
+					id: "7D6C2E69100B91C3"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "7BA3E8D49CB92EB7"
+					item: "twilightforest:fiery_blood"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "77DBA58A4756DF18"
+					item: "twilightforest:fiery_chestplate"
+					type: "item"
+				}
+				{
+					id: "6C04A8EA0697E7E7"
+					item: "twilightforest:fiery_sword"
+					type: "item"
+				}
+			]
+			title: "&c&l[ ✦ 화염석 장비 ]"
+			x: 8.75d
+			y: 0.0d
+			icon: "twilightforest:fiery_chestplate"
+		}
+		{
+			dependencies: ["70CB3F493E1DE1D6"]
+			id: "74ACA5F1BABFA918"
+			rewards: [
+				{
+					id: "0DB43621D1136BD7"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 2
+					id: "5EF5DD3732FCC07E"
+					item: "twilightforest:steeleaf_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "765BD9022552FD4E"
+					item: "twilightforest:knightmetal_chestplate"
+					type: "item"
+				}
+			]
+			title: "&7&l[ ✦ 기사금속 장비 ]"
+			x: 7.0d
+			y: 0.75d
+			icon: "twilightforest:knightmetal_chestplate"
+		}
+		{
+			dependencies: ["73D05D96E25F957E"]
+			description: ["어둠의 탑 정령에게서 얻는 재료."]
+			id: "77C5F565F2D2D4D2"
+			rewards: [
+				{
+					id: "21F794AD30DB3355"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 2
+					id: "710C2C8D418247B2"
+					item: "twilightforest:steeleaf_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "5A33D71D416B973C"
+					item: "twilightforest:carminite"
+					type: "item"
+				}
+			]
+			title: "&c&l[ ✦ 카미나이트 ]"
+			x: 7.0d
+			y: 2.25d
+			icon: "twilightforest:carminite"
+		}
+		{
+			dependencies: ["41F296B3EA6B12B1"]
+			description: ["알파 예티의 털로 만든 극지 장비."]
+			id: "733DF01455485E45"
+			rewards: [
+				{
+					id: "758820A5A3F45CED"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 2
+					id: "4EB2B458C8E0FD21"
+					item: "twilightforest:steeleaf_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7589861452116CB2"
+					item: "twilightforest:arctic_chestplate"
+					type: "item"
+				}
+			]
+			title: "&f&l[ ✦ 극지 흉갑 ]"
+			x: 5.25d
+			y: 3.0d
+			icon: "twilightforest:arctic_chestplate"
+		}
+		{
+			dependencies: ["75460F8B40B5D20F"]
+			description: ["구름 성의 거인 광부·기사에게서 얻는다."]
+			id: "77B8390A47E4A809"
+			rewards: [
+				{
+					id: "3D99B9CD91129847"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "0215166647F927F7"
+					item: "twilightforest:fiery_blood"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "01E65B3675637CB4"
+					item: "twilightforest:giant_pickaxe"
+					type: "item"
+				}
+			]
+			title: "&7&l[ ✦ 거인의 도구 ]"
+			x: 8.75d
+			y: 1.5d
+			icon: "twilightforest:giant_pickaxe"
+		}
+		{
+			dependencies: ["7EAB351CC68FF746"]
+			description: ["광석 자석·무너뜨리는 뿔·공작 깃털 부채·불씨 등불."]
+			id: "7F4B37DEF9BBECDC"
+			rewards: [
+				{
+					id: "7A117E079B20E710"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "77A87AAFCED5600E"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4373EC946C5C3808"
+					item: "twilightforest:ore_magnet"
+					type: "item"
+				}
+				{
+					id: "73B6D1B3805CADD0"
+					item: "twilightforest:crumble_horn"
+					type: "item"
+				}
+				{
+					id: "77A6298512B5317A"
+					item: "twilightforest:peacock_feather_fan"
+					type: "item"
+				}
+				{
+					id: "24A88FFD2BD26240"
+					item: "twilightforest:lamp_of_cinders"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 황혼의 도구들 ]"
+			x: 5.25d
+			y: 4.5d
+			icon: "twilightforest:ore_magnet"
+		}
+		{
+			dependencies: ["7AFF924FF6F8F9A3"]
+			description: ["동물을 다른 동물로 바꾼다."]
+			id: "2F4902D87670AC6A"
+			rewards: [
+				{
+					id: "0B9E66C3C990EFDE"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 8
+					id: "7F26046F74DBE169"
+					item: "twilightforest:torchberries"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "11EC2E4BD63FFA82"
+					item: "twilightforest:transformation_powder"
+					type: "item"
+				}
+			]
+			title: "&d&l[ ✦ 변신 가루 ]"
+			x: 3.5d
+			y: 4.5d
+			icon: "twilightforest:transformation_powder"
+		}
+	]
+	title: "&b&l✦ 황혼의 숲"
+}

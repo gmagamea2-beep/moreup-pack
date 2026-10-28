@@ -1,0 +1,12 @@
+{
+  "item.dragonfinder.coocked_fire_dragon_flesh": "익힌 파이어 드래곤 고기",
+  "item.dragonfinder.coocked_ice_dragon_flesh": "익힌 아이스 드래곤 고기",
+  "item.dragonfinder.coocked_lightning_dragon_flesh": "익힌 라이트닝 드래곤 고기",
+  "item.dragonfinder.fire_dragon_eye": "파이어 드래곤의 눈",
+  "item.dragonfinder.ice_dragon_eye": "아이스 드래곤의 눈",
+  "item.dragonfinder.lightning_dragon_eye": "라이트닝 드래곤의 눈",
+  "item.dragonfinder.dragoneye.nonfound": "근처에 드래곤이 없다",
+  "itemGroup.dragonfinder": "Dragon Finder 아이템",
+  "advancements.dragonfinder.dragon_eye.title": "모두 찾아라",
+  "advancements.dragonfinder.dragon_eye.description": "드래곤의 눈 만들기"
+}

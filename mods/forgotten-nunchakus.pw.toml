@@ -1,0 +1,13 @@
+name = "Forgotten Nunchakus"
+filename = "fn-1.0.5d.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b73bcfa8cd683ef9adecb1fdc9f11089b6db6eea"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7596922
+project-id = 1208165

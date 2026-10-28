@@ -1,0 +1,950 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "moreup_iceandfire"
+	group: "7E05AA7C371599AC"
+	icon: "iceandfire:fire_dragon_heart"
+	id: "719E25D56DC8FFFC"
+	order_index: 16
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["언데드에게 강한 금속."]
+			id: "6EEC7E90C2D6CCFA"
+			rewards: [
+				{
+					id: "4CE823A63485E32E"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 4
+					id: "15F5BFA2D22D9F30"
+					item: "iceandfire:silver_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "7931F8A5E6BDC813"
+					item: "iceandfire:silver_ingot"
+					type: "item"
+				}
+			]
+			title: "&7&l[ ✦ 은 ]"
+			x: 0.0d
+			y: 0.0d
+			icon: "iceandfire:silver_ingot"
+		}
+		{
+			dependencies: ["6EEC7E90C2D6CCFA"]
+			id: "4AEE4B822013DC13"
+			rewards: [
+				{
+					id: "763DF0EA1E74C949"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 4
+					id: "6DCAAC2800AFD520"
+					item: "iceandfire:silver_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "537C6E8E0B072F65"
+					item: "iceandfire:sapphire_gem"
+					type: "item"
+				}
+			]
+			title: "&9&l[ ✦ 사파이어 ]"
+			x: 1.75d
+			y: -3.75d
+			icon: "iceandfire:sapphire_gem"
+		}
+		{
+			dependencies: ["4AEE4B822013DC13"]
+			description: ["드래곤 둥지와 동굴의 상자에서 원고를 찾자."]
+			id: "72E8C40FE6AFE649"
+			rewards: [
+				{
+					id: "7B9A4D0A9769F4C7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "77B3FFDC633E6EBA"
+					item: "iceandfire:sapphire_gem"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "20E157D5C6CB431C"
+					item: "iceandfire:manuscript"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 용의 연구 ]"
+			x: 3.5d
+			y: -5.25d
+			icon: "iceandfire:manuscript"
+		}
+		{
+			dependencies: ["6EEC7E90C2D6CCFA"]
+			description: ["드래곤 해골이나 죽은 드래곤에게서."]
+			id: "18D90D538B196671"
+			rewards: [
+				{
+					id: "71197B3BC2298005"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 2
+					id: "790005A37A849D48"
+					item: "iceandfire:sapphire_gem"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "73C27E323B41C5D6"
+					item: "iceandfire:dragonbone"
+					type: "item"
+				}
+			]
+			title: "&f&l[ ✦ 용의 뼈 ]"
+			x: 1.75d
+			y: -2.25d
+			icon: "iceandfire:dragonbone"
+		}
+		{
+			dependencies: ["18D90D538B196671"]
+			id: "7E938F4F2BE57CC2"
+			rewards: [
+				{
+					id: "3739B996149DA44C"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 2
+					id: "7C576EC612B7671F"
+					item: "iceandfire:sapphire_gem"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "7166A51A5D8B5CC6"
+					item: "iceandfire:dragonscales_red"
+					type: "item"
+				}
+			]
+			title: "&c&l[ ✦ 드래곤 비늘 ]"
+			x: 3.5d
+			y: -3.75d
+			icon: "iceandfire:dragonscales_red"
+		}
+		{
+			dependencies: ["18D90D538B196671"]
+			description: ["눈을 마주치면 돌이 된다. 방패나 뒤돌아 싸우자."]
+			id: "2D07C6880B854997"
+			rewards: [
+				{
+					id: "70A1620C9132448A"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 8
+					id: "1DE838733C63FA21"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2ECF2C6B9212A851"
+					item: "moreup:boss_essence_mid"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "iceandfire:gorgon"
+					id: "71222AF1C62D6F8A"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&2&l[ ⚔ 고르곤 ]"
+			x: 3.5d
+			y: -2.25d
+			icon: "iceandfire:gorgon_head"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["18D90D538B196671"]
+			id: "33DDBA61DE802FC0"
+			rewards: [
+				{
+					id: "76F7B3DCA0BA30E2"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 8
+					id: "2DF1D4DF03EB336C"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "75297D9383D434B4"
+					item: "moreup:boss_essence_mid"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "iceandfire:cyclops"
+					id: "794C4599031E60B7"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&6&l[ ⚔ 사이클롭스 ]"
+			x: 3.5d
+			y: -0.75d
+			icon: "iceandfire:cyclops_eye"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["18D90D538B196671"]
+			id: "3547C475FFA6D725"
+			rewards: [
+				{
+					id: "7753FC95D10120DA"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 2
+					id: "2CEF419D91CAB7CE"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "754E9F5CAAAF69CB"
+					item: "moreup:boss_essence_mid"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "iceandfire:hydra"
+					id: "5CEFE01BF8A0897D"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&a&l[ ⚔ 히드라 (늪) ]"
+			x: 3.5d
+			y: 0.75d
+			icon: "iceandfire:hydra_heart"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["18D90D538B196671"]
+			id: "7FCE5230ED2126BA"
+			rewards: [
+				{
+					id: "7E474657DD898ABA"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 8
+					id: "6CCD492BF80604C1"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7EEEFCA6D5CD3F39"
+					item: "moreup:boss_essence_mid"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "iceandfire:sea_serpent"
+					id: "1A9BCBF6FD21FE47"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&3&l[ ⚔ 바다뱀 ]"
+			x: 3.5d
+			y: 2.25d
+			icon: "iceandfire:sea_serpent_fang"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["2D07C6880B854997", "33DDBA61DE802FC0"]
+			description: ["드래곤은 나이가 들수록 강해진다."]
+			id: "1B724BDB17BEBEDB"
+			rewards: [
+				{
+					id: "599BB0387DF52A29"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					count: 3
+					id: "7F8FDE59F217EA1A"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7067EE2F6B6E8DA9"
+					item: "moreup:boss_essence_high"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "iceandfire:fire_dragon"
+					id: "01CADC6E3E1F0629"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&c&l[ ⚔ 불 드래곤 ]"
+			x: 5.25d
+			y: -6.0d
+			icon: "iceandfire:fire_dragon_heart"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["2D07C6880B854997", "33DDBA61DE802FC0"]
+			id: "68E8DD7FE07DEBFF"
+			rewards: [
+				{
+					id: "32F24A6271F9569A"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					count: 3
+					id: "7753FEC0A743B953"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "72E25C1320AB085F"
+					item: "moreup:boss_essence_high"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "iceandfire:ice_dragon"
+					id: "7BF2F354588A6DA3"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&b&l[ ⚔ 얼음 드래곤 ]"
+			x: 5.25d
+			y: -4.5d
+			icon: "iceandfire:ice_dragon_heart"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["2D07C6880B854997", "33DDBA61DE802FC0"]
+			id: "766C0EEDCD86E30B"
+			rewards: [
+				{
+					id: "314E3A4A930818AF"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					count: 3
+					id: "1F4EF63A8136CFFF"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "62A6E9DA1064368C"
+					item: "moreup:boss_essence_high"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "iceandfire:lightning_dragon"
+					id: "3972996A9FA1A7E2"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&5&l[ ⚔ 번개 드래곤 ]"
+			x: 5.25d
+			y: -3.0d
+			icon: "iceandfire:lightning_dragon_heart"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["1B724BDB17BEBEDB", "68E8DD7FE07DEBFF", "766C0EEDCD86E30B"]
+			id: "785748B88C47FE21"
+			rewards: [
+				{
+					id: "794A97E49C0B130E"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 4
+					id: "7F47589DA1938FCC"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "77B42F2A6D4D361A"
+					item: "iceandfire:fire_dragon_heart"
+					type: "item"
+				}
+				{
+					id: "3F3C4A08ACB3D2D8"
+					item: "iceandfire:ice_dragon_heart"
+					type: "item"
+				}
+				{
+					id: "580172AFAA9ADC1B"
+					item: "iceandfire:lightning_dragon_heart"
+					type: "item"
+				}
+			]
+			title: "&c&l[ ✦ 세 용의 심장 ]"
+			x: 7.0d
+			y: -2.25d
+			icon: "iceandfire:fire_dragon_heart"
+		}
+		{
+			dependencies: ["1B724BDB17BEBEDB"]
+			description: ["드래곤 용광로 핵으로 드래곤스틸을 만든다."]
+			id: "17BC3C182B06198E"
+			rewards: [
+				{
+					id: "27FFC25163474319"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 4
+					id: "71BCD515099C6474"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "70D3194E238ADC28"
+					item: "iceandfire:dragonforge_fire_core"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 용광로 ]"
+			x: 7.0d
+			y: -0.75d
+			icon: "iceandfire:dragonforge_fire_core"
+		}
+		{
+			dependencies: ["785748B88C47FE21", "17BC3C182B06198E"]
+			description: ["세 원소의 드래곤스틸. 심장·피와 함께 &e세계의 파편: 용&r의 재료."]
+			id: "7C96F0E5B5FE5227"
+			rewards: [
+				{
+					id: "36DE86E48853042C"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 4
+					id: "6F397C248C1E5D53"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "448EEBF896BD6833"
+					item: "iceandfire:dragonsteel_fire_ingot"
+					type: "item"
+				}
+				{
+					id: "15F3812437457AB1"
+					item: "iceandfire:dragonsteel_ice_ingot"
+					type: "item"
+				}
+				{
+					id: "73B8A41E45785343"
+					item: "iceandfire:dragonsteel_lightning_ingot"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 드래곤스틸 ]"
+			x: 8.75d
+			y: 0.0d
+			icon: "iceandfire:dragonsteel_fire_ingot"
+		}
+		{
+			dependencies: ["18D90D538B196671"]
+			id: "7BBDB1A04E2BB40F"
+			rewards: [
+				{
+					id: "1B8D468DDBD0F014"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 2
+					id: "5E3FD377F032D3F6"
+					item: "iceandfire:sapphire_gem"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "26BBB94AE9B95709"
+					item: "iceandfire:dragonbone_sword"
+					type: "item"
+				}
+				{
+					id: "513F02C6AA7DA053"
+					item: "iceandfire:dragonbone_bow"
+					type: "item"
+				}
+			]
+			title: "&f&l[ ✦ 드래곤 뼈 무기 ]"
+			x: 3.5d
+			y: 3.75d
+			icon: "iceandfire:dragonbone_sword"
+		}
+		{
+			dependencies: ["7E938F4F2BE57CC2"]
+			description: ["드래곤 비늘로 만든 갑옷. 그 드래곤의 숨결을 막는다."]
+			id: "6DD86A2858719EC8"
+			rewards: [
+				{
+					id: "4577039245744B97"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 2
+					id: "74204922BDA8A2AD"
+					item: "iceandfire:sapphire_gem"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "742589AD255E7492"
+					item: "iceandfire:armor_red_chestplate"
+					type: "item"
+				}
+			]
+			title: "&c&l[ ✦ 드래곤 비늘 갑옷 ]"
+			x: 5.25d
+			y: -1.5d
+			icon: "iceandfire:armor_red_chestplate"
+		}
+		{
+			dependencies: ["7E938F4F2BE57CC2"]
+			description: ["뿔피리로 드래곤을 담아 옮기고, 피리로 길들인 드래곤을 부른다."]
+			id: "2C55BB0DD5B178F5"
+			rewards: [
+				{
+					id: "741B851B561EF6EA"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 2
+					id: "71BFF7EA14DE22C0"
+					item: "iceandfire:sapphire_gem"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7619D4ABDA194881"
+					item: "iceandfire:dragon_horn"
+					type: "item"
+				}
+				{
+					id: "3EB3687AB9294401"
+					item: "iceandfire:dragon_flute"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 드래곤 뿔피리와 피리 ]"
+			x: 5.25d
+			y: 0.0d
+			icon: "iceandfire:dragon_horn"
+		}
+		{
+			dependencies: ["72E8C40FE6AFE649"]
+			description: ["아기 드래곤을 키우는 먹이."]
+			id: "29683CD9F76D8BFC"
+			rewards: [
+				{
+					id: "7C38416DC4B03AB7"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 4
+					id: "7C681213157E5567"
+					item: "iceandfire:silver_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "3F8EF5E721BD9CA3"
+					item: "iceandfire:dragon_meal"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 드래곤 먹이 ]"
+			x: 5.25d
+			y: 1.5d
+			icon: "iceandfire:dragon_meal"
+		}
+		{
+			dependencies: ["6EEC7E90C2D6CCFA"]
+			description: ["미르멕스 둥지에서 얻는 껍질."]
+			id: "732839A7D0CB1025"
+			rewards: [
+				{
+					id: "71D34D03460AC9CB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "7FD8AB398A0BB198"
+					item: "iceandfire:sapphire_gem"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "7293AF9C52F7686C"
+					item: "iceandfire:myrmex_desert_chitin"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 사막 미르멕스 껍질 ]"
+			x: 1.75d
+			y: -0.75d
+			icon: "iceandfire:myrmex_desert_chitin"
+		}
+		{
+			dependencies: ["732839A7D0CB1025"]
+			description: ["미르멕스 둥지 가장 깊은 곳의 여왕."]
+			id: "16340B742E468D7C"
+			rewards: [
+				{
+					id: "7D16D63A56159FAD"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 2
+					id: "72BBC7B7D01AA94A"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "iceandfire:myrmex_queen"
+					id: "21165348803ADC6F"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&6&l[ ⚔ 미르멕스 여왕 ]"
+			x: 3.5d
+			y: 5.25d
+			icon: "iceandfire:fire_dragon_heart"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["6EEC7E90C2D6CCFA"]
+			description: ["동굴·산의 트롤. 엄니와 가죽을 남긴다."]
+			id: "79318F9C3E95684B"
+			rewards: [
+				{
+					id: "7085D3662FB2A776"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 12
+					id: "7E28745DE63A6F63"
+					item: "minecraft:cooked_beef"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "iceandfire:troll"
+					id: "23C6508151D53DD6"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&2&l[ ⚔ 트롤 ]"
+			x: 1.75d
+			y: 0.75d
+			icon: "iceandfire:fire_dragon_heart"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["6EEC7E90C2D6CCFA"]
+			description: ["사막 아래를 헤엄치는 데스웜."]
+			id: "4E7A0CEFED2F5231"
+			rewards: [
+				{
+					id: "332350DBADC5B382"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 48
+					id: "7EEA063997955EC2"
+					item: "minecraft:arrow"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "iceandfire:deathworm"
+					id: "78148F167E0C2E39"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&e&l[ ⚔ 데스웜 ]"
+			x: 1.75d
+			y: 2.25d
+			icon: "iceandfire:fire_dragon_heart"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["72E8C40FE6AFE649"]
+			id: "752B76B61A6ADA24"
+			rewards: [
+				{
+					id: "1522CFC37C9D52BA"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 4
+					id: "72A0A789DAC28F0C"
+					item: "iceandfire:silver_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "7C7568D7E1768E5F"
+					item: "iceandfire:pixie_dust"
+					type: "item"
+				}
+			]
+			title: "&d&l[ ✦ 픽시가루 ]"
+			x: 5.25d
+			y: 3.0d
+			icon: "iceandfire:pixie_dust"
+		}
+		{
+			dependencies: ["6EEC7E90C2D6CCFA"]
+			description: ["늪의 스팀팔로스 새가 떨어뜨린다."]
+			id: "226C5B9B5EE2AE46"
+			rewards: [
+				{
+					id: "71567FBEBAE1B25B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "7A30132DB5C1F3C0"
+					item: "iceandfire:sapphire_gem"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "7A95CA30B40B404C"
+					item: "iceandfire:stymphalian_bird_feather"
+					type: "item"
+				}
+			]
+			title: "&7&l[ ✦ 스팀팔로스 청동새의 깃털 ]"
+			x: 1.75d
+			y: 3.75d
+			icon: "iceandfire:stymphalian_bird_feather"
+		}
+		{
+			dependencies: ["7FCE5230ED2126BA"]
+			description: ["세이렌의 노래를 막는다."]
+			id: "08A93BB596CC3646"
+			rewards: [
+				{
+					id: "4B7E591036BFA0C8"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 2
+					id: "29EBA95ABFE76D46"
+					item: "iceandfire:sapphire_gem"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "79197296DE641FF3"
+					item: "iceandfire:siren_flute"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 세이렌 피리 ]"
+			x: 5.25d
+			y: 4.5d
+			icon: "iceandfire:siren_flute"
+		}
+		{
+			dependencies: ["7FCE5230ED2126BA"]
+			description: ["바다뱀 비늘 갑옷."]
+			id: "706D9C7B90904231"
+			rewards: [
+				{
+					id: "4FE1D253C52F0986"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 8
+					id: "3C98FB15CCDDD508"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7A6C9887773B45D2"
+					item: "iceandfire:tide_blue_chestplate"
+					type: "item"
+				}
+			]
+			title: "&9&l[ ✦ 바다뱀 비늘 갑옷 ]"
+			x: 5.25d
+			y: 6.0d
+			icon: "iceandfire:tide_blue_chestplate"
+		}
+		{
+			dependencies: ["68E8DD7FE07DEBFF"]
+			description: ["얼음 미궁의 드레드 리치."]
+			id: "24327ACC74BA8811"
+			rewards: [
+				{
+					id: "4F0BD2DD1D99FF9D"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 8
+					id: "7EE6A2853BF5C71C"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "7FDFEF6B6ADD7418"
+					item: "moreup:boss_essence_low"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "iceandfire:dread_lich"
+					id: "0F258B11F2C6FA0B"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&5&l[ ⚔ 드레드 리치 ]"
+			x: 7.0d
+			y: 0.75d
+			icon: "iceandfire:fire_dragon_heart"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["1B724BDB17BEBEDB"]
+			description: ["드래곤을 공간째 소환하는 결정."]
+			id: "77391F9FB0D4AB24"
+			rewards: [
+				{
+					id: "6E0ABD5A397BC81F"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "79E995A8E1032118"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2FD55CA47BC1AA1C"
+					item: "iceandfire:summoning_crystal_fire"
+					type: "item"
+				}
+			]
+			title: "&c&l[ ✦ 파이어 드래곤 소환석 ]"
+			x: 7.0d
+			y: 2.25d
+			icon: "iceandfire:summoning_crystal_fire"
+		}
+	]
+	title: "&b&l✦ 얼음과 불"
+}

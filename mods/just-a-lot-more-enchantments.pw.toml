@@ -1,0 +1,13 @@
+name = "Just a lot more enchantments"
+filename = "jlme-1.20.1forge-ver1.7b-all.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "04c2a47529603ef6bfbfbd7861bdbb8a0549fffa"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8130194
+project-id = 865111

@@ -1,0 +1,258 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_5"
+	group: "5E3B475B0E7170C2"
+	icon: "moreup:keepers_crown"
+	id: "72F03A8C37D51973"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["708AC3A6F98ABA01"]
+			description: [
+				"&7\"모든 차원을 정복하고 파편을 되찾은 일곱은, 태양을 가려버린 마지막 그림자와 마주했다.\"&r"
+				""
+				"&f황혼의 숲 가장 높은 성. 그곳에 &5황혼의 군주&f가 있습니다."
+				"&f그것은 과거 용이 버리고자 했던 &8'정체'&f와 &8'어둠'&f이 응집된 최악의 흉물입니다."
+				""
+				"&c[퀘스트를 클릭하여 최후의 성전을 시작하십시오.]"
+			]
+			id: "33F7EA2AF2CF2EB6"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/function scene:act5_start"
+					exclude_from_claim_all: true
+					id: "06BA33500675E466"
+					team_reward: true
+					type: "command"
+					elevate_perms: true
+				}
+			]
+			tasks: [
+				{
+					id: "7BE698A7E8C563FF"
+					title: "&5&l[ ☾ 마지막 그림자와 마주하다 ]"
+					type: "checkmark"
+				}
+			]
+			title: "&5&l[ ★ 황혼의 끝 ]"
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			size: 1.5d
+		}
+		{
+			dependencies: ["33F7EA2AF2CF2EB6"]
+			description: [
+				"&7\"그것은 숨지 않는다. 다만 부르지 않으면 오지 않을 뿐.\"&r"
+				""
+				"&f불꽃 주괴 4, 상급 보스 정수 4, 네더의 별로 &d황혼의 인장&f을 만드십시오."
+				"&7황혼의 숲에서 인장을 쓰면 군주가 모습을 드러냅니다."
+			]
+			id: "79C1667C2E810945"
+			rewards: [
+				{
+					id: "74E29C0ABADCC550"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			tasks: [
+				{
+					id: "69F45DF513A5026E"
+					item: "moreup:dusk_sigil"
+					type: "item"
+				}
+			]
+			title: "&d&l[ ✦ 황혼의 인장 ]"
+			x: 1.75d
+			y: -0.75d
+			icon: "moreup:dusk_sigil"
+		}
+		{
+			dependencies: ["79C1667C2E810945"]
+			description: [
+				"&7「멈춰라. 더 오를 곳은 없다. 영원히 이 황혼 속에 머물러라.」&r"
+				""
+				"&f체력 100,000, 공격력 두 배. 일곱이 모아 온 모든 마법과 기계의 힘, 전설의 무기를 총동원하십시오."
+				"&c혼자서는 결코 쓰러뜨릴 수 없습니다. 동료와 함께 황혼의 숲을 찢어발기십시오."
+			]
+			id: "3FEB47C4CE1B5264"
+			rewards: [
+				{
+					id: "732F4EAE79C61109"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+				{
+					count: 2
+					id: "18524B69DD5FD3D4"
+					item: "moreup:boss_essence_legendary"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "twilight_forest_final_boss:castle_keeper"
+					id: "71AE90350D79805D"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&5&l[ ⚔ 영원한 황혼의 군주, 모어 ]"
+			x: 3.5d
+			y: 0.0d
+			icon: "moreup:keepers_crown"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["3FEB47C4CE1B5264"]
+			description: ["&7\"군주가 쓰러지는 순간, 그 안에 갇혀 있던 태초의 빛이 폭발하듯 쏟아져 나왔다.\"&r", "", "&f부서진 왕관에는 아직 그 빛의 온기가 남아 있습니다."]
+			id: "314478D9DD3A1534"
+			rewards: [
+				{
+					id: "29096A3DAECA6C48"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			tasks: [
+				{
+					id: "7B29024A597D030A"
+					item: "moreup:keepers_crown"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 성주의 왕관 ]"
+			x: 5.25d
+			y: 0.0d
+			icon: "moreup:keepers_crown"
+		}
+		{
+			dependencies: ["33F7EA2AF2CF2EB6"]
+			description: [
+				"&7\"빛은 일곱을 하나로 녹이지 않는다. 일곱 각자가 온전한 하나의 별이 되어 떠오른다.\"&r"
+				""
+				"&f일곱 별의 궤적이 될 일곱 가지 보물을 모으십시오."
+				"&7겉날개, 네더의 별, 불사의 토템, 바다의 심장, 마법이 부여된 황금 사과, 전설 보스 정수, 신호기"
+			]
+			id: "4F6009C10ACFB639"
+			rewards: [
+				{
+					id: "5F1532421B171666"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+			]
+			tasks: [
+				{
+					id: "65EC566ADEFCB760"
+					item: "minecraft:elytra"
+					type: "item"
+				}
+				{
+					id: "7D0107D80614DFAB"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					id: "71C9986E68EBF9EC"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					id: "7A31BCB91164F483"
+					item: "minecraft:heart_of_the_sea"
+					type: "item"
+				}
+				{
+					id: "46D3A03CD4C37D9D"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "72FA7612F667B320"
+					item: "moreup:boss_essence_legendary"
+					type: "item"
+				}
+				{
+					id: "5BC7BA5513690198"
+					item: "minecraft:beacon"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 일곱 개의 궤적 ]"
+			x: 1.75d
+			y: 0.75d
+			icon: "minecraft:elytra"
+		}
+		{
+			dependencies: ["314478D9DD3A1534", "4F6009C10ACFB639"]
+			description: [
+				"&7\"일곱 개의 궤적이 하늘에서 얽히며, 태초의 용보다 훨씬 찬란하고 거대한 새로운 빛의 성룡을 그려냈다.\"&r"
+				""
+				"&f세계와 왕관, 일곱 보물을 하나로 엮어 &6모어 업&f을 완성하십시오."
+				"&f과거로의 회귀가 아닙니다. 땀방울과 톱니바퀴, 피와 마법으로 벼려진 새로운 별자리의 탄생입니다."
+				"&e(이 아이템을 얻으면 팩 클리어)"
+			]
+			id: "61C5F1CCB42D1C3C"
+			rewards: [
+				{
+					id: "7ABC014ED027B597"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+				{
+					auto: "enabled"
+					command: "/function scene:act5_end"
+					exclude_from_claim_all: true
+					id: "78A2D1F6D6B250A4"
+					team_reward: true
+					type: "command"
+					elevate_perms: true
+				}
+				{
+					id: "671FD9E6378ED3E4"
+					item: {
+						Count: 1
+						id: "minecraft:writable_book"
+						tag: {
+							author: "새로운 성룡"
+							display: {
+								Lore: ["{\"text\":\"일곱 개의 별이 남긴 마지막 장입니다.\",\"color\":\"gray\",\"italic\":false}"]
+								Name: "{\"text\":\"별의 기록서 II\",\"color\":\"gold\",\"bold\":true}"
+							}
+							pages: [
+								"제 5막 : 황혼의 끝, 빛의 포효\n\n모든 차원을 정복하고 파편을 되찾은 7명은, 세상의 모든 빛을 집어삼키고 태양을 가려버린 마지막 그림자, 황혼의 군주와 마주했습니다."
+								"그것은 과거 용이 버리고자 했던 '정체'와 '어둠'이 응집된 최악의 흉물. 7명은 그동안 모아온 모든 마법, 기계의 힘, 그리고 전설의 무기들을 총동원하여 황혼의 숲을 찢어발기는 최후의 성전을 벌였습니다."
+								"기나긴 사투 끝에 황혼의 군주가 쓰러지는 순간, 그 안에 갇혀 있던 태초의 웅장한 빛이 폭발하듯 쏟아져 나왔습니다.\n\n그 빛은 7명을 하나로 융합시키지 않았습니다."
+								"대신, 7명 각자가 온전한 하나의 별이 되어 밤하늘로 떠올랐습니다. 7개의 궤적이 하늘에서 얽히며, 태초의 용보다 훨씬 찬란하고 거대한 '새로운 빛의 성룡(별자리)'을 형상화했습니다."
+								"과거로의 단순한 회귀가 아닙니다. 수많은 필멸의 시련을 겪고 땀방울과 톱니바퀴, 피와 마법으로 벼려진 이 새로운 용은 과거보다 훨씬 완벽한 존재가 되었습니다."
+								"그렇게 우주는 정체를 끝내고 다시 팽창하기 시작합니다.\n\n이것이 바로, 끝이 아닌 새로운 창세의 시작.\n\n[ More Up: Remaster 0 ]\n\n\n- 새로운 성룡"
+							]
+							title: "별의 기록서 II"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "472334E32477476B"
+					item: "moreup:more_up"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ★ MORE UP : Remaster 0 ]"
+			x: 7.0d
+			y: 0.0d
+			icon: "moreup:more_up"
+			shape: "gear"
+			size: 1.5d
+		}
+	]
+	title: "&6&l제5장 ☾ 황혼의 끝, 빛의 포효"
+}

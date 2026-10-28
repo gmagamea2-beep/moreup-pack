@@ -1,0 +1,17 @@
+{
+  "text.autoconfig.no_fog.title": "No Fog 설정",
+  "text.no_fog.config.category.global": "전역 설정",
+  "text.no_fog.config.category.dimensions": "차원 유형 설정",
+  "text.no_fog.config.category.biomes": "생물 군계 설정",
+  "text.no_fog.config.default.enabled": "기본값: 켜짐",
+  "text.no_fog.config.default.disabled": "기본값: 꺼짐",
+  "text.no_fog.config.sky_fog": "하늘 안개 활성화",
+  "text.no_fog.config.terrain_fog": "지형 안개 활성화",
+  "text.no_fog.config.thick_fog": "짙은 안개 활성화",
+  "text.no_fog.config.thick_fog.tooltip": "(예: 보스 안개, 네더 안개)",
+  "text.no_fog.config.water_fog": "물 안개 활성화",
+  "text.no_fog.config.lava_fog": "용암 안개 활성화",
+  "text.no_fog.config.powder_snow_fog": "가루눈 안개 활성화",
+  "text.no_fog.config.blindness_fog": "실명 안개 활성화",
+  "text.no_fog.config.darkness_fog": "어둠 안개 활성화"
+}

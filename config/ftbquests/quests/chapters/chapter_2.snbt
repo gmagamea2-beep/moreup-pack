@@ -1,0 +1,378 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_2"
+	group: "5E3B475B0E7170C2"
+	icon: "ebwizardry:charm_black_hole"
+	id: "6E3481EA3D0B5906"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7BC6B98C5E762354"]
+			description: [
+				"&7\"심연의 파수꾼이 무너진 자리, 첫 번째 파편이 진동하기 시작했다.\"&r"
+				""
+				"&f당신은 차가운 바다 밑바닥에서 잃어버린 고대의 권능을 아주 찰나의 순간 엿보았습니다."
+				"하지만 앞으로 마주할 재앙들을 상대하기에 필멸자의 피와 살은 너무나도 연약합니다."
+				""
+				"&b이제 나약한 육신에 얽매인 굴레를 끊어내고, 차가운 금속과 맹렬한 화염으로"
+				"당신의 새로운 심장을 직접 벼려낼 때입니다."
+				"강철의 뼈대와 톱니바퀴의 맥박만이 당신을 다시 신의 자리로 이끌어 줄 것입니다."
+				""
+				"&7먼저 잊혀진 지하 미궁을 찾아 끝없는 심연으로 발을 내디디십시오."
+				"그곳에 잠든 고대의 전리품과 당신이 뿜어낼 용광로의 매연이 섞이는 순간,"
+				"핏빛 성채에서 기다리는 '파괴의 화신'을 찢어발길 힘이 완성될 것입니다."
+				""
+				"&c[퀘스트를 클릭하여 강철의 심장을 깨우십시오.]"
+			]
+			icon: "ebwizardry:charm_black_hole"
+			id: "506A6FA0CF4F16F3"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/function scene:act2_start"
+					icon: "ebwizardry:charm_black_hole"
+					id: "5618DB3920A6FCA3"
+					team_reward: true
+					title: "&l 제2장"
+					type: "command"
+					elevate_perms: true
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "0D90C1E59C6AC598"
+					title: "&5&l[ 🌀 공허의 도약 ]"
+					type: "checkmark"
+				}
+			]
+			title: "&5&l[ 🌀 공허의 도약 ]"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["506A6FA0CF4F16F3"]
+			description: ["&7\"위더를 상대하기엔 아직 당신의 무구가 부족합니다. 지상을 탐험하여 솟아오른 고대 유적, '지하 미궁(Dungeon Crawl)'의 입구를 찾아내십시오.\""]
+			icon: "quark:cobblestone_bricks"
+			id: "4CD91D9D46BF240C"
+			rewards: [
+				{
+					id: "45D573CDC94E2DB7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"ebwizardry:imbuement_enchant": { }
+						}
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: "quark:cobblestone_bricks"
+					id: "1ACC26A52B9D853F"
+					structure: "dungeoncrawl:dungeon"
+					title: "&7&l[ 🏰 잊혀진 지하 미궁 ]"
+					type: "structure"
+				}
+			]
+			title: "&7&l[ 🏰 잊혀진 지하 미궁 ]"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4CD91D9D46BF240C"]
+			description: ["&7\"나선형 계단을 따라 끝없이 내려가며 몬스터 스포너를 파괴하십시오. 미궁 곳곳에 숨겨진 상자에서 고대의 마법이 부여된 무구와 귀중한 전리품을 파밍해야 합니다.\""]
+			icon: "minecraft:zombie_spawn_egg"
+			id: "433EAFACC3117790"
+			rewards: [
+				{
+					id: "4D0807D2FE5264C5"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "2689FA1492440338"
+					item: "enchantinginfuser:enchanting_infuser"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_spawn_egg"
+					id: "6F242A04ACC0A4D6"
+					title: "&6&l[ ⚔ 끝없는 투쟁과 전리품 ]"
+					type: "kill"
+					value: 100L
+				}
+			]
+			title: "&6&l[ ⚔ 끝없는 투쟁과 전리품 ]"
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["433EAFACC3117790"]
+			description: ["&7\"미궁에서 파밍한 강력한 전리품들과 당신이 벼려낸 강철을 결합하여 최고 수준의 장비로 정비하십시오. 생존을 위한 모든 준비를 끝마쳐야 합니다.\""]
+			icon: "minecraft:diamond"
+			id: "28C275A029CBD4D4"
+			rewards: [
+				{
+					id: "1D7EE5642714F729"
+					item: "minecraft:netherite_upgrade_smithing_template"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0A23A3E569DAE04C"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6D53A771A9602E4B"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1DC78384872A41DA"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "619FDFFFD57C41B3"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&f&l[ 🛠 강철과 마법의 결합 ]"
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["506A6FA0CF4F16F3"]
+			description: ["&7\"보랏빛 일렁임 속으로 몸을 던지십시오. 낮과 밤이 바뀌지 않는 거대한 숲, 기괴한 마법 생물들이 잠든 '황혼의 숲'이 챕터 2의 진정한 끝이자 새로운 시작점입니다.\""]
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			id: "2DD015E09CDA7F92"
+			rewards: [
+				{
+					id: "48118030D729ABDA"
+					item: "twilightforest:magic_map"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					dimension: "twilightforest:twilight_forest"
+					icon: "twilightforest:twilight_portal_miniature_structure"
+					id: "704EC60C0A7E5663"
+					title: "&5&l[ 🌲 황혼의 장막 속으로 ]"
+					type: "dimension"
+				}
+			]
+			title: "&5&l[ 🌲 황혼의 장막 속으로 ]"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["28C275A029CBD4D4"]
+			description: ["&7\"죽음의 군주가 내뿜는 저주를 정화할 우유 양동이와, 찢겨나간 육신을 재생시킬 황금 사과를 넉넉히 비축하십시오.\""]
+			icon: "minecraft:golden_apple"
+			id: "643842A447EEA37D"
+			rewards: [
+				{
+					count: 2
+					id: "5C83B3C287C3A62D"
+					item: "bhc:relic_apple"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "371A2E3502889A4D"
+					item: {
+						Count: 2
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "63E67E9E95E66713"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
+			title: "&e&l[ 🍎 황금빛 생명력 ]"
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["643842A447EEA37D"]
+			description: ["&7\"영혼 모래를 T자로 쌓고, 그 위에 제물을 올리십시오. 죽음의 군주가 당신의 눈앞에 강림할 것입니다.\""]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "2C1926EAE38A1CAA"
+			rewards: [
+				{
+					count: 2
+					id: "2395B5697B877393"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "477DE09AA4370175"
+					item: "minecraft:soul_sand"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					entity: "minecraft:wither_skeleton"
+					icon: "minecraft:wither_skeleton_skull"
+					id: "57B745C764BBAC86"
+					title: "&4&l[ 🏰 핏빛 성채의 부름 ]"
+					type: "kill"
+					value: 30L
+				}
+			]
+			title: "&5&l[ 💀 세 개의 제물 ]"
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2C1926EAE38A1CAA"]
+			description: ["&7\"모든 생명을 앗아가는 재앙을 미궁에서 얻은 힘과 강철로 박살 내십시오!\""]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			icon: "minecraft:wither_skeleton_spawn_egg"
+			id: "26DB3ED90FB08800"
+			rewards: [
+				{
+					id: "65B4C120B568526F"
+					item: "enigmaticlegacy:twisted_heart"
+					type: "item"
+				}
+				{
+					count: 1
+					id: "71D759CE88C55BA6"
+					item: "moreup:boss_essence_high"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					entity: "minecraft:wither"
+					icon: "minecraft:wither_skeleton_spawn_egg"
+					id: "09FED8DEF755E132"
+					title: "&0&l[ ☠ 파괴의 화신, 위더 처치 ]"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&0&l[ ☠ 파괴의 화신, 위더 처치 ]"
+			x: 10.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["26DB3ED90FB08800"]
+			description: ["&7\"위더의 잔해 속에서 영롱하게 빛나는 '네더의 별'을 거머쥐었습니다. 당신의 기계 문명에 무한한 에너지를 불어넣을 새로운 '심장'입니다.\""]
+			icon: "minecraft:nether_star"
+			id: "2FFDDBA791341B1F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "66DFD22EFD61A0A5"
+					table_id: 6077962952800572003L
+					type: "random"
+				}
+				{
+					id: "30171749EF40A9E8"
+					item: {
+						Count: 1
+						id: "mowziesmobs:wrought_helmet"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 30
+									AttributeName: "generic.armor"
+									Name: "armor"
+									Operation: 0
+									Slot: "head"
+									UUID: [I; 4, 4, 4, 1]
+								}
+								{
+									Amount: 20
+									AttributeName: "generic.armor_toughness"
+									Name: "toughness"
+									Operation: 0
+									Slot: "head"
+									UUID: [I; 4, 4, 4, 2]
+								}
+								{
+									Amount: 1.0d
+									AttributeName: "generic.knockback_resistance"
+									Name: "kb_res"
+									Operation: 0
+									Slot: "head"
+									UUID: [I; 4, 4, 4, 3]
+								}
+							]
+							Unbreakable: 1b
+							display: {
+								Name: "{\"text\":\"기사의 각오\",\"color\":\"gold\",\"bold\":true}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "76CCD93E512D4C3E"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+			]
+			title: "&e&l[ 🌟 진정한 강철의 심장 ]"
+			x: 0.0d
+			y: -6.5d
+		}
+	]
+	title: "&6&l제2장 ✦ 공허의 도약"
+}

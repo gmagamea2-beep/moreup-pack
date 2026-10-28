@@ -1,0 +1,20 @@
+{
+  "block.dtquark.blossom_branch": "트럼펫 나무",
+  "block.dtquark.azalea_branch": "진달래 나무",
+  "block.dtquark.glow_shroom_branch": "발광 버섯",
+  "block.dtquark.ancient_branch": "잿빛 나무",
+  "species.dtquark.fiery_blossom": "불꽃",
+  "species.dtquark.frosty_blossom": "서리",
+  "species.dtquark.serene_blossom": "고요",
+  "species.dtquark.sunny_blossom": "햇살",
+  "species.dtquark.warm_blossom": "온기",
+  "species.dtquark.glow_shroom": "발광 버섯",
+  "species.dtquark.ancient": "잿빛",
+  "item.dtquark.fiery_blossom_seed": "불꽃 트럼펫 씨",
+  "item.dtquark.frosty_blossom_seed": "서리 트럼펫 씨",
+  "item.dtquark.serene_blossom_seed": "고요 트럼펫 씨",
+  "item.dtquark.sunny_blossom_seed": "햇살 트럼펫 씨",
+  "item.dtquark.warm_blossom_seed": "온기 트럼펫 씨",
+  "item.dtquark.glow_shroom_seed": "발광 버섯 갓",
+  "item.dtquark.ancient_seed": "잿빛 씨앗"
+}

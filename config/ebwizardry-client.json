@@ -1,0 +1,7 @@
+{
+  "spell_hud_flip_x": false,
+  "spell_hud_flip_y": false,
+  "spell_hud_dynamic_positioning": false,
+  "show_charge_meter": true,
+  "show_spell_hud": true
+}

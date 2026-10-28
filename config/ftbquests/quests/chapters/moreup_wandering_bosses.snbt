@@ -1,0 +1,1061 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "moreup_wandering_bosses"
+	group: "7E05AA7C371599AC"
+	icon: "mowziesmobs:sol_visage"
+	id: "73198BA35346062A"
+	order_index: 18
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Meet Your Fight의 첫 보스."]
+			id: "76F18A3CB9A266C8"
+			rewards: [
+				{
+					id: "73527CBFB16EB71F"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 6
+					id: "703D2E9FFF39A124"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "524693D7D1C42D34"
+					item: "moreup:boss_essence_low"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "meetyourfight:swampjaw"
+					id: "700D8218A314AA32"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&2&l[ ⚔ 늪지기 ]"
+			x: 0.0d
+			y: -5.25d
+			icon: "meetyourfight:swampjaw_head"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["76F18A3CB9A266C8"]
+			id: "7C688A48DA8E2891"
+			rewards: [
+				{
+					id: "2760F052A383038B"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "4E4F408B699800A0"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "794F262E129B27EB"
+					item: "moreup:boss_essence_low"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "meetyourfight:bellringer"
+					id: "7C422607993D7568"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&7&l[ ⚔ 종지기 ]"
+			x: 1.75d
+			y: -9.0d
+			icon: "meetyourfight:bellringer_head"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["7C688A48DA8E2891"]
+			id: "71E6400F832C6FB7"
+			rewards: [
+				{
+					id: "57817F0C50F53563"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 8
+					id: "702014A18A5F7007"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "77064B952D40E3FA"
+					item: "moreup:boss_essence_mid"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "meetyourfight:dame_fortuna"
+					id: "77D4A374C92CD8FF"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&d&l[ ⚔ 담 포르투나 ]"
+			x: 3.5d
+			y: -3.75d
+			icon: "meetyourfight:dame_fortuna_head"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["71E6400F832C6FB7"]
+			id: "654476C5027E8585"
+			rewards: [
+				{
+					id: "704E1230D40BFE99"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "68F059FEDD042F77"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "111BBE00A23D8E09"
+					item: "moreup:boss_essence_high"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "meetyourfight:rosalyne"
+					id: "764D1B3FDED03A61"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&c&l[ ⚔ 로잘린 ]"
+			x: 5.25d
+			y: -0.75d
+			icon: "meetyourfight:rosalyne_head"
+			shape: "hexagon"
+		}
+		{
+			description: ["Mowzie's Mobs. 지하의 강철 기사."]
+			id: "7E931A01AE520416"
+			rewards: [
+				{
+					id: "59E87DB3E6B30010"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "72A25CBB28728E89"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "420B1DE374704755"
+					item: "moreup:boss_essence_low"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "mowziesmobs:ferrous_wroughtnaut"
+					id: "6266F7FA9D52048D"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&7&l[ ⚔ 철갑 거인 ]"
+			x: 0.0d
+			y: -3.75d
+			icon: "mowziesmobs:wrought_helmet"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["7E931A01AE520416"]
+			description: ["사바나 부족의 태양 가면."]
+			id: "0E61D87C7BE2F9FB"
+			rewards: [
+				{
+					id: "2CF996FBE05EC139"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 8
+					id: "7A03A088BA1FD440"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "52A06BCA8D846D14"
+					item: "moreup:boss_essence_low"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "mowziesmobs:umvuthi"
+					id: "75D99811AB36912F"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&6&l[ ⚔ 움부티 ]"
+			x: 1.75d
+			y: -7.5d
+			icon: "mowziesmobs:sol_visage"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["7E931A01AE520416"]
+			id: "70F94610DC73DC5A"
+			rewards: [
+				{
+					id: "652EAFDEAAC774F5"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 2
+					id: "7AE514C2ACE045B6"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7FBEC228A8E4F274"
+					item: "moreup:boss_essence_mid"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "mowziesmobs:frostmaw"
+					id: "7CA8064873CE7D13"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&b&l[ ⚔ 프로스트모 ]"
+			x: 1.75d
+			y: -6.0d
+			icon: "mowziesmobs:ice_crystal"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["7E931A01AE520416"]
+			id: "48C6BF4549229062"
+			rewards: [
+				{
+					id: "7A615BB9C515EF7D"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 2
+					id: "0741512B08D6A6B2"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					count: 1
+					id: "7AEACA71512898FF"
+					item: "moreup:boss_essence_mid"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "mowziesmobs:sculptor"
+					id: "7303E55EE5E0559C"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&e&l[ ⚔ 조각가 ]"
+			x: 1.75d
+			y: -4.5d
+			icon: "mowziesmobs:sculptor_staff"
+			shape: "hexagon"
+		}
+		{
+			description: ["Bosses of Mass Destruction. 고대 아니마를 남긴다."]
+			id: "7A0366D3D342F1E0"
+			rewards: [
+				{
+					id: "740515FA73929D74"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 8
+					id: "1787AEDFB8CDF2CB"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "79DDF23ECECFB7FA"
+					item: "moreup:boss_essence_mid"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "bosses_of_mass_destruction:lich"
+					id: "760DED3C47ACD428"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&b&l[ ⚔ 나이트 리치 ]"
+			x: 0.0d
+			y: -2.25d
+			icon: "bosses_of_mass_destruction:ancient_anima"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["7A0366D3D342F1E0"]
+			description: ["타오르는 눈을 남긴다."]
+			id: "75096942B5DC249D"
+			rewards: [
+				{
+					id: "7F6884574CFC6B33"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "20D37936B5DB6555"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					count: 1
+					id: "7BA5CB34815F615B"
+					item: "moreup:boss_essence_high"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "bosses_of_mass_destruction:gauntlet"
+					id: "7CE8521C51882764"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&c&l[ ⚔ 네더 건틀릿 ]"
+			x: 1.75d
+			y: -3.0d
+			icon: "bosses_of_mass_destruction:blazing_eye"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["7A0366D3D342F1E0"]
+			description: ["공허 가시를 남긴다."]
+			id: "40C730CF017859B2"
+			rewards: [
+				{
+					id: "4E25939B3804E9A4"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 3
+					id: "55542990951DEB8E"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					count: 1
+					id: "7C6A39B72A5C46B6"
+					item: "moreup:boss_essence_high"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "bosses_of_mass_destruction:void_blossom"
+					id: "02884592509A40AC"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&a&l[ ⚔ 보이드 블로섬 ]"
+			x: 1.75d
+			y: -1.5d
+			icon: "bosses_of_mass_destruction:void_thorn"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["75096942B5DC249D", "40C730CF017859B2"]
+			description: ["엔드의 흑요석 거신. 흑요석 심장을 남긴다."]
+			id: "75CBBDB80FB57C32"
+			rewards: [
+				{
+					id: "7AF3BC74E9393449"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "781487AE73CFC4CC"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "71B3F1E821F3E5C7"
+					item: "moreup:boss_essence_high"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "bosses_of_mass_destruction:obsidilith"
+					id: "47E52016125D61AA"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&5&l[ ⚔ 옵시딜리스 ]"
+			x: 3.5d
+			y: -2.25d
+			icon: "bosses_of_mass_destruction:obsidian_heart"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["75CBBDB80FB57C32"]
+			description: ["&e세계의 파편: 종말&r의 핵심 재료."]
+			id: "771FC30F06D20547"
+			rewards: [
+				{
+					id: "74CC0904E2EB6478"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 16
+					id: "77CE905789682618"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7B28A868BB9AC65C"
+					item: "bosses_of_mass_destruction:obsidian_heart"
+					type: "item"
+				}
+				{
+					id: "77BAA1F30F9910C6"
+					item: "bosses_of_mass_destruction:void_thorn"
+					type: "item"
+				}
+				{
+					id: "70518A9E94DAD167"
+					item: "bosses_of_mass_destruction:blazing_eye"
+					type: "item"
+				}
+				{
+					id: "3C216EE1A75B1EDF"
+					item: "bosses_of_mass_destruction:ancient_anima"
+					type: "item"
+				}
+			]
+			title: "&5&l[ ✦ 종말의 증표 ]"
+			x: 5.25d
+			y: 0.75d
+			icon: "bosses_of_mass_destruction:obsidian_heart"
+		}
+		{
+			description: ["Aquamirae. 얼어붙은 바다의 유령선."]
+			id: "5276E51A24816589"
+			rewards: [
+				{
+					id: "760120FA4C0AB824"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 3
+					id: "62EAE757B057F956"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					count: 1
+					id: "1351ED3DCFEC528D"
+					item: "moreup:boss_essence_high"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "aquamirae:captain_cornelia"
+					id: "0AA7BF2B5EF33669"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&3&l[ ⚔ 코넬리아 선장 ]"
+			x: 0.0d
+			y: -0.75d
+			icon: "aquamirae:captain_cornelia_spawn_egg"
+			shape: "hexagon"
+		}
+		{
+			description: ["Illager Invasion."]
+			id: "2D2B2087FA66E3A5"
+			rewards: [
+				{
+					id: "763DAA52ACD967FB"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 8
+					id: "740BA70FCCC2206D"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7070D1D5E9DF9234"
+					item: "moreup:boss_essence_low"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "illagerinvasion:invoker"
+					id: "64B7CD9E24CDC69F"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&5&l[ ⚔ 인보커 ]"
+			x: 0.0d
+			y: 0.75d
+			icon: "illagerinvasion:invoker_spawn_egg"
+			shape: "hexagon"
+		}
+		{
+			description: ["Bosses' Rise."]
+			id: "712AE719274A40F1"
+			rewards: [
+				{
+					id: "302DC5F1F877F963"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "7BBEB9BA7C359F5E"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					count: 1
+					id: "703030CDAD7155D1"
+					item: "moreup:boss_essence_high"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "block_factorys_bosses:kraken"
+					id: "3A0AF1A67A9ED982"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&3&l[ ⚔ 크라켄 ]"
+			x: 0.0d
+			y: 2.25d
+			icon: "block_factorys_bosses:kraken_spawn_egg"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["712AE719274A40F1"]
+			id: "3B42F875BE7A0D27"
+			rewards: [
+				{
+					id: "763C9E95333C2B11"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "62E926B38EE8B80D"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					count: 1
+					id: "76A403F115F72411"
+					item: "moreup:boss_essence_high"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "block_factorys_bosses:infernal_dragon"
+					id: "76FEE66E03CD4F97"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&c&l[ ⚔ 지옥불 드래곤 ]"
+			x: 1.75d
+			y: 0.0d
+			icon: "block_factorys_bosses:infernal_dragon_spawn_egg"
+			shape: "hexagon"
+		}
+		{
+			description: ["고대 도시의 감시자."]
+			id: "1E5DB55B6F728400"
+			rewards: [
+				{
+					id: "7544CEAAC18E7CF6"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 3
+					id: "29F4FA2B893D3416"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					count: 1
+					id: "65016FD3EBC2363F"
+					item: "moreup:boss_essence_high"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:warden"
+					id: "27D3D042DDCDAA85"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&3&l[ ⚔ 워든 ]"
+			x: 0.0d
+			y: 3.75d
+			icon: "minecraft:echo_shard"
+			shape: "hexagon"
+		}
+		{
+			id: "7CBDB64F12C5BE40"
+			rewards: [
+				{
+					id: "28F00F264E74D4B7"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					count: 3
+					id: "2FB84C80841AFB17"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					count: 1
+					id: "163D62A04B7377D6"
+					item: "moreup:boss_essence_high"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:ender_dragon"
+					id: "68B091FDF9D660F1"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&5&l[ ⚔ 엔더 드래곤 ]"
+			x: 0.0d
+			y: 5.25d
+			icon: "minecraft:dragon_head"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["76F18A3CB9A266C8"]
+			description: ["네더 요새의 와일드파이어 (Friends & Foes)."]
+			id: "75B3548BCCE05A00"
+			rewards: [
+				{
+					id: "7120D95462F70906"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 12
+					id: "52E6689431007490"
+					item: "minecraft:cooked_beef"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "195F15B3FB6984EA"
+					item: "moreup:boss_essence_low"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "friendsandfoes:wildfire"
+					id: "70651C5D8F383819"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&6&l[ ⚔ 와일드파이어 ]"
+			x: 1.75d
+			y: 1.5d
+			icon: "friendsandfoes:wildfire_spawn_egg"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["712AE719274A40F1"]
+			description: ["사막 아래의 모래벌레 (Block Factory's Bosses)."]
+			id: "71842DDD13B7B281"
+			rewards: [
+				{
+					id: "45882F5EB174C421"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 2
+					id: "6C550CC9DB36B16E"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					count: 1
+					id: "75FCF49CAD28B163"
+					item: "moreup:boss_essence_mid"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "block_factorys_bosses:sandworm"
+					id: "752B71864832D5E3"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&e&l[ ⚔ 모래벌레 시로크 ]"
+			x: 1.75d
+			y: 3.0d
+			icon: "block_factorys_bosses:sandworm_spawn_egg"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["712AE719274A40F1"]
+			id: "7572C3B39D0B4266"
+			rewards: [
+				{
+					id: "738B468859DF46B0"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 8
+					id: "06325CEBA1D0F22B"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					count: 1
+					id: "7BAAAFDCF3A47B89"
+					item: "moreup:boss_essence_mid"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "block_factorys_bosses:yeti"
+					id: "771F9062F3FD15E5"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&f&l[ ⚔ 예티 스코르 ]"
+			x: 1.75d
+			y: 4.5d
+			icon: "block_factorys_bosses:yeti_spawn_egg"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["3B42F875BE7A0D27"]
+			id: "7A8F7EB04B050AF1"
+			rewards: [
+				{
+					id: "793D0AA5E7481933"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 2
+					id: "71842FBCCD58CF21"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					count: 1
+					id: "7773B4448F6E27BA"
+					item: "moreup:boss_essence_high"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "block_factorys_bosses:underworld_knight"
+					id: "77FA4CAACA030F0E"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&c&l[ ⚔ 지하 세계의 기사 헬바르 ]"
+			x: 3.5d
+			y: -0.75d
+			icon: "block_factorys_bosses:underworld_knight_spawn_egg"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["2D2B2087FA66E3A5"]
+			description: ["Stalwart Dungeons 의 보스."]
+			id: "0EB7F4BBDBF61C25"
+			rewards: [
+				{
+					id: "715BB6EB984273AD"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 8
+					id: "0DB941A30833D476"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7F12261C78924799"
+					item: "moreup:boss_essence_mid"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "stalwart_dungeons:awful_ghast"
+					id: "7AEE815BF07370E0"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&7&l[ ⚔ 끔찍한 가스트 ]"
+			x: 1.75d
+			y: 6.0d
+			icon: "stalwart_dungeons:awful_ghast_spawn_egg"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["0EB7F4BBDBF61C25"]
+			id: "13DCA5A99983FA9C"
+			rewards: [
+				{
+					id: "7E45FE58C7124803"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 8
+					id: "7381D66356EE78DF"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					count: 1
+					id: "51F167118C9BEE1E"
+					item: "moreup:boss_essence_high"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "stalwart_dungeons:nether_keeper"
+					id: "704234697E0A48A9"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&c&l[ ⚔ 네더 수호자 ]"
+			x: 3.5d
+			y: 0.75d
+			icon: "stalwart_dungeons:nether_keeper_spawn_egg"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["0EB7F4BBDBF61C25"]
+			id: "7D32C248003537D1"
+			rewards: [
+				{
+					id: "1D0ADC3EAAD75DAE"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 2
+					id: "756A1A2A76D4BB85"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					count: 1
+					id: "672240049142DCE5"
+					item: "moreup:boss_essence_high"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "stalwart_dungeons:shelterer"
+					id: "3F57A08835639646"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&8&l[ ⚔ 보호자 ]"
+			x: 3.5d
+			y: 2.25d
+			icon: "stalwart_dungeons:shelterer_spawn_egg"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["2D2B2087FA66E3A5"]
+			description: ["소환사를 쓰러뜨리고 얻는 재료와 주입대."]
+			id: "737BBD13E569256F"
+			rewards: [
+				{
+					id: "703CA0D1DF0F9A2C"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 8
+					id: "78F54AB5B9DD35B2"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4FCCFD376F79FE71"
+					item: "illagerinvasion:hallowed_gem"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5E7B621DB9D716B4"
+					item: "illagerinvasion:platinum_chunk"
+					type: "item"
+				}
+				{
+					id: "735693927DD05900"
+					item: "illagerinvasion:imbuing_table"
+					type: "item"
+				}
+			]
+			title: "&5&l[ ✦ 일리저의 보물 ]"
+			x: 1.75d
+			y: 7.5d
+			icon: "illagerinvasion:hallowed_gem"
+		}
+		{
+			dependencies: ["7CBDB64F12C5BE40"]
+			description: ["엔더 드래곤이 남기는 비늘 (Dragon Loot)."]
+			id: "361C4F96321D30E9"
+			rewards: [
+				{
+					id: "767CDA663F6795CC"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 8
+					id: "5B363E64BED43EC2"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "3175FEDF3E95826F"
+					item: "dragonloot:dragon_scale"
+					type: "item"
+				}
+			]
+			title: "&5&l[ ✦ 드래곤 비늘 ]"
+			x: 1.75d
+			y: 9.0d
+			icon: "dragonloot:dragon_scale"
+		}
+		{
+			dependencies: ["361C4F96321D30E9"]
+			id: "7A252BF718BFE0AA"
+			rewards: [
+				{
+					id: "781C003172E04D2B"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 8
+					id: "7B7652D214743930"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "78455293522A8BA7"
+					item: "dragonloot:dragon_chestplate"
+					type: "item"
+				}
+				{
+					id: "7413C4F034D96875"
+					item: "dragonloot:dragon_sword"
+					type: "item"
+				}
+			]
+			title: "&5&l[ ✦ 드래곤 비늘 장비 ]"
+			x: 3.5d
+			y: 3.75d
+			icon: "dragonloot:dragon_chestplate"
+		}
+	]
+	title: "&b&l✦ 떠돌이 보스들"
+}

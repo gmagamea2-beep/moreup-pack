@@ -1,0 +1,497 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "moreup_mekanism_extras"
+	group: "7E05AA7C371599AC"
+	icon: "mekanism_extras:infinite_control_circuit"
+	id: "1302F8120F66DEE7"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7538DFEA5895205B"]
+			description: ["메카니즘 엑스트라의 새 금속. 나쿼다 광석을 캐서 주괴로 만든다. 광석 5배 처리도 된다."]
+			id: "2A7399D7B361B0DE"
+			rewards: [
+				{
+					id: "47F4ECE162527BB6"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 4
+					id: "7C40E5E2357A5400"
+					item: "mekanism:advanced_control_circuit"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "7625B8DAC80D6E4F"
+					item: "mekanism_extras:raw_naquadah"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "794C6ACA5CC49026"
+					item: "mekanism_extras:ingot_naquadah"
+					type: "item"
+				}
+			]
+			title: "&2&l[ ✦ 나쿼다 ]"
+			x: 0.0d
+			y: -2.25d
+			icon: "mekanism_extras:raw_naquadah"
+		}
+		{
+			dependencies: ["2A7399D7B361B0DE"]
+			description: ["앱솔루트 등급의 재료."]
+			id: "5A74863F014B12B9"
+			rewards: [
+				{
+					id: "503DFAADDC1B912A"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 4
+					id: "5E0CA5E8F137865C"
+					item: "mekanism:alloy_reinforced"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "7046ACCA925AFCC3"
+					item: "mekanism_extras:alloy_radiance"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "79BD7A6BBFDE855A"
+					item: "mekanism_extras:absolute_control_circuit"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 광휘 합금과 절대적인 회로 ]"
+			x: 1.75d
+			y: -2.25d
+			icon: "mekanism_extras:alloy_radiance"
+		}
+		{
+			dependencies: ["6787DD076A2F0CD2"]
+			description: ["앱솔루트 등급 설치기로 올린 시스템. 울티밋보다 칸이 많다."]
+			id: "5379749649A4FFFE"
+			rewards: [
+				{
+					id: "572E62AB60F27A3F"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 4
+					id: "7406C6A98C10501F"
+					item: "mekanism:alloy_reinforced"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "728319C382D5C8C4"
+					item: "mekanism_extras:absolute_smelting_factory"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 절대적인 제련 시스템 ]"
+			x: 0.0d
+			y: -0.75d
+			icon: "mekanism_extras:absolute_smelting_factory"
+		}
+		{
+			dependencies: ["6787DD076A2F0CD2", "5A74863F014B12B9"]
+			description: ["핵융합 합금과 최고급 회로로 최고급 등급 설치기를 만든다. &6전설 보스 정수&r가 필요하다."]
+			id: "7EB7068B8A1309EB"
+			rewards: [
+				{
+					id: "0BB74656301833F2"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					count: 4
+					id: "5F3393A40377C0FB"
+					item: "mekanism:alloy_atomic"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "6F0C66B866FF67A6"
+					item: "mekanism_extras:alloy_thermonuclear"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0427680AA43C68E6"
+					item: "mekanism_extras:supreme_control_circuit"
+					type: "item"
+				}
+				{
+					id: "7F7AEC5977D6E1FD"
+					item: "mekanism_extras:supreme_tier_installer"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 최고급 등급 ]"
+			x: 3.5d
+			y: -1.5d
+			icon: "mekanism_extras:alloy_thermonuclear"
+		}
+		{
+			dependencies: ["7EB7068B8A1309EB"]
+			description: ["광택이 나는 합금과 우주급 회로. &6전설 보스 정수&r가 필요하다."]
+			id: "5D690553DC94C438"
+			rewards: [
+				{
+					id: "4419CF8F3E5467DD"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 4
+					id: "79802901E41ACF91"
+					item: "mekanism:elite_control_circuit"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "66484B192FEE5CA0"
+					item: "mekanism_extras:alloy_shining"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "53751089B66D79A4"
+					item: "mekanism_extras:cosmic_control_circuit"
+					type: "item"
+				}
+				{
+					id: "1A3C00E78AEE3F9D"
+					item: "mekanism_extras:cosmic_tier_installer"
+					type: "item"
+				}
+			]
+			title: "&5&l[ ✦ 우주급 등급 ]"
+			x: 5.25d
+			y: 0.0d
+			icon: "mekanism_extras:alloy_shining"
+		}
+		{
+			dependencies: ["5D690553DC94C438"]
+			description: ["메카니즘의 끝. 스팩트럼 합금, 무한 회로, 그리고 &6전설 보스 정수&r와 플루토늄·폴로늄 펠릿."]
+			id: "244D7606C7EC654E"
+			rewards: [
+				{
+					id: "126A2B603D84A842"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+				{
+					count: 4
+					id: "5AC6E446970E4D22"
+					item: "mekanism:alloy_atomic"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "7D0C52688AF071B4"
+					item: "mekanism_extras:alloy_spectrum"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "517F3A001528C2A9"
+					item: "mekanism_extras:infinite_control_circuit"
+					type: "item"
+				}
+				{
+					id: "390EE5511F99C0B1"
+					item: "mekanism_extras:infinite_tier_installer"
+					type: "item"
+				}
+			]
+			title: "&d&l[ ✦ 무한 등급 ]"
+			x: 7.0d
+			y: 0.0d
+			icon: "mekanism_extras:alloy_spectrum"
+		}
+		{
+			dependencies: ["244D7606C7EC654E"]
+			description: ["무한 등급 에너지 큐브."]
+			id: "06615AFB3CCFF668"
+			rewards: [
+				{
+					id: "5B1EC858C5A82B46"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 4
+					id: "4907E0D7E7560238"
+					item: "mekanism:alloy_atomic"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "75149F89CEB7A9F0"
+					item: "mekanism_extras:infinite_energy_cube"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 무한 에너지 큐브 ]"
+			x: 8.75d
+			y: 0.0d
+			icon: "mekanism_extras:infinite_energy_cube"
+		}
+		{
+			dependencies: ["75566B3E2CC9EE81", "5A74863F014B12B9"]
+			description: ["강화된 유도 케이싱과 절대적인 유도 셀로 더 큰 전기 저장고를 짓는다."]
+			id: "730EAED89EEC7FA1"
+			rewards: [
+				{
+					id: "6DF3016A8CF39140"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 4
+					id: "39753A3495567ED9"
+					item: "mekanism:elite_control_circuit"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "792BFD3F41AE8FFC"
+					item: "mekanism_extras:reinforced_induction_casing"
+					type: "item"
+				}
+				{
+					id: "2B8E05CD099E3B39"
+					item: "mekanism_extras:absolute_induction_cell"
+					type: "item"
+				}
+			]
+			title: "&c&l[ ✦ 강화 유도 행렬 ]"
+			x: 3.5d
+			y: 0.0d
+			icon: "mekanism_extras:reinforced_induction_casing"
+		}
+		{
+			dependencies: ["078EF4B42CB45CDF", "2A7399D7B361B0DE"]
+			description: ["나쿼다 연료를 태우는 다중 블록 반응로. 핵융합로 다음 단계의 발전."]
+			id: "577ED6DDAEA1AC3F"
+			rewards: [
+				{
+					id: "7DDF2A76EF142C49"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 4
+					id: "769D26DC4A9A23A1"
+					item: "mekanism:elite_control_circuit"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4DA736E49E19F529"
+					item: "mekanism_extras:naquadah_reactor_controller"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "7E48AF28FA853887"
+					item: "mekanism_extras:naquadah_reactor_casing"
+					type: "item"
+				}
+				{
+					id: "7A9B6FBC7C4092A0"
+					item: "mekanism_extras:naquadah_hohlraum"
+					type: "item"
+				}
+			]
+			title: "&5&l[ ✦ 나쿼다 반응로 ]"
+			x: 1.75d
+			y: -0.75d
+			icon: "mekanism_extras:naquadah_reactor_controller"
+		}
+		{
+			dependencies: ["41F7BCA72D66291F"]
+			description: ["대용량 QIO 드라이브보다 훨씬 많이 담는다."]
+			id: "69021C5918D8CF2D"
+			rewards: [
+				{
+					id: "32FE177D285F6284"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 4
+					id: "304069EEC079B4AD"
+					item: "mekanism:alloy_atomic"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "772875FDDFE2BE40"
+					item: "mekanism_extras:qio_drive_singularity"
+					type: "item"
+				}
+				{
+					id: "589BDB46B486AC7F"
+					item: "mekanism_extras:qio_drive_black_hole"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 특이점과 블랙홀 QIO 드라이브 ]"
+			x: 0.0d
+			y: 0.75d
+			icon: "mekanism_extras:qio_drive_singularity"
+		}
+		{
+			dependencies: ["3B4CF2E46F032122", "5A74863F014B12B9"]
+			description: ["스택 업그레이드는 한 번에 처리하는 양을 늘리고, 이온막 업그레이드는 화학 처리를 돕는다."]
+			id: "24D0C1358B9C7324"
+			rewards: [
+				{
+					id: "714F366BFDA9BE86"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 4
+					id: "71E297A2534FE699"
+					item: "mekanism:advanced_control_circuit"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0E303F627935DB50"
+					item: "mekanism_extras:upgrade_stack"
+					type: "item"
+				}
+				{
+					id: "79C9AEB3492E00A8"
+					item: "mekanism_extras:upgrade_ionic_membrane"
+					type: "item"
+				}
+			]
+			title: "&a&l[ ✦ 스택·이온막 업그레이드 ]"
+			x: 3.5d
+			y: 1.5d
+			icon: "mekanism_extras:upgrade_stack"
+		}
+		{
+			dependencies: ["2A7399D7B361B0DE"]
+			description: ["일반 전기 펌프보다 넓고 빠르게 액체를 빨아들인다."]
+			id: "778C8DDE2C9004D5"
+			rewards: [
+				{
+					id: "1CAC84A21A875805"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 4
+					id: "783B3E7327FC128C"
+					item: "mekanism:alloy_infused"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "10F8D926681772B9"
+					item: "mekanism_extras:advance_electric_pump"
+					type: "item"
+				}
+			]
+			title: "&9&l[ ✦ 발전된 전기 펌프 ]"
+			x: 1.75d
+			y: 0.75d
+			icon: "mekanism_extras:advance_electric_pump"
+		}
+		{
+			dependencies: ["09095FD00A9C4DBB"]
+			description: ["방사성 폐기물 통보다 훨씬 많이 담는다."]
+			id: "79C6C8EF47FEF11F"
+			rewards: [
+				{
+					id: "1032B641766277A4"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 8
+					id: "7AD17F2B76A240E3"
+					item: "mekanism:ingot_steel"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "14EBDFFC6AE47582"
+					item: "mekanism_extras:expand_radioactive_waste_barrel"
+					type: "item"
+				}
+			]
+			title: "&a&l[ ✦ 팽창한 방사성 폐기 통 ]"
+			x: 0.0d
+			y: 2.25d
+			icon: "mekanism_extras:expand_radioactive_waste_barrel"
+		}
+		{
+			dependencies: ["2A7399D7B361B0DE"]
+			description: ["방사선을 막는 유리."]
+			id: "714397CB895B5E0C"
+			rewards: [
+				{
+					id: "718C0F146A820469"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 8
+					id: "612F9AAD494539A5"
+					item: "mekanism:ingot_osmium"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "326722938CCC4905"
+					item: "mekanism_extras:lead_coated_glass"
+					type: "item"
+				}
+			]
+			title: "&7&l[ ✦ 납 코팅된 유리 ]"
+			x: 1.75d
+			y: 2.25d
+			icon: "mekanism_extras:lead_coated_glass"
+		}
+	]
+	title: "&b&l✦ 메카니즘: 엑스트라"
+}

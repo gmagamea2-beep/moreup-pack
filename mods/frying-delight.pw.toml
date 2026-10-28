@@ -1,0 +1,13 @@
+name = "Frying Delight"
+filename = "fryingdelight-1.0.0-forge-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "78ac1413e6b94cf46e7e533ed500e73641093ffb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6962423
+project-id = 864878

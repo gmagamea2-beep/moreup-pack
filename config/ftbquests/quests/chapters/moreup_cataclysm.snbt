@@ -1,0 +1,894 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "moreup_cataclysm"
+	group: "7E05AA7C371599AC"
+	icon: "cataclysm:ignitium_ingot"
+	id: "74CA953C96D14F1F"
+	order_index: 17
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["엔더 성채 주변의 거대한 골렘."]
+			id: "40A09AD527E4AD7B"
+			rewards: [
+				{
+					id: "60B1151229DEFDDA"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 8
+					id: "75B9D8E460CA6B68"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5B46E9680300F2C2"
+					item: "moreup:boss_essence_low"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:ender_golem"
+					id: "7D4BC622CE930B37"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&5&l[ ⚔ 엔더 골렘 ]"
+			x: 0.0d
+			y: 0.0d
+			icon: "cataclysm:ender_golem_spawn_egg"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["40A09AD527E4AD7B"]
+			id: "372AE85B49983247"
+			rewards: [
+				{
+					id: "12192638C27C56C2"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 2
+					id: "1708442B2BE71B00"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					count: 1
+					id: "0BC881A15AF75017"
+					item: "moreup:boss_essence_mid"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:the_prowler"
+					id: "70E63757F6EE1CF7"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&7&l[ ⚔ 프라울러 ]"
+			x: 1.75d
+			y: -5.25d
+			icon: "cataclysm:the_prowler_spawn_egg"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["372AE85B49983247"]
+			id: "78B6E50574439EAE"
+			rewards: [
+				{
+					id: "7555EBC0EF576A8A"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					count: 3
+					id: "7931C13F71032AD7"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "72C44B9D33FBF598"
+					item: "moreup:boss_essence_high"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:ender_guardian"
+					id: "037AFFED5458CFE9"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&5&l[ ⚔ 엔더 가디언 ]"
+			x: 3.5d
+			y: -5.25d
+			icon: "cataclysm:void_core"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["78B6E50574439EAE"]
+			id: "2AEC281070208502"
+			rewards: [
+				{
+					id: "0D0A188E92DDD0D6"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "72FD0F422D3B8E57"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7ECD18696D71954B"
+					item: "cataclysm:void_core"
+					type: "item"
+				}
+			]
+			title: "&5&l[ ✦ 공허의 핵 ]"
+			x: 5.25d
+			y: -3.75d
+			icon: "cataclysm:void_core"
+		}
+		{
+			dependencies: ["40A09AD527E4AD7B"]
+			description: ["위더의 기계 사도."]
+			id: "7606ADACA99106CD"
+			rewards: [
+				{
+					id: "78C71A74FE2D631F"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "4F6C30BE4AE91FDA"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "74D05D879D3C9B6A"
+					item: "moreup:boss_essence_high"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:the_harbinger"
+					id: "7E2390AEE08D32D8"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&4&l[ ⚔ 하빈저 ]"
+			x: 1.75d
+			y: -3.75d
+			icon: "cataclysm:witherite_ingot"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["7606ADACA99106CD"]
+			id: "72F09941B139DD86"
+			rewards: [
+				{
+					id: "7186D3B16DC5DB26"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "70E96EAC24F3CFD1"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "70D62481B6106B6C"
+					item: "cataclysm:witherite_ingot"
+					type: "item"
+				}
+			]
+			title: "&8&l[ ✦ 위더라이트 주괴 ]"
+			x: 3.5d
+			y: -3.75d
+			icon: "cataclysm:witherite_ingot"
+		}
+		{
+			dependencies: ["7606ADACA99106CD"]
+			description: ["네더의 용암 요새."]
+			id: "7E9BC7E8533C073C"
+			rewards: [
+				{
+					id: "37392C221E0C7D3E"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 3
+					id: "7D909A1A9ED14779"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					count: 1
+					id: "4159CEDDA033B263"
+					item: "moreup:boss_essence_legendary"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:netherite_monstrosity"
+					id: "4B490C6B891EE2AF"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&c&l[ ⚔ 네더라이트 몬스트로시티 ]"
+			x: 3.5d
+			y: -2.25d
+			icon: "cataclysm:monstrous_horn"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["7E9BC7E8533C073C"]
+			id: "7C338CDA10B8EA7C"
+			rewards: [
+				{
+					id: "79F3EAA4C8FFBA17"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "17A15C1DF4CE94ED"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "75E125B1D92856E3"
+					item: "cataclysm:monstrous_horn"
+					type: "item"
+				}
+			]
+			title: "&c&l[ ✦ 괴물의 뿔 ]"
+			x: 5.25d
+			y: -2.25d
+			icon: "cataclysm:monstrous_horn"
+		}
+		{
+			dependencies: ["7606ADACA99106CD"]
+			description: ["심해의 왕."]
+			id: "7655FEEDD3468043"
+			rewards: [
+				{
+					id: "7FB6EF3EB348CEEE"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "3E780A0E13BEC742"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					count: 1
+					id: "0902254E6BC6EAA6"
+					item: "moreup:boss_essence_legendary"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:the_leviathan"
+					id: "76A7B28AB293F864"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&3&l[ ⚔ 레비아탄 ]"
+			x: 3.5d
+			y: -0.75d
+			icon: "cataclysm:abyssal_egg"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["7606ADACA99106CD"]
+			description: ["사막 깊은 곳의 고대 존재."]
+			id: "7C0D32AAA1AC0150"
+			rewards: [
+				{
+					id: "70AEEBC2C33190F1"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "630347621825B34B"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					count: 1
+					id: "79DE46BAC6EF43A4"
+					item: "moreup:boss_essence_legendary"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:ancient_remnant"
+					id: "13DBEEDA8FACBA91"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&6&l[ ⚔ 고대의 잔해 ]"
+			x: 3.5d
+			y: 0.75d
+			icon: "cataclysm:remnant_skull"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["7606ADACA99106CD"]
+			id: "7792E230A1B61B23"
+			rewards: [
+				{
+					id: "007B049B43905383"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 3
+					id: "7FB7DCC1CA44DF93"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					count: 1
+					id: "2499910A4AE52180"
+					item: "moreup:boss_essence_legendary"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:maledictus"
+					id: "77139681E0C37967"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&b&l[ ⚔ 말레딕투스 ]"
+			x: 3.5d
+			y: 2.25d
+			icon: "cataclysm:cursium_ingot"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["7606ADACA99106CD"]
+			id: "75950DF7D7A1F962"
+			rewards: [
+				{
+					id: "1BE226DB9AE5B0BF"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 3
+					id: "7E1677ECF01FF5F5"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					count: 1
+					id: "23A38DEC7C900EC7"
+					item: "moreup:boss_essence_legendary"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:scylla"
+					id: "70A19986CF723357"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&9&l[ ⚔ 스킬라 ]"
+			x: 3.5d
+			y: 3.75d
+			icon: "cataclysm:essence_of_the_storm"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["7E9BC7E8533C073C", "7655FEEDD3468043", "7C0D32AAA1AC0150", "7792E230A1B61B23", "75950DF7D7A1F962"]
+			description: ["불꽃의 기사. 최종 보스에 버금가는 1티어 보스."]
+			id: "722C6806E3F3A942"
+			rewards: [
+				{
+					id: "70C4C75166799CFD"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 3
+					id: "7EDACA205B25FEC3"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "75B097FDD583E2F8"
+					item: "moreup:boss_essence_legendary"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:ignis"
+					id: "54042DC057BA5D73"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&6&l[ ⚔ 이그니스 ]"
+			x: 5.25d
+			y: -0.75d
+			icon: "cataclysm:ignitium_ingot"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["722C6806E3F3A942"]
+			description: ["대보스 8종의 증표를 모으면 &e세계의 파편: 전쟁&r을 만들 수 있다."]
+			id: "743D097D51B18A81"
+			rewards: [
+				{
+					id: "7D22997A21D174C0"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "5EAC035FA7616501"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "35C013D229906302"
+					item: "cataclysm:ignitium_ingot"
+					type: "item"
+				}
+				{
+					id: "7CD5C5CBAEADFA55"
+					item: "cataclysm:monstrous_horn"
+					type: "item"
+				}
+				{
+					id: "7F090D326EA2EC1E"
+					item: "cataclysm:witherite_ingot"
+					type: "item"
+				}
+				{
+					id: "7BFE2789B77A0386"
+					item: "cataclysm:abyssal_egg"
+					type: "item"
+				}
+				{
+					id: "72599209E6F9C460"
+					item: "cataclysm:cursium_ingot"
+					type: "item"
+				}
+				{
+					id: "0F139C830C0CF627"
+					item: "cataclysm:remnant_skull"
+					type: "item"
+				}
+				{
+					id: "7F44D8883572040C"
+					item: "cataclysm:essence_of_the_storm"
+					type: "item"
+				}
+				{
+					id: "4C0A1ABCBF56AB1F"
+					item: "cataclysm:void_core"
+					type: "item"
+				}
+			]
+			title: "&4&l[ ✦ 대재앙의 증표 ]"
+			x: 7.0d
+			y: -0.75d
+			icon: "cataclysm:ignitium_ingot"
+		}
+		{
+			dependencies: ["40A09AD527E4AD7B"]
+			id: "7A4CB90AEFA16FFD"
+			rewards: [
+				{
+					id: "71CB5F331F695305"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 12
+					id: "775292AC918875B6"
+					item: "minecraft:cooked_beef"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2AB2D483C9571F96"
+					item: "moreup:boss_essence_low"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:coral_golem"
+					id: "7D75DFB2DE25F9B2"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&3&l[ ⚔ 코랄 골렘 ]"
+			x: 1.75d
+			y: -2.25d
+			icon: "cataclysm:coral_golem_spawn_egg"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["7A4CB90AEFA16FFD"]
+			id: "28974621B61273F3"
+			rewards: [
+				{
+					id: "7CCD2DFD71AEEBD9"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 8
+					id: "74D42B8D291F6ADA"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					count: 1
+					id: "50F2EDE6374538DC"
+					item: "moreup:boss_essence_mid"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:coralssus"
+					id: "7D6579F2A9D04E4B"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&3&l[ ⚔ 코랄서스 ]"
+			x: 3.5d
+			y: 5.25d
+			icon: "cataclysm:coralssus_spawn_egg"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["40A09AD527E4AD7B"]
+			id: "108A1C5770C2EF64"
+			rewards: [
+				{
+					id: "752935CD9B8F7D9B"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 8
+					id: "791A63903D287DC7"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					count: 1
+					id: "0CFC9FAF451EB670"
+					item: "moreup:boss_essence_mid"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:kobolediator"
+					id: "0C26032F78E2ED8A"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&6&l[ ⚔ 코볼레디에이터 ]"
+			x: 1.75d
+			y: -0.75d
+			icon: "cataclysm:kobolediator_spawn_egg"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["40A09AD527E4AD7B"]
+			id: "2AC060D442E60A5E"
+			rewards: [
+				{
+					id: "2981721F06F8042C"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 8
+					id: "7E8069E97EA8A992"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "416D312FCFB68EE0"
+					item: "moreup:boss_essence_low"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:wadjet"
+					id: "7AD5FA4C91EE6901"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&e&l[ ⚔ 바제트 ]"
+			x: 1.75d
+			y: 0.75d
+			icon: "cataclysm:wadjet_spawn_egg"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["40A09AD527E4AD7B"]
+			id: "7017371AADFDBBE4"
+			rewards: [
+				{
+					id: "0C11161ED45C1265"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "73141278FF31F25D"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					count: 1
+					id: "07006BC1F31F0155"
+					item: "moreup:boss_essence_mid"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:aptrgangr"
+					id: "769FF2118DEE46CE"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&7&l[ ⚔ 아프트강그 ]"
+			x: 1.75d
+			y: 2.25d
+			icon: "cataclysm:aptrgangr_spawn_egg"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["40A09AD527E4AD7B"]
+			id: "734DA7DC23085911"
+			rewards: [
+				{
+					id: "7D406C469B296E25"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 6
+					id: "7775883D49495437"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
+				{
+					count: 1
+					id: "7D0CE314ACA0C61F"
+					item: "moreup:boss_essence_mid"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:amethyst_crab"
+					id: "57493FF915AB500F"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&d&l[ ⚔ 자수정 게 ]"
+			x: 1.75d
+			y: 3.75d
+			icon: "cataclysm:amethyst_crab_spawn_egg"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["7655FEEDD3468043"]
+			id: "463F1782BF4ED803"
+			rewards: [
+				{
+					id: "743260E24D4FF22E"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 2
+					id: "7DACF64E05EED832"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6FCED6EB1B392E0C"
+					item: "moreup:boss_essence_mid"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:clawdian"
+					id: "7276DB6819E10E34"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&c&l[ ⚔ 클로디언 ]"
+			x: 5.25d
+			y: 0.75d
+			icon: "cataclysm:clawdian_spawn_egg"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["40A09AD527E4AD7B"]
+			description: ["대재앙 무기의 재료."]
+			id: "7D0E32782ADD6CAB"
+			rewards: [
+				{
+					id: "06770AE51C22DBD7"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 8
+					id: "79C9E1818192F8E6"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "78ED2265B82DB8C2"
+					item: "cataclysm:black_steel_ingot"
+					type: "item"
+				}
+			]
+			title: "&8&l[ ✦ 흑강 주괴 ]"
+			x: 1.75d
+			y: 5.25d
+			icon: "cataclysm:black_steel_ingot"
+		}
+		{
+			dependencies: ["7C0D32AAA1AC0150"]
+			id: "7815781461535FBA"
+			rewards: [
+				{
+					id: "7DC7212227F5DA2C"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 8
+					id: "74AFFB7AC6685E77"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "7F6A638F11040AFB"
+					item: "cataclysm:ancient_metal_ingot"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 고대의 금속 주괴 ]"
+			x: 5.25d
+			y: 2.25d
+			icon: "cataclysm:ancient_metal_ingot"
+		}
+		{
+			dependencies: ["7792E230A1B61B23"]
+			id: "78A63B22B1D8AEFB"
+			rewards: [
+				{
+					id: "7B5826AC1E61EFC4"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "3C8B856191DBC15A"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1CAE15D6B2D96EE2"
+					item: "cataclysm:cursium_chestplate"
+					type: "item"
+				}
+			]
+			title: "&5&l[ ✦ 커스뮴 흉갑 ]"
+			x: 5.25d
+			y: 3.75d
+			icon: "cataclysm:cursium_chestplate"
+		}
+		{
+			dependencies: ["722C6806E3F3A942"]
+			description: ["보스를 다시 부르는 제단."]
+			id: "74E5118D65B4EE33"
+			rewards: [
+				{
+					id: "5C24011D9BD79EB1"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 4
+					id: "7DBE96B835C4A532"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "03B0866FB45F1034"
+					item: "cataclysm:altar_of_fire"
+					type: "item"
+				}
+				{
+					id: "42C68EEBD0504C5A"
+					item: "cataclysm:altar_of_void"
+					type: "item"
+				}
+			]
+			title: "&c&l[ ✦ 대재앙의 제단 ]"
+			x: 7.0d
+			y: 0.75d
+			icon: "cataclysm:altar_of_fire"
+		}
+	]
+	title: "&b&l✦ 대재앙 (Cataclysm)"
+}

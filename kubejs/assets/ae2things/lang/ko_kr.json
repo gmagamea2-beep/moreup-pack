@@ -1,0 +1,14 @@
+{
+  "item.ae2things.disk_drive_1k": "1k ME DISK 드라이브",
+  "item.ae2things.disk_drive_4k": "4k ME DISK 드라이브",
+  "item.ae2things.disk_drive_16k": "16k ME DISK 드라이브",
+  "item.ae2things.disk_drive_64k": "64k ME DISK 드라이브",
+  "item.ae2things.disk_drive_256k": "256k ME DISK 드라이브",
+  "item.ae2things.disk_housing": "ME DISK 외장",
+  "text.ae2things.disk_drives": "ME DISK 드라이브",
+  "command.ae2things.recover_success": "%s이(가) UUID [%s]의 DISK 드라이브를 복구했습니다.",
+  "command.ae2things.recover_fail": "DISK 드라이브 복구 실패: UUID [%s]이(가) 없습니다.",
+  "command.ae2things.getuuid_success": "이 DISK의 UUID: [%s]",
+  "command.ae2things.getuuid_fail_nouuid": "오류: 이 DISK가 비어 있거나 UUID가 없습니다.",
+  "command.ae2things.getuuid_fail_notdisk": "오류: 이 아이템은 DISK가 아닙니다."
+}

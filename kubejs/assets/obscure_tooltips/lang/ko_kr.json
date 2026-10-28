@@ -1,0 +1,8 @@
+{
+  "rarity.common": "일반",
+  "rarity.uncommon": "고급",
+  "rarity.rare": "희귀",
+  "rarity.epic": "영웅",
+  "toast.obscure_tooltips.hint_1": "내장 %s 팩 활성화",
+  "toast.obscure_tooltips.hint_2": "움직이는 효과와 스타일이 들어 있어요!"
+}

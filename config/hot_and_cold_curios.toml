@@ -1,0 +1,31 @@
+
+["Heat Resistance Medallion"]
+	#Whether the Heat Resistance Medallion reduces fire and heat damage. Default is true
+	"Fire and Heat Damage Reduction" = true
+	#Whether the Heat Resistance Medallion should apply Heat Resistance (or equivalent effect from installed mods). Default is true
+	"Heat/Fire Resistance Effect" = true
+	#Whether the Heat Resistance Medallion reduces lava damage. Default is false
+	"Lava Damage Reduction" = false
+	#Whether  the Heat Resistance Medallion applies Fire Resistance (even if Heat/Fire Resistance is false). Default is false
+	"Default Fire Resistance" = false
+
+["Cold Resistance Medallion"]
+	#Whether the Cold Resistance Medallion reduces freeze damage. Default is true
+	"Freeze and Cold Damage Reduction" = true
+	#Whether the Cold Resistance Medallion should apply Ice Resistance (or equivalent effect from installed mods). Default is true
+	"Freeze/Cold Resistance Effect" = true
+
+["Temperature Resistance Medallion"]
+	#Whether the Temperature Resistance Medallion should apply Temperature Resistance (or equivalent effect from installed mods). Default is true
+	"Temperature Resistance Effect" = true
+	#Whether the Temperature Resistance Medallion applies Fire Resistance (even if the Heat Resistance Medallion does not). Default is false
+	"Only Temperature Medallion Default Fire Resistance" = false
+	#Whether the Temperature Resistance Medallion should apply all temperature and environmental immunity effects (including fire and lava immunity). Default is false
+	"Total Temperature Immunity" = false
+
+["Legendary Survival Compat"]
+	#If true, the Heat Resistance and Temperature Resistance Medallions will apply Heat Immunity effect. If false, will apply Heat Resistance (only applies if Heat/Fire Resistance config option is true)
+	"Heat Immunity" = true
+	#If true, the Cold Resistance and Temperature Resistance Medallions will apply Cold Immunity effect. If false, will apply Cold Resistance (only applies if Freeze/Cold Resistance config option is true)
+	"Cold Immunity" = true
+

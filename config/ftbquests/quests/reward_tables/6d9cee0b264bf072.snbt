@@ -1,0 +1,19 @@
+{
+	id: "6D9CEE0B264BF072"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{ item: "ebwizardry:charm_experience_tome" }
+		{ item: "ebwizardry:charm_feeding" }
+		{ item: "ebwizardry:charm_flight" }
+		{ item: "ebwizardry:charm_growth" }
+		{ item: "ebwizardry:charm_haggler" }
+		{ item: "ebwizardry:charm_hunger_casting" }
+		{ item: "ebwizardry:charm_auto_smelt" }
+		{ item: "ebwizardry:charm_abseiling" }
+		{ item: "ebwizardry:charm_lava_walking" }
+		{ item: "ebwizardry:charm_light" }
+		{ item: "ebwizardry:charm_move_speed" }
+	]
+	title: "마법유물"
+}

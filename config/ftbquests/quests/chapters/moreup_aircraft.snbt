@@ -1,0 +1,240 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "moreup_aircraft"
+	group: "7E05AA7C371599AC"
+	icon: "immersive_aircraft:biplane"
+	id: "72D10B9AED82EA39"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["비행기의 뼈대. (Immersive Aircraft)"]
+			id: "75D19EBD752229A4"
+			rewards: [
+				{
+					id: "4A0EBC7FE84D35A5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 16
+					id: "5E2C585149D7A033"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "5209496726ADED5B"
+					item: "immersive_aircraft:hull"
+					type: "item"
+				}
+			]
+			title: "&7&l[ ✦ 선체 ]"
+			x: 0.0d
+			y: 0.0d
+			icon: "immersive_aircraft:hull"
+		}
+		{
+			dependencies: ["75D19EBD752229A4"]
+			description: ["연료를 태워 프로펠러를 돌린다."]
+			id: "2C012DF6BEABF123"
+			rewards: [
+				{
+					id: "7232FF8BF0555D5E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 8
+					id: "0B676FCAC3501AD9"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "04C9D97126A916A7"
+					item: "immersive_aircraft:engine"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 엔진 ]"
+			x: 1.75d
+			y: 0.0d
+			icon: "immersive_aircraft:engine"
+		}
+		{
+			dependencies: ["2C012DF6BEABF123"]
+			id: "72CC8317146707AA"
+			rewards: [
+				{
+					id: "7230113D2B1C7BE9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 8
+					id: "7BEE7BB7CCE4E394"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7586731B251EBEE3"
+					item: "immersive_aircraft:propeller"
+					type: "item"
+				}
+			]
+			title: "&7&l[ ✦ 프로펠러 ]"
+			x: 3.5d
+			y: -0.75d
+			icon: "immersive_aircraft:propeller"
+		}
+		{
+			dependencies: ["72CC8317146707AA"]
+			description: ["느리지만 안정적인 첫 비행."]
+			id: "7D0A9DB962B51D31"
+			rewards: [
+				{
+					id: "5E4097213FAF338E"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "7A8EAEB626DF9F27"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "143866812A610C24"
+					item: "immersive_aircraft:airship"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 비행선 ]"
+			x: 5.25d
+			y: -0.75d
+			icon: "immersive_aircraft:airship"
+		}
+		{
+			dependencies: ["7D0A9DB962B51D31"]
+			description: ["빠르게 하늘을 가르자."]
+			id: "7CD631FB1EA1857C"
+			rewards: [
+				{
+					id: "6CA966AF8D7312AF"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "715870D3C4DCED16"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0B3961258FB3FBD8"
+					item: "immersive_aircraft:biplane"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 쌍엽기 ]"
+			x: 7.0d
+			y: -0.75d
+			icon: "immersive_aircraft:biplane"
+		}
+		{
+			dependencies: ["2C012DF6BEABF123"]
+			description: ["제자리에서 떠오르는 회전익기."]
+			id: "2482ED82D6F6E7A2"
+			rewards: [
+				{
+					id: "779A5763F4BF9234"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 4
+					id: "54B9912DDCDEDB46"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7D18A0C3C3A5E24E"
+					item: "immersive_aircraft:gyrodyne"
+					type: "item"
+				}
+			]
+			title: "&a&l[ ✦ 자이로다인 ]"
+			x: 3.5d
+			y: 0.75d
+			icon: "immersive_aircraft:gyrodyne"
+		}
+		{
+			dependencies: ["2482ED82D6F6E7A2"]
+			id: "098A03F2A406DF45"
+			rewards: [
+				{
+					id: "55A111A1702B4103"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "7D380B0AC9635964"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0AC9C9EAEB015CF1"
+					item: "immersive_aircraft:quadrocopter"
+					type: "item"
+				}
+			]
+			title: "&f&l[ ✦ 쿼드콥터 ]"
+			x: 5.25d
+			y: 0.75d
+			icon: "immersive_aircraft:quadrocopter"
+		}
+		{
+			dependencies: ["7D0A9DB962B51D31"]
+			description: ["기지 사이의 물자 수송."]
+			id: "37AF74E231809572"
+			rewards: [
+				{
+					id: "2E60A56AE30961E9"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 2
+					id: "72E944CB1167BC60"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7D44EE64CB732005"
+					item: "immersive_aircraft:cargo_airship"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 화물 비행선 ]"
+			x: 7.0d
+			y: 0.75d
+			icon: "immersive_aircraft:cargo_airship"
+		}
+	]
+	title: "&b&l✦ 하늘을 나는 기술"
+}

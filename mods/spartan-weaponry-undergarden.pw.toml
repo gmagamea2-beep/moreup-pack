@@ -1,0 +1,13 @@
+name = "Spartan Weaponry: Undergarden"
+filename = "spartanundergarden-1.20.1-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c9048f264c4450894a4f101869afac3c68ce666d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6206909
+project-id = 1067620

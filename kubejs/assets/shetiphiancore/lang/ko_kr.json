@@ -1,0 +1,16 @@
+{
+  "itemGroup.shetiphiancore": "ShetiPhianCore",
+  "key.shetiphiancore.tool.next": "든 아이템: 다음 모드/선택",
+  "key.shetiphiancore.tool.previous": "든 아이템: 이전 모드/선택",
+  "info.shetiphian.mode_change": "§3모드 변경:§o",
+  "info.shetiphian.sneak_scroll": "웅크리기+스크롤",
+  "shetiphiancore.team.transfer.fail.same": "이전 실패: 이미 리더다",
+  "shetiphiancore.team.error.not_leader": "팀 리더가 아니다",
+  "shetiphiancore.team.sysadmin.create.success": "'%1$s'['%2$s'] 생성됨",
+  "shetiphiancore.team.sysadmin.rename.success": "'%1$s' 표시 이름이 '%2$s'에서 '%3$s'(으)로 바뀌었다",
+  "shetiphiancore.team.sysadmin.transfer.success": "'%1$s'의 리더가 '%2$s'에게 넘어갔다",
+  "hud.shetiphiancore.extended_power": "확장 전력:",
+  "config.jade.plugin_shetiphiancore.hud": "플러그인 활성화",
+  "config.jade.plugin_shetiphiancore.hud.rgb16": "RGB16 블록 값",
+  "config.jade.plugin_shetiphiancore.hud.redstone": "확장 레드스톤"
+}

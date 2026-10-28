@@ -1,0 +1,25 @@
+{
+	id: "42F2C97D27E7414B"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "_"
+	}
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ item: "mekanism:basic_control_circuit" }
+		{ item: "mekanism:enriched_redstone" }
+		{ item: "mekanism:enriched_diamond" }
+		{ item: "mekanism:elite_control_circuit" }
+		{ item: "mekanism:alloy_infused" }
+		{ item: "mekanism:advanced_control_circuit" }
+		{ item: "mekanism:alloy_reinforced" }
+		{ item: "mekanism:enriched_carbon" }
+	]
+	title: "메카니즘 중급"
+}

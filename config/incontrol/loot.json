@@ -1,0 +1,28 @@
+[
+  {
+    "mob": "minecraft:zombie",
+    "remove": [
+      "minecraft:iron_sword",
+      "minecraft:iron_shovel",
+      "minecraft:leather_helmet",
+      "minecraft:leather_chestplate",
+      "minecraft:leather_leggings",
+      "minecraft:leather_boots"
+    ]
+  },
+  {
+    "mob": "minecraft:skeleton",
+    "remove": [
+      "minecraft:bow",
+      "minecraft:leather_helmet",
+      "minecraft:leather_chestplate",
+      "minecraft:leather_leggings",
+      "minecraft:leather_boots"
+    ]
+  },
+  {
+    "mod": ["cataclysm", "iceandfire", "mowziesmobs"],
+    "player": false,
+    "removeall": true
+  }
+]

@@ -1,0 +1,8 @@
+
+#Myth Wizardry Client Configuration
+[client]
+	#Show mana bar overlay
+	showManaBar = true
+	#Show mana numbers on overlay
+	showManaNumbers = true
+

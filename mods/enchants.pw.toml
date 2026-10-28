@@ -1,0 +1,13 @@
+name = "So Many Enchants"
+filename = "so_many_enchants-1.20-1.8.0-forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "dd6ef5cbe2ce09abdda30925766d8a24a6a38002"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5021398
+project-id = 510450

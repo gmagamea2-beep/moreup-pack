@@ -1,0 +1,11 @@
+{
+  "itemGroup.mcwlights": "Macaw's 조명과 램프",
+  "mcwlights.lights.tikitorchinfo": "위에 하나 더 설치하면 더 높게 만들 수 있다",
+  "mcwlights.lights.dyeableinfo": "염료를 들고 우클릭하면 색이 바뀐다",
+  "mcwlights.lights.stackableinfo": "위에 하나 더 설치하면 더 높게 만들 수 있다",
+  "block.mcwlights.thin_garden_light": "가는 정원 조명",
+  "block.mcwlights.covered_garden_light": "덮개 정원 조명",
+  "block.mcwlights.round_garden_light": "둥근 정원 조명",
+  "block.mcwlights.tower_garden_light": "탑 모양 정원 조명",
+  "block.mcwlights.striped_garden_light": "줄무늬 정원 조명"
+}

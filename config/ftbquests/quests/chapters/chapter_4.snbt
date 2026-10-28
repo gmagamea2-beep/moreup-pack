@@ -1,0 +1,417 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_4"
+	group: "5E3B475B0E7170C2"
+	icon: "minecraft:nether_star"
+	id: "29A817242A7E5C2C"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["77DD80CC11C56AAE"]
+			description: [
+				"&7\"필멸자의 한계를 깨달은 일곱은, 끝없는 환생 속에서 흩어진 법칙을 스스로 다시 깨우치기 시작했다.\"&r"
+				""
+				"&f별의 기록서가 진실을 밝혔습니다. 세상의 보스들은 당신의 빛을 훔쳐 간 &c거짓된 왕&f들입니다."
+				"&f분업하고 연대하십시오. 강철과 톱니, 비전의 주문, 대지의 힘을 모아 그들의 목을 베고 권능을 되찾을 때입니다."
+				""
+				"&c[퀘스트를 클릭하여 거짓된 왕들의 사냥을 시작하십시오.]"
+			]
+			icon: "minecraft:nether_star"
+			id: "43C587E3338841D2"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/function scene:act4_start"
+					icon: "twilightforest:hollow_oak_sapling"
+					id: "2E1AFC5E5F7BFF5F"
+					team_reward: true
+					title: "&l마지막 이야기"
+					type: "command"
+					elevate_perms: true
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "214040E5BBD12D87"
+					title: "&l&6 이제 최후의 한걸음"
+					type: "checkmark"
+				}
+			]
+			title: "&6&l[ ❂ 잃어버린 권능 ]"
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["43C587E3338841D2"]
+			description: [
+				"&7\"거짓된 왕의 목을 베자, 그가 삼켰던 빛이 작은 결정이 되어 굴러 나왔다.\"&r"
+				""
+				"&f보스는 주인을 잃은 용의 권능이 포식자에게 깃들어 타락한 존재입니다."
+				"&f그들을 쓰러뜨리면 빼앗긴 빛이 &a보스 정수&f가 되어 당신에게 돌아옵니다."
+				"&7나가, 리치, 미노슈룸 같은 입문 보스부터 사냥을 시작하십시오."
+			]
+			id: "2E07E6D860F6F26B"
+			rewards: [
+				{
+					id: "72819ED82AB2EDD7"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "4E0A3CBBB00F1D80"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "29B32C044BF93945"
+					item: "moreup:boss_essence_low"
+					type: "item"
+				}
+			]
+			title: "&a&l[ ✦ 훔쳐 간 빛 ]"
+			x: 2.5d
+			y: -1.0d
+			icon: "moreup:boss_essence_low"
+		}
+		{
+			dependencies: ["2E07E6D860F6F26B"]
+			description: [
+				"&7\"결정이 손바닥 위에서 맥박친다. 은하수였던 비늘의 감촉이 희미하게 떠오른다.\"&r"
+				""
+				"&f히드라, 발키리 여왕, 태양 정령처럼 더 깊은 곳의 왕들은 &b중급 정수&f를 품고 있습니다."
+				"&7강철의 뼈대도, 비전의 주문도 이 빛 없이는 다음 단계로 나아가지 못합니다."
+			]
+			id: "01F7DB6292CE4DC3"
+			rewards: [
+				{
+					id: "70E017CC4F263C4C"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			tasks: [
+				{
+					id: "7881EBC651663C0D"
+					item: "moreup:boss_essence_mid"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 되살아나는 기억 ]"
+			x: 4.25d
+			y: -1.75d
+			icon: "moreup:boss_essence_mid"
+		}
+		{
+			dependencies: ["01F7DB6292CE4DC3"]
+			description: ["&7\"위더, 엔더 드래곤, 심연의 감시자. 세상이 두려워한 이름들은 사실 당신의 조각을 훔친 도둑이었다.\"&r", "", "&f드래곤과 워든, 하빈저 같은 폭군에게서 &5상급 정수&f를 되찾으십시오."]
+			id: "7135C98159BDE0EE"
+			rewards: [
+				{
+					id: "72EE9554643FEA1E"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			tasks: [
+				{
+					id: "70BB3EA2276CDFF7"
+					item: "moreup:boss_essence_high"
+					type: "item"
+				}
+			]
+			title: "&5&l[ ✦ 폭군들의 심장 ]"
+			x: 6.0d
+			y: -4.0d
+			icon: "moreup:boss_essence_high"
+		}
+		{
+			dependencies: ["7135C98159BDE0EE"]
+			description: [
+				"&7\"가장 오만했던 거짓 왕들이 무너질 때, 결정은 태양처럼 타올랐다.\"&r"
+				""
+				"&f이그니스와 대재앙의 화신들, 심연의 나이트블레이드에게서 &6전설 정수&f를 얻으십시오."
+				"&7이 빛은 흩어진 권능을 하나로 묶는 매듭이 됩니다."
+			]
+			id: "78C48C0490899991"
+			rewards: [
+				{
+					id: "1CB4E3708A6FA2FD"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			tasks: [
+				{
+					id: "5A18023E486E0A45"
+					item: "moreup:boss_essence_legendary"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 잃어버린 별빛 ]"
+			x: 7.75d
+			y: -3.25d
+			icon: "moreup:boss_essence_legendary"
+		}
+		{
+			dependencies: ["01F7DB6292CE4DC3"]
+			description: [
+				"&7\"어떤 이는 부서진 육체를 대신할 강철의 뼈대와 톱니바퀴를 깎았다.\"&r"
+				""
+				"&f기술로 되찾은 권능을 엮어 &b세계의 파편: 기술&f을 만드십시오."
+				"&7(모드 가이드: Create · 메카니즘 · AE2 · IF · Powah)"
+			]
+			id: "775E510AAF9819FC"
+			rewards: [
+				{
+					id: "7596C09CB13BFF26"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+			]
+			tasks: [
+				{
+					id: "74B6C502BF73FC6A"
+					item: "moreup:fragment_tech"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 강철의 파편 ]"
+			x: 6.0d
+			y: -2.5d
+			icon: "moreup:fragment_tech"
+		}
+		{
+			dependencies: ["01F7DB6292CE4DC3"]
+			description: ["&7\"어떤 이는 허공에 흩어진 용의 숨결(마나)을 다시 엮어 비전의 주문을 외웠다.\"&r", "", "&f마법으로 되찾은 권능, &5세계의 파편: 마법&f을 만드십시오."]
+			id: "63BF37048ED78DA0"
+			rewards: [
+				{
+					id: "31E3B6F0E3E9B1E7"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+			]
+			tasks: [
+				{
+					id: "60F65F23C36EDAF5"
+					item: "moreup:fragment_magic"
+					type: "item"
+				}
+			]
+			title: "&5&l[ ✦ 비전의 파편 ]"
+			x: 6.0d
+			y: -1.0d
+			icon: "moreup:fragment_magic"
+		}
+		{
+			dependencies: ["2E07E6D860F6F26B"]
+			description: ["&7\"어떤 이는 대지의 피와 살을 취해 굶주린 육신을 한계 너머로 강화했다.\"&r", "", "&f연회 요리와 바다의 보물로 &a세계의 파편: 풍요&f을 만드십시오."]
+			id: "72DCF04C19BC766F"
+			rewards: [
+				{
+					id: "72E333A9D688720A"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+			]
+			tasks: [
+				{
+					id: "29379A127D18F09C"
+					item: "moreup:fragment_harvest"
+					type: "item"
+				}
+			]
+			title: "&a&l[ ✦ 풍요의 파편 ]"
+			x: 4.25d
+			y: -0.25d
+			icon: "moreup:fragment_harvest"
+		}
+		{
+			dependencies: ["01F7DB6292CE4DC3"]
+			description: ["&7\"해가 지지도 뜨지도 않는 숲. 아홉 수호자는 황혼을 갉아먹는 그림자의 하수인이었다.\"&r", "", "&f황혼의 숲 트로피 9종으로 &2세계의 파편: 황혼&f을 만드십시오."]
+			id: "64557ECEE19B853A"
+			rewards: [
+				{
+					id: "36E8F9C09E6606C6"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+			]
+			tasks: [
+				{
+					id: "721617109E0D838C"
+					item: "moreup:fragment_twilight"
+					type: "item"
+				}
+			]
+			title: "&2&l[ ✦ 황혼의 파편 ]"
+			x: 6.0d
+			y: 0.5d
+			icon: "moreup:fragment_twilight"
+		}
+		{
+			dependencies: ["01F7DB6292CE4DC3"]
+			description: ["&7\"천상의 낙원은 당신이 마지막으로 바라본 하늘을 기억하고 있었다.\"&r", "", "&f에테르의 보물로 &e세계의 파편: 하늘&f을 만드십시오."]
+			id: "64C2E34888EF2565"
+			rewards: [
+				{
+					id: "04E9FF020718D820"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+			]
+			tasks: [
+				{
+					id: "733859F82CAC7394"
+					item: "moreup:fragment_sky"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 하늘의 파편 ]"
+			x: 6.0d
+			y: 2.0d
+			icon: "moreup:fragment_sky"
+		}
+		{
+			dependencies: ["7135C98159BDE0EE"]
+			description: ["&7\"얼음과 불과 번개의 폭군. 그 셋은 당신 비늘의 세 가지 빛깔이었다.\"&r", "", "&f세 용의 심장과 피, 드래곤스틸로 &6세계의 파편: 용&f을 만드십시오."]
+			id: "770BB19CEB7A4332"
+			rewards: [
+				{
+					id: "7443537C9FC062DB"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+			]
+			tasks: [
+				{
+					id: "3B9E0F83BEB0268F"
+					item: "moreup:fragment_dragon"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 용의 파편 ]"
+			x: 7.75d
+			y: -1.75d
+			icon: "moreup:fragment_dragon"
+		}
+		{
+			dependencies: ["7135C98159BDE0EE"]
+			description: ["&7\"끝없는 심연, 빛이 닿지 않는 곳에도 빛의 조각은 가라앉아 있었다.\"&r", "", "&f언더가든, 저편, 심연의 보물로 &8세계의 파편: 심연&f을 만드십시오."]
+			id: "71997F043F020C6F"
+			rewards: [
+				{
+					id: "7BC461424E90553D"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+			]
+			tasks: [
+				{
+					id: "76AC080E1CB80585"
+					item: "moreup:fragment_depths"
+					type: "item"
+				}
+			]
+			title: "&8&l[ ✦ 심연의 파편 ]"
+			x: 7.75d
+			y: -0.25d
+			icon: "moreup:fragment_depths"
+		}
+		{
+			dependencies: ["7135C98159BDE0EE"]
+			description: ["&7\"세계의 끝에서 잠든 거인들. 그들의 심장은 당신의 마지막 숨이었다.\"&r", "", "&fBOMD 보스들의 증표와 용의 유산으로 &d세계의 파편: 종말&f을 만드십시오."]
+			id: "6A8C6EF27A4CD5E6"
+			rewards: [
+				{
+					id: "705ADCED98BA4625"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+			]
+			tasks: [
+				{
+					id: "783CC577E940CEB2"
+					item: "moreup:fragment_end"
+					type: "item"
+				}
+			]
+			title: "&d&l[ ✦ 종말의 파편 ]"
+			x: 7.75d
+			y: 1.25d
+			icon: "moreup:fragment_end"
+		}
+		{
+			dependencies: ["78C48C0490899991"]
+			description: ["&7\"재앙의 화신 여덟을 무너뜨린 자만이 빛을 되찾을 자격을 얻는다.\"&r", "", "&fCataclysm 대보스들의 증표로 &c세계의 파편: 전쟁&f을 만드십시오."]
+			id: "1DCE2D66D525A0A5"
+			rewards: [
+				{
+					id: "495A443FA1C10972"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+			]
+			tasks: [
+				{
+					id: "7BB692CA0E0CF79B"
+					item: "moreup:fragment_war"
+					type: "item"
+				}
+			]
+			title: "&c&l[ ✦ 전쟁의 파편 ]"
+			x: 9.5d
+			y: -1.0d
+			icon: "moreup:fragment_war"
+		}
+		{
+			dependencies: [
+				"775E510AAF9819FC"
+				"63BF37048ED78DA0"
+				"72DCF04C19BC766F"
+				"64557ECEE19B853A"
+				"64C2E34888EF2565"
+				"770BB19CEB7A4332"
+				"71997F043F020C6F"
+				"6A8C6EF27A4CD5E6"
+				"1DCE2D66D525A0A5"
+			]
+			description: [
+				"&7\"모든 차원을 정복하고 파편을 되찾았다. 아홉 갈래로 찢어졌던 권능이 손 안에서 하나의 세계로 숨 쉰다.\"&r"
+				""
+				"&f하지만 아직 빛은 완전하지 않습니다."
+				"&f세상의 모든 빛을 집어삼키고 태양을 가려버린 마지막 그림자가 남아 있습니다."
+				"&c[다음 장: 황혼의 끝, 빛의 포효]"
+			]
+			id: "708AC3A6F98ABA01"
+			rewards: [
+				{
+					id: "746F50C6D63093C1"
+					type: "xp_levels"
+					xp_levels: 60
+				}
+			]
+			tasks: [
+				{
+					id: "7A6FBE174E1821F1"
+					item: "moreup:world"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ★ 세계 ]"
+			x: 11.25d
+			y: -1.0d
+			icon: "moreup:world"
+			shape: "gear"
+			size: 1.5d
+		}
+	]
+	title: "&6&l제4장 ❂ 완벽한 빛"
+}

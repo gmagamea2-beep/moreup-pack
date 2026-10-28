@@ -1,0 +1,16 @@
+{
+  "great-scrollable-tooltips.ui.title": "Great Scrollable Tooltips",
+  "great-scrollable-tooltips.ui.config.enable.true": "사용: §a켜짐",
+  "great-scrollable-tooltips.ui.config.enable.false": "사용: §c꺼짐",
+  "great-scrollable-tooltips.ui.config.auto-reset.true": "자동 초기화: §a켜짐",
+  "great-scrollable-tooltips.ui.config.auto-reset.false": "자동 초기화: §c꺼짐",
+  "great-scrollable-tooltips.ui.config.auto-reset.tooltip": "커서가 아이템에서 벗어나면 스크롤을 초기화한다",
+  "great-scrollable-tooltips.ui.config.sensitivity": "감도: %s",
+  "great-scrollable-tooltips.ui.config.reload": "설정 다시 불러오기",
+  "great-scrollable-tooltips.ui.config.done": "완료",
+  "great-scrollable-tooltips.key-binding.category": "Great Scrollable Tooltips",
+  "great-scrollable-tooltips.key-binding.scroll-up": "위로 스크롤",
+  "great-scrollable-tooltips.key-binding.scroll-left": "왼쪽으로 스크롤",
+  "great-scrollable-tooltips.key-binding.scroll-down": "아래로 스크롤",
+  "great-scrollable-tooltips.key-binding.scroll-right": "오른쪽으로 스크롤"
+}

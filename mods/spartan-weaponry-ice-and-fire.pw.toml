@@ -1,0 +1,13 @@
+name = "Spartan Weaponry: Ice and Fire"
+filename = "spartanfire-1.20.1-2.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "111edcee61f587151f3457345c4cacbe0f8f6fe4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5608442
+project-id = 606315

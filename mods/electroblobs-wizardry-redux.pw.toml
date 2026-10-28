@@ -1,0 +1,13 @@
+name = "Electroblob's Wizardry Redux"
+filename = "electroblobs-wizardry-redux-0.8.5.1-forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "eec49d9fad2bfa44b4116dc2ca4db644f64faf8e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8205805
+project-id = 1405790

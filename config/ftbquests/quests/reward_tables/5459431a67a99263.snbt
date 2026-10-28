@@ -1,0 +1,39 @@
+{
+	id: "5459431A67A99263"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"ebwizardry:imbuement_enchant": { }
+				}
+				id: "iceandfire:dragonbone_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.01f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"ebwizardry:imbuement_enchant": { }
+				}
+				id: "minecraft:netherite_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 5, item: "minecraft:netherite_ingot" }
+		{ count: 10, item: "minecraft:blaze_rod" }
+		{
+			type: "xp_levels"
+			xp_levels: 50
+		}
+	]
+	title: "위더"
+}

@@ -1,0 +1,1331 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "moreup_ae2"
+	group: "7E05AA7C371599AC"
+	icon: "ae2:controller"
+	id: "5C57C0BD214368FC"
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["운석 주변이나 동굴에서 찾자. 성장 가속기로 키울 수도 있다."]
+			id: "145160E7475B843F"
+			rewards: [
+				{
+					id: "59BC5C36AD7C41C6"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 8
+					id: "74AEF6A000E277D3"
+					item: "ae2:silicon"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "7978AA0A1DC57EFA"
+					item: "ae2:certus_quartz_crystal"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 서티스 석영 ]"
+			x: 0.0d
+			y: 0.0d
+			icon: "ae2:certus_quartz_crystal"
+		}
+		{
+			dependencies: ["145160E7475B843F"]
+			description: ["충전된 석영과 플루익스의 시작."]
+			id: "7AD998BF41753745"
+			rewards: [
+				{
+					id: "79913995A5875E8C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 16
+					id: "7D05ED5E2B9A8CF7"
+					item: "ae2:fluix_glass_cable"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "77D90D82A330C693"
+					item: "ae2:charger"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 충전기 ]"
+			x: 1.75d
+			y: -0.75d
+			icon: "ae2:charger"
+		}
+		{
+			dependencies: ["7AD998BF41753745"]
+			id: "7F079D006CB58461"
+			rewards: [
+				{
+					id: "477B2E2F923C4509"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 16
+					id: "6A9FDE92AAD0D1E5"
+					item: "ae2:fluix_glass_cable"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "7A8EF70519852F54"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+			]
+			title: "&5&l[ ✦ 플루익스 ]"
+			x: 3.5d
+			y: 0.0d
+			icon: "ae2:fluix_crystal"
+		}
+		{
+			dependencies: ["7F079D006CB58461"]
+			description: ["운석 안의 각인판으로 처리기를 찍는다."]
+			id: "1F4ED68D16500A17"
+			rewards: [
+				{
+					id: "78BC17EB3E3D8BFF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 8
+					id: "74D485D046CEF051"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7F614DFDDC0E59F7"
+					item: "ae2:inscriber"
+					type: "item"
+				}
+			]
+			title: "&7&l[ ✦ 각인기 ]"
+			x: 5.25d
+			y: 0.0d
+			icon: "ae2:inscriber"
+		}
+		{
+			dependencies: ["1F4ED68D16500A17"]
+			description: ["논리·계산·공학 처리기."]
+			id: "39AC8E55AF871B49"
+			rewards: [
+				{
+					id: "7D718A7F19BCDAA9"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "7389CD7A6725F722"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "146566C3936E7EF2"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1418969E10FA6D1C"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "45109EC7045EA8A1"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 세 가지 처리기 ]"
+			x: 7.0d
+			y: 0.0d
+			icon: "ae2:logic_processor"
+		}
+		{
+			dependencies: ["39AC8E55AF871B49"]
+			description: ["네트워크의 심장."]
+			id: "261E2AA89C430B7C"
+			rewards: [
+				{
+					id: "7286C7B61A3BB127"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 8
+					id: "55E25DF2CB7EB2FB"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "70E75A235040801F"
+					item: "ae2:controller"
+					type: "item"
+				}
+			]
+			title: "&3&l[ ✦ ME 컨트롤러 ]"
+			x: 8.75d
+			y: 0.0d
+			icon: "ae2:controller"
+		}
+		{
+			dependencies: ["261E2AA89C430B7C"]
+			id: "564496AE7B925E5D"
+			rewards: [
+				{
+					id: "40E3640ED3FFE07D"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 8
+					id: "710353FDD61DB60F"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "266C5A5DE8163444"
+					item: "ae2:drive"
+					type: "item"
+				}
+				{
+					id: "0A6AE02814C411E5"
+					item: "ae2:item_storage_cell_1k"
+					type: "item"
+				}
+			]
+			title: "&7&l[ ✦ ME 드라이브 ]"
+			x: 10.5d
+			y: -5.25d
+			icon: "ae2:drive"
+		}
+		{
+			dependencies: ["564496AE7B925E5D"]
+			description: ["네트워크 안의 모든 아이템을 한눈에."]
+			id: "6F08E08F3AA382D5"
+			rewards: [
+				{
+					id: "068AC285FDF156BA"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 16
+					id: "69E07809F756D37F"
+					item: "ae2:fluix_glass_cable"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "337CF9703DC69C77"
+					item: "ae2:crafting_terminal"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 조합 터미널 ]"
+			x: 12.25d
+			y: -5.25d
+			icon: "ae2:crafting_terminal"
+		}
+		{
+			dependencies: ["6F08E08F3AA382D5"]
+			description: ["패턴 제공기, 분자 조립기, 조합 유닛으로 자동 조합을 시작하자."]
+			id: "2E390AF9C3FB53A0"
+			rewards: [
+				{
+					id: "795412BDB854A8DC"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 2
+					id: "58419481B5CF759F"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "71B54761FEC8BEA4"
+					item: "ae2:pattern_provider"
+					type: "item"
+				}
+				{
+					id: "7A2F3CD33326A6A1"
+					item: "ae2:molecular_assembler"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "523F17CD911BDCAC"
+					item: "ae2:crafting_unit"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "578DBB323592E90B"
+					item: "ae2:blank_pattern"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 자동 조합 ]"
+			x: 14.0d
+			y: -2.25d
+			icon: "ae2:pattern_provider"
+		}
+		{
+			dependencies: ["564496AE7B925E5D"]
+			id: "489EA03F7B50F407"
+			rewards: [
+				{
+					id: "74BDACEADA4714B3"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "15D5A88ED9151AC3"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "719C0A0A8E64D196"
+					item: "ae2:item_storage_cell_64k"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 64k 저장 셀 ]"
+			x: 12.25d
+			y: -3.75d
+			icon: "ae2:item_storage_cell_64k"
+		}
+		{
+			dependencies: ["489EA03F7B50F407"]
+			id: "7EEDB63444829D48"
+			rewards: [
+				{
+					id: "1C52A97F2DEC29CE"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 2
+					id: "1A694E0E97109E6C"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "795956D5A6FEC6E2"
+					item: "ae2:item_storage_cell_256k"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 256k 저장 셀 ]"
+			x: 14.0d
+			y: -0.75d
+			icon: "ae2:item_storage_cell_256k"
+		}
+		{
+			dependencies: ["6F08E08F3AA382D5"]
+			description: ["어디서든 네트워크에 접속."]
+			id: "14317CBC946BE50E"
+			rewards: [
+				{
+					id: "71B15478D4929F48"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "7B813DD27D24EBD3"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7AE3C110FE1DA44F"
+					item: "ae2:wireless_access_point"
+					type: "item"
+				}
+				{
+					id: "7E227BE5FD47B099"
+					item: "ae2:wireless_crafting_terminal"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 무선 터미널 ]"
+			x: 14.0d
+			y: 0.75d
+			icon: "ae2:wireless_access_point"
+		}
+		{
+			dependencies: ["7EEDB63444829D48"]
+			description: ["물질을 압축한 특이점. &e세계의 파편: 기술&r의 재료다."]
+			id: "3956BB3E3DB68042"
+			rewards: [
+				{
+					id: "74B9411CF8C8E120"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 2
+					id: "5D1A6E5721CE7BC5"
+					item: "ae2:cell_component_16k"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7A4A69FF0A801D95"
+					item: "ae2:singularity"
+					type: "item"
+				}
+			]
+			title: "&5&l[ ✦ 특이점 ]"
+			x: 15.75d
+			y: -3.75d
+			icon: "ae2:singularity"
+		}
+		{
+			dependencies: ["7EEDB63444829D48"]
+			description: ["MEGA Cells로 저장 용량을 크게 늘리자."]
+			id: "7E5C0CA9F970CD7F"
+			rewards: [
+				{
+					id: "01FAC84498DA3D6D"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 2
+					id: "773F889D16D9505D"
+					item: "ae2:cell_component_16k"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "717A28971301A14E"
+					item: "megacells:item_storage_cell_1m"
+					type: "item"
+				}
+			]
+			title: "&d&l[ ✦ MEGA 셀 ]"
+			x: 15.75d
+			y: -2.25d
+			icon: "megacells:item_storage_cell_1m"
+		}
+		{
+			dependencies: ["7E5C0CA9F970CD7F"]
+			description: ["&e세계의 파편: 기술&r의 재료."]
+			id: "4CB7AE57A0EC32B0"
+			rewards: [
+				{
+					id: "77D078B7A6232004"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					count: 2
+					id: "4D0F2301BCC0787A"
+					item: "ae2:cell_component_16k"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7FCA747D5B396878"
+					item: "megacells:cell_component_256m"
+					type: "item"
+				}
+			]
+			title: "&d&l[ ✦ 256M 저장 부품 ]"
+			x: 17.5d
+			y: -5.25d
+			icon: "megacells:cell_component_256m"
+		}
+		{
+			dependencies: ["4CB7AE57A0EC32B0"]
+			description: ["Bigger AE2의 끝판 저장 셀."]
+			id: "70E0D845059EB8C2"
+			rewards: [
+				{
+					id: "7CCB81277B9A826D"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 2
+					id: "5018C41BCCD9B6A4"
+					item: "ae2:cell_component_16k"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7EDFEA718010869F"
+					item: "bigger_ae2:quantum_item_storage_cell"
+					type: "item"
+				}
+			]
+			title: "&5&l[ ✦ 양자 저장 셀 ]"
+			x: 19.25d
+			y: 0.0d
+			icon: "bigger_ae2:quantum_item_storage_cell"
+		}
+		{
+			dependencies: ["261E2AA89C430B7C"]
+			description: ["기계에서 아이템을 끌어오고 내보낸다."]
+			id: "6ECF3B8F8B16D7AB"
+			rewards: [
+				{
+					id: "7B329D2EE53A44E7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 8
+					id: "777B7820AFA7A1D1"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "77724A748E9D8358"
+					item: "ae2:import_bus"
+					type: "item"
+				}
+				{
+					id: "0DC20E37742B00ED"
+					item: "ae2:export_bus"
+					type: "item"
+				}
+			]
+			title: "&3&l[ ✦ 유입·유출 버스 ]"
+			x: 10.5d
+			y: -3.75d
+			icon: "ae2:import_bus"
+		}
+		{
+			dependencies: ["261E2AA89C430B7C"]
+			description: ["옆에 붙은 상자를 ME 저장소처럼 쓴다."]
+			id: "7E28278F88E340A7"
+			rewards: [
+				{
+					id: "1F60CB4B0356B2B2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 16
+					id: "2F5750E1DC6601DB"
+					item: "ae2:fluix_glass_cable"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6FDB55AC2AC3268F"
+					item: "ae2:storage_bus"
+					type: "item"
+				}
+			]
+			title: "&3&l[ ✦ ME 저장 버스 ]"
+			x: 10.5d
+			y: -2.25d
+			icon: "ae2:storage_bus"
+		}
+		{
+			dependencies: ["261E2AA89C430B7C"]
+			description: ["재고를 일정하게 채워 두거나 자동 조합 결과를 받는다."]
+			id: "701C9CEE75346B12"
+			rewards: [
+				{
+					id: "72E358F8B7F41B16"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 8
+					id: "4E1CAA93B3EE4C3B"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7647F679F1650C09"
+					item: "ae2:interface"
+					type: "item"
+				}
+			]
+			title: "&3&l[ ✦ ME 인터페이스 ]"
+			x: 10.5d
+			y: -0.75d
+			icon: "ae2:interface"
+		}
+		{
+			dependencies: ["6ECF3B8F8B16D7AB"]
+			description: ["저장된 양에 따라 레드스톤 신호를 낸다."]
+			id: "7E9550BFD8917D19"
+			rewards: [
+				{
+					id: "4567E71B37389BC4"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 8
+					id: "728A296A2C4EDA0A"
+					item: "ae2:certus_quartz_crystal"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "014D5021D545D860"
+					item: "ae2:level_emitter"
+					type: "item"
+				}
+			]
+			title: "&c&l[ ✦ ME 레벨 측정기 ]"
+			x: 12.25d
+			y: -2.25d
+			icon: "ae2:level_emitter"
+		}
+		{
+			dependencies: ["6ECF3B8F8B16D7AB"]
+			description: ["앞의 블록을 부숴 넣거나, 저장된 블록을 설치한다."]
+			id: "75CC21188725F5C1"
+			rewards: [
+				{
+					id: "007DF310B607B934"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 8
+					id: "79D65FA5D7F29F7F"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7680BEA84E4FE673"
+					item: "ae2:annihilation_plane"
+					type: "item"
+				}
+				{
+					id: "48EB9CBB3E0100AE"
+					item: "ae2:formation_plane"
+					type: "item"
+				}
+			]
+			title: "&5&l[ ✦ 소멸 평면과 생성면 ]"
+			x: 12.25d
+			y: -0.75d
+			icon: "ae2:annihilation_plane"
+		}
+		{
+			dependencies: ["261E2AA89C430B7C"]
+			description: ["한 채널로 아이템·액체·에너지·ME 연결을 멀리 보낸다."]
+			id: "7F4508B3A85247D3"
+			rewards: [
+				{
+					id: "7EDF9028693BE162"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 8
+					id: "7968D4C88602B41C"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "74575B8B01C719A6"
+					item: "ae2:me_p2p_tunnel"
+					type: "item"
+				}
+				{
+					id: "72AA836C6687B796"
+					item: "ae2:item_p2p_tunnel"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ P2P 터널 ]"
+			x: 10.5d
+			y: 0.75d
+			icon: "ae2:me_p2p_tunnel"
+		}
+		{
+			dependencies: ["261E2AA89C430B7C"]
+			description: ["ME 네트워크에 전기를 모아 둔다."]
+			id: "476EC1CD81AC5E7C"
+			rewards: [
+				{
+					id: "4DCBA7CCB790CE24"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 8
+					id: "2C4FBB2CC3A18E1E"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3680B104C6C5C89B"
+					item: "ae2:energy_cell"
+					type: "item"
+				}
+				{
+					id: "7950D0A7762E5B9E"
+					item: "ae2:dense_energy_cell"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 에너지 셀 ]"
+			x: 10.5d
+			y: 2.25d
+			icon: "ae2:energy_cell"
+		}
+		{
+			dependencies: ["261E2AA89C430B7C"]
+			description: ["설정을 복사해 붙이고, 네트워크 상태를 본다."]
+			id: "0F1ADEB5FE1EF103"
+			rewards: [
+				{
+					id: "7EF8C2ABED8D25FC"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 8
+					id: "512CB38616B6BF67"
+					item: "ae2:certus_quartz_crystal"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "752AA69F8D04C34D"
+					item: "ae2:memory_card"
+					type: "item"
+				}
+				{
+					id: "32F106BC41BA0A65"
+					item: "ae2:network_tool"
+					type: "item"
+				}
+			]
+			title: "&7&l[ ✦ 메모리 카드와 네트워크 도구 ]"
+			x: 10.5d
+			y: 3.75d
+			icon: "ae2:memory_card"
+		}
+		{
+			dependencies: ["145160E7475B843F"]
+			description: ["옆의 서티스 석영 싹이 훨씬 빨리 자란다."]
+			id: "6817562734BC568B"
+			rewards: [
+				{
+					id: "41824215C36C6840"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 8
+					id: "2FFEA8B965C92A58"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "79A40CCB883E12B5"
+					item: "ae2:growth_accelerator"
+					type: "item"
+				}
+			]
+			title: "&a&l[ ✦ 성장 가속기 ]"
+			x: 1.75d
+			y: 0.75d
+			icon: "ae2:growth_accelerator"
+		}
+		{
+			dependencies: ["564496AE7B925E5D"]
+			description: ["저장 셀의 내용을 다른 셀로 옮긴다."]
+			id: "5E66BB93F20AA566"
+			rewards: [
+				{
+					id: "7E5E2C69E8E047AD"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 8
+					id: "77690F3556259793"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7489E7C3C8403ECB"
+					item: "ae2:io_port"
+					type: "item"
+				}
+			]
+			title: "&7&l[ ✦ ME 입출력 포트 ]"
+			x: 12.25d
+			y: 0.75d
+			icon: "ae2:io_port"
+		}
+		{
+			dependencies: ["2E390AF9C3FB53A0"]
+			description: ["자동 조합 패턴을 쉽게 만든다."]
+			id: "5993302992FBD251"
+			rewards: [
+				{
+					id: "78E91658B95EA768"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 16
+					id: "7FCF585408BFDA40"
+					item: "ae2:fluix_glass_cable"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7F4B84133A44DC02"
+					item: "ae2:pattern_encoding_terminal"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ ME 패턴 터미널 ]"
+			x: 15.75d
+			y: -0.75d
+			icon: "ae2:pattern_encoding_terminal"
+		}
+		{
+			dependencies: ["2E390AF9C3FB53A0"]
+			description: ["조합 CPU에 붙이면 동시에 여러 작업을 한다."]
+			id: "73D9C7A9679227C3"
+			rewards: [
+				{
+					id: "3913079D0B53140A"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 16
+					id: "758A8F6AAE196334"
+					item: "ae2:fluix_glass_cable"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "762D2D0E21225FC0"
+					item: "ae2:crafting_accelerator"
+					type: "item"
+				}
+				{
+					id: "57845C6B13076D4F"
+					item: "ae2:crafting_monitor"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 조합 보조처리 유닛 ]"
+			x: 15.75d
+			y: 0.75d
+			icon: "ae2:crafting_accelerator"
+		}
+		{
+			dependencies: ["489EA03F7B50F407"]
+			description: ["액체를 저장하는 셀."]
+			id: "75F6F6A814938295"
+			rewards: [
+				{
+					id: "758FAC2BC237CF55"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 8
+					id: "732AC1E0BA661BA5"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "796DC8155406C87C"
+					item: "ae2:fluid_storage_cell_64k"
+					type: "item"
+				}
+			]
+			title: "&9&l[ ✦ 64k ME 액체 저장 셀 ]"
+			x: 14.0d
+			y: 2.25d
+			icon: "ae2:fluid_storage_cell_64k"
+		}
+		{
+			dependencies: ["7EEDB63444829D48"]
+			description: ["아이템을 물질로 바꾼다. 특이점을 만드는 기계."]
+			id: "7641D5DCC49D8965"
+			rewards: [
+				{
+					id: "71C154A5110C6481"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 16
+					id: "47B2942E28866062"
+					item: "ae2:fluix_glass_cable"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "23E27DC7CE351330"
+					item: "ae2:condenser"
+					type: "item"
+				}
+			]
+			title: "&5&l[ ✦ 물질 응축기 ]"
+			x: 15.75d
+			y: 2.25d
+			icon: "ae2:condenser"
+		}
+		{
+			dependencies: ["3956BB3E3DB68042"]
+			description: ["특이점으로 묶은 두 브리지는 차원을 넘어 네트워크를 잇는다."]
+			id: "57A95975026DA889"
+			rewards: [
+				{
+					id: "4B818550FAD7AD92"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 2
+					id: "7AA1DCF5A8313F7E"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "3C2B4CA67AFCE8D8"
+					item: "ae2:quantum_ring"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7B24664EE621319F"
+					item: "ae2:quantum_link"
+					type: "item"
+				}
+			]
+			title: "&5&l[ ✦ 양자 네트워크 브리지 ]"
+			x: 17.5d
+			y: -3.75d
+			icon: "ae2:quantum_ring"
+		}
+		{
+			dependencies: ["261E2AA89C430B7C"]
+			description: ["공간 저장 셀에 구역을 통째로 담아 옮긴다."]
+			id: "2217BBEF3EEDFBE7"
+			rewards: [
+				{
+					id: "728498D16C4B8683"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "74894184DC95428B"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4B35D97C05D5001E"
+					item: "ae2:spatial_io_port"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7F9FEE98417AA20B"
+					item: "ae2:spatial_pylon"
+					type: "item"
+				}
+				{
+					id: "78C079F3B9B68462"
+					item: "ae2:spatial_cell_component_2"
+					type: "item"
+				}
+			]
+			title: "&d&l[ ✦ 공간 저장 ]"
+			x: 10.5d
+			y: 5.25d
+			icon: "ae2:spatial_io_port"
+		}
+		{
+			dependencies: ["14317CBC946BE50E"]
+			description: ["무선 접속 지점의 범위를 넓힌다."]
+			id: "583BE41515AF8BA1"
+			rewards: [
+				{
+					id: "793843274AD129EA"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 8
+					id: "7283162B20BC421E"
+					item: "ae2:certus_quartz_crystal"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "7FDD0FD2D472CAA2"
+					item: "ae2:wireless_booster"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 무선 기지국 ]"
+			x: 15.75d
+			y: 3.75d
+			icon: "ae2:wireless_booster"
+		}
+		{
+			dependencies: ["564496AE7B925E5D"]
+			description: ["종류 제한 없이 담는 DISK 드라이브."]
+			id: "728BE6A12FF467AC"
+			rewards: [
+				{
+					id: "7972AE0E3273B91C"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 16
+					id: "3D8D86918EB05C00"
+					item: "ae2:fluix_glass_cable"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7D31E77C20C6BC61"
+					item: "ae2things:disk_drive_1k"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ ME DISK 드라이브 (AE2 Things) ]"
+			x: 12.25d
+			y: 2.25d
+			icon: "ae2things:disk_drive_1k"
+		}
+		{
+			dependencies: ["6ECF3B8F8B16D7AB"]
+			description: ["인터페이스에 끼워 버스 없이 아이템을 넣고 뺀다."]
+			id: "70D483CAC259AF27"
+			rewards: [
+				{
+					id: "191287E518B900FD"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 8
+					id: "74D1175012056B8C"
+					item: "ae2:silicon"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3DEA5FF5AB93B1AB"
+					item: "ae2insertexportcard:insert_card"
+					type: "item"
+				}
+				{
+					id: "74F100C2B9F8A3CB"
+					item: "ae2insertexportcard:export_card"
+					type: "item"
+				}
+			]
+			title: "&3&l[ ✦ 가져오기·내보내기 카드 ]"
+			x: 12.25d
+			y: 3.75d
+			icon: "ae2insertexportcard:insert_card"
+		}
+		{
+			dependencies: ["0F1ADEB5FE1EF103"]
+			description: ["네트워크 연결과 채널을 눈으로 보여 준다."]
+			id: "34EF5DA746A10807"
+			rewards: [
+				{
+					id: "7B0B2A15562634C9"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 8
+					id: "6A1C501C9CBB32DA"
+					item: "ae2:silicon"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7EDE572CB5DBA460"
+					item: "ae2netanalyser:network_analyser"
+					type: "item"
+				}
+			]
+			title: "&7&l[ ✦ ME 네트워크 분석기 ]"
+			x: 12.25d
+			y: 5.25d
+			icon: "ae2netanalyser:network_analyser"
+		}
+		{
+			dependencies: ["7E5C0CA9F970CD7F"]
+			description: ["더 큰 조합 CPU를 만드는 MEGA 부품."]
+			id: "74332E714AFE4440"
+			rewards: [
+				{
+					id: "739233DD5BF335EB"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "2AA9E3A05EE6981F"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "23142DF3A84871CA"
+					item: "megacells:mega_crafting_unit"
+					type: "item"
+				}
+				{
+					id: "2BFF68D845C2EFAA"
+					item: "megacells:mega_crafting_accelerator"
+					type: "item"
+				}
+			]
+			title: "&d&l[ ✦ MEGA 조합 유닛 ]"
+			x: 17.5d
+			y: -2.25d
+			icon: "megacells:mega_crafting_unit"
+		}
+		{
+			dependencies: ["7E5C0CA9F970CD7F"]
+			id: "3A8F19DB0FC86398"
+			rewards: [
+				{
+					id: "78795FC3C74505A3"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 8
+					id: "76E741A9B4912D3C"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "73053AE5D7E8028D"
+					item: "megacells:mega_energy_cell"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 초고밀도 에너지 셀 ]"
+			x: 17.5d
+			y: -0.75d
+			icon: "megacells:mega_energy_cell"
+		}
+		{
+			dependencies: ["7E5C0CA9F970CD7F"]
+			description: ["칸이 두 배인 인터페이스와 패턴 공급기."]
+			id: "7D9D8B998BECFD2F"
+			rewards: [
+				{
+					id: "73D9D6B17CCE56FE"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 8
+					id: "5C097D0BA9F66E0D"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "70251217C963A792"
+					item: "megacells:mega_interface"
+					type: "item"
+				}
+				{
+					id: "659DC2AF5CAFD43F"
+					item: "megacells:mega_pattern_provider"
+					type: "item"
+				}
+			]
+			title: "&d&l[ ✦ MEGA 인터페이스와 패턴 공급기 ]"
+			x: 17.5d
+			y: 0.75d
+			icon: "megacells:mega_interface"
+		}
+		{
+			dependencies: ["7E5C0CA9F970CD7F"]
+			description: ["한 종류만 끝없이 담는 대량 셀."]
+			id: "70FDDB723EEA6CBF"
+			rewards: [
+				{
+					id: "78306BBEAA479F47"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "7B56F5B10C0E661A"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6DCB713D67F1BC1E"
+					item: "megacells:bulk_item_cell"
+					type: "item"
+				}
+			]
+			title: "&d&l[ ✦ MEGA 대량 아이템 저장 셀 ]"
+			x: 17.5d
+			y: 2.25d
+			icon: "megacells:bulk_item_cell"
+		}
+		{
+			dependencies: ["728BE6A12FF467AC", "7E5C0CA9F970CD7F"]
+			id: "7F15427F41EF9D00"
+			rewards: [
+				{
+					id: "7BF5D4537D82E175"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "7333DE5A147ABEE7"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "77AD0EEBB6F1498E"
+					item: "ae2_mega_things:item_disk_drive_1m"
+					type: "item"
+				}
+			]
+			title: "&d&l[ ✦ MEGA DISK 드라이브 ]"
+			x: 17.5d
+			y: 3.75d
+			icon: "ae2_mega_things:item_disk_drive_1m"
+		}
+		{
+			dependencies: ["73D9C7A9679227C3"]
+			description: ["코어 수가 많은 조합 가속기 (Bigger AE2)."]
+			id: "7C28A598385F219D"
+			rewards: [
+				{
+					id: "7942F642E6DA47B8"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "119327C08B2B98F0"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "735317195C0AAFC2"
+					item: "bigger_ae2:64_core_crafting_accelerator"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 64코어 제작 가속기 ]"
+			x: 17.5d
+			y: 5.25d
+			icon: "bigger_ae2:64_core_crafting_accelerator"
+		}
+	]
+	title: "&b&l✦ 응용 에너지 (AE2)"
+}

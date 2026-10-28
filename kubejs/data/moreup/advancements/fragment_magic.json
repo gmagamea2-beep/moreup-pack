@@ -1,0 +1,32 @@
+{
+    "parent":  "moreup:root",
+    "display":  {
+                    "icon":  {
+                                 "item":  "moreup:fragment_magic"
+                             },
+                    "title":  {
+                                  "translate":  "advancements.moreup.fragment_magic.title"
+                              },
+                    "description":  {
+                                        "translate":  "advancements.moreup.fragment_magic.description"
+                                    },
+                    "frame":  "goal",
+                    "show_toast":  true,
+                    "announce_to_chat":  true,
+                    "hidden":  false
+                },
+    "criteria":  {
+                     "has_fragment":  {
+                                          "trigger":  "minecraft:inventory_changed",
+                                          "conditions":  {
+                                                             "items":  [
+                                                                           {
+                                                                               "items":  [
+                                                                                             "moreup:fragment_magic"
+                                                                                         ]
+                                                                           }
+                                                                       ]
+                                                         }
+                                      }
+                 }
+}

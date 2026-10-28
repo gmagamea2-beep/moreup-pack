@@ -1,0 +1,3 @@
+#If true, spawners will ignore light levels when spawning entities.
+spawnersIgnoreLight = true
+

@@ -1,0 +1,13 @@
+name = "Progressive Mechanics Library"
+filename = "pml-1.0.4b-all.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ea9d0847dde7ec58f37b52e3c1782b0d03b6dd49"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7597380
+project-id = 1235043

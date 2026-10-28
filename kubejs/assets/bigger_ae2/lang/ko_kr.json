@@ -1,0 +1,23 @@
+{
+  "block.bigger_ae2.1024_core_crafting_accelerator": "1024코어 제작 가속기",
+  "block.bigger_ae2.16_core_crafting_accelerator": "16코어 제작 가속기",
+  "block.bigger_ae2.256_core_crafting_accelerator": "256코어 제작 가속기",
+  "block.bigger_ae2.4_core_crafting_accelerator": "4코어 제작 가속기",
+  "block.bigger_ae2.64_core_crafting_accelerator": "64코어 제작 가속기",
+  "item.bigger_ae2.advanced_fluid_cell_housing": "고급 유체 셀 외장",
+  "item.bigger_ae2.advanced_flux_cell_housing": "고급 플럭스 셀 외장",
+  "item.bigger_ae2.advanced_item_cell_housing": "고급 아이템 셀 외장",
+  "item.bigger_ae2.digital_singularity_cell_component": "디지털 특이점 셀 부품",
+  "item.bigger_ae2.digital_singularity_fluid_storage_cell": "디지털 특이점 유체 저장 셀",
+  "item.bigger_ae2.digital_singularity_flux_storage_cell": "디지털 특이점 플럭스 저장 셀",
+  "item.bigger_ae2.digital_singularity_item_storage_cell": "디지털 특이점 아이템 저장 셀",
+  "item.bigger_ae2.quantum_cell_component": "양자 셀 부품",
+  "item.bigger_ae2.quantum_fluid_storage_cell": "양자 유체 저장 셀",
+  "item.bigger_ae2.quantum_flux_storage_cell": "양자 플럭스 저장 셀",
+  "item.bigger_ae2.quantum_item_storage_cell": "양자 아이템 저장 셀",
+  "itemGroup.bigger_ae2.bigger_ae2": "Bigger Ae2",
+  "tooltip.bigger_ae2.contains": "내용물: %s",
+  "tooltip.bigger_ae2.empty": "비어 있음",
+  "tooltip.bigger_ae2.partitioned": "분할 대상: %s",
+  "tooltip.bigger_ae2.quantity": "수량: %s"
+}

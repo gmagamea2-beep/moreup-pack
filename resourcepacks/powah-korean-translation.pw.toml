@@ -1,0 +1,13 @@
+name = "Powah Korean Translation"
+filename = "Powah Korean Language Pack.zip"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "1165b33989989bc00d8add571356891be834dceb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6880889
+project-id = 1321870

@@ -1,0 +1,17 @@
+{
+  "item.ends_delight.enderman_gristle": "엔더맨 연골",
+  "item.ends_delight.raw_ender_sausage": "익히지 않은 엔더 소시지",
+  "item.ends_delight.ender_sausage": "엔더 소시지",
+  "item.ends_delight.enderman_gristle_stew": "엔더맨 연골 스튜",
+  "item.ends_delight.shulker_soup": "셜커 수프",
+  "item.ends_delight.shulker_omelette_mixture": "셜커 오믈렛 반죽",
+  "item.ends_delight.shulker_omelette": "셜커 오믈렛",
+  "item.ends_delight.ender_noodle": "엔더 국수",
+  "item.ends_delight.ender_bamboo_rice": "엔더 대나무 밥",
+  "ends_delight.advancement.get_levitation_buff_by_consuming_dish": "천국에 가는 기분",
+  "ends_delight.advancement.get_levitation_buff_by_consuming_dish.desc": "End's Delight 요리를 먹고 공중 부양 효과 얻기",
+  "ends_delight.advancement.consume_enderman_gristle": "위로 도약!",
+  "ends_delight.advancement.consume_enderman_gristle.desc": "엔더맨 연골 먹기",
+  "death.attack.ends_delight.enderman_gristle_teleport": "%1$s이(가) 땅에 너무 세게 부딪혔습니다",
+  "death.attack.ends_delight.enderman_gristle_teleport.player": "%1$s이(가) %2$s에게서 도망치려다 땅에 너무 세게 부딪혔습니다"
+}

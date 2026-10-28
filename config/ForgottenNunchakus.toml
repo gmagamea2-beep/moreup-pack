@@ -1,0 +1,23 @@
+#A resource location for the lightning damage type. Default: minecraft:lightning
+lightning_damage = "fn:nunchaku_shock"
+#A resource location for the lightning mob effect. Default: minecraft:slowness
+lightning_mobeffect = "minecraft:slowness"
+#Combo duration in ticks (from 0 to 255)
+#Range: 0 ~ 255
+combo_duration = 30
+#Initial Damage in percentage
+#Range: 0.1 ~ 1.0
+combo_base = 1.0
+#Damage Increase per attack
+#Range: 0.01 ~ 1.0
+combo_increase = 0.1
+#Damage cap
+#Range: 1.0 ~ 100.0
+combo_cap = 1.4
+#Damage increase of combo enchantment per level
+#Range: 0.01 ~ 1.0
+combo_enchantment = 0.15
+#Lightning nunchakus cooldown in ticks to trigger a lightning attack effect (from 0 to 255)
+#Range: 0 ~ 255
+lightning_cooldown = 20
+

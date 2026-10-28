@@ -1,0 +1,72 @@
+{
+	id: "3644A34180D8B399"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "ebwizardry:wand_novice_earth"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ebwizardry:wand_novice_fire"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ebwizardry:wand_novice_healing"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ebwizardry:wand_novice_ice"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ebwizardry:wand_novice_lightning"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ebwizardry:wand_novice_necromancy"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ebwizardry:wand_novice_sorcery"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "ebwizardry:arcane_tome_advanced", weight: 0.1f }
+	]
+	title: "진화마법"
+}

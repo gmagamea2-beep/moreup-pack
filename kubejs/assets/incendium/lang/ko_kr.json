@@ -1,0 +1,11 @@
+{
+  "incendium.item.eternal_glowing.name": "투척용 영원한 발광의 물약",
+  "incendium.item.eternal_glowing.desc": "발광 (∞)",
+  "incendium.item.bad_omen_pot.name": "나쁜 징조의 물약",
+  "incendium.item.banner_blade.name": "칼날의 현수막",
+  "incendium.item.banner_ominous.name": "불길한 현수막",
+  "incendium.item.banner_poppy.name": "양귀비의 맹세",
+  "incendium.item.banner_sanctum.name": "성소의 맹세",
+  "incendium.system.nbs.uninstall": "제거되었다. 이제 데이터팩 폴더에서 지워도 된다.",
+  "incendium.mob.sanctum.ritualist.name": "성소 의식사"
+}

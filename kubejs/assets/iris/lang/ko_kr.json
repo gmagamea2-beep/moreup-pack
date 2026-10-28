@@ -1,0 +1,7 @@
+{
+  "iris.load.failure.shader": "셰이더팩을 불러오지 못했다! 셰이더 제작자에게 오류를 알려 주세요.",
+  "iris.load.failure.generic": "Oculus가 셰이더를 불러오는 중 문제가 생겼다. Oculus 개발자에게 알려 주세요.",
+  "iris.keybind.wireframe": "와이어프레임 (싱글플레이 전용)",
+  "options.iris.colorSpace": "색 공간",
+  "options.iris.colorSpace.sodium_tooltip": "화면을 변환할 색 공간이다. 셰이더팩 위에 적용된다. 잘 모르면 SRGB를 쓰세요."
+}

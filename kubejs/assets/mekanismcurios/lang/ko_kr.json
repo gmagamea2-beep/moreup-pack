@@ -1,0 +1,12 @@
+{
+  "key.categories.mekanismcurios": "Mekanism Curios",
+  "key.mekanismcurios.protableqio": "휴대용 QIO 열기",
+  "key.mekanismcurios.portableteleporter": "휴대용 텔레포터 열기",
+  "key.mekanismcurios.quickteleport": "빠른 순간이동",
+  "key.mekanismcurios.quickteleport.notconnected": "휴대용 텔레포터가 연결되지 않았다.",
+  "key.mekanismcurios.quickteleport.empty": "장신구 칸에 휴대용 텔레포터가 없다.",
+  "key.mekanismcurios.quickteleport.noenergy": "휴대용 텔레포터의 에너지가 다 떨어졌다.",
+  "key.mekanismcurios.quickteleport.notfound": "이 주파수에서 텔레포터를 찾을 수 없다.",
+  "curios.identifier.qio": "QIO",
+  "curios.identifier.teleporter": "순간이동기"
+}

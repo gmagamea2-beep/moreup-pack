@@ -1,0 +1,13 @@
+name = "Create: Creative recipes"
+filename = "create_creative-1.0.5-forge-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "af782ea44cbe7c1417471e280299d2237051692a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7610945
+project-id = 1108252

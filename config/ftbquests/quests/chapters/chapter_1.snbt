@@ -1,0 +1,511 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_1"
+	group: "5E3B475B0E7170C2"
+	icon: "aquaculture:nether_star_hook"
+	id: "51132BC995C0EB89"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&7\"어둠뿐인 공허 속에서, 7개의 파편이 흩어졌다.\"&r"
+				""
+				"&f당신은 억겁의 시간 동안 기억을 잃은 채, "
+				"죽음과 환생의 굴레를 반복하며 이 진흙투성이 행성에 추락했습니다."
+				""
+				"&b신이었던 당신의 몸은 이제 나약한 필멸자의 껍데기뿐이지만,"
+				"영혼 깊은 곳에는 태초의 '별'이었던 당신의 의지가 타오르고 있습니다."
+				""
+				"&7먼저 발을 붙일 곳을 찾으십시오. "
+				"이 땅에 당신의 침대를 놓는 순간, 육신은 다시 부서져도 "
+				"영혼은 결코 사라지지 않는 영원한 '윤회의 닻'이 내려질 것입니다."
+				""
+				"&c[퀘스트를 클릭하여 당신의 운명을 받아들이십시오.]"
+			]
+			icon: "minecraft:nether_star"
+			icon_scale: 2.0d
+			id: "332591CA049E2238"
+			rewards: [
+				{
+					id: "6AC7E853B48A6A9D"
+					item: "minecraft:red_bed"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/function scene:act1_start"
+					exclude_from_claim_all: true
+					icon: "minecraft:nether_star"
+					id: "37D7C278D9F4156F"
+					team_reward: true
+					title: "&l 잊혀진 기억"
+					type: "command"
+					elevate_perms: true
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "4E6316A640FB86EF"
+					title: "&f&l✧ &6&l[ 윤회의 닻을 내리다 ]"
+					type: "checkmark"
+				}
+			]
+			title: "&6&l[ ⚡ 추락한 빛 ]"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["332591CA049E2238"]
+			description: ["&7\"주변을 둘러보십시오. 고대의 숲이 당신을 반깁니다. 육신을 보호할 최소한의 자원을 확보하십시오.\""]
+			icon: "minecraft:oak_log"
+			id: "712C87AAC338AFFF"
+			rewards: [
+				{
+					id: "16816912ECB3747D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "12BC3DAF8B64A63D"
+					item: {
+						Count: 16
+						id: "minecraft:oak_log"
+					}
+					type: "item"
+				}
+			]
+			title: "&a&l[ 🌱 깨어난 육신 ]"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["712C87AAC338AFFF"]
+			description: ["&7\"맨손으로는 아무것도 할 수 없습니다. 작업대를 만들고, 돌로 된 도구를 제작하여 대지의 껍질을 벗기십시오.\""]
+			icon: {
+				Count: 1
+				id: "minecraft:stone_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0EF9A238CF11783A"
+			rewards: [
+				{
+					id: "4A15C9449D339AFD"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "26500924DCC968FD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"ebwizardry:imbuement_enchant": { }
+						}
+						id: "minecraft:stone_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&7&l[ ⛏ 필멸자의 도구 ]"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0EF9A238CF11783A"]
+			description: ["&7\"밤은 차갑고 어둡습니다. 화로를 피워 금속을 제련하고, 당신의 생존을 위한 온기를 유지하십시오.\""]
+			icon: "minecraft:campfire"
+			id: "07E5780779215892"
+			rewards: [
+				{
+					count: 2
+					id: "6D9C4D86600D2C6D"
+					item: "minecraft:lantern"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "732AA013763DAED8"
+					item: "minecraft:campfire"
+					type: "item"
+				}
+			]
+			title: "&c&l[ 🔥 온기의 흔적 ]"
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["07E5780779215892"]
+			description: ["&7\"대지의 깊은 곳에서 철을 캐내십시오. 이것은 단순한 돌덩이가 아니라, 당신의 새로운 몸이 될 강철의 원재료입니다.\""]
+			icon: "minecraft:iron_ingot"
+			id: "26BF0196FD39E8E6"
+			rewards: [
+				{
+					count: 7
+					id: "2A668494B8EB90C0"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "2A0A57C53EA81FCE"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 12L
+					id: "45EF58D90B0E3B10"
+					item: {
+						Count: 12
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			title: "&f&l[ ⚒ 강철을 꿈꾸며 ]"
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["26BF0196FD39E8E6"]
+			description: ["&7\"철과 안데사이트를 섞어 첫 번째 합금을 만드십시오. 기계의 박동이 당신의 손끝에서부터 시작됩니다.\""]
+			icon: "create:andesite_alloy"
+			id: "49DDE02C136AD914"
+			rewards: [
+				{
+					id: "7ADDC17B8A59FABB"
+					item: "create:large_water_wheel"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "5B68608C34A1664C"
+					item: {
+						Count: 16
+						id: "create:andesite_alloy"
+					}
+					type: "item"
+				}
+			]
+			title: "&b&l[ ⚙ 첫 번째 심장 박동 ]"
+			x: 2.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["26BF0196FD39E8E6"]
+			description: ["&7\"더 깊은 곳으로 나아가야 합니다. 지옥의 광물을 캐내기 위해, 대지에서 가장 단단한 물질인 다이아몬드로 곡괭이를 만드십시오.\""]
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "050BAF4E38383A07"
+			rewards: [
+				{
+					count: 3
+					id: "27416EC4FB5629D1"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6595A265A1C142FA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"ebwizardry:imbuement_enchant": { }
+						}
+						id: "minecraft:diamond_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&b&l[ 💎 대지의 가장 단단한 뼈 ]"
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["050BAF4E38383A07"]
+			description: ["&7\"다이아몬드 곡괭이로 흑요석(Obsidian)을 캐내고 부싯돌로 불을 붙이십시오. 일그러진 차원의 문 너머, 네더(Nether)가 당신을 기다립니다.\""]
+			icon: "minecraft:obsidian"
+			id: "6C5D8D4C21486E36"
+			tasks: [
+				{
+					count: 14L
+					id: "6A2ECAA74263752B"
+					item: {
+						Count: 14
+						id: "minecraft:obsidian"
+					}
+					type: "item"
+				}
+			]
+			title: "&5&l[ 🌌 차원의 균열 ]"
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6C5D8D4C21486E36"]
+			description: ["&7\"네더 요새를 찾아내고 맹화의 정령인 블레이즈를 처치하십시오. 그들이 남긴 막대는 당신의 영혼을 깨울 연금술의 핵심 재료입니다.\""]
+			icon: "quark:nether_brick_chest"
+			id: "0BEE2644FF1C9BD0"
+			rewards: [
+				{
+					id: "16E4A8A2156E89C4"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: "quark:nether_brick_chest"
+					id: "1D720D16CD5247EF"
+					structure: "betterfortresses:fortress"
+					title: "&4&l[ 맹화의 시련 ]"
+					type: "structure"
+				}
+			]
+			title: "&4&l[ 맹화의 시련 ]"
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0BEE2644FF1C9BD0"]
+			description: ["&7\"블레이즈 가루와 네더와트를 이용해 양조기를 만드십시오. 이제 차가운 물속에서도 버틸 수 있는 비약을 만들어야 합니다.\""]
+			hide_text_until_complete: false
+			icon: "minecraft:brewing_stand"
+			id: "59104532450AD38F"
+			rewards: [
+				{
+					count: 5
+					id: "52A1122655915358"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:water"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2803C86F13C5DAEF"
+					item: "minecraft:brewing_stand"
+					type: "item"
+				}
+				{
+					id: "1DC0448668D6A5D6"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "64E098DDCE04B2D9"
+					item: {
+						Count: 4
+						id: "minecraft:nether_wart"
+					}
+					type: "item"
+				}
+			]
+			title: "&d&l[ 🧪 연금술의 발현 ]"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["59104532450AD38F"]
+			description: ["&7\"복어가 들어간 수중 호흡 포션을 완성하십시오. 이제 숨 막히는 심해로 뛰어들 모든 준비가 끝났습니다.\""]
+			icon: "minecraft:potion"
+			id: "3FCECD0239BDA9FB"
+			rewards: [
+				{
+					id: "3CEAD9DB93326C63"
+					item: {
+						Count: 1
+						id: "minecraft:turtle_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "22EB0F50F9AAC739"
+					item: "minecraft:conduit"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "379872952D85FD5A"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:water_breathing"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&9&l[ 🌊 심해의 호흡 ]"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3FCECD0239BDA9FB"]
+			icon: "minecraft:elder_guardian_spawn_egg"
+			id: "7BC6B98C5E762354"
+			rewards: [
+				{
+					id: "0FC6D3C6FCBE6FD9"
+					item: {
+						Count: 1
+						id: "waystones:warp_stone"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "287BE2061F019CC3"
+					item: "moreup:boss_essence_low"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					entity: "minecraft:elder_guardian"
+					icon: "minecraft:elder_guardian_spawn_egg"
+					id: "66757A9073E37D53"
+					title: "&4&l[ 🔱 신의 파수꾼 처치 ]"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&4&l[ 🔱 신의 파수꾼 처치 ]"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["050BAF4E38383A07"]
+			description: ["&7\"기본 가죽 배낭으로는 미궁에서 쏟아지는 전리품을 감당하기에 역부족입니다. 튼튼한 철을 둘러 배낭의 용량을 확장하고 본격적인 파밍을 준비하십시오.\""]
+			icon: "minecraft:iron_ingot"
+			id: "3FB64505F8970852"
+			rewards: [
+				{
+					count: 5
+					id: "787BE2F5C33950F9"
+					item: "sophisticatedbackpacks:upgrade_base"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3EC2F27887277092"
+					item: {
+						Count: 1
+						id: "sophisticatedbackpacks:iron_backpack"
+						tag: {
+							inventorySlots: 54
+							upgradeSlots: 2
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&f&l[ 🎒 철의 수납장 ]"
+			x: 4.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["3FB64505F8970852"]
+			description: ["&7\"지하 미궁 깊은 곳으로 내려갈수록 챙겨야 할 보물도 많아집니다. 금으로 배낭을 한 단계 더 강화하여 당신의 탐욕을 채울 공간을 마련하십시오.\""]
+			icon: "minecraft:gold_ingot"
+			id: "3BACCC49EF8251F9"
+			rewards: [
+				{
+					id: "6148A27C19953A8F"
+					item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "257C18D610A9181A"
+					item: {
+						Count: 1
+						id: "sophisticatedbackpacks:gold_backpack"
+						tag: {
+							inventorySlots: 81
+							upgradeSlots: 3
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&e&l[ 🎒 황금빛 탐욕 ]"
+			x: 7.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["3BACCC49EF8251F9"]
+			description: ["&7\"대지에서 가장 단단한 광물인 다이아몬드로 배낭의 한계를 돌파하십시오. 이제 웬만한 창고 하나를 통째로 등에 짊어지고 다니는 것과 같습니다. 네더의 가혹한 환경을 버틸 든든한 보급창고가 될 것입니다.\""]
+			icon: "minecraft:diamond"
+			id: "63CC3024E33185EE"
+			rewards: [
+				{
+					id: "1A9DF83E6F669861"
+					item: "sophisticatedbackpacks:tool_swapper_upgrade"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7C0ED32C2AAA574E"
+					item: {
+						Count: 1
+						id: "sophisticatedbackpacks:diamond_backpack"
+						tag: {
+							inventorySlots: 108
+							upgradeSlots: 5
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&b&l[ 🎒 대지의 보물고 ]"
+			x: 7.5d
+			y: -9.5d
+		}
+	]
+	title: "&6&l제1장 ✧ 추락한 빛"
+}

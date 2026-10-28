@@ -1,0 +1,13 @@
+name = "Bossominium"
+filename = "bossominium-18.6.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "bbeb1b76286922880dcccc05aab86e3bbe361127"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6125597
+project-id = 694188

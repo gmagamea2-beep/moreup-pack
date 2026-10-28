@@ -1,0 +1,32 @@
+{
+    "parent":  "moreup:root",
+    "display":  {
+                    "icon":  {
+                                 "item":  "moreup:world"
+                             },
+                    "title":  {
+                                  "translate":  "advancements.moreup.world.title"
+                              },
+                    "description":  {
+                                        "translate":  "advancements.moreup.world.description"
+                                    },
+                    "frame":  "challenge",
+                    "show_toast":  true,
+                    "announce_to_chat":  true,
+                    "hidden":  false
+                },
+    "criteria":  {
+                     "has_world":  {
+                                       "trigger":  "minecraft:inventory_changed",
+                                       "conditions":  {
+                                                          "items":  [
+                                                                        {
+                                                                            "items":  [
+                                                                                          "moreup:world"
+                                                                                      ]
+                                                                        }
+                                                                    ]
+                                                      }
+                                   }
+                 }
+}

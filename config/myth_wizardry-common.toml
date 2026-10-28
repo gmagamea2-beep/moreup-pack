@@ -1,0 +1,10 @@
+
+#Myth Wizardry Common Configuration
+[common]
+	#Enable mana system
+	enableManaSystem = true
+	#Enable Mage Heart item
+	enableMageHeartItem = true
+	#Enable mana regeneration
+	enableManaRegen = true
+

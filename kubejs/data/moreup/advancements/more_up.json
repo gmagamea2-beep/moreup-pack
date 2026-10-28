@@ -1,0 +1,35 @@
+{
+    "parent":  "moreup:world",
+    "display":  {
+                    "icon":  {
+                                 "item":  "moreup:more_up"
+                             },
+                    "title":  {
+                                  "translate":  "advancements.moreup.more_up.title"
+                              },
+                    "description":  {
+                                        "translate":  "advancements.moreup.more_up.description"
+                                    },
+                    "frame":  "challenge",
+                    "show_toast":  true,
+                    "announce_to_chat":  true,
+                    "hidden":  false
+                },
+    "criteria":  {
+                     "has_more_up":  {
+                                         "trigger":  "minecraft:inventory_changed",
+                                         "conditions":  {
+                                                            "items":  [
+                                                                          {
+                                                                              "items":  [
+                                                                                            "moreup:more_up"
+                                                                                        ]
+                                                                          }
+                                                                      ]
+                                                        }
+                                     }
+                 },
+    "rewards":  {
+                    "experience":  1000
+                }
+}

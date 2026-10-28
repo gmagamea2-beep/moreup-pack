@@ -1,0 +1,23 @@
+[
+  {
+    "mod": "cataclysm",
+    "mincount": { "amount": 15, "mod": "cataclysm" },
+    "result": "deny"
+  },
+  {
+    "mod": "mowziesmobs",
+    "mincount": { "amount": 20, "mod": "mowziesmobs" },
+    "result": "deny"
+  },
+  {
+    "mod": "iceandfire",
+    "mincount": { "amount": 40, "mod": "iceandfire" },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "hostile": true,
+    "mincount": { "amount": 150, "hostile": true },
+    "result": "deny"
+  }
+]

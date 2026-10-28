@@ -1,0 +1,327 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_6"
+	group: "5E3B475B0E7170C2"
+	icon: "moreup:dusk_fragment"
+	id: "78E8D6781CAE4176"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["61C5F1CCB42D1C3C"]
+			description: [
+				"&7\"우주는 정체를 끝내고 다시 팽창하기 시작했다. 끝이 아닌, 새로운 창세의 시작이다.\"&r"
+				""
+				"&f황혼의 군주는 쓰러졌지만, 그가 붙잡고 있던 황혼의 힘은 조각이 되어 세계에 남았습니다."
+				"&f새로운 성룡이 된 당신이 그 힘의 주인이 될 차례입니다."
+				""
+				"&c[에필로그: 황혼을 다스리는 별]"
+			]
+			id: "7C5864A57C61A318"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/function scene:act6_start"
+					exclude_from_claim_all: true
+					id: "00D94DCA9C6A7C1F"
+					team_reward: true
+					type: "command"
+					elevate_perms: true
+				}
+			]
+			tasks: [
+				{
+					id: "7A53286A4C61D1E3"
+					title: "&e&l[ ✦ 다시 팽창하는 우주 ]"
+					type: "checkmark"
+				}
+			]
+			title: "&e&l[ ★ 새로운 창세 ]"
+			icon: "minecraft:end_crystal"
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			size: 1.5d
+		}
+		{
+			dependencies: ["7C5864A57C61A318"]
+			description: ["&7\"군주가 쓰러질 때마다 황혼은 조금씩 부서져 내린다.\"&r", "", "&f모어를 처치하면 근처 플레이어마다 황혼의 조각 40개가 떨어집니다. 황혼의 인장으로 몇 번이고 다시 부를 수 있습니다."]
+			id: "7CEE5B28F51AB716"
+			rewards: [
+				{
+					id: "2BCFFDBCF99A086F"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			tasks: [
+				{
+					count: 40L
+					id: "725F4D281137ABAC"
+					item: "moreup:dusk_shard"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 황혼의 조각 ]"
+			x: 1.75d
+			y: 0.0d
+			icon: "moreup:dusk_shard"
+		}
+		{
+			dependencies: ["7CEE5B28F51AB716"]
+			description: ["&f조각 8개와 전설 보스 정수 1개로 황혼의 파편을 만듭니다."]
+			id: "7084E727B8C21E26"
+			rewards: [
+				{
+					id: "7B4F14C766EAA9BF"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			tasks: [
+				{
+					id: "76B1DFE38A45193A"
+					item: "moreup:dusk_fragment"
+					type: "item"
+				}
+			]
+			title: "&d&l[ ✦ 황혼의 파편 ]"
+			x: 3.5d
+			y: 0.0d
+			icon: "moreup:dusk_fragment"
+		}
+		{
+			dependencies: ["7084E727B8C21E26"]
+			description: ["&7\"검이든 창이든, 황혼은 새로운 별의 손에 맞춰 형태를 바꾼다.\"&r", "", "&f황혼의 검을 만드십시오. 대검·클로·창·활도 이 장에 있습니다."]
+			id: "3E71042DE579A7B2"
+			rewards: [
+				{
+					id: "76FD7478896224EC"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			tasks: [
+				{
+					id: "384377391F523F28"
+					item: "moreup:dusk_sword"
+					type: "item"
+				}
+			]
+			title: "&5&l[ ✦ 황혼의 무구 ]"
+			x: 5.25d
+			y: -3.75d
+			icon: "moreup:dusk_sword"
+		}
+		{
+			dependencies: ["7084E727B8C21E26"]
+			description: ["&f느리지만 묵직하다. 공격 사거리 +1."]
+			id: "7F07A56D1FAA3E50"
+			rewards: [
+				{
+					id: "7338ABECA1DE11BD"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			tasks: [
+				{
+					id: "1A3C683FE3813073"
+					item: "moreup:dusk_greatsword"
+					type: "item"
+				}
+			]
+			title: "&5&l[ ✦ 황혼의 대검 ]"
+			x: 5.25d
+			y: -2.25d
+			icon: "moreup:dusk_greatsword"
+		}
+		{
+			dependencies: ["7084E727B8C21E26"]
+			description: ["&f아주 빠른 연타."]
+			id: "769E5AA35C122FEF"
+			rewards: [
+				{
+					id: "506D82BB2D9B0D0A"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			tasks: [
+				{
+					id: "7A2EA0F36E97F6EF"
+					item: "moreup:dusk_claw"
+					type: "item"
+				}
+			]
+			title: "&5&l[ ✦ 황혼의 클로 ]"
+			x: 5.25d
+			y: -0.75d
+			icon: "moreup:dusk_claw"
+		}
+		{
+			dependencies: ["7084E727B8C21E26"]
+			description: ["&f공격 사거리 +2."]
+			id: "069B4E1C3837A6B8"
+			rewards: [
+				{
+					id: "78C23017FE18A15B"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			tasks: [
+				{
+					id: "77EAF92C7A18BA6D"
+					item: "moreup:dusk_spear"
+					type: "item"
+				}
+			]
+			title: "&5&l[ ✦ 황혼의 창 ]"
+			x: 5.25d
+			y: 0.75d
+			icon: "moreup:dusk_spear"
+		}
+		{
+			dependencies: ["7084E727B8C21E26"]
+			description: ["&f이 활로 쏜 화살은 피해가 3배."]
+			id: "2525CA43F23151DB"
+			rewards: [
+				{
+					id: "72C92B5C412E85A2"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			tasks: [
+				{
+					id: "52B8FB25EA5E8034"
+					item: "moreup:dusk_bow"
+					type: "item"
+				}
+			]
+			title: "&5&l[ ✦ 황혼의 활 ]"
+			x: 5.25d
+			y: 2.25d
+			icon: "moreup:dusk_bow"
+		}
+		{
+			dependencies: ["7084E727B8C21E26"]
+			description: ["&f왕관, 망토, 갑주, 각반, 신발. 쓰러진 군주의 황혼을 별을 지키는 갑옷으로 바꾸십시오."]
+			id: "7F0622F9BEA2DF7F"
+			rewards: [
+				{
+					id: "21A8763D5D217D0F"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+			]
+			tasks: [
+				{
+					id: "7884475E473C084E"
+					item: "moreup:dusk_crown"
+					type: "item"
+				}
+				{
+					id: "5508146D59E5DCCA"
+					item: "moreup:dusk_cape"
+					type: "item"
+				}
+				{
+					id: "74F4D95EAD5588D6"
+					item: "moreup:dusk_cuirass"
+					type: "item"
+				}
+				{
+					id: "78952909029E0AF8"
+					item: "moreup:dusk_greaves"
+					type: "item"
+				}
+				{
+					id: "7011B4C6DCE77703"
+					item: "moreup:dusk_boots"
+					type: "item"
+				}
+			]
+			title: "&5&l[ ✦ 황혼의 갑주 ]"
+			x: 5.25d
+			y: 3.75d
+			icon: "moreup:dusk_crown"
+		}
+		{
+			dependencies: [
+				"3E71042DE579A7B2"
+				"7F0622F9BEA2DF7F"
+				"593182E579CF4F4F"
+				"51132BC995C0EB89"
+				"6E3481EA3D0B5906"
+				"656362C95CB80EAF"
+				"29A817242A7E5C2C"
+				"72F03A8C37D51973"
+				"774ADF6C893DC0A8"
+				"5C57C0BD214368FC"
+				"7AEA7A08EA43B323"
+				"72D10B9AED82EA39"
+				"198A22C793EFAF11"
+				"74CA953C96D14F1F"
+				"797365038A0CDA75"
+				"783005AEA1BEF9C7"
+				"7C635E869D09C19D"
+				"7661102979A79104"
+				"7AAB1BEAB74FA68A"
+				"77F7B844AC29DC1E"
+				"7C382DE8E5B4E86E"
+				"719E25D56DC8FFFC"
+				"7606B1802711A397"
+				"7D3BE4F5E5F7F4A7"
+				"1302F8120F66DEE7"
+				"739EDF2975E480A3"
+				"7065448611109E92"
+				"712948DB3CF12DF4"
+				"7DE7B36DC1AA355C"
+				"6CC3F1860236F022"
+				"73198BA35346062A"
+				"77F3FCD4A9D6C65B"
+			]
+			description: [
+				"&7\"황혼은 더 이상 하늘을 가두지 않는다. 이제 그것은 새로운 성룡의 날개다.\"&r"
+				""
+				"&f황혼의 군주를 세 번 더 쓰러뜨려 그 힘을 완전히 다스리십시오."
+				"&e이야기는 여기서 끝나지만, 당신의 세계는 계속 위로 향합니다. MORE UP."
+				""
+				"&c[조건] 퀘스트북의 모든 챕터(모드 가이드 포함, 반복 의뢰 제외)를 끝내야 도전할 수 있습니다."
+			]
+			id: "505B8CE4C2A6B192"
+			rewards: [
+				{
+					id: "6B4B5A142F4EDB8B"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+				{
+					count: 2
+					id: "7454964EB3BBA7BC"
+					item: "moreup:boss_essence_legendary"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "twilight_forest_final_boss:castle_keeper"
+					id: "7ABF8A5171783FF5"
+					type: "kill"
+					value: 3L
+				}
+			]
+			title: "&5&l[ ★ 황혼을 다스리는 별 ]"
+			x: 7.0d
+			y: 0.0d
+			icon: "moreup:keepers_crown"
+			shape: "gear"
+			size: 1.5d
+			dependency_requirement: "all_completed"
+		}
+	]
+	title: "&6&l제6장 ✦ 새로운 창세"
+}

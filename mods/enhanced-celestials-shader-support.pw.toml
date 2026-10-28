@@ -1,0 +1,13 @@
+name = "Enhanced Celestials Shader Support (Deprecated check description for updated version)"
+filename = "lunarshaders-forge-1.20.1-2.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "130d0d537df8fa4bb51c575d5a984e476afed0e8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7952780
+project-id = 1419969

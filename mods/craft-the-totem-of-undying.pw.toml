@@ -1,0 +1,13 @@
+name = "Craft the Totem of Undying"
+filename = "CraftableTotemOfUndying-1.20.1-3.2.1-[FORGE].jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8ab718f88402b99be341095b49a34217ce28eaa6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4608669
+project-id = 451563

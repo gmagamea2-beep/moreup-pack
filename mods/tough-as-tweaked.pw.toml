@@ -1,0 +1,13 @@
+name = "Tough as Tweaked"
+filename = "toughastweaked-1.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4cc1ce74b08492da433aabbc268ec3cff272aee4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4739363
+project-id = 909843

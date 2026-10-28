@@ -1,0 +1,23 @@
+{
+    "display":  {
+                    "icon":  {
+                                 "item":  "moreup:more_up"
+                             },
+                    "title":  {
+                                  "translate":  "advancements.moreup.root.title"
+                              },
+                    "description":  {
+                                        "translate":  "advancements.moreup.root.description"
+                                    },
+                    "background":  "minecraft:textures/gui/advancements/backgrounds/end.png",
+                    "frame":  "task",
+                    "show_toast":  false,
+                    "announce_to_chat":  false,
+                    "hidden":  false
+                },
+    "criteria":  {
+                     "start":  {
+                                   "trigger":  "minecraft:tick"
+                               }
+                 }
+}

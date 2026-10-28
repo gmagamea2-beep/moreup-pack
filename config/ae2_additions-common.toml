@@ -1,0 +1,11 @@
+
+#AE2 Additions 配置
+[general]
+	#是否启用调试日志输出
+	debug_mode = false
+
+[magnet]
+	#次元磁铁升级自动吸附物品的范围（格数）
+	#Range: 1 ~ 32
+	magnetRange = 5
+

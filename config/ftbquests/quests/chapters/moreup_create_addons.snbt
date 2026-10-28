@@ -1,0 +1,771 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "moreup_create_addons"
+	group: "7E05AA7C371599AC"
+	icon: "createaddition:electric_motor"
+	id: "7661102979A79104"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7FA75A851A6E065B"]
+			description: ["Create Crafts & Additions: 회전력을 전기로, 전기를 회전력으로 바꾼다. 단자끼리 전선으로 잇는다."]
+			id: "738FBFB556ADAC68"
+			rewards: [
+				{
+					id: "1E838EE9530F93C7"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 8
+					id: "61A5DD216307EC48"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7CD4392C89CD5BC2"
+					item: "createaddition:copper_spool"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "769EC6D79499610E"
+					item: "createaddition:connector"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 구리 전선과 단자 ]"
+			x: 0.0d
+			y: -12.75d
+			icon: "createaddition:copper_spool"
+		}
+		{
+			dependencies: ["7FA75A851A6E065B"]
+			description: ["주괴를 봉과 철사로 민다."]
+			id: "7DC7F3F1A57F8B17"
+			rewards: [
+				{
+					id: "7EDF92CC6D45B234"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 8
+					id: "77686F28B409AFCF"
+					item: "create:copper_sheet"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "21BA75B647C643EA"
+					item: "createaddition:rolling_mill"
+					type: "item"
+				}
+			]
+			title: "&7&l[ ✦ 압연기 ]"
+			x: 0.0d
+			y: -11.25d
+			icon: "createaddition:rolling_mill"
+		}
+		{
+			dependencies: ["738FBFB556ADAC68", "7FC60659B4349DDA"]
+			description: ["교류발전기는 회전력으로 전기를, 전기 모터는 전기로 회전력을 만든다."]
+			id: "7C70EFC127886EA9"
+			rewards: [
+				{
+					id: "771A4AA2E1F69D07"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 4
+					id: "7225273E2DF6A61E"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "22A68CDB32ACC22E"
+					item: "createaddition:alternator"
+					type: "item"
+				}
+				{
+					id: "3A640EE722E9C80E"
+					item: "createaddition:electric_motor"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 교류발전기와 전기 모터 ]"
+			x: 1.75d
+			y: -2.25d
+			icon: "createaddition:alternator"
+		}
+		{
+			dependencies: ["7C70EFC127886EA9"]
+			description: ["전기를 모아 둔다."]
+			id: "74B4BCE1AEEFC543"
+			rewards: [
+				{
+					id: "4A9714D2DD8C057C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 8
+					id: "737ADC4DC3835E41"
+					item: "create:zinc_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "4E30C86EEA2AD6AD"
+					item: "createaddition:modular_accumulator"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 축전지 ]"
+			x: 3.5d
+			y: -0.75d
+			icon: "createaddition:modular_accumulator"
+		}
+		{
+			dependencies: ["74B4BCE1AEEFC543"]
+			description: ["주변 아이템을 충전하고, 가까이 온 몹을 감전시킨다."]
+			id: "764FB8A18FFCCD69"
+			rewards: [
+				{
+					id: "2537F2D078ED9DF0"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 8
+					id: "5A993D0DE483E5E8"
+					item: "create:zinc_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7201B8213D395185"
+					item: "createaddition:tesla_coil"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 테슬라 코일 ]"
+			x: 5.25d
+			y: 0.0d
+			icon: "createaddition:tesla_coil"
+		}
+		{
+			dependencies: ["7DC7F3F1A57F8B17"]
+			id: "1D71C73E3FCA118C"
+			rewards: [
+				{
+					id: "7EA458C6B5D3E4F0"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 8
+					id: "4EBEEAA2B4DDE767"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "780E6742320A6F11"
+					item: "createaddition:electrum_ingot"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 호박금 주괴 ]"
+			x: 1.75d
+			y: -0.75d
+			icon: "createaddition:electrum_ingot"
+		}
+		{
+			dependencies: ["44957A3AC2113E69"]
+			description: ["식물성 연료. 블레이즈 버너에 넣는다."]
+			id: "79384CD7C223F7BB"
+			rewards: [
+				{
+					id: "72CE17CA934430AA"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 8
+					id: "755421141294ACBA"
+					item: "create:copper_sheet"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "7B7175344E31519E"
+					item: "createaddition:biomass_pellet"
+					type: "item"
+				}
+			]
+			title: "&a&l[ ✦ 바이오매스 알갱이 ]"
+			x: 0.0d
+			y: -9.75d
+			icon: "createaddition:biomass_pellet"
+		}
+		{
+			dependencies: ["7DC7F3F1A57F8B17"]
+			id: "5D17B7805B14591A"
+			rewards: [
+				{
+					id: "53C97CA0508D138F"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 8
+					id: "7D0D9D908E776C41"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "039A6629F9B900EB"
+					item: "createaddition:barbed_wire"
+					type: "item"
+				}
+			]
+			title: "&7&l[ ✦ 철조망 ]"
+			x: 1.75d
+			y: 0.75d
+			icon: "createaddition:barbed_wire"
+		}
+		{
+			dependencies: ["222CE97E5BE37866"]
+			description: ["Create Stuff & Additions: 산소통의 공기로 나는 제트팩."]
+			id: "77374F0FC47B8EA6"
+			rewards: [
+				{
+					id: "7FA64BCABBF2CB3A"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 8
+					id: "707084B302B4FC88"
+					item: "create:iron_sheet"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "16A5CF7CFF7A3C60"
+					item: "create_sa:andesite_jetpack_chestplate"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 안산암 제트팩 ]"
+			x: 0.0d
+			y: -8.25d
+			icon: "create_sa:andesite_jetpack_chestplate"
+		}
+		{
+			dependencies: ["77374F0FC47B8EA6", "7FC60659B4349DDA"]
+			id: "59D6CCC1B7F0DDB6"
+			rewards: [
+				{
+					id: "2906FE198A255FF5"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 8
+					id: "78D12904FE00EEA9"
+					item: "create:zinc_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1F4C2D03C6561AE3"
+					item: "create_sa:brass_jetpack_chestplate"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 황동 제트팩 ]"
+			x: 1.75d
+			y: 2.25d
+			icon: "create_sa:brass_jetpack_chestplate"
+		}
+		{
+			dependencies: ["59D6CCC1B7F0DDB6", "5A3E28816C3BA8BD"]
+			id: "77BBC4A1943A1F44"
+			rewards: [
+				{
+					id: "439BFBC6FA314BAA"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 8
+					id: "7B670283FC170460"
+					item: "create:polished_rose_quartz"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7D678DA9257B9BBB"
+					item: "create_sa:netherite_jetpack_chestplate"
+					type: "item"
+				}
+			]
+			title: "&8&l[ ✦ 네더라이트 제트팩 ]"
+			x: 3.5d
+			y: 0.75d
+			icon: "create_sa:netherite_jetpack_chestplate"
+		}
+		{
+			dependencies: ["7FC60659B4349DDA"]
+			id: "7AC492FF004B5732"
+			rewards: [
+				{
+					id: "7FB4A1C5B24DE40B"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 8
+					id: "7842A984A856523C"
+					item: "create:zinc_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "258227A66A9D6337"
+					item: "create_sa:brass_exoskeleton_chestplate"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 황동 외골격 ]"
+			x: 0.0d
+			y: -6.75d
+			icon: "create_sa:brass_exoskeleton_chestplate"
+		}
+		{
+			dependencies: ["4DB7F2AEA13DC084"]
+			description: ["들고 다니는 드릴."]
+			id: "54122034EE50707E"
+			rewards: [
+				{
+					id: "7C914D622050CCEF"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 8
+					id: "723AFE9AE045FCCC"
+					item: "create:iron_sheet"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3B375EAA094B9F01"
+					item: "create_sa:portable_drill"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ §e휴대용 드릴 ]"
+			x: 0.0d
+			y: -5.25d
+			icon: "create_sa:portable_drill"
+		}
+		{
+			dependencies: ["7FA75A851A6E065B"]
+			id: "740375F42550F3F2"
+			rewards: [
+				{
+					id: "7E7E2EE9B0C85D34"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 8
+					id: "400B4FBAB5F26694"
+					item: "create:copper_sheet"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7B4825DDDD491737"
+					item: "create_sa:copper_magnet"
+					type: "item"
+				}
+			]
+			title: "&c&l[ ✦ §e구리 자석 ]"
+			x: 0.0d
+			y: -3.75d
+			icon: "create_sa:copper_magnet"
+		}
+		{
+			dependencies: ["4DB7F2AEA13DC084"]
+			id: "77F18C55ED7AC4E3"
+			rewards: [
+				{
+					id: "6DDAEEC6E2F908AB"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 8
+					id: "77C609788E33CC63"
+					item: "create:iron_sheet"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "774E62DD4808B70E"
+					item: "create_sa:grapplin_whisk"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ §e그래플링 휘스크 ]"
+			x: 0.0d
+			y: -2.25d
+			icon: "create_sa:grapplin_whisk"
+		}
+		{
+			dependencies: ["4DB7F2AEA13DC084"]
+			id: "7BF9B9B6549E2274"
+			rewards: [
+				{
+					id: "088E9B90BA84CF63"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 8
+					id: "6578438E00A2F000"
+					item: "create:iron_sheet"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "08BF32B9A32ACDFA"
+					item: "create_sa:brass_drone_item"
+					type: "item"
+				}
+				{
+					id: "7CCE5CD4AD5905DA"
+					item: "create_sa:drone_controller"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 황동 드론 ]"
+			x: 0.0d
+			y: -0.75d
+			icon: "create_sa:brass_drone_item"
+		}
+		{
+			dependencies: ["7FC60659B4349DDA"]
+			description: ["Create: Connected — 회전력을 담아 두는 배터리."]
+			id: "78F7A2B1DE4B346D"
+			rewards: [
+				{
+					id: "799FC155314B2D14"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 4
+					id: "7CBE424396E85941"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5CB083879A39ED99"
+					item: "create_connected:kinetic_battery"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 키네틱 배터리 ]"
+			x: 0.0d
+			y: 0.75d
+			icon: "create_connected:kinetic_battery"
+		}
+		{
+			dependencies: ["63255824B4DCB7EF"]
+			id: "7E704801FC4BEBFF"
+			rewards: [
+				{
+					id: "780255EECF838382"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 8
+					id: "00273DCE5F641418"
+					item: "create:copper_sheet"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7F521595E198A03B"
+					item: "create_connected:parallel_gearbox"
+					type: "item"
+				}
+				{
+					id: "7B07ACB95729117C"
+					item: "create_connected:six_way_gearbox"
+					type: "item"
+				}
+			]
+			title: "&7&l[ ✦ 동방향·6방향 기어박스 ]"
+			x: 0.0d
+			y: 2.25d
+			icon: "create_connected:parallel_gearbox"
+		}
+		{
+			dependencies: ["76D43B6AE86797DD"]
+			id: "717CF083C6F7A991"
+			rewards: [
+				{
+					id: "274757A66E7A2FA6"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 8
+					id: "79A56FD41C6C6ADC"
+					item: "create:copper_sheet"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "7CAF0F959BAF6CFB"
+					item: "create_connected:item_silo"
+					type: "item"
+				}
+			]
+			title: "&7&l[ ✦ 아이템 저장고 ]"
+			x: 0.0d
+			y: 3.75d
+			icon: "create_connected:item_silo"
+		}
+		{
+			dependencies: ["648C72B201DBAF90"]
+			description: ["선풍기 앞에 두면 불·물 없이 제련·세척 처리를 한다."]
+			id: "74E0BD7CA7E96800"
+			rewards: [
+				{
+					id: "04A6A8362CB54D88"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 8
+					id: "06EB0DBB7F1CF777"
+					item: "create:copper_sheet"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "76C85AF7655E1FC0"
+					item: "create_connected:fan_blasting_catalyst"
+					type: "item"
+				}
+				{
+					id: "75799E61592F1FF7"
+					item: "create_connected:fan_splashing_catalyst"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 선풍기 촉매 ]"
+			x: 0.0d
+			y: 5.25d
+			icon: "create_connected:fan_blasting_catalyst"
+		}
+		{
+			dependencies: ["7FC60659B4349DDA"]
+			description: ["다른 블록의 모양을 흉내 낸다."]
+			id: "71C8512EC86CA811"
+			rewards: [
+				{
+					id: "78E48B5C211EC607"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 8
+					id: "7996BB8EE2D456A3"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "783B129EC6D272E7"
+					item: "create_connected:copycat_block"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7D2B350399B37ECF"
+					item: "create_connected:copycat_board"
+					type: "item"
+				}
+			]
+			title: "&7&l[ ✦ 모방 블록 ]"
+			x: 0.0d
+			y: 6.75d
+			icon: "create_connected:copycat_block"
+		}
+		{
+			dependencies: ["0B9477E22432EB77"]
+			description: ["Create Enchantment Industry: 마법을 경험치로 되돌리고, 마법 책을 복사한다."]
+			id: "32D27FCCD60BFB28"
+			rewards: [
+				{
+					id: "095C2C07955693DD"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 8
+					id: "74F1846F67FA7FE6"
+					item: "create:polished_rose_quartz"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "77DF2B36672A258A"
+					item: "create_enchantment_industry:disenchanter"
+					type: "item"
+				}
+				{
+					id: "6E8D525C7B663673"
+					item: "create_enchantment_industry:printer"
+					type: "item"
+				}
+			]
+			title: "&d&l[ ✦ 마법 해제대와 인쇄기 ]"
+			x: 0.0d
+			y: 8.25d
+			icon: "create_enchantment_industry:disenchanter"
+		}
+		{
+			dependencies: ["7FA75A851A6E065B"]
+			description: ["Slice & Dice: 칼로 음식 재료를 자동으로 썬다."]
+			id: "7192313B25D7B3EE"
+			rewards: [
+				{
+					id: "24E1D3E70897341D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 8
+					id: "79A208A421E7B6C8"
+					item: "create:iron_sheet"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "498EAE8D3285E5BA"
+					item: "sliceanddice:slicer"
+					type: "item"
+				}
+			]
+			title: "&a&l[ ✦ 슬라이서 ]"
+			x: 0.0d
+			y: 9.75d
+			icon: "sliceanddice:slicer"
+		}
+		{
+			dependencies: ["73FACA38068F8DA2"]
+			description: ["Create Goggles: 투구에 고글을 붙인다."]
+			id: "58B82EB7E1D29DAB"
+			rewards: [
+				{
+					id: "714EDD770D555783"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 8
+					id: "2BEB4CB4F43D7E06"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "35279403CB3BC2E5"
+					item: "creategoggles:goggle_iron_helmet"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 고글 철 투구 ]"
+			x: 0.0d
+			y: 11.25d
+			icon: "creategoggles:goggle_iron_helmet"
+		}
+		{
+			dependencies: ["7FA75A851A6E065B"]
+			description: ["용암과 물로 돌을 자동으로 만든다."]
+			id: "7E8B1FDFCF06B828"
+			rewards: [
+				{
+					id: "78F5BB8CE6C13141"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "799DA4F3F209374C"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "78E5F9F499C80769"
+					item: "create_mechanical_extruder:mechanical_extruder"
+					type: "item"
+				}
+			]
+			title: "&7&l[ ✦ 압출기 ]"
+			x: 0.0d
+			y: 12.75d
+			icon: "create_mechanical_extruder:mechanical_extruder"
+		}
+	]
+	title: "&b&l✦ Create 애드온"
+}

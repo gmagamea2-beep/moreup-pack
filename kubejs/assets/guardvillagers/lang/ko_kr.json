@@ -1,0 +1,10 @@
+{
+  "subtitles.entity.guard.ambient": "보초병이 중얼거림",
+  "subtitles.entity.guard.hurt": "보초병이 다침",
+  "subtitles.entity.guard.death": "보초병이 죽음",
+  "stat.guardvillagers.guards_made": "만든 보초병 수",
+  "guardvillagers.advancements.adventure.recruit_guard.description": "직업 없는 주민에게 검을 줘서 마을 방어를 돕게 하기",
+  "guardvillagers.advancements.adventure.recruit_guard.title": "신병 모집 중!",
+  "subtitles.entity.guard.yes": "보초병이 동의함",
+  "subtitles.entity.guard.no": "보초병이 거절함"
+}

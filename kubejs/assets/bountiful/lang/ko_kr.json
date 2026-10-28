@@ -1,0 +1,20 @@
+{
+  "itemGroup.bountiful": "Bountiful",
+  "bountiful.entry.shepherd_obj_wool_wildcard": "아무 양털",
+  "bountiful.entry.fletcher_obj_planks": "아무 판자",
+  "bountiful.entry.fletcher_obj_logs": "아무 원목",
+  "bountiful.entry.shepherd_obj_bed_wildcard": "아무 침대",
+  "bountiful.entry.fisherman_obj_any_boat": "아무 보트",
+  "bountiful.entry.mapper_obj_candles": "아무 양초",
+  "bountiful.entry.shepherd_obj_banner_wildcard": "아무 깃발",
+  "bountiful.entry.fisherman_obj_catch_ench_book": "마법이 부여된 책 낚기",
+  "bountiful.entry.cleric_obj_brew_swiftness": "기본 신속의 물약 양조하기",
+  "bountiful.entry.cleric_obj_cure_zombie_villager": "좀비 주민 치료하기",
+  "bountiful.bounty.expired": "이 의뢰는 만료되었다.",
+  "bountiful.decree.inventor.name": "발명",
+  "bountiful.decree.mason.name": "석공",
+  "bountiful.decree.tinker.name": "수리",
+  "bountiful.decree.invalid_decree.name": "잘못된 칙령",
+  "bountiful.bounty.type.experience.levels": "경험치 레벨",
+  "bountiful.bounty.type.experience.points": "경험치 포인트"
+}

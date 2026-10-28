@@ -1,0 +1,4 @@
+{
+  "config.structure_layout_optimizer.deduplicate_shuffled_template_pool_element_list": "섞인 템플릿 풀 요소 목록 중복 제거",
+  "config.structure_layout_optimizer.deduplicate_shuffled_template_pool_element_list.desc": "이 모드의 템플릿 풀 가중치 최적화보다 구조물 배치를 조금 더 빠르게 만드는 대체 방식을 쓸지 정한다. 구조물이 템플릿 풀에서 가져오는 조각 목록에서 중복 항목을 없애는 방식이다.\n구조물 생성이 깨지지는 않지만, 이 설정을 끈 경우와 배치가 달라진다(바닐라 시드 일치가 깨짐). 많은 구조물 모드가 템플릿 풀에 아주 높은 가중치를 쓰는 큰 모드팩에서는 속도를 위해 감수할 만할 수 있다.\n\n장점: 높은 가중치의 템플릿 풀 구조물에서 성능을 조금 더 얻는다.\n단점: 구조물 배치가 바닐라 시드와 달라진다. (배치가 깨지는 것이 아니라 다를 뿐)"
+}

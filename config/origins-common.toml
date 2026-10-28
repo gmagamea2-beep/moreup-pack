@@ -1,0 +1,506 @@
+
+[origins]
+
+	[origins."strictly:wildcat"]
+		enabled = true
+		"strictly:feline_grace" = true
+		"strictly:feared_hunter" = true
+		"strictly:soft_paws" = true
+		"origins:climbing" = true
+		"strictly:nocturnal_eyes1" = true
+		"origins:carnivore" = true
+		"strictly:water_weary" = true
+
+	[origins."origins-classes:warrior"]
+		enabled = true
+		"origins-classes:more_attack_damage" = true
+		"origins-classes:less_shield_slowdown" = true
+
+	[origins."origins:elytrian"]
+		enabled = true
+		"origins:elytra" = true
+		"origins:launch_into_air" = true
+		"origins:aerial_combatant" = true
+		"origins:light_armor" = true
+		"origins:claustrophobia" = true
+		"origins:more_kinetic_damage" = true
+
+	[origins."origins-classes:explorer"]
+		enabled = true
+		"origins-classes:explorer_kit" = true
+		"origins-classes:no_sprint_exhaustion" = true
+
+	[origins."strictly:priest"]
+		enabled = true
+		"strictly:scholar" = true
+		"strictly:nimble" = true
+		"strictly:holy_shield" = true
+		"origins:vegetarian" = true
+		"origins:fall_immunity" = true
+		"strictly:holy_curse" = true
+		"origins:ender_particles" = true
+
+	[origins."classes:paladino"]
+		enabled = true
+		"classes:paladino/holy_stats" = true
+		"classes:paladino/health" = true
+		"classes:paladino/itens" = true
+		"classes:paladino/shield" = true
+		"classes:arrow_debuff" = true
+
+	[origins."classes:warrior"]
+		enabled = true
+		"classes:warrior/itens" = true
+		"classes:warrior/weapons" = true
+		"classes:warrior/weapons_knolage" = true
+		"classes:magic_debuff" = true
+
+	[origins."elemental:earth"]
+		enabled = true
+		"elemental:earth/resistance" = true
+		"elemental:earth/slow" = true
+		"elemental:earth/strongarm" = true
+		"elemental:earth/tall" = true
+
+	[origins."origins-classes:rancher"]
+		enabled = true
+		"origins-classes:twin_breeding" = true
+		"origins-classes:more_animal_loot" = true
+
+	[origins."origins:blazeborn"]
+		enabled = true
+		"origins:fire_immunity" = true
+		"origins:nether_spawn" = true
+		"origins:burning_wrath" = true
+		"origins:hotblooded" = true
+		"origins:water_vulnerability" = true
+		"origins:flame_particles" = true
+		"origins:damage_from_snowballs" = true
+		"origins:damage_from_potions" = true
+
+	[origins."origins-classes:farmer"]
+		enabled = true
+		"origins-classes:more_crop_drops" = true
+		"origins-classes:better_bone_meal" = true
+
+	[origins."strictly:high_elf"]
+		enabled = true
+		"strictly:flamethrower" = true
+		"strictly:forest_vision" = true
+		"strictly:hyper_sight" = true
+		"strictly:towering" = true
+		"strictly:vegetarian" = true
+		"strictly:spindly" = true
+		"strictly:jump3" = true
+		"strictly:falldmg" = true
+
+	[origins."origins-classes:miner"]
+		enabled = true
+		"origins-classes:more_stone_break_speed" = true
+		"origins-classes:no_mining_exhaustion" = true
+
+	[origins."land_chidori:land_chidori"]
+		enabled = true
+		"land_chidori:tall_land_chidori" = true
+		"land_chidori:strong_arms_land_chidori" = true
+		"land_chidori:strong_arms_break_speed_land_chidori" = true
+		"land_chidori:inventory_land_chidori" = true
+		"land_chidori:prevent_sprint_land_chidori" = true
+		"land_chidori:fall_immunity_land_chidori" = true
+		"land_chidori:extra_reach_land_chidori" = true
+		"land_chidori:launch_into_air_land_chidori" = true
+		"land_chidori:natural_armor_land_chidori" = true
+		"land_chidori:slow_attack_land_chidori" = true
+		"land_chidori:slow_speed_land_chidori" = true
+		"land_chidori:max_health_land_chidori" = true
+		"land_chidori:no_ranged_land_chidori" = true
+		"land_chidori:particle_land_chidori" = true
+		"land_chidori:recipe_land_chidori" = true
+
+	[origins."origins-classes:cook"]
+		enabled = true
+		"origins-classes:better_crafted_food" = true
+		"origins-classes:more_smoker_xp" = true
+
+	[origins."strictly:troll"]
+		enabled = true
+		"strictly:lead_belly" = true
+		"strictly:stocky" = true
+		"strictly:gargantuan" = true
+		"strictly:ravenous" = true
+		"strictly:sluggish" = true
+		"strictly:xxxl" = true
+		"strictly:unweildy" = true
+		"strictly:cunning_hidden" = true
+
+	[origins."strictly:buzz"]
+		enabled = true
+		"strictly:stinger" = true
+		"strictly:bee_diet" = true
+		"strictly:bee_skin" = true
+		"strictly:freedom_calls" = true
+		"strictly:itty_bitty" = true
+		"strictly:nectar_processing" = true
+		"strictly:new_diet" = true
+		"strictly:smoke_sickness" = true
+
+	[origins."elemental:dark"]
+		enabled = true
+		"elemental:dark/night_vision" = true
+		"elemental:dark/upatnight" = true
+		"elemental:dark/downatday" = true
+
+	[origins."strictly:otter"]
+		enabled = true
+		"origins:aqua_affinity" = true
+		"origins:aquatic" = true
+		"origins:wet_eyes" = true
+		"origins:swim_speed" = true
+		"origins:like_water" = true
+		"origins:more_exhasution" = true
+		"origins:no_shield" = true
+		"strictly:improved_lungs" = true
+		"strictly:aquatic_predator" = true
+		"strictly:otter_gods_blessing" = true
+		"strictly:otter_pouch" = true
+		"origins:claustrophobia" = true
+		"strictly:heart_reduction" = true
+		"strictly:mini_riptide" = true
+		"strictly:miniature_dwarf" = true
+		"strictly:land_slow" = true
+		"strictly:jump" = true
+		"strictly:step_height" = true
+
+	[origins."classes:rogue"]
+		enabled = true
+		"classes:rogue/itens" = true
+		"classes:rogue/weapons" = true
+		"classes:rogue/dark_inv" = true
+		"classes:rogue/silent_steps" = true
+		"classes:rogue/weapons_choice" = true
+		"classes:magic_debuff" = true
+
+	[origins."classes:berserker"]
+		enabled = true
+		"classes:berserker/itens" = true
+		"classes:berserker/weapons" = true
+		"classes:berserker/blood_bath" = true
+		"classes:berserker/fury" = true
+		"classes:berserker/weapons_choice" = true
+		"classes:magic_debuff" = true
+		"classes:arrow_debuff" = true
+
+	[origins."strictly:thief"]
+		enabled = true
+		"origins:shulker_inventory" = true
+		"strictly:superstealth" = true
+		"origins:tailwind" = true
+		"origins:fragile" = true
+		"strictly:cloak" = true
+		"strictly:money_lover" = true
+		"strictly:strong" = true
+		"origins:more_exhaustion" = true
+		"strictly:night-owl" = true
+
+	[origins."elemental:light"]
+		enabled = true
+		"elemental:light/upatday" = true
+		"elemental:light/downatnight" = true
+		"elemental:light/sunstroke" = true
+
+	[origins."origins-classes:blacksmith"]
+		enabled = true
+		"origins-classes:quality_equipment" = true
+		"origins-classes:efficient_repairs" = true
+
+	[origins."strictly:plantaemancer"]
+		enabled = true
+		"strictly:poison_ivy_vines" = true
+		"strictly:plant_caretaker" = true
+		"strictly:regrowth" = true
+		"strictly:flammable" = true
+		"strictly:light_deprivation" = true
+		"strictly:blissful_light" = true
+
+	[origins."origins-classes:rogue"]
+		enabled = true
+		"origins-classes:sneaky" = true
+		"origins-classes:stealth" = true
+		"origins-classes:stealth_core" = true
+
+	[origins."origins-classes:nitwit"]
+		enabled = true
+
+	[origins."origins:enderian"]
+		enabled = true
+		"origins:throw_ender_pearl" = true
+		"origins:water_vulnerability" = true
+		"origins:pumpkin_hate" = true
+		"origins:extra_reach" = true
+		"origins:ender_particles" = true
+		"origins:damage_from_potions" = true
+
+	[origins."origins:feline"]
+		enabled = true
+		"origins:fall_immunity" = true
+		"origins:sprint_jump" = true
+		"origins:velvet_paws" = true
+		"origins:nine_lives" = true
+		"origins:weak_arms" = true
+		"origins:scare_creepers" = true
+		"origins:cat_vision" = true
+
+	[origins."strictly:knight"]
+		enabled = true
+		"strictly:skofnung" = true
+		"strictly:skilled_swordsman" = true
+		"strictly:valour" = true
+		"strictly:burdened" = true
+		"strictly:bowless" = true
+		"strictly:book" = true
+		"strictly:crescent_worship" = true
+
+	[origins."strictly:paladin"]
+		enabled = true
+		"strictly:holy_fire" = true
+		"strictly:dried_out" = true
+		"strictly:leech" = true
+		"strictly:well_built" = true
+		"strictly:durendal" = true
+		"strictly:skilled_swordsman_1" = true
+		"strictly:book" = true
+		"strictly:praise_the_sun" = true
+
+	[origins."origins:phantom"]
+		enabled = true
+		"origins:phantomize" = true
+		"origins:translucent" = true
+		"origins:phasing" = true
+		"origins:invisibility" = true
+		"origins:burn_in_daylight" = true
+		"origins:hunger_over_time" = true
+		"origins:fragile" = true
+		"origins:phantomize_overlay" = true
+
+	[origins."origins-classes:beastmaster"]
+		enabled = true
+		"origins-classes:tamed_animal_boost" = true
+		"origins-classes:tamed_potion_diffusal" = true
+
+	[origins."origins-classes:merchant"]
+		enabled = true
+		"origins-classes:trade_availability" = true
+		"origins-classes:rare_wandering_loot" = true
+
+	[origins."strictly:adapted_raccoon"]
+		enabled = true
+		"strictly:arrow_weak" = true
+		"strictly:claustrophobia" = true
+		"strictly:expert_at_hiding" = true
+		"strictly:hates_carrots" = true
+		"strictly:nocturnal_eyes1" = true
+		"strictly:nocturnal" = true
+		"strictly:rabies_resistant" = true
+		"strictly:rabies" = true
+		"strictly:scurry" = true
+		"strictly:rabies_cont" = true
+		"strictly:sharp_claws" = true
+		"strictly:small_body" = true
+		"strictly:small_hands" = true
+		"strictly:thick_fur" = true
+		"strictly:thick_fur_cont" = true
+		"strictly:tough_heart" = true
+		"strictly:tough_stomach" = true
+		"strictly:trash_lover" = true
+		"strictly:jump2" = true
+		"strictly:step_height" = true
+
+	[origins."strictly:birdofparadise"]
+		enabled = true
+		"strictly:winged" = true
+		"origins:slow_falling" = true
+		"origins:aerial_combatant" = true
+		"origins:tailwind" = true
+		"strictly:wet_wings" = true
+		"origins:light_armor" = true
+		"strictly:claustrophobic_sleep" = true
+		"origins:carnivore" = true
+		"origins:launch" = true
+
+	[origins."origins:avian"]
+		enabled = true
+		"origins:slow_falling" = true
+		"origins:fresh_air" = true
+		"origins:like_air" = true
+		"origins:tailwind" = true
+		"origins:lay_eggs" = true
+		"origins:vegetarian" = true
+
+	[origins."elemental:air"]
+		enabled = true
+		"elemental:air/nofalldamage" = true
+		"elemental:air/fastrun" = true
+		"elemental:air/lesshearth" = true
+		"elemental:air/lightarmour" = true
+
+	[origins."origins-classes:archer"]
+		enabled = true
+		"origins-classes:no_projectile_divergence" = true
+		"origins-classes:less_bow_slowdown" = true
+
+	[origins."strictly:dwarf"]
+		enabled = true
+		"strictly:haste" = true
+		"strictly:potent_brew" = true
+		"strictly:miniature_dwarf" = true
+		"strictly:dense" = true
+		"strictly:insatiable_hunger" = true
+		"strictly:gold_lover" = true
+		"strictly:nocturnal_eyes1" = true
+		"strictly:pickaxeless_stone" = true
+		"strictly:jump" = true
+		"strictly:step_height" = true
+
+	[origins."air_chidori:air_chidori"]
+		enabled = true
+		"origins:fire_immunity" = true
+		"origins:elytra" = true
+		"air_chidori:launch_air_chidori" = true
+		"air_chidori:inventory_air_chidori" = true
+		"air_chidori:prevent_sprint_air_chidori" = true
+		"air_chidori:nine_lives_air_chidori" = true
+		"air_chidori:particle_air_chidori" = true
+		"origins:fresh_air" = true
+
+	[origins."elemental:water"]
+		enabled = true
+		"elemental:water/swim_speed" = true
+		"elemental:water/submarine" = true
+		"elemental:water/fire_weak" = true
+		"elemental:water/effort" = true
+
+	[origins."origins:human"]
+		enabled = true
+
+	[origins."origins-classes:lumberjack"]
+		enabled = true
+		"origins-classes:tree_felling" = true
+		"origins-classes:more_planks_from_logs" = true
+
+	[origins."origins:shulk"]
+		enabled = true
+		"origins:shulker_inventory" = true
+		"origins:natural_armor" = true
+		"origins:strong_arms" = true
+		"origins:strong_arms_break_speed" = true
+		"origins:no_shield" = true
+		"origins:more_exhaustion" = true
+
+	[origins."origins-classes:cleric"]
+		enabled = true
+		"origins-classes:potion_bonus" = true
+		"origins-classes:better_enchanting" = true
+
+	[origins."elemental:fire"]
+		enabled = true
+		"elemental:fire/fire_resistance" = true
+		"elemental:fire/lava_vision" = true
+		"elemental:fire/water_weak" = true
+		"elemental:fire/rain_slow" = true
+
+	[origins."dark_chidori:dark_chidori"]
+		enabled = true
+		"origins:fire_immunity" = true
+		"origins:extra_reach" = true
+		"origins:ender_particles" = true
+		"origins:nether_spawn" = true
+		"dark_chidori:arrow_dark_chidori" = true
+		"dark_chidori:venomous_arrow_dark_chidori" = true
+		"dark_chidori:heal_dark_chidori" = true
+		"dark_chidori:venomous_heal_dark_chidori" = true
+		"dark_chidori:speed_dark_chidori" = true
+		"dark_chidori:venomous_speed_dark_chidori" = true
+		"dark_chidori:fall_immunity_dark_chidori" = true
+		"dark_chidori:max_health_dark_chidori" = true
+		"dark_chidori:walk_on_lava_dark_chidori" = true
+		"dark_chidori:walk_on_water_dark_chidori" = true
+		"dark_chidori:climbing_dark_chidori" = true
+		"dark_chidori:no_ranged_dark_chidori" = true
+		"dark_chidori:inventory_dark_chidori" = true
+		"dark_chidori:particle_dark_chidori" = true
+		"dark_chidori:ember_sleep_dark_chidori" = true
+
+	[origins."origins:merling"]
+		enabled = true
+		"origins:water_breathing" = true
+		"origins:water_vision" = true
+		"origins:aqua_affinity" = true
+		"origins:swim_speed" = true
+		"origins:like_water" = true
+		"origins:aquatic" = true
+		"origins:conduit_power_on_land" = true
+		"origins:air_from_potions" = true
+
+	[origins."origins:arachnid"]
+		enabled = true
+		"origins:climbing" = true
+		"origins:master_of_webs" = true
+		"origins:carnivore" = true
+		"origins:fragile" = true
+		"origins:arthropod" = true
+
+	[origins."aqua_chidori:aqua_chidori"]
+		enabled = true
+		"aqua_chidori:small_aqua_chidori" = true
+		"aqua_chidori:starter_gear_aqua_chidori" = true
+		"aqua_chidori:inventory_aqua_chidori" = true
+		"aqua_chidori:modify_crafting_aqua_chidori" = true
+		"aqua_chidori:modify_crafting2_aqua_chidori" = true
+		"aqua_chidori:hotblood_aqua_chidori" = true
+		"origins:water_breathing" = true
+		"origins:water_vision" = true
+		"origins:aqua_affinity" = true
+		"origins:swim_speed" = true
+		"origins:like_water" = true
+		"origins:aquatic" = true
+		"origins:conduit_power_on_land" = true
+		"origins:air_from_potions" = true
+		"aqua_chidori:climbing_aqua_chidori" = true
+		"aqua_chidori:lava_vision_aqua_chidori" = true
+		"aqua_chidori:fire_immunity_aqua_chidori" = true
+		"aqua_chidori:lava_speed_aqua_chidori" = true
+		"aqua_chidori:less_hearts_aqua_chidori" = true
+		"aqua_chidori:light_armor_aqua_chidori" = true
+		"aqua_chidori:particle_aqua_chidori" = true
+		"aqua_chidori:xp_slower_aqua_chidori" = true
+
+	[origins."elemental:none"]
+		enabled = true
+		"elemental:none/explus" = true
+
+	[origins."classes:hunter"]
+		enabled = true
+		"classes:hunter/itens" = true
+		"classes:hunter/weapons" = true
+		"classes:hunter/jump" = true
+		"classes:hunter/leaves" = true
+		"classes:hunter/weapons_choice" = true
+		"classes:magic_debuff" = true
+
+	[origins."classes:tank"]
+		enabled = true
+		"classes:tank/ignore_pain" = true
+		"classes:tank/health" = true
+		"classes:tank/itens" = true
+		"classes:tank/shield" = true
+		"classes:magic_debuff" = true
+		"classes:arrow_debuff" = true
+
+	[origins."strictly:umvuthi"]
+		enabled = true
+		"strictly:sunblessing" = true
+		"strictly:sun_block" = true
+		"strictly:sun_strength" = true
+		"strictly:weak_health" = true
+		"strictly:vegetarian1" = true
+

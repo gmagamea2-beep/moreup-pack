@@ -1,0 +1,16 @@
+{
+  "argument.ebwizardry.element.notfound": "필요한 원소를 찾을 수 없다",
+  "argument.ebwizardry.spelltier.notfound": "필요한 주문 등급을 찾을 수 없다",
+  "commands.ebwizardry.generator_wand.no_wand": "%s와(과) %s의 지팡이가 없습니다",
+  "ebwizardry.raw_line_30": "========================================================",
+  "ebwizardry.attributes_names.desc": "EBWIZARDRY 속성 이름",
+  "ebwizardry.raw_line_31": "========================================================",
+  "attribute.name.cast.potency": "주문 위력",
+  "attribute.name.cast.cost": "주문 비용",
+  "attribute.name.cast.chargeup": "주문 충전",
+  "attribute.name.cast.progression": "주문 숙련",
+  "attribute.name.cast.duration": "주문 지속시간",
+  "attribute.name.cast.blast": "주문 폭발 범위",
+  "attribute.name.cast.range": "주문 사거리",
+  "attribute.name.cast.cooldown": "주문 재사용 대기시간"
+}

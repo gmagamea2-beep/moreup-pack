@@ -1,0 +1,13 @@
+name = "The Abyss II - The Other Side"
+filename = "TATOS 1.0.1_stable.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1639845cd14e272542b2c2cbcd1da941b455adfd"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5129404
+project-id = 440647

@@ -1,0 +1,13 @@
+name = "Spartan Weaponry Addon Toolkit"
+filename = "spartantoolkit-1.20.1-1.6.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "46c73554ce8282057824fae275f4f0cb0220c029"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6863433
+project-id = 1051658

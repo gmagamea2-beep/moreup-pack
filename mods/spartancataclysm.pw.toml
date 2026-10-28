@@ -1,0 +1,13 @@
+name = "Spartan Weaponry: Cataclysm"
+filename = "spartancataclysm-1.1.2+1.20.1+forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c628b87eb914761311ae2385034f088b679d829b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7215431
+project-id = 1379475

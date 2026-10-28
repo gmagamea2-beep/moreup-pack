@@ -1,0 +1,13 @@
+name = "Mythical Extension"
+filename = "myth_wizardry-0.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "42b4d9d5a9515723e10fb0add62527669e684fd1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8253742
+project-id = 1560734

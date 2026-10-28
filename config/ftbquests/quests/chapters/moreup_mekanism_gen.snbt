@@ -1,0 +1,329 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "moreup_mekanism_gen"
+	group: "7E05AA7C371599AC"
+	icon: "mekanismgenerators:advanced_solar_generator"
+	id: "739EDF2975E480A3"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7DE1414B6277C041"]
+			description: ["낮에만 조금씩 전기를 만든다. 가장 먼저 만들 수 있는 무료 전기."]
+			id: "7976BA812BAAD0DD"
+			rewards: [
+				{
+					id: "20BBADEB2451F94D"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 4
+					id: "0EEDB52368727F5D"
+					item: "mekanism:ingot_lead"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "47997860D466FD7B"
+					item: "mekanismgenerators:solar_generator"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 태양광 발전기 ]"
+			x: 0.0d
+			y: -2.25d
+			icon: "mekanismgenerators:solar_generator"
+		}
+		{
+			dependencies: ["7976BA812BAAD0DD"]
+			description: ["태양광 발전기 여러 개를 한 블록에 모은 것."]
+			id: "7DAC46B4863CF675"
+			rewards: [
+				{
+					id: "781ACF40847521C0"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 8
+					id: "1E6DA67CA169CFD7"
+					item: "mekanism:ingot_steel"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "75FF391944C9C8BD"
+					item: "mekanismgenerators:advanced_solar_generator"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 고급 태양열 발전기 ]"
+			x: 1.75d
+			y: -1.5d
+			icon: "mekanismgenerators:advanced_solar_generator"
+		}
+		{
+			dependencies: ["7976BA812BAAD0DD"]
+			description: ["높은 곳에 둘수록 많이 만든다. 밤에도 돌아간다."]
+			id: "2439931818E113D9"
+			rewards: [
+				{
+					id: "7B070463185ABA8A"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 4
+					id: "722725FD36FF4B36"
+					item: "mekanism:basic_control_circuit"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "734AB8A6BE7B19F4"
+					item: "mekanismgenerators:wind_generator"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 풍력 발전기 ]"
+			x: 1.75d
+			y: 0.0d
+			icon: "mekanismgenerators:wind_generator"
+		}
+		{
+			dependencies: ["7976BA812BAAD0DD"]
+			description: ["용암 옆이나 연료를 태워 전기를 만든다."]
+			id: "71AEED9BE5EAD268"
+			rewards: [
+				{
+					id: "692E4987AB898FE8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 8
+					id: "10935D6929E77D33"
+					item: "mekanism:ingot_steel"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7351551BA1CCD19D"
+					item: "mekanismgenerators:heat_generator"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 지열 발전기 ]"
+			x: 1.75d
+			y: 1.5d
+			icon: "mekanismgenerators:heat_generator"
+		}
+		{
+			dependencies: ["71AEED9BE5EAD268"]
+			description: ["수소·에틸렌 같은 기체를 태운다. 에틸렌이면 효율이 좋다."]
+			id: "7E52DB6CDFA5EB21"
+			rewards: [
+				{
+					id: "75630962870BA5AB"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 8
+					id: "3D4CEC76557FA0AC"
+					item: "mekanism:ingot_steel"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "11F040B677E6D26E"
+					item: "mekanismgenerators:gas_burning_generator"
+					type: "item"
+				}
+			]
+			title: "&a&l[ ✦ 기체 연소 발전기 ]"
+			x: 3.5d
+			y: 0.0d
+			icon: "mekanismgenerators:gas_burning_generator"
+		}
+		{
+			dependencies: ["7E52DB6CDFA5EB21", "7DF44FB8C736474B"]
+			description: ["증기로 엄청난 전기를 만드는 다중 블록. 보일러나 핵분열로의 증기를 넣는다. 크기(최소 5×5×5)는 JEI의 다중 블록 미리보기로 확인한다."]
+			id: "5F20FCF9A022C4F8"
+			rewards: [
+				{
+					id: "3E573F39BFA06AE0"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 4
+					id: "6A341FDB76A5211C"
+					item: "mekanism:elite_control_circuit"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 24L
+					id: "605721A628D5D5EB"
+					item: "mekanismgenerators:turbine_casing"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6DEED5742AFE904E"
+					item: "mekanismgenerators:turbine_rotor"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "76BB76CA33529FA9"
+					item: "mekanismgenerators:turbine_blade"
+					type: "item"
+				}
+				{
+					id: "19F9EB94872215D9"
+					item: "mekanismgenerators:rotational_complex"
+					type: "item"
+				}
+				{
+					id: "3D83DD386BC491FD"
+					item: "mekanismgenerators:electromagnetic_coil"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7E17C61D696DF465"
+					item: "mekanismgenerators:saturating_condenser"
+					type: "item"
+				}
+			]
+			title: "&9&l[ ✦ 산업용 터빈 ]"
+			x: 5.25d
+			y: 0.0d
+			icon: "mekanismgenerators:turbine_casing"
+		}
+		{
+			dependencies: ["7D213D217E5E532D"]
+			description: ["포트로 연료·냉각수를 넣고 빼고, 유리로 안을 들여다본다. 포트에는 &5상급 보스 정수&r가 필요하다. 폐기물은 반드시 비워 둘 것."]
+			id: "126295A42BB49FDA"
+			rewards: [
+				{
+					id: "7FD3AFB20765714E"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 4
+					id: "7B23DDC0BAD4C497"
+					item: "mekanism:ingot_refined_obsidian"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "36D297DEA57860BD"
+					item: "mekanismgenerators:fission_reactor_port"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "715933835D031B11"
+					item: "mekanismgenerators:fission_fuel_assembly"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7CFF9B5EFF99BA0E"
+					item: "mekanismgenerators:reactor_glass"
+					type: "item"
+				}
+			]
+			title: "&c&l[ ✦ 핵분열로 완성 ]"
+			x: 0.0d
+			y: -0.75d
+			icon: "mekanismgenerators:fission_reactor_port"
+		}
+		{
+			dependencies: ["078EF4B42CB45CDF", "7E824A7D6251517F"]
+			description: ["중수소·삼중수소를 채운 홀로륨을 핵융합로에 넣고, 레이저로 레이저 초점 매트릭스를 쏴서 불을 붙인다."]
+			id: "7CD81989A769B8DF"
+			rewards: [
+				{
+					id: "439ED71BCDC9DBDA"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 4
+					id: "427EF4E596D4F5F1"
+					item: "mekanism:ingot_refined_obsidian"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7E17EE76743BF41C"
+					item: "mekanismgenerators:laser_focus_matrix"
+					type: "item"
+				}
+				{
+					id: "203A887A39533548"
+					item: "mekanismgenerators:hohlraum"
+					type: "item"
+				}
+			]
+			title: "&c&l[ ✦ 핵융합 점화 ]"
+			x: 0.0d
+			y: 0.75d
+			icon: "mekanismgenerators:laser_focus_matrix"
+		}
+		{
+			dependencies: ["7D03EE0FF86F32BE"]
+			description: ["메카슈트에 끼우는 발전기. 햇빛으로 충전하는 태양광 충전 모듈, 용암 속에서 충전하는 지열 발전 모듈."]
+			id: "4D31498C3007F854"
+			rewards: [
+				{
+					id: "3A9C884118D06E7A"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 4
+					id: "75DDB09231C54A92"
+					item: "mekanism:alloy_reinforced"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "12DE64B6305ED239"
+					item: "mekanismgenerators:module_solar_recharging_unit"
+					type: "item"
+				}
+				{
+					id: "7813338DF8943317"
+					item: "mekanismgenerators:module_geothermal_generator_unit"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 발전 모듈 ]"
+			x: 0.0d
+			y: 2.25d
+			icon: "mekanismgenerators:module_solar_recharging_unit"
+		}
+	]
+	title: "&b&l✦ 메카니즘: 발전 (Generators)"
+}

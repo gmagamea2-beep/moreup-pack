@@ -1,0 +1,13 @@
+name = "Dungeon Crawl - Dimensional Patch"
+filename = "dc_dp-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f5534cd409df6e6760f91f2057fe3a466b613140"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6136997
+project-id = 1075891

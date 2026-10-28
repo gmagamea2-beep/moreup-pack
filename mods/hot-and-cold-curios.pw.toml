@@ -1,0 +1,13 @@
+name = "Hot and Cold Curios"
+filename = "HotandColdCurios-v1.4.0_forge-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e04ecb663af4850f088ac8dc1325224beca17dc2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8376285
+project-id = 1561340

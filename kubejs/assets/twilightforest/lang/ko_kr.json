@@ -1,0 +1,11 @@
+{
+  "advancement.twilightforest.uncraft_uncrafting_table": "한 발 너무 멀리",
+  "advancement.twilightforest.uncraft_uncrafting_table.desc": "역제작대 분해하기",
+  "block.twilightforest.wrought_iron_fence.cap": "철 주괴나 조각으로 우클릭하면 장식 머리를 붙인다",
+  "entity.twilightforest.thrown_ice": "얼음 폭탄",
+  "item.twilightforest.boarkchop": "멧돼지 날고기",
+  "subtitles.twilightforest.block.wrought_iron_fence.extend": "철이 철컥거림",
+  "subtitles.twilightforest.entity.towerwood_borer.ambient": "탑나무 좀벌레가 쉭 소리 냄",
+  "subtitles.twilightforest.entity.towerwood_borer.death": "탑나무 좀벌레가 죽음",
+  "subtitles.twilightforest.entity.towerwood_borer.hurt": "탑나무 좀벌레가 다침"
+}

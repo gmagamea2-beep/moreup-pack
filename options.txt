@@ -1,0 +1,9 @@
+lang:ko_kr
+renderDistance:8
+simulationDistance:6
+entityShadows:false
+particles:1
+biomeBlendRadius:1
+renderClouds:"fast"
+resourcePacks:["serilum_mod_translations","vanilla","mod_resources","Moonlight Mods Dynamic Assets","generated/fragmentum_layer","file/AnimEmis_spartanfire_1.20.1.zip","file/SimplySpartanShields.zip","file/LowOnFire_1.20.1.zip","file/IAF-DE4THR4SH-Dragonsteel-Weaponry-V-3.5-[1.20.X].zip","file/Powah Korean Language Pack.zip","file/Stay_True_1.20.zip","file/Stay_True_Amendment3.zip","file/staytrue1.20.1.zip"]
+incompatibleResourcePacks:["file/AnimEmis_spartanfire_1.20.1.zip","file/IAF-DE4THR4SH-Dragonsteel-Weaponry-V-3.5-[1.20.X].zip"]

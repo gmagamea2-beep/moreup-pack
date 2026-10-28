@@ -1,0 +1,763 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "moreup_aether"
+	group: "7E05AA7C371599AC"
+	icon: "aether:gold_dungeon_key"
+	id: "7AEA7A08EA43B323"
+	order_index: 15
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5B84FEAB5F9562A6"]
+			id: "78564FA608BCF286"
+			rewards: [
+				{
+					id: "795028EBBD57F802"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "7958FDBFE64CE6AD"
+					item: "aether:zanite_gemstone"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "652C0004D384A458"
+					item: "aether:zanite_gemstone"
+					type: "item"
+				}
+			]
+			title: "&5&l[ ✦ 자나이트 ]"
+			x: 0.0d
+			y: 0.0d
+			icon: "aether:zanite_gemstone"
+		}
+		{
+			dependencies: ["78564FA608BCF286"]
+			id: "51D60BA23BCF7286"
+			rewards: [
+				{
+					id: "776CC3642DC939D8"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 8
+					id: "5823A6FFC818D85E"
+					item: "minecraft:coal"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "680413A93DA2AA2E"
+					item: "aether:ambrosium_shard"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 앰브로시움 ]"
+			x: 1.75d
+			y: -3.0d
+			icon: "aether:ambrosium_shard"
+		}
+		{
+			dependencies: ["78564FA608BCF286"]
+			description: ["청동 던전의 수호자."]
+			id: "7BEF2AA3ADA4BF36"
+			rewards: [
+				{
+					id: "41CDD001BB23BADA"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 8
+					id: "1A204EEE0C4FEE11"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "754B641230DFA743"
+					item: "moreup:boss_essence_low"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "aether:slider"
+					id: "7FF108612CFF9ED1"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&7&l[ ⚔ 슬라이더 ]"
+			x: 1.75d
+			y: -1.5d
+			icon: "aether:bronze_dungeon_key"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["7BEF2AA3ADA4BF36"]
+			description: ["은빛 던전의 지배자."]
+			id: "28BFB76740046B90"
+			rewards: [
+				{
+					id: "7B07CB4815AF5CB9"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 2
+					id: "712CB7E00FBDDEBF"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					count: 1
+					id: "7C25E11B80EAAD9B"
+					item: "moreup:boss_essence_mid"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "aether:valkyrie_queen"
+					id: "7D3D20832474B108"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&b&l[ ⚔ 발키리 여왕 ]"
+			x: 3.5d
+			y: -2.25d
+			icon: "aether:silver_dungeon_key"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["28BFB76740046B90"]
+			description: ["발키리를 쓰러뜨리고 얻는 메달."]
+			id: "7D8546C1290BEEF7"
+			rewards: [
+				{
+					id: "769B4FE097598C2C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "1A70BF6059A32C85"
+					item: "aether:zanite_gemstone"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "0F19D48E881D8A2E"
+					item: "aether:victory_medal"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 승리의 메달 ]"
+			x: 5.25d
+			y: -3.0d
+			icon: "aether:victory_medal"
+		}
+		{
+			dependencies: ["28BFB76740046B90"]
+			description: ["황금 던전의 주인."]
+			id: "79749B5A238CD020"
+			rewards: [
+				{
+					id: "30ACD63F1AAAEFDC"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 3
+					id: "7F34E48DBD2D97EA"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "372A8CBA1EEB37F6"
+					item: "moreup:boss_essence_mid"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "aether:sun_spirit"
+					id: "795A5A6608FE8D9E"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&6&l[ ⚔ 태양 정령 ]"
+			x: 5.25d
+			y: -1.5d
+			icon: "aether:gold_dungeon_key"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["79749B5A238CD020"]
+			id: "704FC6970C0C65C1"
+			rewards: [
+				{
+					id: "336C536A9DF733CF"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 4
+					id: "77608C2D60BDD1B9"
+					item: "aether:healing_stone"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "7ACEB9A4BC4F48F6"
+					item: "aether:enchanted_gravitite"
+					type: "item"
+				}
+			]
+			title: "&d&l[ ✦ 인챈트 그래비타이트 ]"
+			x: 7.0d
+			y: -2.25d
+			icon: "aether:enchanted_gravitite"
+		}
+		{
+			dependencies: ["704FC6970C0C65C1"]
+			description: ["황금 오크에서 얻는 송진."]
+			id: "79D636729BFFA5A7"
+			rewards: [
+				{
+					id: "6566D3AF316E4788"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "747F43D28FDFEDB8"
+					item: "aether:zanite_gemstone"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "48067A392E1BCE8A"
+					item: "aether:golden_amber"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 황금 호박 ]"
+			x: 8.75d
+			y: -2.25d
+			icon: "aether:golden_amber"
+		}
+		{
+			dependencies: ["79749B5A238CD020"]
+			description: ["하늘의 거대 고래. 플래티넘 열쇠를 남긴다."]
+			id: "21CB6659B57E1431"
+			rewards: [
+				{
+					id: "6A1A4EFFB357465A"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 3
+					id: "0366667F023AACB8"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "55961D4D871FA6E4"
+					item: "moreup:boss_essence_mid"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "lost_aether_content:aerwhale_king"
+					id: "014F28485C4100BE"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&b&l[ ⚔ 에어웨일 킹 ]"
+			x: 7.0d
+			y: -0.75d
+			icon: "lost_aether_content:platinum_key"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["21CB6659B57E1431"]
+			description: ["&e세계의 파편: 하늘&r의 재료."]
+			id: "5D7DB051193CCF44"
+			rewards: [
+				{
+					id: "38F146B316C70B18"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 4
+					id: "7E6003951AF5482C"
+					item: "aether:healing_stone"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2B53C01FF77F2B8C"
+					item: "lost_aether_content:platinum_key"
+					type: "item"
+				}
+			]
+			title: "&f&l[ ✦ 플래티넘 열쇠 ]"
+			x: 8.75d
+			y: -0.75d
+			icon: "lost_aether_content:platinum_key"
+		}
+		{
+			dependencies: ["78564FA608BCF286"]
+			description: ["에테르 아이템에 마법을 부여하고 수리한다."]
+			id: "7218B1B96D63CF0A"
+			rewards: [
+				{
+					id: "6BAECC16DD3CE12F"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 6
+					id: "74389C6C494E3878"
+					item: "minecraft:bread"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7E8C9EEEFA9AB5EB"
+					item: "aether:altar"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 제단 ]"
+			x: 1.75d
+			y: 0.0d
+			icon: "aether:altar"
+		}
+		{
+			dependencies: ["7218B1B96D63CF0A"]
+			description: ["얼림 상자로 얼음을 만들고, 부화기로 모아 알을 부화시킨다."]
+			id: "7A72C99C99AF3F8E"
+			rewards: [
+				{
+					id: "7B756DBA85B1AD5A"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 6
+					id: "7EB0C03E114AADFC"
+					item: "minecraft:bread"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7659A4434D0A368A"
+					item: "aether:freezer"
+					type: "item"
+				}
+				{
+					id: "1C8AE0EF37D6CBF4"
+					item: "aether:incubator"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 얼림 상자와 부화기 ]"
+			x: 3.5d
+			y: -0.75d
+			icon: "aether:freezer"
+		}
+		{
+			dependencies: ["7A72C99C99AF3F8E"]
+			description: ["부화기에 넣으면 타고 다니는 모아가 태어난다."]
+			id: "795A23C00952E4D4"
+			rewards: [
+				{
+					id: "797E57B400A1FB23"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 4
+					id: "711E695C7C668ADE"
+					item: "aether:zanite_gemstone"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7AD0E75ED7651278"
+					item: "aether:blue_moa_egg"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 파란 모아 알 ]"
+			x: 5.25d
+			y: 0.0d
+			icon: "aether:blue_moa_egg"
+		}
+		{
+			dependencies: ["78564FA608BCF286"]
+			description: ["쓸수록 강해지는 자나이트 도구와 갑옷."]
+			id: "0F525908B45BA2ED"
+			rewards: [
+				{
+					id: "10E2644FC23AF8BB"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 4
+					id: "7608C4AEB0E8CD7A"
+					item: "aether:zanite_gemstone"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7B32FEE8FF9A179B"
+					item: "aether:zanite_pickaxe"
+					type: "item"
+				}
+				{
+					id: "727096DD26334550"
+					item: "aether:zanite_chestplate"
+					type: "item"
+				}
+				{
+					id: "532A09F0957736DD"
+					item: "aether:zanite_gloves"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 자나이트 장비 ]"
+			x: 1.75d
+			y: 1.5d
+			icon: "aether:zanite_pickaxe"
+		}
+		{
+			dependencies: ["78564FA608BCF286"]
+			description: ["에테르 장신구 칸에 끼운다."]
+			id: "34989CC037759E82"
+			rewards: [
+				{
+					id: "64541BE3CC282566"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 6
+					id: "71EB51F5A73076EE"
+					item: "minecraft:bread"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4C91A61AB7705544"
+					item: "aether:golden_pendant"
+					type: "item"
+				}
+				{
+					id: "783E95E4F45C115B"
+					item: "aether:golden_ring"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 목걸이와 반지 ]"
+			x: 1.75d
+			y: 3.0d
+			icon: "aether:golden_pendant"
+		}
+		{
+			dependencies: ["28BFB76740046B90"]
+			description: ["발키리 여왕의 던전에서 나온다."]
+			id: "78A1F1713EE357FB"
+			rewards: [
+				{
+					id: "78A6519AC5B7ED0A"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 4
+					id: "7F714A3B4483F072"
+					item: "aether:healing_stone"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7A00DC4BB4E12197"
+					item: "aether:valkyrie_chestplate"
+					type: "item"
+				}
+			]
+			title: "&f&l[ ✦ 발키리 장비 ]"
+			x: 5.25d
+			y: 1.5d
+			icon: "aether:valkyrie_chestplate"
+		}
+		{
+			dependencies: ["28BFB76740046B90"]
+			description: ["착용하면 천천히 떨어진다."]
+			id: "28F7B331D823AF1F"
+			rewards: [
+				{
+					id: "79602CB4F74CA491"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 4
+					id: "7659678DFB8E19F2"
+					item: "aether:zanite_gemstone"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7CCCC29E3172B250"
+					item: "aether:golden_feather"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 황금 깃털 ]"
+			x: 5.25d
+			y: 3.0d
+			icon: "aether:golden_feather"
+		}
+		{
+			dependencies: ["79749B5A238CD020"]
+			description: ["태양의 정령 던전의 갑옷. 불과 용암을 견딘다."]
+			id: "79A3E73662BFDB8B"
+			rewards: [
+				{
+					id: "752147D0B02AE230"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 4
+					id: "211B69F9464E4708"
+					item: "aether:healing_stone"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4A8A1F3C1CAA678F"
+					item: "aether:phoenix_chestplate"
+					type: "item"
+				}
+			]
+			title: "&c&l[ ✦ 불사조 흉갑 ]"
+			x: 7.0d
+			y: 0.75d
+			icon: "aether:phoenix_chestplate"
+		}
+		{
+			dependencies: ["704FC6970C0C65C1"]
+			id: "1E031CFB504145DB"
+			rewards: [
+				{
+					id: "7D0AF07CC5A0F50D"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 4
+					id: "7C7358EEB46FE686"
+					item: "aether:healing_stone"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "09FA29F9EA1C8705"
+					item: "aether:gravitite_chestplate"
+					type: "item"
+				}
+			]
+			title: "&d&l[ ✦ 그라비타이트 흉갑 ]"
+			x: 8.75d
+			y: 0.75d
+			icon: "aether:gravitite_chestplate"
+		}
+		{
+			dependencies: ["7BEF2AA3ADA4BF36"]
+			description: ["착용하면 체력이 천천히 회복된다."]
+			id: "7D0BFDCB8C96F61E"
+			rewards: [
+				{
+					id: "780FAF5F9DE3D5B4"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 4
+					id: "2E32073444BEA7C9"
+					item: "aether:zanite_gemstone"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7340B5D1F81B0B05"
+					item: "aether:regeneration_stone"
+					type: "item"
+				}
+			]
+			title: "&a&l[ ✦ 재생의 돌 ]"
+			x: 3.5d
+			y: 0.75d
+			icon: "aether:regeneration_stone"
+		}
+		{
+			dependencies: ["704FC6970C0C65C1"]
+			id: "7BDC14DA5CB7C433"
+			rewards: [
+				{
+					id: "7C93D6306C3760B7"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 4
+					id: "043E8257594E9247"
+					item: "aether:zanite_gemstone"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0FE4513670ABC153"
+					item: "lost_aether_content:zanite_shield"
+					type: "item"
+				}
+				{
+					id: "57C7B647130C5FB2"
+					item: "lost_aether_content:gravitite_shield"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 에테르의 방패 (Lost Aether) ]"
+			x: 8.75d
+			y: 2.25d
+			icon: "lost_aether_content:zanite_shield"
+		}
+		{
+			dependencies: ["79749B5A238CD020"]
+			id: "79B6D35300D6FBA2"
+			rewards: [
+				{
+					id: "70CAAD4A4404AD56"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 4
+					id: "789288D78DF14EDD"
+					item: "aether:healing_stone"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "616A784650B9E826"
+					item: "lost_aether_content:phoenix_sword"
+					type: "item"
+				}
+			]
+			title: "&c&l[ ✦ 피닉스의 검 ]"
+			x: 7.0d
+			y: 2.25d
+			icon: "lost_aether_content:phoenix_sword"
+		}
+		{
+			dependencies: ["7BEF2AA3ADA4BF36"]
+			id: "47E32B75924094F4"
+			rewards: [
+				{
+					id: "36E921F4134E6B8B"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 4
+					id: "7406DF767F7A2443"
+					item: "aether:zanite_gemstone"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7B928AB7358C53A3"
+					item: "lost_aether_content:power_gloves"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 힘의 장갑 ]"
+			x: 3.5d
+			y: 2.25d
+			icon: "lost_aether_content:power_gloves"
+		}
+		{
+			dependencies: ["5D7DB051193CCF44"]
+			id: "01988427568C92EA"
+			rewards: [
+				{
+					id: "3C70283052268CF7"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 4
+					id: "17850BA903B94922"
+					item: "aether:zanite_gemstone"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "126A025D105787A0"
+					item: "lost_aether_content:agility_boots"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 민첩의 부츠 ]"
+			x: 10.5d
+			y: 0.0d
+			icon: "lost_aether_content:agility_boots"
+		}
+	]
+	title: "&b&l✦ 에테르"
+}

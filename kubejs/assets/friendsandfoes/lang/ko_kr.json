@@ -1,0 +1,19 @@
+{
+  "block.friendsandfoes.crab_egg": "게 알",
+  "entity.friendsandfoes.crab": "게",
+  "entity.friendsandfoes.player_illusion": "플레이어 환영",
+  "effect.friendsandfoes.reach": "사거리",
+  "effect.friendsandfoes.reach.description": "블록 상호작용 범위를 늘린다.",
+  "item_group.friendsandfoes.main_tab": "Friends & Foes",
+  "item.friendsandfoes.crab_spawn_egg": "게 생성 알",
+  "item.friendsandfoes.crab_claw": "게 집게발",
+  "item.minecraft.potion.effect.reaching": "사거리의 물약",
+  "item.minecraft.splash_potion.effect.reaching": "투척용 사거리의 물약",
+  "item.minecraft.lingering_potion.effect.reaching": "잔류형 사거리의 물약",
+  "item.minecraft.tipped_arrow.effect.reaching": "사거리의 화살",
+  "subtitle.entity.friendsandfoes.crab.death": "게가 죽음",
+  "subtitle.entity.friendsandfoes.crab.hurt": "게가 다침",
+  "friendsandfoes.totem_trigger_tooltip": "피해를 받아 체력이 최대 체력의 절반 아래로 떨어지면 발동한다.",
+  "text.betterf3.line.glares": "글레어",
+  "text.betterf3.line.rascals": "라스칼"
+}

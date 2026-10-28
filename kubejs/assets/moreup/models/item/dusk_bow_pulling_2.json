@@ -1,0 +1,4 @@
+{
+  "parent": "moreup:item/dusk_bow",
+  "textures": { "layer0": "moreup:item/dusk_bow_pulling_2" }
+}

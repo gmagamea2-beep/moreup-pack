@@ -1,0 +1,6 @@
+{
+  "attack.death.createaddition.barbed_wire": "%1$s이(가) 철조망을 넘으려 했습니다",
+  "attack.death.createaddition.barbed_wire.player": "%1$s이(가) %2$s와(과) 싸우다 철조망을 넘으려 했습니다",
+  "attack.death.createaddition.tesla_coil": "%1$s이(가) 치명적인 감전을 당했습니다",
+  "attack.death.createaddition.tesla_coil.player": "%1$s이(가) %2$s와(과) 싸우다 치명적인 감전을 당했습니다"
+}

@@ -1,0 +1,13 @@
+name = "Compass to Map: JourneyMap & Explorer's Compass & Nature's Compass Addon"
+filename = "compass2map-2.0.3-forge-1.20.1.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "6b49761024d6b67fa9c676c944469894136858ee"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8074860
+project-id = 1537959

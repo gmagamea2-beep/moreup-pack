@@ -1,0 +1,8 @@
+{
+  "death.attack.player_critical": "%1$s이(가) 죽었습니다",
+  "death.attack.player_critical.player": "%1$s이(가) %2$s에게서 도망치려다 죽었습니다",
+  "death.attack.player_critical.item": "%1$s이(가) %3$s을(를) 쓴 %2$s에게 살해당했습니다",
+  "death.attack.sweeping_damage": "%1$s이(가) 죽었습니다",
+  "death.attack.sweeping_damage.player": "%1$s이(가) %2$s에게서 도망치려다 죽었습니다",
+  "death.attack.sweeping_damage.item": "%1$s이(가) %3$s을(를) 쓴 %2$s에게 살해당했습니다"
+}

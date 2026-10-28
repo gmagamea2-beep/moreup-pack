@@ -1,0 +1,19 @@
+{
+  "jei.tooltip.show.all.recipes.hotkey": "\"%s\"을(를) 누르면 모든 레시피를 본다.",
+  "jei.tooltip.liquid.flowing": "%s (흐르는)",
+  "jei.tooltip.item.search.aliases": "검색 별칭:",
+  "gui.jei.category.tagInformation": "%s 태그",
+  "gui.jei.category.tagInformation.block": "블록 태그",
+  "gui.jei.category.tagInformation.fluid": "유체 태그",
+  "gui.jei.category.tagInformation.item": "아이템 태그",
+  "gui.jei.category.recipe.crashed": "이 레시피가 오류를 일으켰다. 자세한 내용은 클라이언트 로그를 보세요.",
+  "jei.key.combo.shift": "SHIFT + %s",
+  "jei.key.combo.control": "CTRL + %s",
+  "jei.key.combo.command": "CMD + %s",
+  "jei.key.combo.alt": "ALT + %s",
+  "jei.key.shift": "SHIFT",
+  "jei.key.mouse.left": "클릭",
+  "jei.key.mouse.right": "우클릭",
+  "jei.alias.panda.spawn.egg": "멸종 위기",
+  "jei.alias.villager.spawn.egg": "흐음"
+}

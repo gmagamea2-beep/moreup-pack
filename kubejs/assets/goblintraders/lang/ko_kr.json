@@ -1,0 +1,21 @@
+{
+  "entity.goblintraders.goblin_trader": "고블린 상인",
+  "entity.goblintraders.vein_goblin_trader": "광맥 고블린 상인",
+  "subtitle.goblintraders.goblin_trader.annoyed_grunt": "짜증 난 끙 소리",
+  "subtitle.goblintraders.goblin_trader.idle_grunt": "가만히 있는 끙 소리",
+  "item.goblintraders.goblin_trader_spawn_egg": "고블린 상인 생성 알",
+  "item.goblintraders.vein_goblin_trader_spawn_egg": "광맥 고블린 상인 생성 알",
+  "stat.goblintraders.trade_with_goblin": "고블린과 거래한 횟수",
+  "mob_spawner.type.zombie": "좀비",
+  "mob_spawner.type.skeleton": "스켈레톤",
+  "mob_spawner.type.creeper": "크리퍼",
+  "item.minecraft.potion.effect.haste": "성급함의 물약",
+  "item.minecraft.potion.effect.absorption": "흡수의 물약",
+  "item.minecraft.potion.effect.dolphins_grace": "돌고래의 우아함 물약",
+  "item.minecraft.splash_potion.effect.haste": "투척용 성급함의 물약",
+  "item.minecraft.splash_potion.effect.absorption": "투척용 흡수의 물약",
+  "item.minecraft.splash_potion.effect.dolphins_grace": "투척용 돌고래의 우아함 물약",
+  "item.minecraft.lingering_potion.effect.haste": "잔류형 성급함의 물약",
+  "item.minecraft.lingering_potion.effect.absorption": "잔류형 흡수의 물약",
+  "item.minecraft.lingering_potion.effect.dolphins_grace": "잔류형 돌고래의 우아함 물약"
+}

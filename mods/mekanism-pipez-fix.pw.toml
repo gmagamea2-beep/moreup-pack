@@ -1,0 +1,13 @@
+name = "Mekanism Pipez Fix"
+filename = "MekanismPipezFix-1.20.1-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "56ac9a6d0ffa84443f95ec798ccfbee80023a6ab"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7661925
+project-id = 1233861

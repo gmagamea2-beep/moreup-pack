@@ -1,0 +1,13 @@
+name = "Rough Tweaks Revamped"
+filename = "Rough_Tweaks_Revamped-1.20.x-1.1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "dca08a0f0416656fe0206083ba1a4e22e057d2fa"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5002695
+project-id = 415822

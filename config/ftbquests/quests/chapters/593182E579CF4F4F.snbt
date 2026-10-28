@@ -1,0 +1,1037 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "593182E579CF4F4F"
+	group: "7E05AA7C371599AC"
+	icon: {
+		Count: 1
+		id: "ebwizardry:wand_master"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "593182E579CF4F4F"
+	order_index: 20
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "ebwizardry:wizard_handbook"
+			id: "1ABD64E64BB87D87"
+			rewards: [
+				{
+					id: "2EE03CF054DF1014"
+					item: "ebwizardry:arcane_workbench"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6189AEC9D29B4D47"
+					item: "ebwizardry:wizard_handbook"
+					type: "item"
+				}
+			]
+			title: "&f&l[ ✦ 마법의 기초 ]"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1ABD64E64BB87D87"]
+			icon: {
+				Count: 1
+				id: "ebwizardry:wand_novice"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0F30FA33C69C4C64"
+			rewards: [
+				{
+					id: "71301E515021C78B"
+					item: {
+						Count: 1
+						id: "ebwizardry:wizard_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "095ADF0507D9B456"
+					item: {
+						Count: 1
+						id: "ebwizardry:wizard_robe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "34BF3A60D3C5F1BF"
+					item: {
+						Count: 1
+						id: "ebwizardry:wizard_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B437979C26908FD"
+					item: {
+						Count: 1
+						id: "ebwizardry:wizard_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "72C8E3057E5D3D29"
+					item: {
+						Count: 1
+						id: "ebwizardry:wand_novice"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&f&l[ ✦ 마법의 길 ]"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0F30FA33C69C4C64"]
+			icon: "ebwizardry:arcane_tome_apprentice"
+			id: "70FDEBAEFFCB8748"
+			rewards: [
+				{
+					icon: "ebwizardry:blank_scroll"
+					id: "47AC8FD3B7DEF324"
+					table_id: 8797929897152047644L
+					title: "&l마법의 일부"
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "709D307CFBBFAD5A"
+					table_id: 3910429878194320281L
+					type: "choice"
+				}
+			]
+			tasks: [
+				{
+					id: "37DA2AA14C433EDC"
+					item: "ebwizardry:arcane_tome_apprentice"
+					type: "item"
+				}
+			]
+			title: "&f&l[ ✦ 아르카나의 서 ]"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["70FDEBAEFFCB8748"]
+			icon: "ebwizardry:identification_scroll"
+			id: "390033104AE2368C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6201EA2E7CDCA1FF"
+					table_id: 7898449578155569266L
+					type: "choice"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "60F53EDB1536F88D"
+					item: {
+						Count: 2
+						id: "ebwizardry:identification_scroll"
+					}
+					type: "item"
+				}
+			]
+			title: "&f&l[ ✦ 진실의 밝히는 종이 ]"
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["70FDEBAEFFCB8748"]
+			description: ["&l나쁜 마법사를 잡으세요"]
+			icon: "ebwizardry:evil_wizard_spawn_egg"
+			id: "58FF37D40C4F0F54"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2117EEBB884505D0"
+					table_id: 7898449578155569266L
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					entity: "ebwizardry:evil_wizard"
+					id: "754A68B688EF23E2"
+					title: "&l매지션 킬러"
+					type: "kill"
+					value: 3L
+				}
+			]
+			title: "&f&l[ ⚔ 매지션 킬러 ]"
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["390033104AE2368C"]
+			icon: "ebwizardry:astral_diamond"
+			id: "2DA4D63F5CE69A2B"
+			rewards: [
+				{
+					id: "1038BFF16D26CB5A"
+					item: "ebwizardry:arcane_tome_master"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "7E3C979B8BDADF98"
+					item: {
+						Count: 2
+						id: "ebwizardry:astral_diamond"
+					}
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "52B6835DA80CF1AE"
+					item: {
+						Count: 16
+						id: "ebwizardry:magic_crystal_grand"
+					}
+					type: "item"
+				}
+				{
+					id: "0512C986252A0E75"
+					item: "ebwizardry:resplendent_thread"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "0EE7F75F45BC7C79"
+					item: {
+						Count: 32
+						id: "ebwizardry:magic_silk"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5095CED4F24D0E81"
+					item: {
+						Count: 2
+						id: "ebwizardry:mana_flask_large"
+					}
+					type: "item"
+				}
+				{
+					id: "5C73E542014F1ACD"
+					item: "ebwizardry:arcane_tome_apprentice"
+					type: "item"
+				}
+				{
+					id: "3B022FBF055EBB1E"
+					item: "ebwizardry:arcane_tome_advanced"
+					type: "item"
+				}
+			]
+			title: "&f&l[ ✦ 대마법의 길 ]"
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2DA4D63F5CE69A2B"]
+			icon: "myth_wizardry:arcane_tome_mythical"
+			id: "6BF993863FBAA052"
+			rewards: [
+				{
+					id: "3DD9D8D4E263FC47"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:xp_scroll"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "108216B816E4AB72"
+					item: "enigmaticlegacy:escape_scroll"
+					type: "item"
+				}
+				{
+					id: "6315EC99FA14DC48"
+					item: "enigmaticlegacy:darkest_scroll"
+					type: "item"
+				}
+				{
+					id: "5F97E5D9737EFF7F"
+					item: "enigmaticlegacy:cursed_scroll"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6CB37A10E96543EB"
+					item: "myth_wizardry:arcane_tome_mythical"
+					title: "신화의 마법서"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 아스트랄 위자드 ]"
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			icon: "enigmaticlegacy:the_acknowledgment"
+			id: "54F91F5F632F3120"
+			rewards: [
+				{
+					count: 6
+					id: "61A3CC464E506B17"
+					item: "enigmaticlegacy:etherium_ore"
+					type: "item"
+				}
+				{
+					id: "41E9355142771E8F"
+					item: "enigmaticlegacy:unholy_grail"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7851794FBF390132"
+					item: "enigmaticlegacy:the_acknowledgment"
+					title: "&6증명"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 증명하는 길 ]"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["54F91F5F632F3120"]
+			icon: "enigmaticlegacy:the_twist"
+			id: "0984D77BC396A32D"
+			rewards: [
+				{
+					count: 5
+					id: "543144A50585FE36"
+					item: "enigmaticlegacy:evil_essence"
+					type: "item"
+				}
+				{
+					count: 7
+					id: "51A8505DFF93ABD3"
+					item: "enigmaticlegacy:evil_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "71DCC42C9DEE7040"
+					item: "enigmaticlegacy:the_twist"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 비틀린 길 ]"
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0984D77BC396A32D"]
+			icon: "enigmaticlegacy:the_infinitum"
+			id: "133C3BF0A3C07B5A"
+			rewards: [
+				{
+					id: "44B5EF0501AD8CCD"
+					item: "enigmaticaddons:violence_scroll"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "08EBC70CBF9D240E"
+					item: "enigmaticlegacy:the_infinitum"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 끝없는 나락으로 ]"
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["54F91F5F632F3120"]
+			description: ["&7세계 곳곳 폐허와 던전에 흩어진 &b지식의 조각&r&7을 발견했다.", "  &6&o\"이 조각들은 한때 하나의 완전한 지혜였다. 모으면 잊혀진 진실이 드러날 것이다.\"&r"]
+			icon: "enigmaticlegacy:lore_fragment"
+			id: "4E565C9637A555A6"
+			rewards: [
+				{
+					count: 10
+					id: "1C89D442546F56BD"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 5L
+					id: "4AB771852AA4642D"
+					item: {
+						Count: 5
+						id: "enigmaticlegacy:lore_fragment"
+						tag: {
+							display: { }
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 조각난 기록&r ]"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4E565C9637A555A6"]
+			description: ["&b지식의 조각들이 가리키는 곳에서 신비한 잉크병을 발견했다.", "  &7&o\"이것으로 기록되지 않은 것들을 다시 써내려갈 수 있다.\"&r"]
+			icon: "enigmaticlegacy:lore_inscriber"
+			id: "5096819BF0508369"
+			rewards: [
+				{
+					count: 4
+					id: "77D31588A3B45CF0"
+					item: "minecraft:writable_book"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "78131F99A8178F82"
+					item: "enigmaticlegacy:lore_inscriber"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 건축가의 잉크병&r ]"
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5096819BF0508369"]
+			description: ["&b이 책은 스스로 지식을 갈망하며, 사용할수록 그 힘이 커진다.", "  &6&l\"진정한 유물 사냥꾼이 되려면 이 책과 함께 성장해야 한다.\"&r"]
+			icon: "enigmaticlegacy:enchantment_transposer"
+			id: "2A69D4B7A9F3A6A8"
+			rewards: [
+				{
+					count: 6
+					id: "601B4B3F187B5234"
+					item: "minecraft:bookshelf"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "23C974C41626C074"
+					item: "enigmaticlegacy:enchantment_transposer"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 굶주린 지식의 서&r ]"
+			x: 7.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2A69D4B7A9F3A6A8"]
+			description: ["&e지식의 서가 안내한 곳, 땅속 깊이 낯선 광채를 내는 광석이 묻혀 있었다.", "  &7&o\"이것이 바로 아르카나 문명이 다뤘다던 신비한 금속, 에테리움이다.\"&r"]
+			icon: "enigmaticlegacy:etherium_ore"
+			id: "57860DB91CF4919D"
+			tasks: [
+				{
+					count: 12L
+					id: "4FCC4ED6FD202241"
+					item: {
+						Count: 12
+						id: "enigmaticlegacy:etherium_ore"
+					}
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 반짝이는 광맥&r ]"
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["57860DB91CF4919D"]
+			description: [" &e용광로 속에서 원석이 순수한 주괴로 다시 태어난다.", "  &7이 금속은 네더라이트를 능가하는 잠재력을 지녔다고 전해진다."]
+			icon: "enigmaticlegacy:etherium_ingot"
+			id: "39D414F6E1603DBC"
+			rewards: [
+				{
+					id: "575517A65FAD158F"
+					item: "enigmaticlegacy:astral_dust"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "29131A5192BDE3EE"
+					item: {
+						Count: 8
+						id: "enigmaticlegacy:etherium_ingot"
+					}
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 제련된 신비&r ]"
+			x: 11.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["39D414F6E1603DBC"]
+			description: ["&e에테리움을 정제하는 과정에서 부산물로 남는 신비한 가루.", "  &6&o\"이 가루는 별의 힘을 품고 있어, 강화 의식에 반드시 필요하다.\"&r"]
+			icon: "enigmaticlegacy:astral_dust"
+			id: "0A4A204DDB77A054"
+			rewards: [
+				{
+					count: 10
+					id: "4CB4CABF9FC2E5BA"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 10L
+					id: "4AAC4AA70C8FF62D"
+					item: {
+						Count: 5
+						id: "enigmaticlegacy:astral_dust"
+					}
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 아스트랄의 가루&r ]"
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0A4A204DDB77A054"]
+			description: ["&5엔더 진주보다 정교하게 벼려진 지팡이는 차원의 벽을 두드릴 수 있다.", "  &7&o\"이것을 손에 쥔 자는 더 이상 공간의 제약을 받지 않는다.\"&r"]
+			icon: "enigmaticlegacy:ender_rod"
+			id: "17D827FD696E50FB"
+			rewards: [
+				{
+					count: 16
+					id: "464619B652168843"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "3A69965858E151E5"
+					item: {
+						Count: 2
+						id: "enigmaticlegacy:ender_rod"
+					}
+					type: "item"
+				}
+			]
+			title: "&5&l[ ✦ 엔더의 지팡이&r ]"
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["17D827FD696E50FB"]
+			description: ["&5이 눈은 우리가 볼 수 없는 차원의 틈새를 응시하고 있다.", "  &6&l\"네 개의 스펠스톤이 잠든 위치가 이 눈을 통해 드러난다.\"&r"]
+			icon: "enigmaticlegacy:extradimensional_eye"
+			id: "301AFCCBAE30EDD8"
+			rewards: [
+				{
+					id: "5EAD01D2F30595AF"
+					item: "minecraft:ender_chest"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0D4F77A9E36B8C56"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:extradimensional_eye"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "&5&l[ ✦ 차원간의 눈&r ]"
+			x: 13.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["301AFCCBAE30EDD8"]
+			description: ["&c네더의 가장 뜨거운 곳에서 스스로 타오르는 심장을 발견했다.", "  &7화염을 다스리는 첫 번째 스펠스톤이다"]
+			icon: "enigmaticlegacy:blazing_core"
+			id: "476BC976BA966158"
+			rewards: [
+				{
+					count: 3
+					id: "4D70FFFD042AE6FA"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7C1C8526C7C4D675"
+					item: "enigmaticlegacy:blazing_core"
+					type: "item"
+				}
+			]
+			title: "&c&l[ ✦ 타오르는 핵&r ]"
+			x: 12.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["476BC976BA966158"]
+			description: ["&b깊은 바다 유적 아래, 파도 그 자체의 의지가 담긴 돌을 찾아냈다.", "  &7물을 다스리는 두 번째 스펠스톤이다."]
+			icon: "enigmaticlegacy:ocean_stone"
+			id: "45E8DA760DFD3BD1"
+			rewards: [
+				{
+					id: "7A4917FCECFA4B59"
+					item: "minecraft:conduit"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7AAF8FC2838B6171"
+					item: "minecraft:prismarine_bricks"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "320442D284697944"
+					item: "minecraft:prismarine"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "06E6F5F4B334D637"
+					item: "minecraft:dark_prismarine"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1EF463250519317D"
+					item: "minecraft:heart_of_the_sea"
+					type: "item"
+				}
+				{
+					id: "3DCFF68E4F22D2DC"
+					item: "l2complements:totem_of_the_sea"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0478F77B2A18D8ED"
+					item: "enigmaticlegacy:ocean_stone"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 바다의 의지&r ]"
+			x: 10.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["45E8DA760DFD3BD1"]
+			description: ["  &2고대 골렘의 잔해 속에서 여전히 고동치는 심장을 꺼냈다.", "  &7대지를 다스리는 세 번째 스펠스톤이다"]
+			icon: "enigmaticlegacy:golem_heart"
+			id: "0CC9F0F851DB5642"
+			rewards: [
+				{
+					id: "4DD4B3AC137FF43A"
+					item: "minecraft:iron_golem_spawn_egg"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3CE8AFD91DA0B8AA"
+					item: "enigmaticlegacy:golem_heart"
+					type: "item"
+				}
+			]
+			title: "&2&l[ ✦ 골렘의 심장&r ]"
+			x: 12.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0CC9F0F851DB5642"]
+			description: ["&5밤하늘 너머, 성운이 응축되어 만들어진 눈이 조용히 당신을 바라본다.", "  &6&l\"네 개의 스펠스톤이 모두 모였다. 이제 더 깊은 유물의 힘에 다가갈 시간이다.\"&r"]
+			icon: "enigmaticlegacy:eye_of_nebula"
+			id: "6A086B11DE602557"
+			rewards: [
+				{
+					id: "412A30FB84375571"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+			]
+			tasks: [
+				{
+					id: "01C43C1FE250F716"
+					item: "enigmaticlegacy:eye_of_nebula"
+					type: "item"
+				}
+			]
+			title: "&5&l[ ✦ 성운의 눈&r ]"
+			x: 15.5d
+			y: -3.0d
+		}
+		{
+			description: ["Forbidden & Arcanus의 기본 재료."]
+			id: "7B85F979150CFF1F"
+			rewards: [
+				{
+					id: "77D904D49563D162"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "12479E8AFE76BAB0"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "738C6225205F1C91"
+					item: "forbidden_arcanus:arcane_crystal"
+					type: "item"
+				}
+			]
+			title: "&d&l[ ✦ 비전 결정 ]"
+			x: 18.5d
+			y: 0.0d
+			icon: "forbidden_arcanus:arcane_crystal"
+		}
+		{
+			dependencies: ["7B85F979150CFF1F"]
+			id: "4F7B2570634A2B41"
+			rewards: [
+				{
+					id: "79A6F11D7B2D1029"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 16
+					id: "723971B0069BC84F"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "261C7E332EC2100E"
+					item: "forbidden_arcanus:rune"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 룬 ]"
+			x: 20.25d
+			y: 0.0d
+			icon: "forbidden_arcanus:rune"
+		}
+		{
+			dependencies: ["4F7B2570634A2B41"]
+			id: "7315B97CA93418C6"
+			rewards: [
+				{
+					id: "748E28BADF3B402A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 8
+					id: "79C0F2F845A39F3E"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "7D2DFB5DAD992BD4"
+					item: "forbidden_arcanus:mundabitur_dust"
+					type: "item"
+				}
+			]
+			title: "&7&l[ ✦ 문다비투르 가루 ]"
+			x: 22.0d
+			y: 0.0d
+			icon: "forbidden_arcanus:mundabitur_dust"
+		}
+		{
+			dependencies: ["7315B97CA93418C6"]
+			id: "035D083D8EB4F7AE"
+			rewards: [
+				{
+					id: "29E0FE6446CD08D8"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 8
+					id: "77A26CBA374FDC09"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "7A891EE09DBF40B8"
+					item: "forbidden_arcanus:deorum_ingot"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 데오룸 ]"
+			x: 23.75d
+			y: 0.0d
+			icon: "forbidden_arcanus:deorum_ingot"
+		}
+		{
+			dependencies: ["035D083D8EB4F7AE"]
+			id: "727891BFE77F5147"
+			rewards: [
+				{
+					id: "7D1A3B0972C5B69B"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "79315852FFB295D6"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "773A9004D5926B0C"
+					item: "forbidden_arcanus:stellarite_piece"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 스텔라라이트 조각 ]"
+			x: 25.5d
+			y: -0.75d
+			icon: "forbidden_arcanus:stellarite_piece"
+		}
+		{
+			dependencies: ["727891BFE77F5147"]
+			id: "2542273B45490CD0"
+			rewards: [
+				{
+					id: "4846D0C28D02172D"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 16
+					id: "6E35E12D192226E7"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "7B3BADF8F3B5908C"
+					item: "forbidden_arcanus:xpetrified_orb"
+					type: "item"
+				}
+			]
+			title: "&a&l[ ✦ 석화된 경험의 구슬 ]"
+			x: 27.25d
+			y: -1.5d
+			icon: "forbidden_arcanus:xpetrified_orb"
+		}
+		{
+			dependencies: ["035D083D8EB4F7AE"]
+			description: ["특수 용광로의 핵."]
+			id: "3E9CFE7A1D3E7F13"
+			rewards: [
+				{
+					id: "3F5B59047AC6892C"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "1195C287EFB42F93"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7F18E3EC504ECC1B"
+					item: "forbidden_arcanus:clibano_core"
+					type: "item"
+				}
+			]
+			title: "&c&l[ ✦ 클리바노 ]"
+			x: 25.5d
+			y: 0.75d
+			icon: "forbidden_arcanus:clibano_core"
+		}
+		{
+			dependencies: ["3E9CFE7A1D3E7F13"]
+			id: "07292B299BD494F8"
+			rewards: [
+				{
+					id: "16CED339544C32AA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "755B9DF39E74C56F"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "76EBA46AA39B604B"
+					item: "forbidden_arcanus:utrem_jar"
+					type: "item"
+				}
+			]
+			title: "&7&l[ ✦ 유트렘 병 ]"
+			x: 27.25d
+			y: 0.0d
+			icon: "forbidden_arcanus:utrem_jar"
+		}
+		{
+			dependencies: ["727891BFE77F5147"]
+			id: "79D65395F219868B"
+			rewards: [
+				{
+					id: "7BF517C7DFAF3250"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 2
+					id: "09C6F131F787ACF4"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "79871FFC018D253D"
+					item: "forbidden_arcanus:eternal_obsidian_skull"
+					type: "item"
+				}
+			]
+			title: "&8&l[ ✦ 영원한 흑요석 해골 ]"
+			x: 27.25d
+			y: 1.5d
+			icon: "forbidden_arcanus:eternal_obsidian_skull"
+		}
+		{
+			dependencies: ["79D65395F219868B"]
+			id: "0E190DE8BABFBB1A"
+			rewards: [
+				{
+					id: "716822149121AA96"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 4
+					id: "221341C5C90B0A6B"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "248C29FA7B0E312A"
+					item: "forbidden_arcanus:dark_nether_star"
+					type: "item"
+				}
+			]
+			title: "&5&l[ ✦ 어둠의 네더의 별 ]"
+			x: 29.0d
+			y: 0.0d
+			icon: "forbidden_arcanus:dark_nether_star"
+		}
+		{
+			dependencies: ["0E190DE8BABFBB1A"]
+			description: ["&e세계의 파편: 마법&r의 재료."]
+			id: "347EA5CF81811596"
+			rewards: [
+				{
+					id: "50808646CC09AF3D"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					count: 16
+					id: "1FDB67F82BF68F40"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5457D71865C554DC"
+					item: "forbidden_arcanus:eternal_stella"
+					type: "item"
+				}
+			]
+			title: "&d&l[ ✦ 영원한 스텔라 ]"
+			x: 30.75d
+			y: 0.0d
+			icon: "forbidden_arcanus:eternal_stella"
+		}
+	]
+	title: "&b&l✦ 마법과 신화의 대가"
+}

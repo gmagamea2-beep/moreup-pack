@@ -1,0 +1,9 @@
+{
+  "itemGroup.pipez": "Pipez",
+  "tooltip.pipez.filter.not": "반전",
+  "tooltip.pipez.rate.item": "%2$s틱마다 아이템 %1$s개 전송",
+  "tooltip.pipez.rate.fluid": "틱마다 %s mB 전송",
+  "tooltip.pipez.rate.energy": "틱마다 %s FE 전송",
+  "tooltip.pipez.rate.gas": "틱마다 기체 %s mB 전송",
+  "message.pipez.filter.nbt": "NBT: %s"
+}

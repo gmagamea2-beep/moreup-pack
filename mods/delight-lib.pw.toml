@@ -1,0 +1,13 @@
+name = "Delight Lib"
+filename = "delightlib-26.05.18-1.20-forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "76dadc17034ef4603f9ffb433dc01c5f770aa59d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8111468
+project-id = 1531135

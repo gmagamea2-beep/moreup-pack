@@ -1,0 +1,13 @@
+name = "EdenRing Forge"
+filename = "EdenRing-20.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "db51d129cef4ad8da10f02b325db3b48666fd854"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7788701
+project-id = 1489521

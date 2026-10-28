@@ -1,0 +1,846 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_3"
+	group: "5E3B475B0E7170C2"
+	icon: "minecraft:end_portal_frame"
+	id: "656362C95CB80EAF"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2FFDDBA791341B1F"]
+			description: [
+				"&7\"별의 심장이 고동치기 시작했다. 이제 필멸의 껍데기를 넘어, 차원의 경계를 넘나들 권능이 당신의 손안에 있다.\"&r"
+				""
+				"&f위더의 재앙을 뚫고 얻어낸 네더의 별은 단순한 전리품이 아니었습니다."
+				"그것은 당신이 잃어버렸던 7개의 파편 중 하나이자,"
+				"다양한 차원을 연결하고 지배할 수 있는 '다차원 성전'의 핵심 동력원입니다."
+				""
+				"&b이제 세계를 돌며 16개의 눈을 모아 제단 (엔더 신전)으로 향하십시오."
+				"그곳은 당신이 신으로서의 지위를 되찾기 위해 거쳐야 할 두 번째 시련의 무대입니다."
+				"16개의 눈중 12개의 눈을 제단에 꼽아 성전의 문을 개방하시오"
+				""
+				"&c[퀘스트를 클릭하여 성전의 문을 여십시오.]"
+			]
+			icon: "minecraft:totem_of_undying"
+			id: "64F09CC98327A4E7"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/function scene:act3_start"
+					icon: "minecraft:dragon_head"
+					id: "43B1EC8BCF3F206B"
+					team_reward: true
+					title: "&l\"흑화한 빛의 육신\""
+					type: "command"
+					elevate_perms: true
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "6531B1BD43C2BA28"
+					title: "[Chapter 3: 다차원 성전(聖殿)]"
+					type: "checkmark"
+				}
+			]
+			title: "[Chapter 3: 다차원 성전(聖殿)]"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"64F09CC98327A4E7"
+				"14A1AE1B02423CA9"
+				"3C326EB4DD644902"
+				"0E8DE84BBD4F4033"
+				"094452B2CF3695D4"
+				"6A1A5A93369C6EBA"
+				"253A96E5968241CF"
+				"39D49345BB32DA54"
+				"77E41357C383861D"
+				"5ECFE322E7EAD647"
+				"5751016A6CD09CCA"
+				"4C8BD408C441AD36"
+				"7EDB4487C38F7076"
+				"1E86712085CD9B2B"
+				"0EC5631FCE0C2FFA"
+				"1364795938D1CB40"
+				"325B905528A9FF58"
+			]
+			icon: "minecraft:nether_star"
+			id: "77DD80CC11C56AAE"
+			rewards: [
+				{
+					id: "131E5A6E27394249"
+					item: {
+						Count: 1
+						id: "minecraft:writable_book"
+						tag: {
+							author: "태초의 용"
+							display: {
+								Lore: ["{\"text\":\"용이 남긴 마지막 진실이 담겨 있습니다.\",\"color\":\"gray\",\"italic\":false}"]
+								Name: "{\"text\":\"별의 기록서\",\"color\":\"gold\",\"bold\":true}"
+							}
+							pages: [
+								"제 1막 : 태초의 하늘, 유일한 별 (추락 이전)\n\n아주 먼 옛날, 우주에는 낮과 밤의 구분이 없었습니다. 오직 가장 거대하고 찬란한 빛의 용(별)만이 공허를 유영하고 있었죠. 그 용의 비늘은 은하수였고, 심장 박동은 만물의 섭리였으며, 숨결은 곧 생명이었습니다."
+								"그러나 완전함은 곧 정체를 의미했습니다. 영겁의 시간 속에서 용은 자신의 빛이 더 이상 뻗어 나가지 못하고 머물러 있음을 깨달았습니다. 성장이 멈춘 우주는 서서히 식어가고 있었죠. \n\n결국 용은 우주를 다시 뛰게 하기 위해, 그리고 자신을 뛰어넘는 새로운 가능성을 찾기 위해 스스로 파괴와 재탄생(Remaster)을 선택합니다."
+								"가장 찬란했던 빛은 스스로 산산조각 나며 무한한 차원의 심연 속으로 곤두박질쳤습니다. 이것이 창세의 기원이자, 모든 비극의 시작이었습니다.\n\n\n제 2막 : 파편들의 오만, 타락한 세계 (보스의 탄생)"
+								"용의 거대한 육체와 권능의 조각들은 황혼의 숲, 네더의 지옥불, 천상의 낙원, 그리고 끝없는 심연(The Abyss) 등 수많은 차원으로 흩어졌습니다.\n\n주인(영혼)을 잃어버린 막대한 힘의 파편들은, 껍데기만 남은 채 각 차원의 가장 강한 포식자들에게 깃들거나 스스로 흉측한 형상으로 부화했습니다."
+								"그들은 용의 본질인 빛을 품었으나, 그것을 다룰 영혼이 없었기에 그저 파괴하고 군림하는 괴물로 타락해 버렸습니다.\n\n세상은 그들을 보스(Boss)라 불렀습니다. 재앙의 화신(Cataclysm), 얼음과 불의 폭군(Ice and Fire), 황혼을 갉아먹는 그림자(Twilight Forest) 등,"
+								"이 거짓된 왕들은 빛을 독점한 채 차원을 지배했습니다.\n\n\n제 3막 : 망각의 진흙 속에서 (플레이어의 깨어남과 환생)"
+								"그리고 가장 작지만, 가장 순수한 용의 본질인 의지(영혼)는 억겁의 환생을 거쳤습니다. 너무도 연약해진 그 의지는 신의 형상을 유지하지 못하고 7명의 \"플레이어\"의 육신으로 나뉘어 진흙 속에서 눈을 떴습니다.\n\n이들은 자신이 누구였는지조차 잊어버렸습니다."
+								"우주를 창조했던 신이 한낱 뼈다귀(스켈레톤)의 화살에 피를 흘리고, 추위와 굶주림에 벌벌 떠는 참혹한 시련이 시작되었습니다.\n\n하지만 그들의 영혼 깊은 곳에는 태초의 용이 지녔던 단 하나의 본능이 각인되어 있었습니다. 바로 \"끝없이 위로 향하려는 갈망(More Up)\"이었습니다."
+								"육신은 한없이 나약해 숱하게 찢기고 부서졌지만, 죽음은 결코 끝이 아니었습니다. 나약한 그릇(육신)이 부서질 때마다 영혼은 끝없이 환생(리스폰)하며 스스로의 한계를 거듭 시험했습니다.\n\n\n제 4막 : 일곱 갈래의 톱니바퀴와 잃어버린 권능 (성장의 여정)"
+								"필멸자의 한계를 깨달은 7명의 파편들은 끝없는 환생 속에서 세상의 흩어진 법칙들을 스스로의 힘으로 다시 깨우치기 시작합니다.\n\n어떤 이는 부서진 육체를 대신할 강철의 뼈대와 톱니바퀴를 깎았고 (Create, Mekanism, Powah)."
+								"어떤 이는 허공에 흩어진 용의 숨결(마나)을 다시 엮어 비전의 주문을 외웠으며 (Wizardry Redux, Mana and Artifice).\n\n어떤 이는 대지의 피와 살을 취해 굶주린 육신을 한계 너머로 강화했습니다 (Farmers Delight)."
+								"그들은 분업하고 연대하며 점차 힘을 키웠고, 마침내 차원의 문을 열어 자신의 빛을 훔쳐 간 거짓된 왕(보스)들의 목을 베기 시작합니다.\n\n적의 심장을 찢고 권능을 흡수할 때마다, 7명의 플레이어는 희미했던 전생의 기억을 되찾고 자신들이 거대한 빛이었음을 깨닫게 됩니다."
+								"\n\n\n\n\n\n- 태초의 용"
+							]
+							title: "별의 기록서"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "238C4013BE215E9A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"ebwizardry:imbuement_enchant": { }
+						}
+						id: "forbidden_arcanus:draco_arcanus_sword"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 5
+									AttributeName: "generic.attack_damage"
+									Name: "dmg"
+									Operation: 0
+									Slot: "mainhand"
+									UUID: [I; 2, 2, 2, 1]
+								}
+								{
+									Amount: 10
+									AttributeName: "generic.attack_speed"
+									Name: "spd"
+									Operation: 0
+									Slot: "mainhand"
+									UUID: [I; 2, 2, 2, 2]
+								}
+							]
+							Damage: 0
+							Unbreakable: 1b
+							display: {
+								Name: "{\"text\":\"추락한 용의 발톱\",\"color\":\"dark_red\",\"bold\":true}"
+							}
+							dragon_claw: 1b
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					dimension: "minecraft:the_end"
+					icon: "minecraft:dragon_head"
+					id: "1CBFB9E8029E2F5F"
+					title: "&l \"최후 종말 의 땅\""
+					type: "dimension"
+				}
+			]
+			title: "&f&l[ ✧ \"최후의 세계 종말의 땅 The End\" ]"
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			description: ["&7\"잊혀진 문명의 가장 깊은 곳, 태초의 기억이 깃든 첫 번째 파편입니다.\""]
+			icon: {
+				Count: 1
+				id: "endrem:old_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "14A1AE1B02423CA9"
+			tasks: [
+				{
+					id: "2D5770EE224611D9"
+					item: {
+						Count: 1
+						id: "endrem:old_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&f&l[ 👁 1. 고대의 눈 (Old Eye) ]"
+			x: 10.5d
+			y: -7.0d
+		}
+		{
+			description: ["&7\"지옥의 타오르는 불길 속에서 응집된, 분노로 가득 찬 시선입니다.\""]
+			icon: {
+				Count: 1
+				id: "endrem:nether_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3C326EB4DD644902"
+			tasks: [
+				{
+					id: "22654128EEBF743D"
+					item: {
+						Count: 1
+						id: "endrem:nether_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&c&l[ 👁 2. 네더의 눈 (Nether Eye) ]"
+			x: 8.5d
+			y: -6.5d
+		}
+		{
+			description: ["&7\"영원한 빙하 속, 차가운 침묵을 지키던 얼어붙은 시선을 되찾으십시오.\""]
+			icon: {
+				Count: 1
+				id: "endrem:cold_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0E8DE84BBD4F4033"
+			tasks: [
+				{
+					id: "7725CB90C4E3FD24"
+					item: {
+						Count: 1
+						id: "endrem:cold_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&b&l[ 👁 3. 차가운 눈 (Cold Eye) ]"
+			x: 6.5d
+			y: -5.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "endrem:rogue_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "094452B2CF3695D4"
+			tasks: [
+				{
+					id: "51298C20DBAF9228"
+					item: {
+						Count: 1
+						id: "endrem:rogue_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&8&l[ 👁 4. 방랑자의 눈 (Rogue Eye) ]"
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			description: ["&7\"빛조차 굴복시킨 어둠의 응집체, 심연의 본질이 담긴 눈입니다.\""]
+			icon: {
+				Count: 1
+				id: "endrem:black_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6A1A5A93369C6EBA"
+			tasks: [
+				{
+					id: "006180461A15EC63"
+					item: {
+						Count: 1
+						id: "endrem:black_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&0&l[ 👁 5. 검은 눈 (Black Eye) ]"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			description: ["&7\"차원의 마력이 휘몰아치는 곳에서 발견된, 비전의 에너지가 넘치는 눈입니다.\""]
+			icon: {
+				Count: 1
+				id: "endrem:magical_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "253A96E5968241CF"
+			tasks: [
+				{
+					id: "0776BD03D0756147"
+					item: {
+						Count: 1
+						id: "endrem:magical_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&d&l[ 👁 6. 마법의 눈 (Magical Eye) ]"
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			description: ["&7\"역사의 저편으로 사라져 그 누구도 기억하지 못하는 고고학의 파편입니다.\""]
+			icon: {
+				Count: 1
+				id: "endrem:lost_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "39D49345BB32DA54"
+			tasks: [
+				{
+					id: "4AD7BD52B77D3E67"
+					item: {
+						Count: 1
+						id: "endrem:lost_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&f&l[ 👁 7. 잃어버린 눈 (Lost Eye) ]"
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			description: ["&7\"거짓된 왕의 지배 아래 오염되어 버린, 비극의 기록이 담긴 눈입니다.\""]
+			icon: {
+				Count: 1
+				id: "endrem:corrupted_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "77E41357C383861D"
+			tasks: [
+				{
+					id: "6A7365C92A64B31D"
+					item: {
+						Count: 1
+						id: "endrem:corrupted_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&5&l[ 👁 8. 타락한 눈 (Corrupted Eye) ]"
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			description: ["&7\"파괴의 화신, 위더의 저주가 응집된 죽음의 시선입니다.\""]
+			icon: {
+				Count: 1
+				id: "endrem:wither_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5ECFE322E7EAD647"
+			tasks: [
+				{
+					id: "74DAADCEF9C802D3"
+					item: {
+						Count: 1
+						id: "endrem:wither_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&4&l[ 👁 9. 위더의 눈 (Wither Eye) ]"
+			x: 10.5d
+			y: 4.5d
+		}
+		{
+			description: ["&7\"심해의 깊은 곳, 신성한 성역을 지키던 파수꾼의 눈을 취하십시오.\""]
+			icon: {
+				Count: 1
+				id: "endrem:guardian_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5751016A6CD09CCA"
+			tasks: [
+				{
+					id: "5D63279D4C6F2645"
+					item: {
+						Count: 1
+						id: "endrem:guardian_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&3&l[ 👁 10. 수호자의 눈 (Guardian Eye) ]"
+			x: 13.0d
+			y: 3.5d
+		}
+		{
+			description: ["&7\"금지된 비약을 끓이던 마녀의 가마솥에서 나온, 저주받은 통찰의 눈입니다.\""]
+			icon: {
+				Count: 1
+				id: "endrem:witch_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4C8BD408C441AD36"
+			tasks: [
+				{
+					id: "5FD34E8641324540"
+					item: {
+						Count: 1
+						id: "endrem:witch_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&2&l[ 👁 11. 마녀의 눈 (Witch Eye) ]"
+			x: 15.0d
+			y: 2.5d
+		}
+		{
+			description: ["&7\"누군가의 한 맺힌 기억이 깃들어 있는, 저주받은 권능의 조각입니다.\""]
+			icon: {
+				Count: 1
+				id: "endrem:cursed_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7EDB4487C38F7076"
+			tasks: [
+				{
+					id: "5A2C4DCB69EEC248"
+					item: {
+						Count: 1
+						id: "endrem:cursed_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&5&l[ 👁 12. 저주받은 눈 (Cursed Eye) ]"
+			x: 16.0d
+			y: 0.5d
+		}
+		{
+			description: ["&7\"당신의 차원이 아닌, 미지의 먼 곳에서 날아온 낯설고 신비로운 힘의 눈입니다.\""]
+			icon: {
+				Count: 1
+				id: "endrem:exotic_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1E86712085CD9B2B"
+			tasks: [
+				{
+					id: "5F0A78FCC0CA498D"
+					item: {
+						Count: 1
+						id: "endrem:exotic_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&e&l[ 👁 13. 이국적인 눈 (Exotic Eye) ]"
+			x: 16.5d
+			y: -1.5d
+		}
+		{
+			description: ["&7\"질투와 악의로 물든 시선, 모든 선한 것을 부정하는 사악한 힘의 눈입니다.\""]
+			icon: {
+				Count: 1
+				id: "endrem:evil_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0EC5631FCE0C2FFA"
+			tasks: [
+				{
+					id: "2FF81C8AB4EE105F"
+					item: {
+						Count: 1
+						id: "endrem:evil_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&c&l[ 👁 14. 사악한 눈 (Evil Eye) ]"
+			x: 15.5d
+			y: -3.5d
+		}
+		{
+			description: ["&7\"죽음을 넘어선 뒤에도 눈을 뜨고 있는, 부패한 시체들의 시선입니다.\""]
+			icon: {
+				Count: 1
+				id: "endrem:undead_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1364795938D1CB40"
+			tasks: [
+				{
+					id: "021F12DC2B73663C"
+					item: {
+						Count: 1
+						id: "endrem:undead_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&7&l[ 👁 15. 언데드의 눈 (Undead Eye) ]"
+			x: 14.5d
+			y: -5.5d
+		}
+		{
+			description: ["&7\"마침내 모든 눈이 모였습니다. 이제 거짓된 세계의 진실을 꿰뚫어 볼 마지막 눈입니다.\""]
+			icon: {
+				Count: 1
+				id: "endrem:cryptic_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "325B905528A9FF58"
+			tasks: [
+				{
+					id: "38F95E5563D5BF48"
+					item: {
+						Count: 1
+						id: "endrem:cryptic_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&b&l[ 👁 16. 신비한 눈 (Cryptic Eye) ]"
+			x: 12.5d
+			y: -6.5d
+		}
+		{
+			icon: "edenring:guide_book"
+			id: "46998F59D2B4B92E"
+			rewards: [
+				{
+					id: "7F8E7B519320642C"
+					item: "edenring:guide_book"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					dimension: "edenring:edenring"
+					icon: "edenring:guide_book"
+					id: "611D4C34B7527DBF"
+					title: "&l우주에 가까운 세계"
+					type: "dimension"
+				}
+			]
+			title: "&f&l[ ✧ 우주에 가까운 세계 ]"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "mowziesmobs:ice_crystal"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "51332876DCCA804B"
+			rewards: [
+				{
+					count: 2
+					id: "7811B1F11D2B6EE1"
+					item: "ice_and_fire_delight:frost_cocktail"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					dimension: "theabyss:frost_world"
+					icon: {
+						Count: 1
+						id: "mowziesmobs:ice_crystal"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "01F8918A362680C6"
+					title: "&l 냉정한 세계"
+					type: "dimension"
+				}
+			]
+			title: "&f&l[ ✧ 냉정한 세계 ]"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			icon: "deeperdarker:heart_of_the_deep"
+			id: "77D016018B146B0B"
+			shape: "diamond"
+			tasks: [
+				{
+					dimension: "deeperdarker:otherside"
+					id: "1BC86F93C4B64032"
+					title: "&l 깨어진 세계"
+					type: "dimension"
+				}
+			]
+			title: "&f&l[ ✧ 깨어진 세계 ]"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			icon: "minecraft:bundle"
+			id: "60BE3EE43964D9CA"
+			shape: "diamond"
+			tasks: [
+				{
+					dimension: "theabyss:pocket_dimension"
+					id: "57C0733FC1E59BE9"
+					title: "&l 주머니"
+					type: "dimension"
+				}
+			]
+			title: "&f&l[ ✧ 주머니 ]"
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			icon: "ae2:singularity"
+			id: "407C17BB2B729AA1"
+			rewards: [
+				{
+					count: 2
+					id: "1BBD6065D604CF39"
+					item: "ae2:fluix_upgrade_smithing_template"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2CCAF1906CCE6D3A"
+					item: "bigger_ae2:digital_singularity_cell_component"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					dimension: "ae2:spatial_storage"
+					id: "20A75106B2F9F040"
+					title: "&l 끝없는 데이터"
+					type: "dimension"
+				}
+			]
+			title: "&f&l[ ✧ 끝없는 데이터 ]"
+			x: 20.0d
+			y: 5.5d
+		}
+		{
+			icon: "mekanism_extras:enriched_spectrum"
+			id: "38D2516656762F8E"
+			shape: "diamond"
+			tasks: [
+				{
+					dimension: "theabyss:spectral_world"
+					id: "1F8CBD70492087DC"
+					title: "&l 스펙트랄 월드"
+					type: "dimension"
+				}
+			]
+			title: "&f&l[ ✧ 스펙트랄 월드 ]"
+			x: 20.0d
+			y: 3.0d
+		}
+		{
+			icon: "celestial_artifacts:abyss_core"
+			id: "3908B15ADD45F9FF"
+			rewards: [
+				{
+					id: "2DB519221187CC4D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"ebwizardry:imbuement_enchant": { }
+						}
+						id: "theabyss:abyss_sword"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 70
+									AttributeName: "generic.attack_damage"
+									Name: "dmg"
+									Operation: 0
+									Slot: "mainhand"
+									UUID: [I; 1, 1, 1, 1]
+								}
+								{
+									Amount: 3
+									AttributeName: "generic.attack_speed"
+									Name: "spd"
+									Operation: 0
+									Slot: "mainhand"
+									UUID: [I; 1, 1, 1, 2]
+								}
+								{
+									Amount: -1.5d
+									AttributeName: "forge:entity_reach"
+									Name: "reach"
+									Operation: 0
+									Slot: "mainhand"
+									UUID: [I; 1, 1, 1, 3]
+								}
+							]
+							Damage: 0
+							Unbreakable: 1b
+							display: {
+								Name: "{\"text\":\"끝없는 심연\",\"color\":\"dark_purple\",\"bold\":true}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 1
+					id: "72685FC7FCDD9704"
+					item: "moreup:boss_essence_high"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					dimension: "theabyss:the_abyss"
+					icon: "celestial_artifacts:abyss_core"
+					id: "0D014A73F73C6DDE"
+					title: "&l 끝없는 심연"
+					type: "dimension"
+				}
+				{
+					entity: "minecraft:wither"
+					icon: "minecraft:wither_skeleton_skull"
+					id: "740F9777265EB4B4"
+					title: "&l&9악의화신이 되어라"
+					type: "kill"
+					value: 10L
+				}
+			]
+			title: "&f&l[ ✧ 끝없는 심연 ]"
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			icon: "celestial_artifacts:angel_pearl"
+			id: "5B84FEAB5F9562A6"
+			shape: "diamond"
+			tasks: [
+				{
+					dimension: "aether:the_aether"
+					id: "4AB80D55E355B5D8"
+					title: "&l 에덴"
+					type: "dimension"
+				}
+			]
+			title: "&f&l[ ✧ 에덴 ]"
+			x: 20.0d
+			y: -2.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "undergarden:underbean_on_a_stick"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "35D936CDEFB2943D"
+			shape: "diamond"
+			tasks: [
+				{
+					dimension: "undergarden:undergarden"
+					id: "634F0F3961D8DF70"
+					title: "&l 지하세계"
+					type: "dimension"
+				}
+			]
+			title: "&f&l[ ✧ 지하세계 ]"
+			x: 20.0d
+			y: -5.5d
+		}
+	]
+	title: "&6&l제3장 ⟡ 다차원의 성전"
+}

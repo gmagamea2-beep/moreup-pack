@@ -1,0 +1,6 @@
+multilingualItemSearch = true
+fallbacks = ["en_us"]
+previousFallbacks = []
+language = "ko_kr"
+previousLanguage = "en_us"
+

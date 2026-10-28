@@ -1,0 +1,13 @@
+{
+  "gui.ae2addonlib.SetAmount": "양 설정",
+  "gui.tooltips.ae2addonlib.ClearButton": "지우기",
+  "gui.tooltips.ae2addonlib.ClearFluidButtonHint": "기계에 남은 유체를 비운다.",
+  "gui.tooltips.ae2addonlib.ClearSidesButtonHint": "기계의 모든 면 출력을 끈다.",
+  "gui.tooltips.ae2addonlib.DirectionalOutput": "방향별 출력",
+  "gui.tooltips.ae2addonlib.DirectionalOutputHint": "자동 내보내기에 허용할 출력 방향을 설정한다",
+  "gui.tooltips.ae2addonlib.Disabled": "꺼짐",
+  "gui.tooltips.ae2addonlib.Enabled": "켜짐",
+  "gui.tooltips.ae2addonlib.InvalidHexInput": "잘못된 16진수 입력",
+  "gui.tooltips.ae2addonlib.TankAmount": "%s / %s B",
+  "gui.tooltips.ae2addonlib.TankEmpty": "비어 있음"
+}

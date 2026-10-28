@@ -1,0 +1,8 @@
+{
+  "common": "일반",
+  "epic": "영웅",
+  "legendary": "전설",
+  "rare": "희귀",
+  "uncommon": "고급",
+  "mythic": "신화"
+}

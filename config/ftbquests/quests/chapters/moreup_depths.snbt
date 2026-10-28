@@ -1,0 +1,860 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "moreup_depths"
+	group: "7E05AA7C371599AC"
+	icon: "deeperdarker:heart_of_the_deep"
+	id: "7AAB1BEAB74FA68A"
+	order_index: 20
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["35D936CDEFB2943D"]
+			id: "7876ABD5F9C120BC"
+			rewards: [
+				{
+					id: "7DB7DBEF75A4302A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 8
+					id: "048AFF7BECAAB151"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "0218F6DC608FD066"
+					item: "undergarden:cloggrum_ingot"
+					type: "item"
+				}
+			]
+			title: "&7&l[ ✦ 클로그럼 ]"
+			x: 0.0d
+			y: -2.25d
+			icon: "undergarden:cloggrum_ingot"
+		}
+		{
+			dependencies: ["7876ABD5F9C120BC"]
+			id: "65456DFD54D50E64"
+			rewards: [
+				{
+					id: "7D477643A082A864"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 8
+					id: "7A009DE1DB25AB1A"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "7206E15888FE37C7"
+					item: "undergarden:froststeel_ingot"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 서리강철 ]"
+			x: 1.75d
+			y: -6.75d
+			icon: "undergarden:froststeel_ingot"
+		}
+		{
+			dependencies: ["65456DFD54D50E64"]
+			id: "05244DC9ACE1CF00"
+			rewards: [
+				{
+					id: "787C93CDAC364D3E"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 4
+					id: "7EA5949BC3AF088A"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "409C077A312DAACB"
+					item: "undergarden:utherium_crystal"
+					type: "item"
+				}
+			]
+			title: "&c&l[ ✦ 유테리움 ]"
+			x: 3.5d
+			y: -3.75d
+			icon: "undergarden:utherium_crystal"
+		}
+		{
+			dependencies: ["65456DFD54D50E64"]
+			id: "1611B988DBCD38B1"
+			rewards: [
+				{
+					id: "7BF948CAD47AF3DE"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 8
+					id: "7B3CBE507DC12C99"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "71E53657547727AE"
+					item: "moreup:boss_essence_low"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "undergarden:forgotten_guardian"
+					id: "718FCA5090EA5ECB"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&7&l[ ⚔ 잊혀진 수호자 ]"
+			x: 3.5d
+			y: -2.25d
+			icon: "undergarden:forgotten_ingot"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["1611B988DBCD38B1"]
+			id: "739A51735BCFA106"
+			rewards: [
+				{
+					id: "78504AEC9D35233C"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "78419F3E2D0089C0"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "7FADB86CAE96EDEC"
+					item: "undergarden:forgotten_ingot"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 잊혀진 주괴 ]"
+			x: 5.25d
+			y: -3.0d
+			icon: "undergarden:forgotten_ingot"
+		}
+		{
+			dependencies: ["77D016018B146B0B"]
+			id: "4C5CEAD9A830FE42"
+			rewards: [
+				{
+					id: "74EA205C8656F290"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 16
+					id: "6810B29A53C730CB"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "7A8F77C32613C6D8"
+					item: "deeperdarker:reinforced_echo_shard"
+					type: "item"
+				}
+			]
+			title: "&3&l[ ✦ 강화된 메아리 조각 ]"
+			x: 0.0d
+			y: -0.75d
+			icon: "deeperdarker:reinforced_echo_shard"
+		}
+		{
+			dependencies: ["4C5CEAD9A830FE42"]
+			id: "74FE7FF368FE0AE1"
+			rewards: [
+				{
+					id: "73683D65CF8BA408"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 4
+					id: "0EA5B55A9780A33A"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "2342B0C72DD65EDE"
+					item: "deeperdarker:soul_crystal"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 영혼 결정 ]"
+			x: 1.75d
+			y: -5.25d
+			icon: "deeperdarker:soul_crystal"
+		}
+		{
+			dependencies: ["74FE7FF368FE0AE1"]
+			id: "77F426BFB3CFC66F"
+			rewards: [
+				{
+					id: "7AA0CF996546C895"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "79E074D2DE499891"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4685A047DFAB2386"
+					item: "deeperdarker:warden_carapace"
+					type: "item"
+				}
+			]
+			title: "&3&l[ ✦ 워든 갑각 ]"
+			x: 3.5d
+			y: -0.75d
+			icon: "deeperdarker:warden_carapace"
+		}
+		{
+			dependencies: ["77F426BFB3CFC66F"]
+			id: "73BD64501B799273"
+			rewards: [
+				{
+					id: "71D47962D72F7DD4"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 8
+					id: "76AD052446C275A9"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7C1C03A2CEFCF8EE"
+					item: "deeperdarker:heart_of_the_deep"
+					type: "item"
+				}
+			]
+			title: "&3&l[ ✦ 심연의 심장 ]"
+			x: 5.25d
+			y: -1.5d
+			icon: "deeperdarker:heart_of_the_deep"
+		}
+		{
+			id: "7C5FCBF3A77254C5"
+			rewards: [
+				{
+					id: "1F24FC4FFA84879E"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "7AF65DA8F25EF15A"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					dimension: "theabyss:the_abyss"
+					id: "78C380800CF13501"
+					type: "dimension"
+				}
+			]
+			title: "&5&l[ ✧ 심연 (The Abyss) ]"
+			x: 0.0d
+			y: 0.75d
+			icon: "theabyss:abyss_crystal_shard"
+			shape: "diamond"
+		}
+		{
+			dependencies: ["7C5FCBF3A77254C5"]
+			id: "7D0EC8295AD0F9BD"
+			rewards: [
+				{
+					id: "55EF8CCA55827330"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 8
+					id: "7FC784846B637E86"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "75C1BF48956561B9"
+					item: "theabyss:abyss_crystal_shard"
+					type: "item"
+				}
+			]
+			title: "&5&l[ ✦ 심연 결정 조각 ]"
+			x: 1.75d
+			y: -3.75d
+			icon: "theabyss:abyss_crystal_shard"
+		}
+		{
+			dependencies: ["7D0EC8295AD0F9BD"]
+			id: "07A9F9C0712699B5"
+			rewards: [
+				{
+					id: "5914C9990B87E0D4"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "773C1CA5FF945914"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					count: 1
+					id: "44F64B9313582ABD"
+					item: "moreup:boss_essence_high"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "theabyss:the_roka"
+					id: "7444BA87BE81F60F"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&4&l[ ⚔ 로카 ]"
+			x: 3.5d
+			y: 0.75d
+			icon: "theabyss:the_roka_spawn_egg"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["07A9F9C0712699B5"]
+			description: ["심연의 2티어 보스."]
+			id: "757A0A048BE5DE35"
+			rewards: [
+				{
+					id: "67B88B50358AD80C"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+				{
+					count: 3
+					id: "4D166E15C11A87FB"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					count: 1
+					id: "7ACE7CC18BF0A561"
+					item: "moreup:boss_essence_legendary"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "theabyss:nightblade_boss"
+					id: "453326C961CD9217"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&5&l[ ⚔ 나이트블레이드 ]"
+			x: 5.25d
+			y: 0.0d
+			icon: "theabyss:nightblade_boss_spawn_egg"
+			shape: "hexagon"
+		}
+		{
+			dependencies: ["739A51735BCFA106", "73BD64501B799273", "7D0EC8295AD0F9BD"]
+			description: ["&e세계의 파편: 심연&r의 재료를 모았다."]
+			id: "03C9E6467D3660BD"
+			rewards: [
+				{
+					id: "7F15160D38F15A66"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 16
+					id: "62700EDD33432D8E"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "737366E78134F1F6"
+					item: "undergarden:forgotten_ingot"
+					type: "item"
+				}
+				{
+					id: "1D2C7980190D4B20"
+					item: "deeperdarker:heart_of_the_deep"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7F722FDF52BE2F36"
+					item: "deeperdarker:soul_crystal"
+					type: "item"
+				}
+				{
+					id: "5F38EF1BBC49F7F7"
+					item: "deeperdarker:warden_carapace"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3E29CACFC08B13D4"
+					item: "undergarden:utherium_crystal"
+					type: "item"
+				}
+				{
+					id: "25FD5E8A7BE9964C"
+					item: "theabyss:abyss_crystal_shard"
+					type: "item"
+				}
+			]
+			title: "&8&l[ ✦ 심연의 증표 ]"
+			x: 7.0d
+			y: -1.5d
+			icon: "undergarden:forgotten_ingot"
+		}
+		{
+			dependencies: ["7876ABD5F9C120BC"]
+			id: "7F6D4A11E858B3A3"
+			rewards: [
+				{
+					id: "667D3FF9B1082E44"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "7C05A9CEFF1D452D"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7DB98FDE4FD76FCD"
+					item: "undergarden:cloggrum_chestplate"
+					type: "item"
+				}
+			]
+			title: "&7&l[ ✦ 크로그룸 갑옷 ]"
+			x: 1.75d
+			y: -2.25d
+			icon: "undergarden:cloggrum_chestplate"
+		}
+		{
+			dependencies: ["65456DFD54D50E64"]
+			id: "7808011C16BC7287"
+			rewards: [
+				{
+					id: "109F3D5075CF064D"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 8
+					id: "79E4DDBFD85EF827"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "74EBA80509504189"
+					item: "undergarden:froststeel_chestplate"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 서리철 갑옷 ]"
+			x: 3.5d
+			y: 2.25d
+			icon: "undergarden:froststeel_chestplate"
+		}
+		{
+			dependencies: ["7876ABD5F9C120BC"]
+			id: "57F0840F018E7F95"
+			rewards: [
+				{
+					id: "4E7AB78083C584D7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 8
+					id: "727625595672426A"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "6AF2A018C7DB09EA"
+					item: "undergarden:regalium_crystal"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 레갈륨 수정 ]"
+			x: 1.75d
+			y: -0.75d
+			icon: "undergarden:regalium_crystal"
+		}
+		{
+			dependencies: ["739A51735BCFA106"]
+			id: "03FF82E0F645C8F5"
+			rewards: [
+				{
+					id: "291B600EAE61F143"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "1E41C0E049C1ADC4"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2D063958AFDAB6A6"
+					item: "undergarden:forgotten_sword"
+					type: "item"
+				}
+			]
+			title: "&a&l[ ✦ 잊혀진 검 ]"
+			x: 7.0d
+			y: 0.0d
+			icon: "undergarden:forgotten_sword"
+		}
+		{
+			dependencies: ["4C5CEAD9A830FE42"]
+			id: "7D87107B343385A7"
+			rewards: [
+				{
+					id: "75F773261001B3AF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "0C6A911929891455"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "7E13D2DE290E36F1"
+					item: "deeperdarker:crystallized_amber"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 결정화된 호박석 ]"
+			x: 1.75d
+			y: 0.75d
+			icon: "deeperdarker:crystallized_amber"
+		}
+		{
+			dependencies: ["4C5CEAD9A830FE42"]
+			id: "39890E876FE45FA4"
+			rewards: [
+				{
+					id: "7A17676DC2F40959"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 8
+					id: "76E58E5494AFAF71"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2A6A357D1CB931EF"
+					item: "deeperdarker:resonarium_chestplate"
+					type: "item"
+				}
+			]
+			title: "&3&l[ ✦ 레조나리움 흉갑 ]"
+			x: 1.75d
+			y: 2.25d
+			icon: "deeperdarker:resonarium_chestplate"
+		}
+		{
+			dependencies: ["77F426BFB3CFC66F"]
+			description: ["워든 껍데기로 만든 장비."]
+			id: "29BFCCC3D8B4B131"
+			rewards: [
+				{
+					id: "717625E3761FA15B"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 2
+					id: "70FF3305A5A63287"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "78615BC9D5F6ECA5"
+					item: "deeperdarker:warden_chestplate"
+					type: "item"
+				}
+			]
+			title: "&3&l[ ✦ 워든 흉갑 ]"
+			x: 5.25d
+			y: 1.5d
+			icon: "deeperdarker:warden_chestplate"
+		}
+		{
+			dependencies: ["73BD64501B799273"]
+			id: "35D91ADFA70E42F1"
+			rewards: [
+				{
+					id: "72D91FE191C709B9"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "710556EAE1CA724A"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7CE33125A5869617"
+					item: "deeperdarker:sonorous_staff"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 울림의 지팡이 ]"
+			x: 7.0d
+			y: 1.5d
+			icon: "deeperdarker:sonorous_staff"
+		}
+		{
+			dependencies: ["7D0EC8295AD0F9BD"]
+			id: "7D39FA2713E105E1"
+			rewards: [
+				{
+					id: "2B8A861AFD062E08"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 8
+					id: "712E62FA5EBEFFBA"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "0784012734782975"
+					item: "theabyss:aberythe_gem"
+					type: "item"
+				}
+			]
+			title: "&5&l[ ✦ 아베리스 보석 ]"
+			x: 3.5d
+			y: 3.75d
+			icon: "theabyss:aberythe_gem"
+		}
+		{
+			dependencies: ["7D39FA2713E105E1"]
+			id: "248F1F20E4AD24B6"
+			rewards: [
+				{
+					id: "705BFEEBCC9E4F9F"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 4
+					id: "5DADAA3AF8907308"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "26F2D8FDCDA3A9E9"
+					item: "theabyss:aberythe_armor_chestplate"
+					type: "item"
+				}
+			]
+			title: "&5&l[ ✦ 아베리스 흉갑 ]"
+			x: 5.25d
+			y: 3.0d
+			icon: "theabyss:aberythe_armor_chestplate"
+		}
+		{
+			dependencies: ["7C5FCBF3A77254C5"]
+			id: "12327FED1DA2EE0B"
+			rewards: [
+				{
+					id: "5783B4810E59C439"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 8
+					id: "687190935D6EA5C3"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "5C16011C639456B4"
+					item: "theabyss:aurel_crystal_shard"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 아우렐 수정 파편 ]"
+			x: 1.75d
+			y: 3.75d
+			icon: "theabyss:aurel_crystal_shard"
+		}
+		{
+			description: ["하늘에 떠 있는 고리 모양 차원."]
+			id: "717EAE1D330C63DC"
+			rewards: [
+				{
+					id: "78BD82615D140C94"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 8
+					id: "23C44C77782DFA9A"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					dimension: "edenring:edenring"
+					id: "7CFE3E3DF43C4687"
+					type: "dimension"
+				}
+			]
+			title: "&d&l[ ✧ 에덴링 ]"
+			x: 0.0d
+			y: 2.25d
+			icon: "edenring:guide_book"
+			shape: "diamond"
+		}
+		{
+			dependencies: ["717EAE1D330C63DC"]
+			id: "7A7BF653111E5FD0"
+			rewards: [
+				{
+					id: "72F8EFBF84A890B4"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 8
+					id: "53A59CFA8E80154A"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "756C8B1992D3CB80"
+					item: "edenring:astrallium_chestplate"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 아스트랄륨 흉갑 ]"
+			x: 1.75d
+			y: 5.25d
+			icon: "edenring:astrallium_chestplate"
+		}
+		{
+			dependencies: ["717EAE1D330C63DC"]
+			id: "35F68D069CDDD809"
+			rewards: [
+				{
+					id: "2018A7A372D4FCF9"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 4
+					id: "70B1C5D982515F03"
+					item: "undergarden:cloggrum_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "74CE36C99B7C46DC"
+					item: "edenring:gravilite_lamp"
+					type: "item"
+				}
+			]
+			title: "&d&l[ ✦ 그래빌라이트 램프 ]"
+			x: 1.75d
+			y: 6.75d
+			icon: "edenring:gravilite_lamp"
+		}
+	]
+	title: "&b&l✦ 깊은 곳의 세계"
+}
