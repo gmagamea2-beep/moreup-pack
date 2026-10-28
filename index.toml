@@ -530,7 +530,7 @@ hash = "2449bfa0cb198934e900eaa412d2bc4c7cc49798a12717f9fff6b49a7da3b472"
 
 [[files]]
 file = "config/createaddition-common.toml"
-hash = "e5028638175dd8bbef255a1183c5136fd214bddbcf026a840341773a089f4400"
+hash = "24626a0d6f0c26f1c8b02973560d7f8f53bde33929e5b1b4a8ce7c81af828193"
 
 [[files]]
 file = "config/creategoggles-client.toml"
@@ -1498,23 +1498,23 @@ hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 
 [[files]]
 file = "config/industrialforegoing/machine-agriculture-husbandry.toml"
-hash = "7888be964d07d82acba457c7cfb86300bed683eb6b9dea4b0996fbe3c99560ea"
+hash = "b4a6612c75f16deeec92b748ffd28c811c23c83a8a9408111d43944b98cdf58f"
 
 [[files]]
 file = "config/industrialforegoing/machine-core.toml"
-hash = "ef478fc398bdcebc10e0a77e64e478183399f0444005f457942c5b35e0011ebb"
+hash = "4eb31ba58f2909f2551066c62a6ee0e0ce83bedc4a1460c5dfbd75647ea5c1a2"
 
 [[files]]
 file = "config/industrialforegoing/machine-generator.toml"
-hash = "52799bf279256112dbd32036159eb1321e78995c88f2d3613acd6c28c5f5bc82"
+hash = "90def9413a44d30f2235ad18fd6e3286715d80b3c1c1a0d2f545069b9051df3d"
 
 [[files]]
 file = "config/industrialforegoing/machine-misc.toml"
-hash = "97f8a404aaf8ac7d86d232e7bc8b9581d5b66b803578ebbf534195a2883b055a"
+hash = "66050ab57207cc988a4450593fdc9384486cac2d3ce9f16dbd6b1da91966d67c"
 
 [[files]]
 file = "config/industrialforegoing/machine-resource-production.toml"
-hash = "92c6f5c442e47c6641a10e5133dc5aec0f809aae8673120987897fdc686bc70a"
+hash = "9af35fd3604ba524c84328702c683d4b1be610adf16b4f6fa304a2d10ef96a27"
 
 [[files]]
 file = "config/insanelib.toml"
@@ -1778,7 +1778,7 @@ hash = "0d3c92ba50e31505475a5866dc81086230c3e3e683dc8ff2536b850f64ef9b54"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "ea575173b9b7c1171965dd94639a9383c897c50b5004310c634ba22f16beefc7"
+hash = "3ebfa5c56b1491e08e7aa7d6783466716e7f865afb87c8d056dfd5791c5cdf78"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -1854,7 +1854,7 @@ hash = "56291af4bc3506692c79f5c0155c47cce8577d0aae6ed5930c9074d5cb9bc5c8"
 
 [[files]]
 file = "config/powah.json5"
-hash = "2c91f545ef514740fc4ad4742c2f8df122949a172b8fc707cab3c9f7458fd93a"
+hash = "a09095ff56a13970d9b1d81036e0b44cab846df0c530954bb9ece833ca609a19"
 
 [[files]]
 file = "config/progressivebosses-common.toml"
@@ -3647,6 +3647,10 @@ hash = "feffced6cc6049cb906c217cb1b5a6a0ea4ad4f41d3108e0c78191fd35f2386a"
 [[files]]
 file = "kubejs/server_scripts/systems/player_armor_bonus.js"
 hash = "b9a767f5f08ac5b65c07db0ddaeeb7281dd3a2c4968dddd1bf8bca69bd980a57"
+
+[[files]]
+file = "kubejs/server_scripts/systems/server_console.js"
+hash = "8055f31c6a3dfc113b1bbeaf65a220946d3a6806ec87a3329e755fd39e6eb0c4"
 
 [[files]]
 file = "kubejs/server_scripts/systems/tpa.js"
@@ -5442,7 +5446,7 @@ preserve = true
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.8.1.zip.txt"
-hash = "33a45f582f6d8d6154ec1d539db8ec57d189e059944bd6fb68fe22025aa02fd4"
+hash = "f73b13912969aea0d7a52a754bc0bc7a803247f3f357ea0cb0814a544f8dcdba"
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"

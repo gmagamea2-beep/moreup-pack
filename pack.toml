@@ -1,12 +1,12 @@
 name = "More Up"
 author = "More Up"
-version = "1.5.0"
+version = "1.5.1"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "f2ef9834835e98022cf8a1c6a143c4e76be1c089d03326e5c71ea29e05e8a594"
+hash = "720c2ee5b5228d7a20704b27032d9bbd91421d959168d7ab7a6858c56df39c08"
 
 [versions]
 forge = "47.4.10"
