@@ -3621,6 +3621,10 @@ file = "kubejs/server_scripts/systems/dusk_sigil.js"
 hash = "54953f7d3d5d57032b4f9855e5af8c6daadddf7c6713b040d919834ff689043f"
 
 [[files]]
+file = "kubejs/server_scripts/systems/elite_mobs.js"
+hash = "f5416e0cadaa17fbaf3f698e5d52ede2f428ab4c209c546ec95e168686ab21f5"
+
+[[files]]
 file = "kubejs/server_scripts/systems/gamerules.js"
 hash = "547c228aed52e36b380fc6e04d7ea06c85de4472609110d3aac943fc9d4129a5"
 
@@ -3683,6 +3687,10 @@ hash = "02fb72db7df47a776f3f06320ce838a111f46012e439ada9007dbd4f9c2aaf8f"
 [[files]]
 file = "kubejs/startup_scripts/moreup_dusk_gear.js"
 hash = "85b912cc38fd9ba468e98c4810b51ae9c57be0183da4f7243cecdbf21c18336c"
+
+[[files]]
+file = "kubejs/startup_scripts/moreup_elite_spawn.js"
+hash = "d3f761962ff12232cb96221f2fb89448b82216e93d2ab42784a6edb6e5d792b8"
 
 [[files]]
 file = "kubejs/startup_scripts/moreup_endgame_items.js"
