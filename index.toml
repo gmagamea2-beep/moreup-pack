@@ -2985,6 +2985,26 @@ file = "kubejs/assets/moreup/models/item/dusk_bow_pulling_2.json"
 hash = "807b8f97074706a43ef51c8dbc641c89f8fc135612beccdac7e21fdd2bcfcbe9"
 
 [[files]]
+file = "kubejs/assets/moreup/textures/cutscene/dot.png"
+hash = "bf78956c7d1fe6fb22a1fd4813ee333699534407c10d7a280516382e569fa655"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/glow.png"
+hash = "6e7492bcb2065b5f358ff7398b22db8a1ee83624f46a201f1f5eb5cb7a39200b"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring.png"
+hash = "6c3ad1d009c58ebe8669953b3c78ca20b6112347a35bceebadf0e05b154ea7f2"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/shard.png"
+hash = "fd31c8088ddbe56def3bf3cad0d5ce501e434ead4a25b398a1e428a51958c3af"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/star.png"
+hash = "5e848615ee9f125d02616a4285ac7af058ef5fcdd3613eca329374632ec0121f"
+
+[[files]]
 file = "kubejs/assets/moreup/textures/item/boss_essence_high.png"
 hash = "eeae8a372358e67e30e6e198a63268e5d6cec0541a4f005f0ec23ec4a4c68f49"
 
@@ -3602,11 +3622,15 @@ hash = "777b9db54ebe3a1ecfba8431c7e742e9aabbef1d359f5637e8e663be4bc6a7ed"
 
 [[files]]
 file = "kubejs/server_scripts/story/cutscene.js"
-hash = "577a10fd4655ca6d68437aaa65c50065c341dc89338675a6932cf752e0adec13"
+hash = "346ca227ed0210930af70c8d89b45ad9b51d6d8cc7e92a9a4a5cd4480fe53621"
+
+[[files]]
+file = "kubejs/server_scripts/story/cutscene_anims.js"
+hash = "82f1f6ecfa5355750cc533ba0edd6720d637da54ea75e5f8b2eed270e52f3b84"
 
 [[files]]
 file = "kubejs/server_scripts/story/cutscene_scenes.js"
-hash = "234b6b61bbe6013f492805e5f73d9921244f552b094ec20d8bd84ca6ffe775b6"
+hash = "1daf36c49b095cb3f6be30463ec8afcd7f925044c6561d64912dcd5d2cf023d1"
 
 [[files]]
 file = "kubejs/server_scripts/systems/boss_rewards.js"

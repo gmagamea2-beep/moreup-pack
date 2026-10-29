@@ -7,6 +7,8 @@
 //   검은 화면에서 밝아지며 위아래 영화 띠가 내려온다 → 가운데 제목 카드(서서히 나타났다 사라짐)
 //   → 아래 띠에 내레이션이 한 글자씩 써진다(타자 소리) → 띠가 걷히며 끝난다
 //   끝나면 채팅에 대사 기록과 [다시 보기] 버튼을 남긴다
+//   1.5.4: 2D 애니메이션 — 단계마다 화면 가운데에 움직이는 그림(빛·별·파편·톱니바퀴·별자리 등), 장면 배경 별빛,
+//          제목 카드 확대→제자리·밑줄 펼침. 정의는 cutscene_anims.js, 대본에서 anim / ambient 로 지정
 //
 // 명령어 (권한 0)
 //   /story              본 이야기 목록 (눌러서 다시 보기)
@@ -35,6 +37,16 @@ const MOREUP_CS_LINE_CHARS = 30             // 한 줄 최대 글자 수 (GUI �
 const MOREUP_CS_MIN_TEXT_ALPHA = 10         // 글자 알파가 4 미만이면 마인크래프트가 불투명으로 그려서 최소값을 둔다
 const MOREUP_CS_TEAM_KEY_PREFIX = 'moreupStoryTeam_'
 const MOREUP_CS_PLAYER_KEY = 'moreupStorySeen'
+// 1.5.4 애니메이션 (정의는 cutscene_anims.js). 오브젝트 ID: mu_cs_a0.. (단계 애니메이션), mu_cs_s0.. (배경 별빛)
+const MOREUP_CS_ANIM_MAX = 40
+const MOREUP_CS_AMBIENT_MAX = 16
+const MOREUP_CS_AMBIENT_UPDATE_EVERY = 4
+const MOREUP_CS_TITLE_ZOOM_TICKS = 24        // 제목 카드가 커진 상태에서 제자리로 줄어드는 시간
+const MOREUP_CS_TITLE_SCALE = 2.6
+const MOREUP_CS_TITLE_SCALE_FROM = 3.3
+const MOREUP_CS_TITLE_LINE_W = 140
+// 컷씬 동안 월드를 살짝 어둡게 남겨 둔다 (밝은 낮 하늘에서도 빛·별 애니메이션과 글자가 보이게). 0 이면 예전처럼 완전히 밝아짐
+const MOREUP_CS_DIM_ALPHA = 105
 
 const $MoreUpCsUUID = Java.loadClass('java.util.UUID')
 const $MoreUpCsTeams = (() => {
@@ -123,7 +135,83 @@ function moreupCsPaint(player, obj) {
 function moreupCsClearAll(player) {
     let obj = {}
     MOREUP_CS_OBJECTS.forEach(id => { obj[id] = { remove: true } })
+    for (let i = 0; i < MOREUP_CS_ANIM_MAX; i++) obj['mu_cs_a' + i] = { remove: true }
+    for (let i = 0; i < MOREUP_CS_AMBIENT_MAX; i++) obj['mu_cs_s' + i] = { remove: true }
     moreupCsPaint(player, obj)
+}
+
+// ---------------------------------------------------------- 애니메이션 (cutscene_anims.js 정의를 재생)
+
+function moreupCsMerge(a, b) {
+    let out = {}
+    for (let key in a) out[key] = a[key]
+    for (let key in b) out[key] = b[key]
+    return out
+}
+
+function moreupCsAnimStop(player, st) {
+    if (!st.anim) return
+    let obj = {}
+    for (let i = 0; i < st.anim.n; i++) obj['mu_cs_a' + i] = { remove: true }
+    moreupCsPaint(player, obj)
+    st.anim = null
+}
+
+function moreupCsAnimStart(player, st, seg) {
+    let name = seg.step.anim
+    let def = typeof MOREUP_CS_ANIMS !== 'undefined' ? MOREUP_CS_ANIMS[name] : null
+    if (!def) {
+        moreupCsLog(`없는 애니메이션: ${name} (${st.id})`)
+        return
+    }
+    let n = Math.min(def.objects, MOREUP_CS_ANIM_MAX)
+    let obj = {}
+    for (let i = 0; i < n; i++) obj['mu_cs_a' + i] = moreupCsMerge(def.make(i), def.frame(i, 0, 0))
+    moreupCsPaint(player, obj)
+    st.anim = { def: def, n: n, start: seg.start, dur: seg.end - seg.start, fired: {} }
+}
+
+function moreupCsAnimFrame(server, player, st) {
+    let a = st.anim
+    let e = st.t - a.start
+    let k = Math.max(0, Math.min(1, e / a.dur))
+    // 효과음·파티클 신호 (애니메이션의 특정 순간, 예: 파편이 터지는 때)
+    if (a.def.cues) {
+        a.def.cues.forEach((cue, idx) => {
+            if (a.fired[idx] || k < cue.at) return
+            a.fired[idx] = true
+            moreupCsSound(server, st.uuid, cue.sound)
+            moreupCsParticle(server, st.uuid, cue.particle)
+        })
+    }
+    let obj = {}
+    for (let i = 0; i < a.n; i++) obj['mu_cs_a' + i] = a.def.frame(i, k, e)
+    moreupCsPaint(player, obj)
+}
+
+function moreupCsAmbientStart(player, st) {
+    let name = st.scene.ambient
+    let def = name && typeof MOREUP_CS_AMBIENTS !== 'undefined' ? MOREUP_CS_AMBIENTS[name] : null
+    if (!def) return
+    let n = Math.min(def.objects, MOREUP_CS_AMBIENT_MAX)
+    let obj = {}
+    for (let i = 0; i < n; i++) obj['mu_cs_s' + i] = moreupCsMerge(def.make(i), def.frame(i, 0))
+    moreupCsPaint(player, obj)
+    st.amb = { def: def, n: n }
+}
+
+function moreupCsAmbientFrame(player, st) {
+    let obj = {}
+    for (let i = 0; i < st.amb.n; i++) obj['mu_cs_s' + i] = st.amb.def.frame(i, st.t)
+    moreupCsPaint(player, obj)
+}
+
+function moreupCsAmbientStop(player, st) {
+    if (!st.amb) return
+    let obj = {}
+    for (let i = 0; i < st.amb.n; i++) obj['mu_cs_s' + i] = { remove: true }
+    moreupCsPaint(player, obj)
+    st.amb = null
 }
 
 function moreupCsRun(server, cmd) {
@@ -257,10 +345,13 @@ function moreupCsEnter(server, player, st, seg) {
     let uuid = st.uuid
     let step = seg.step
     let accent = st.scene.accent || 'FFFFFF'
+    // 앞 단계의 애니메이션은 단계가 바뀌면 지운다
+    moreupCsAnimStop(player, st)
     if (seg.kind !== 'intro' && !st.introDone) {
         // 인트로 마지막 갱신이 2틱 간격이라 띠·페이드가 덜 끝난 채 남지 않게 마무리한다
         st.introDone = true
-        moreupCsPaint(player, { mu_cs_top: { h: MOREUP_CS_BAR }, mu_cs_bottom: { h: MOREUP_CS_BAR }, mu_cs_fade: { remove: true } })
+        moreupCsPaint(player, { mu_cs_top: { h: MOREUP_CS_BAR }, mu_cs_bottom: { h: MOREUP_CS_BAR }, mu_cs_fade: { color: moreupCsColor(MOREUP_CS_DIM_ALPHA, '000000') } })
+        moreupCsAmbientStart(player, st)
     }
     if (step) {
         moreupCsSound(server, uuid, step.sound)
@@ -277,8 +368,8 @@ function moreupCsEnter(server, player, st, seg) {
     } else if (seg.kind === 'title') {
         moreupCsClearCenter(player, st)
         moreupCsPaint(player, {
-            mu_cs_title: { type: 'text', text: step.title, alignX: 'center', alignY: 'center', centered: true, y: -16, scale: 2.6, shadow: true, color: moreupCsColor(MOREUP_CS_MIN_TEXT_ALPHA, accent), draw: 'always' },
-            mu_cs_line: { type: 'rectangle', w: 140, h: 1, alignX: 'center', alignY: 'center', y: 4, color: moreupCsColor(0, accent), draw: 'always' },
+            mu_cs_title: { type: 'text', text: step.title, alignX: 'center', alignY: 'center', centered: true, y: -16, scale: MOREUP_CS_TITLE_SCALE_FROM, shadow: true, color: moreupCsColor(MOREUP_CS_MIN_TEXT_ALPHA, accent), draw: 'always' },
+            mu_cs_line: { type: 'rectangle', w: 0, h: 1, alignX: 'center', alignY: 'center', y: 4, color: moreupCsColor(0, accent), draw: 'always' },
             mu_cs_sub: { type: 'text', text: step.sub || ' ', alignX: 'center', alignY: 'center', centered: true, y: 14, scale: 1.2, shadow: true, color: moreupCsColor(MOREUP_CS_MIN_TEXT_ALPHA, 'FFFFFF'), draw: 'always' }
         })
         st.center = true
@@ -295,8 +386,12 @@ function moreupCsEnter(server, player, st, seg) {
         st.shown = 0
     } else if (seg.kind === 'pause' || seg.kind === 'outro') {
         moreupCsClearCenter(player, st)
-        if (seg.kind === 'outro') moreupCsPaint(player, { mu_cs_hint: { remove: true } })
+        if (seg.kind === 'outro') {
+            moreupCsPaint(player, { mu_cs_hint: { remove: true } })
+            moreupCsAmbientStop(player, st)
+        }
     }
+    if (step && step.anim) moreupCsAnimStart(player, st, seg)
 }
 
 function moreupCsUpdate(server, player, st, seg, e) {
@@ -305,9 +400,11 @@ function moreupCsUpdate(server, player, st, seg, e) {
     if (seg.kind === 'intro') {
         let k = e / dur
         moreupCsBars(player, k)
-        moreupCsPaint(player, { mu_cs_fade: { color: moreupCsColor(255 * (1 - moreupCsEase(k)), '000000') } })
+        moreupCsPaint(player, { mu_cs_fade: { color: moreupCsColor(255 - (255 - MOREUP_CS_DIM_ALPHA) * moreupCsEase(k), '000000') } })
     } else if (seg.kind === 'outro') {
         moreupCsBars(player, 1 - e / dur)
+        let dim = MOREUP_CS_DIM_ALPHA * (1 - moreupCsEase(e / dur))
+        moreupCsPaint(player, { mu_cs_fade: { color: moreupCsColor(dim < 4 ? 0 : dim, '000000') } })
     } else if (seg.kind === 'title') {
         let a = 1
         if (e < MOREUP_CS_TITLE_FADE_TICKS) a = e / MOREUP_CS_TITLE_FADE_TICKS
@@ -315,9 +412,11 @@ function moreupCsUpdate(server, player, st, seg, e) {
         a = moreupCsEase(a)
         let ta = MOREUP_CS_MIN_TEXT_ALPHA + (255 - MOREUP_CS_MIN_TEXT_ALPHA) * a
         let accent = st.scene.accent || 'FFFFFF'
+        // 1.5.4: 제목이 크게 나타나 제자리로 줄어들고, 밑줄이 가운데서 양옆으로 펼쳐진다
+        let zoom = moreupCsEase(Math.min(1, e / MOREUP_CS_TITLE_ZOOM_TICKS))
         moreupCsPaint(player, {
-            mu_cs_title: { color: moreupCsColor(ta, accent) },
-            mu_cs_line: { color: moreupCsColor(200 * a, accent) },
+            mu_cs_title: { color: moreupCsColor(ta, accent), scale: Number((MOREUP_CS_TITLE_SCALE + (MOREUP_CS_TITLE_SCALE_FROM - MOREUP_CS_TITLE_SCALE) * (1 - zoom)).toFixed(3)) },
+            mu_cs_line: { color: moreupCsColor(200 * a, accent), w: Math.round(MOREUP_CS_TITLE_LINE_W * zoom) },
             mu_cs_sub: { color: moreupCsColor(ta, 'FFFFFF') }
         })
     } else if (seg.kind === 'text') {
@@ -407,7 +506,11 @@ function moreupCsTickOne(server, uuid) {
     if (seg.kind === 'text' && e % MOREUP_CS_TYPE_SOUND_EVERY === 0 && Math.floor(e / MOREUP_CS_TICKS_PER_CHAR) < seg.step._len) {
         moreupCsSound(server, uuid, ['minecraft:block.note_block.hat', 0.12, 1.9])
     }
-    if (e % MOREUP_CS_UPDATE_EVERY === 0) moreupCsUpdate(server, player, st, seg, e)
+    if (e % MOREUP_CS_UPDATE_EVERY === 0) {
+        moreupCsUpdate(server, player, st, seg, e)
+        if (st.anim) moreupCsAnimFrame(server, player, st)
+    }
+    if (st.amb && st.t % MOREUP_CS_AMBIENT_UPDATE_EVERY === 0) moreupCsAmbientFrame(player, st)
 }
 
 // 외부에서 부르는 재생 함수. 성공하면 true
@@ -416,7 +519,7 @@ function moreupCsPlay(server, player, sceneId) {
     if (!scene || !player) return false
     let uuid = String(player.stringUuid)
     if (moreupCsActive[uuid]) moreupCsClearAll(player)
-    moreupCsActive[uuid] = { id: sceneId, uuid: uuid, scene: scene, timeline: moreupCsBuild(scene), t: 0, seg: 0, entered: false, skip: 0, center: false, shown: 0, introDone: false }
+    moreupCsActive[uuid] = { id: sceneId, uuid: uuid, scene: scene, timeline: moreupCsBuild(scene), t: 0, seg: 0, entered: false, skip: 0, center: false, shown: 0, introDone: false, anim: null, amb: null }
     return true
 }
 
