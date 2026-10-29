@@ -774,7 +774,7 @@ hash = "4bdbdd5e64b09ef628de93502481756875e26cc9cd072daf5232cd4714aa430b"
 
 [[files]]
 file = "config/fml.toml"
-hash = "506f0c4c714bf1528d45ab8202f303bde6ba5f9e53778c92a679efbc185afb12"
+hash = "f2389149b6823e888734d508b7abe6ecfd7be71237a3947e8eba0bd3aff81f68"
 
 [[files]]
 file = "config/forbidden_arcanus-client.toml"
@@ -998,11 +998,11 @@ hash = "a1383c39ea81d02f1346d7e0d6214fb716fe4e8ac5735439d23402e38d5f5148"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chapter_1.snbt"
-hash = "3462a9e577a4c04dd71ad4a64b1d42ad724e204109f6e0bd07a6acbc36703b3c"
+hash = "cffe5d7f8e44190b2b030183a4d2f0ba788f6e487ebd22c428dce8bbccc50020"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chapter_2.snbt"
-hash = "04ca70780c8763c7a0a4ad5e293ca220c1b520f3918769eb32f3ed81565acebd"
+hash = "00eba3c1a5bc3b8047e9f7dcb3735eac44fa3ccec870d54b34e8e3af48f9be00"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chapter_3.snbt"
@@ -1582,7 +1582,7 @@ hash = "c601e30a3a7109fccda83317421cfba49eaf85a2f23934e22b28c5660a83ae7d"
 
 [[files]]
 file = "config/jei/jei-client.ini"
-hash = "8c5ae3646c07bfd87fe9259333c2df2b7eb2670cd0c64c21f48f69e0a5629a18"
+hash = "ec406de9705271190412e41b3beaf6fbe6073bd26bc208f36f9968a1ca65458e"
 
 [[files]]
 file = "config/jei/jei-colors.ini"
@@ -1778,7 +1778,7 @@ hash = "0d3c92ba50e31505475a5866dc81086230c3e3e683dc8ff2536b850f64ef9b54"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "883f2e4fd9a5e9d09adbf13d498c84f35a572e01cb0ada4f9955af249810c271"
+hash = "b635f484910fdbe9f6a27a126893151127f25668ea1be0fdd973353c2f1903ef"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -3982,7 +3982,7 @@ hash = "777b9db54ebe3a1ecfba8431c7e742e9aabbef1d359f5637e8e663be4bc6a7ed"
 
 [[files]]
 file = "kubejs/server_scripts/story/cutscene.js"
-hash = "3f42ff0e61e047edcd395ba5930cd74300537322ac4dfc2e8eed8f45391e729b"
+hash = "469a315f64a41ffd9d609172091124c0bc259c36fc0757349fe2d5b097531d96"
 
 [[files]]
 file = "kubejs/server_scripts/story/cutscene_anims.js"
@@ -4014,7 +4014,7 @@ hash = "a090ec925eb2df020e8d4f12857204c131a01e826f287b0716df7c7fbb246cb3"
 
 [[files]]
 file = "kubejs/server_scripts/systems/guide.js"
-hash = "dbcb47b46c4a78b7c5047a62636c8815ea96630d29fabbd5d21159ce5fbf952c"
+hash = "1138cc0233ab078b8a552006c7b7c656098138ad2f3fdbb2b218c1e5d2cc08ee"
 
 [[files]]
 file = "kubejs/server_scripts/systems/item_cleanup.js"
@@ -4138,11 +4138,6 @@ metafile = true
 [[files]]
 file = "mods/ae2-things-forge.pw.toml"
 hash = "8f7696617249a4be35a9d1a2caecce4e17bbffe823f904d10c6fc8b72c4352ca"
-metafile = true
-
-[[files]]
-file = "mods/ae2addonlib.pw.toml"
-hash = "bf6d2b00d4f590c28345ec40aeb1533880b5221cd002b26551798b4ea7b3c399"
 metafile = true
 
 [[files]]
@@ -5061,11 +5056,6 @@ hash = "61c3166eb46728d599273ca32216707321f9283347021f83798261cf5ef2d295"
 metafile = true
 
 [[files]]
-file = "mods/kubejs-delight.pw.toml"
-hash = "ef398beeccf4ab9dd14e9d9cc60595fec011d813fe80796c91165c4fb2cc4cbd"
-metafile = true
-
-[[files]]
 file = "mods/kubejs-industrial-foregoing.pw.toml"
 hash = "f84ca9fb636cf7e36a839e459c8c54aadf06e22d3419617af3e807ab637289e1"
 metafile = true
@@ -5073,11 +5063,6 @@ metafile = true
 [[files]]
 file = "mods/kubejs-mekanism-unofficial.pw.toml"
 hash = "a195d0ea25a8b006762a5fa1dd097f3acf1a884e0ef567bde11f696e587bd62d"
-metafile = true
-
-[[files]]
-file = "mods/kubejs-powah.pw.toml"
-hash = "bb7517dcbfe61d2597c6207de46d5ad27434b9ec34d9e12215a04aace54b1432"
 metafile = true
 
 [[files]]
@@ -5403,11 +5388,6 @@ metafile = true
 [[files]]
 file = "mods/powah-rearchitected.pw.toml"
 hash = "562fd159f33564daf4f81a313e3df5272678bf0824192513cac6e67656abf681"
-metafile = true
-
-[[files]]
-file = "mods/prism-lib.pw.toml"
-hash = "2b0772879a1d43e6fc0d892dca4a85d360e813d5cd3907fc2ab42f345b146362"
 metafile = true
 
 [[files]]
@@ -5842,7 +5822,7 @@ preserve = true
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.8.1.zip.txt"
-hash = "d06955db28f65eb8bd0f6f2471d727bc66a18f49a4bf2df3c755f74c9f21bb3f"
+hash = "2b2d66e6792d177cb3d6e5bc8617379259d220159042efd92b7450d93776aa7a"
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"

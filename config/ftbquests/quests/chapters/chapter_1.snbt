@@ -44,6 +44,11 @@
 					type: "command"
 					elevate_perms: true
 				}
+				{
+					id: "5FEF152526A68ACE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
 			]
 			shape: "gear"
 			size: 1.5d
@@ -102,6 +107,11 @@
 					item: "minecraft:furnace"
 					type: "item"
 				}
+				{
+					id: "A30B7FF933BB24A7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
 			]
 			tasks: [
 				{
@@ -130,10 +140,15 @@
 			id: "07E5780779215892"
 			rewards: [
 				{
-					count: 2
+					count: 4
 					id: "6D9C4D86600D2C6D"
 					item: "minecraft:lantern"
 					type: "item"
+				}
+				{
+					id: "94C27A82BAB92475"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 			]
 			tasks: [
@@ -154,16 +169,21 @@
 			id: "26BF0196FD39E8E6"
 			rewards: [
 				{
-					count: 7
+					count: 16
 					id: "2A668494B8EB90C0"
 					item: "minecraft:coal"
 					type: "item"
 				}
 				{
-					count: 12
+					count: 32
 					id: "2A0A57C53EA81FCE"
 					item: "minecraft:raw_iron"
 					type: "item"
+				}
+				{
+					id: "E2FB1F571126909A"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 			]
 			tasks: [
@@ -191,6 +211,11 @@
 					id: "7ADDC17B8A59FABB"
 					item: "create:large_water_wheel"
 					type: "item"
+				}
+				{
+					id: "1A69A61CF928C511"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 			]
 			tasks: [
@@ -221,10 +246,15 @@
 			id: "050BAF4E38383A07"
 			rewards: [
 				{
-					count: 3
+					count: 10
 					id: "27416EC4FB5629D1"
 					item: "minecraft:obsidian"
 					type: "item"
+				}
+				{
+					id: "8C13E46DF4DCCA5E"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 			]
 			tasks: [
@@ -252,6 +282,13 @@
 			description: ["&7\"다이아몬드 곡괭이로 흑요석(Obsidian)을 캐내고 부싯돌로 불을 붙이십시오. 일그러진 차원의 문 너머, 네더(Nether)가 당신을 기다립니다.\""]
 			icon: "minecraft:obsidian"
 			id: "6C5D8D4C21486E36"
+			rewards: [
+				{
+					id: "B9E773122925162A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			tasks: [
 				{
 					count: 14L
@@ -274,9 +311,15 @@
 			id: "0BEE2644FF1C9BD0"
 			rewards: [
 				{
+					count: 8
 					id: "16E4A8A2156E89C4"
 					item: "minecraft:blaze_powder"
 					type: "item"
+				}
+				{
+					id: "37C02A029B04C43B"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 			]
 			tasks: [
@@ -310,6 +353,11 @@
 						}
 					}
 					type: "item"
+				}
+				{
+					id: "EE511A7F8F3852C4"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 			]
 			tasks: [
@@ -359,6 +407,11 @@
 					item: "minecraft:conduit"
 					type: "item"
 				}
+				{
+					id: "0174B579513F65C4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
 			]
 			tasks: [
 				{
@@ -399,6 +452,11 @@
 					item: "moreup:boss_essence_low"
 					type: "item"
 				}
+				{
+					id: "ED7F33130D4DFDCF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
 			]
 			shape: "hexagon"
 			tasks: [
@@ -426,6 +484,11 @@
 					id: "787BE2F5C33950F9"
 					item: "sophisticatedbackpacks:upgrade_base"
 					type: "item"
+				}
+				{
+					id: "27E19F7AAA20F195"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 			]
 			tasks: [
@@ -457,6 +520,11 @@
 					item: "sophisticatedbackpacks:stack_upgrade_tier_1"
 					type: "item"
 				}
+				{
+					id: "92AD8674297A6843"
+					type: "xp_levels"
+					xp_levels: 5
+				}
 			]
 			tasks: [
 				{
@@ -486,6 +554,11 @@
 					id: "1A9DF83E6F669861"
 					item: "sophisticatedbackpacks:tool_swapper_upgrade"
 					type: "item"
+				}
+				{
+					id: "1535E2F20E9BF3BB"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 			]
 			tasks: [

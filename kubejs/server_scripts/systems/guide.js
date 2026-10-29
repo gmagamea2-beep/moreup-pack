@@ -3,7 +3,7 @@
 // More Up: 초보자 안내 (2026-10-29, 1.5.4 편의성)
 // 경로: kubejs/server_scripts/systems/guide.js
 //
-// - 처음 접속하면 화면 제목 + 환영 안내, 처음 MOREUP_GUIDE_HINT_LOGINS 번 접속할 때까지는 "/가이드" 한 줄 알림
+// - 처음 접속하면 화면 제목 + 환영 안내 + 기본 물품(MOREUP_GUIDE_STARTER_KIT, 1.5.5), 처음 MOREUP_GUIDE_HINT_LOGINS 번 접속할 때까지는 "/가이드" 한 줄 알림
 // - /가이드 [주제] (같은 명령: /guide) — 주제: 시작, 명령어, 키, 정수, 정예. 주제 이름은 눌러서 열 수 있다
 // 키는 각 모드의 기본값만 적는다 (팩 options.txt 는 언어·리소스팩만 넣어 플레이어는 모드 기본 키를 쓴다).
 // 바꾼 키는 설정 → 조작에서 검색(Controlling)으로 찾는다.
@@ -12,6 +12,16 @@
 
 const MOREUP_GUIDE_HINT_LOGINS = 5
 const MOREUP_GUIDE_JOIN_KEY = 'moreupJoins.'
+// 1.5.5 처음 접속 기본 물품. 근거: 초반 사망 대부분이 좀비·스켈레톤(어려움 난이도), 물·체온(Tough As Nails) 준비가 늦어 성장이 막혔다.
+// 처음 접속할 때 한 번만 준다 (접속 횟수 1). 1.5.4 이전부터 접속하던 플레이어는 이미 횟수가 있어 받지 않는다
+const MOREUP_GUIDE_STARTER_KIT = [
+    ['minecraft:stone_sword', 1], ['minecraft:stone_pickaxe', 1], ['minecraft:stone_axe', 1], ['minecraft:stone_shovel', 1],
+    ['minecraft:shield', 1],
+    ['minecraft:leather_helmet', 1], ['minecraft:leather_chestplate', 1], ['minecraft:leather_leggings', 1], ['minecraft:leather_boots', 1],
+    ['minecraft:bread', 16], ['minecraft:torch', 32],
+    ['toughasnails:purified_water_bottle', 4], ['toughasnails:empty_leather_canteen', 1],
+    ['waystones:return_scroll', 2]
+]
 
 // 각 줄: [강조(노랑), 설명(흰색)]
 const MOREUP_GUIDE_TOPICS = {
@@ -122,6 +132,21 @@ ServerEvents.commandRegistry(event => {
     })
 })
 
+// 기본 물품 지급. 가방이 가득 차면 발밑에 떨어진다 (give 의 기본 동작)
+function moreupGuideGiveKit(player) {
+    let given = 0
+    MOREUP_GUIDE_STARTER_KIT.forEach(entry => {
+        try {
+            player.give(Item.of(entry[0], entry[1]))
+            given++
+        } catch (e) {
+            console.error(`[MoreUp] 기본 물품 지급 실패 (${player.name.string}, ${entry[0]}): ${e}`)
+        }
+    })
+    player.tell(Text.of('  처음 오신 기념으로 기본 장비·음식·물·횃불·귀환 두루마리를 드렸어요!').green())
+    return given
+}
+
 function moreupGuideOnJoin(player, server) {
     try {
         let key = MOREUP_GUIDE_JOIN_KEY + String(player.stringUuid)
@@ -135,6 +160,7 @@ function moreupGuideOnJoin(player, server) {
             player.tell(Text.of('  인벤토리(E) 왼쪽 위의 퀘스트북에서 "메인 스토리" 를 따라가면 돼요').white())
             player.tell(Text.of('  집 저장 /sethome · 집으로 /home · 죽은 곳으로 /back · 친구에게 /tpa').white())
             moreupGuideMain(player)
+            moreupGuideGiveKit(player)
             return
         }
         if (joins <= MOREUP_GUIDE_HINT_LOGINS) {

@@ -24,7 +24,6 @@
 //   상태는 UUID 문자열로만 들고, 플레이어 객체는 매 틱 다시 찾는다.
 // ============================================================
 
-const MOREUP_CS_OBJECTS = ['mu_cs_top', 'mu_cs_bottom', 'mu_cs_fade', 'mu_cs_title', 'mu_cs_line', 'mu_cs_sub', 'mu_cs_text', 'mu_cs_hint']
 const MOREUP_CS_BAR = '$screenH/7'          // 영화 띠 높이 (화면 높이 기준)
 const MOREUP_CS_INTRO_TICKS = 24
 const MOREUP_CS_OUTRO_TICKS = 24
@@ -148,12 +147,10 @@ function moreupCsPaint(player, obj) {
     }
 }
 
+// 그 플레이어 화면의 Painter 그림을 한 번에 모두 지운다 ('*' = 전체).
+// 없는 오브젝트를 하나씩 지우라고 보내면 Painter 가 새로 만들려다 "Unknown Painter type" 오류를 낸다
 function moreupCsClearAll(player) {
-    let obj = {}
-    MOREUP_CS_OBJECTS.forEach(id => { obj[id] = { remove: true } })
-    for (let i = 0; i < MOREUP_CS_ANIM_MAX; i++) obj['mu_cs_a' + i] = { remove: true }
-    for (let i = 0; i < MOREUP_CS_AMBIENT_MAX; i++) obj['mu_cs_s' + i] = { remove: true }
-    moreupCsPaint(player, obj)
+    moreupCsPaint(player, { '*': { remove: true } })
 }
 
 // ---------------------------------------------------------- 애니메이션 (cutscene_anims.js 정의를 재생)
@@ -355,10 +352,13 @@ function moreupCsBars(player, k) {
     moreupCsPaint(player, { mu_cs_top: { h: h }, mu_cs_bottom: { h: h } })
 }
 
+// 가운데 글자(제목 3개 또는 내레이션 1개)를 지운다. 실제로 만든 것만 지운다 (없는 것을 지우면 오류)
 function moreupCsClearCenter(player, st) {
-    if (!st.center) return
-    moreupCsPaint(player, { mu_cs_title: { remove: true }, mu_cs_line: { remove: true }, mu_cs_sub: { remove: true }, mu_cs_text: { remove: true } })
-    st.center = false
+    if (!st.center || st.center.length === 0) return
+    let obj = {}
+    st.center.forEach(id => { obj[id] = { remove: true } })
+    moreupCsPaint(player, obj)
+    st.center = null
 }
 
 function moreupCsEnter(server, player, st, seg) {
@@ -397,7 +397,7 @@ function moreupCsEnter(server, player, st, seg) {
             mu_cs_line: { type: 'rectangle', w: 0, h: 1, alignX: 'center', alignY: 'center', y: 4, color: moreupCsColor(0, accent), draw: 'always' },
             mu_cs_sub: { type: 'text', text: moreupCsFont(step.sub || ' ', MOREUP_CS_FONT_TITLE), alignX: 'center', alignY: 'center', centered: true, y: 14, scale: 1.2, shadow: true, color: moreupCsColor(MOREUP_CS_MIN_TEXT_ALPHA, 'FFFFFF'), draw: 'always' }
         })
-        st.center = true
+        st.center = ['mu_cs_title', 'mu_cs_line', 'mu_cs_sub']
     } else if (seg.kind === 'text') {
         moreupCsClearCenter(player, st)
         let n = step._lines.length
@@ -407,7 +407,7 @@ function moreupCsEnter(server, player, st, seg) {
                 y: `${n * 5}-$screenH/14`, lineSpacing: 10, shadow: true, color: moreupCsColor(255, step.color || 'EEEEEE'), draw: 'always'
             }
         })
-        st.center = true
+        st.center = ['mu_cs_text']
         st.shown = 0
     } else if (seg.kind === 'pause' || seg.kind === 'outro') {
         moreupCsClearCenter(player, st)
@@ -544,7 +544,7 @@ function moreupCsPlay(server, player, sceneId) {
     if (!scene || !player) return false
     let uuid = String(player.stringUuid)
     if (moreupCsActive[uuid]) moreupCsClearAll(player)
-    moreupCsActive[uuid] = { id: sceneId, uuid: uuid, scene: scene, timeline: moreupCsBuild(scene), t: 0, seg: 0, entered: false, skip: 0, center: false, shown: 0, introDone: false, anim: null, amb: null }
+    moreupCsActive[uuid] = { id: sceneId, uuid: uuid, scene: scene, timeline: moreupCsBuild(scene), t: 0, seg: 0, entered: false, skip: 0, center: null, shown: 0, introDone: false, anim: null, amb: null }
     return true
 }
 

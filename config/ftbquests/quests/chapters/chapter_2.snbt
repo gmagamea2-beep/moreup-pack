@@ -39,6 +39,11 @@
 					type: "command"
 					elevate_perms: true
 				}
+				{
+					id: "677F5AD5A1F071A8"
+					type: "xp_levels"
+					xp_levels: 10
+				}
 			]
 			shape: "gear"
 			size: 1.5d
@@ -72,6 +77,11 @@
 						}
 					}
 					type: "item"
+				}
+				{
+					id: "BEDD7A28C3110D1E"
+					type: "xp_levels"
+					xp_levels: 10
 				}
 			]
 			tasks: [
@@ -112,7 +122,7 @@
 					id: "6F242A04ACC0A4D6"
 					title: "&6&l[ ⚔ 끝없는 투쟁과 전리품 ]"
 					type: "kill"
-					value: 100L
+					value: 50L
 				}
 			]
 			title: "&6&l[ ⚔ 끝없는 투쟁과 전리품 ]"
@@ -129,6 +139,11 @@
 					id: "1D7EE5642714F729"
 					item: "minecraft:netherite_upgrade_smithing_template"
 					type: "item"
+				}
+				{
+					id: "6B931D3EDFFB3E19"
+					type: "xp_levels"
+					xp_levels: 10
 				}
 			]
 			tasks: [
@@ -192,6 +207,11 @@
 					item: "twilightforest:magic_map"
 					type: "item"
 				}
+				{
+					id: "8A46CCF9EEE9368A"
+					type: "xp_levels"
+					xp_levels: 10
+				}
 			]
 			shape: "diamond"
 			tasks: [
@@ -218,6 +238,11 @@
 					id: "5C83B3C287C3A62D"
 					item: "bhc:relic_apple"
 					type: "item"
+				}
+				{
+					id: "8798B67F27D61424"
+					type: "xp_levels"
+					xp_levels: 10
 				}
 			]
 			tasks: [
@@ -253,10 +278,15 @@
 					type: "item"
 				}
 				{
-					count: 4
+					count: 8
 					id: "477DE09AA4370175"
 					item: "minecraft:soul_sand"
 					type: "item"
+				}
+				{
+					id: "A9CF05AC2D7FBE03"
+					type: "xp_levels"
+					xp_levels: 10
 				}
 			]
 			shape: "hexagon"
@@ -267,7 +297,7 @@
 					id: "57B745C764BBAC86"
 					title: "&4&l[ 🏰 핏빛 성채의 부름 ]"
 					type: "kill"
-					value: 30L
+					value: 15L
 				}
 			]
 			title: "&5&l[ 💀 세 개의 제물 ]"
@@ -292,6 +322,11 @@
 					id: "71D759CE88C55BA6"
 					item: "moreup:boss_essence_high"
 					type: "item"
+				}
+				{
+					id: "806A3DD2F4E7DF77"
+					type: "xp_levels"
+					xp_levels: 10
 				}
 			]
 			shape: "hexagon"
@@ -360,6 +395,11 @@
 						}
 					}
 					type: "item"
+				}
+				{
+					id: "90944054A3E3E12B"
+					type: "xp_levels"
+					xp_levels: 10
 				}
 			]
 			tasks: [
