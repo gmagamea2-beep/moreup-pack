@@ -2961,6 +2961,30 @@ file = "kubejs/assets/moonlight/lang/ko_kr.json"
 hash = "585c40a9252b04a5d6213794865205660dad72cb27d19297ad3da703e2dfd35b"
 
 [[files]]
+file = "kubejs/assets/moreup/font/LICENSE_cinzel_decorative_OFL.txt"
+hash = "1e5d6660366ddcfca4f2fc10e2acfba9fa4d97d40aec80d7dbfd41d730a420ae"
+
+[[files]]
+file = "kubejs/assets/moreup/font/LICENSE_song_myung_OFL.txt"
+hash = "40bd3f35477284c021978816e9d3b8723ff2283fd7065fafaa5bb3004e41b237"
+
+[[files]]
+file = "kubejs/assets/moreup/font/cinzel_decorative_bold.ttf"
+hash = "e854e68a388aa50d742a4415c1ae5c17a617ef7956c95a70021d0a4a44f20518"
+
+[[files]]
+file = "kubejs/assets/moreup/font/cs_text.json"
+hash = "a6789c59391c922848949efe6567c205e7968c4c81a0ee6b2fab7e13dc27a5b0"
+
+[[files]]
+file = "kubejs/assets/moreup/font/cs_title.json"
+hash = "5eb670fb5e4777cb1c5c33ce14e4c75d3c70ca5908b3bcd418fe54f776614caa"
+
+[[files]]
+file = "kubejs/assets/moreup/font/song_myung.ttf"
+hash = "7f90ab20250911560212cc5819c7b205f9c6644bb96b65095d89fcae096bbf58"
+
+[[files]]
 file = "kubejs/assets/moreup/lang/en_us.json"
 hash = "e5806d1f2af9b65f1005b262b3ea65bc186769a5cc2dbcd8ee0db1c87bb5653c"
 
@@ -3958,7 +3982,7 @@ hash = "777b9db54ebe3a1ecfba8431c7e742e9aabbef1d359f5637e8e663be4bc6a7ed"
 
 [[files]]
 file = "kubejs/server_scripts/story/cutscene.js"
-hash = "b3b15897d50d8a8af169cf665309e2380cca0c4e64eb5886fa6f6c18d5859aa7"
+hash = "45c9a45b43a75d87d7ac2879b0f1a45a1d61d5c0aec2e32182e9f33eebfa5bc8"
 
 [[files]]
 file = "kubejs/server_scripts/story/cutscene_anims.js"

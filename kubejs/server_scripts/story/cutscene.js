@@ -49,6 +49,10 @@ const MOREUP_CS_TITLE_SCALE_FROM = 3.3
 const MOREUP_CS_TITLE_LINE_W = 140
 // 컷씬 동안 월드를 살짝 어둡게 남겨 둔다 (밝은 낮 하늘에서도 빛·별 애니메이션과 글자가 보이게). 0 이면 예전처럼 완전히 밝아짐
 const MOREUP_CS_DIM_ALPHA = 105
+// 컷씬 글꼴 (1.5.4): kubejs/assets/moreup/font/cs_title.json (Cinzel Decorative 영문 + 송명 한글), cs_text.json (송명)
+// 없는 글자는 마인크래프트 기본 글꼴로 대신한다(reference). Painter 글자는 중괄호로 감싼 JSON 문자열이면 글꼴이 붙은 문장으로 읽는다
+const MOREUP_CS_FONT_TITLE = 'moreup:cs_title'
+const MOREUP_CS_FONT_TEXT = 'moreup:cs_text'
 
 const $MoreUpCsUUID = Java.loadClass('java.util.UUID')
 const $MoreUpCsTeams = (() => {
@@ -71,6 +75,14 @@ function moreupCsHex2(n) {
     let v = Math.max(0, Math.min(255, Math.floor(n)))
     let s = v.toString(16).toUpperCase()
     return s.length < 2 ? '0' + s : s
+}
+
+function moreupCsFont(text, font) {
+    return JSON.stringify({ text: String(text), font: font })
+}
+
+function moreupCsFontLines(lines, font) {
+    return lines.map(l => moreupCsFont(l, font))
 }
 
 function moreupCsColor(alpha, rgb) {
@@ -372,15 +384,15 @@ function moreupCsEnter(server, player, st, seg) {
             mu_cs_top: { type: 'rectangle', x: 0, y: 0, w: '$screenW', h: 0, color: '#FF000000', draw: 'always' },
             mu_cs_bottom: { type: 'rectangle', x: 0, y: 0, w: '$screenW', h: 0, color: '#FF000000', alignY: 'bottom', draw: 'always' },
             mu_cs_fade: { type: 'rectangle', x: 0, y: 0, w: '$screenW', h: '$screenH', color: '#FF000000', draw: 'always' },
-            mu_cs_hint: { type: 'text', text: '[Shift] 길게 눌러 건너뛰기', x: -6, y: 5, alignX: 'right', scale: 0.75, color: '#FF8A8A8A', shadow: true, draw: 'always' }
+            mu_cs_hint: { type: 'text', text: moreupCsFont('[Shift] 길게 눌러 건너뛰기', MOREUP_CS_FONT_TEXT), x: -6, y: 5, alignX: 'right', scale: 0.75, color: '#FF8A8A8A', shadow: true, draw: 'always' }
         })
     } else if (seg.kind === 'title') {
         moreupCsClearCenter(player, st)
         if (animName) moreupCsAnimStart(player, st, seg, animName)
         moreupCsPaint(player, {
-            mu_cs_title: { type: 'text', text: step.title, alignX: 'center', alignY: 'center', centered: true, y: -16, scale: MOREUP_CS_TITLE_SCALE_FROM, shadow: true, color: moreupCsColor(MOREUP_CS_MIN_TEXT_ALPHA, accent), draw: 'always' },
+            mu_cs_title: { type: 'text', text: moreupCsFont(step.title, MOREUP_CS_FONT_TITLE), alignX: 'center', alignY: 'center', centered: true, y: -16, scale: MOREUP_CS_TITLE_SCALE_FROM, shadow: true, color: moreupCsColor(MOREUP_CS_MIN_TEXT_ALPHA, accent), draw: 'always' },
             mu_cs_line: { type: 'rectangle', w: 0, h: 1, alignX: 'center', alignY: 'center', y: 4, color: moreupCsColor(0, accent), draw: 'always' },
-            mu_cs_sub: { type: 'text', text: step.sub || ' ', alignX: 'center', alignY: 'center', centered: true, y: 14, scale: 1.2, shadow: true, color: moreupCsColor(MOREUP_CS_MIN_TEXT_ALPHA, 'FFFFFF'), draw: 'always' }
+            mu_cs_sub: { type: 'text', text: moreupCsFont(step.sub || ' ', MOREUP_CS_FONT_TITLE), alignX: 'center', alignY: 'center', centered: true, y: 14, scale: 1.2, shadow: true, color: moreupCsColor(MOREUP_CS_MIN_TEXT_ALPHA, 'FFFFFF'), draw: 'always' }
         })
         st.center = true
     } else if (seg.kind === 'text') {
@@ -388,7 +400,7 @@ function moreupCsEnter(server, player, st, seg) {
         let n = step._lines.length
         moreupCsPaint(player, {
             mu_cs_text: {
-                type: 'text', textLines: moreupCsReveal(step._lines, 0), alignX: 'center', alignY: 'bottom', centered: true,
+                type: 'text', textLines: moreupCsFontLines(moreupCsReveal(step._lines, 0), MOREUP_CS_FONT_TEXT), alignX: 'center', alignY: 'bottom', centered: true,
                 y: `${n * 5}-$screenH/14`, lineSpacing: 10, shadow: true, color: moreupCsColor(255, step.color || 'EEEEEE'), draw: 'always'
             }
         })
@@ -432,7 +444,7 @@ function moreupCsUpdate(server, player, st, seg, e) {
         let n = Math.min(step._len, Math.floor(e / MOREUP_CS_TICKS_PER_CHAR))
         let upd = {}
         if (n !== st.shown) {
-            upd.textLines = moreupCsReveal(step._lines, n)
+            upd.textLines = moreupCsFontLines(moreupCsReveal(step._lines, n), MOREUP_CS_FONT_TEXT)
             st.shown = n
         }
         let left = dur - e
@@ -485,7 +497,7 @@ function moreupCsTickOne(server, uuid) {
             if (st.skip % 5 === 0) {
                 let bars = Math.min(6, Math.floor(st.skip / 5))
                 let gauge = '▮▮▮▮▮▮'.substring(0, bars) + '▯▯▯▯▯▯'.substring(0, 6 - bars)
-                moreupCsPaint(player, { mu_cs_hint: { text: `건너뛰는 중 ${gauge}` } })
+                moreupCsPaint(player, { mu_cs_hint: { text: moreupCsFont(`건너뛰는 중 ${gauge}`, MOREUP_CS_FONT_TEXT) } })
             }
             if (st.skip >= MOREUP_CS_SKIP_HOLD_TICKS) {
                 moreupCsFinish(server, uuid, 'skip')
@@ -493,7 +505,7 @@ function moreupCsTickOne(server, uuid) {
             }
         } else if (st.skip > 0) {
             st.skip = 0
-            moreupCsPaint(player, { mu_cs_hint: { text: '[Shift] 길게 눌러 건너뛰기' } })
+            moreupCsPaint(player, { mu_cs_hint: { text: moreupCsFont('[Shift] 길게 눌러 건너뛰기', MOREUP_CS_FONT_TEXT) } })
         }
     }
     let segs = st.timeline.segs
