@@ -1778,7 +1778,7 @@ hash = "0d3c92ba50e31505475a5866dc81086230c3e3e683dc8ff2536b850f64ef9b54"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "14de5060591f8d2607fa740b72c369d8e43f6e1911100e5c35ce54e2b58690b1"
+hash = "631fe8442c578fd77aba498488399e119b5ff004597ac605573552d70e7594ac"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -1854,7 +1854,7 @@ hash = "56291af4bc3506692c79f5c0155c47cce8577d0aae6ed5930c9074d5cb9bc5c8"
 
 [[files]]
 file = "config/powah.json5"
-hash = "9e91b790ae51344c60682dbecfccdc785418d58c633ab4a37945cbb3220b0b49"
+hash = "2c91f545ef514740fc4ad4742c2f8df122949a172b8fc707cab3c9f7458fd93a"
 
 [[files]]
 file = "config/progressivebosses-common.toml"
@@ -2961,14 +2961,6 @@ file = "kubejs/assets/moonlight/lang/ko_kr.json"
 hash = "585c40a9252b04a5d6213794865205660dad72cb27d19297ad3da703e2dfd35b"
 
 [[files]]
-file = "kubejs/assets/moreup/font/LICENSE_cinzel_decorative_OFL.txt"
-hash = "1e5d6660366ddcfca4f2fc10e2acfba9fa4d97d40aec80d7dbfd41d730a420ae"
-
-[[files]]
-file = "kubejs/assets/moreup/font/LICENSE_song_myung_OFL.txt"
-hash = "40bd3f35477284c021978816e9d3b8723ff2283fd7065fafaa5bb3004e41b237"
-
-[[files]]
 file = "kubejs/assets/moreup/font/cinzel_decorative_bold.ttf"
 hash = "e854e68a388aa50d742a4415c1ae5c17a617ef7956c95a70021d0a4a44f20518"
 
@@ -2979,6 +2971,14 @@ hash = "a6789c59391c922848949efe6567c205e7968c4c81a0ee6b2fab7e13dc27a5b0"
 [[files]]
 file = "kubejs/assets/moreup/font/cs_title.json"
 hash = "5eb670fb5e4777cb1c5c33ce14e4c75d3c70ca5908b3bcd418fe54f776614caa"
+
+[[files]]
+file = "kubejs/assets/moreup/font/license_cinzel_decorative_ofl.txt"
+hash = "1e5d6660366ddcfca4f2fc10e2acfba9fa4d97d40aec80d7dbfd41d730a420ae"
+
+[[files]]
+file = "kubejs/assets/moreup/font/license_song_myung_ofl.txt"
+hash = "40bd3f35477284c021978816e9d3b8723ff2283fd7065fafaa5bb3004e41b237"
 
 [[files]]
 file = "kubejs/assets/moreup/font/song_myung.ttf"
@@ -5842,7 +5842,7 @@ preserve = true
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.8.1.zip.txt"
-hash = "64a6bc646c6d4001ab6cae7660a0e7974b6aab99b10faac896f7f865aa5dd7fd"
+hash = "31063305d470061be0b6d7d416189179027660a0d5858f58319e49f5fabc5a4e"
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"
