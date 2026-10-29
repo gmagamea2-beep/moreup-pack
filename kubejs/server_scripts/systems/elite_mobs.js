@@ -256,9 +256,10 @@ ServerEvents.commandRegistry(event => {
     const { commands: Commands, arguments: Arguments } = event
     event.register(Commands.literal('moreup_elite')
         .requires(src => src.hasPermission(2))
-        .then(Commands.argument('affixes', Arguments.STRING.create(event))
+        // 1.5.4: STRING 은 따옴표 없이 쉼표를 못 받아 "blazing,venom" 이 오류였다 → 줄 끝까지 받는 GREEDY_STRING, 쉼표·띄어쓰기 모두 구분자
+        .then(Commands.argument('affixes', Arguments.GREEDY_STRING.create(event))
             .executes(ctx => {
-                let keys = String(Arguments.STRING.getResult(ctx, 'affixes')).split(',').filter(k => MOREUP_ELITE_AFFIXES[k])
+                let keys = String(Arguments.GREEDY_STRING.getResult(ctx, 'affixes')).split(/[,\s]+/).filter(k => MOREUP_ELITE_AFFIXES[k])
                 if (keys.length === 0) {
                     ctx.source.sendFailure(Text.of(`특성: ${Object.keys(MOREUP_ELITE_AFFIXES).join(', ')}`))
                     return 0

@@ -3622,11 +3622,15 @@ hash = "54953f7d3d5d57032b4f9855e5af8c6daadddf7c6713b040d919834ff689043f"
 
 [[files]]
 file = "kubejs/server_scripts/systems/elite_mobs.js"
-hash = "f5416e0cadaa17fbaf3f698e5d52ede2f428ab4c209c546ec95e168686ab21f5"
+hash = "a8b2867e97c40a89d2903c14309e3aba4fb1cda10dda1c18c581d3bc0d2f4f17"
 
 [[files]]
 file = "kubejs/server_scripts/systems/gamerules.js"
-hash = "547c228aed52e36b380fc6e04d7ea06c85de4472609110d3aac943fc9d4129a5"
+hash = "a090ec925eb2df020e8d4f12857204c131a01e826f287b0716df7c7fbb246cb3"
+
+[[files]]
+file = "kubejs/server_scripts/systems/guide.js"
+hash = "dbcb47b46c4a78b7c5047a62636c8815ea96630d29fabbd5d21159ce5fbf952c"
 
 [[files]]
 file = "kubejs/server_scripts/systems/item_cleanup.js"
@@ -3658,7 +3662,11 @@ hash = "8055f31c6a3dfc113b1bbeaf65a220946d3a6806ec87a3329e755fd39e6eb0c4"
 
 [[files]]
 file = "kubejs/server_scripts/systems/tpa.js"
-hash = "9a0f693511ed8cf456a0d27e6b0c00cd64473588326ba0d3887dd81faa4dcef6"
+hash = "d03bd4c06f353861d628d6d0d66921e1cd87c5ea6e3c725e0d582906de2fc235"
+
+[[files]]
+file = "kubejs/server_scripts/systems/travel.js"
+hash = "3ed88dca4f5377764ce8f1e161e21fa472732e60aff46dc5c1728f9131621395"
 
 [[files]]
 file = "kubejs/server_scripts/tags/boss_blacklist.js"

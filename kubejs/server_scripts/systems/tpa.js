@@ -92,6 +92,10 @@ ServerEvents.commandRegistry(event => {
                     return 0
                 }
 
+                // 떠나기 전 위치를 /back 으로 남긴다 (travel.js, 1.5.4)
+                if (typeof moreupTravelSaveBack === 'function') {
+                    try { moreupTravelSaveBack(fromPlayer) } catch (e) { console.error(`[MoreUp] TPA /back 위치 저장 실패: ${e}`) }
+                }
                 // 수락 시점의 위치로 이동 (차원이 달라도 이동). 첫 인자는 차원 ID여야 한다.
                 fromPlayer.teleportTo(
                     player.level.dimension,

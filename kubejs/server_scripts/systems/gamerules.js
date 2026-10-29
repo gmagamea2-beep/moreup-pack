@@ -42,7 +42,10 @@ const MOREUP_ARTIFACTS_RULES = {
 }
 
 const MOREUP_GAMERULES = {
-    naturalRegeneration: 'true'
+    naturalRegeneration: 'true',
+    // 2026-10-29 (1.5.4 편의성): 접속자의 30%만 자도 밤이 넘어간다 (바닐라 기본 100%). 10명이면 3명, 1~3명이면 1명
+    // 잠자기를 따로 바꾸는 모드는 없다 (서버 config 에서 확인)
+    playersSleepingPercentage: '30'
 }
 for (let rule in MOREUP_ARTIFACTS_RULES) MOREUP_GAMERULES[rule] = MOREUP_ARTIFACTS_RULES[rule]
 
