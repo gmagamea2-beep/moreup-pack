@@ -1778,7 +1778,7 @@ hash = "0d3c92ba50e31505475a5866dc81086230c3e3e683dc8ff2536b850f64ef9b54"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "631fe8442c578fd77aba498488399e119b5ff004597ac605573552d70e7594ac"
+hash = "883f2e4fd9a5e9d09adbf13d498c84f35a572e01cb0ada4f9955af249810c271"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -3982,7 +3982,7 @@ hash = "777b9db54ebe3a1ecfba8431c7e742e9aabbef1d359f5637e8e663be4bc6a7ed"
 
 [[files]]
 file = "kubejs/server_scripts/story/cutscene.js"
-hash = "45c9a45b43a75d87d7ac2879b0f1a45a1d61d5c0aec2e32182e9f33eebfa5bc8"
+hash = "3f42ff0e61e047edcd395ba5930cd74300537322ac4dfc2e8eed8f45391e729b"
 
 [[files]]
 file = "kubejs/server_scripts/story/cutscene_anims.js"
@@ -5842,7 +5842,7 @@ preserve = true
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.8.1.zip.txt"
-hash = "31063305d470061be0b6d7d416189179027660a0d5858f58319e49f5fabc5a4e"
+hash = "d06955db28f65eb8bd0f6f2471d727bc66a18f49a4bf2df3c755f74c9f21bb3f"
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"

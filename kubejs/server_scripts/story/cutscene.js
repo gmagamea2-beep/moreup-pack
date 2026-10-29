@@ -4,7 +4,8 @@
 // 경로: kubejs/server_scripts/story/cutscene.js   대본: cutscene_scenes.js
 //
 // 연출 (KubeJS Painter 로 그 플레이어 화면에만 그린다. 클라이언트 모드 추가 없음)
-//   검은 화면에서 밝아지며 위아래 영화 띠가 내려온다 → 가운데 제목 카드(서서히 나타났다 사라짐)
+//   화면 전체를 검게 덮고(핫바·채팅·HUD 까지 가림, MOREUP_CS_DIM_ALPHA) 위아래 영화 띠가 내려온다 → 가운데 제목 카드(서서히 나타났다 사라짐)
+//   보는 동안 채팅은 막는다. 끝나면 검은 화면이 걷히며 월드로 돌아온다
 //   → 아래 띠에 내레이션이 한 글자씩 써진다(타자 소리) → 띠가 걷히며 끝난다
 //   끝나면 채팅에 대사 기록과 [다시 보기] 버튼을 남긴다
 //   1.5.4: 2D 애니메이션 — 단계마다 화면 가운데에 움직이는 그림(빛·별·파편·톱니바퀴·별자리 등), 장면 배경 별빛,
@@ -47,8 +48,9 @@ const MOREUP_CS_TITLE_ZOOM_TICKS = 24        // 제목 카드가 커진 상태�
 const MOREUP_CS_TITLE_SCALE = 2.6
 const MOREUP_CS_TITLE_SCALE_FROM = 3.3
 const MOREUP_CS_TITLE_LINE_W = 140
-// 컷씬 동안 월드를 살짝 어둡게 남겨 둔다 (밝은 낮 하늘에서도 빛·별 애니메이션과 글자가 보이게). 0 이면 예전처럼 완전히 밝아짐
-const MOREUP_CS_DIM_ALPHA = 105
+// 컷씬 동안 뒤 배경의 검은 정도 (255 = 완전히 검은 화면, 1.5.4 사용자 요청). Painter 는 화면 맨 마지막에 그려서
+// 검은 배경이 월드·핫바·채팅·십자선·모드 HUD 를 모두 덮는다. 0 이면 월드가 그대로 보인다
+const MOREUP_CS_DIM_ALPHA = 255
 // 컷씬 글꼴 (1.5.4): kubejs/assets/moreup/font/cs_title.json (Cinzel Decorative 영문 + 송명 한글), cs_text.json (송명)
 // 없는 글자는 마인크래프트 기본 글꼴로 대신한다(reference). Painter 글자는 중괄호로 감싼 JSON 문자열이면 글꼴이 붙은 문장으로 읽는다
 const MOREUP_CS_FONT_TITLE = 'moreup:cs_title'
@@ -380,10 +382,11 @@ function moreupCsEnter(server, player, st, seg) {
         moreupCsEffect(server, uuid, step.effect)
     }
     if (seg.kind === 'intro') {
+        // 검은 배경을 따로 먼저 만들어 맨 아래에 깔리게 한다 (한 번에 보내면 그리는 순서가 섞여 안내 글자가 가려질 수 있다)
+        moreupCsPaint(player, { mu_cs_fade: { type: 'rectangle', x: 0, y: 0, w: '$screenW', h: '$screenH', color: '#FF000000', draw: 'always' } })
         moreupCsPaint(player, {
             mu_cs_top: { type: 'rectangle', x: 0, y: 0, w: '$screenW', h: 0, color: '#FF000000', draw: 'always' },
             mu_cs_bottom: { type: 'rectangle', x: 0, y: 0, w: '$screenW', h: 0, color: '#FF000000', alignY: 'bottom', draw: 'always' },
-            mu_cs_fade: { type: 'rectangle', x: 0, y: 0, w: '$screenW', h: '$screenH', color: '#FF000000', draw: 'always' },
             mu_cs_hint: { type: 'text', text: moreupCsFont('[Shift] 길게 눌러 건너뛰기', MOREUP_CS_FONT_TEXT), x: -6, y: 5, alignX: 'right', scale: 0.75, color: '#FF8A8A8A', shadow: true, draw: 'always' }
         })
     } else if (seg.kind === 'title') {
@@ -435,24 +438,25 @@ function moreupCsUpdate(server, player, st, seg, e) {
         let accent = st.scene.accent || 'FFFFFF'
         // 1.5.4: 제목이 크게 나타나 제자리로 줄어들고, 밑줄이 가운데서 양옆으로 펼쳐진다
         let zoom = moreupCsEase(Math.min(1, e / MOREUP_CS_TITLE_ZOOM_TICKS))
+        // 글자 오브젝트는 text 없이 색만 보내면 Painter 가 글자를 "null" 로 바꿔 버린다 → 바꿀 때마다 글자도 같이 보낸다
         moreupCsPaint(player, {
-            mu_cs_title: { color: moreupCsColor(ta, accent), scale: Number((MOREUP_CS_TITLE_SCALE + (MOREUP_CS_TITLE_SCALE_FROM - MOREUP_CS_TITLE_SCALE) * (1 - zoom)).toFixed(3)) },
+            mu_cs_title: { text: moreupCsFont(step.title, MOREUP_CS_FONT_TITLE), color: moreupCsColor(ta, accent), scale: Number((MOREUP_CS_TITLE_SCALE + (MOREUP_CS_TITLE_SCALE_FROM - MOREUP_CS_TITLE_SCALE) * (1 - zoom)).toFixed(3)) },
             mu_cs_line: { color: moreupCsColor(200 * a, accent), w: Math.round(MOREUP_CS_TITLE_LINE_W * zoom) },
-            mu_cs_sub: { color: moreupCsColor(ta, 'FFFFFF') }
+            mu_cs_sub: { text: moreupCsFont(step.sub || ' ', MOREUP_CS_FONT_TITLE), color: moreupCsColor(ta, 'FFFFFF') }
         })
     } else if (seg.kind === 'text') {
         let n = Math.min(step._len, Math.floor(e / MOREUP_CS_TICKS_PER_CHAR))
-        let upd = {}
-        if (n !== st.shown) {
-            upd.textLines = moreupCsFontLines(moreupCsReveal(step._lines, n), MOREUP_CS_FONT_TEXT)
-            st.shown = n
-        }
         let left = dur - e
-        if (left < MOREUP_CS_TEXT_FADE_TICKS) {
+        let fading = left < MOREUP_CS_TEXT_FADE_TICKS
+        if (n === st.shown && !fading) return
+        st.shown = n
+        // 색만 바꿀 때도 글자 줄(textLines)을 같이 보낸다 (안 보내면 Painter 가 "null" 을 그린다)
+        let upd = { textLines: moreupCsFontLines(moreupCsReveal(step._lines, n), MOREUP_CS_FONT_TEXT) }
+        if (fading) {
             let a = MOREUP_CS_MIN_TEXT_ALPHA + (255 - MOREUP_CS_MIN_TEXT_ALPHA) * (left / MOREUP_CS_TEXT_FADE_TICKS)
             upd.color = moreupCsColor(a, step.color || 'EEEEEE')
         }
-        if (Object.keys(upd).length > 0) moreupCsPaint(player, { mu_cs_text: upd })
+        moreupCsPaint(player, { mu_cs_text: upd })
     }
 }
 
@@ -696,6 +700,18 @@ PlayerEvents.loggedIn(event => {
         }
     } catch (e) {
         moreupCsLog(`접속 처리 오류: ${e}`)
+    }
+})
+
+// 컷씬을 보는 동안에는 채팅을 막는다 (1.5.4 사용자 요청). 명령어(/story skip 등)는 채팅이 아니라 그대로 된다
+PlayerEvents.chat(event => {
+    try {
+        let player = event.player
+        if (!player || !moreupCsActive[String(player.stringUuid)]) return
+        event.cancel()
+        player.tell(Text.gray('컷씬을 보는 동안에는 채팅할 수 없습니다. (Shift 길게 눌러 건너뛰기)'))
+    } catch (e) {
+        moreupCsLog(`채팅 막기 오류: ${e}`)
     }
 })
 
