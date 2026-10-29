@@ -38,7 +38,9 @@ const MOREUP_CS_MIN_TEXT_ALPHA = 10         // 글자 알파가 4 미만이면 �
 const MOREUP_CS_TEAM_KEY_PREFIX = 'moreupStoryTeam_'
 const MOREUP_CS_PLAYER_KEY = 'moreupStorySeen'
 // 1.5.4 애니메이션 (정의는 cutscene_anims.js). 오브젝트 ID: mu_cs_a0.. (단계 애니메이션), mu_cs_s0.. (배경 별빛)
-const MOREUP_CS_ANIM_MAX = 40
+const MOREUP_CS_ANIM_MAX = 64
+// 제목 카드 뒤에 자동으로 거는 애니메이션 (빛기둥 마법진). 장면에 titleAnim: false 면 끈다
+const MOREUP_CS_TITLE_ANIM = 'pillar'
 const MOREUP_CS_AMBIENT_MAX = 16
 const MOREUP_CS_AMBIENT_UPDATE_EVERY = 4
 const MOREUP_CS_TITLE_ZOOM_TICKS = 24        // 제목 카드가 커진 상태에서 제자리로 줄어드는 시간
@@ -157,17 +159,21 @@ function moreupCsAnimStop(player, st) {
     st.anim = null
 }
 
-function moreupCsAnimStart(player, st, seg) {
-    let name = seg.step.anim
+function moreupCsAnimStart(player, st, seg, name) {
     let def = typeof MOREUP_CS_ANIMS !== 'undefined' ? MOREUP_CS_ANIMS[name] : null
     if (!def) {
         moreupCsLog(`없는 애니메이션: ${name} (${st.id})`)
         return
     }
     let n = Math.min(def.objects, MOREUP_CS_ANIM_MAX)
-    let obj = {}
-    for (let i = 0; i < n; i++) obj['mu_cs_a' + i] = moreupCsMerge(def.make(i), def.frame(i, 0, 0))
-    moreupCsPaint(player, obj)
+    // 층(layer)마다 따로 보낸다: 한 번에 보낸 오브젝트끼리는 그리는 순서가 뒤섞이고, 먼저 만든 것이 아래에 그려진다
+    let layers = {}
+    for (let i = 0; i < n; i++) {
+        let layer = def.layer ? def.layer(i) : 0
+        if (!layers[layer]) layers[layer] = {}
+        layers[layer]['mu_cs_a' + i] = moreupCsMerge(def.make(i, st), def.frame(i, 0, 0, st))
+    }
+    Object.keys(layers).map(Number).sort((a, b) => a - b).forEach(layer => moreupCsPaint(player, layers[layer]))
     st.anim = { def: def, n: n, start: seg.start, dur: seg.end - seg.start, fired: {} }
 }
 
@@ -185,7 +191,7 @@ function moreupCsAnimFrame(server, player, st) {
         })
     }
     let obj = {}
-    for (let i = 0; i < a.n; i++) obj['mu_cs_a' + i] = a.def.frame(i, k, e)
+    for (let i = 0; i < a.n; i++) obj['mu_cs_a' + i] = a.def.frame(i, k, e, st)
     moreupCsPaint(player, obj)
 }
 
@@ -353,6 +359,9 @@ function moreupCsEnter(server, player, st, seg) {
         moreupCsPaint(player, { mu_cs_top: { h: MOREUP_CS_BAR }, mu_cs_bottom: { h: MOREUP_CS_BAR }, mu_cs_fade: { color: moreupCsColor(MOREUP_CS_DIM_ALPHA, '000000') } })
         moreupCsAmbientStart(player, st)
     }
+    // 애니메이션은 그 단계의 글자·제목보다 먼저 만들어 아래에 깔리게 한다
+    let animName = step ? (step.anim || (seg.kind === 'title' && st.scene.titleAnim !== false ? MOREUP_CS_TITLE_ANIM : null)) : null
+    if (animName && seg.kind !== 'title') moreupCsAnimStart(player, st, seg, animName)
     if (step) {
         moreupCsSound(server, uuid, step.sound)
         moreupCsParticle(server, uuid, step.particle)
@@ -367,6 +376,7 @@ function moreupCsEnter(server, player, st, seg) {
         })
     } else if (seg.kind === 'title') {
         moreupCsClearCenter(player, st)
+        if (animName) moreupCsAnimStart(player, st, seg, animName)
         moreupCsPaint(player, {
             mu_cs_title: { type: 'text', text: step.title, alignX: 'center', alignY: 'center', centered: true, y: -16, scale: MOREUP_CS_TITLE_SCALE_FROM, shadow: true, color: moreupCsColor(MOREUP_CS_MIN_TEXT_ALPHA, accent), draw: 'always' },
             mu_cs_line: { type: 'rectangle', w: 0, h: 1, alignX: 'center', alignY: 'center', y: 4, color: moreupCsColor(0, accent), draw: 'always' },
@@ -391,7 +401,6 @@ function moreupCsEnter(server, player, st, seg) {
             moreupCsAmbientStop(player, st)
         }
     }
-    if (step && step.anim) moreupCsAnimStart(player, st, seg)
 }
 
 function moreupCsUpdate(server, player, st, seg, e) {

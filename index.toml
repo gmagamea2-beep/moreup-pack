@@ -2985,8 +2985,24 @@ file = "kubejs/assets/moreup/models/item/dusk_bow_pulling_2.json"
 hash = "807b8f97074706a43ef51c8dbc641c89f8fc135612beccdac7e21fdd2bcfcbe9"
 
 [[files]]
+file = "kubejs/assets/moreup/textures/cutscene/beam.png"
+hash = "572ba203d847b6b2caed45e6b801fa4dee2ab7ae5294a23498af7e5f85d51443"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/card_back.png"
+hash = "20d9f6a507dc839c1772afb0006ac5fe42c33d9db774d334e02427779f0b5aa6"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/card_front.png"
+hash = "73efb97895deb58f9b8007b5fd77a5cf2b81c7ced3d2ac0c8c1350b8faadfc74"
+
+[[files]]
 file = "kubejs/assets/moreup/textures/cutscene/dot.png"
 hash = "bf78956c7d1fe6fb22a1fd4813ee333699534407c10d7a280516382e569fa655"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/flare.png"
+hash = "6d1d202335b4284adc131c40df7faa9c3964f7f61b2bb809a3a4f9024cbc4eb9"
 
 [[files]]
 file = "kubejs/assets/moreup/textures/cutscene/glow.png"
@@ -2995,6 +3011,326 @@ hash = "6e7492bcb2065b5f358ff7398b22db8a1ee83624f46a201f1f5eb5cb7a39200b"
 [[files]]
 file = "kubejs/assets/moreup/textures/cutscene/ring.png"
 hash = "6c3ad1d009c58ebe8669953b3c78ca20b6112347a35bceebadf0e05b154ea7f2"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringa_back_core_00.png"
+hash = "b2fe1b639bf98ce16a6a8e8672625d1f0329556df947d99a8d3c951e46a9fd5e"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringa_back_core_01.png"
+hash = "eadbbcb4ce554abf697348ebf386e7ca13475786e618ded4d66f9bd17f3cae35"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringa_back_core_02.png"
+hash = "2a7dc0af8f9c5c3d945b2027402e8f66cf487ef80fd074907dd6d0efc33041c7"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringa_back_core_03.png"
+hash = "83cf1f46160a3c6069dd1e20662a5d63b5227039a5052bc32013ba3727198917"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringa_back_core_04.png"
+hash = "affd0729f1fde8d2a25aba1845731651fa8af73aa25341e64469679bc3ba1cde"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringa_back_core_05.png"
+hash = "811a24ab0917073e5dd14ed61f88509d7b1e2b67af4abc1ad6e9c8dba6a358de"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringa_back_core_06.png"
+hash = "2bfc4761846032b0cf1a32f58439c7488753cabaa2840c7f15bd1b81e3ef63e5"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringa_back_core_07.png"
+hash = "a4e204e081bc1eed38430da4d90ecfbb6d006b54b9143609fca76a16d6083a80"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringa_back_core_08.png"
+hash = "68ac18f2ba23d614a0093fb941aec125214c8814ba923c2de5818512848c4f6b"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringa_back_core_09.png"
+hash = "6fe8fe1891a9b881f13892bd5fedb9b6fd54e47d857c3efe3e556acca8b772f0"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringa_back_glow_00.png"
+hash = "56967af489ca34da5c0a283cb21088c38a6ca4245430d358707211a6f8e55e55"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringa_back_glow_01.png"
+hash = "bcf2df8bcace1cf365c324d34381202a7150d0c0f1493e6836eb82862d7ad060"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringa_back_glow_02.png"
+hash = "be64f8f352a40fa9b16ea7cc16762e41338ae4a2d6e3f3b672f6a4773b6e93d4"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringa_back_glow_03.png"
+hash = "d61a218b2752e90d15ec97fd6f8e2f8de52b30174ad6fdf6a6f6b9f558321160"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringa_back_glow_04.png"
+hash = "85ec1913e80cb889e75b794109f99b8cea4157978c79d3a43aa4293bec693dc5"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringa_back_glow_05.png"
+hash = "936d112af15f1d9f938a9b444c69d9928664561acb83300d491bc569c06b4f83"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringa_back_glow_06.png"
+hash = "0e3bec03266008e32e9d385783fbdae9539d376ed062aa875ad43eb4ed140904"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringa_back_glow_07.png"
+hash = "0745b09ed123e5d998cbd1125485e6c85fd170ef47d07f0e76677720360a7813"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringa_back_glow_08.png"
+hash = "41d6a74425daa6055fe27473ab89979e0152c04bb2ef2b173e0024c5b471f405"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringa_back_glow_09.png"
+hash = "16b3b0bf6bcdfbd782461e33e99ba69689782e8c0a47f2f7db7985b7d68ab8ba"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringa_front_core_00.png"
+hash = "954cfd49932ef3c6c00d6af32b4d74bb977eb017ab4eb47fd81e2dd79785eac5"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringa_front_core_01.png"
+hash = "b1a395f605d0321f42482ad2f6332ec392d34a2498fb7b9776908c858e84f2e1"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringa_front_core_02.png"
+hash = "aceeb48a73ed7808cd3fe037d493a3a2802821d488b7ff0ad725bce196383dbf"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringa_front_core_03.png"
+hash = "ecb6ff654fc268b8e7597990be66d2a2aa9080bc4ff7161c65547ce76e210ccf"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringa_front_core_04.png"
+hash = "c9e33fb9394a1ba73beafced3be3cebb0dbaf35e66d328fff81e1eb4f8b1e833"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringa_front_core_05.png"
+hash = "4dcd38a6dc3729ae854a4005bd67f57038dd35c9f292f7baa3b8244dc934e90e"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringa_front_core_06.png"
+hash = "6aa056cc7e8e5528bfd049fa0e7943b0609980dc9cf84cfd4878e52a2d2d6097"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringa_front_core_07.png"
+hash = "7ed5dd386c1874bbd4c6ee6aec37c380ddf2dd1dc40be9680d23a2b755eb73c5"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringa_front_core_08.png"
+hash = "4e23a968404ed4fe6e1c6dfa33b9e34dd394da7ad00bca092f28848984901eb9"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringa_front_core_09.png"
+hash = "9b6ed07c184d6b719b3549661ae4b958de3f553943ab049647beadf9b3a3284d"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringa_front_glow_00.png"
+hash = "c0b1c58c712cd2784ddddbd3e607c44b09288dfceb01f248421422f11fa3f31a"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringa_front_glow_01.png"
+hash = "207d3dca0dd85f63b0dc4025bee12e1b4051d61b84a594089c1e2a502fcacef8"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringa_front_glow_02.png"
+hash = "7df9f58033ea1cfc9d5ef2949a29b036272215354b7b3363ceecc57255b4ed8e"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringa_front_glow_03.png"
+hash = "4b2acfac3dbb8ef5ce958c782628b0d4b345d7e9e4b12242e58b5cbfc2c82745"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringa_front_glow_04.png"
+hash = "baa819835d90389ecb6d43b1265836ab440dfe505c5755a90d04edda40b1ca41"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringa_front_glow_05.png"
+hash = "c3cf728e521a8f77cc0387ec9ad0c80ceb289e3e80c53bc4ef01064655bd927a"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringa_front_glow_06.png"
+hash = "f920fde9b17cf28ce15e7d76560c28de4218e0e0e8ee944ee59e8f9e1b49e790"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringa_front_glow_07.png"
+hash = "b1ac0841a211b046267eedd8712495845ce66bc6aa1bafdf3fdd1e05c08a6775"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringa_front_glow_08.png"
+hash = "b52e6ff4e2a6d9175f85162f450ffb2b08a1a65abe4e39dd18623aa6464829a2"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringa_front_glow_09.png"
+hash = "aef74cfffaa7ba3e5ee35a3271e3edc87acb5bb17f0a239a0d95bd925f65cce4"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringb_back_core_00.png"
+hash = "500910950b892009b53ec3b3e4cfe8dd3e53e5c72b9f5d869dbbc60ba27793f6"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringb_back_core_01.png"
+hash = "e860fe255863a81660b8aa8acdd3a46842271331450e2fe8c36c68e471d6977f"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringb_back_core_02.png"
+hash = "c664996f7c9e0c66aae9caf41b127aca7cf8c21767f87fab27f2a3a048703e40"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringb_back_core_03.png"
+hash = "7d75ed875293c8e6035d34ac68863e5646d381559d597a71a9ec728af2cde064"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringb_back_core_04.png"
+hash = "28f87a3bd9d61102c09bfa3064cecce6c5a9899922a809ed2a89145aa9a75390"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringb_back_core_05.png"
+hash = "13367cc43fa7bca6caf6618a4f1b41bec8157de10d8a607591a8215daa8e3a42"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringb_back_core_06.png"
+hash = "c604e353060de3a012160e645c7702e9a0c8e7212b4a171aba76763ae8759fe3"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringb_back_core_07.png"
+hash = "537e09542963d639487c1c60316e4496253f3ee23bf67151f5ea693eddfa64a6"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringb_back_core_08.png"
+hash = "2ff346ff7a36084e864a9e0e34a042913ea22a7fda8b0fff628c93532782640d"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringb_back_core_09.png"
+hash = "f4e20ebf30d4cbda2bf987d9f547c2c9422af1596fbe0f0cdbdda08f3aa3fe7e"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringb_back_glow_00.png"
+hash = "5ae7e11da516e8606c9f12dff86428f208460d351c32267a099d9f397afaa98c"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringb_back_glow_01.png"
+hash = "3f80eb31cb54c2c300aad7bcc967e9bcc6827593493a41c7510a8015bb3cb54f"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringb_back_glow_02.png"
+hash = "87115a76728f9f5f4c9c684a4e1776c05ece5be6e1a7b27ce7dbd5f5a83831ee"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringb_back_glow_03.png"
+hash = "ca7529cbfd4d31b5c40680e46d153c169b2c7ed933d5db47618082da735dfbde"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringb_back_glow_04.png"
+hash = "dfa2a0030704b33b1e34d081d2289c697f571d3231f3cfd19c7dd30217efc173"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringb_back_glow_05.png"
+hash = "c8b270cdf70ff3a917c20b2aedfb4cdae1dce2f7df325bfe90e0cd0e11de882a"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringb_back_glow_06.png"
+hash = "57ce20095c26d72f39b48708dbd77fc60ab8e9cf72ac2d7af84e50da49270917"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringb_back_glow_07.png"
+hash = "dc96f5d196e196c887c71eac29b4a8b1d67ee93120651fee6e267c9458395946"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringb_back_glow_08.png"
+hash = "a3479f670419fb5fead035aa15d96b9b55796920bd19bd9c7a4882c73957fae4"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringb_back_glow_09.png"
+hash = "8e52a68e5e501d3d902d1711111d14de57c55828c6521ea43e1a7d66e139f416"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringb_front_core_00.png"
+hash = "644fc3985783d7393c1981463aa13ab37fd7d43a261659057d2fb2bd1c55bdf7"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringb_front_core_01.png"
+hash = "dc8f3d2ff8f2611c73f43dba223a0c86c29ec5278247ff13a18e30ab28b0dab7"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringb_front_core_02.png"
+hash = "dc21d2db8cf75196dfd6aab7fac5633d26d4ce27bd6d61e799f841f9947affb7"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringb_front_core_03.png"
+hash = "942b6e555aa4960054d44f7d362ad36210e172251c013a481944480ec1e72beb"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringb_front_core_04.png"
+hash = "1213002f48b5b38cb517e3641bfd7a4c006f0f5d805f40e70b2d1aa6488c0fe7"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringb_front_core_05.png"
+hash = "c363d8a964ecee23a043854567aef68daf72870fdcf51b1c05aa6096ef416185"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringb_front_core_06.png"
+hash = "a30ca92f0de9768895a0a8c2b737c1e4cfa6a85d1d26288aea640b457a7e39e0"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringb_front_core_07.png"
+hash = "42ade8f2ca4c3547ef11eab80b37cfa714d47eb4dc934ab8041e70558f456f8e"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringb_front_core_08.png"
+hash = "d6edf4e12379b724ba27a0b643539fc24825427d662aa9725ffb76f431a3847d"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringb_front_core_09.png"
+hash = "43992a0bc5ee3068d3c2510ca75950b785d809df006e9b3732fa81b2ada894de"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringb_front_glow_00.png"
+hash = "977f10e307546f5ac0307663e000860b971943b13f7134e07006fa69a40ea154"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringb_front_glow_01.png"
+hash = "425892ba48001c3033b4cddad6204e1fe2833e9cae2f4a5c89a1e09f3fb2b029"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringb_front_glow_02.png"
+hash = "3c11e80b8e90dc781d81d9bcb9390fd6992f7bfc1714e728219748c8d947d30f"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringb_front_glow_03.png"
+hash = "693880a1d80c0d0cfaf9436258d51b44318760b54ce21511a79b380d005831a7"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringb_front_glow_04.png"
+hash = "0dcdce3609b45e8eca6372c76eca348475cbfd0b988fa6b23f3ae7f3079a40c5"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringb_front_glow_05.png"
+hash = "d6e3471fd18d338da5bd2c082058e478f1526f416329fb2004d460b8aeaf1cf2"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringb_front_glow_06.png"
+hash = "4d894f7dedb0b3b6a776a41828767592cae8f41f25ea5a63cf1a121bd270dd88"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringb_front_glow_07.png"
+hash = "157f6bad6812ca9a25005630a5fe3185fadf403cb5eb10e8a65b9754c82ef23c"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringb_front_glow_08.png"
+hash = "04b46da186212cc772c5b558fa03b3232acad5189080a836caac0ad8a3437827"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/cutscene/ring/ringb_front_glow_09.png"
+hash = "4c6d0b62b74676e8742ae3e89a2ea7e41c38708fd9ad02609c924ba74ed19956"
 
 [[files]]
 file = "kubejs/assets/moreup/textures/cutscene/shard.png"
@@ -3622,15 +3958,15 @@ hash = "777b9db54ebe3a1ecfba8431c7e742e9aabbef1d359f5637e8e663be4bc6a7ed"
 
 [[files]]
 file = "kubejs/server_scripts/story/cutscene.js"
-hash = "346ca227ed0210930af70c8d89b45ad9b51d6d8cc7e92a9a4a5cd4480fe53621"
+hash = "b3b15897d50d8a8af169cf665309e2380cca0c4e64eb5886fa6f6c18d5859aa7"
 
 [[files]]
 file = "kubejs/server_scripts/story/cutscene_anims.js"
-hash = "82f1f6ecfa5355750cc533ba0edd6720d637da54ea75e5f8b2eed270e52f3b84"
+hash = "cd795be4098e66e23e37f090018c94cf1f47445521471bb13d9e65ff3e1f53fe"
 
 [[files]]
 file = "kubejs/server_scripts/story/cutscene_scenes.js"
-hash = "1daf36c49b095cb3f6be30463ec8afcd7f925044c6561d64912dcd5d2cf023d1"
+hash = "2a62c04adc73f899db450501bec63908c989b572642c22eb31fdef20b09f68b0"
 
 [[files]]
 file = "kubejs/server_scripts/systems/boss_rewards.js"

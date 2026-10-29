@@ -9,7 +9,9 @@
 //   - 대본의 단계에 anim: '<이름>' 을 붙이면 그 단계(내레이션)가 나오는 동안 재생한다. 장면에 ambient: 'stars' 면 배경 별빛
 //   - 좌표: 화면 가운데 기준 GUI 픽셀. 아래 띠(내레이션)와 겹치지 않게 MOREUP_CS_ANIM_CY 만큼 위에 그린다
 //
-// 애니메이션 정의: { objects: 개수, make(i) → 처음 오브젝트(type 등), frame(i, k, e) → 바꿀 속성, cues: [{ at, sound, particle }] }
+// 애니메이션 정의: { objects: 개수, make(i, st) → 처음 오브젝트(type 등), frame(i, k, e, st) → 바꿀 속성, layer(i) → 그리는 층, cues: [{ at, sound, particle }] }
+//   st = 재생 상태 (st.scene.accent 로 장면 색을 쓴다)
+//   그리는 순서: 한 번에 보낸 오브젝트끼리는 순서가 뒤섞인다(NBT 가 HashMap). 그래서 엔진이 layer 낮은 것부터 따로 보내 아래에 깔리게 한다
 //   k = 그 단계 안에서의 진행 0~1, e = 그 단계가 시작된 뒤 지난 틱
 //   아이템 아이콘은 투명도를 못 바꿔서 visible 로 나타나고 사라진다. 아이콘 rotation 단위는 라디안(Painter ItemObject)
 // ============================================================
@@ -21,7 +23,11 @@ const MOREUP_CS_TEX = {
     dot: 'moreup:textures/cutscene/dot.png',
     star: 'moreup:textures/cutscene/star.png',
     ring: 'moreup:textures/cutscene/ring.png',
-    shard: 'moreup:textures/cutscene/shard.png'
+    shard: 'moreup:textures/cutscene/shard.png',
+    beam: 'moreup:textures/cutscene/beam.png',
+    flare: 'moreup:textures/cutscene/flare.png',
+    cardFront: 'moreup:textures/cutscene/card_front.png',
+    cardBack: 'moreup:textures/cutscene/card_back.png'
 }
 
 // ---------------------------------------------------------- 도구
@@ -30,6 +36,8 @@ function moreupCsClamp01(x) { return Math.max(0, Math.min(1, x)) }
 function moreupCsWin(k, a, b) { return moreupCsClamp01((k - a) / (b - a)) }
 function moreupCsOut(x) { let y = 1 - moreupCsClamp01(x); return 1 - y * y * y }
 function moreupCsInOut(k, fadeIn, fadeOut) { return moreupCsClamp01(Math.min(k / fadeIn, (1 - k) / fadeOut)) }
+// 살짝 넘쳤다가 돌아오는 확대 (ease-out-back)
+function moreupCsBack(x) { let t = moreupCsClamp01(x) - 1; return 1 + t * t * (2.2 * t + 1.2) }
 
 function moreupCsSprite(tex) {
     return { type: 'rectangle', texture: MOREUP_CS_TEX[tex], w: 1, h: 1, alignX: 'center', alignY: 'center', x: 0, y: MOREUP_CS_ANIM_CY, color: '#00FFFFFF', draw: 'always' }
@@ -66,6 +74,7 @@ const MOREUP_CS_ANIMS = {
     // 거대한 빛의 용: 큰 빛이 숨 쉬듯 커졌다 작아진다
     breath: {
         objects: 2,
+        layer: i => i,
         make: i => moreupCsSprite('glow'),
         frame: (i, k, e) => {
             let pulse = 0.86 + 0.14 * Math.sin(e * 0.12)
@@ -82,6 +91,7 @@ const MOREUP_CS_ANIMS = {
     // 용이 스스로를 부순다: 빛이 부풀어 떨리다 번쩍이며 일곱 파편으로 흩어진다
     shatter: {
         objects: 9,
+        layer: i => i === 1 ? 2 : i === 0 ? 0 : 1,
         make: i => i === 1
             ? { type: 'rectangle', x: 0, y: 0, w: '$screenW', h: '$screenH', color: '#00FFFFFF', draw: 'always' }
             : moreupCsSprite(i === 0 ? 'glow' : 'star'),
@@ -138,6 +148,7 @@ const MOREUP_CS_ANIMS = {
     // 첫 번째 파편이 진동한다
     tremor: {
         objects: 2,
+        layer: i => i,
         make: i => moreupCsSprite(i === 0 ? 'glow' : 'shard'),
         frame: (i, k, e) => {
             let a = moreupCsInOut(k, 0.12, 0.2)
@@ -148,6 +159,7 @@ const MOREUP_CS_ANIMS = {
     // 강철의 뼈대와 톱니바퀴: 톱니바퀴 셋이 맞물려 돈다
     gears: {
         objects: 4,
+        layer: i => i === 0 ? 0 : 1,
         make: i => i === 0 ? moreupCsSprite('glow')
             : moreupCsIcon(i === 1 ? 'create:large_cogwheel' : 'create:cogwheel'),
         frame: (i, k, e) => {
@@ -160,6 +172,7 @@ const MOREUP_CS_ANIMS = {
     // 권능이 차원으로 흩어진다: 빛의 고리 둘레를 엔더의 눈이 돈다
     portal: {
         objects: 7,
+        layer: i => i === 0 ? 0 : 1,
         make: i => i === 0 ? moreupCsSprite('ring') : moreupCsIcon('minecraft:ender_eye'),
         frame: (i, k, e) => {
             if (i === 0) return moreupCsSpr(0, 0, 74 + 10 * Math.sin(e * 0.15), 220 * moreupCsInOut(k, 0.1, 0.15), 'AA77FF')
@@ -185,6 +198,7 @@ const MOREUP_CS_ANIMS = {
     // 황혼의 군주: 검은 원이 태양을 가리며 보랏빛 코로나가 번진다
     eclipse: {
         objects: 3,
+        layer: i => i,
         make: i => moreupCsSprite(i === 0 ? 'glow' : i === 1 ? 'ring' : 'dot'),
         frame: (i, k, e) => {
             let fade = moreupCsInOut(k, 0.1, 0.12)
@@ -263,5 +277,141 @@ const MOREUP_CS_AMBIENTS = {
             let size = 3 + (i % 3)
             return { w: size, h: size, color: moreupCsColor(40 + 130 * tw, i % 4 === 0 ? 'FFE9A0' : 'DDEEFF') }
         }
+    }
+}
+
+// ---------------------------------------------------------- 빛기둥 마법진 (1.5.4, 사용자 참고 영상의 분위기를 따른 독자 디자인)
+// 하늘에서 내려오는 빛기둥 + 그 둘레에 겹겹이 뜬 원근 고리 3개(가운데 룬 띠 고리 A, 위·아래 가벼운 고리 B)
+// - 고리는 3D 로 미리 그린 회전 프레임 PNG(textures/cutscene/ring/, 10장 = 30도 주기)를 바꿔 끼워 돌아가게 한다
+//   (Painter 사각형은 회전이 안 된다). 고리 그림 생성기: MoreUp/textures_src/gen_cutscene_rings.ps1
+// - 고리마다 뒤쪽 반/앞쪽 반을 나눠 뒤쪽 → 빛기둥 → 앞쪽 순서로 그려 기둥이 고리를 꿰뚫는 깊이감을 낸다
+// - 빛 표현: 번지는 빛(glow, 장면 색) 위에 선명한 심(core, 흰색에 가까운 색)을 겹친다
+// 소환: 빛기둥이 위에서 내려오고 → 고리가 가운데·위·아래 순서로 살짝 넘치며 펼쳐짐 / 유지: 위아래 고리는 서로 반대로 회전
+// 소멸(0.86~1): 고리가 커지며 사라지고 기둥이 가늘어진다
+
+const MOREUP_CS_RING_FRAMES = 10
+const MOREUP_CS_RING_ASPECT = 240 / 512            // 고리 텍스처 세로/가로
+const MOREUP_CS_RING_CENTER = 0.58                 // 텍스처 안에서 고리 중심의 세로 위치 (생성기 Cy)
+// [종류, 가운데 기준 y, 너비, 밝기, 회전 방향, 나타나는 시작 k]
+const MOREUP_CS_PILLAR_RINGS = [['a', 2, 280, 1.0, 1, 0.12], ['b', -60, 150, 0.7, -1, 0.18], ['b', 66, 190, 0.85, -1, 0.24]]
+const MOREUP_CS_PILLAR_SPARKS = 10
+const MOREUP_CS_PILLAR_COUNT = MOREUP_CS_PILLAR_RINGS.length * 4 + 3 + MOREUP_CS_PILLAR_SPARKS
+
+function moreupCsRingTex(kind, side, part, frame) {
+    let f = ((frame % MOREUP_CS_RING_FRAMES) + MOREUP_CS_RING_FRAMES) % MOREUP_CS_RING_FRAMES
+    return `moreup:textures/cutscene/ring/ring${kind}_${side}_${part}_${f < 10 ? '0' + f : f}.png`
+}
+
+// 오브젝트 번호: [0~2] 뒤 빛, [3~5] 뒤 심, 6 빛기둥, 7 가운데 섬광, 8 아래 지평선 빛, [9~11] 앞 빛, [12~14] 앞 심, 그 뒤 반짝이
+function moreupCsPillarSlot(i) {
+    let n = MOREUP_CS_PILLAR_RINGS.length
+    if (i < n * 2) return { ring: i % n, side: 'back', part: i < n ? 'glow' : 'core', layer: i < n ? 0 : 1 }
+    if (i < n * 2 + 3) return { extra: i - n * 2, layer: 2 }
+    let j = i - (n * 2 + 3)
+    if (j < n * 2) return { ring: j % n, side: 'front', part: j < n ? 'glow' : 'core', layer: j < n ? 3 : 4 }
+    return { spark: j - n * 2, layer: 5 }
+}
+
+function moreupCsPillarMake(i) {
+    let slot = moreupCsPillarSlot(i)
+    if (slot.spark != null) return moreupCsSprite(slot.spark % 3 === 0 ? 'star' : 'dot')
+    if (slot.extra != null) return moreupCsSprite(slot.extra === 0 ? 'beam' : 'flare')
+    let r = MOREUP_CS_PILLAR_RINGS[slot.ring]
+    let o = moreupCsSprite('glow')
+    o.texture = moreupCsRingTex(r[0], slot.side, slot.part, 0)
+    return o
+}
+
+// scale: 전체 크기 배율, cy: 세로 위치 이동
+function moreupCsPillarFrame(i, k, e, rgb, scale, cy) {
+    let slot = moreupCsPillarSlot(i)
+    let gone = moreupCsWin(k, 0.86, 1)
+    let coreRgb = moreupCsLerpRgb(rgb, 'FFFFFF', 0.8)
+    let beamRgb = moreupCsLerpRgb(rgb, 'FFFFFF', 0.65)
+    let base = cy - MOREUP_CS_ANIM_CY
+    if (slot.spark != null) {
+        // 빛기둥을 따라 떠오르는 반짝이
+        let n = slot.spark
+        let period = 46 + (n % 4) * 9
+        let p = ((e + n * 17) % period) / period
+        let x = (Math.sin(n * 7.3) * 46 + Math.sin(e * 0.05 + n) * 6) * scale
+        let y = base + (70 - 150 * p) * scale
+        let a = 220 * Math.sin(p * MOREUP_CS_TAU / 2) * moreupCsWin(k, 0.25, 0.4) * (1 - gone)
+        return moreupCsSpr(x, y, (n % 3 === 0 ? 9 : 4) * scale, a, n % 2 === 0 ? coreRgb : rgb)
+    }
+    if (slot.extra === 0) {
+        // 빛기둥: 화면 위쪽 끝에서 아래로 내려온다 (가운데 정렬이라 높이의 절반만큼 내려 둔다)
+        let drop = moreupCsOut(moreupCsWin(k, 0, 0.18))
+        let h = Math.max(1, Math.round(300 * drop))
+        // 제목 글자를 가로지르므로 너무 밝지 않게 (글자가 읽히도록 폭·밝기를 억제)
+        let w = Math.max(1, Math.round((32 + 3 * Math.sin(e * 0.3)) * scale * (1 - 0.85 * gone)))
+        let ba = 190 * (1 - gone)
+        return { x: 0, y: Math.round(-150 + h / 2), w: w, h: h, color: moreupCsColor(ba < 4 ? 0 : ba, beamRgb) }
+    }
+    if (slot.extra === 1) {
+        // 기둥이 가운데 고리를 꿰뚫는 자리의 가로 섬광: 고리가 펼쳐질 때 번쩍였다가 은은하게
+        let flash = moreupCsWin(k, 0.12, 0.16) * (1 - moreupCsWin(k, 0.16, 0.32))
+        let a = (120 + 135 * flash) * moreupCsWin(k, 0.1, 0.14) * (1 - gone)
+        let r0 = MOREUP_CS_PILLAR_RINGS[0]
+        return { x: 0, y: Math.round(MOREUP_CS_ANIM_CY + base + r0[1] * scale), w: Math.round((220 + 120 * flash) * scale), h: Math.round(26 * scale), color: moreupCsColor(a < 4 ? 0 : a, coreRgb) }
+    }
+    if (slot.extra === 2) {
+        let a = 130 * moreupCsWin(k, 0.15, 0.3) * (1 - gone)
+        return { x: 0, y: Math.round(MOREUP_CS_ANIM_CY + base + 100 * scale), w: Math.round(420 * scale), h: Math.round(24 * scale), color: moreupCsColor(a < 4 ? 0 : a, rgb) }
+    }
+    let r = MOREUP_CS_PILLAR_RINGS[slot.ring]
+    let open = moreupCsBack(moreupCsWin(k, r[5], r[5] + 0.18))
+    let s = Math.max(0.02, (0.55 + 0.45 * open) * (1 + 0.18 * gone)) * scale
+    let A = moreupCsWin(k, r[5], r[5] + 0.08) * (1 - gone) * r[3]
+    let w = Math.round(r[2] * s)
+    let h = Math.round(r[2] * s * MOREUP_CS_RING_ASPECT)
+    let frame = Math.floor(e / MOREUP_CS_UPDATE_EVERY) * r[4]
+    let glow = slot.part === 'glow'
+    let a = (glow ? 235 : 255) * A
+    // 텍스처 안의 고리 중심이 가운데보다 아래(0.58)에 있어서 그만큼 올려 맞춘다
+    let y = MOREUP_CS_ANIM_CY + base + r[1] * scale - (MOREUP_CS_RING_CENTER - 0.5) * h
+    return { x: 0, y: Math.round(y), w: Math.max(1, w), h: Math.max(1, h), texture: moreupCsRingTex(r[0], slot.side, slot.part, frame), color: moreupCsColor(a < 4 ? 0 : a, glow ? rgb : coreRgb) }
+}
+
+// 제목 카드 뒤 빛기둥 마법진 (모든 장면의 제목에 자동으로 붙는다, cutscene.js MOREUP_CS_TITLE_ANIM)
+MOREUP_CS_ANIMS.pillar = {
+    objects: MOREUP_CS_PILLAR_COUNT,
+    layer: i => moreupCsPillarSlot(i).layer,
+    make: moreupCsPillarMake,
+    frame: (i, k, e, st) => moreupCsPillarFrame(i, k, e, (st && st.scene.accent) || '6E8CFF', 1, 0),
+    cues: [{ at: 0.01, sound: ['minecraft:block.beacon.activate', 0.5, 1.6] }, { at: 0.13, sound: ['minecraft:block.amethyst_block.resonate', 0.8, 1.2] }]
+}
+
+// 일곱 장의 마법 카드: 빛기둥 마법진 둘레를 카드 일곱 장이 돌다가 차례로 뒤집히며 앞면이 빛난다 (4막 "분업하고 연대하십시오")
+// 카드는 마법진 뒤쪽 반과 앞쪽 반 사이 층에 그려 고리 사이를 지나가는 것처럼 보인다
+const MOREUP_CS_CARDS = 7
+MOREUP_CS_ANIMS.arcana = {
+    objects: MOREUP_CS_PILLAR_COUNT + MOREUP_CS_CARDS * 2,
+    layer: i => i < MOREUP_CS_PILLAR_COUNT ? moreupCsPillarSlot(i).layer : 2.5,
+    make: i => {
+        if (i < MOREUP_CS_PILLAR_COUNT) return moreupCsPillarMake(i)
+        return moreupCsSprite(i < MOREUP_CS_PILLAR_COUNT + MOREUP_CS_CARDS ? 'glow' : 'cardBack')
+    },
+    cues: [0, 1, 2, 3, 4, 5, 6].map(n => ({ at: 0.2 + n * 0.085, sound: ['minecraft:item.book.page_turn', 0.9, 1.3 + n * 0.05] })),
+    frame: (i, k, e, st) => {
+        let rgb = (st && st.scene.accent) || 'FFFFFF'
+        if (i < MOREUP_CS_PILLAR_COUNT) return moreupCsPillarFrame(i, k, e, rgb, 0.72, -10)
+        let glowCard = i < MOREUP_CS_PILLAR_COUNT + MOREUP_CS_CARDS
+        let n = (i - MOREUP_CS_PILLAR_COUNT) % MOREUP_CS_CARDS
+        let fade = moreupCsWin(k, 0.05 + n * 0.02, 0.14 + n * 0.02) * (1 - moreupCsWin(k, 0.9, 1))
+        let ang = n * MOREUP_CS_TAU / MOREUP_CS_CARDS + e * 0.012
+        let depth = (Math.sin(ang) + 1) / 2
+        let size = 0.72 + 0.42 * depth
+        let x = Math.cos(ang) * 118
+        let y = -10 + Math.sin(ang) * 32 - MOREUP_CS_ANIM_CY
+        let t0 = 0.2 + n * 0.085
+        let f = moreupCsWin(k, t0, t0 + 0.05)
+        let flip = Math.abs(Math.cos(f * MOREUP_CS_TAU / 2))
+        let front = f >= 0.5
+        if (glowCard) return moreupCsSpr(x, y, 46 * size, (front ? 150 : 0) * fade, rgb)
+        let w = Math.max(1, Math.round(18 * size * Math.max(0.06, flip)))
+        let h = Math.round(27 * size)
+        let a = 255 * fade
+        return { x: Math.round(x), y: Math.round(MOREUP_CS_ANIM_CY + y), w: w, h: h, texture: front ? MOREUP_CS_TEX.cardFront : MOREUP_CS_TEX.cardBack, color: moreupCsColor(a < 4 ? 0 : a, front ? rgb : 'B8C2DC') }
     }
 }

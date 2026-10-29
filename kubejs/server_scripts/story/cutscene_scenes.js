@@ -18,7 +18,7 @@
 //   { pause }             아무것도 없이 쉬는 틱
 //   공통 선택 키: sound: [소리 ID, 크기, 높낮이], particle: [파티클 ID, 개수], effect: [효과 ID, 초]
 //             anim: 애니메이션 이름 (cutscene_anims.js 의 MOREUP_CS_ANIMS, 그 단계 동안 화면에 재생, 1.5.4)
-//   장면 선택 키 ambient: 'stars' — 장면 내내 배경 별빛
+//   장면 선택 키 ambient: 'stars' — 장면 내내 배경 별빛, titleAnim: false — 제목 카드 뒤 마법진 끄기
 //   (소리·파티클·효과는 그 플레이어에게만 보인다)
 // ============================================================
 
@@ -64,7 +64,7 @@ const MOREUP_SCENES = {
             { title: '제 4막', sub: '일곱 갈래의 톱니바퀴', hold: 50, sound: ['minecraft:item.trident.thunder', 0.4, 0.8] },
             { text: '별의 기록서가 진실을 밝혔습니다. 세상의 보스는 당신의 빛을 훔친 거짓된 왕들입니다.', color: 'FFF3B0' },
             { text: '재앙의 화신, 얼음과 불의 폭군, 황혼을 갉아먹는 그림자. 그들은 빛을 독점한 채 차원을 지배해 왔습니다.', color: 'FF7777', sound: ['minecraft:entity.ender_dragon.growl', 0.3, 0.7] },
-            { text: '분업하고 연대하십시오. 적의 심장을 찢고 권능을 흡수할 때마다, 희미했던 전생의 기억이 돌아올 것입니다.', anim: 'seven' },
+            { text: '분업하고 연대하십시오. 적의 심장을 찢고 권능을 흡수할 때마다, 희미했던 전생의 기억이 돌아올 것입니다.', anim: 'arcana' },
             { text: '강철과 비전, 대지의 힘을 모아 그들의 목을 베고, 아홉 갈래로 흩어진 권능을 되찾으십시오.', color: 'FF5555', sound: ['minecraft:block.bell.resonate', 0.6, 1] }
         ]
     },
