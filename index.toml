@@ -1574,7 +1574,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "4b189acb7933d49d612569ac3941adc326185d37e4c129fcd54eea4afaf40f07"
+hash = "78938e44c01c2943a87b7550e5c647fd2cfc003dce06959334df96c23daa8dc3"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -1778,7 +1778,7 @@ hash = "0d3c92ba50e31505475a5866dc81086230c3e3e683dc8ff2536b850f64ef9b54"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "3ebfa5c56b1491e08e7aa7d6783466716e7f865afb87c8d056dfd5791c5cdf78"
+hash = "14de5060591f8d2607fa740b72c369d8e43f6e1911100e5c35ce54e2b58690b1"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -1854,7 +1854,7 @@ hash = "56291af4bc3506692c79f5c0155c47cce8577d0aae6ed5930c9074d5cb9bc5c8"
 
 [[files]]
 file = "config/powah.json5"
-hash = "a09095ff56a13970d9b1d81036e0b44cab846df0c530954bb9ece833ca609a19"
+hash = "9e91b790ae51344c60682dbecfccdc785418d58c633ab4a37945cbb3220b0b49"
 
 [[files]]
 file = "config/progressivebosses-common.toml"
@@ -3647,6 +3647,10 @@ hash = "feffced6cc6049cb906c217cb1b5a6a0ea4ad4f41d3108e0c78191fd35f2386a"
 [[files]]
 file = "kubejs/server_scripts/systems/player_armor_bonus.js"
 hash = "b9a767f5f08ac5b65c07db0ddaeeb7281dd3a2c4968dddd1bf8bca69bd980a57"
+
+[[files]]
+file = "kubejs/server_scripts/systems/pregen_guard.js"
+hash = "58f95ec91795844378bfabd5c6275c1bb9ccc13199832813a3e406f229814282"
 
 [[files]]
 file = "kubejs/server_scripts/systems/server_console.js"
@@ -5446,7 +5450,7 @@ preserve = true
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.8.1.zip.txt"
-hash = "f73b13912969aea0d7a52a754bc0bc7a803247f3f357ea0cb0814a544f8dcdba"
+hash = "64a6bc646c6d4001ab6cae7660a0e7974b6aab99b10faac896f7f865aa5dd7fd"
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"
