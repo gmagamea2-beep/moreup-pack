@@ -25,4 +25,4 @@
 
 지인 공유용 CurseForge zip 에는 jar 가 overrides/mods 로 들어 있다. 공개용 zip 으로 가져왔거나 빠져 있으면 인스턴스 폴더의 `More Up 업데이트.bat` 을 한 번 실행하면 받아진다.
 
-- More Up Core — `moreup-core-1.0.3.jar` **필수**
+- More Up Core — `moreup-core-1.0.4.jar` **필수**

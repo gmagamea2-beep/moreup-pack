@@ -18,7 +18,7 @@ hash = "4338312bb3adfdecfa567ccb08b8a303ebc2c2dfa4b203383fd3ed99afac2bb2"
 
 [[files]]
 file = "config/Mekanism/client.toml"
-hash = "76132360abda99a40eccbead1433ccb688f5cca9b39cae1f568eb823947b576c"
+hash = "31528ab3e12f1a0e080d66afa1c1a3a8ae73c704e385315295fb4e3857c2bcd4"
 
 [[files]]
 file = "config/Mekanism/common.toml"
@@ -1874,7 +1874,7 @@ hash = "548156b84adda7e833d8f8d0cc5dd82dff1ba23a93011c4770ad548f1b9c82b0"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "fedbbde3fe40c39afe3628c07d6ca35c40c8626a715d47a6048c34748b44f606"
+hash = "876ceb70d941875fcb11134efedcd623c6adf3e1c8cd6219b9ceffedbda1503a"
 
 [[files]]
 file = "config/regions_unexplored/ru-common.toml"
@@ -4859,7 +4859,7 @@ metafile = true
 
 [[files]]
 file = "mods/moreup-core.pw.toml"
-hash = "1677dae7f35459fce94e34dc39f3a7350f3e5b3367804212e3fe6158ec29a004"
+hash = "a21a6650330f7566b62e34b0641a758235334f6d6a9f9d070437868256c3cf95"
 metafile = true
 
 [[files]]
