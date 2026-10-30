@@ -1,0 +1,147 @@
+{
+    "conditions":  [
+                       {
+                           "type":  "forge:item_exists",
+                           "item":  "moreup:relic_magic"
+                       }
+                   ],
+    "parent":  "moreup:world",
+    "display":  {
+                    "icon":  {
+                                 "item":  "moreup:relic_magic"
+                             },
+                    "title":  {
+                                  "translate":  "advancements.moreup.relic_first.title"
+                              },
+                    "description":  {
+                                        "translate":  "advancements.moreup.relic_first.description"
+                                    },
+                    "frame":  "goal",
+                    "show_toast":  true,
+                    "announce_to_chat":  true,
+                    "hidden":  false
+                },
+    "criteria":  {
+                     "has_relic_tech":  {
+                                            "trigger":  "minecraft:inventory_changed",
+                                            "conditions":  {
+                                                               "items":  [
+                                                                             {
+                                                                                 "items":  [
+                                                                                               "moreup:relic_tech"
+                                                                                           ]
+                                                                             }
+                                                                         ]
+                                                           }
+                                        },
+                     "has_relic_magic":  {
+                                             "trigger":  "minecraft:inventory_changed",
+                                             "conditions":  {
+                                                                "items":  [
+                                                                              {
+                                                                                  "items":  [
+                                                                                                "moreup:relic_magic"
+                                                                                            ]
+                                                                              }
+                                                                          ]
+                                                            }
+                                         },
+                     "has_relic_war":  {
+                                           "trigger":  "minecraft:inventory_changed",
+                                           "conditions":  {
+                                                              "items":  [
+                                                                            {
+                                                                                "items":  [
+                                                                                              "moreup:relic_war"
+                                                                                          ]
+                                                                            }
+                                                                        ]
+                                                          }
+                                       },
+                     "has_relic_dragon":  {
+                                              "trigger":  "minecraft:inventory_changed",
+                                              "conditions":  {
+                                                                 "items":  [
+                                                                               {
+                                                                                   "items":  [
+                                                                                                 "moreup:relic_dragon"
+                                                                                             ]
+                                                                               }
+                                                                           ]
+                                                             }
+                                          },
+                     "has_relic_sky":  {
+                                           "trigger":  "minecraft:inventory_changed",
+                                           "conditions":  {
+                                                              "items":  [
+                                                                            {
+                                                                                "items":  [
+                                                                                              "moreup:relic_sky"
+                                                                                          ]
+                                                                            }
+                                                                        ]
+                                                          }
+                                       },
+                     "has_relic_twilight":  {
+                                                "trigger":  "minecraft:inventory_changed",
+                                                "conditions":  {
+                                                                   "items":  [
+                                                                                 {
+                                                                                     "items":  [
+                                                                                                   "moreup:relic_twilight"
+                                                                                               ]
+                                                                                 }
+                                                                             ]
+                                                               }
+                                            },
+                     "has_relic_depths":  {
+                                              "trigger":  "minecraft:inventory_changed",
+                                              "conditions":  {
+                                                                 "items":  [
+                                                                               {
+                                                                                   "items":  [
+                                                                                                 "moreup:relic_depths"
+                                                                                             ]
+                                                                               }
+                                                                           ]
+                                                             }
+                                          },
+                     "has_relic_harvest":  {
+                                               "trigger":  "minecraft:inventory_changed",
+                                               "conditions":  {
+                                                                  "items":  [
+                                                                                {
+                                                                                    "items":  [
+                                                                                                  "moreup:relic_harvest"
+                                                                                              ]
+                                                                                }
+                                                                            ]
+                                                              }
+                                           },
+                     "has_relic_end":  {
+                                           "trigger":  "minecraft:inventory_changed",
+                                           "conditions":  {
+                                                              "items":  [
+                                                                            {
+                                                                                "items":  [
+                                                                                              "moreup:relic_end"
+                                                                                          ]
+                                                                            }
+                                                                        ]
+                                                          }
+                                       }
+                 },
+    "requirements":  [
+                         [
+                             "has_relic_tech",
+                             "has_relic_magic",
+                             "has_relic_war",
+                             "has_relic_dragon",
+                             "has_relic_sky",
+                             "has_relic_twilight",
+                             "has_relic_depths",
+                             "has_relic_harvest",
+                             "has_relic_end"
+                         ]
+                     ]
+}

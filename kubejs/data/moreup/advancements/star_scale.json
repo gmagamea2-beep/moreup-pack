@@ -1,0 +1,38 @@
+{
+    "conditions":  [
+                       {
+                           "type":  "forge:item_exists",
+                           "item":  "moreup:star_scale"
+                       }
+                   ],
+    "parent":  "moreup:keepers_crown",
+    "display":  {
+                    "icon":  {
+                                 "item":  "moreup:star_scale"
+                             },
+                    "title":  {
+                                  "translate":  "advancements.moreup.star_scale.title"
+                              },
+                    "description":  {
+                                        "translate":  "advancements.moreup.star_scale.description"
+                                    },
+                    "frame":  "task",
+                    "show_toast":  true,
+                    "announce_to_chat":  true,
+                    "hidden":  false
+                },
+    "criteria":  {
+                     "has_star_scale":  {
+                                            "trigger":  "minecraft:inventory_changed",
+                                            "conditions":  {
+                                                               "items":  [
+                                                                             {
+                                                                                 "items":  [
+                                                                                               "moreup:star_scale"
+                                                                                           ]
+                                                                             }
+                                                                         ]
+                                                           }
+                                        }
+                 }
+}

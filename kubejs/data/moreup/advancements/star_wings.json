@@ -1,0 +1,38 @@
+{
+    "conditions":  [
+                       {
+                           "type":  "forge:item_exists",
+                           "item":  "moreup:star_wings"
+                       }
+                   ],
+    "parent":  "moreup:star_core",
+    "display":  {
+                    "icon":  {
+                                 "item":  "moreup:star_wings"
+                             },
+                    "title":  {
+                                  "translate":  "advancements.moreup.star_wings.title"
+                              },
+                    "description":  {
+                                        "translate":  "advancements.moreup.star_wings.description"
+                                    },
+                    "frame":  "challenge",
+                    "show_toast":  true,
+                    "announce_to_chat":  true,
+                    "hidden":  false
+                },
+    "criteria":  {
+                     "has_star_wings":  {
+                                            "trigger":  "minecraft:inventory_changed",
+                                            "conditions":  {
+                                                               "items":  [
+                                                                             {
+                                                                                 "items":  [
+                                                                                               "moreup:star_wings"
+                                                                                           ]
+                                                                             }
+                                                                         ]
+                                                           }
+                                        }
+                 }
+}

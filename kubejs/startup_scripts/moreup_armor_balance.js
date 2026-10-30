@@ -20,6 +20,8 @@
 // 2026-10-21 사용자 결정: 방어력·방어 강도 모두 2배. 상세 수치는 docs/balance.md "방어구"
 const MOREUP_ARMOR_MULTIPLIER = 2.0
 const MOREUP_ARMOR_TOUGHNESS_MULTIPLIER = 2.0
+// 배율을 걸지 않는 아이템 ID 앞부분 (2026-10-30, More Up Core 성룡 방어구)
+const MOREUP_ARMOR_SKIP_PREFIX = 'moreup:star_'
 
 const $MoreUpArmorItem = Java.loadClass('net.minecraft.world.item.ArmorItem')
 const $MoreUpArmorModifier = Java.loadClass('net.minecraft.world.entity.ai.attributes.AttributeModifier')
@@ -62,6 +64,8 @@ ForgeEvents.onEvent('net.minecraftforge.event.ItemAttributeModifierEvent', event
         if ($MoreUpArmorSlot.MAINHAND.equals(slot) || $MoreUpArmorSlot.OFFHAND.equals(slot)) return
         let stack = event.getItemStack()
         if (stack.isEmpty() || !(stack.getItem() instanceof $MoreUpArmorItem)) return
+        // 1.6 성룡 방어구(More Up Core)는 모드가 최종값(docs/endgame_expansion.md)을 쓰므로 배율을 걸지 않는다
+        if (String(stack.getId()).indexOf(MOREUP_ARMOR_SKIP_PREFIX) === 0) return
 
         moreupScaleArmorAttribute(event, $MoreUpArmorAttributes.ARMOR, MOREUP_ARMOR_MULTIPLIER)
         moreupScaleArmorAttribute(event, $MoreUpArmorAttributes.ARMOR_TOUGHNESS, MOREUP_ARMOR_TOUGHNESS_MULTIPLIER)

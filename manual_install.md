@@ -1,4 +1,4 @@
-# More Up 1.5.5 — CurseForge zip 에 들어가지 않는 파일
+# More Up 1.6.0 — CurseForge zip 에 들어가지 않는 파일
 
 제작자가 모드팩 배포를 막았거나(배포 금지) 아직 허용 여부를 확인하지 못한(미확인) 파일이다. 이 빌드 스크립트가 만든 목록이라 직접 고치지 않는다.
 
@@ -20,3 +20,9 @@
 | resourcepacks | Low On Fire | `LowOnFire_1.20.1.zip` | 선택 | 배포 금지 | https://www.curseforge.com/minecraft/texture-packs/low-on-fire/files/4606406 |
 | resourcepacks | Pretty X Smart Pipez Mekanism Edition | `Pretty X Smart Pipez Mekanism.zip` | 선택 | 배포 금지 | https://www.curseforge.com/minecraft/texture-packs/pretty-x-smart-pipez-mekanism-edition/files/6139357 |
 | resourcepacks | Stay True Compats Reforged | `staytrue1.20.1.zip` | 선택 | 배포 금지 | https://www.curseforge.com/minecraft/texture-packs/stay-true-compats/files/5966643 |
+
+## 직접 만든 모드 (CurseForge 에 없음)
+
+CurseForge zip 으로 가져온 뒤 인스턴스 폴더의 `More Up 업데이트.bat` 을 한 번 실행하면 받아진다.
+
+- More Up Core — `moreup-core-1.0.3.jar` **필수**

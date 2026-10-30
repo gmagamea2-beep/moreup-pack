@@ -1,0 +1,95 @@
+{
+    "conditions":  [
+                       {
+                           "type":  "forge:item_exists",
+                           "item":  "moreup:star_sword"
+                       }
+                   ],
+    "parent":  "moreup:star_core",
+    "display":  {
+                    "icon":  {
+                                 "item":  "moreup:star_sword"
+                             },
+                    "title":  {
+                                  "translate":  "advancements.moreup.star_weapon.title"
+                              },
+                    "description":  {
+                                        "translate":  "advancements.moreup.star_weapon.description"
+                                    },
+                    "frame":  "goal",
+                    "show_toast":  true,
+                    "announce_to_chat":  true,
+                    "hidden":  false
+                },
+    "criteria":  {
+                     "has_star_sword":  {
+                                            "trigger":  "minecraft:inventory_changed",
+                                            "conditions":  {
+                                                               "items":  [
+                                                                             {
+                                                                                 "items":  [
+                                                                                               "moreup:star_sword"
+                                                                                           ]
+                                                                             }
+                                                                         ]
+                                                           }
+                                        },
+                     "has_star_greatsword":  {
+                                                 "trigger":  "minecraft:inventory_changed",
+                                                 "conditions":  {
+                                                                    "items":  [
+                                                                                  {
+                                                                                      "items":  [
+                                                                                                    "moreup:star_greatsword"
+                                                                                                ]
+                                                                                  }
+                                                                              ]
+                                                                }
+                                             },
+                     "has_star_claw":  {
+                                           "trigger":  "minecraft:inventory_changed",
+                                           "conditions":  {
+                                                              "items":  [
+                                                                            {
+                                                                                "items":  [
+                                                                                              "moreup:star_claw"
+                                                                                          ]
+                                                                            }
+                                                                        ]
+                                                          }
+                                       },
+                     "has_star_spear":  {
+                                            "trigger":  "minecraft:inventory_changed",
+                                            "conditions":  {
+                                                               "items":  [
+                                                                             {
+                                                                                 "items":  [
+                                                                                               "moreup:star_spear"
+                                                                                           ]
+                                                                             }
+                                                                         ]
+                                                           }
+                                        },
+                     "has_star_bow":  {
+                                          "trigger":  "minecraft:inventory_changed",
+                                          "conditions":  {
+                                                             "items":  [
+                                                                           {
+                                                                               "items":  [
+                                                                                             "moreup:star_bow"
+                                                                                         ]
+                                                                           }
+                                                                       ]
+                                                         }
+                                      }
+                 },
+    "requirements":  [
+                         [
+                             "has_star_sword",
+                             "has_star_greatsword",
+                             "has_star_claw",
+                             "has_star_spear",
+                             "has_star_bow"
+                         ]
+                     ]
+}

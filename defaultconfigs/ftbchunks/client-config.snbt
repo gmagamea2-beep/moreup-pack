@@ -1,4 +1,6 @@
-# Default config file that will be copied to local\ftbchunks\client-config.snbt if it doesn't exist!
-# Just copy any values you wish to override in here!
-
-{ }
+{
+	minimap: {
+		# More Up: 1.6 전용 지도(More Up Core)의 미니맵과 겹쳐서 FTB Chunks 미니맵은 기본으로 끈다. 땅 차지 지도(M)는 그대로
+		enabled: false
+	}
+}

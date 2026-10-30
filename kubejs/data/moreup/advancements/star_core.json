@@ -1,0 +1,38 @@
+{
+    "conditions":  [
+                       {
+                           "type":  "forge:item_exists",
+                           "item":  "moreup:star_core"
+                       }
+                   ],
+    "parent":  "moreup:star_scale",
+    "display":  {
+                    "icon":  {
+                                 "item":  "moreup:star_core"
+                             },
+                    "title":  {
+                                  "translate":  "advancements.moreup.star_core.title"
+                              },
+                    "description":  {
+                                        "translate":  "advancements.moreup.star_core.description"
+                                    },
+                    "frame":  "goal",
+                    "show_toast":  true,
+                    "announce_to_chat":  true,
+                    "hidden":  false
+                },
+    "criteria":  {
+                     "has_star_core":  {
+                                           "trigger":  "minecraft:inventory_changed",
+                                           "conditions":  {
+                                                              "items":  [
+                                                                            {
+                                                                                "items":  [
+                                                                                              "moreup:star_core"
+                                                                                          ]
+                                                                            }
+                                                                        ]
+                                                          }
+                                       }
+                 }
+}

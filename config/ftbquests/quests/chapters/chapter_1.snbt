@@ -447,15 +447,15 @@
 					type: "item"
 				}
 				{
+					id: "ED7F33130D4DFDCF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
 					count: 2
 					id: "287BE2061F019CC3"
 					item: "moreup:boss_essence_low"
 					type: "item"
-				}
-				{
-					id: "ED7F33130D4DFDCF"
-					type: "xp_levels"
-					xp_levels: 5
 				}
 			]
 			shape: "hexagon"

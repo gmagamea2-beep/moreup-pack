@@ -1,0 +1,74 @@
+{
+    "conditions":  [
+                       {
+                           "type":  "forge:item_exists",
+                           "item":  "moreup:star_chestplate"
+                       }
+                   ],
+    "parent":  "moreup:star_core",
+    "display":  {
+                    "icon":  {
+                                 "item":  "moreup:star_chestplate"
+                             },
+                    "title":  {
+                                  "translate":  "advancements.moreup.star_armor.title"
+                              },
+                    "description":  {
+                                        "translate":  "advancements.moreup.star_armor.description"
+                                    },
+                    "frame":  "challenge",
+                    "show_toast":  true,
+                    "announce_to_chat":  true,
+                    "hidden":  false
+                },
+    "criteria":  {
+                     "has_star_helm":  {
+                                           "trigger":  "minecraft:inventory_changed",
+                                           "conditions":  {
+                                                              "items":  [
+                                                                            {
+                                                                                "items":  [
+                                                                                              "moreup:star_helm"
+                                                                                          ]
+                                                                            }
+                                                                        ]
+                                                          }
+                                       },
+                     "has_star_chestplate":  {
+                                                 "trigger":  "minecraft:inventory_changed",
+                                                 "conditions":  {
+                                                                    "items":  [
+                                                                                  {
+                                                                                      "items":  [
+                                                                                                    "moreup:star_chestplate"
+                                                                                                ]
+                                                                                  }
+                                                                              ]
+                                                                }
+                                             },
+                     "has_star_leggings":  {
+                                               "trigger":  "minecraft:inventory_changed",
+                                               "conditions":  {
+                                                                  "items":  [
+                                                                                {
+                                                                                    "items":  [
+                                                                                                  "moreup:star_leggings"
+                                                                                              ]
+                                                                                }
+                                                                            ]
+                                                              }
+                                           },
+                     "has_star_boots":  {
+                                            "trigger":  "minecraft:inventory_changed",
+                                            "conditions":  {
+                                                               "items":  [
+                                                                             {
+                                                                                 "items":  [
+                                                                                               "moreup:star_boots"
+                                                                                           ]
+                                                                             }
+                                                                         ]
+                                                           }
+                                        }
+                 }
+}

@@ -124,5 +124,19 @@
   "item.moreup.dormant_essence": "잠든 정수",
   "tooltip.moreup.dormant_essence": "Create 기계 손이 하급 보스 트로피(나가·리치·미노슈룸)를 들고 누르면 하급 정수가 된다. 트로피는 닳지 않는다.",
   "item.moreup.incomplete_mid_essence": "조립 중인 중급 정수",
-  "item.moreup.incomplete_high_essence": "조립 중인 상급 정수"
+  "item.moreup.incomplete_high_essence": "조립 중인 상급 정수",
+  "advancements.moreup.relic_first.title": "잊힌 권능의 그릇",
+  "advancements.moreup.relic_first.description": "세계의 유물을 하나 만든다",
+  "advancements.moreup.relic_all.title": "아홉 유물의 주인",
+  "advancements.moreup.relic_all.description": "세계의 유물 아홉 개를 모두 만든다",
+  "advancements.moreup.star_scale.title": "되찾은 비늘",
+  "advancements.moreup.star_scale.description": "모어나 엔더 드래곤에게서 성룡의 비늘을 되찾는다",
+  "advancements.moreup.star_core.title": "다시 뛰는 심장",
+  "advancements.moreup.star_core.description": "성룡의 핵을 만든다",
+  "advancements.moreup.star_weapon.title": "별빛이 내려앉은 칼날",
+  "advancements.moreup.star_weapon.description": "황혼 무기를 성룡 무기로 강화한다",
+  "advancements.moreup.star_armor.title": "다시 몸을 감싼 비늘",
+  "advancements.moreup.star_armor.description": "성룡의 투구·흉갑·각반·장화를 모두 만든다",
+  "advancements.moreup.star_wings.title": "하늘을 건너는 별",
+  "advancements.moreup.star_wings.description": "성룡의 날개를 만든다"
 }

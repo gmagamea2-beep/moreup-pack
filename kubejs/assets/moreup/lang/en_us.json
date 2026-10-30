@@ -124,5 +124,19 @@
   "item.moreup.dormant_essence": "Dormant Essence",
   "tooltip.moreup.dormant_essence": "A Create Deployer holding a low-tier boss trophy (Naga, Lich, Minoshroom) awakens it into Low Boss Essence. The trophy is not consumed.",
   "item.moreup.incomplete_mid_essence": "Incomplete Mid Essence",
-  "item.moreup.incomplete_high_essence": "Incomplete High Essence"
+  "item.moreup.incomplete_high_essence": "Incomplete High Essence",
+  "advancements.moreup.relic_first.title": "Vessel of Forgotten Power",
+  "advancements.moreup.relic_first.description": "Craft a World Relic",
+  "advancements.moreup.relic_all.title": "Master of the Nine Relics",
+  "advancements.moreup.relic_all.description": "Craft all nine World Relics",
+  "advancements.moreup.star_scale.title": "Reclaimed Scales",
+  "advancements.moreup.star_scale.description": "Reclaim Star Dragon Scales from Mor or the Ender Dragon",
+  "advancements.moreup.star_core.title": "A Heart Beats Again",
+  "advancements.moreup.star_core.description": "Craft a Star Dragon Core",
+  "advancements.moreup.star_weapon.title": "Starlit Edge",
+  "advancements.moreup.star_weapon.description": "Upgrade a Dusk weapon to a Star Dragon weapon",
+  "advancements.moreup.star_armor.title": "Scales Reborn",
+  "advancements.moreup.star_armor.description": "Craft the Star Dragon helm, chestplate, leggings and boots",
+  "advancements.moreup.star_wings.title": "Star Across the Sky",
+  "advancements.moreup.star_wings.description": "Craft the Star Dragon Wings"
 }
