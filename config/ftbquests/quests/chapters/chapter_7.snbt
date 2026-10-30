@@ -17,27 +17,23 @@
 				"&f파편을 &b하나 더&f 만들어 그 분야의 최종 재료와 엮으면 &b세계의 유물&f이 됩니다."
 				"&7유물은 장신구 칸에 끼우며, 아홉 개를 모두 동시에 낄 수 있습니다."
 			]
+			icon: "moreup:star_core"
 			id: "789B7AD559652708"
-			rewards: [
-				{
-					id: "1511DCC1C7130E4B"
-					type: "xp_levels"
-					xp_levels: 20
-				}
-			]
-			tasks: [
-				{
-					id: "45BAE996A26603FA"
-					title: "이야기를 읽었다"
-					type: "checkmark"
-				}
-			]
+			rewards: [{
+				id: "1511DCC1C7130E4B"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "45BAE996A26603FA"
+				title: "이야기를 읽었다"
+				type: "checkmark"
+			}]
 			title: "&b&l[ ❂ 별이 남긴 흔적 ]"
 			x: 0.0d
 			y: 0.0d
-			icon: "moreup:star_core"
-			shape: "gear"
-			size: 1.5d
 		}
 		{
 			dependencies: ["789B7AD559652708"]
@@ -48,6 +44,7 @@
 				"&a능력&f: 8블록 안의 아이템·경험치를 끌어당긴다 (웅크리면 멈춤), 채굴 속도 +20%"
 				"&7장신구 칸: curio"
 			]
+			icon: "moreup:relic_tech"
 			id: "7D421227FE83A1FC"
 			rewards: [
 				{
@@ -62,17 +59,14 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "02C077CE14317EBE"
-					item: "moreup:relic_tech"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "02C077CE14317EBE"
+				item: "moreup:relic_tech"
+				type: "item"
+			}]
 			title: "&b&l[ ✦ 특이점 핵 ]"
 			x: 1.75d
 			y: -6.75d
-			icon: "moreup:relic_tech"
 		}
 		{
 			dependencies: ["789B7AD559652708"]
@@ -83,6 +77,7 @@
 				"&a능력&f: 주문 피해 +20%, 받는 마법 피해 -15%"
 				"&7장신구 칸: 팔찌"
 			]
+			icon: "moreup:relic_magic"
 			id: "16A0C18332725DCC"
 			rewards: [
 				{
@@ -97,17 +92,14 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "01894A10778E7FA8"
-					item: "moreup:relic_magic"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "01894A10778E7FA8"
+				item: "moreup:relic_magic"
+				type: "item"
+			}]
 			title: "&5&l[ ✦ 대마법사의 서 ]"
 			x: 1.75d
 			y: -5.25d
-			icon: "moreup:relic_magic"
 		}
 		{
 			dependencies: ["789B7AD559652708"]
@@ -118,6 +110,7 @@
 				"&a능력&f: 근접 공격력 +12%, 적을 처치하면 4초 동안 힘 I"
 				"&7장신구 칸: 반지"
 			]
+			icon: "moreup:relic_war"
 			id: "74772AFD54824FB3"
 			rewards: [
 				{
@@ -132,17 +125,14 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "14A9EEC36185BBE3"
-					item: "moreup:relic_war"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "14A9EEC36185BBE3"
+				item: "moreup:relic_war"
+				type: "item"
+			}]
 			title: "&c&l[ ✦ 전쟁군주의 인장 ]"
 			x: 1.75d
 			y: -3.75d
-			icon: "moreup:relic_war"
 		}
 		{
 			dependencies: ["789B7AD559652708"]
@@ -153,6 +143,7 @@
 				"&a능력&f: 불·얼음·번개 피해 -40%, 몸에 불이 붙지 않는다"
 				"&7장신구 칸: 목걸이"
 			]
+			icon: "moreup:relic_dragon"
 			id: "7BE6C56BCF0D21B6"
 			rewards: [
 				{
@@ -167,17 +158,14 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "6EB8E9D101BB4CDE"
-					item: "moreup:relic_dragon"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6EB8E9D101BB4CDE"
+				item: "moreup:relic_dragon"
+				type: "item"
+			}]
 			title: "&6&l[ ✦ 용심장 부적 ]"
 			x: 1.75d
 			y: -2.25d
-			icon: "moreup:relic_dragon"
 		}
 		{
 			dependencies: ["789B7AD559652708"]
@@ -188,6 +176,7 @@
 				"&a능력&f: 공중에서 한 번 더 점프한다 (2단 점프), 낙하 피해를 받지 않는다"
 				"&7장신구 칸: 부적"
 			]
+			icon: "moreup:relic_sky"
 			id: "7A124DD065FC3AD2"
 			rewards: [
 				{
@@ -202,17 +191,14 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "7C029215A23EBBF7"
-					item: "moreup:relic_sky"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7C029215A23EBBF7"
+				item: "moreup:relic_sky"
+				type: "item"
+			}]
 			title: "&e&l[ ✦ 창공의 깃털 ]"
 			x: 1.75d
 			y: -0.75d
-			icon: "moreup:relic_sky"
 		}
 		{
 			dependencies: ["789B7AD559652708"]
@@ -223,6 +209,7 @@
 				"&a능력&f: 어둠·실명에 걸리지 않는다, 5초마다 24블록 안의 적이 빛난다"
 				"&7장신구 칸: curio"
 			]
+			icon: "moreup:relic_twilight"
 			id: "3F32BB20A74FEE5B"
 			rewards: [
 				{
@@ -237,17 +224,14 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "7E055AD4AF498FA7"
-					item: "moreup:relic_twilight"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7E055AD4AF498FA7"
+				item: "moreup:relic_twilight"
+				type: "item"
+			}]
 			title: "&2&l[ ✦ 황혼의 등불 ]"
 			x: 1.75d
 			y: 0.75d
-			icon: "moreup:relic_twilight"
 		}
 		{
 			dependencies: ["789B7AD559652708"]
@@ -258,6 +242,7 @@
 				"&a능력&f: 물속에서 숨을 쉰다, 물속 채굴이 느려지지 않는다, 물속 이동 +30%"
 				"&7장신구 칸: 반지"
 			]
+			icon: "moreup:relic_depths"
 			id: "71CB1AC7C5F9DE6B"
 			rewards: [
 				{
@@ -272,17 +257,14 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "796ABC8879697AE2"
-					item: "moreup:relic_depths"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "796ABC8879697AE2"
+				item: "moreup:relic_depths"
+				type: "item"
+			}]
 			title: "&8&l[ ✦ 심연의 눈 ]"
 			x: 1.75d
 			y: 2.25d
-			icon: "moreup:relic_depths"
 		}
 		{
 			dependencies: ["789B7AD559652708"]
@@ -293,6 +275,7 @@
 				"&a능력&f: 배고픔·목마름 소모 -40%, 5분마다 배고픔 4 회복"
 				"&7장신구 칸: 부적"
 			]
+			icon: "moreup:relic_harvest"
 			id: "13E35D14283A3A8E"
 			rewards: [
 				{
@@ -307,17 +290,14 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "7B6B342D59DBA5D5"
-					item: "moreup:relic_harvest"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7B6B342D59DBA5D5"
+				item: "moreup:relic_harvest"
+				type: "item"
+			}]
 			title: "&a&l[ ✦ 풍요의 뿔 ]"
 			x: 1.75d
 			y: 3.75d
-			icon: "moreup:relic_harvest"
 		}
 		{
 			dependencies: ["789B7AD559652708"]
@@ -328,6 +308,7 @@
 				"&a능력&f: 죽을 피해를 받으면 한 번 버틴다 (체력 4, 2초 무적), 15분마다 다시 쓸 수 있다"
 				"&7장신구 칸: 팔찌"
 			]
+			icon: "moreup:relic_end"
 			id: "67B003E2BCA0B3B2"
 			rewards: [
 				{
@@ -342,17 +323,14 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "52E72885E18EF8C0"
-					item: "moreup:relic_end"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "52E72885E18EF8C0"
+				item: "moreup:relic_end"
+				type: "item"
+			}]
 			title: "&d&l[ ✦ 종말의 모래시계 ]"
 			x: 1.75d
 			y: 5.25d
-			icon: "moreup:relic_end"
 		}
 		{
 			dependencies: [
@@ -366,7 +344,12 @@
 				"13E35D14283A3A8E"
 				"67B003E2BCA0B3B2"
 			]
-			description: ["&7\"아홉 개의 유물이 서로를 알아보고 낮게 울렸다. 세계가 당신을 다시 기억하기 시작했다.\"&r", "", "&f세계의 유물 아홉 개를 모두 만들었습니다."]
+			description: [
+				"&7\"아홉 개의 유물이 서로를 알아보고 낮게 울렸다. 세계가 당신을 다시 기억하기 시작했다.\"&r"
+				""
+				"&f세계의 유물 아홉 개를 모두 만들었습니다."
+			]
+			icon: "moreup:star_core"
 			id: "750C4C9F8F339E98"
 			rewards: [
 				{
@@ -387,19 +370,16 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "7E64F110925E1D02"
-					title: "아홉 유물을 모두 모았다"
-					type: "checkmark"
-				}
-			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "7E64F110925E1D02"
+				title: "아홉 유물을 모두 모았다"
+				type: "checkmark"
+			}]
 			title: "&6&l[ ❂ 아홉 유물의 주인 ]"
 			x: 3.5d
 			y: -0.75d
-			icon: "moreup:star_core"
-			shape: "gear"
-			size: 1.5d
 		}
 		{
 			dependencies: ["789B7AD559652708"]
@@ -410,35 +390,35 @@
 				"&f- 영원한 황혼의 군주 모어: 함께 싸운 사람마다 12개"
 				"&f- 엔더 드래곤 (다시 소환해 처치): 함께 싸운 사람마다 4개"
 			]
+			icon: "moreup:star_scale"
 			id: "733D68760372EA0F"
-			rewards: [
-				{
-					id: "35DE3442CFC456B6"
-					type: "xp_levels"
-					xp_levels: 30
-				}
-			]
-			tasks: [
-				{
-					count: 7L
-					id: "7AC2DAFDDE318918"
-					item: "moreup:star_scale"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "35DE3442CFC456B6"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+			tasks: [{
+				count: 7L
+				id: "7AC2DAFDDE318918"
+				item: "moreup:star_scale"
+				type: "item"
+			}]
 			title: "&b&l[ ✦ 되찾은 비늘 ]"
 			x: 1.75d
 			y: 6.75d
-			icon: "moreup:star_scale"
 		}
 		{
-			dependencies: ["733D68760372EA0F", "7084E727B8C21E26"]
+			dependencies: [
+				"733D68760372EA0F"
+				"7084E727B8C21E26"
+			]
 			description: [
 				"&7\"비늘을 황혼의 파편 둘레에 엮자, 오래전 멈췄던 심장이 다시 뛰었다.\"&r"
 				""
 				"&f성룡의 비늘 7 + 황혼의 파편 1 + 전설 보스 정수 1 로 &b성룡의 핵&f을 만드십시오."
 				"&7성룡의 핵은 황혼 장비를 성룡 장비로 강화하는 형판이자 재료입니다 (한 번에 2개 필요)."
 			]
+			icon: "moreup:star_core"
 			id: "56FDB8D9374FDB4D"
 			rewards: [
 				{
@@ -453,132 +433,186 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "24C5B54B984A4B27"
-					item: "moreup:star_core"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "24C5B54B984A4B27"
+				item: "moreup:star_core"
+				type: "item"
+			}]
 			title: "&b&l[ ✦ 성룡의 핵 ]"
 			x: 3.5d
 			y: 0.75d
-			icon: "moreup:star_core"
 		}
 		{
 			dependencies: ["56FDB8D9374FDB4D"]
-			description: ["&7\"황혼의 칼날 위로 별빛이 내려앉았다.\"&r", "", "&f대장장이 작업대: &b형판 성룡의 핵&f + &5황혼의 검&f + &b성룡의 핵", "&7마법 부여와 이름은 그대로 남습니다."]
+			description: [
+				"&7\"황혼의 칼날 위로 별빛이 내려앉았다.\"&r"
+				""
+				"&f대장장이 작업대: &b형판 성룡의 핵&f + &5황혼의 검&f + &b성룡의 핵"
+				"&7마법 부여와 이름은 그대로 남습니다."
+			]
+			icon: {
+				Count: 1
+				id: "moreup:star_sword"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "2E00A47E5A3D4E80"
-			rewards: [
-				{
-					id: "7571C921DBD5B2B4"
-					type: "xp_levels"
-					xp_levels: 40
+			rewards: [{
+				id: "7571C921DBD5B2B4"
+				type: "xp_levels"
+				xp_levels: 40
+			}]
+			tasks: [{
+				id: "43D47DEEE6396797"
+				item: {
+					Count: 1
+					id: "moreup:star_sword"
+					tag: {
+						Damage: 0
+					}
 				}
-			]
-			tasks: [
-				{
-					id: "43D47DEEE6396797"
-					item: "moreup:star_sword"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			title: "&b&l[ ✦ 성룡의 검 ]"
 			x: 5.25d
 			y: -4.5d
-			icon: "moreup:star_sword"
 		}
 		{
 			dependencies: ["56FDB8D9374FDB4D"]
-			description: ["&f대장장이 작업대: 성룡의 핵 + &5황혼의 대검&f + 성룡의 핵", "&7느리지만 가장 무겁고 멀리 닿는 일격."]
+			description: [
+				"&f대장장이 작업대: 성룡의 핵 + &5황혼의 대검&f + 성룡의 핵"
+				"&7느리지만 가장 무겁고 멀리 닿는 일격."
+			]
+			icon: {
+				Count: 1
+				id: "moreup:star_greatsword"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "7947898870A9EF4F"
-			rewards: [
-				{
-					id: "7D3B874DBAF156EF"
-					type: "xp_levels"
-					xp_levels: 40
+			rewards: [{
+				id: "7D3B874DBAF156EF"
+				type: "xp_levels"
+				xp_levels: 40
+			}]
+			tasks: [{
+				id: "1A2B02BF8B8D2135"
+				item: {
+					Count: 1
+					id: "moreup:star_greatsword"
+					tag: {
+						Damage: 0
+					}
 				}
-			]
-			tasks: [
-				{
-					id: "1A2B02BF8B8D2135"
-					item: "moreup:star_greatsword"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			title: "&b&l[ ✦ 성룡의 대검 ]"
 			x: 5.25d
 			y: -3.0d
-			icon: "moreup:star_greatsword"
 		}
 		{
 			dependencies: ["56FDB8D9374FDB4D"]
-			description: ["&f대장장이 작업대: 성룡의 핵 + &5황혼의 클로&f + 성룡의 핵", "&7빠른 연속 공격."]
+			description: [
+				"&f대장장이 작업대: 성룡의 핵 + &5황혼의 클로&f + 성룡의 핵"
+				"&7빠른 연속 공격."
+			]
+			icon: {
+				Count: 1
+				id: "moreup:star_claw"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "7C1C54DCBF2CFC38"
-			rewards: [
-				{
-					id: "4F9FC06839CD565A"
-					type: "xp_levels"
-					xp_levels: 40
+			rewards: [{
+				id: "4F9FC06839CD565A"
+				type: "xp_levels"
+				xp_levels: 40
+			}]
+			tasks: [{
+				id: "78340C3FA1568CE6"
+				item: {
+					Count: 1
+					id: "moreup:star_claw"
+					tag: {
+						Damage: 0
+					}
 				}
-			]
-			tasks: [
-				{
-					id: "78340C3FA1568CE6"
-					item: "moreup:star_claw"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			title: "&b&l[ ✦ 성룡의 발톱 ]"
 			x: 5.25d
 			y: -1.5d
-			icon: "moreup:star_claw"
 		}
 		{
 			dependencies: ["56FDB8D9374FDB4D"]
-			description: ["&f대장장이 작업대: 성룡의 핵 + &5황혼의 창&f + 성룡의 핵", "&7가장 긴 사거리."]
+			description: [
+				"&f대장장이 작업대: 성룡의 핵 + &5황혼의 창&f + 성룡의 핵"
+				"&7가장 긴 사거리."
+			]
+			icon: {
+				Count: 1
+				id: "moreup:star_spear"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "3F3220AC2836460E"
-			rewards: [
-				{
-					id: "77C399CF2A46742C"
-					type: "xp_levels"
-					xp_levels: 40
+			rewards: [{
+				id: "77C399CF2A46742C"
+				type: "xp_levels"
+				xp_levels: 40
+			}]
+			tasks: [{
+				id: "7962D22AC1863A89"
+				item: {
+					Count: 1
+					id: "moreup:star_spear"
+					tag: {
+						Damage: 0
+					}
 				}
-			]
-			tasks: [
-				{
-					id: "7962D22AC1863A89"
-					item: "moreup:star_spear"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			title: "&b&l[ ✦ 성룡의 창 ]"
 			x: 5.25d
 			y: 0.0d
-			icon: "moreup:star_spear"
 		}
 		{
 			dependencies: ["56FDB8D9374FDB4D"]
-			description: ["&f대장장이 작업대: 성룡의 핵 + &5황혼의 활&f + 성룡의 핵", "&7화살 피해 x3.5."]
+			description: [
+				"&f대장장이 작업대: 성룡의 핵 + &5황혼의 활&f + 성룡의 핵"
+				"&7화살 피해 x3.5."
+			]
+			icon: {
+				Count: 1
+				id: "moreup:star_bow"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "7D9C0BBE04D3E6E4"
-			rewards: [
-				{
-					id: "385354D2DCA90C3E"
-					type: "xp_levels"
-					xp_levels: 40
+			rewards: [{
+				id: "385354D2DCA90C3E"
+				type: "xp_levels"
+				xp_levels: 40
+			}]
+			tasks: [{
+				id: "7C818580FABB283E"
+				item: {
+					Count: 1
+					id: "moreup:star_bow"
+					tag: {
+						Damage: 0
+					}
 				}
-			]
-			tasks: [
-				{
-					id: "7C818580FABB283E"
-					item: "moreup:star_bow"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			title: "&b&l[ ✦ 성룡의 활 ]"
 			x: 5.25d
 			y: 1.5d
-			icon: "moreup:star_bow"
 		}
 		{
 			dependencies: ["56FDB8D9374FDB4D"]
@@ -588,6 +622,13 @@
 				"&f황혼의 왕관·갑주·각반·신발을 각각 성룡의 핵 2개로 강화하십시오."
 				"&a4부위 세트 효과&f: 받는 피해 -10%, 5초마다 체력 1 회복, 넉백을 받지 않는다"
 			]
+			icon: {
+				Count: 1
+				id: "moreup:star_helm"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "712999FC5AE63CF0"
 			rewards: [
 				{
@@ -605,55 +646,84 @@
 			tasks: [
 				{
 					id: "034032CDF3EA7FAE"
-					item: "moreup:star_helm"
+					item: {
+						Count: 1
+						id: "moreup:star_helm"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 				{
 					id: "6DFC19D12F3DFA57"
-					item: "moreup:star_chestplate"
+					item: {
+						Count: 1
+						id: "moreup:star_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 				{
 					id: "7964EF224973070F"
-					item: "moreup:star_leggings"
+					item: {
+						Count: 1
+						id: "moreup:star_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 				{
 					id: "4970795A3EF52426"
-					item: "moreup:star_boots"
+					item: {
+						Count: 1
+						id: "moreup:star_boots"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
 			title: "&b&l[ ✦ 성룡의 갑주 ]"
 			x: 5.25d
 			y: 3.0d
-			icon: "moreup:star_helm"
 		}
 		{
 			dependencies: ["56FDB8D9374FDB4D"]
-			description: ["&7\"날개를 펼치자 바람이 먼저 길을 비켜 주었다.\"&r", "", "&f겉날개 + 황혼의 망토 + 성룡의 핵 4", "&a능력&f: 등 칸에 끼우면 겉날개처럼 활공한다 (내구도 없음), 최대 체력 +6"]
+			description: [
+				"&7\"날개를 펼치자 바람이 먼저 길을 비켜 주었다.\"&r"
+				""
+				"&f겉날개 + 황혼의 망토 + 성룡의 핵 4"
+				"&a능력&f: 등 칸에 끼우면 겉날개처럼 활공한다 (내구도 없음), 최대 체력 +6"
+			]
+			icon: "moreup:star_wings"
 			id: "742A7057DEEC885B"
-			rewards: [
-				{
-					id: "64B0A54DD47B21BE"
-					type: "xp_levels"
-					xp_levels: 60
-				}
-			]
-			tasks: [
-				{
-					id: "527A2CC33D5934BE"
-					item: "moreup:star_wings"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "64B0A54DD47B21BE"
+				type: "xp_levels"
+				xp_levels: 60
+			}]
+			tasks: [{
+				id: "527A2CC33D5934BE"
+				item: "moreup:star_wings"
+				type: "item"
+			}]
 			title: "&b&l[ ✦ 성룡의 날개 ]"
 			x: 5.25d
 			y: 4.5d
-			icon: "moreup:star_wings"
 		}
 		{
-			dependencies: ["750C4C9F8F339E98", "2E00A47E5A3D4E80", "712999FC5AE63CF0", "742A7057DEEC885B"]
+			dependencies: [
+				"750C4C9F8F339E98"
+				"2E00A47E5A3D4E80"
+				"712999FC5AE63CF0"
+				"742A7057DEEC885B"
+			]
 			description: [
 				"&7\"아홉 유물이 노래하고, 비늘이 빛나고, 날개가 하늘을 덮었다.\"&r"
 				"&7\"훔쳐 간 이들은 모두 사라졌다. 이제 당신은 처음 그대로의 모습, 하늘을 건너는 별의 용이다.\"&r"
@@ -661,6 +731,7 @@
 				"&f세계의 유물 아홉 개와 성룡의 검·갑주·날개를 모두 갖췄습니다."
 				"&6More Up 의 모든 이야기를 마쳤습니다. 함께해 주셔서 고맙습니다."
 			]
+			icon: "moreup:star_core"
 			id: "098872DE93607CE9"
 			rewards: [
 				{
@@ -687,19 +758,16 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "77232E905E83E4DB"
-					title: "모든 것을 되찾았다"
-					type: "checkmark"
-				}
-			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "77232E905E83E4DB"
+				title: "모든 것을 되찾았다"
+				type: "checkmark"
+			}]
 			title: "&b&l[ ★ 별로 돌아온 용 ]"
 			x: 7.0d
 			y: 0.0d
-			icon: "moreup:star_core"
-			shape: "gear"
-			size: 1.5d
 		}
 	]
 	title: "&b&l제7장 ✧ 되찾은 별의 비늘"

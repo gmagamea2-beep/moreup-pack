@@ -22,6 +22,8 @@
 				"16개의 눈중 12개의 눈을 제단에 꼽아 성전의 문을 개방하시오"
 				""
 				"&c[퀘스트를 클릭하여 성전의 문을 여십시오.]"
+				""
+				"&b▶ 보상의 「이야기 보기」를 누르면 이 장의 컷씬을 볼 수 있습니다 (사람마다 한 번). 다시 보기: 채팅에 &f/story"
 			]
 			icon: "minecraft:totem_of_undying"
 			id: "64F09CC98327A4E7"
@@ -29,12 +31,23 @@
 				{
 					auto: "enabled"
 					command: "/function scene:act3_start"
+					elevate_perms: true
 					icon: "minecraft:dragon_head"
 					id: "43B1EC8BCF3F206B"
 					team_reward: true
 					title: "&l\"흑화한 빛의 육신\""
 					type: "command"
+				}
+				{
+					auto: "disabled"
+					command: "/function scene:act3_start"
 					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: "minecraft:ender_eye"
+					id: "72F8D35CFCD5B888"
+					team_reward: false
+					title: "&b▶ 이야기 보기"
+					type: "command"
 				}
 			]
 			shape: "gear"

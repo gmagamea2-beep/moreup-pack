@@ -1,0 +1,62 @@
+
+[minimap]
+	#미니맵 표시
+	enabled = true
+	#미니맵 한 변 크기 (GUI 픽셀)
+	#Range: 64 ~ 256
+	size = 120
+	#미니맵 위치
+	#Allowed Values: TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
+	corner = "TOP_RIGHT"
+	#미니맵 확대 배율 (블록 1칸당 GUI 픽셀)
+	#Range: 0.25 ~ 8.0
+	scale = 0.5
+	#플레이어 방향에 맞춰 미니맵 회전
+	rotate = false
+	#미니맵 아래에 좌표 표시
+	showCoords = true
+
+[waypoints]
+	#월드에 웨이포인트 이름·거리 표시
+	showInWorld = true
+	#가까운 웨이포인트에 빛기둥 표시
+	beams = true
+	#월드 표시 최대 거리 (블록, 0 = 제한 없음)
+	#Range: 0 ~ 1000000
+	maxDistance = 0
+	#죽은 곳에 웨이포인트 자동 생성
+	deathWaypoints = true
+	#보관할 사망 웨이포인트 수 (오래된 것부터 지움)
+	#Range: 1 ~ 50
+	maxDeathWaypoints = 5
+
+[layers]
+	#팀원 위치·팀 공유 웨이포인트 표시
+	team = true
+	#발견한 웨이스톤 표시 (Waystones)
+	waystones = true
+	#가까운 보스·정예 몬스터 표시
+	bosses = true
+	#집(/sethome) 표시
+	homes = true
+	#팀 핑을 월드에도 표시
+	pingsInWorld = true
+	#지나간 길 기록·표시
+	trail = true
+	#차원마다 기억할 지나간 길 점 개수 (점 사이 약 4블록)
+	#Range: 100 ~ 20000
+	trailMaxPoints = 3000
+	#탐험가의 나침반(Explorer's Compass)이 찾은 구조물을 웨이포인트로 자동 저장
+	compassWaypoints = true
+
+[performance]
+	#틱마다 지도에 반영할 최대 청크 수 (메인 스레드 부담)
+	#Range: 1 ~ 64
+	chunksPerTick = 10
+	#블록 변화를 반영하려고 3초마다 다시 그리는 플레이어 주변 청크 반경
+	#Range: 0 ~ 8
+	refreshRadius = 2
+	#메모리에 올려 둘 지도 타일(256x256 블록) 최대 개수. 타일 1개 ≈ 256KB + 같은 크기의 GPU 메모리
+	#Range: 32 ~ 1024
+	maxLoadedTiles = 160
+

@@ -10,6 +10,13 @@
 	quests: [
 		{
 			description: ["칼로 풀을 베면 짚이, 고기를 손질하면 더 많은 재료가 나온다. (Farmer's Delight)"]
+			icon: {
+				Count: 1
+				id: "farmersdelight:flint_knife"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "7CBA59EAA7BD1DF1"
 			rewards: [
 				{
@@ -24,21 +31,25 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "4A97F402A838E3D7"
-					item: "farmersdelight:flint_knife"
-					type: "item"
+			tasks: [{
+				id: "4A97F402A838E3D7"
+				item: {
+					Count: 1
+					id: "farmersdelight:flint_knife"
+					tag: {
+						Damage: 0
+					}
 				}
-			]
+				type: "item"
+			}]
 			title: "&7&l[ ✦ 부엌칼 ]"
 			x: 0.0d
 			y: 0.0d
-			icon: "farmersdelight:flint_knife"
 		}
 		{
 			dependencies: ["7CBA59EAA7BD1DF1"]
 			description: ["도마 위에서 칼로 재료를 손질한다."]
+			icon: "farmersdelight:cutting_board"
 			id: "74BE063AA2219A1F"
 			rewards: [
 				{
@@ -53,21 +64,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "77EDB43E223A0764"
-					item: "farmersdelight:cutting_board"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "77EDB43E223A0764"
+				item: "farmersdelight:cutting_board"
+				type: "item"
+			}]
 			title: "&6&l[ ✦ 도마 ]"
 			x: 1.75d
 			y: -1.5d
-			icon: "farmersdelight:cutting_board"
 		}
 		{
 			dependencies: ["74BE063AA2219A1F"]
 			description: ["들풀 사이에서 야생 작물을 찾아 심자. 계절을 확인하는 것을 잊지 말자."]
+			icon: "farmersdelight:rice"
 			id: "7CCFDB9D2CD47CF7"
 			rewards: [
 				{
@@ -112,11 +121,11 @@
 			title: "&a&l[ ✦ 새로운 작물 ]"
 			x: 3.5d
 			y: -1.5d
-			icon: "farmersdelight:rice"
 		}
 		{
 			dependencies: ["74BE063AA2219A1F"]
 			description: ["냄비는 불 위에 올려야 끓는다. 대부분의 요리는 여기서 만든다."]
+			icon: "farmersdelight:cooking_pot"
 			id: "385E1F4C7C2E8402"
 			rewards: [
 				{
@@ -131,21 +140,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "705822D138ED53A4"
-					item: "farmersdelight:cooking_pot"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "705822D138ED53A4"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
 			title: "&6&l[ ✦ 요리 냄비 ]"
 			x: 3.5d
 			y: 0.0d
-			icon: "farmersdelight:cooking_pot"
 		}
 		{
 			dependencies: ["7CCFDB9D2CD47CF7"]
 			description: ["퇴비가 썩으면 비옥한 흙이 된다. 작물이 더 빨리 자란다."]
+			icon: "farmersdelight:rich_soil"
 			id: "7EF9E80E0014A41D"
 			rewards: [
 				{
@@ -160,22 +167,20 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					count: 8L
-					id: "372ADA4BC1BF3A8F"
-					item: "farmersdelight:rich_soil"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 8L
+				id: "372ADA4BC1BF3A8F"
+				item: "farmersdelight:rich_soil"
+				type: "item"
+			}]
 			title: "&2&l[ ✦ 비옥한 흙 ]"
 			x: 5.25d
 			y: -3.75d
-			icon: "farmersdelight:rich_soil"
 		}
 		{
 			dependencies: ["385E1F4C7C2E8402"]
 			description: ["스튜는 오래 배부르다."]
+			icon: "farmersdelight:beef_stew"
 			id: "735C1828B5286F34"
 			rewards: [
 				{
@@ -190,21 +195,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "1FB031923ECCD33D"
-					item: "farmersdelight:beef_stew"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1FB031923ECCD33D"
+				item: "farmersdelight:beef_stew"
+				type: "item"
+			}]
 			title: "&6&l[ ✦ 든든한 한 끼 ]"
 			x: 5.25d
 			y: -2.25d
-			icon: "farmersdelight:beef_stew"
 		}
 		{
 			dependencies: ["735C1828B5286F34"]
 			description: ["제대로 된 요리를 만들어 보자."]
+			icon: "farmersdelight:pasta_with_meatballs"
 			id: "7C64D0712BA3A7D1"
 			rewards: [
 				{
@@ -219,21 +222,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "70C2A58302D4CDCD"
-					item: "farmersdelight:pasta_with_meatballs"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "70C2A58302D4CDCD"
+				item: "farmersdelight:pasta_with_meatballs"
+				type: "item"
+			}]
 			title: "&c&l[ ✦ 미트볼 파스타 ]"
 			x: 7.0d
 			y: -1.5d
-			icon: "farmersdelight:pasta_with_meatballs"
 		}
 		{
 			dependencies: ["7C64D0712BA3A7D1"]
 			description: ["연회 요리는 여럿이 나눠 먹을 수 있다. 통닭구이와 꿀 바른 햄을 차리자."]
+			icon: "farmersdelight:roast_chicken_block"
 			id: "774806A7B95FD754"
 			rewards: [
 				{
@@ -263,11 +264,11 @@
 			title: "&6&l[ ✦ 잔치 준비 ]"
 			x: 8.75d
 			y: 0.0d
-			icon: "farmersdelight:roast_chicken_block"
 		}
 		{
 			dependencies: ["774806A7B95FD754"]
 			description: ["속을 채운 호박, 셰퍼드 파이, 주먹밥 모둠까지. 이 연회 요리들은 &e세계의 파편: 풍요&r의 재료가 된다."]
+			icon: "farmersdelight:stuffed_pumpkin_block"
 			id: "74AE7962AF4894FC"
 			rewards: [
 				{
@@ -302,11 +303,17 @@
 			title: "&6&l[ ✦ 풍요의 식탁 ]"
 			x: 10.5d
 			y: 0.0d
-			icon: "farmersdelight:stuffed_pumpkin_block"
 		}
 		{
 			dependencies: ["385E1F4C7C2E8402"]
 			description: ["들고 다니며 굽는 프라이팬. 무기로도 쓸 수 있다."]
+			icon: {
+				Count: 1
+				id: "farmersdelight:skillet"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "55B985D0435EC651"
 			rewards: [
 				{
@@ -321,21 +328,25 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "76E68D0B04C86A47"
-					item: "farmersdelight:skillet"
-					type: "item"
+			tasks: [{
+				id: "76E68D0B04C86A47"
+				item: {
+					Count: 1
+					id: "farmersdelight:skillet"
+					tag: {
+						Damage: 0
+					}
 				}
-			]
+				type: "item"
+			}]
 			title: "&7&l[ ✦ 프라이팬 ]"
 			x: 5.25d
 			y: -0.75d
-			icon: "farmersdelight:skillet"
 		}
 		{
 			dependencies: ["385E1F4C7C2E8402"]
 			description: ["위에 냄비·프라이팬을 올리면 불이 된다. 캠프파이어보다 빠르다."]
+			icon: "farmersdelight:stove"
 			id: "7F72227340362258"
 			rewards: [
 				{
@@ -350,21 +361,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "3DD5D36024BB9CD3"
-					item: "farmersdelight:stove"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3DD5D36024BB9CD3"
+				item: "farmersdelight:stove"
+				type: "item"
+			}]
 			title: "&7&l[ ✦ 난로 ]"
 			x: 5.25d
 			y: 0.75d
-			icon: "farmersdelight:stove"
 		}
 		{
 			dependencies: ["7EF9E80E0014A41D"]
 			description: ["썩은 고기·뼛가루로 만든 퇴비. 비옥한 흙이 된다."]
+			icon: "farmersdelight:organic_compost"
 			id: "3D662DE279CF4897"
 			rewards: [
 				{
@@ -379,22 +388,20 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					count: 4L
-					id: "71EF3C1498EA1E82"
-					item: "farmersdelight:organic_compost"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 4L
+				id: "71EF3C1498EA1E82"
+				item: "farmersdelight:organic_compost"
+				type: "item"
+			}]
 			title: "&2&l[ ✦ 유기농 퇴비 ]"
 			x: 7.0d
 			y: 0.0d
-			icon: "farmersdelight:organic_compost"
 		}
 		{
 			dependencies: ["7CBA59EAA7BD1DF1"]
 			description: ["밧줄은 사다리처럼 타고 내려가고, 안전망은 떨어질 때 받아 준다."]
+			icon: "farmersdelight:rope"
 			id: "73ADFCB463C0140A"
 			rewards: [
 				{
@@ -425,11 +432,11 @@
 			title: "&6&l[ ✦ 밧줄과 안전망 ]"
 			x: 1.75d
 			y: 0.0d
-			icon: "farmersdelight:rope"
 		}
 		{
 			dependencies: ["735C1828B5286F34"]
 			description: ["든든한 국물 요리는 포만감이 오래간다."]
+			icon: "farmersdelight:chicken_soup"
 			id: "7D7E0A445D6BD359"
 			rewards: [
 				{
@@ -459,11 +466,11 @@
 			title: "&6&l[ ✦ 수프와 스튜 ]"
 			x: 7.0d
 			y: 1.5d
-			icon: "farmersdelight:chicken_soup"
 		}
 		{
 			dependencies: ["385E1F4C7C2E8402"]
 			description: ["조각으로 나눠 먹는 파이."]
+			icon: "farmersdelight:apple_pie"
 			id: "29869B3543ABEBAE"
 			rewards: [
 				{
@@ -493,11 +500,11 @@
 			title: "&e&l[ ✦ 파이 ]"
 			x: 5.25d
 			y: 2.25d
-			icon: "farmersdelight:apple_pie"
 		}
 		{
 			dependencies: ["74BE063AA2219A1F"]
 			description: ["도마에서 썬 재료로 만드는 가벼운 요리."]
+			icon: "farmersdelight:cabbage_rolls"
 			id: "7BDA8DDC7E2D4F3D"
 			rewards: [
 				{
@@ -527,11 +534,11 @@
 			title: "&a&l[ ✦ 쌈과 초밥 ]"
 			x: 3.5d
 			y: 1.5d
-			icon: "farmersdelight:cabbage_rolls"
 		}
 		{
 			dependencies: ["385E1F4C7C2E8402"]
 			description: ["개 사료는 늑대를, 말 사료는 말을 빠르게 회복시키고 강하게 한다."]
+			icon: "farmersdelight:dog_food"
 			id: "7F14BBEDCB88FD38"
 			rewards: [
 				{
@@ -561,10 +568,16 @@
 			title: "&6&l[ ✦ 반려동물 먹이 ]"
 			x: 5.25d
 			y: 3.75d
-			icon: "farmersdelight:dog_food"
 		}
 		{
 			dependencies: ["7CBA59EAA7BD1DF1"]
+			icon: {
+				Count: 1
+				id: "farmersdelight:diamond_knife"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "73FA68925B6715E6"
 			rewards: [
 				{
@@ -579,17 +592,20 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "7E642165C636B578"
-					item: "farmersdelight:diamond_knife"
-					type: "item"
+			tasks: [{
+				id: "7E642165C636B578"
+				item: {
+					Count: 1
+					id: "farmersdelight:diamond_knife"
+					tag: {
+						Damage: 0
+					}
 				}
-			]
+				type: "item"
+			}]
 			title: "&b&l[ ✦ 다이아몬드 식칼 ]"
 			x: 1.75d
 			y: 1.5d
-			icon: "farmersdelight:diamond_knife"
 		}
 	]
 	title: "&b&l✦ 농사와 요리"

@@ -5,12 +5,13 @@
 	group: "7E05AA7C371599AC"
 	icon: "barbequesdelight:grill"
 	id: "783005AEA1BEF9C7"
-	order_index: 21
+	order_index: 22
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["385E1F4C7C2E8402"]
 			description: ["네더 재료 요리. 흑암 화덕은 네더에서도 쓰는 화덕이다."]
+			icon: "nethersdelight:blackstone_stove"
 			id: "2DA4950B1510C4FF"
 			rewards: [
 				{
@@ -40,10 +41,10 @@
 			title: "&c&l[ ✦ 네더스 딜라이트 ]"
 			x: 0.0d
 			y: -12.0d
-			icon: "nethersdelight:blackstone_stove"
 		}
 		{
 			dependencies: ["2DA4950B1510C4FF"]
+			icon: "mynethersdelight:spicy_hoglin_stew"
 			id: "735A7ED078D565D1"
 			rewards: [
 				{
@@ -73,11 +74,11 @@
 			title: "&c&l[ ✦ 마이 네더스 딜라이트 ]"
 			x: 1.75d
 			y: -0.75d
-			icon: "mynethersdelight:spicy_hoglin_stew"
 		}
 		{
 			dependencies: ["385E1F4C7C2E8402"]
 			description: ["엔드 재료 요리와 엔드 난로."]
+			icon: "ends_delight:end_stove"
 			id: "05477DCEF3731C11"
 			rewards: [
 				{
@@ -107,10 +108,10 @@
 			title: "&5&l[ ✦ 엔드 딜라이트 ]"
 			x: 0.0d
 			y: -10.5d
-			icon: "ends_delight:end_stove"
 		}
 		{
 			dependencies: ["05477DCEF3731C11"]
+			icon: "endersdelight:endstone_stove"
 			id: "1B62975687EA306B"
 			rewards: [
 				{
@@ -140,11 +141,11 @@
 			title: "&5&l[ ✦ 엔더스 딜라이트 ]"
 			x: 1.75d
 			y: 0.75d
-			icon: "endersdelight:endstone_stove"
 		}
 		{
 			dependencies: ["385E1F4C7C2E8402"]
 			description: ["김밥·초밥·가지 요리."]
+			icon: "culturaldelights:exotic_roll_medley"
 			id: "7D8061B5AFD93D9D"
 			rewards: [
 				{
@@ -174,10 +175,16 @@
 			title: "&a&l[ ✦ 컬처럴 딜라이트 ]"
 			x: 0.0d
 			y: -9.0d
-			icon: "culturaldelights:exotic_roll_medley"
 		}
 		{
 			dependencies: ["7CCFDB9D2CD47CF7"]
+			icon: {
+				Count: 1
+				id: "ricedelight:rolling_pin"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "1E10724BD6FF91B3"
 			rewards: [
 				{
@@ -195,7 +202,13 @@
 			tasks: [
 				{
 					id: "38CB82DE60A0692F"
-					item: "ricedelight:rolling_pin"
+					item: {
+						Count: 1
+						id: "ricedelight:rolling_pin"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 				{
@@ -207,11 +220,11 @@
 			title: "&f&l[ ✦ 라이스 딜라이트 ]"
 			x: 0.0d
 			y: -7.5d
-			icon: "ricedelight:rolling_pin"
 		}
 		{
 			dependencies: ["385E1F4C7C2E8402"]
 			description: ["그릴 위에서 꼬치를 굽는다."]
+			icon: "barbequesdelight:grill"
 			id: "767F03776F40F19B"
 			rewards: [
 				{
@@ -241,10 +254,10 @@
 			title: "&6&l[ ✦ 바비큐 딜라이트 ]"
 			x: 0.0d
 			y: -6.0d
-			icon: "barbequesdelight:grill"
 		}
 		{
 			dependencies: ["385E1F4C7C2E8402"]
+			icon: "moredelight:loaded_hamburger"
 			id: "6BB20F6E9B7A0DAD"
 			rewards: [
 				{
@@ -274,11 +287,11 @@
 			title: "&6&l[ ✦ 모어 딜라이트 ]"
 			x: 0.0d
 			y: -4.5d
-			icon: "moredelight:loaded_hamburger"
 		}
 		{
 			dependencies: ["385E1F4C7C2E8402"]
 			description: ["Nature's Delight."]
+			icon: "natures_delight:coconut_pancakes"
 			id: "74FDA17B3815A28D"
 			rewards: [
 				{
@@ -293,21 +306,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "19A3FC304B11BD14"
-					item: "natures_delight:coconut_pancakes"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "19A3FC304B11BD14"
+				item: "natures_delight:coconut_pancakes"
+				type: "item"
+			}]
 			title: "&a&l[ ✦ 코코넛 팬케잌 ]"
 			x: 0.0d
 			y: -3.0d
-			icon: "natures_delight:coconut_pancakes"
 		}
 		{
 			dependencies: ["385E1F4C7C2E8402"]
 			description: ["Quark Delight."]
+			icon: "quarkdelight:cavern_explorer_stew"
 			id: "7BE74B77E8A77A09"
 			rewards: [
 				{
@@ -322,21 +333,22 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "3A3B21368AE7E653"
-					item: "quarkdelight:cavern_explorer_stew"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3A3B21368AE7E653"
+				item: "quarkdelight:cavern_explorer_stew"
+				type: "item"
+			}]
 			title: "&7&l[ ✦ 동굴 탐험가 스튜 ]"
 			x: 0.0d
 			y: -1.5d
-			icon: "quarkdelight:cavern_explorer_stew"
 		}
 		{
-			dependencies: ["385E1F4C7C2E8402", "77974D144B50FD6E"]
+			dependencies: [
+				"385E1F4C7C2E8402"
+				"77974D144B50FD6E"
+			]
 			description: ["황혼의 숲 보스 재료 요리. 화염석 냄비는 불 없이 끓는다."]
+			icon: "twilightdelight:fiery_cooking_pot"
 			id: "7F079B444C9A7DFA"
 			rewards: [
 				{
@@ -366,10 +378,13 @@
 			title: "&2&l[ ✦ 트와일라잇 딜라이트 ]"
 			x: 0.0d
 			y: 0.0d
-			icon: "twilightdelight:fiery_cooking_pot"
 		}
 		{
-			dependencies: ["385E1F4C7C2E8402", "33DDBA61DE802FC0"]
+			dependencies: [
+				"385E1F4C7C2E8402"
+				"33DDBA61DE802FC0"
+			]
+			icon: "ice_and_fire_delight:dragon_special_pie"
 			id: "0731A11CFFE55EE3"
 			rewards: [
 				{
@@ -399,10 +414,13 @@
 			title: "&c&l[ ✦ 아이스 앤 파이어 딜라이트 ]"
 			x: 0.0d
 			y: 1.5d
-			icon: "ice_and_fire_delight:dragon_special_pie"
 		}
 		{
-			dependencies: ["385E1F4C7C2E8402", "7876ABD5F9C120BC"]
+			dependencies: [
+				"385E1F4C7C2E8402"
+				"7876ABD5F9C120BC"
+			]
+			icon: "undergardendelight:droopstew"
 			id: "77D6C7455A422B3B"
 			rewards: [
 				{
@@ -432,10 +450,13 @@
 			title: "&a&l[ ✦ 언더가든 딜라이트 ]"
 			x: 0.0d
 			y: 3.0d
-			icon: "undergardendelight:droopstew"
 		}
 		{
-			dependencies: ["385E1F4C7C2E8402", "78564FA608BCF286"]
+			dependencies: [
+				"385E1F4C7C2E8402"
+				"78564FA608BCF286"
+			]
+			icon: "aetherdelight:quail_stew"
 			id: "7F70521C1D9AA6B8"
 			rewards: [
 				{
@@ -465,10 +486,10 @@
 			title: "&b&l[ ✦ 에테르 딜라이트 ]"
 			x: 0.0d
 			y: 4.5d
-			icon: "aetherdelight:quail_stew"
 		}
 		{
 			dependencies: ["385E1F4C7C2E8402"]
+			icon: "aquamirae_delight:aquatic_feast"
 			id: "7F0D92DB159B9D80"
 			rewards: [
 				{
@@ -498,11 +519,14 @@
 			title: "&3&l[ ✦ 아쿠아미라에 딜라이트 ]"
 			x: 0.0d
 			y: 6.0d
-			icon: "aquamirae_delight:aquatic_feast"
 		}
 		{
-			dependencies: ["385E1F4C7C2E8402", "7A0366D3D342F1E0"]
+			dependencies: [
+				"385E1F4C7C2E8402"
+				"7A0366D3D342F1E0"
+			]
 			description: ["보스 재료로 만드는 요리."]
+			icon: "bosses_delight:soul_cooking_pot"
 			id: "29F4669747BBDBA6"
 			rewards: [
 				{
@@ -531,10 +555,10 @@
 			title: "&6&l[ ✦ 보스 딜라이트 ]"
 			x: 0.0d
 			y: 7.5d
-			icon: "bosses_delight:soul_cooking_pot"
 		}
 		{
 			dependencies: ["385E1F4C7C2E8402"]
+			icon: "enigmaticdelicacy:etherium_stove"
 			id: "725C3A327FC3AFD5"
 			rewards: [
 				{
@@ -564,11 +588,20 @@
 			title: "&d&l[ ✦ 에니그마틱 델리커시 ]"
 			x: 0.0d
 			y: 9.0d
-			icon: "enigmaticdelicacy:etherium_stove"
 		}
 		{
-			dependencies: ["385E1F4C7C2E8402", "7792E230A1B61B23"]
+			dependencies: [
+				"385E1F4C7C2E8402"
+				"7792E230A1B61B23"
+			]
 			description: ["대재앙 재료 요리."]
+			icon: {
+				Count: 1
+				id: "lendersdelight:ignitium_knife"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "3AC3E82C56E4B873"
 			rewards: [
 				{
@@ -586,7 +619,13 @@
 			tasks: [
 				{
 					id: "7A0DEDD5327BD125"
-					item: "lendersdelight:ignitium_knife"
+					item: {
+						Count: 1
+						id: "lendersdelight:ignitium_knife"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 				{
@@ -598,11 +637,14 @@
 			title: "&4&l[ ✦ 렌더스 딜라이트 ]"
 			x: 0.0d
 			y: 10.5d
-			icon: "lendersdelight:ignitium_knife"
 		}
 		{
-			dependencies: ["385E1F4C7C2E8402", "6B29274782C42840"]
+			dependencies: [
+				"385E1F4C7C2E8402"
+				"6B29274782C42840"
+			]
 			description: ["Create Central Kitchen: 기계 손과 Create 기계로 요리를 자동화한다."]
+			icon: "create_central_kitchen:cooking_guide"
 			id: "3913E8E062888F54"
 			rewards: [
 				{
@@ -617,17 +659,14 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "6E6E947BC13AB75E"
-					item: "create_central_kitchen:cooking_guide"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6E6E947BC13AB75E"
+				item: "create_central_kitchen:cooking_guide"
+				type: "item"
+			}]
 			title: "&e&l[ ✦ 요리 안내서 ]"
 			x: 0.0d
 			y: 12.0d
-			icon: "create_central_kitchen:cooking_guide"
 		}
 	]
 	title: "&b&l✦ 요리 애드온 (Delight)"

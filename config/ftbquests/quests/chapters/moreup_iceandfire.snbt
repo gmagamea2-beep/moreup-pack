@@ -10,6 +10,7 @@
 	quests: [
 		{
 			description: ["언데드에게 강한 금속."]
+			icon: "iceandfire:silver_ingot"
 			id: "6EEC7E90C2D6CCFA"
 			rewards: [
 				{
@@ -24,21 +25,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					count: 8L
-					id: "7931F8A5E6BDC813"
-					item: "iceandfire:silver_ingot"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 8L
+				id: "7931F8A5E6BDC813"
+				item: "iceandfire:silver_ingot"
+				type: "item"
+			}]
 			title: "&7&l[ ✦ 은 ]"
 			x: 0.0d
 			y: 0.0d
-			icon: "iceandfire:silver_ingot"
 		}
 		{
 			dependencies: ["6EEC7E90C2D6CCFA"]
+			icon: "iceandfire:sapphire_gem"
 			id: "4AEE4B822013DC13"
 			rewards: [
 				{
@@ -53,22 +52,20 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					count: 4L
-					id: "537C6E8E0B072F65"
-					item: "iceandfire:sapphire_gem"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 4L
+				id: "537C6E8E0B072F65"
+				item: "iceandfire:sapphire_gem"
+				type: "item"
+			}]
 			title: "&9&l[ ✦ 사파이어 ]"
 			x: 1.75d
 			y: -3.75d
-			icon: "iceandfire:sapphire_gem"
 		}
 		{
 			dependencies: ["4AEE4B822013DC13"]
 			description: ["드래곤 둥지와 동굴의 상자에서 원고를 찾자."]
+			icon: "iceandfire:manuscript"
 			id: "72E8C40FE6AFE649"
 			rewards: [
 				{
@@ -83,21 +80,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "20E157D5C6CB431C"
-					item: "iceandfire:manuscript"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "20E157D5C6CB431C"
+				item: "iceandfire:manuscript"
+				type: "item"
+			}]
 			title: "&e&l[ ✦ 용의 연구 ]"
 			x: 3.5d
 			y: -5.25d
-			icon: "iceandfire:manuscript"
 		}
 		{
 			dependencies: ["6EEC7E90C2D6CCFA"]
 			description: ["드래곤 해골이나 죽은 드래곤에게서."]
+			icon: "iceandfire:dragonbone"
 			id: "18D90D538B196671"
 			rewards: [
 				{
@@ -112,21 +107,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					count: 8L
-					id: "73C27E323B41C5D6"
-					item: "iceandfire:dragonbone"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 8L
+				id: "73C27E323B41C5D6"
+				item: "iceandfire:dragonbone"
+				type: "item"
+			}]
 			title: "&f&l[ ✦ 용의 뼈 ]"
 			x: 1.75d
 			y: -2.25d
-			icon: "iceandfire:dragonbone"
 		}
 		{
 			dependencies: ["18D90D538B196671"]
+			icon: "iceandfire:dragonscales_red"
 			id: "7E938F4F2BE57CC2"
 			rewards: [
 				{
@@ -141,22 +134,26 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					count: 8L
-					id: "7166A51A5D8B5CC6"
-					item: "iceandfire:dragonscales_red"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 8L
+				id: "7166A51A5D8B5CC6"
+				item: "iceandfire:dragonscales_red"
+				type: "item"
+			}]
 			title: "&c&l[ ✦ 드래곤 비늘 ]"
 			x: 3.5d
 			y: -3.75d
-			icon: "iceandfire:dragonscales_red"
 		}
 		{
 			dependencies: ["18D90D538B196671"]
 			description: ["눈을 마주치면 돌이 된다. 방패나 뒤돌아 싸우자."]
+			icon: {
+				Count: 1
+				id: "iceandfire:gorgon_head"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "2D07C6880B854997"
 			rewards: [
 				{
@@ -177,22 +174,26 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					entity: "iceandfire:gorgon"
-					id: "71222AF1C62D6F8A"
-					type: "kill"
-					value: 1L
-				}
-			]
+			shape: "hexagon"
+			tasks: [{
+				entity: "iceandfire:gorgon"
+				id: "71222AF1C62D6F8A"
+				type: "kill"
+				value: 1L
+			}]
 			title: "&2&l[ ⚔ 고르곤 ]"
 			x: 3.5d
 			y: -2.25d
-			icon: "iceandfire:gorgon_head"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["18D90D538B196671"]
+			icon: {
+				Count: 1
+				id: "iceandfire:cyclops_eye"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "33DDBA61DE802FC0"
 			rewards: [
 				{
@@ -213,22 +214,20 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					entity: "iceandfire:cyclops"
-					id: "794C4599031E60B7"
-					type: "kill"
-					value: 1L
-				}
-			]
+			shape: "hexagon"
+			tasks: [{
+				entity: "iceandfire:cyclops"
+				id: "794C4599031E60B7"
+				type: "kill"
+				value: 1L
+			}]
 			title: "&6&l[ ⚔ 사이클롭스 ]"
 			x: 3.5d
 			y: -0.75d
-			icon: "iceandfire:cyclops_eye"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["18D90D538B196671"]
+			icon: "iceandfire:hydra_heart"
 			id: "3547C475FFA6D725"
 			rewards: [
 				{
@@ -249,22 +248,20 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					entity: "iceandfire:hydra"
-					id: "5CEFE01BF8A0897D"
-					type: "kill"
-					value: 1L
-				}
-			]
+			shape: "hexagon"
+			tasks: [{
+				entity: "iceandfire:hydra"
+				id: "5CEFE01BF8A0897D"
+				type: "kill"
+				value: 1L
+			}]
 			title: "&a&l[ ⚔ 히드라 (늪) ]"
 			x: 3.5d
 			y: 0.75d
-			icon: "iceandfire:hydra_heart"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["18D90D538B196671"]
+			icon: "iceandfire:sea_serpent_fang"
 			id: "7FCE5230ED2126BA"
 			rewards: [
 				{
@@ -285,23 +282,24 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					entity: "iceandfire:sea_serpent"
-					id: "1A9BCBF6FD21FE47"
-					type: "kill"
-					value: 1L
-				}
-			]
+			shape: "hexagon"
+			tasks: [{
+				entity: "iceandfire:sea_serpent"
+				id: "1A9BCBF6FD21FE47"
+				type: "kill"
+				value: 1L
+			}]
 			title: "&3&l[ ⚔ 바다뱀 ]"
 			x: 3.5d
 			y: 2.25d
-			icon: "iceandfire:sea_serpent_fang"
-			shape: "hexagon"
 		}
 		{
-			dependencies: ["2D07C6880B854997", "33DDBA61DE802FC0"]
+			dependencies: [
+				"2D07C6880B854997"
+				"33DDBA61DE802FC0"
+			]
 			description: ["드래곤은 나이가 들수록 강해진다."]
+			icon: "iceandfire:fire_dragon_heart"
 			id: "1B724BDB17BEBEDB"
 			rewards: [
 				{
@@ -322,22 +320,23 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					entity: "iceandfire:fire_dragon"
-					id: "01CADC6E3E1F0629"
-					type: "kill"
-					value: 1L
-				}
-			]
+			shape: "hexagon"
+			tasks: [{
+				entity: "iceandfire:fire_dragon"
+				id: "01CADC6E3E1F0629"
+				type: "kill"
+				value: 1L
+			}]
 			title: "&c&l[ ⚔ 불 드래곤 ]"
 			x: 5.25d
 			y: -6.0d
-			icon: "iceandfire:fire_dragon_heart"
-			shape: "hexagon"
 		}
 		{
-			dependencies: ["2D07C6880B854997", "33DDBA61DE802FC0"]
+			dependencies: [
+				"2D07C6880B854997"
+				"33DDBA61DE802FC0"
+			]
+			icon: "iceandfire:ice_dragon_heart"
 			id: "68E8DD7FE07DEBFF"
 			rewards: [
 				{
@@ -358,22 +357,23 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					entity: "iceandfire:ice_dragon"
-					id: "7BF2F354588A6DA3"
-					type: "kill"
-					value: 1L
-				}
-			]
+			shape: "hexagon"
+			tasks: [{
+				entity: "iceandfire:ice_dragon"
+				id: "7BF2F354588A6DA3"
+				type: "kill"
+				value: 1L
+			}]
 			title: "&b&l[ ⚔ 얼음 드래곤 ]"
 			x: 5.25d
 			y: -4.5d
-			icon: "iceandfire:ice_dragon_heart"
-			shape: "hexagon"
 		}
 		{
-			dependencies: ["2D07C6880B854997", "33DDBA61DE802FC0"]
+			dependencies: [
+				"2D07C6880B854997"
+				"33DDBA61DE802FC0"
+			]
+			icon: "iceandfire:lightning_dragon_heart"
 			id: "766C0EEDCD86E30B"
 			rewards: [
 				{
@@ -394,22 +394,24 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					entity: "iceandfire:lightning_dragon"
-					id: "3972996A9FA1A7E2"
-					type: "kill"
-					value: 1L
-				}
-			]
+			shape: "hexagon"
+			tasks: [{
+				entity: "iceandfire:lightning_dragon"
+				id: "3972996A9FA1A7E2"
+				type: "kill"
+				value: 1L
+			}]
 			title: "&5&l[ ⚔ 번개 드래곤 ]"
 			x: 5.25d
 			y: -3.0d
-			icon: "iceandfire:lightning_dragon_heart"
-			shape: "hexagon"
 		}
 		{
-			dependencies: ["1B724BDB17BEBEDB", "68E8DD7FE07DEBFF", "766C0EEDCD86E30B"]
+			dependencies: [
+				"1B724BDB17BEBEDB"
+				"68E8DD7FE07DEBFF"
+				"766C0EEDCD86E30B"
+			]
+			icon: "iceandfire:fire_dragon_heart"
 			id: "785748B88C47FE21"
 			rewards: [
 				{
@@ -444,11 +446,11 @@
 			title: "&c&l[ ✦ 세 용의 심장 ]"
 			x: 7.0d
 			y: -2.25d
-			icon: "iceandfire:fire_dragon_heart"
 		}
 		{
 			dependencies: ["1B724BDB17BEBEDB"]
 			description: ["드래곤 용광로 핵으로 드래곤스틸을 만든다."]
+			icon: "iceandfire:dragonforge_fire_core"
 			id: "17BC3C182B06198E"
 			rewards: [
 				{
@@ -463,21 +465,22 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "70D3194E238ADC28"
-					item: "iceandfire:dragonforge_fire_core"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "70D3194E238ADC28"
+				item: "iceandfire:dragonforge_fire_core"
+				type: "item"
+			}]
 			title: "&6&l[ ✦ 용광로 ]"
 			x: 7.0d
 			y: -0.75d
-			icon: "iceandfire:dragonforge_fire_core"
 		}
 		{
-			dependencies: ["785748B88C47FE21", "17BC3C182B06198E"]
+			dependencies: [
+				"785748B88C47FE21"
+				"17BC3C182B06198E"
+			]
 			description: ["세 원소의 드래곤스틸. 심장·피와 함께 &e세계의 파편: 용&r의 재료."]
+			icon: "iceandfire:dragonsteel_fire_ingot"
 			id: "7C96F0E5B5FE5227"
 			rewards: [
 				{
@@ -512,10 +515,16 @@
 			title: "&6&l[ ✦ 드래곤스틸 ]"
 			x: 8.75d
 			y: 0.0d
-			icon: "iceandfire:dragonsteel_fire_ingot"
 		}
 		{
 			dependencies: ["18D90D538B196671"]
+			icon: {
+				Count: 1
+				id: "iceandfire:dragonbone_sword"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "7BBDB1A04E2BB40F"
 			rewards: [
 				{
@@ -533,23 +542,41 @@
 			tasks: [
 				{
 					id: "26BBB94AE9B95709"
-					item: "iceandfire:dragonbone_sword"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonbone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 				{
 					id: "513F02C6AA7DA053"
-					item: "iceandfire:dragonbone_bow"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonbone_bow"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
 			title: "&f&l[ ✦ 드래곤 뼈 무기 ]"
 			x: 3.5d
 			y: 3.75d
-			icon: "iceandfire:dragonbone_sword"
 		}
 		{
 			dependencies: ["7E938F4F2BE57CC2"]
 			description: ["드래곤 비늘로 만든 갑옷. 그 드래곤의 숨결을 막는다."]
+			icon: {
+				Count: 1
+				id: "iceandfire:armor_red_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "6DD86A2858719EC8"
 			rewards: [
 				{
@@ -564,21 +591,25 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "742589AD255E7492"
-					item: "iceandfire:armor_red_chestplate"
-					type: "item"
+			tasks: [{
+				id: "742589AD255E7492"
+				item: {
+					Count: 1
+					id: "iceandfire:armor_red_chestplate"
+					tag: {
+						Damage: 0
+					}
 				}
-			]
+				type: "item"
+			}]
 			title: "&c&l[ ✦ 드래곤 비늘 갑옷 ]"
 			x: 5.25d
 			y: -1.5d
-			icon: "iceandfire:armor_red_chestplate"
 		}
 		{
 			dependencies: ["7E938F4F2BE57CC2"]
 			description: ["뿔피리로 드래곤을 담아 옮기고, 피리로 길들인 드래곤을 부른다."]
+			icon: "iceandfire:dragon_horn"
 			id: "2C55BB0DD5B178F5"
 			rewards: [
 				{
@@ -608,11 +639,11 @@
 			title: "&e&l[ ✦ 드래곤 뿔피리와 피리 ]"
 			x: 5.25d
 			y: 0.0d
-			icon: "iceandfire:dragon_horn"
 		}
 		{
 			dependencies: ["72E8C40FE6AFE649"]
 			description: ["아기 드래곤을 키우는 먹이."]
+			icon: "iceandfire:dragon_meal"
 			id: "29683CD9F76D8BFC"
 			rewards: [
 				{
@@ -627,22 +658,20 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					count: 8L
-					id: "3F8EF5E721BD9CA3"
-					item: "iceandfire:dragon_meal"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 8L
+				id: "3F8EF5E721BD9CA3"
+				item: "iceandfire:dragon_meal"
+				type: "item"
+			}]
 			title: "&6&l[ ✦ 드래곤 먹이 ]"
 			x: 5.25d
 			y: 1.5d
-			icon: "iceandfire:dragon_meal"
 		}
 		{
 			dependencies: ["6EEC7E90C2D6CCFA"]
 			description: ["미르멕스 둥지에서 얻는 껍질."]
+			icon: "iceandfire:myrmex_desert_chitin"
 			id: "732839A7D0CB1025"
 			rewards: [
 				{
@@ -657,22 +686,20 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					count: 8L
-					id: "7293AF9C52F7686C"
-					item: "iceandfire:myrmex_desert_chitin"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 8L
+				id: "7293AF9C52F7686C"
+				item: "iceandfire:myrmex_desert_chitin"
+				type: "item"
+			}]
 			title: "&e&l[ ✦ 사막 미르멕스 껍질 ]"
 			x: 1.75d
 			y: -0.75d
-			icon: "iceandfire:myrmex_desert_chitin"
 		}
 		{
 			dependencies: ["732839A7D0CB1025"]
 			description: ["미르멕스 둥지 가장 깊은 곳의 여왕."]
+			icon: "iceandfire:fire_dragon_heart"
 			id: "16340B742E468D7C"
 			rewards: [
 				{
@@ -687,23 +714,21 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					entity: "iceandfire:myrmex_queen"
-					id: "21165348803ADC6F"
-					type: "kill"
-					value: 1L
-				}
-			]
+			shape: "hexagon"
+			tasks: [{
+				entity: "iceandfire:myrmex_queen"
+				id: "21165348803ADC6F"
+				type: "kill"
+				value: 1L
+			}]
 			title: "&6&l[ ⚔ 미르멕스 여왕 ]"
 			x: 3.5d
 			y: 5.25d
-			icon: "iceandfire:fire_dragon_heart"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["6EEC7E90C2D6CCFA"]
 			description: ["동굴·산의 트롤. 엄니와 가죽을 남긴다."]
+			icon: "iceandfire:fire_dragon_heart"
 			id: "79318F9C3E95684B"
 			rewards: [
 				{
@@ -718,23 +743,21 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					entity: "iceandfire:troll"
-					id: "23C6508151D53DD6"
-					type: "kill"
-					value: 1L
-				}
-			]
+			shape: "hexagon"
+			tasks: [{
+				entity: "iceandfire:troll"
+				id: "23C6508151D53DD6"
+				type: "kill"
+				value: 1L
+			}]
 			title: "&2&l[ ⚔ 트롤 ]"
 			x: 1.75d
 			y: 0.75d
-			icon: "iceandfire:fire_dragon_heart"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["6EEC7E90C2D6CCFA"]
 			description: ["사막 아래를 헤엄치는 데스웜."]
+			icon: "iceandfire:fire_dragon_heart"
 			id: "4E7A0CEFED2F5231"
 			rewards: [
 				{
@@ -749,22 +772,20 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					entity: "iceandfire:deathworm"
-					id: "78148F167E0C2E39"
-					type: "kill"
-					value: 1L
-				}
-			]
+			shape: "hexagon"
+			tasks: [{
+				entity: "iceandfire:deathworm"
+				id: "78148F167E0C2E39"
+				type: "kill"
+				value: 1L
+			}]
 			title: "&e&l[ ⚔ 데스웜 ]"
 			x: 1.75d
 			y: 2.25d
-			icon: "iceandfire:fire_dragon_heart"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["72E8C40FE6AFE649"]
+			icon: "iceandfire:pixie_dust"
 			id: "752B76B61A6ADA24"
 			rewards: [
 				{
@@ -779,22 +800,20 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					count: 4L
-					id: "7C7568D7E1768E5F"
-					item: "iceandfire:pixie_dust"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 4L
+				id: "7C7568D7E1768E5F"
+				item: "iceandfire:pixie_dust"
+				type: "item"
+			}]
 			title: "&d&l[ ✦ 픽시가루 ]"
 			x: 5.25d
 			y: 3.0d
-			icon: "iceandfire:pixie_dust"
 		}
 		{
 			dependencies: ["6EEC7E90C2D6CCFA"]
 			description: ["늪의 스팀팔로스 새가 떨어뜨린다."]
+			icon: "iceandfire:stymphalian_bird_feather"
 			id: "226C5B9B5EE2AE46"
 			rewards: [
 				{
@@ -809,22 +828,26 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					count: 4L
-					id: "7A95CA30B40B404C"
-					item: "iceandfire:stymphalian_bird_feather"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 4L
+				id: "7A95CA30B40B404C"
+				item: "iceandfire:stymphalian_bird_feather"
+				type: "item"
+			}]
 			title: "&7&l[ ✦ 스팀팔로스 청동새의 깃털 ]"
 			x: 1.75d
 			y: 3.75d
-			icon: "iceandfire:stymphalian_bird_feather"
 		}
 		{
 			dependencies: ["7FCE5230ED2126BA"]
 			description: ["세이렌의 노래를 막는다."]
+			icon: {
+				Count: 1
+				id: "iceandfire:siren_flute"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "08A93BB596CC3646"
 			rewards: [
 				{
@@ -839,21 +862,31 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "79197296DE641FF3"
-					item: "iceandfire:siren_flute"
-					type: "item"
+			tasks: [{
+				id: "79197296DE641FF3"
+				item: {
+					Count: 1
+					id: "iceandfire:siren_flute"
+					tag: {
+						Damage: 0
+					}
 				}
-			]
+				type: "item"
+			}]
 			title: "&b&l[ ✦ 세이렌 피리 ]"
 			x: 5.25d
 			y: 4.5d
-			icon: "iceandfire:siren_flute"
 		}
 		{
 			dependencies: ["7FCE5230ED2126BA"]
 			description: ["바다뱀 비늘 갑옷."]
+			icon: {
+				Count: 1
+				id: "iceandfire:tide_blue_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "706D9C7B90904231"
 			rewards: [
 				{
@@ -868,21 +901,25 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "7A6C9887773B45D2"
-					item: "iceandfire:tide_blue_chestplate"
-					type: "item"
+			tasks: [{
+				id: "7A6C9887773B45D2"
+				item: {
+					Count: 1
+					id: "iceandfire:tide_blue_chestplate"
+					tag: {
+						Damage: 0
+					}
 				}
-			]
+				type: "item"
+			}]
 			title: "&9&l[ ✦ 바다뱀 비늘 갑옷 ]"
 			x: 5.25d
 			y: 6.0d
-			icon: "iceandfire:tide_blue_chestplate"
 		}
 		{
 			dependencies: ["68E8DD7FE07DEBFF"]
 			description: ["얼음 미궁의 드레드 리치."]
+			icon: "iceandfire:fire_dragon_heart"
 			id: "24327ACC74BA8811"
 			rewards: [
 				{
@@ -903,23 +940,21 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					entity: "iceandfire:dread_lich"
-					id: "0F258B11F2C6FA0B"
-					type: "kill"
-					value: 1L
-				}
-			]
+			shape: "hexagon"
+			tasks: [{
+				entity: "iceandfire:dread_lich"
+				id: "0F258B11F2C6FA0B"
+				type: "kill"
+				value: 1L
+			}]
 			title: "&5&l[ ⚔ 드레드 리치 ]"
 			x: 7.0d
 			y: 0.75d
-			icon: "iceandfire:fire_dragon_heart"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["1B724BDB17BEBEDB"]
 			description: ["드래곤을 공간째 소환하는 결정."]
+			icon: "iceandfire:summoning_crystal_fire"
 			id: "77391F9FB0D4AB24"
 			rewards: [
 				{
@@ -933,17 +968,14 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "2FD55CA47BC1AA1C"
-					item: "iceandfire:summoning_crystal_fire"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2FD55CA47BC1AA1C"
+				item: "iceandfire:summoning_crystal_fire"
+				type: "item"
+			}]
 			title: "&c&l[ ✦ 파이어 드래곤 소환석 ]"
 			x: 7.0d
 			y: 2.25d
-			icon: "iceandfire:summoning_crystal_fire"
 		}
 	]
 	title: "&b&l✦ 얼음과 불"

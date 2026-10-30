@@ -10,6 +10,7 @@
 	quests: [
 		{
 			description: ["Meet Your Fight의 첫 보스."]
+			icon: "meetyourfight:swampjaw_head"
 			id: "76F18A3CB9A266C8"
 			rewards: [
 				{
@@ -30,6 +31,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "meetyourfight:swampjaw"
@@ -41,11 +43,10 @@
 			title: "&2&l[ ⚔ 늪지기 ]"
 			x: 0.0d
 			y: -5.25d
-			icon: "meetyourfight:swampjaw_head"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["76F18A3CB9A266C8"]
+			icon: "meetyourfight:bellringer_head"
 			id: "7C688A48DA8E2891"
 			rewards: [
 				{
@@ -66,6 +67,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "meetyourfight:bellringer"
@@ -77,11 +79,10 @@
 			title: "&7&l[ ⚔ 종지기 ]"
 			x: 1.75d
 			y: -9.0d
-			icon: "meetyourfight:bellringer_head"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["7C688A48DA8E2891"]
+			icon: "meetyourfight:dame_fortuna_head"
 			id: "71E6400F832C6FB7"
 			rewards: [
 				{
@@ -102,6 +103,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "meetyourfight:dame_fortuna"
@@ -113,11 +115,10 @@
 			title: "&d&l[ ⚔ 담 포르투나 ]"
 			x: 3.5d
 			y: -3.75d
-			icon: "meetyourfight:dame_fortuna_head"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["71E6400F832C6FB7"]
+			icon: "meetyourfight:rosalyne_head"
 			id: "654476C5027E8585"
 			rewards: [
 				{
@@ -137,6 +138,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "meetyourfight:rosalyne"
@@ -148,11 +150,10 @@
 			title: "&c&l[ ⚔ 로잘린 ]"
 			x: 5.25d
 			y: -0.75d
-			icon: "meetyourfight:rosalyne_head"
-			shape: "hexagon"
 		}
 		{
 			description: ["Mowzie's Mobs. 지하의 강철 기사."]
+			icon: "mowziesmobs:wrought_helmet"
 			id: "7E931A01AE520416"
 			rewards: [
 				{
@@ -173,6 +174,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "mowziesmobs:ferrous_wroughtnaut"
@@ -184,12 +186,11 @@
 			title: "&7&l[ ⚔ 철갑 거인 ]"
 			x: 0.0d
 			y: -3.75d
-			icon: "mowziesmobs:wrought_helmet"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["7E931A01AE520416"]
 			description: ["사바나 부족의 태양 가면."]
+			icon: "mowziesmobs:sol_visage"
 			id: "0E61D87C7BE2F9FB"
 			rewards: [
 				{
@@ -210,6 +211,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "mowziesmobs:umvuthi"
@@ -221,11 +223,16 @@
 			title: "&6&l[ ⚔ 움부티 ]"
 			x: 1.75d
 			y: -7.5d
-			icon: "mowziesmobs:sol_visage"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["7E931A01AE520416"]
+			icon: {
+				Count: 1
+				id: "mowziesmobs:ice_crystal"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "70F94610DC73DC5A"
 			rewards: [
 				{
@@ -246,6 +253,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "mowziesmobs:frostmaw"
@@ -257,11 +265,16 @@
 			title: "&b&l[ ⚔ 프로스트모 ]"
 			x: 1.75d
 			y: -6.0d
-			icon: "mowziesmobs:ice_crystal"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["7E931A01AE520416"]
+			icon: {
+				Count: 1
+				id: "mowziesmobs:sculptor_staff"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "48C6BF4549229062"
 			rewards: [
 				{
@@ -282,6 +295,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "mowziesmobs:sculptor"
@@ -293,11 +307,10 @@
 			title: "&e&l[ ⚔ 조각가 ]"
 			x: 1.75d
 			y: -4.5d
-			icon: "mowziesmobs:sculptor_staff"
-			shape: "hexagon"
 		}
 		{
 			description: ["Bosses of Mass Destruction. 고대 아니마를 남긴다."]
+			icon: "bosses_of_mass_destruction:ancient_anima"
 			id: "7A0366D3D342F1E0"
 			rewards: [
 				{
@@ -318,6 +331,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "bosses_of_mass_destruction:lich"
@@ -329,12 +343,11 @@
 			title: "&b&l[ ⚔ 나이트 리치 ]"
 			x: 0.0d
 			y: -2.25d
-			icon: "bosses_of_mass_destruction:ancient_anima"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["7A0366D3D342F1E0"]
 			description: ["타오르는 눈을 남긴다."]
+			icon: "bosses_of_mass_destruction:blazing_eye"
 			id: "75096942B5DC249D"
 			rewards: [
 				{
@@ -354,6 +367,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "bosses_of_mass_destruction:gauntlet"
@@ -365,12 +379,11 @@
 			title: "&c&l[ ⚔ 네더 건틀릿 ]"
 			x: 1.75d
 			y: -3.0d
-			icon: "bosses_of_mass_destruction:blazing_eye"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["7A0366D3D342F1E0"]
 			description: ["공허 가시를 남긴다."]
+			icon: "bosses_of_mass_destruction:void_thorn"
 			id: "40C730CF017859B2"
 			rewards: [
 				{
@@ -391,6 +404,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "bosses_of_mass_destruction:void_blossom"
@@ -402,12 +416,11 @@
 			title: "&a&l[ ⚔ 보이드 블로섬 ]"
 			x: 1.75d
 			y: -1.5d
-			icon: "bosses_of_mass_destruction:void_thorn"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["75096942B5DC249D", "40C730CF017859B2"]
 			description: ["엔드의 흑요석 거신. 흑요석 심장을 남긴다."]
+			icon: "bosses_of_mass_destruction:obsidian_heart"
 			id: "75CBBDB80FB57C32"
 			rewards: [
 				{
@@ -427,6 +440,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "bosses_of_mass_destruction:obsidilith"
@@ -438,12 +452,11 @@
 			title: "&5&l[ ⚔ 옵시딜리스 ]"
 			x: 3.5d
 			y: -2.25d
-			icon: "bosses_of_mass_destruction:obsidian_heart"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["75CBBDB80FB57C32"]
 			description: ["&e세계의 파편: 종말&r의 핵심 재료."]
+			icon: "bosses_of_mass_destruction:obsidian_heart"
 			id: "771FC30F06D20547"
 			rewards: [
 				{
@@ -483,10 +496,10 @@
 			title: "&5&l[ ✦ 종말의 증표 ]"
 			x: 5.25d
 			y: 0.75d
-			icon: "bosses_of_mass_destruction:obsidian_heart"
 		}
 		{
 			description: ["Aquamirae. 얼어붙은 바다의 유령선."]
+			icon: "aquamirae:captain_cornelia_spawn_egg"
 			id: "5276E51A24816589"
 			rewards: [
 				{
@@ -507,6 +520,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "aquamirae:captain_cornelia"
@@ -518,11 +532,10 @@
 			title: "&3&l[ ⚔ 코넬리아 선장 ]"
 			x: 0.0d
 			y: -0.75d
-			icon: "aquamirae:captain_cornelia_spawn_egg"
-			shape: "hexagon"
 		}
 		{
 			description: ["Illager Invasion."]
+			icon: "illagerinvasion:invoker_spawn_egg"
 			id: "2D2B2087FA66E3A5"
 			rewards: [
 				{
@@ -543,6 +556,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "illagerinvasion:invoker"
@@ -554,11 +568,10 @@
 			title: "&5&l[ ⚔ 인보커 ]"
 			x: 0.0d
 			y: 0.75d
-			icon: "illagerinvasion:invoker_spawn_egg"
-			shape: "hexagon"
 		}
 		{
 			description: ["Bosses' Rise."]
+			icon: "block_factorys_bosses:kraken_spawn_egg"
 			id: "712AE719274A40F1"
 			rewards: [
 				{
@@ -578,6 +591,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "block_factorys_bosses:kraken"
@@ -589,11 +603,10 @@
 			title: "&3&l[ ⚔ 크라켄 ]"
 			x: 0.0d
 			y: 2.25d
-			icon: "block_factorys_bosses:kraken_spawn_egg"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["712AE719274A40F1"]
+			icon: "block_factorys_bosses:infernal_dragon_spawn_egg"
 			id: "3B42F875BE7A0D27"
 			rewards: [
 				{
@@ -613,6 +626,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "block_factorys_bosses:infernal_dragon"
@@ -624,11 +638,10 @@
 			title: "&c&l[ ⚔ 지옥불 드래곤 ]"
 			x: 1.75d
 			y: 0.0d
-			icon: "block_factorys_bosses:infernal_dragon_spawn_egg"
-			shape: "hexagon"
 		}
 		{
 			description: ["고대 도시의 감시자."]
+			icon: "minecraft:echo_shard"
 			id: "1E5DB55B6F728400"
 			rewards: [
 				{
@@ -649,6 +662,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "minecraft:warden"
@@ -660,10 +674,9 @@
 			title: "&3&l[ ⚔ 워든 ]"
 			x: 0.0d
 			y: 3.75d
-			icon: "minecraft:echo_shard"
-			shape: "hexagon"
 		}
 		{
+			icon: "minecraft:dragon_head"
 			id: "7CBDB64F12C5BE40"
 			rewards: [
 				{
@@ -684,6 +697,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "minecraft:ender_dragon"
@@ -695,12 +709,11 @@
 			title: "&5&l[ ⚔ 엔더 드래곤 ]"
 			x: 0.0d
 			y: 5.25d
-			icon: "minecraft:dragon_head"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["76F18A3CB9A266C8"]
 			description: ["네더 요새의 와일드파이어 (Friends & Foes)."]
+			icon: "friendsandfoes:wildfire_spawn_egg"
 			id: "75B3548BCCE05A00"
 			rewards: [
 				{
@@ -721,6 +734,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "friendsandfoes:wildfire"
@@ -732,12 +746,11 @@
 			title: "&6&l[ ⚔ 와일드파이어 ]"
 			x: 1.75d
 			y: 1.5d
-			icon: "friendsandfoes:wildfire_spawn_egg"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["712AE719274A40F1"]
 			description: ["사막 아래의 모래벌레 (Block Factory's Bosses)."]
+			icon: "block_factorys_bosses:sandworm_spawn_egg"
 			id: "71842DDD13B7B281"
 			rewards: [
 				{
@@ -758,6 +771,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "block_factorys_bosses:sandworm"
@@ -769,11 +783,10 @@
 			title: "&e&l[ ⚔ 모래벌레 시로크 ]"
 			x: 1.75d
 			y: 3.0d
-			icon: "block_factorys_bosses:sandworm_spawn_egg"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["712AE719274A40F1"]
+			icon: "block_factorys_bosses:yeti_spawn_egg"
 			id: "7572C3B39D0B4266"
 			rewards: [
 				{
@@ -794,6 +807,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "block_factorys_bosses:yeti"
@@ -805,11 +819,10 @@
 			title: "&f&l[ ⚔ 예티 스코르 ]"
 			x: 1.75d
 			y: 4.5d
-			icon: "block_factorys_bosses:yeti_spawn_egg"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["3B42F875BE7A0D27"]
+			icon: "block_factorys_bosses:underworld_knight_spawn_egg"
 			id: "7A8F7EB04B050AF1"
 			rewards: [
 				{
@@ -830,6 +843,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "block_factorys_bosses:underworld_knight"
@@ -841,12 +855,11 @@
 			title: "&c&l[ ⚔ 지하 세계의 기사 헬바르 ]"
 			x: 3.5d
 			y: -0.75d
-			icon: "block_factorys_bosses:underworld_knight_spawn_egg"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["2D2B2087FA66E3A5"]
 			description: ["Stalwart Dungeons 의 보스."]
+			icon: "stalwart_dungeons:awful_ghast_spawn_egg"
 			id: "0EB7F4BBDBF61C25"
 			rewards: [
 				{
@@ -867,6 +880,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "stalwart_dungeons:awful_ghast"
@@ -878,11 +892,10 @@
 			title: "&7&l[ ⚔ 끔찍한 가스트 ]"
 			x: 1.75d
 			y: 6.0d
-			icon: "stalwart_dungeons:awful_ghast_spawn_egg"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["0EB7F4BBDBF61C25"]
+			icon: "stalwart_dungeons:nether_keeper_spawn_egg"
 			id: "13DCA5A99983FA9C"
 			rewards: [
 				{
@@ -903,6 +916,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "stalwart_dungeons:nether_keeper"
@@ -914,11 +928,10 @@
 			title: "&c&l[ ⚔ 네더 수호자 ]"
 			x: 3.5d
 			y: 0.75d
-			icon: "stalwart_dungeons:nether_keeper_spawn_egg"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["0EB7F4BBDBF61C25"]
+			icon: "stalwart_dungeons:shelterer_spawn_egg"
 			id: "7D32C248003537D1"
 			rewards: [
 				{
@@ -939,6 +952,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "stalwart_dungeons:shelterer"
@@ -950,12 +964,11 @@
 			title: "&8&l[ ⚔ 보호자 ]"
 			x: 3.5d
 			y: 2.25d
-			icon: "stalwart_dungeons:shelterer_spawn_egg"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["2D2B2087FA66E3A5"]
 			description: ["소환사를 쓰러뜨리고 얻는 재료와 주입대."]
+			icon: "illagerinvasion:hallowed_gem"
 			id: "737BBD13E569256F"
 			rewards: [
 				{
@@ -991,11 +1004,11 @@
 			title: "&5&l[ ✦ 일리저의 보물 ]"
 			x: 1.75d
 			y: 7.5d
-			icon: "illagerinvasion:hallowed_gem"
 		}
 		{
 			dependencies: ["7CBDB64F12C5BE40"]
 			description: ["엔더 드래곤이 남기는 비늘 (Dragon Loot)."]
+			icon: "dragonloot:dragon_scale"
 			id: "361C4F96321D30E9"
 			rewards: [
 				{
@@ -1021,10 +1034,16 @@
 			title: "&5&l[ ✦ 드래곤 비늘 ]"
 			x: 1.75d
 			y: 9.0d
-			icon: "dragonloot:dragon_scale"
 		}
 		{
 			dependencies: ["361C4F96321D30E9"]
+			icon: {
+				Count: 1
+				id: "dragonloot:dragon_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "7A252BF718BFE0AA"
 			rewards: [
 				{
@@ -1042,19 +1061,30 @@
 			tasks: [
 				{
 					id: "78455293522A8BA7"
-					item: "dragonloot:dragon_chestplate"
+					item: {
+						Count: 1
+						id: "dragonloot:dragon_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 				{
 					id: "7413C4F034D96875"
-					item: "dragonloot:dragon_sword"
+					item: {
+						Count: 1
+						id: "dragonloot:dragon_sword"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
 			title: "&5&l[ ✦ 드래곤 비늘 장비 ]"
 			x: 3.5d
 			y: 3.75d
-			icon: "dragonloot:dragon_chestplate"
 		}
 	]
 	title: "&b&l✦ 떠돌이 보스들"

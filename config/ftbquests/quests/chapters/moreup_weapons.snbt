@@ -3,13 +3,26 @@
 	default_quest_shape: ""
 	filename: "moreup_weapons"
 	group: "7E05AA7C371599AC"
-	icon: "spartanweaponry:diamond_greatsword"
+	icon: {
+		Count: 1
+		id: "spartanweaponry:diamond_greatsword"
+		tag: {
+			Damage: 0
+		}
+	}
 	id: "77F3FCD4A9D6C65B"
-	order_index: 23
+	order_index: 24
 	quest_links: [ ]
 	quests: [
 		{
 			description: ["롱소드, 카타나, 대검, 창 등 무기마다 특성이 다르다. 하나를 골라 만들자."]
+			icon: {
+				Count: 1
+				id: "spartanweaponry:iron_longsword"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "7C099D03D8BD25D0"
 			rewards: [
 				{
@@ -24,20 +37,30 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "7E990C49F9698E0C"
-					item: "spartanweaponry:iron_longsword"
-					type: "item"
+			tasks: [{
+				id: "7E990C49F9698E0C"
+				item: {
+					Count: 1
+					id: "spartanweaponry:iron_longsword"
+					tag: {
+						Damage: 0
+					}
 				}
-			]
+				type: "item"
+			}]
 			title: "&7&l[ ✦ 스파르탄 무기 ]"
 			x: 0.0d
 			y: 0.0d
-			icon: "spartanweaponry:iron_longsword"
 		}
 		{
 			dependencies: ["7C099D03D8BD25D0"]
+			icon: {
+				Count: 1
+				id: "spartanweaponry:diamond_greatsword"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "6ED732256DBA1A61"
 			rewards: [
 				{
@@ -52,20 +75,30 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "7AC7D66F9F53F48A"
-					item: "spartanweaponry:diamond_greatsword"
-					type: "item"
+			tasks: [{
+				id: "7AC7D66F9F53F48A"
+				item: {
+					Count: 1
+					id: "spartanweaponry:diamond_greatsword"
+					tag: {
+						Damage: 0
+					}
 				}
-			]
+				type: "item"
+			}]
 			title: "&b&l[ ✦ 다이아몬드 무기 ]"
 			x: 1.75d
 			y: -3.0d
-			icon: "spartanweaponry:diamond_greatsword"
 		}
 		{
 			dependencies: ["6ED732256DBA1A61"]
+			icon: {
+				Count: 1
+				id: "spartanweaponry:netherite_longsword"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "7FBA0DD00FC06B89"
 			rewards: [
 				{
@@ -80,21 +113,31 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "2B9A1F954B053014"
-					item: "spartanweaponry:netherite_longsword"
-					type: "item"
+			tasks: [{
+				id: "2B9A1F954B053014"
+				item: {
+					Count: 1
+					id: "spartanweaponry:netherite_longsword"
+					tag: {
+						Damage: 0
+					}
 				}
-			]
+				type: "item"
+			}]
 			title: "&8&l[ ✦ 네더라이트 무기 ]"
 			x: 3.5d
 			y: -3.0d
-			icon: "spartanweaponry:netherite_longsword"
 		}
 		{
 			dependencies: ["6ED732256DBA1A61"]
 			description: ["황혼의 숲 재료로 만든 무기 (+10%)."]
+			icon: {
+				Count: 1
+				id: "spartantwilight:knightmetal_longsword"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "713678D3B17D71A4"
 			rewards: [
 				{
@@ -108,21 +151,31 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "799EE753BC1914C3"
-					item: "spartantwilight:knightmetal_longsword"
-					type: "item"
+			tasks: [{
+				id: "799EE753BC1914C3"
+				item: {
+					Count: 1
+					id: "spartantwilight:knightmetal_longsword"
+					tag: {
+						Damage: 0
+					}
 				}
-			]
+				type: "item"
+			}]
 			title: "&7&l[ ✦ 기사 금속 무기 ]"
 			x: 3.5d
 			y: -1.5d
-			icon: "spartantwilight:knightmetal_longsword"
 		}
 		{
 			dependencies: ["6ED732256DBA1A61"]
 			description: ["언더가든 재료로 만든 무기."]
+			icon: {
+				Count: 1
+				id: "spartanundergarden:froststeel_longsword"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "0DD3BBCCEC8B7AFD"
 			rewards: [
 				{
@@ -137,21 +190,31 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "7E5A5173EDFC9E1F"
-					item: "spartanundergarden:froststeel_longsword"
-					type: "item"
+			tasks: [{
+				id: "7E5A5173EDFC9E1F"
+				item: {
+					Count: 1
+					id: "spartanundergarden:froststeel_longsword"
+					tag: {
+						Damage: 0
+					}
 				}
-			]
+				type: "item"
+			}]
 			title: "&b&l[ ✦ 서리강철 무기 ]"
 			x: 3.5d
 			y: 0.0d
-			icon: "spartanundergarden:froststeel_longsword"
 		}
 		{
 			dependencies: ["7FBA0DD00FC06B89"]
 			description: ["드래곤 피로 단련한 뼈 (+20%)."]
+			icon: {
+				Count: 1
+				id: "spartanfire:flamed_dragon_bone_longsword"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "7958A8874DECBE3E"
 			rewards: [
 				{
@@ -165,20 +228,30 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "70BFF295885C5257"
-					item: "spartanfire:flamed_dragon_bone_longsword"
-					type: "item"
+			tasks: [{
+				id: "70BFF295885C5257"
+				item: {
+					Count: 1
+					id: "spartanfire:flamed_dragon_bone_longsword"
+					tag: {
+						Damage: 0
+					}
 				}
-			]
+				type: "item"
+			}]
 			title: "&c&l[ ✦ 피 먹인 드래곤뼈 무기 ]"
 			x: 5.25d
 			y: -0.75d
-			icon: "spartanfire:flamed_dragon_bone_longsword"
 		}
 		{
 			dependencies: ["7958A8874DECBE3E"]
+			icon: {
+				Count: 1
+				id: "spartanfire:fire_dragonsteel_longsword"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "187BEB7F071BBEE8"
 			rewards: [
 				{
@@ -193,21 +266,25 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "731C05B2B3879C02"
-					item: "spartanfire:fire_dragonsteel_longsword"
-					type: "item"
+			tasks: [{
+				id: "731C05B2B3879C02"
+				item: {
+					Count: 1
+					id: "spartanfire:fire_dragonsteel_longsword"
+					tag: {
+						Damage: 0
+					}
 				}
-			]
+				type: "item"
+			}]
 			title: "&6&l[ ✦ 드래곤스틸 무기 ]"
 			x: 7.0d
 			y: 0.0d
-			icon: "spartanfire:fire_dragonsteel_longsword"
 		}
 		{
 			dependencies: ["187BEB7F071BBEE8"]
 			description: ["Cataclysm 재료로 만든 최강의 스파르탄 무기 (+45%)."]
+			icon: "spartancataclysm:ignitium_longsword"
 			id: "6E16CED028E60B5E"
 			rewards: [
 				{
@@ -222,21 +299,25 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "0AC3279FB67A48F6"
-					item: "spartancataclysm:ignitium_longsword"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0AC3279FB67A48F6"
+				item: "spartancataclysm:ignitium_longsword"
+				type: "item"
+			}]
 			title: "&6&l[ ✦ 이그니티움 무기 ]"
 			x: 8.75d
 			y: 0.0d
-			icon: "spartancataclysm:ignitium_longsword"
 		}
 		{
 			dependencies: ["7C099D03D8BD25D0"]
 			description: ["카타나·창·도끼창·전투 망치·레이피어. 무기마다 공격 속도와 사거리가 다르다."]
+			icon: {
+				Count: 1
+				id: "spartanweaponry:iron_katana"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "430E813196A4B4DE"
 			rewards: [
 				{
@@ -254,38 +335,74 @@
 			tasks: [
 				{
 					id: "71F272E9A990C9C5"
-					item: "spartanweaponry:iron_katana"
+					item: {
+						Count: 1
+						id: "spartanweaponry:iron_katana"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 				{
 					id: "4C4A7484F1C3DEFB"
-					item: "spartanweaponry:iron_spear"
+					item: {
+						Count: 1
+						id: "spartanweaponry:iron_spear"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 				{
 					id: "132E419DD5B53C88"
-					item: "spartanweaponry:iron_halberd"
+					item: {
+						Count: 1
+						id: "spartanweaponry:iron_halberd"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 				{
 					id: "78FAF06D896A6355"
-					item: "spartanweaponry:iron_battle_hammer"
+					item: {
+						Count: 1
+						id: "spartanweaponry:iron_battle_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 				{
 					id: "79197B7C99537C00"
-					item: "spartanweaponry:iron_rapier"
+					item: {
+						Count: 1
+						id: "spartanweaponry:iron_rapier"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
 			title: "&7&l[ ✦ 스파르탄 무기 종류 ]"
 			x: 1.75d
 			y: -1.5d
-			icon: "spartanweaponry:iron_katana"
 		}
 		{
 			dependencies: ["7C099D03D8BD25D0"]
 			description: ["던지는 칼·토마호크·투창."]
+			icon: {
+				Count: 1
+				id: "spartanweaponry:iron_throwing_knife"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "7E81165499A7DD8C"
 			rewards: [
 				{
@@ -303,27 +420,51 @@
 			tasks: [
 				{
 					id: "4A93FCA0A3F1C9A0"
-					item: "spartanweaponry:iron_throwing_knife"
+					item: {
+						Count: 1
+						id: "spartanweaponry:iron_throwing_knife"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 				{
 					id: "74246D0652D3CA0E"
-					item: "spartanweaponry:iron_tomahawk"
+					item: {
+						Count: 1
+						id: "spartanweaponry:iron_tomahawk"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 				{
 					id: "70CA977FB857AF59"
-					item: "spartanweaponry:iron_javelin"
+					item: {
+						Count: 1
+						id: "spartanweaponry:iron_javelin"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
 			title: "&7&l[ ✦ 투척 무기 ]"
 			x: 1.75d
 			y: 0.0d
-			icon: "spartanweaponry:iron_throwing_knife"
 		}
 		{
 			dependencies: ["7C099D03D8BD25D0"]
+			icon: {
+				Count: 1
+				id: "spartanweaponry:iron_longbow"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "7BED51BC8BFBD833"
 			rewards: [
 				{
@@ -341,22 +482,40 @@
 			tasks: [
 				{
 					id: "7A6CB4584D9720AB"
-					item: "spartanweaponry:iron_longbow"
+					item: {
+						Count: 1
+						id: "spartanweaponry:iron_longbow"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 				{
 					id: "1FDEEA41AF02CB53"
-					item: "spartanweaponry:iron_heavy_crossbow"
+					item: {
+						Count: 1
+						id: "spartanweaponry:iron_heavy_crossbow"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
 			title: "&6&l[ ✦ 장궁과 중석궁 ]"
 			x: 1.75d
 			y: 1.5d
-			icon: "spartanweaponry:iron_longbow"
 		}
 		{
 			dependencies: ["6ED732256DBA1A61"]
+			icon: {
+				Count: 1
+				id: "spartanweaponry:diamond_scythe"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "4A69A675D5174B91"
 			rewards: [
 				{
@@ -374,28 +533,52 @@
 			tasks: [
 				{
 					id: "77EF2DDF75F76933"
-					item: "spartanweaponry:diamond_scythe"
+					item: {
+						Count: 1
+						id: "spartanweaponry:diamond_scythe"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 				{
 					id: "762D57559A6FB01D"
-					item: "spartanweaponry:diamond_warhammer"
+					item: {
+						Count: 1
+						id: "spartanweaponry:diamond_warhammer"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 				{
 					id: "7751AC322D47BD23"
-					item: "spartanweaponry:diamond_glaive"
+					item: {
+						Count: 1
+						id: "spartanweaponry:diamond_glaive"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
 			title: "&b&l[ ✦ 다이아몬드 대형 무기 ]"
 			x: 3.5d
 			y: 1.5d
-			icon: "spartanweaponry:diamond_scythe"
 		}
 		{
 			dependencies: ["7C099D03D8BD25D0"]
 			description: ["탑 방패는 막는 면이 넓다."]
+			icon: {
+				Count: 1
+				id: "spartanshields:iron_basic_shield"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "75D987DA3BC0BDFB"
 			rewards: [
 				{
@@ -413,22 +596,40 @@
 			tasks: [
 				{
 					id: "77A81C1DB2FF5DB7"
-					item: "spartanshields:iron_basic_shield"
+					item: {
+						Count: 1
+						id: "spartanshields:iron_basic_shield"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 				{
 					id: "784674A96E0B5DD2"
-					item: "spartanshields:iron_tower_shield"
+					item: {
+						Count: 1
+						id: "spartanshields:iron_tower_shield"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
 			title: "&7&l[ ✦ 스파르탄 방패 ]"
 			x: 1.75d
 			y: 3.0d
-			icon: "spartanshields:iron_basic_shield"
 		}
 		{
 			dependencies: ["75D987DA3BC0BDFB"]
+			icon: {
+				Count: 1
+				id: "spartanshields:diamond_tower_shield"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "75AA857C488171F2"
 			rewards: [
 				{
@@ -443,20 +644,33 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "7A7845DA0A8166B4"
-					item: "spartanshields:diamond_tower_shield"
-					type: "item"
+			tasks: [{
+				id: "7A7845DA0A8166B4"
+				item: {
+					Count: 1
+					id: "spartanshields:diamond_tower_shield"
+					tag: {
+						Damage: 0
+					}
 				}
-			]
+				type: "item"
+			}]
 			title: "&b&l[ ✦ 다이아몬드 탑 방패 ]"
 			x: 3.5d
 			y: 3.0d
-			icon: "spartanshields:diamond_tower_shield"
 		}
 		{
-			dependencies: ["75AA857C488171F2", "7FBA0DD00FC06B89"]
+			dependencies: [
+				"75AA857C488171F2"
+				"7FBA0DD00FC06B89"
+			]
+			icon: {
+				Count: 1
+				id: "spartanshields:netherite_tower_shield"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "2EE66127CC69FE99"
 			rewards: [
 				{
@@ -471,17 +685,20 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "71F1694A5CD4AD18"
-					item: "spartanshields:netherite_tower_shield"
-					type: "item"
+			tasks: [{
+				id: "71F1694A5CD4AD18"
+				item: {
+					Count: 1
+					id: "spartanshields:netherite_tower_shield"
+					tag: {
+						Damage: 0
+					}
 				}
-			]
+				type: "item"
+			}]
 			title: "&8&l[ ✦ 네더라이트 탑 방패 ]"
 			x: 5.25d
 			y: 0.75d
-			icon: "spartanshields:netherite_tower_shield"
 		}
 	]
 	title: "&b&l✦ 무기의 길"

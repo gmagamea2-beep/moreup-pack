@@ -11,6 +11,7 @@
 		{
 			dependencies: ["49DDE02C136AD914"]
 			description: ["축과 톱니로 회전력을 전달한다. (안산암 합금은 메인 스토리 1장 「첫 번째 심장 박동」)"]
+			icon: "create:cogwheel"
 			id: "63255824B4DCB7EF"
 			rewards: [
 				{
@@ -42,11 +43,11 @@
 			title: "&e&l[ ✦ 톱니바퀴 ]"
 			x: 0.0d
 			y: 0.0d
-			icon: "create:cogwheel"
 		}
 		{
 			dependencies: ["63255824B4DCB7EF"]
 			description: ["흐르는 물로 첫 회전력을 얻자."]
+			icon: "create:water_wheel"
 			id: "7FBE4F399268B176"
 			rewards: [
 				{
@@ -61,21 +62,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "797D2F610B5D32F2"
-					item: "create:water_wheel"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "797D2F610B5D32F2"
+				item: "create:water_wheel"
+				type: "item"
+			}]
 			title: "&b&l[ ✦ 물레방아 ]"
 			x: 1.75d
 			y: -1.5d
-			icon: "create:water_wheel"
 		}
 		{
 			dependencies: ["7FBE4F399268B176"]
 			description: ["광석과 곡식을 갈아 보자."]
+			icon: "create:millstone"
 			id: "6BEECB2D536E90D2"
 			rewards: [
 				{
@@ -90,21 +89,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "777C9269619FCC65"
-					item: "create:millstone"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "777C9269619FCC65"
+				item: "create:millstone"
+				type: "item"
+			}]
 			title: "&7&l[ ✦ 맷돌 ]"
 			x: 3.5d
 			y: -5.25d
-			icon: "create:millstone"
 		}
 		{
 			dependencies: ["63255824B4DCB7EF"]
 			description: ["기계 부품의 기본 외장."]
+			icon: "create:andesite_casing"
 			id: "725030B874253575"
 			rewards: [
 				{
@@ -119,22 +116,20 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					count: 8L
-					id: "04A0CBF46A6A0C06"
-					item: "create:andesite_casing"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 8L
+				id: "04A0CBF46A6A0C06"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
 			title: "&7&l[ ✦ 안산암 케이스 ]"
 			x: 1.75d
 			y: 0.0d
-			icon: "create:andesite_casing"
 		}
 		{
 			dependencies: ["725030B874253575"]
 			description: ["판을 찍어 내자."]
+			icon: "create:mechanical_press"
 			id: "7FA75A851A6E065B"
 			rewards: [
 				{
@@ -149,21 +144,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "3DC583C69F8EB5D6"
-					item: "create:mechanical_press"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3DC583C69F8EB5D6"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
 			title: "&6&l[ ✦ 기계식 압착기 ]"
 			x: 3.5d
 			y: -3.75d
-			icon: "create:mechanical_press"
 		}
 		{
 			dependencies: ["7FA75A851A6E065B"]
 			description: ["대야 위에서 섞어 합금을 만든다."]
+			icon: "create:mechanical_mixer"
 			id: "00B760B5308B6330"
 			rewards: [
 				{
@@ -193,11 +186,11 @@
 			title: "&6&l[ ✦ 믹서와 대야 ]"
 			x: 5.25d
 			y: -4.5d
-			icon: "create:mechanical_mixer"
 		}
 		{
 			dependencies: ["00B760B5308B6330"]
 			description: ["바람에 물·용암·불을 거쳐 세척·굽기·제련을 한다."]
+			icon: "create:encased_fan"
 			id: "648C72B201DBAF90"
 			rewards: [
 				{
@@ -212,21 +205,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "7E0BD39E208CC0C7"
-					item: "create:encased_fan"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7E0BD39E208CC0C7"
+				item: "create:encased_fan"
+				type: "item"
+			}]
 			title: "&b&l[ ✦ 선풍기 ]"
 			x: 7.0d
 			y: -0.75d
-			icon: "create:encased_fan"
 		}
 		{
 			dependencies: ["00B760B5308B6330"]
 			description: ["구리와 아연을 섞어 황동을 만든다."]
+			icon: "create:brass_ingot"
 			id: "7FC60659B4349DDA"
 			rewards: [
 				{
@@ -241,22 +232,20 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					count: 16L
-					id: "38DCA5E6C4003329"
-					item: "create:brass_ingot"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 16L
+				id: "38DCA5E6C4003329"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
 			title: "&6&l[ ✦ 황동 ]"
 			x: 7.0d
 			y: 0.75d
-			icon: "create:brass_ingot"
 		}
 		{
 			dependencies: ["7FC60659B4349DDA"]
 			description: ["정교한 기계의 외장."]
+			icon: "create:brass_casing"
 			id: "7BEDC5D06597EBEE"
 			rewards: [
 				{
@@ -271,22 +260,20 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					count: 8L
-					id: "4F2E545CD2C41DD9"
-					item: "create:brass_casing"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 8L
+				id: "4F2E545CD2C41DD9"
+				item: "create:brass_casing"
+				type: "item"
+			}]
 			title: "&6&l[ ✦ 황동 케이스 ]"
 			x: 8.75d
 			y: -2.25d
-			icon: "create:brass_casing"
 		}
 		{
 			dependencies: ["7BEDC5D06597EBEE"]
 			description: ["논리 부품의 핵심."]
+			icon: "create:electron_tube"
 			id: "77D29ACB5D57598D"
 			rewards: [
 				{
@@ -301,22 +288,20 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					count: 4L
-					id: "7EF49CB46CA057C5"
-					item: "create:electron_tube"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 4L
+				id: "7EF49CB46CA057C5"
+				item: "create:electron_tube"
+				type: "item"
+			}]
 			title: "&e&l[ ✦ 전자관 ]"
 			x: 10.5d
 			y: -2.25d
-			icon: "create:electron_tube"
 		}
 		{
 			dependencies: ["77D29ACB5D57598D"]
 			description: ["조립 순서대로 만드는 부품. &e세계의 파편: 기술&r의 재료다."]
+			icon: "create:precision_mechanism"
 			id: "4DB7F2AEA13DC084"
 			rewards: [
 				{
@@ -331,21 +316,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "774BE1AC86A8D900"
-					item: "create:precision_mechanism"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "774BE1AC86A8D900"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
 			title: "&6&l[ ✦ 정밀 기계 장치 ]"
 			x: 12.25d
 			y: -2.25d
-			icon: "create:precision_mechanism"
 		}
 		{
 			dependencies: ["4DB7F2AEA13DC084"]
 			description: ["아이템을 집어 옮기는 자동화의 손."]
+			icon: "create:mechanical_arm"
 			id: "73B762734E896416"
 			rewards: [
 				{
@@ -360,21 +343,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "7E7F4DD5DB3FE717"
-					item: "create:mechanical_arm"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7E7F4DD5DB3FE717"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
 			title: "&e&l[ ✦ 기계 팔 ]"
 			x: 14.0d
 			y: -2.25d
-			icon: "create:mechanical_arm"
 		}
 		{
 			dependencies: ["7FC60659B4349DDA"]
 			description: ["블레이즈 버너로 물을 끓여 큰 힘을 얻자."]
+			icon: "create:steam_engine"
 			id: "38BC0CB987F82194"
 			rewards: [
 				{
@@ -404,11 +385,11 @@
 			title: "&c&l[ ✦ 증기 엔진 ]"
 			x: 8.75d
 			y: -0.75d
-			icon: "create:steam_engine"
 		}
 		{
 			dependencies: ["38BC0CB987F82194"]
 			description: ["광석을 부숴 더 많은 광물을 얻는다."]
+			icon: "create:crushing_wheel"
 			id: "44957A3AC2113E69"
 			rewards: [
 				{
@@ -423,22 +404,20 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					count: 2L
-					id: "7A93A8F733A8F290"
-					item: "create:crushing_wheel"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 2L
+				id: "7A93A8F733A8F290"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
 			title: "&7&l[ ✦ 분쇄 바퀴 ]"
 			x: 10.5d
 			y: -0.75d
-			icon: "create:crushing_wheel"
 		}
 		{
 			dependencies: ["4DB7F2AEA13DC084"]
 			description: ["선로를 깔고 역을 세우자."]
+			icon: "create:track"
 			id: "74D45145022DB0BD"
 			rewards: [
 				{
@@ -469,11 +448,11 @@
 			title: "&6&l[ ✦ 기차의 시대 ]"
 			x: 14.0d
 			y: -0.75d
-			icon: "create:track"
 		}
 		{
 			dependencies: ["74D45145022DB0BD"]
 			description: ["대용량 저장 창고."]
+			icon: "create:item_vault"
 			id: "76D43B6AE86797DD"
 			rewards: [
 				{
@@ -488,22 +467,20 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					count: 4L
-					id: "700BE6770362C827"
-					item: "create:item_vault"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 4L
+				id: "700BE6770362C827"
+				item: "create:item_vault"
+				type: "item"
+			}]
 			title: "&7&l[ ✦ 아이템 금고 ]"
 			x: 15.75d
 			y: 0.0d
-			icon: "create:item_vault"
 		}
 		{
 			dependencies: ["63255824B4DCB7EF"]
 			description: ["고글을 쓰면 기계의 회전 속도·피로도가 보인다. 렌치로 블록을 돌리고 회수한다."]
+			icon: "create:goggles"
 			id: "73FACA38068F8DA2"
 			rewards: [
 				{
@@ -533,11 +510,11 @@
 			title: "&e&l[ ✦ 엔지니어의 고글과 렌치 ]"
 			x: 1.75d
 			y: 1.5d
-			icon: "create:goggles"
 		}
 		{
 			dependencies: ["725030B874253575"]
 			description: ["벨트로 아이템을 옮기고, 거치대 위에서 가공한다."]
+			icon: "create:belt_connector"
 			id: "6DFCD6AFB7864414"
 			rewards: [
 				{
@@ -568,11 +545,11 @@
 			title: "&6&l[ ✦ 벨트와 거치대 ]"
 			x: 3.5d
 			y: -2.25d
-			icon: "create:belt_connector"
 		}
 		{
 			dependencies: ["6DFCD6AFB7864414"]
 			description: ["퍼널은 상자와 벨트 사이로 아이템을 넣고 빼고, 터널은 벨트 위 아이템을 나눈다."]
+			icon: "create:andesite_funnel"
 			id: "168BE3423F8FD6D8"
 			rewards: [
 				{
@@ -604,11 +581,11 @@
 			title: "&7&l[ ✦ 퍼널과 터널 ]"
 			x: 5.25d
 			y: -3.0d
-			icon: "create:andesite_funnel"
 		}
 		{
 			dependencies: ["6DFCD6AFB7864414"]
 			description: ["아이템을 정한 곳까지 던져 보낸다."]
+			icon: "create:weighted_ejector"
 			id: "5F566D81F3D0DC0C"
 			rewards: [
 				{
@@ -623,21 +600,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "7C67AC4EBD0FD678"
-					item: "create:weighted_ejector"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7C67AC4EBD0FD678"
+				item: "create:weighted_ejector"
+				type: "item"
+			}]
 			title: "&e&l[ ✦ 투척기 ]"
 			x: 5.25d
 			y: -1.5d
-			icon: "create:weighted_ejector"
 		}
 		{
 			dependencies: ["725030B874253575"]
 			description: ["나무를 베고 판자로 켠다."]
+			icon: "create:mechanical_saw"
 			id: "78817351133CE785"
 			rewards: [
 				{
@@ -652,21 +627,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "7C5DA32D3A7E2CD6"
-					item: "create:mechanical_saw"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7C5DA32D3A7E2CD6"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
 			title: "&7&l[ ✦ 톱 ]"
 			x: 3.5d
 			y: -0.75d
-			icon: "create:mechanical_saw"
 		}
 		{
 			dependencies: ["725030B874253575"]
 			description: ["앞의 블록을 부순다. 움직이는 구조물에 달면 터널을 판다."]
+			icon: "create:mechanical_drill"
 			id: "742EA5BE544DF156"
 			rewards: [
 				{
@@ -681,21 +654,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "7F43696C70B7B554"
-					item: "create:mechanical_drill"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7F43696C70B7B554"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
 			title: "&7&l[ ✦ 드릴 ]"
 			x: 3.5d
 			y: 0.75d
-			icon: "create:mechanical_drill"
 		}
 		{
 			dependencies: ["742EA5BE544DF156"]
 			description: ["움직이는 구조물에 달아 밭을 자동으로 거두고 간다."]
+			icon: "create:mechanical_harvester"
 			id: "7F542ECAE8306E34"
 			rewards: [
 				{
@@ -725,11 +696,11 @@
 			title: "&a&l[ ✦ 수확기와 쟁기 ]"
 			x: 5.25d
 			y: 0.0d
-			icon: "create:mechanical_harvester"
 		}
 		{
 			dependencies: ["77D29ACB5D57598D"]
 			description: ["손에 든 아이템으로 블록을 누르고 쓰는 기계 손. 순서 조립의 핵심."]
+			icon: "create:deployer"
 			id: "6B29274782C42840"
 			rewards: [
 				{
@@ -744,21 +715,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "621F3E8B3E4F373A"
-					item: "create:deployer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "621F3E8B3E4F373A"
+				item: "create:deployer"
+				type: "item"
+			}]
 			title: "&6&l[ ✦ 기계 손 ]"
 			x: 12.25d
 			y: -0.75d
-			icon: "create:deployer"
 		}
 		{
 			dependencies: ["725030B874253575"]
 			description: ["액체를 파이프로 옮기고 탱크에 담는다."]
+			icon: "create:fluid_pipe"
 			id: "05C2FCCBFD5D2E86"
 			rewards: [
 				{
@@ -795,11 +764,11 @@
 			title: "&9&l[ ✦ 파이프와 펌프 ]"
 			x: 3.5d
 			y: 2.25d
-			icon: "create:fluid_pipe"
 		}
 		{
 			dependencies: ["05C2FCCBFD5D2E86"]
 			description: ["주입기는 아래 아이템에 액체를 붓고, 배수구는 아이템에서 액체를 뽑는다."]
+			icon: "create:spout"
 			id: "0B9477E22432EB77"
 			rewards: [
 				{
@@ -829,11 +798,11 @@
 			title: "&9&l[ ✦ 주입기와 아이템 배수구 ]"
 			x: 5.25d
 			y: 1.5d
-			icon: "create:spout"
 		}
 		{
 			dependencies: ["725030B874253575"]
 			description: ["베어링에 섀시와 강력 접착제로 블록을 붙여 통째로 돌린다."]
+			icon: "create:mechanical_bearing"
 			id: "73B0EE39ABEC0167"
 			rewards: [
 				{
@@ -862,18 +831,24 @@
 				}
 				{
 					id: "0150C7EC2723D9E0"
-					item: "create:super_glue"
+					item: {
+						Count: 1
+						id: "create:super_glue"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
 			title: "&6&l[ ✦ 움직이는 구조물 ]"
 			x: 3.5d
 			y: 3.75d
-			icon: "create:mechanical_bearing"
 		}
 		{
 			dependencies: ["73B0EE39ABEC0167"]
 			description: ["풍차 베어링에 날개를 붙이면 바람으로 회전력을 얻는다."]
+			icon: "create:windmill_bearing"
 			id: "322D64D96B6E6AEF"
 			rewards: [
 				{
@@ -904,11 +879,14 @@
 			title: "&f&l[ ✦ 풍차 ]"
 			x: 5.25d
 			y: 3.0d
-			icon: "create:windmill_bearing"
 		}
 		{
-			dependencies: ["73B0EE39ABEC0167", "7FC60659B4349DDA"]
+			dependencies: [
+				"73B0EE39ABEC0167"
+				"7FC60659B4349DDA"
+			]
 			description: ["층을 오가는 엘리베이터를 만든다."]
+			icon: "create:elevator_pulley"
 			id: "77C61DC9A45D572C"
 			rewards: [
 				{
@@ -923,21 +901,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "77489068745DDEB3"
-					item: "create:elevator_pulley"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "77489068745DDEB3"
+				item: "create:elevator_pulley"
+				type: "item"
+			}]
 			title: "&6&l[ ✦ 엘리베이터 도르래 ]"
 			x: 8.75d
 			y: 0.75d
-			icon: "create:elevator_pulley"
 		}
 		{
 			dependencies: ["7BEDC5D06597EBEE"]
 			description: ["여러 대를 붙여 큰 조합법을 자동으로 만든다."]
+			icon: "create:mechanical_crafter"
 			id: "3FF1E0A3BCE955A3"
 			rewards: [
 				{
@@ -952,22 +928,20 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					count: 4L
-					id: "70860F4953BD4DA0"
-					item: "create:mechanical_crafter"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 4L
+				id: "70860F4953BD4DA0"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
 			title: "&e&l[ ✦ 조합기 ]"
 			x: 10.5d
 			y: 0.75d
-			icon: "create:mechanical_crafter"
 		}
 		{
 			dependencies: ["7FC60659B4349DDA"]
 			description: ["설계도 탁자로 건물을 설계도로 옮기고, 대포가 그대로 지어 준다."]
+			icon: "create:schematicannon"
 			id: "7631F4A59C34868C"
 			rewards: [
 				{
@@ -997,11 +971,11 @@
 			title: "&e&l[ ✦ 설계도 대포 ]"
 			x: 8.75d
 			y: 2.25d
-			icon: "create:schematicannon"
 		}
 		{
 			dependencies: ["725030B874253575"]
 			description: ["산소통과 다이빙 헬멧으로 물속에서 오래 버틴다."]
+			icon: "create:copper_backtank"
 			id: "222CE97E5BE37866"
 			rewards: [
 				{
@@ -1024,23 +998,35 @@
 				}
 				{
 					id: "34B546663222811D"
-					item: "create:copper_diving_helmet"
+					item: {
+						Count: 1
+						id: "create:copper_diving_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 				{
 					id: "0F34C810F669638F"
-					item: "create:copper_diving_boots"
+					item: {
+						Count: 1
+						id: "create:copper_diving_boots"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
 			title: "&6&l[ ✦ 다이빙 장비 ]"
 			x: 3.5d
 			y: 5.25d
-			icon: "create:copper_backtank"
 		}
 		{
 			dependencies: ["222CE97E5BE37866"]
 			description: ["용암 속에서도 버티는 다이빙 장비."]
+			icon: "create:netherite_backtank"
 			id: "5A3E28816C3BA8BD"
 			rewards: [
 				{
@@ -1063,18 +1049,24 @@
 				}
 				{
 					id: "0A47744774F0E5E5"
-					item: "create:netherite_diving_helmet"
+					item: {
+						Count: 1
+						id: "create:netherite_diving_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
 			title: "&8&l[ ✦ 네더라이트 다이빙 장비 ]"
 			x: 5.25d
 			y: 4.5d
-			icon: "create:netherite_backtank"
 		}
 		{
 			dependencies: ["77D29ACB5D57598D"]
 			description: ["기계·창고의 정보를 화면이나 닉시관에 띄운다."]
+			icon: "create:display_link"
 			id: "7943652E3583375E"
 			rewards: [
 				{
@@ -1111,11 +1103,11 @@
 			title: "&b&l[ ✦ 디스플레이 링크 ]"
 			x: 12.25d
 			y: 0.75d
-			icon: "create:display_link"
 		}
 		{
 			dependencies: ["77D29ACB5D57598D"]
 			description: ["선 없이 레드스톤 신호를 보내고, 조작기로 원격 조종한다."]
+			icon: "create:redstone_link"
 			id: "507C9106D565206A"
 			rewards: [
 				{
@@ -1146,11 +1138,11 @@
 			title: "&c&l[ ✦ 레드스톤 링크 ]"
 			x: 12.25d
 			y: 2.25d
-			icon: "create:redstone_link"
 		}
 		{
 			dependencies: ["4DB7F2AEA13DC084"]
 			description: ["포장기가 아이템을 상자로 싸고, 재고 링크·확인기로 주문하면 개구리포트가 배달한다."]
+			icon: "create:packager"
 			id: "72ADEE168715F46F"
 			rewards: [
 				{
@@ -1190,11 +1182,11 @@
 			title: "&e&l[ ✦ 택배 물류 ]"
 			x: 14.0d
 			y: 0.75d
-			icon: "create:packager"
 		}
 		{
 			dependencies: ["4DB7F2AEA13DC084"]
 			description: ["색채 혼합물을 어둠 속에서는 그림자 강철로, 빛 속에서는 정제된 광채로 바꾼다."]
+			icon: "create:shadow_steel"
 			id: "72D19352A1D0B9F9"
 			rewards: [
 				{
@@ -1224,11 +1216,11 @@
 			title: "&5&l[ ✦ 그림자 강철과 정제된 광채 ]"
 			x: 14.0d
 			y: 2.25d
-			icon: "create:shadow_steel"
 		}
 		{
 			dependencies: ["38BC0CB987F82194"]
 			description: ["블레이즈 버너에 먹이면 잠시 과열 상태가 되어 더 높은 열이 필요한 조합을 할 수 있다."]
+			icon: "create:blaze_cake"
 			id: "4340C2911E2F8FF5"
 			rewards: [
 				{
@@ -1243,17 +1235,14 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "00C447B954D78E0D"
-					item: "create:blaze_cake"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "00C447B954D78E0D"
+				item: "create:blaze_cake"
+				type: "item"
+			}]
 			title: "&c&l[ ✦ 블레이즈 케이크 ]"
 			x: 10.5d
 			y: 2.25d
-			icon: "create:blaze_cake"
 		}
 	]
 	title: "&b&l✦ 톱니와 증기 (Create)"

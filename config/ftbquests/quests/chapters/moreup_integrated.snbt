@@ -10,6 +10,7 @@
 	quests: [
 		{
 			description: ["논리 케이블로 블록을 읽고 쓰는 자동화 모드. 안내서부터."]
+			icon: "integrateddynamics:on_the_dynamics_of_integration"
 			id: "706DADFFA82D1725"
 			rewards: [
 				{
@@ -24,21 +25,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "41F22522C9CD2E8C"
-					item: "integrateddynamics:on_the_dynamics_of_integration"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "41F22522C9CD2E8C"
+				item: "integrateddynamics:on_the_dynamics_of_integration"
+				type: "item"
+			}]
 			title: "&3&l[ ✦ 통합의 역학에 관하여 ]"
 			x: 0.0d
 			y: 0.0d
-			icon: "integrateddynamics:on_the_dynamics_of_integration"
 		}
 		{
 			dependencies: ["706DADFFA82D1725"]
 			description: ["멘릴 나무의 수지를 건조대에서 말려 얻는다."]
+			icon: "integrateddynamics:crystalized_menril_chunk"
 			id: "7FAF6E7139A4510F"
 			rewards: [
 				{
@@ -53,21 +52,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					count: 16L
-					id: "74BE81B91602B400"
-					item: "integrateddynamics:crystalized_menril_chunk"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 16L
+				id: "74BE81B91602B400"
+				item: "integrateddynamics:crystalized_menril_chunk"
+				type: "item"
+			}]
 			title: "&b&l[ ✦ 결정화된 멘릴 덩어리 ]"
 			x: 1.75d
 			y: -0.75d
-			icon: "integrateddynamics:crystalized_menril_chunk"
 		}
 		{
 			dependencies: ["706DADFFA82D1725"]
+			icon: "integrateddynamics:drying_basin"
 			id: "7B4A66CD35A88791"
 			rewards: [
 				{
@@ -97,10 +94,10 @@
 			title: "&7&l[ ✦ 건조대와 압착기 ]"
 			x: 1.75d
 			y: 0.75d
-			icon: "integrateddynamics:drying_basin"
 		}
 		{
 			dependencies: ["7FAF6E7139A4510F"]
+			icon: "integrateddynamics:cable"
 			id: "30A716562E7126C2"
 			rewards: [
 				{
@@ -131,11 +128,11 @@
 			title: "&3&l[ ✦ 논리 케이블과 렌치 ]"
 			x: 3.5d
 			y: 0.0d
-			icon: "integrateddynamics:cable"
 		}
 		{
 			dependencies: ["30A716562E7126C2"]
 			description: ["상자의 내용을 읽어 값으로 만든다."]
+			icon: "integrateddynamics:part_inventory_reader"
 			id: "74A995099ACF54FC"
 			rewards: [
 				{
@@ -150,21 +147,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "76ECE8322A2F7CAF"
-					item: "integrateddynamics:part_inventory_reader"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "76ECE8322A2F7CAF"
+				item: "integrateddynamics:part_inventory_reader"
+				type: "item"
+			}]
 			title: "&e&l[ ✦ 인벤토리 리더 ]"
 			x: 5.25d
 			y: -0.75d
-			icon: "integrateddynamics:part_inventory_reader"
 		}
 		{
 			dependencies: ["74A995099ACF54FC"]
 			description: ["값과 연산을 변수 카드에 담는다."]
+			icon: "integrateddynamics:logic_programmer"
 			id: "48D13DB388E81019"
 			rewards: [
 				{
@@ -195,11 +190,11 @@
 			title: "&6&l[ ✦ 논리 프로그래머 ]"
 			x: 7.0d
 			y: 0.0d
-			icon: "integrateddynamics:logic_programmer"
 		}
 		{
 			dependencies: ["48D13DB388E81019"]
 			description: ["변수 카드를 네트워크에 꽂아 둔다."]
+			icon: "integrateddynamics:variablestore"
 			id: "7B84843D0D41866A"
 			rewards: [
 				{
@@ -214,21 +209,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "7B097D0A94D8E480"
-					item: "integrateddynamics:variablestore"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7B097D0A94D8E480"
+				item: "integrateddynamics:variablestore"
+				type: "item"
+			}]
 			title: "&7&l[ ✦ 변수 저장소 ]"
 			x: 8.75d
 			y: -0.75d
-			icon: "integrateddynamics:variablestore"
 		}
 		{
 			dependencies: ["48D13DB388E81019"]
 			description: ["값을 화면에 띄운다."]
+			icon: "integrateddynamics:part_display_panel"
 			id: "25D279441CD7CD47"
 			rewards: [
 				{
@@ -243,20 +236,18 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "4779DF461901BE4B"
-					item: "integrateddynamics:part_display_panel"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4779DF461901BE4B"
+				item: "integrateddynamics:part_display_panel"
+				type: "item"
+			}]
 			title: "&b&l[ ✦ 디스플레이 패널 ]"
 			x: 8.75d
 			y: 0.75d
-			icon: "integrateddynamics:part_display_panel"
 		}
 		{
 			dependencies: ["30A716562E7126C2"]
+			icon: "integrateddynamics:coal_generator"
 			id: "71C5732C6CBCDACB"
 			rewards: [
 				{
@@ -286,11 +277,11 @@
 			title: "&e&l[ ✦ 발전기와 에너지 배터리 ]"
 			x: 5.25d
 			y: 0.75d
-			icon: "integrateddynamics:coal_generator"
 		}
 		{
 			dependencies: ["7B84843D0D41866A"]
 			description: ["변수를 실제 아이템으로 만든다."]
+			icon: "integrateddynamics:materializer"
 			id: "7ED0C5251E2B7A0D"
 			rewards: [
 				{
@@ -305,17 +296,14 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "3FAF17C46ABAE3BA"
-					item: "integrateddynamics:materializer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3FAF17C46ABAE3BA"
+				item: "integrateddynamics:materializer"
+				type: "item"
+			}]
 			title: "&d&l[ ✦ 구체화장치 ]"
 			x: 10.5d
 			y: 0.0d
-			icon: "integrateddynamics:materializer"
 		}
 	]
 	title: "&b&l✦ 통합 역학 (Integrated Dynamics)"

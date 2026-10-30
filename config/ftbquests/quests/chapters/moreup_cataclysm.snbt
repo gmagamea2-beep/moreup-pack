@@ -10,6 +10,7 @@
 	quests: [
 		{
 			description: ["엔더 성채 주변의 거대한 골렘."]
+			icon: "cataclysm:ender_golem_spawn_egg"
 			id: "40A09AD527E4AD7B"
 			rewards: [
 				{
@@ -30,6 +31,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "cataclysm:ender_golem"
@@ -41,11 +43,10 @@
 			title: "&5&l[ ⚔ 엔더 골렘 ]"
 			x: 0.0d
 			y: 0.0d
-			icon: "cataclysm:ender_golem_spawn_egg"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["40A09AD527E4AD7B"]
+			icon: "cataclysm:the_prowler_spawn_egg"
 			id: "372AE85B49983247"
 			rewards: [
 				{
@@ -66,6 +67,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "cataclysm:the_prowler"
@@ -77,11 +79,10 @@
 			title: "&7&l[ ⚔ 프라울러 ]"
 			x: 1.75d
 			y: -5.25d
-			icon: "cataclysm:the_prowler_spawn_egg"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["372AE85B49983247"]
+			icon: "cataclysm:void_core"
 			id: "78B6E50574439EAE"
 			rewards: [
 				{
@@ -102,6 +103,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "cataclysm:ender_guardian"
@@ -113,11 +115,10 @@
 			title: "&5&l[ ⚔ 엔더 가디언 ]"
 			x: 3.5d
 			y: -5.25d
-			icon: "cataclysm:void_core"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["78B6E50574439EAE"]
+			icon: "cataclysm:void_core"
 			id: "2AEC281070208502"
 			rewards: [
 				{
@@ -142,11 +143,11 @@
 			title: "&5&l[ ✦ 공허의 핵 ]"
 			x: 5.25d
 			y: -3.75d
-			icon: "cataclysm:void_core"
 		}
 		{
 			dependencies: ["40A09AD527E4AD7B"]
 			description: ["위더의 기계 사도."]
+			icon: "cataclysm:witherite_ingot"
 			id: "7606ADACA99106CD"
 			rewards: [
 				{
@@ -166,6 +167,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "cataclysm:the_harbinger"
@@ -177,11 +179,10 @@
 			title: "&4&l[ ⚔ 하빈저 ]"
 			x: 1.75d
 			y: -3.75d
-			icon: "cataclysm:witherite_ingot"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["7606ADACA99106CD"]
+			icon: "cataclysm:witherite_ingot"
 			id: "72F09941B139DD86"
 			rewards: [
 				{
@@ -206,11 +207,11 @@
 			title: "&8&l[ ✦ 위더라이트 주괴 ]"
 			x: 3.5d
 			y: -3.75d
-			icon: "cataclysm:witherite_ingot"
 		}
 		{
 			dependencies: ["7606ADACA99106CD"]
 			description: ["네더의 용암 요새."]
+			icon: "cataclysm:monstrous_horn"
 			id: "7E9BC7E8533C073C"
 			rewards: [
 				{
@@ -231,6 +232,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "cataclysm:netherite_monstrosity"
@@ -242,11 +244,10 @@
 			title: "&c&l[ ⚔ 네더라이트 몬스트로시티 ]"
 			x: 3.5d
 			y: -2.25d
-			icon: "cataclysm:monstrous_horn"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["7E9BC7E8533C073C"]
+			icon: "cataclysm:monstrous_horn"
 			id: "7C338CDA10B8EA7C"
 			rewards: [
 				{
@@ -271,11 +272,11 @@
 			title: "&c&l[ ✦ 괴물의 뿔 ]"
 			x: 5.25d
 			y: -2.25d
-			icon: "cataclysm:monstrous_horn"
 		}
 		{
 			dependencies: ["7606ADACA99106CD"]
 			description: ["심해의 왕."]
+			icon: "cataclysm:abyssal_egg"
 			id: "7655FEEDD3468043"
 			rewards: [
 				{
@@ -295,6 +296,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "cataclysm:the_leviathan"
@@ -306,12 +308,11 @@
 			title: "&3&l[ ⚔ 레비아탄 ]"
 			x: 3.5d
 			y: -0.75d
-			icon: "cataclysm:abyssal_egg"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["7606ADACA99106CD"]
 			description: ["사막 깊은 곳의 고대 존재."]
+			icon: "cataclysm:remnant_skull"
 			id: "7C0D32AAA1AC0150"
 			rewards: [
 				{
@@ -331,6 +332,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "cataclysm:ancient_remnant"
@@ -342,11 +344,10 @@
 			title: "&6&l[ ⚔ 고대의 잔해 ]"
 			x: 3.5d
 			y: 0.75d
-			icon: "cataclysm:remnant_skull"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["7606ADACA99106CD"]
+			icon: "cataclysm:cursium_ingot"
 			id: "7792E230A1B61B23"
 			rewards: [
 				{
@@ -367,6 +368,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "cataclysm:maledictus"
@@ -378,11 +380,10 @@
 			title: "&b&l[ ⚔ 말레딕투스 ]"
 			x: 3.5d
 			y: 2.25d
-			icon: "cataclysm:cursium_ingot"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["7606ADACA99106CD"]
+			icon: "cataclysm:essence_of_the_storm"
 			id: "75950DF7D7A1F962"
 			rewards: [
 				{
@@ -403,6 +404,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "cataclysm:scylla"
@@ -414,12 +416,11 @@
 			title: "&9&l[ ⚔ 스킬라 ]"
 			x: 3.5d
 			y: 3.75d
-			icon: "cataclysm:essence_of_the_storm"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["7E9BC7E8533C073C", "7655FEEDD3468043", "7C0D32AAA1AC0150", "7792E230A1B61B23", "75950DF7D7A1F962"]
 			description: ["불꽃의 기사. 최종 보스에 버금가는 1티어 보스."]
+			icon: "cataclysm:ignitium_ingot"
 			id: "722C6806E3F3A942"
 			rewards: [
 				{
@@ -440,6 +441,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "cataclysm:ignis"
@@ -451,12 +453,11 @@
 			title: "&6&l[ ⚔ 이그니스 ]"
 			x: 5.25d
 			y: -0.75d
-			icon: "cataclysm:ignitium_ingot"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["722C6806E3F3A942"]
 			description: ["대보스 8종의 증표를 모으면 &e세계의 파편: 전쟁&r을 만들 수 있다."]
+			icon: "cataclysm:ignitium_ingot"
 			id: "743D097D51B18A81"
 			rewards: [
 				{
@@ -515,10 +516,10 @@
 			title: "&4&l[ ✦ 대재앙의 증표 ]"
 			x: 7.0d
 			y: -0.75d
-			icon: "cataclysm:ignitium_ingot"
 		}
 		{
 			dependencies: ["40A09AD527E4AD7B"]
+			icon: "cataclysm:coral_golem_spawn_egg"
 			id: "7A4CB90AEFA16FFD"
 			rewards: [
 				{
@@ -539,6 +540,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "cataclysm:coral_golem"
@@ -550,11 +552,10 @@
 			title: "&3&l[ ⚔ 코랄 골렘 ]"
 			x: 1.75d
 			y: -2.25d
-			icon: "cataclysm:coral_golem_spawn_egg"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["7A4CB90AEFA16FFD"]
+			icon: "cataclysm:coralssus_spawn_egg"
 			id: "28974621B61273F3"
 			rewards: [
 				{
@@ -575,6 +576,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "cataclysm:coralssus"
@@ -586,11 +588,10 @@
 			title: "&3&l[ ⚔ 코랄서스 ]"
 			x: 3.5d
 			y: 5.25d
-			icon: "cataclysm:coralssus_spawn_egg"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["40A09AD527E4AD7B"]
+			icon: "cataclysm:kobolediator_spawn_egg"
 			id: "108A1C5770C2EF64"
 			rewards: [
 				{
@@ -611,6 +612,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "cataclysm:kobolediator"
@@ -622,11 +624,10 @@
 			title: "&6&l[ ⚔ 코볼레디에이터 ]"
 			x: 1.75d
 			y: -0.75d
-			icon: "cataclysm:kobolediator_spawn_egg"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["40A09AD527E4AD7B"]
+			icon: "cataclysm:wadjet_spawn_egg"
 			id: "2AC060D442E60A5E"
 			rewards: [
 				{
@@ -647,6 +648,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "cataclysm:wadjet"
@@ -658,11 +660,10 @@
 			title: "&e&l[ ⚔ 바제트 ]"
 			x: 1.75d
 			y: 0.75d
-			icon: "cataclysm:wadjet_spawn_egg"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["40A09AD527E4AD7B"]
+			icon: "cataclysm:aptrgangr_spawn_egg"
 			id: "7017371AADFDBBE4"
 			rewards: [
 				{
@@ -683,6 +684,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "cataclysm:aptrgangr"
@@ -694,11 +696,10 @@
 			title: "&7&l[ ⚔ 아프트강그 ]"
 			x: 1.75d
 			y: 2.25d
-			icon: "cataclysm:aptrgangr_spawn_egg"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["40A09AD527E4AD7B"]
+			icon: "cataclysm:amethyst_crab_spawn_egg"
 			id: "734DA7DC23085911"
 			rewards: [
 				{
@@ -719,6 +720,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "cataclysm:amethyst_crab"
@@ -730,11 +732,10 @@
 			title: "&d&l[ ⚔ 자수정 게 ]"
 			x: 1.75d
 			y: 3.75d
-			icon: "cataclysm:amethyst_crab_spawn_egg"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["7655FEEDD3468043"]
+			icon: "cataclysm:clawdian_spawn_egg"
 			id: "463F1782BF4ED803"
 			rewards: [
 				{
@@ -755,6 +756,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "cataclysm:clawdian"
@@ -766,12 +768,11 @@
 			title: "&c&l[ ⚔ 클로디언 ]"
 			x: 5.25d
 			y: 0.75d
-			icon: "cataclysm:clawdian_spawn_egg"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["40A09AD527E4AD7B"]
 			description: ["대재앙 무기의 재료."]
+			icon: "cataclysm:black_steel_ingot"
 			id: "7D0E32782ADD6CAB"
 			rewards: [
 				{
@@ -797,10 +798,10 @@
 			title: "&8&l[ ✦ 흑강 주괴 ]"
 			x: 1.75d
 			y: 5.25d
-			icon: "cataclysm:black_steel_ingot"
 		}
 		{
 			dependencies: ["7C0D32AAA1AC0150"]
+			icon: "cataclysm:ancient_metal_ingot"
 			id: "7815781461535FBA"
 			rewards: [
 				{
@@ -826,10 +827,10 @@
 			title: "&6&l[ ✦ 고대의 금속 주괴 ]"
 			x: 5.25d
 			y: 2.25d
-			icon: "cataclysm:ancient_metal_ingot"
 		}
 		{
 			dependencies: ["7792E230A1B61B23"]
+			icon: "cataclysm:cursium_chestplate"
 			id: "78A63B22B1D8AEFB"
 			rewards: [
 				{
@@ -853,11 +854,11 @@
 			title: "&5&l[ ✦ 커스뮴 흉갑 ]"
 			x: 5.25d
 			y: 3.75d
-			icon: "cataclysm:cursium_chestplate"
 		}
 		{
 			dependencies: ["722C6806E3F3A942"]
 			description: ["보스를 다시 부르는 제단."]
+			icon: "cataclysm:altar_of_fire"
 			id: "74E5118D65B4EE33"
 			rewards: [
 				{
@@ -887,7 +888,6 @@
 			title: "&c&l[ ✦ 대재앙의 제단 ]"
 			x: 7.0d
 			y: 0.75d
-			icon: "cataclysm:altar_of_fire"
 		}
 	]
 	title: "&b&l✦ 대재앙 (Cataclysm)"

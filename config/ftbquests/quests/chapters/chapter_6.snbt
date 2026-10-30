@@ -17,19 +17,35 @@
 				"&f새로운 성룡이 된 당신이 그 힘의 주인이 될 차례입니다."
 				""
 				"&c[에필로그: 황혼을 다스리는 별]"
+				""
+				"&b▶ 보상의 「이야기 보기」를 누르면 이 장의 컷씬을 볼 수 있습니다 (사람마다 한 번). 다시 보기: 채팅에 &f/story"
 			]
+			icon: "minecraft:end_crystal"
 			id: "7C5864A57C61A318"
 			rewards: [
 				{
 					auto: "enabled"
 					command: "/function scene:act6_start"
+					elevate_perms: true
 					exclude_from_claim_all: true
 					id: "00D94DCA9C6A7C1F"
 					team_reward: true
 					type: "command"
+				}
+				{
+					auto: "disabled"
+					command: "/function scene:act6_start"
 					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: "minecraft:ender_eye"
+					id: "7AAF0769BDBEEAA8"
+					team_reward: false
+					title: "&b▶ 이야기 보기"
+					type: "command"
 				}
 			]
+			shape: "gear"
+			size: 1.5d
 			tasks: [
 				{
 					id: "7A53286A4C61D1E3"
@@ -38,15 +54,13 @@
 				}
 			]
 			title: "&e&l[ ★ 새로운 창세 ]"
-			icon: "minecraft:end_crystal"
 			x: 0.0d
 			y: 0.0d
-			shape: "gear"
-			size: 1.5d
 		}
 		{
 			dependencies: ["7C5864A57C61A318"]
 			description: ["&7\"군주가 쓰러질 때마다 황혼은 조금씩 부서져 내린다.\"&r", "", "&f모어를 처치하면 근처 플레이어마다 황혼의 조각 40개가 떨어집니다. 황혼의 인장으로 몇 번이고 다시 부를 수 있습니다."]
+			icon: "moreup:dusk_shard"
 			id: "7CEE5B28F51AB716"
 			rewards: [
 				{
@@ -66,11 +80,11 @@
 			title: "&6&l[ ✦ 황혼의 조각 ]"
 			x: 1.75d
 			y: 0.0d
-			icon: "moreup:dusk_shard"
 		}
 		{
 			dependencies: ["7CEE5B28F51AB716"]
 			description: ["&f조각 8개와 전설 보스 정수 1개로 황혼의 파편을 만듭니다."]
+			icon: "moreup:dusk_fragment"
 			id: "7084E727B8C21E26"
 			rewards: [
 				{
@@ -89,11 +103,17 @@
 			title: "&d&l[ ✦ 황혼의 파편 ]"
 			x: 3.5d
 			y: 0.0d
-			icon: "moreup:dusk_fragment"
 		}
 		{
 			dependencies: ["7084E727B8C21E26"]
 			description: ["&7\"검이든 창이든, 황혼은 새로운 별의 손에 맞춰 형태를 바꾼다.\"&r", "", "&f황혼의 검을 만드십시오. 대검·클로·창·활도 이 장에 있습니다."]
+			icon: {
+				Count: 1
+				id: "moreup:dusk_sword"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "3E71042DE579A7B2"
 			rewards: [
 				{
@@ -105,18 +125,30 @@
 			tasks: [
 				{
 					id: "384377391F523F28"
-					item: "moreup:dusk_sword"
+					item: {
+						Count: 1
+						id: "moreup:dusk_sword"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
 			title: "&5&l[ ✦ 황혼의 무구 ]"
 			x: 5.25d
 			y: -3.75d
-			icon: "moreup:dusk_sword"
 		}
 		{
 			dependencies: ["7084E727B8C21E26"]
 			description: ["&f느리지만 묵직하다. 공격 사거리 +1."]
+			icon: {
+				Count: 1
+				id: "moreup:dusk_greatsword"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "7F07A56D1FAA3E50"
 			rewards: [
 				{
@@ -128,18 +160,30 @@
 			tasks: [
 				{
 					id: "1A3C683FE3813073"
-					item: "moreup:dusk_greatsword"
+					item: {
+						Count: 1
+						id: "moreup:dusk_greatsword"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
 			title: "&5&l[ ✦ 황혼의 대검 ]"
 			x: 5.25d
 			y: -2.25d
-			icon: "moreup:dusk_greatsword"
 		}
 		{
 			dependencies: ["7084E727B8C21E26"]
 			description: ["&f아주 빠른 연타."]
+			icon: {
+				Count: 1
+				id: "moreup:dusk_claw"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "769E5AA35C122FEF"
 			rewards: [
 				{
@@ -151,18 +195,30 @@
 			tasks: [
 				{
 					id: "7A2EA0F36E97F6EF"
-					item: "moreup:dusk_claw"
+					item: {
+						Count: 1
+						id: "moreup:dusk_claw"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
 			title: "&5&l[ ✦ 황혼의 클로 ]"
 			x: 5.25d
 			y: -0.75d
-			icon: "moreup:dusk_claw"
 		}
 		{
 			dependencies: ["7084E727B8C21E26"]
 			description: ["&f공격 사거리 +2."]
+			icon: {
+				Count: 1
+				id: "moreup:dusk_spear"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "069B4E1C3837A6B8"
 			rewards: [
 				{
@@ -174,18 +230,30 @@
 			tasks: [
 				{
 					id: "77EAF92C7A18BA6D"
-					item: "moreup:dusk_spear"
+					item: {
+						Count: 1
+						id: "moreup:dusk_spear"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
 			title: "&5&l[ ✦ 황혼의 창 ]"
 			x: 5.25d
 			y: 0.75d
-			icon: "moreup:dusk_spear"
 		}
 		{
 			dependencies: ["7084E727B8C21E26"]
 			description: ["&f이 활로 쏜 화살은 피해가 3배."]
+			icon: {
+				Count: 1
+				id: "moreup:dusk_bow"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "2525CA43F23151DB"
 			rewards: [
 				{
@@ -197,18 +265,30 @@
 			tasks: [
 				{
 					id: "52B8FB25EA5E8034"
-					item: "moreup:dusk_bow"
+					item: {
+						Count: 1
+						id: "moreup:dusk_bow"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
 			title: "&5&l[ ✦ 황혼의 활 ]"
 			x: 5.25d
 			y: 2.25d
-			icon: "moreup:dusk_bow"
 		}
 		{
 			dependencies: ["7084E727B8C21E26"]
 			description: ["&f왕관, 망토, 갑주, 각반, 신발. 쓰러진 군주의 황혼을 별을 지키는 갑옷으로 바꾸십시오."]
+			icon: {
+				Count: 1
+				id: "moreup:dusk_crown"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "7F0622F9BEA2DF7F"
 			rewards: [
 				{
@@ -220,7 +300,13 @@
 			tasks: [
 				{
 					id: "7884475E473C084E"
-					item: "moreup:dusk_crown"
+					item: {
+						Count: 1
+						id: "moreup:dusk_crown"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 				{
@@ -230,24 +316,41 @@
 				}
 				{
 					id: "74F4D95EAD5588D6"
-					item: "moreup:dusk_cuirass"
+					item: {
+						Count: 1
+						id: "moreup:dusk_cuirass"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 				{
 					id: "78952909029E0AF8"
-					item: "moreup:dusk_greaves"
+					item: {
+						Count: 1
+						id: "moreup:dusk_greaves"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 				{
 					id: "7011B4C6DCE77703"
-					item: "moreup:dusk_boots"
+					item: {
+						Count: 1
+						id: "moreup:dusk_boots"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
 			title: "&5&l[ ✦ 황혼의 갑주 ]"
 			x: 5.25d
 			y: 3.75d
-			icon: "moreup:dusk_crown"
 		}
 		{
 			dependencies: [
@@ -292,6 +395,7 @@
 				""
 				"&c[조건] 퀘스트북의 모든 챕터(모드 가이드 포함, 반복 의뢰 제외)를 끝내야 도전할 수 있습니다."
 			]
+			icon: "moreup:keepers_crown"
 			id: "505B8CE4C2A6B192"
 			rewards: [
 				{
@@ -306,6 +410,8 @@
 					type: "item"
 				}
 			]
+			shape: "gear"
+			size: 1.5d
 			tasks: [
 				{
 					entity: "twilight_forest_final_boss:castle_keeper"
@@ -317,9 +423,6 @@
 			title: "&5&l[ ★ 황혼을 다스리는 별 ]"
 			x: 7.0d
 			y: 0.0d
-			icon: "moreup:keepers_crown"
-			shape: "gear"
-			size: 1.5d
 			dependency_requirement: "all_completed"
 		}
 	]

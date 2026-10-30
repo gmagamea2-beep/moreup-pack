@@ -23,6 +23,8 @@
 				"영혼은 결코 사라지지 않는 영원한 '윤회의 닻'이 내려질 것입니다."
 				""
 				"&c[퀘스트를 클릭하여 당신의 운명을 받아들이십시오.]"
+				""
+				"&b▶ 보상의 「이야기 보기」를 누르면 이 장의 컷씬을 볼 수 있습니다 (사람마다 한 번). 다시 보기: 채팅에 &f/story"
 			]
 			icon: "minecraft:nether_star"
 			icon_scale: 2.0d
@@ -36,18 +38,29 @@
 				{
 					auto: "enabled"
 					command: "/function scene:act1_start"
+					elevate_perms: true
 					exclude_from_claim_all: true
 					icon: "minecraft:nether_star"
 					id: "37D7C278D9F4156F"
 					team_reward: true
 					title: "&l 잊혀진 기억"
 					type: "command"
-					elevate_perms: true
 				}
 				{
 					id: "5FEF152526A68ACE"
 					type: "xp_levels"
 					xp_levels: 5
+				}
+				{
+					auto: "disabled"
+					command: "/function scene:act1_start"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: "minecraft:ender_eye"
+					id: "78D8D9217310BB05"
+					team_reward: false
+					title: "&b▶ 이야기 보기"
+					type: "command"
 				}
 			]
 			shape: "gear"
@@ -108,7 +121,7 @@
 					type: "item"
 				}
 				{
-					id: "A30B7FF933BB24A7"
+					id: "549BC3D95F4F0B7B"
 					type: "xp_levels"
 					xp_levels: 5
 				}
@@ -146,7 +159,7 @@
 					type: "item"
 				}
 				{
-					id: "94C27A82BAB92475"
+					id: "4BCD64405AEBE426"
 					type: "xp_levels"
 					xp_levels: 5
 				}
@@ -181,7 +194,7 @@
 					type: "item"
 				}
 				{
-					id: "E2FB1F571126909A"
+					id: "42881ACBCD3E639A"
 					type: "xp_levels"
 					xp_levels: 5
 				}
@@ -252,7 +265,7 @@
 					type: "item"
 				}
 				{
-					id: "8C13E46DF4DCCA5E"
+					id: "4E8631E239E2501F"
 					type: "xp_levels"
 					xp_levels: 5
 				}
@@ -284,7 +297,7 @@
 			id: "6C5D8D4C21486E36"
 			rewards: [
 				{
-					id: "B9E773122925162A"
+					id: "378FAE9FF5651E84"
 					type: "xp_levels"
 					xp_levels: 5
 				}
@@ -355,7 +368,7 @@
 					type: "item"
 				}
 				{
-					id: "EE511A7F8F3852C4"
+					id: "733F3D2732C468B9"
 					type: "xp_levels"
 					xp_levels: 5
 				}
@@ -447,7 +460,7 @@
 					type: "item"
 				}
 				{
-					id: "ED7F33130D4DFDCF"
+					id: "168E3F46CC2817F2"
 					type: "xp_levels"
 					xp_levels: 5
 				}
@@ -521,7 +534,7 @@
 					type: "item"
 				}
 				{
-					id: "92AD8674297A6843"
+					id: "3B65640E659B711D"
 					type: "xp_levels"
 					xp_levels: 5
 				}

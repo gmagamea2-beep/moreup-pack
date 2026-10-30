@@ -3,13 +3,29 @@
 	default_quest_shape: ""
 	filename: "moreup_bossominium"
 	group: "7E05AA7C371599AC"
-	icon: "bossominium:the_bossdexium"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			Parent: {
+				Items: [ ]
+				Size: 0
+			}
+		}
+		id: "bossominium:the_bossdexium"
+		tag: {
+			Inventory: {
+				Items: [ ]
+				Size: 0
+			}
+		}
+	}
 	id: "198A22C793EFAF11"
 	order_index: 19
 	quest_links: [ ]
 	quests: [
 		{
 			description: ["보스오미니움 보스들. 안내서(Bossdexium)에서 위치와 공략을 볼 수 있다."]
+			icon: "bossominium:forest_guardian_boss_spawn_egg"
 			id: "756ECB302A13E131"
 			rewards: [
 				{
@@ -30,6 +46,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "bossominium:forest_guardian_boss"
@@ -41,10 +58,9 @@
 			title: "&2&l[ ⚔ 숲의 수호자 ]"
 			x: 0.0d
 			y: -1.5d
-			icon: "bossominium:forest_guardian_boss_spawn_egg"
-			shape: "hexagon"
 		}
 		{
+			icon: "bossominium:crypt_mummy_boss_spawn_egg"
 			id: "36B4E951CEB385E7"
 			rewards: [
 				{
@@ -65,6 +81,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "bossominium:crypt_mummy_boss"
@@ -76,10 +93,9 @@
 			title: "&e&l[ ⚔ 지하 묘지 미라 ]"
 			x: 0.0d
 			y: 0.0d
-			icon: "bossominium:crypt_mummy_boss_spawn_egg"
-			shape: "hexagon"
 		}
 		{
+			icon: "bossominium:drowned_king_boss_spawn_egg"
 			id: "053A365474A8C60E"
 			rewards: [
 				{
@@ -100,6 +116,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "bossominium:drowned_king_boss"
@@ -111,11 +128,10 @@
 			title: "&3&l[ ⚔ 익사한 왕 ]"
 			x: 0.0d
 			y: 1.5d
-			icon: "bossominium:drowned_king_boss_spawn_egg"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["756ECB302A13E131"]
+			icon: "bossominium:fungal_brute_boss_spawn_egg"
 			id: "3163A3D63328A9B7"
 			rewards: [
 				{
@@ -136,6 +152,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "bossominium:fungal_brute_boss"
@@ -147,11 +164,10 @@
 			title: "&2&l[ ⚔ 균류 야수 ]"
 			x: 1.75d
 			y: -1.5d
-			icon: "bossominium:fungal_brute_boss_spawn_egg"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["36B4E951CEB385E7"]
+			icon: "bossominium:hell_hound_boss_spawn_egg"
 			id: "3020F3732261C564"
 			rewards: [
 				{
@@ -172,6 +188,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "bossominium:hell_hound_boss"
@@ -183,11 +200,10 @@
 			title: "&c&l[ ⚔ 지옥 사냥개 ]"
 			x: 1.75d
 			y: 0.0d
-			icon: "bossominium:hell_hound_boss_spawn_egg"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["053A365474A8C60E"]
+			icon: "bossominium:netherrack_heart_boss_spawn_egg"
 			id: "1AE286160BCF54B1"
 			rewards: [
 				{
@@ -208,6 +224,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "bossominium:netherrack_heart_boss"
@@ -219,11 +236,10 @@
 			title: "&c&l[ ⚔ 네더랙 심장 ]"
 			x: 1.75d
 			y: 1.5d
-			icon: "bossominium:netherrack_heart_boss_spawn_egg"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["3163A3D63328A9B7"]
+			icon: "bossominium:skelenado_boss_spawn_egg"
 			id: "71A568F0012641E5"
 			rewards: [
 				{
@@ -244,6 +260,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "bossominium:skelenado_boss"
@@ -255,11 +272,10 @@
 			title: "&7&l[ ⚔ 스켈레네이도 ]"
 			x: 3.5d
 			y: -1.5d
-			icon: "bossominium:skelenado_boss_spawn_egg"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["3020F3732261C564"]
+			icon: "bossominium:strayed_warrior_boss_spawn_egg"
 			id: "272DEF06B18FB94E"
 			rewards: [
 				{
@@ -280,6 +296,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "bossominium:strayed_warrior_boss"
@@ -291,11 +308,10 @@
 			title: "&7&l[ ⚔ 길 잃은 전사 ]"
 			x: 3.5d
 			y: 0.0d
-			icon: "bossominium:strayed_warrior_boss_spawn_egg"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["1AE286160BCF54B1"]
+			icon: "bossominium:golden_ring_boss_spawn_egg"
 			id: "78F67B3E8A2640A1"
 			rewards: [
 				{
@@ -316,6 +332,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "bossominium:golden_ring_boss"
@@ -327,11 +344,10 @@
 			title: "&6&l[ ⚔ 황금 고리 ]"
 			x: 3.5d
 			y: 1.5d
-			icon: "bossominium:golden_ring_boss_spawn_egg"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["71A568F0012641E5"]
+			icon: "bossominium:badlands_colossal_boss_spawn_egg"
 			id: "793C4E5840AC36FD"
 			rewards: [
 				{
@@ -352,6 +368,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "bossominium:badlands_colossal_boss"
@@ -363,11 +380,10 @@
 			title: "&6&l[ ⚔ 악지 거상 ]"
 			x: 5.25d
 			y: -1.5d
-			icon: "bossominium:badlands_colossal_boss_spawn_egg"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["272DEF06B18FB94E"]
+			icon: "bossominium:cultisager_boss_spawn_egg"
 			id: "76CD168FB4BCABD9"
 			rewards: [
 				{
@@ -388,6 +404,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "bossominium:cultisager_boss"
@@ -399,11 +416,10 @@
 			title: "&5&l[ ⚔ 컬티세이저 ]"
 			x: 5.25d
 			y: 0.0d
-			icon: "bossominium:cultisager_boss_spawn_egg"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["78F67B3E8A2640A1"]
+			icon: "bossominium:morsemancer_boss_spawn_egg"
 			id: "3A0CD368618AB031"
 			rewards: [
 				{
@@ -424,6 +440,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "bossominium:morsemancer_boss"
@@ -435,11 +452,10 @@
 			title: "&5&l[ ⚔ 모스맨서 ]"
 			x: 5.25d
 			y: 1.5d
-			icon: "bossominium:morsemancer_boss_spawn_egg"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["793C4E5840AC36FD"]
+			icon: "bossominium:purerman_boss_spawn_egg"
 			id: "3ACCE51B89FA7A76"
 			rewards: [
 				{
@@ -460,6 +476,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "bossominium:purerman_boss"
@@ -471,11 +488,10 @@
 			title: "&f&l[ ⚔ 퓨어맨 ]"
 			x: 7.0d
 			y: -1.5d
-			icon: "bossominium:purerman_boss_spawn_egg"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["76CD168FB4BCABD9"]
+			icon: "bossominium:redstone_turret_boss_spawn_egg"
 			id: "23874CA5E9636C0B"
 			rewards: [
 				{
@@ -496,6 +512,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "bossominium:redstone_turret_boss"
@@ -507,11 +524,10 @@
 			title: "&c&l[ ⚔ 레드스톤 포탑 ]"
 			x: 7.0d
 			y: 0.0d
-			icon: "bossominium:redstone_turret_boss_spawn_egg"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["3A0CD368618AB031"]
+			icon: "bossominium:soul_reaper_boss_spawn_egg"
 			id: "7A1A8026A7C18089"
 			rewards: [
 				{
@@ -532,6 +548,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "bossominium:soul_reaper_boss"
@@ -543,11 +560,10 @@
 			title: "&3&l[ ⚔ 영혼 수확자 ]"
 			x: 7.0d
 			y: 1.5d
-			icon: "bossominium:soul_reaper_boss_spawn_egg"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["3ACCE51B89FA7A76"]
+			icon: "bossominium:vengeful_trader_boss_spawn_egg"
 			id: "78FDA10F110EBFBC"
 			rewards: [
 				{
@@ -568,6 +584,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "bossominium:vengeful_trader_boss"
@@ -579,11 +596,10 @@
 			title: "&a&l[ ⚔ 복수심에 찬 상인 ]"
 			x: 8.75d
 			y: -1.5d
-			icon: "bossominium:vengeful_trader_boss_spawn_egg"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["23874CA5E9636C0B"]
+			icon: "bossominium:chorus_beast_boss_spawn_egg"
 			id: "41500F13BF47C77B"
 			rewards: [
 				{
@@ -604,6 +620,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "bossominium:chorus_beast_boss"
@@ -615,11 +632,10 @@
 			title: "&d&l[ ⚔ 후렴 야수 ]"
 			x: 8.75d
 			y: 0.0d
-			icon: "bossominium:chorus_beast_boss_spawn_egg"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["7A1A8026A7C18089"]
+			icon: "bossominium:fallarota_boss_spawn_egg"
 			id: "7AE42CF3C85329EB"
 			rewards: [
 				{
@@ -640,6 +656,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "bossominium:fallarota_boss"
@@ -651,11 +668,10 @@
 			title: "&b&l[ ⚔ 팔라로타 ]"
 			x: 8.75d
 			y: 1.5d
-			icon: "bossominium:fallarota_boss_spawn_egg"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["78FDA10F110EBFBC"]
+			icon: "bossominium:huntress_boss_spawn_egg"
 			id: "20FC47F403A07E92"
 			rewards: [
 				{
@@ -676,6 +692,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "bossominium:huntress_boss"
@@ -687,11 +704,10 @@
 			title: "&2&l[ ⚔ 여사냥꾼 ]"
 			x: 10.5d
 			y: -1.5d
-			icon: "bossominium:huntress_boss_spawn_egg"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["41500F13BF47C77B"]
+			icon: "bossominium:ancient_remnant_boss_spawn_egg"
 			id: "708B018B86FF24A0"
 			rewards: [
 				{
@@ -712,6 +728,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "bossominium:ancient_remnant_boss"
@@ -723,11 +740,10 @@
 			title: "&6&l[ ⚔ 고대의 잔해 ]"
 			x: 10.5d
 			y: 0.0d
-			icon: "bossominium:ancient_remnant_boss_spawn_egg"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["7AE42CF3C85329EB"]
+			icon: "bossominium:end_stone_sentinel_boss_spawn_egg"
 			id: "76457305231684E8"
 			rewards: [
 				{
@@ -748,6 +764,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "bossominium:end_stone_sentinel_boss"
@@ -759,11 +776,10 @@
 			title: "&e&l[ ⚔ 엔드 돌 파수꾼 ]"
 			x: 10.5d
 			y: 1.5d
-			icon: "bossominium:end_stone_sentinel_boss_spawn_egg"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["20FC47F403A07E92"]
+			icon: "bossominium:ruin_boss_spawn_egg"
 			id: "5A5C85F354659AAE"
 			rewards: [
 				{
@@ -784,6 +800,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "bossominium:ruin_boss"
@@ -795,11 +812,10 @@
 			title: "&8&l[ ⚔ 루인 ]"
 			x: 12.25d
 			y: -0.75d
-			icon: "bossominium:ruin_boss_spawn_egg"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["708B018B86FF24A0"]
+			icon: "bossominium:moss_mech_boss_spawn_egg"
 			id: "7CE65E16C73C7260"
 			rewards: [
 				{
@@ -820,6 +836,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "bossominium:moss_mech_boss"
@@ -831,8 +848,6 @@
 			title: "&a&l[ ⚔ 이끼 기계 ]"
 			x: 12.25d
 			y: 0.75d
-			icon: "bossominium:moss_mech_boss_spawn_egg"
-			shape: "hexagon"
 		}
 	]
 	title: "&b&l✦ 보스오미니움"

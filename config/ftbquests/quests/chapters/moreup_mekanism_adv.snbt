@@ -11,6 +11,7 @@
 		{
 			dependencies: ["22BF9E63FF3FB231"]
 			description: ["메카니즘 심화의 기본 재료. 금속 주입기·회로·등급 설치기 같은 기초는 이 챕터 왼쪽에 있다."]
+			icon: "mekanism:ingot_steel"
 			id: "7DE1414B6277C041"
 			rewards: [
 				{
@@ -25,21 +26,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					count: 16L
-					id: "792D16B383A97169"
-					item: "mekanism:ingot_steel"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 16L
+				id: "792D16B383A97169"
+				item: "mekanism:ingot_steel"
+				type: "item"
+			}]
 			title: "&7&l[ ✦ 강철 ]"
 			x: 0.0d
 			y: -0.75d
-			icon: "mekanism:ingot_steel"
 		}
 		{
 			dependencies: ["7DE1414B6277C041"]
+			icon: "mekanism:ingot_refined_obsidian"
 			id: "6A4B4218BAE1AC14"
 			rewards: [
 				{
@@ -54,22 +53,20 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					count: 8L
-					id: "1F65DC18B21006D0"
-					item: "mekanism:ingot_refined_obsidian"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 8L
+				id: "1F65DC18B21006D0"
+				item: "mekanism:ingot_refined_obsidian"
+				type: "item"
+			}]
 			title: "&5&l[ ✦ 정제 흑요석 ]"
 			x: 1.75d
 			y: -6.0d
-			icon: "mekanism:ingot_refined_obsidian"
 		}
 		{
 			dependencies: ["6A4B4218BAE1AC14"]
 			description: ["땅속 광석을 자동으로 캐 온다. &d중급 보스 정수&r가 필요하다."]
+			icon: "mekanism:digital_miner"
 			id: "6DA00CDA799C7C24"
 			rewards: [
 				{
@@ -84,21 +81,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "35C5E1C28ED8E918"
-					item: "mekanism:digital_miner"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "35C5E1C28ED8E918"
+				item: "mekanism:digital_miner"
+				type: "item"
+			}]
 			title: "&b&l[ ✦ 디지털 마이너 ]"
 			x: 3.5d
 			y: -9.75d
-			icon: "mekanism:digital_miner"
 		}
 		{
 			dependencies: ["6A4B4218BAE1AC14"]
 			description: ["기지 사이를 순간이동하자."]
+			icon: "mekanism:teleporter"
 			id: "72F1544106B482F2"
 			rewards: [
 				{
@@ -129,11 +124,11 @@
 			title: "&d&l[ ✦ 텔레포터 ]"
 			x: 3.5d
 			y: -8.25d
-			icon: "mekanism:teleporter"
 		}
 		{
 			dependencies: ["7DE1414B6277C041"]
 			description: ["수소를 넣고 하늘로."]
+			icon: "mekanism:jetpack"
 			id: "7F0D40B2CFCF4C3B"
 			rewards: [
 				{
@@ -148,21 +143,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "76CB8A6DB1F732A3"
-					item: "mekanism:jetpack"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "76CB8A6DB1F732A3"
+				item: "mekanism:jetpack"
+				type: "item"
+			}]
 			title: "&f&l[ ✦ 제트팩 ]"
 			x: 1.75d
 			y: -4.5d
-			icon: "mekanism:jetpack"
 		}
 		{
 			dependencies: ["7DE1414B6277C041"]
 			description: ["막대한 전력을 저장하는 다중 블록."]
+			icon: "mekanism:induction_casing"
 			id: "3EA159B5BCF748A4"
 			rewards: [
 				{
@@ -193,10 +186,10 @@
 			title: "&c&l[ ✦ 유도 행렬 ]"
 			x: 1.75d
 			y: -3.0d
-			icon: "mekanism:induction_casing"
 		}
 		{
 			dependencies: ["3EA159B5BCF748A4"]
+			icon: "mekanism:solar_neutron_activator"
 			id: "73A44689770E9DE2"
 			rewards: [
 				{
@@ -211,20 +204,18 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "78A937DF4ED3CE58"
-					item: "mekanism:solar_neutron_activator"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "78A937DF4ED3CE58"
+				item: "mekanism:solar_neutron_activator"
+				type: "item"
+			}]
 			title: "&e&l[ ✦ 태양 중성자 활성기 ]"
 			x: 3.5d
 			y: -6.75d
-			icon: "mekanism:solar_neutron_activator"
 		}
 		{
 			dependencies: ["73A44689770E9DE2"]
+			icon: "mekanism:isotopic_centrifuge"
 			id: "7246C922C4CBB95F"
 			rewards: [
 				{
@@ -239,21 +230,22 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "75587AA5B45F1C2B"
-					item: "mekanism:isotopic_centrifuge"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "75587AA5B45F1C2B"
+				item: "mekanism:isotopic_centrifuge"
+				type: "item"
+			}]
 			title: "&a&l[ ✦ 동위원소 원심분리기 ]"
 			x: 5.25d
 			y: -6.0d
-			icon: "mekanism:isotopic_centrifuge"
 		}
 		{
-			dependencies: ["7246C922C4CBB95F", "7D213D217E5E532D"]
+			dependencies: [
+				"7246C922C4CBB95F"
+				"7D213D217E5E532D"
+			]
 			description: ["핵분열로의 산물. 플루토늄과 폴로늄 펠릿을 만들자."]
+			icon: "mekanism:pellet_plutonium"
 			id: "7DB79F9A3E487E91"
 			rewards: [
 				{
@@ -283,11 +275,11 @@
 			title: "&6&l[ ✦ 핵 펠릿 ]"
 			x: 7.0d
 			y: -0.75d
-			icon: "mekanism:pellet_plutonium"
 		}
 		{
 			dependencies: ["6DA00CDA799C7C24"]
 			description: ["양자 저장 시스템. &6상급 보스 정수&r가 필요하다."]
+			icon: "mekanism:qio_drive_array"
 			id: "6D8352B1F0466ABF"
 			rewards: [
 				{
@@ -317,11 +309,11 @@
 			title: "&b&l[ ✦ QIO 저장망 ]"
 			x: 5.25d
 			y: -4.5d
-			icon: "mekanism:qio_drive_array"
 		}
 		{
 			dependencies: ["7DB79F9A3E487E91"]
 			description: ["끝없는 전력의 심장. 컨트롤러에 &e전설 보스 정수&r가 필요하다."]
+			icon: "mekanismgenerators:fusion_reactor_controller"
 			id: "078EF4B42CB45CDF"
 			rewards: [
 				{
@@ -352,11 +344,11 @@
 			title: "&c&l[ ✦ 핵융합로 ]"
 			x: 8.75d
 			y: 0.0d
-			icon: "mekanismgenerators:fusion_reactor_controller"
 		}
 		{
 			dependencies: ["078EF4B42CB45CDF"]
 			description: ["SPS 포트에도 전설 정수가 들어간다."]
+			icon: "mekanism:sps_port"
 			id: "77049C5F22AE702B"
 			rewards: [
 				{
@@ -387,11 +379,11 @@
 			title: "&d&l[ ✦ 초임계 위상 변환기 ]"
 			x: 10.5d
 			y: -0.75d
-			icon: "mekanism:sps_port"
 		}
 		{
 			dependencies: ["77049C5F22AE702B"]
 			description: ["반물질 펠릿은 &e세계의 파편: 기술&r의 재료다."]
+			icon: "mekanism:pellet_antimatter"
 			id: "075EC2584559E697"
 			rewards: [
 				{
@@ -406,21 +398,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "20A27B3725E4EF94"
-					item: "mekanism:pellet_antimatter"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "20A27B3725E4EF94"
+				item: "mekanism:pellet_antimatter"
+				type: "item"
+			}]
 			title: "&5&l[ ✦ 반물질 ]"
 			x: 12.25d
 			y: -0.75d
-			icon: "mekanism:pellet_antimatter"
 		}
 		{
 			dependencies: ["77049C5F22AE702B"]
 			description: ["최첨단 강화복."]
+			icon: "mekanism:mekasuit_helmet"
 			id: "7D03EE0FF86F32BE"
 			rewards: [
 				{
@@ -450,11 +440,11 @@
 			title: "&b&l[ ✦ 메카슈트 ]"
 			x: 12.25d
 			y: 0.75d
-			icon: "mekanism:mekasuit_helmet"
 		}
 		{
 			dependencies: ["078EF4B42CB45CDF"]
 			description: ["메카니즘 엑스트라의 상위 등급 설치기. 전설 정수가 필요하다."]
+			icon: "mekanism_extras:absolute_tier_installer"
 			id: "6787DD076A2F0CD2"
 			rewards: [
 				{
@@ -469,21 +459,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "7E0BC89E2EC99125"
-					item: "mekanism_extras:absolute_tier_installer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7E0BC89E2EC99125"
+				item: "mekanism_extras:absolute_tier_installer"
+				type: "item"
+			}]
 			title: "&6&l[ ✦ 앱솔루트 등급 ]"
 			x: 10.5d
 			y: 0.75d
-			icon: "mekanism_extras:absolute_tier_installer"
 		}
 		{
 			dependencies: ["7DE1414B6277C041"]
 			description: ["산소로 광석 하나에서 가루 3개를 얻는다. 산소는 전해 분리기로 물에서 뽑는다."]
+			icon: "mekanism:purification_chamber"
 			id: "72C9E7004846B53F"
 			rewards: [
 				{
@@ -498,21 +486,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "7FBE8C879343050D"
-					item: "mekanism:purification_chamber"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7FBE8C879343050D"
+				item: "mekanism:purification_chamber"
+				type: "item"
+			}]
 			title: "&b&l[ ✦ 정화기 ]"
 			x: 1.75d
 			y: -1.5d
-			icon: "mekanism:purification_chamber"
 		}
 		{
 			dependencies: ["72C9E7004846B53F"]
 			description: ["염화수소로 광석 하나에서 4개를 얻는다."]
+			icon: "mekanism:chemical_injection_chamber"
 			id: "7D0DB75D987694AE"
 			rewards: [
 				{
@@ -527,21 +513,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "136B0922317EAE6C"
-					item: "mekanism:chemical_injection_chamber"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "136B0922317EAE6C"
+				item: "mekanism:chemical_injection_chamber"
+				type: "item"
+			}]
 			title: "&b&l[ ✦ 화학적 투입 장치 ]"
 			x: 3.5d
 			y: -5.25d
-			icon: "mekanism:chemical_injection_chamber"
 		}
 		{
 			dependencies: ["7D0DB75D987694AE"]
 			description: ["황산으로 녹이고(용해) → 물로 씻고(세척) → 결정으로 굳히면(결정화) 광석 하나에서 주괴 5개가 나온다. 오스뮴 결정이 나오면 성공이다."]
+			icon: "mekanism:chemical_dissolution_chamber"
 			id: "7538DFEA5895205B"
 			rewards: [
 				{
@@ -582,11 +566,11 @@
 			title: "&b&l[ ✦ 광석 5배 ]"
 			x: 5.25d
 			y: -3.0d
-			icon: "mekanism:chemical_dissolution_chamber"
 		}
 		{
 			dependencies: ["7DE1414B6277C041"]
 			description: ["여러 칸을 한 번에 처리하는 기계. 등급 설치기로 칸 수를 늘릴 수 있다."]
+			icon: "mekanism:basic_smelting_factory"
 			id: "78190C5F467BE423"
 			rewards: [
 				{
@@ -601,21 +585,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "74DEE4AC611BB892"
-					item: "mekanism:basic_smelting_factory"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "74DEE4AC611BB892"
+				item: "mekanism:basic_smelting_factory"
+				type: "item"
+			}]
 			title: "&6&l[ ✦ 제련 시스템 ]"
 			x: 1.75d
 			y: 0.0d
-			icon: "mekanism:basic_smelting_factory"
 		}
 		{
 			dependencies: ["78190C5F467BE423"]
 			description: ["기계에 넣으면 빨라지거나 전기를 덜 쓴다. 기계마다 8개까지 들어간다."]
+			icon: "mekanism:upgrade_speed"
 			id: "3B4CF2E46F032122"
 			rewards: [
 				{
@@ -647,11 +629,11 @@
 			title: "&a&l[ ✦ 속도와 에너지 업그레이드 ]"
 			x: 3.5d
 			y: -3.75d
-			icon: "mekanism:upgrade_speed"
 		}
 		{
 			dependencies: ["7DE1414B6277C041"]
 			description: ["아이템을 관으로 옮기고, 분류기로 원하는 곳에 나눠 보낸다."]
+			icon: "mekanism:basic_logistical_transporter"
 			id: "4EA39DC3884FB938"
 			rewards: [
 				{
@@ -682,11 +664,11 @@
 			title: "&e&l[ ✦ 물류 수송 ]"
 			x: 1.75d
 			y: 1.5d
-			icon: "mekanism:basic_logistical_transporter"
 		}
 		{
 			dependencies: ["4EA39DC3884FB938"]
 			description: ["한 종류만 많이 담는 단일 아이템 창고와 기체·액체용 화학 탱크."]
+			icon: "mekanism:basic_bin"
 			id: "687A1A5D59108D0E"
 			rewards: [
 				{
@@ -716,11 +698,11 @@
 			title: "&7&l[ ✦ 창고와 탱크 ]"
 			x: 3.5d
 			y: -2.25d
-			icon: "mekanism:basic_bin"
 		}
 		{
 			dependencies: ["687A1A5D59108D0E"]
 			description: ["개인 상자는 주인만 연다. 골판지 상자로는 상자·기계를 내용물째 옮길 수 있다."]
+			icon: "mekanism:personal_chest"
 			id: "7A65AB8171754EB9"
 			rewards: [
 				{
@@ -750,11 +732,11 @@
 			title: "&7&l[ ✦ 개인 상자와 골판지 상자 ]"
 			x: 5.25d
 			y: -1.5d
-			icon: "mekanism:personal_chest"
 		}
 		{
 			dependencies: ["7DE1414B6277C041"]
 			description: ["소금물을 증발시켜 소금물 농축액과 리튬을 얻는다. 핵분열·핵융합 연료의 출발점이다. 4×4 바닥에 높이를 쌓을수록 빨라진다."]
+			icon: "mekanism:thermal_evaporation_controller"
 			id: "7A4385E948934F97"
 			rewards: [
 				{
@@ -785,11 +767,11 @@
 			title: "&9&l[ ✦ 열적 증발 ]"
 			x: 1.75d
 			y: 3.0d
-			icon: "mekanism:thermal_evaporation_controller"
 		}
 		{
 			dependencies: ["7A4385E948934F97"]
 			description: ["기체와 액체를 서로 바꾼다. 리튬·중수소 같은 기체를 통에 담을 때 쓴다."]
+			icon: "mekanism:rotary_condensentrator"
 			id: "476DE23D562F9CFA"
 			rewards: [
 				{
@@ -804,21 +786,22 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "242E1E1D14E2FF68"
-					item: "mekanism:rotary_condensentrator"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "242E1E1D14E2FF68"
+				item: "mekanism:rotary_condensentrator"
+				type: "item"
+			}]
 			title: "&9&l[ ✦ 회전 콘덴서 ]"
 			x: 3.5d
 			y: -0.75d
-			icon: "mekanism:rotary_condensentrator"
 		}
 		{
-			dependencies: ["7A4385E948934F97", "7D213D217E5E532D"]
+			dependencies: [
+				"7A4385E948934F97"
+				"7D213D217E5E532D"
+			]
 			description: ["핵분열로의 뜨거운 냉각수로 대량의 증기를 만든다. 산업용 터빈(메카니즘: 발전)과 짝을 이룬다."]
+			icon: "mekanism:boiler_casing"
 			id: "7DF44FB8C736474B"
 			rewards: [
 				{
@@ -850,11 +833,11 @@
 			title: "&c&l[ ✦ 열 교환 보일러 ]"
 			x: 3.5d
 			y: 0.75d
-			icon: "mekanism:boiler_casing"
 		}
 		{
 			dependencies: ["7D213D217E5E532D"]
 			description: ["핵분열로에서 나온 폐기물을 담아 천천히 없앤다. 폐기물을 그냥 두면 방사능이 퍼진다."]
+			icon: "mekanism:radioactive_waste_barrel"
 			id: "09095FD00A9C4DBB"
 			rewards: [
 				{
@@ -869,21 +852,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "7996F122A9EB925C"
-					item: "mekanism:radioactive_waste_barrel"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7996F122A9EB925C"
+				item: "mekanism:radioactive_waste_barrel"
+				type: "item"
+			}]
 			title: "&a&l[ ✦ 방사성 폐기물 통 ]"
 			x: 0.0d
 			y: 0.75d
-			icon: "mekanism:radioactive_waste_barrel"
 		}
 		{
 			dependencies: ["6A4B4218BAE1AC14"]
 			description: ["블록을 부수거나, 핵융합로에 불을 붙일 에너지를 모은다(레이저 증폭기)."]
+			icon: "mekanism:laser"
 			id: "7E824A7D6251517F"
 			rewards: [
 				{
@@ -913,11 +894,11 @@
 			title: "&c&l[ ✦ 레이저 ]"
 			x: 3.5d
 			y: 2.25d
-			icon: "mekanism:laser"
 		}
 		{
 			dependencies: ["6A4B4218BAE1AC14"]
 			description: ["따라다니며 아이템을 줍고 짐을 들어 주는 작은 로봇."]
+			icon: "mekanism:robit"
 			id: "7CE85FD9B2A825A0"
 			rewards: [
 				{
@@ -932,21 +913,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "73F129D9E529A1F8"
-					item: "mekanism:robit"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "73F129D9E529A1F8"
+				item: "mekanism:robit"
+				type: "item"
+			}]
 			title: "&d&l[ ✦ 로빗 ]"
 			x: 3.5d
 			y: 3.75d
-			icon: "mekanism:robit"
 		}
 		{
 			dependencies: ["7F0D40B2CFCF4C3B"]
 			description: ["프리 러너는 낙하 피해를 막고 한 블록을 걸어 오른다. 잠수 탱크는 물속 호흡."]
+			icon: "mekanism:free_runners"
 			id: "7B303B8E92D834DE"
 			rewards: [
 				{
@@ -976,11 +955,11 @@
 			title: "&f&l[ ✦ 프리 러너와 잠수 탱크 ]"
 			x: 3.5d
 			y: 5.25d
-			icon: "mekanism:free_runners"
 		}
 		{
 			dependencies: ["7DE1414B6277C041"]
 			description: ["에틸렌으로 만드는 고밀도 플라스틱. 메카슈트·모듈·플라스틱 블록의 재료다."]
+			icon: "mekanism:hdpe_sheet"
 			id: "7B3F68FDADF27DA4"
 			rewards: [
 				{
@@ -995,22 +974,23 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					count: 8L
-					id: "03A52066098BC51A"
-					item: "mekanism:hdpe_sheet"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 8L
+				id: "03A52066098BC51A"
+				item: "mekanism:hdpe_sheet"
+				type: "item"
+			}]
 			title: "&f&l[ ✦ HDPE 용지 ]"
 			x: 1.75d
 			y: 4.5d
-			icon: "mekanism:hdpe_sheet"
 		}
 		{
-			dependencies: ["7D03EE0FF86F32BE", "571BF01A60E7CF34"]
+			dependencies: [
+				"7D03EE0FF86F32BE"
+				"571BF01A60E7CF34"
+			]
 			description: ["메카슈트 몸통에 끼우면 창조 모드처럼 날 수 있다."]
+			icon: "mekanism:module_gravitational_modulating_unit"
 			id: "7A8B6B564869648A"
 			rewards: [
 				{
@@ -1025,21 +1005,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "09E2C6C21933336D"
-					item: "mekanism:module_gravitational_modulating_unit"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "09E2C6C21933336D"
+				item: "mekanism:module_gravitational_modulating_unit"
+				type: "item"
+			}]
 			title: "&d&l[ ✦ 중력 조절 모듈 ]"
 			x: 14.0d
 			y: -0.75d
-			icon: "mekanism:module_gravitational_modulating_unit"
 		}
 		{
 			dependencies: ["72F1544106B482F2"]
 			description: ["들고 다니는 텔레포터. 등록한 텔레포터로 어디서든 이동한다."]
+			icon: "mekanism:portable_teleporter"
 			id: "5520A6BA71E384CB"
 			rewards: [
 				{
@@ -1054,21 +1032,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "7A82EEAE6BCEF4E8"
-					item: "mekanism:portable_teleporter"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7A82EEAE6BCEF4E8"
+				item: "mekanism:portable_teleporter"
+				type: "item"
+			}]
 			title: "&d&l[ ✦ 휴대용 텔레포터 ]"
 			x: 5.25d
 			y: 0.0d
-			icon: "mekanism:portable_teleporter"
 		}
 		{
 			dependencies: ["72F1544106B482F2"]
 			description: ["같은 주파수끼리 아이템·전기·액체·기체·열을 거리와 차원에 상관없이 주고받는다."]
+			icon: "mekanism:quantum_entangloporter"
 			id: "6AFDFB196B21DC4C"
 			rewards: [
 				{
@@ -1083,22 +1059,20 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					count: 2L
-					id: "76C6966EE241BAB8"
-					item: "mekanism:quantum_entangloporter"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 2L
+				id: "76C6966EE241BAB8"
+				item: "mekanism:quantum_entangloporter"
+				type: "item"
+			}]
 			title: "&5&l[ ✦ 양자 전송기 ]"
 			x: 5.25d
 			y: 1.5d
-			icon: "mekanism:quantum_entangloporter"
 		}
 		{
 			dependencies: ["72F1544106B482F2"]
 			description: ["주변 청크를 계속 불러 둔다. 플레이어가 없어도 공장이 멈추지 않는다."]
+			icon: "mekanism:dimensional_stabilizer"
 			id: "7BD822B7DB803FC2"
 			rewards: [
 				{
@@ -1113,21 +1087,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "77025FF00959BC6C"
-					item: "mekanism:dimensional_stabilizer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "77025FF00959BC6C"
+				item: "mekanism:dimensional_stabilizer"
+				type: "item"
+			}]
 			title: "&3&l[ ✦ 차원 안정기 ]"
 			x: 5.25d
 			y: 3.0d
-			icon: "mekanism:dimensional_stabilizer"
 		}
 		{
 			dependencies: ["6D8352B1F0466ABF"]
 			description: ["자동으로 넣고(투입기) 들고 다니며 꺼내는(휴대용 대시보드) QIO."]
+			icon: "mekanism:qio_importer"
 			id: "41F7BCA72D66291F"
 			rewards: [
 				{
@@ -1162,11 +1134,11 @@
 			title: "&b&l[ ✦ QIO 확장 ]"
 			x: 7.0d
 			y: 0.75d
-			icon: "mekanism:qio_importer"
 		}
 		{
 			dependencies: ["3EA159B5BCF748A4"]
 			description: ["유도 행렬에 넣는 가장 큰 기본 셀."]
+			icon: "mekanism:ultimate_induction_cell"
 			id: "75566B3E2CC9EE81"
 			rewards: [
 				{
@@ -1181,21 +1153,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "721D8D1D354C7D20"
-					item: "mekanism:ultimate_induction_cell"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "721D8D1D354C7D20"
+				item: "mekanism:ultimate_induction_cell"
+				type: "item"
+			}]
 			title: "&c&l[ ✦ 궁극 유도 셀 ]"
 			x: 3.5d
 			y: 6.75d
-			icon: "mekanism:ultimate_induction_cell"
 		}
 		{
 			dependencies: ["075EC2584559E697"]
 			description: ["반물질과 전기로 귀한 재료를 직접 만들어 낸다. &6전설 보스 정수&r가 필요하다."]
+			icon: "mekanism:antiprotonic_nucleosynthesizer"
 			id: "6A9FB29470167509"
 			rewards: [
 				{
@@ -1210,21 +1180,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "7FFA856644C24E6D"
-					item: "mekanism:antiprotonic_nucleosynthesizer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7FFA856644C24E6D"
+				item: "mekanism:antiprotonic_nucleosynthesizer"
+				type: "item"
+			}]
 			title: "&5&l[ ✦ 반양성자 핵합성기 ]"
 			x: 14.0d
 			y: 0.75d
-			icon: "mekanism:antiprotonic_nucleosynthesizer"
 		}
 		{
 			dependencies: ["7B3F68FDADF27DA4"]
 			description: ["메카니즘 추가(Additions): HDPE로 만드는 색 블록. 플라스틱 도로는 위를 걸으면 빨라진다."]
+			icon: "mekanismadditions:white_plastic"
 			id: "7824251840C7D298"
 			rewards: [
 				{
@@ -1256,11 +1224,11 @@
 			title: "&f&l[ ✦ 플라스틱 블록 (추가) ]"
 			x: 3.5d
 			y: 8.25d
-			icon: "mekanismadditions:white_plastic"
 		}
 		{
 			dependencies: ["7824251840C7D298"]
 			description: ["빛나는 패널과, 몹이나 블록에 묶을 수 있는 풍선."]
+			icon: "mekanismadditions:white_glow_panel"
 			id: "1F0A898D4267258B"
 			rewards: [
 				{
@@ -1291,11 +1259,11 @@
 			title: "&e&l[ ✦ 발광 패널과 풍선 (추가) ]"
 			x: 5.25d
 			y: 4.5d
-			icon: "mekanismadditions:white_glow_panel"
 		}
 		{
 			dependencies: ["7DE1414B6277C041"]
 			description: ["같은 채널의 플레이어끼리 멀리서도 대화한다."]
+			icon: "mekanismadditions:walkie_talkie"
 			id: "175E2FF4344DFC51"
 			rewards: [
 				{
@@ -1310,21 +1278,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "738649D07409BCCD"
-					item: "mekanismadditions:walkie_talkie"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "738649D07409BCCD"
+				item: "mekanismadditions:walkie_talkie"
+				type: "item"
+			}]
 			title: "&7&l[ ✦ 무전기 (추가) ]"
 			x: 1.75d
 			y: 6.0d
-			icon: "mekanismadditions:walkie_talkie"
 		}
 		{
 			dependencies: ["7B303B8E92D834DE"]
 			description: ["위에 서 있으면 들고 있는 전기 장비와 로빗을 충전한다."]
+			icon: "mekanism:chargepad"
 			id: "17393326C123CB6A"
 			rewards: [
 				{
@@ -1339,21 +1305,22 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "7FFF8A5C0CAA71D8"
-					item: "mekanism:chargepad"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7FFF8A5C0CAA71D8"
+				item: "mekanism:chargepad"
+				type: "item"
+			}]
 			title: "&e&l[ ✦ 충전 패드 ]"
 			x: 5.25d
 			y: 6.0d
-			icon: "mekanism:chargepad"
 		}
 		{
-			dependencies: ["7B3F68FDADF27DA4", "6A4B4218BAE1AC14"]
+			dependencies: [
+				"7B3F68FDADF27DA4"
+				"6A4B4218BAE1AC14"
+			]
 			description: ["메카슈트에 모듈을 끼우고 빼는 작업대. 모듈은 모듈 기판으로 만든다."]
+			icon: "mekanism:modification_station"
 			id: "571BF01A60E7CF34"
 			rewards: [
 				{
@@ -1384,31 +1351,27 @@
 			title: "&b&l[ ✦ 모듈 제어기 ]"
 			x: 3.5d
 			y: 9.75d
-			icon: "mekanism:modification_station"
 		}
 		{
+			icon: "mekanism:metallurgic_infuser"
 			id: "22BF9E63FF3FB231"
-			rewards: [
-				{
-					id: "3BC83E65A34A0C89"
-					type: "xp"
-					xp: 100
-				}
-			]
-			tasks: [
-				{
-					id: "0390858145CF45C2"
-					item: "mekanism:metallurgic_infuser"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "3BC83E65A34A0C89"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0390858145CF45C2"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
 			title: "&3&l[ ✦ 주입의시대 ]"
 			x: -12.0d
 			y: 0.0d
-			icon: "mekanism:metallurgic_infuser"
 		}
 		{
 			dependencies: ["22BF9E63FF3FB231"]
+			icon: "mekanism:basic_control_circuit"
 			id: "7FAAB5CBFB3029FF"
 			rewards: [
 				{
@@ -1423,24 +1386,19 @@
 					type: "loot"
 				}
 			]
-			tasks: [
-				{
-					count: 5L
-					id: "3ED9308C2E3FB888"
-					item: {
-						Count: 5
-						id: "mekanism:basic_control_circuit"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 5L
+				id: "3ED9308C2E3FB888"
+				item: { Count: 5, id: "mekanism:basic_control_circuit" }
+				type: "item"
+			}]
+			title: "&b&l[ ✦ 기초 제어 회로 ]"
 			x: -10.0d
 			y: 0.0d
-			icon: "mekanism:basic_control_circuit"
-			title: "&b&l[ ✦ 기초 제어 회로 ]"
 		}
 		{
 			dependencies: ["7FAAB5CBFB3029FF"]
+			icon: "mekanism:advanced_control_circuit"
 			id: "4F467EE727C9F4B2"
 			rewards: [
 				{
@@ -1459,29 +1417,23 @@
 				{
 					count: 5L
 					id: "1B385ADCB6B4690F"
-					item: {
-						Count: 5
-						id: "mekanism:advanced_control_circuit"
-					}
+					item: { Count: 5, id: "mekanism:advanced_control_circuit" }
 					type: "item"
 				}
 				{
 					count: 5L
 					id: "01A1185204026D55"
-					item: {
-						Count: 5
-						id: "mekanism:alloy_infused"
-					}
+					item: { Count: 5, id: "mekanism:alloy_infused" }
 					type: "item"
 				}
 			]
+			title: "&a&l[ ✦ 고급 회로와 주입 합금 ]"
 			x: -8.5d
 			y: 0.0d
-			icon: "mekanism:advanced_control_circuit"
-			title: "&a&l[ ✦ 고급 회로와 주입 합금 ]"
 		}
 		{
 			dependencies: ["4F467EE727C9F4B2"]
+			icon: "mekanism:elite_control_circuit"
 			id: "24C56661727F0A81"
 			rewards: [
 				{
@@ -1500,29 +1452,23 @@
 				{
 					count: 5L
 					id: "074EA90C2AAE6A4C"
-					item: {
-						Count: 5
-						id: "mekanism:elite_control_circuit"
-					}
+					item: { Count: 5, id: "mekanism:elite_control_circuit" }
 					type: "item"
 				}
 				{
 					count: 5L
 					id: "5EC1E8C5AFAABA39"
-					item: {
-						Count: 5
-						id: "mekanism:alloy_reinforced"
-					}
+					item: { Count: 5, id: "mekanism:alloy_reinforced" }
 					type: "item"
 				}
 			]
+			title: "&d&l[ ✦ 엘리트 회로와 강화 합금 ]"
 			x: -7.0d
 			y: 0.0d
-			icon: "mekanism:elite_control_circuit"
-			title: "&d&l[ ✦ 엘리트 회로와 강화 합금 ]"
 		}
 		{
 			dependencies: ["24C56661727F0A81"]
+			icon: "mekanism:ultimate_control_circuit"
 			id: "65A129892759E5BA"
 			rewards: [
 				{
@@ -1541,108 +1487,88 @@
 				{
 					count: 5L
 					id: "77ED1F994AB46E29"
-					item: {
-						Count: 5
-						id: "mekanism:ultimate_control_circuit"
-					}
+					item: { Count: 5, id: "mekanism:ultimate_control_circuit" }
 					type: "item"
 				}
 				{
 					count: 5L
 					id: "191E8924DC1D3760"
-					item: {
-						Count: 5
-						id: "mekanism:alloy_atomic"
-					}
+					item: { Count: 5, id: "mekanism:alloy_atomic" }
 					type: "item"
 				}
 			]
+			title: "&5&l[ ✦ 울티밋 회로와 원자 합금 ]"
 			x: -5.5d
 			y: 0.0d
-			icon: "mekanism:ultimate_control_circuit"
-			title: "&5&l[ ✦ 울티밋 회로와 원자 합금 ]"
 		}
 		{
 			dependencies: ["22BF9E63FF3FB231"]
+			icon: "mekanism:basic_energy_cube"
 			id: "6D9B0A5B5A81D7C9"
-			rewards: [
-				{
-					id: "456FD9E0284D6A8B"
-					item: {
-						Count: 1
-						id: "mekanism:basic_energy_cube"
-						tag: {
-							mekData: {
-								EnergyContainers: [
-									{
-										Container: 0b
-										stored: "4000000"
-									}
-								]
-							}
+			rewards: [{
+				id: "456FD9E0284D6A8B"
+				item: {
+					Count: 1
+					id: "mekanism:basic_energy_cube"
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "4000000"
+							}]
 						}
 					}
-					type: "item"
 				}
-			]
-			tasks: [
-				{
-					id: "65D8E7EE20EA8352"
-					item: "mekanism:basic_energy_cube"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
+			tasks: [{
+				id: "65D8E7EE20EA8352"
+				item: "mekanism:basic_energy_cube"
+				type: "item"
+			}]
+			title: "&e&l[ ✦ 에너지 큐브 ]"
 			x: -12.0d
 			y: -1.5d
-			icon: "mekanism:basic_energy_cube"
-			title: "&e&l[ ✦ 에너지 큐브 ]"
 		}
 		{
 			dependencies: ["22BF9E63FF3FB231"]
+			icon: "mekanism:configurator"
 			id: "5CDACFDE2075362C"
-			rewards: [
-				{
-					id: "308DCC2C111695C9"
-					type: "xp"
-					xp: 100
-				}
-			]
-			tasks: [
-				{
-					id: "32421F40A5B77B93"
-					item: "mekanism:configurator"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "308DCC2C111695C9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "32421F40A5B77B93"
+				item: "mekanism:configurator"
+				type: "item"
+			}]
+			title: "&7&l[ ✦ 구성기 ]"
 			x: -12.0d
 			y: 1.0d
-			icon: "mekanism:configurator"
-			title: "&7&l[ ✦ 구성기 ]"
 		}
 		{
 			dependencies: ["22BF9E63FF3FB231"]
+			icon: "mekanism:basic_tier_installer"
 			id: "749B54C3A6FB2964"
-			rewards: [
-				{
-					id: "5C356634163CAD34"
-					type: "xp"
-					xp: 10
-				}
-			]
-			tasks: [
-				{
-					id: "09245F42CCA34CE5"
-					item: "mekanism:basic_tier_installer"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "5C356634163CAD34"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "09245F42CCA34CE5"
+				item: "mekanism:basic_tier_installer"
+				type: "item"
+			}]
+			title: "&7&l[ ✦ 기본 등급 설치기 ]"
 			x: -8.0d
 			y: -4.5d
-			icon: "mekanism:basic_tier_installer"
-			title: "&7&l[ ✦ 기본 등급 설치기 ]"
 		}
 		{
 			dependencies: ["749B54C3A6FB2964"]
+			icon: "mekanism:advanced_tier_installer"
 			id: "0545658D262F157A"
 			rewards: [
 				{
@@ -1657,20 +1583,18 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "1F480C8F9F068B68"
-					item: "mekanism:advanced_tier_installer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1F480C8F9F068B68"
+				item: "mekanism:advanced_tier_installer"
+				type: "item"
+			}]
+			title: "&a&l[ ✦ 고급 등급 설치기 ]"
 			x: -7.0d
 			y: -5.5d
-			icon: "mekanism:advanced_tier_installer"
-			title: "&a&l[ ✦ 고급 등급 설치기 ]"
 		}
 		{
 			dependencies: ["0545658D262F157A"]
+			icon: "mekanism:elite_tier_installer"
 			id: "6456B54123E688FA"
 			rewards: [
 				{
@@ -1685,20 +1609,18 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "692051F92CE2D86B"
-					item: "mekanism:elite_tier_installer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "692051F92CE2D86B"
+				item: "mekanism:elite_tier_installer"
+				type: "item"
+			}]
+			title: "&d&l[ ✦ 엘리트 등급 설치기 ]"
 			x: -6.0d
 			y: -4.5d
-			icon: "mekanism:elite_tier_installer"
-			title: "&d&l[ ✦ 엘리트 등급 설치기 ]"
 		}
 		{
 			dependencies: ["6456B54123E688FA"]
+			icon: "mekanism:ultimate_tier_installer"
 			id: "3B04AAE114EAAA0E"
 			rewards: [
 				{
@@ -1713,20 +1635,18 @@
 					xp: 100
 				}
 			]
-			tasks: [
-				{
-					id: "35E891BDAB5A1F34"
-					item: "mekanism:ultimate_tier_installer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "35E891BDAB5A1F34"
+				item: "mekanism:ultimate_tier_installer"
+				type: "item"
+			}]
+			title: "&5&l[ ✦ 울티밋 등급 설치기 ]"
 			x: -7.0d
 			y: -3.5d
-			icon: "mekanism:ultimate_tier_installer"
-			title: "&5&l[ ✦ 울티밋 등급 설치기 ]"
 		}
 		{
 			dependencies: ["7FAAB5CBFB3029FF"]
+			icon: "mekanism:energized_smelter"
 			id: "2693E406B75B11C4"
 			rewards: [
 				{
@@ -1741,20 +1661,18 @@
 					type: "loot"
 				}
 			]
-			tasks: [
-				{
-					id: "1CD3CD961236EE99"
-					item: "mekanism:energized_smelter"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1CD3CD961236EE99"
+				item: "mekanism:energized_smelter"
+				type: "item"
+			}]
+			title: "&6&l[ ✦ 전기 제련기 ]"
 			x: -9.5d
 			y: 1.0d
-			icon: "mekanism:energized_smelter"
-			title: "&6&l[ ✦ 전기 제련기 ]"
 		}
 		{
 			dependencies: ["4F467EE727C9F4B2"]
+			icon: "mekanism:osmium_compressor"
 			id: "753175E0AC8AD42A"
 			rewards: [
 				{
@@ -1769,20 +1687,18 @@
 					type: "loot"
 				}
 			]
-			tasks: [
-				{
-					id: "22084883BAF19C00"
-					item: "mekanism:osmium_compressor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "22084883BAF19C00"
+				item: "mekanism:osmium_compressor"
+				type: "item"
+			}]
+			title: "&b&l[ ✦ 오스뮴 압축기 ]"
 			x: -7.5d
 			y: -1.0d
-			icon: "mekanism:osmium_compressor"
-			title: "&b&l[ ✦ 오스뮴 압축기 ]"
 		}
 		{
 			dependencies: ["7FAAB5CBFB3029FF"]
+			icon: "mekanism:enrichment_chamber"
 			id: "11FBAC81B1CECED3"
 			rewards: [
 				{
@@ -1797,20 +1713,18 @@
 					type: "loot"
 				}
 			]
-			tasks: [
-				{
-					id: "039045141F39CC37"
-					item: "mekanism:enrichment_chamber"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "039045141F39CC37"
+				item: "mekanism:enrichment_chamber"
+				type: "item"
+			}]
+			title: "&a&l[ ✦ 농축 챔버 ]"
 			x: -9.5d
 			y: -1.0d
-			icon: "mekanism:enrichment_chamber"
-			title: "&a&l[ ✦ 농축 챔버 ]"
 		}
 		{
 			dependencies: ["7FAAB5CBFB3029FF"]
+			icon: "mekanism:crusher"
 			id: "4312BA1EDA4D45E6"
 			rewards: [
 				{
@@ -1825,20 +1739,18 @@
 					type: "loot"
 				}
 			]
-			tasks: [
-				{
-					id: "391DF27A85428728"
-					item: "mekanism:crusher"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "391DF27A85428728"
+				item: "mekanism:crusher"
+				type: "item"
+			}]
+			title: "&7&l[ ✦ 분쇄기 ]"
 			x: -10.5d
 			y: 1.0d
-			icon: "mekanism:crusher"
-			title: "&7&l[ ✦ 분쇄기 ]"
 		}
 		{
 			dependencies: ["11FBAC81B1CECED3"]
+			icon: "mekanism:pressurized_reaction_chamber"
 			id: "735AB8BE03C9242B"
 			rewards: [
 				{
@@ -1853,20 +1765,18 @@
 					type: "loot"
 				}
 			]
-			tasks: [
-				{
-					id: "71AC974A17076B15"
-					item: "mekanism:pressurized_reaction_chamber"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "71AC974A17076B15"
+				item: "mekanism:pressurized_reaction_chamber"
+				type: "item"
+			}]
+			title: "&c&l[ ✦ 가압 반응 챔버 ]"
 			x: -9.5d
 			y: -2.0d
-			icon: "mekanism:pressurized_reaction_chamber"
-			title: "&c&l[ ✦ 가압 반응 챔버 ]"
 		}
 		{
 			dependencies: ["4F467EE727C9F4B2"]
+			icon: "mekanism:electric_pump"
 			id: "6CF5999FBECFE926"
 			rewards: [
 				{
@@ -1893,13 +1803,13 @@
 					type: "item"
 				}
 			]
+			title: "&9&l[ ✦ 전기 펌프와 전해 분리기 ]"
 			x: -8.5d
 			y: -1.0d
-			icon: "mekanism:electric_pump"
-			title: "&9&l[ ✦ 전기 펌프와 전해 분리기 ]"
 		}
 		{
 			dependencies: ["4F467EE727C9F4B2"]
+			icon: "mekanism:chemical_oxidizer"
 			id: "0B6CA20659ADA527"
 			rewards: [
 				{
@@ -1926,13 +1836,13 @@
 					type: "item"
 				}
 			]
+			title: "&e&l[ ✦ 화학 산화기와 주입기 ]"
 			x: -8.5d
 			y: 1.0d
-			icon: "mekanism:chemical_oxidizer"
-			title: "&e&l[ ✦ 화학 산화기와 주입기 ]"
 		}
 		{
 			dependencies: ["4312BA1EDA4D45E6"]
+			icon: "mekanism:bio_fuel"
 			id: "4D98EE69F13DB129"
 			rewards: [
 				{
@@ -1951,10 +1861,7 @@
 				{
 					count: 5L
 					id: "36E3357A27FC5123"
-					item: {
-						Count: 5
-						id: "mekanism:bio_fuel"
-					}
+					item: { Count: 5, id: "mekanism:bio_fuel" }
 					type: "item"
 				}
 				{
@@ -1963,70 +1870,57 @@
 					type: "item"
 				}
 			]
+			title: "&2&l[ ✦ 바이오 연료 발전 ]"
 			x: -10.5d
 			y: 2.0d
-			icon: "mekanism:bio_fuel"
-			title: "&2&l[ ✦ 바이오 연료 발전 ]"
 		}
 		{
-			dependencies: ["22BF9E63FF3FB231", "65A129892759E5BA"]
-			id: "7A447F62F17D1E7D"
-			tasks: [
-				{
-					id: "0939048189FEA7ED"
-					item: "mekanism:atomic_disassembler"
-					type: "item"
-				}
+			dependencies: [
+				"22BF9E63FF3FB231"
+				"65A129892759E5BA"
 			]
+			icon: "mekanism:atomic_disassembler"
+			id: "7A447F62F17D1E7D"
+			tasks: [{
+				id: "0939048189FEA7ED"
+				item: "mekanism:atomic_disassembler"
+				type: "item"
+			}]
 			title: "&f&l[ ✦ 원자분해 ]"
 			x: -13.0d
 			y: 0.0d
-			icon: "mekanism:atomic_disassembler"
 		}
 		{
+			icon: "mekanismgenerators:fission_reactor_port"
 			id: "7D213D217E5E532D"
-			rewards: [
-				{
-					id: "146CA8407E65073A"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				id: "146CA8407E65073A"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					count: 2L
 					id: "1EC6090C1A09F161"
-					item: {
-						Count: 2
-						id: "mekanismgenerators:fission_reactor_port"
-					}
+					item: { Count: 2, id: "mekanismgenerators:fission_reactor_port" }
 					type: "item"
 				}
 				{
 					count: 30L
 					id: "1F6C90BB71BA5BF5"
-					item: {
-						Count: 30
-						id: "mekanismgenerators:fission_reactor_casing"
-					}
+					item: { Count: 30, id: "mekanismgenerators:fission_reactor_casing" }
 					type: "item"
 				}
 				{
 					count: 10L
 					id: "3AB45DE3BD9B946E"
-					item: {
-						Count: 10
-						id: "mekanismgenerators:reactor_glass"
-					}
+					item: { Count: 10, id: "mekanismgenerators:reactor_glass" }
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "29B72DC501AD03CD"
-					item: {
-						Count: 2
-						id: "mekanismgenerators:fission_fuel_assembly"
-					}
+					item: { Count: 2, id: "mekanismgenerators:fission_fuel_assembly" }
 					type: "item"
 				}
 				{
@@ -2035,10 +1929,9 @@
 					type: "item"
 				}
 			]
+			title: "&c&l[ ✦ 핵분열로 ]"
 			x: -4.0d
 			y: 0.0d
-			icon: "mekanismgenerators:fission_reactor_port"
-			title: "&c&l[ ✦ 핵분열로 ]"
 		}
 	]
 	title: "&b&l✦ 메카니즘"

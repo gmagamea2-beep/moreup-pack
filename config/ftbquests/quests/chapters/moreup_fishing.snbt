@@ -3,13 +3,26 @@
 	default_quest_shape: ""
 	filename: "moreup_fishing"
 	group: "7E05AA7C371599AC"
-	icon: "aquaculture:diamond_fishing_rod"
+	icon: {
+		Count: 1
+		id: "aquaculture:diamond_fishing_rod"
+		tag: {
+			Damage: 0
+		}
+	}
 	id: "77F7B844AC29DC1E"
 	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
 			description: ["Aquaculture: 낚싯대에 바늘·미끼·낚싯줄을 달 수 있다."]
+			icon: {
+				Count: 1
+				id: "aquaculture:iron_fishing_rod"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "3AC3632B50635C52"
 			rewards: [
 				{
@@ -24,21 +37,25 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "00F1C1C2D8142C06"
-					item: "aquaculture:iron_fishing_rod"
-					type: "item"
+			tasks: [{
+				id: "00F1C1C2D8142C06"
+				item: {
+					Count: 1
+					id: "aquaculture:iron_fishing_rod"
+					tag: {
+						Damage: 0
+					}
 				}
-			]
+				type: "item"
+			}]
 			title: "&7&l[ ✦ 철 낚싯대 ]"
 			x: 0.0d
 			y: 0.0d
-			icon: "aquaculture:iron_fishing_rod"
 		}
 		{
 			dependencies: ["3AC3632B50635C52"]
 			description: ["바늘마다 효과가 다르다 (무거운 바늘은 빨리 가라앉는 식)."]
+			icon: "aquaculture:iron_hook"
 			id: "28024DD9D79491E3"
 			rewards: [
 				{
@@ -68,10 +85,16 @@
 			title: "&7&l[ ✦ 낚싯바늘 ]"
 			x: 1.75d
 			y: -3.75d
-			icon: "aquaculture:iron_hook"
 		}
 		{
 			dependencies: ["3AC3632B50635C52"]
+			icon: {
+				Count: 1
+				id: "aquaculture:gold_fishing_rod"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "3BDF52E0A2D2841B"
 			rewards: [
 				{
@@ -86,20 +109,30 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "278A12D182F27844"
-					item: "aquaculture:gold_fishing_rod"
-					type: "item"
+			tasks: [{
+				id: "278A12D182F27844"
+				item: {
+					Count: 1
+					id: "aquaculture:gold_fishing_rod"
+					tag: {
+						Damage: 0
+					}
 				}
-			]
+				type: "item"
+			}]
 			title: "&6&l[ ✦ 금 낚싯대 ]"
 			x: 1.75d
 			y: -2.25d
-			icon: "aquaculture:gold_fishing_rod"
 		}
 		{
 			dependencies: ["3BDF52E0A2D2841B"]
+			icon: {
+				Count: 1
+				id: "aquaculture:diamond_fishing_rod"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "443B0EA676F60101"
 			rewards: [
 				{
@@ -114,21 +147,31 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "776EB797C92381A0"
-					item: "aquaculture:diamond_fishing_rod"
-					type: "item"
+			tasks: [{
+				id: "776EB797C92381A0"
+				item: {
+					Count: 1
+					id: "aquaculture:diamond_fishing_rod"
+					tag: {
+						Damage: 0
+					}
 				}
-			]
+				type: "item"
+			}]
 			title: "&b&l[ ✦ 다이아몬드 낚싯대 ]"
 			x: 3.5d
 			y: 0.0d
-			icon: "aquaculture:diamond_fishing_rod"
 		}
 		{
 			dependencies: ["3AC3632B50635C52"]
 			description: ["회칼로 물고기를 생선 살로 만든다."]
+			icon: {
+				Count: 1
+				id: "aquaculture:iron_fillet_knife"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "793484D3D42A3C34"
 			rewards: [
 				{
@@ -146,7 +189,13 @@
 			tasks: [
 				{
 					id: "3CC96DCA0AD0344D"
-					item: "aquaculture:iron_fillet_knife"
+					item: {
+						Count: 1
+						id: "aquaculture:iron_fillet_knife"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 				{
@@ -159,11 +208,11 @@
 			title: "&f&l[ ✦ 회칼과 생선 살 ]"
 			x: 1.75d
 			y: -0.75d
-			icon: "aquaculture:iron_fillet_knife"
 		}
 		{
 			dependencies: ["3AC3632B50635C52"]
 			description: ["낚시로 건지는 상자와 자물쇠 상자."]
+			icon: "aquaculture:box"
 			id: "4A6A8A97D3EFC934"
 			rewards: [
 				{
@@ -193,11 +242,14 @@
 			title: "&6&l[ ✦ 바다의 보물 ]"
 			x: 1.75d
 			y: 0.75d
-			icon: "aquaculture:box"
 		}
 		{
-			dependencies: ["4A6A8A97D3EFC934", "443B0EA676F60101"]
+			dependencies: [
+				"4A6A8A97D3EFC934"
+				"443B0EA676F60101"
+			]
 			description: ["넵튠의 보상에서 나오는 금속."]
+			icon: "aquaculture:neptunium_ingot"
 			id: "704EE4891252A501"
 			rewards: [
 				{
@@ -212,21 +264,25 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					count: 4L
-					id: "4FBB92EFA41A39F9"
-					item: "aquaculture:neptunium_ingot"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 4L
+				id: "4FBB92EFA41A39F9"
+				item: "aquaculture:neptunium_ingot"
+				type: "item"
+			}]
 			title: "&b&l[ ✦ 넵투늄 주괴 ]"
 			x: 5.25d
 			y: 0.0d
-			icon: "aquaculture:neptunium_ingot"
 		}
 		{
 			dependencies: ["704EE4891252A501"]
+			icon: {
+				Count: 1
+				id: "aquaculture:neptunium_fishing_rod"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "49B99CDC7649CA62"
 			rewards: [
 				{
@@ -244,23 +300,35 @@
 			tasks: [
 				{
 					id: "31CD22F25978A580"
-					item: "aquaculture:neptunium_fishing_rod"
+					item: {
+						Count: 1
+						id: "aquaculture:neptunium_fishing_rod"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 				{
 					id: "069617F7C11FBBC4"
-					item: "aquaculture:neptunium_chestplate"
+					item: {
+						Count: 1
+						id: "aquaculture:neptunium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
 			title: "&b&l[ ✦ 넵투늄 장비 ]"
 			x: 7.0d
 			y: 0.0d
-			icon: "aquaculture:neptunium_fishing_rod"
 		}
 		{
 			dependencies: ["3AC3632B50635C52"]
 			description: ["깊은 바다의 거대 환도상어 (Upgrade Aquatic)."]
+			icon: "upgrade_aquatic:great_thrasher_spawn_egg"
 			id: "70523FA37496785F"
 			rewards: [
 				{
@@ -281,23 +349,21 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					entity: "upgrade_aquatic:great_thrasher"
-					id: "7634E5259942C7DE"
-					type: "kill"
-					value: 1L
-				}
-			]
+			shape: "hexagon"
+			tasks: [{
+				entity: "upgrade_aquatic:great_thrasher"
+				id: "7634E5259942C7DE"
+				type: "kill"
+				value: 1L
+			}]
 			title: "&3&l[ ⚔ 거대 환도상어 ]"
 			x: 1.75d
 			y: 2.25d
-			icon: "upgrade_aquatic:great_thrasher_spawn_egg"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["3AC3632B50635C52"]
 			description: ["얼음 미궁의 미로의 어머니 (Aquamirae)."]
+			icon: "aquamirae:maze_mother_spawn_egg"
 			id: "5B5CB0B8D9598F59"
 			rewards: [
 				{
@@ -318,19 +384,16 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					entity: "aquamirae:maze_mother"
-					id: "2788263592F5D5CD"
-					type: "kill"
-					value: 1L
-				}
-			]
+			shape: "hexagon"
+			tasks: [{
+				entity: "aquamirae:maze_mother"
+				id: "2788263592F5D5CD"
+				type: "kill"
+				value: 1L
+			}]
 			title: "&b&l[ ⚔ 미로의 어머니 ]"
 			x: 1.75d
 			y: 3.75d
-			icon: "aquamirae:maze_mother_spawn_egg"
-			shape: "hexagon"
 		}
 	]
 	title: "&b&l✦ 낚시와 바다"

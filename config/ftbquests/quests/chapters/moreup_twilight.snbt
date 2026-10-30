@@ -11,6 +11,7 @@
 		{
 			dependencies: ["2DD015E09CDA7F92"]
 			description: ["나가의 안뜰을 지키는 거대한 뱀."]
+			icon: "twilightforest:naga_trophy"
 			id: "349F9D615CE78B6F"
 			rewards: [
 				{
@@ -31,6 +32,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "twilightforest:naga"
@@ -42,11 +44,10 @@
 			title: "&a&l[ ⚔ 나가 ]"
 			x: 0.0d
 			y: 0.0d
-			icon: "twilightforest:naga_trophy"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["349F9D615CE78B6F"]
+			icon: "twilightforest:naga_scale"
 			id: "3A6EE8A3E69D9832"
 			rewards: [
 				{
@@ -72,11 +73,11 @@
 			title: "&a&l[ ✦ 나가 비늘 ]"
 			x: 1.75d
 			y: -4.5d
-			icon: "twilightforest:naga_scale"
 		}
 		{
 			dependencies: ["349F9D615CE78B6F"]
 			description: ["리치의 탑 꼭대기에서 기다린다. 그림자를 공격하지 말 것."]
+			icon: "twilightforest:lich_trophy"
 			id: "7AFF924FF6F8F9A3"
 			rewards: [
 				{
@@ -97,6 +98,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "twilightforest:lich"
@@ -108,11 +110,16 @@
 			title: "&e&l[ ⚔ 리치 ]"
 			x: 1.75d
 			y: -3.0d
-			icon: "twilightforest:lich_trophy"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["7AFF924FF6F8F9A3"]
+			icon: {
+				Count: 1
+				id: "twilightforest:twilight_scepter"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "10B0E7A6561FFAC8"
 			rewards: [
 				{
@@ -130,18 +137,24 @@
 			tasks: [
 				{
 					id: "4283AF8A200B07EA"
-					item: "twilightforest:twilight_scepter"
+					item: {
+						Count: 1
+						id: "twilightforest:twilight_scepter"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
 			title: "&e&l[ ✦ 리치의 왕홀 ]"
 			x: 3.5d
 			y: -4.5d
-			icon: "twilightforest:twilight_scepter"
 		}
 		{
 			dependencies: ["7AFF924FF6F8F9A3"]
 			description: ["미로 깊은 곳의 우두머리."]
+			icon: "twilightforest:minoshroom_trophy"
 			id: "643DEBD440273A18"
 			rewards: [
 				{
@@ -162,6 +175,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "twilightforest:minoshroom"
@@ -173,12 +187,11 @@
 			title: "&6&l[ ⚔ 미노슈룸 ]"
 			x: 3.5d
 			y: -3.0d
-			icon: "twilightforest:minoshroom_trophy"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["643DEBD440273A18"]
 			description: ["불의 늪 깊은 곳의 머리 셋 달린 용."]
+			icon: "twilightforest:hydra_trophy"
 			id: "77974D144B50FD6E"
 			rewards: [
 				{
@@ -199,6 +212,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "twilightforest:hydra"
@@ -210,12 +224,11 @@
 			title: "&c&l[ ⚔ 히드라 ]"
 			x: 5.25d
 			y: -4.5d
-			icon: "twilightforest:hydra_trophy"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["77974D144B50FD6E"]
 			description: ["히드라의 피로 단련한 금속. &d황혼의 인장&r 재료."]
+			icon: "twilightforest:fiery_ingot"
 			id: "0423231E220671F3"
 			rewards: [
 				{
@@ -240,11 +253,11 @@
 			title: "&c&l[ ✦ 불꽃 주괴 ]"
 			x: 7.0d
 			y: -2.25d
-			icon: "twilightforest:fiery_ingot"
 		}
 		{
 			dependencies: ["7AFF924FF6F8F9A3"]
 			description: ["다크 숲의 고블린 요새 깊은 곳."]
+			icon: "twilightforest:knight_phantom_trophy"
 			id: "7EAB351CC68FF746"
 			rewards: [
 				{
@@ -265,6 +278,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "twilightforest:knight_phantom"
@@ -276,11 +290,10 @@
 			title: "&7&l[ ⚔ 기사 유령 ]"
 			x: 3.5d
 			y: -1.5d
-			icon: "twilightforest:knight_phantom_trophy"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["7EAB351CC68FF746"]
+			icon: "twilightforest:knightmetal_ingot"
 			id: "70CB3F493E1DE1D6"
 			rewards: [
 				{
@@ -306,11 +319,11 @@
 			title: "&7&l[ ✦ 기사 금속 ]"
 			x: 5.25d
 			y: -3.0d
-			icon: "twilightforest:knightmetal_ingot"
 		}
 		{
 			dependencies: ["7EAB351CC68FF746"]
 			description: ["어둠의 탑 꼭대기."]
+			icon: "twilightforest:ur_ghast_trophy"
 			id: "73D05D96E25F957E"
 			rewards: [
 				{
@@ -331,6 +344,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "twilightforest:ur_ghast"
@@ -342,12 +356,11 @@
 			title: "&4&l[ ⚔ 우르가스트 ]"
 			x: 5.25d
 			y: -1.5d
-			icon: "twilightforest:ur_ghast_trophy"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["7AFF924FF6F8F9A3"]
 			description: ["눈 덮인 숲의 동굴."]
+			icon: "twilightforest:alpha_yeti_trophy"
 			id: "41F296B3EA6B12B1"
 			rewards: [
 				{
@@ -368,6 +381,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "twilightforest:alpha_yeti"
@@ -379,12 +393,11 @@
 			title: "&f&l[ ⚔ 알파 예티 ]"
 			x: 3.5d
 			y: 0.0d
-			icon: "twilightforest:alpha_yeti_trophy"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["41F296B3EA6B12B1"]
 			description: ["오로라 궁전의 주인."]
+			icon: "twilightforest:snow_queen_trophy"
 			id: "7170B260F3804D24"
 			rewards: [
 				{
@@ -405,6 +418,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "twilightforest:snow_queen"
@@ -416,12 +430,11 @@
 			title: "&b&l[ ⚔ 눈의 여왕 ]"
 			x: 5.25d
 			y: 0.0d
-			icon: "twilightforest:snow_queen_trophy"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["77974D144B50FD6E", "73D05D96E25F957E", "7170B260F3804D24"]
 			description: ["트로피 9종을 모으면 &e세계의 파편: 황혼&r을 만들 수 있다."]
+			icon: "twilightforest:naga_trophy"
 			id: "75460F8B40B5D20F"
 			rewards: [
 				{
@@ -486,11 +499,11 @@
 			title: "&2&l[ ✦ 황혼의 수호자들 ]"
 			x: 7.0d
 			y: -0.75d
-			icon: "twilightforest:naga_trophy"
 		}
 		{
 			dependencies: ["75460F8B40B5D20F"]
 			description: ["등불·사슬 철퇴·큐브 부적을 대장장이 작업대에서 합치자."]
+			icon: "twilightforest:cube_of_annihilation"
 			id: "7FFBA7158CC1488A"
 			rewards: [
 				{
@@ -515,11 +528,11 @@
 			title: "&5&l[ ✦ 소멸의 큐브 ]"
 			x: 8.75d
 			y: -1.5d
-			icon: "twilightforest:cube_of_annihilation"
 		}
 		{
 			dependencies: ["349F9D615CE78B6F"]
 			description: ["아이언우드 나무 뿌리로 만드는 금속."]
+			icon: "twilightforest:ironwood_ingot"
 			id: "760E851D5FFEA87B"
 			rewards: [
 				{
@@ -545,11 +558,11 @@
 			title: "&6&l[ ✦ 아이언우드괴 ]"
 			x: 1.75d
 			y: -1.5d
-			icon: "twilightforest:ironwood_ingot"
 		}
 		{
 			dependencies: ["349F9D615CE78B6F"]
 			description: ["강철잎 덤불에서 나오는 재료."]
+			icon: "twilightforest:steeleaf_ingot"
 			id: "6F3DE588A8709B65"
 			rewards: [
 				{
@@ -575,10 +588,16 @@
 			title: "&a&l[ ✦ 강철잎 ]"
 			x: 1.75d
 			y: 0.0d
-			icon: "twilightforest:steeleaf_ingot"
 		}
 		{
 			dependencies: ["760E851D5FFEA87B", "6F3DE588A8709B65"]
+			icon: {
+				Count: 1
+				id: "twilightforest:ironwood_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "7D639B8DC65B1822"
 			rewards: [
 				{
@@ -596,23 +615,35 @@
 			tasks: [
 				{
 					id: "4F49A197F703E648"
-					item: "twilightforest:ironwood_chestplate"
+					item: {
+						Count: 1
+						id: "twilightforest:ironwood_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 				{
 					id: "7BF4E546341E4BB8"
-					item: "twilightforest:steeleaf_chestplate"
+					item: {
+						Count: 1
+						id: "twilightforest:steeleaf_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
 			title: "&6&l[ ✦ 아이언우드와 강철잎 장비 ]"
 			x: 3.5d
 			y: 1.5d
-			icon: "twilightforest:ironwood_chestplate"
 		}
 		{
 			dependencies: ["349F9D615CE78B6F"]
 			description: ["생명의 부적은 죽을 때 한 번 살려 주고, 보존의 부적은 죽어도 아이템을 지켜 준다."]
+			icon: "twilightforest:charm_of_life_1"
 			id: "76AF956524F7A16D"
 			rewards: [
 				{
@@ -642,11 +673,11 @@
 			title: "&d&l[ ✦ 생명과 보존의 부적 ]"
 			x: 1.75d
 			y: 1.5d
-			icon: "twilightforest:charm_of_life_1"
 		}
 		{
 			dependencies: ["349F9D615CE78B6F"]
 			description: ["아이템을 재료로 되돌린다."]
+			icon: "twilightforest:uncrafting_table"
 			id: "41503C148A13B3ED"
 			rewards: [
 				{
@@ -671,11 +702,11 @@
 			title: "&e&l[ ✦ 역제작대 ]"
 			x: 1.75d
 			y: 3.0d
-			icon: "twilightforest:uncrafting_table"
 		}
 		{
 			dependencies: ["349F9D615CE78B6F"]
 			description: ["마법의 지도는 보스 위치를, 미궁 지도는 미궁 구조를 보여 준다."]
+			icon: "twilightforest:filled_magic_map"
 			id: "74F7187387E08A3E"
 			rewards: [
 				{
@@ -705,11 +736,17 @@
 			title: "&b&l[ ✦ 마법의 지도와 미궁 지도 ]"
 			x: 1.75d
 			y: 4.5d
-			icon: "twilightforest:filled_magic_map"
 		}
 		{
 			dependencies: ["7AFF924FF6F8F9A3"]
 			description: ["생명력 흡수·좀비 소환·방어 강화 지팡이 (리치의 탑)."]
+			icon: {
+				Count: 1
+				id: "twilightforest:lifedrain_scepter"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "76ADAC9C6B07CA03"
 			rewards: [
 				{
@@ -727,28 +764,52 @@
 			tasks: [
 				{
 					id: "5D2687F6D010C32D"
-					item: "twilightforest:lifedrain_scepter"
+					item: {
+						Count: 1
+						id: "twilightforest:lifedrain_scepter"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 				{
 					id: "2C4C5759357FD426"
-					item: "twilightforest:zombie_scepter"
+					item: {
+						Count: 1
+						id: "twilightforest:zombie_scepter"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 				{
 					id: "7AC77B598CB09D49"
-					item: "twilightforest:fortification_scepter"
+					item: {
+						Count: 1
+						id: "twilightforest:fortification_scepter"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
 			title: "&5&l[ ✦ 지팡이 3종 ]"
 			x: 3.5d
 			y: 3.0d
-			icon: "twilightforest:lifedrain_scepter"
 		}
 		{
 			dependencies: ["643DEBD440273A18"]
 			description: ["얼음 활·세 갈래 활·추적의 활·엔더 활. 미궁과 보물 상자에서 나온다."]
+			icon: {
+				Count: 1
+				id: "twilightforest:ice_bow"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "760F14B2C758CDB8"
 			rewards: [
 				{
@@ -765,32 +826,62 @@
 			tasks: [
 				{
 					id: "202C5214CE54E656"
-					item: "twilightforest:ice_bow"
+					item: {
+						Count: 1
+						id: "twilightforest:ice_bow"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 				{
 					id: "74BE546911E1EA32"
-					item: "twilightforest:triple_bow"
+					item: {
+						Count: 1
+						id: "twilightforest:triple_bow"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 				{
 					id: "07A6DEDFEA66A876"
-					item: "twilightforest:seeker_bow"
+					item: {
+						Count: 1
+						id: "twilightforest:seeker_bow"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 				{
 					id: "7D05C5D7914221FC"
-					item: "twilightforest:ender_bow"
+					item: {
+						Count: 1
+						id: "twilightforest:ender_bow"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
 			title: "&b&l[ ✦ 미궁의 활 ]"
 			x: 5.25d
 			y: 1.5d
-			icon: "twilightforest:ice_bow"
 		}
 		{
 			dependencies: ["0423231E220671F3"]
+			icon: {
+				Count: 1
+				id: "twilightforest:fiery_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "209890FA5E08AF0F"
 			rewards: [
 				{
@@ -808,22 +899,40 @@
 			tasks: [
 				{
 					id: "77DBA58A4756DF18"
-					item: "twilightforest:fiery_chestplate"
+					item: {
+						Count: 1
+						id: "twilightforest:fiery_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 				{
 					id: "6C04A8EA0697E7E7"
-					item: "twilightforest:fiery_sword"
+					item: {
+						Count: 1
+						id: "twilightforest:fiery_sword"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
 			title: "&c&l[ ✦ 화염석 장비 ]"
 			x: 8.75d
 			y: 0.0d
-			icon: "twilightforest:fiery_chestplate"
 		}
 		{
 			dependencies: ["70CB3F493E1DE1D6"]
+			icon: {
+				Count: 1
+				id: "twilightforest:knightmetal_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "74ACA5F1BABFA918"
 			rewards: [
 				{
@@ -841,18 +950,24 @@
 			tasks: [
 				{
 					id: "765BD9022552FD4E"
-					item: "twilightforest:knightmetal_chestplate"
+					item: {
+						Count: 1
+						id: "twilightforest:knightmetal_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
 			title: "&7&l[ ✦ 기사금속 장비 ]"
 			x: 7.0d
 			y: 0.75d
-			icon: "twilightforest:knightmetal_chestplate"
 		}
 		{
 			dependencies: ["73D05D96E25F957E"]
 			description: ["어둠의 탑 정령에게서 얻는 재료."]
+			icon: "twilightforest:carminite"
 			id: "77C5F565F2D2D4D2"
 			rewards: [
 				{
@@ -878,11 +993,17 @@
 			title: "&c&l[ ✦ 카미나이트 ]"
 			x: 7.0d
 			y: 2.25d
-			icon: "twilightforest:carminite"
 		}
 		{
 			dependencies: ["41F296B3EA6B12B1"]
 			description: ["알파 예티의 털로 만든 극지 장비."]
+			icon: {
+				Count: 1
+				id: "twilightforest:arctic_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "733DF01455485E45"
 			rewards: [
 				{
@@ -900,18 +1021,30 @@
 			tasks: [
 				{
 					id: "7589861452116CB2"
-					item: "twilightforest:arctic_chestplate"
+					item: {
+						Count: 1
+						id: "twilightforest:arctic_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
 			title: "&f&l[ ✦ 극지 흉갑 ]"
 			x: 5.25d
 			y: 3.0d
-			icon: "twilightforest:arctic_chestplate"
 		}
 		{
 			dependencies: ["75460F8B40B5D20F"]
 			description: ["구름 성의 거인 광부·기사에게서 얻는다."]
+			icon: {
+				Count: 1
+				id: "twilightforest:giant_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "77B8390A47E4A809"
 			rewards: [
 				{
@@ -929,18 +1062,30 @@
 			tasks: [
 				{
 					id: "01E65B3675637CB4"
-					item: "twilightforest:giant_pickaxe"
+					item: {
+						Count: 1
+						id: "twilightforest:giant_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
 			title: "&7&l[ ✦ 거인의 도구 ]"
 			x: 8.75d
 			y: 1.5d
-			icon: "twilightforest:giant_pickaxe"
 		}
 		{
 			dependencies: ["7EAB351CC68FF746"]
 			description: ["광석 자석·무너뜨리는 뿔·공작 깃털 부채·불씨 등불."]
+			icon: {
+				Count: 1
+				id: "twilightforest:ore_magnet"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "7F4B37DEF9BBECDC"
 			rewards: [
 				{
@@ -957,33 +1102,57 @@
 			tasks: [
 				{
 					id: "4373EC946C5C3808"
-					item: "twilightforest:ore_magnet"
+					item: {
+						Count: 1
+						id: "twilightforest:ore_magnet"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 				{
 					id: "73B6D1B3805CADD0"
-					item: "twilightforest:crumble_horn"
+					item: {
+						Count: 1
+						id: "twilightforest:crumble_horn"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 				{
 					id: "77A6298512B5317A"
-					item: "twilightforest:peacock_feather_fan"
+					item: {
+						Count: 1
+						id: "twilightforest:peacock_feather_fan"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 				{
 					id: "24A88FFD2BD26240"
-					item: "twilightforest:lamp_of_cinders"
+					item: {
+						Count: 1
+						id: "twilightforest:lamp_of_cinders"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
 			title: "&e&l[ ✦ 황혼의 도구들 ]"
 			x: 5.25d
 			y: 4.5d
-			icon: "twilightforest:ore_magnet"
 		}
 		{
 			dependencies: ["7AFF924FF6F8F9A3"]
 			description: ["동물을 다른 동물로 바꾼다."]
+			icon: "twilightforest:transformation_powder"
 			id: "2F4902D87670AC6A"
 			rewards: [
 				{
@@ -1009,7 +1178,6 @@
 			title: "&d&l[ ✦ 변신 가루 ]"
 			x: 3.5d
 			y: 4.5d
-			icon: "twilightforest:transformation_powder"
 		}
 	]
 	title: "&b&l✦ 황혼의 숲"

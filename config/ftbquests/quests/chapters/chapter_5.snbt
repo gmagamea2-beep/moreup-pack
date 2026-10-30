@@ -17,19 +17,35 @@
 				"&f그것은 과거 용이 버리고자 했던 &8'정체'&f와 &8'어둠'&f이 응집된 최악의 흉물입니다."
 				""
 				"&c[퀘스트를 클릭하여 최후의 성전을 시작하십시오.]"
+				""
+				"&b▶ 보상의 「이야기 보기」를 누르면 이 장의 컷씬을 볼 수 있습니다 (사람마다 한 번). 다시 보기: 채팅에 &f/story"
 			]
+			icon: "twilightforest:twilight_portal_miniature_structure"
 			id: "33F7EA2AF2CF2EB6"
 			rewards: [
 				{
 					auto: "enabled"
 					command: "/function scene:act5_start"
+					elevate_perms: true
 					exclude_from_claim_all: true
 					id: "06BA33500675E466"
 					team_reward: true
 					type: "command"
+				}
+				{
+					auto: "disabled"
+					command: "/function scene:act5_start"
 					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: "minecraft:ender_eye"
+					id: "71BA67EE0D6F34F3"
+					team_reward: false
+					title: "&b▶ 이야기 보기"
+					type: "command"
 				}
 			]
+			shape: "gear"
+			size: 1.5d
 			tasks: [
 				{
 					id: "7BE698A7E8C563FF"
@@ -38,11 +54,8 @@
 				}
 			]
 			title: "&5&l[ ★ 황혼의 끝 ]"
-			icon: "twilightforest:twilight_portal_miniature_structure"
 			x: 0.0d
 			y: 0.0d
-			shape: "gear"
-			size: 1.5d
 		}
 		{
 			dependencies: ["33F7EA2AF2CF2EB6"]
@@ -52,6 +65,7 @@
 				"&f불꽃 주괴 4, 상급 보스 정수 4, 네더의 별로 &d황혼의 인장&f을 만드십시오."
 				"&7황혼의 숲에서 인장을 쓰면 군주가 모습을 드러냅니다."
 			]
+			icon: "moreup:dusk_sigil"
 			id: "79C1667C2E810945"
 			rewards: [
 				{
@@ -70,7 +84,6 @@
 			title: "&d&l[ ✦ 황혼의 인장 ]"
 			x: 1.75d
 			y: -0.75d
-			icon: "moreup:dusk_sigil"
 		}
 		{
 			dependencies: ["79C1667C2E810945"]
@@ -80,6 +93,7 @@
 				"&f체력 100,000, 공격력 두 배. 일곱이 모아 온 모든 마법과 기계의 힘, 전설의 무기를 총동원하십시오."
 				"&c혼자서는 결코 쓰러뜨릴 수 없습니다. 동료와 함께 황혼의 숲을 찢어발기십시오."
 			]
+			icon: "moreup:keepers_crown"
 			id: "3FEB47C4CE1B5264"
 			rewards: [
 				{
@@ -94,6 +108,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "twilight_forest_final_boss:castle_keeper"
@@ -105,12 +120,11 @@
 			title: "&5&l[ ⚔ 영원한 황혼의 군주, 모어 ]"
 			x: 3.5d
 			y: 0.0d
-			icon: "moreup:keepers_crown"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["3FEB47C4CE1B5264"]
 			description: ["&7\"군주가 쓰러지는 순간, 그 안에 갇혀 있던 태초의 빛이 폭발하듯 쏟아져 나왔다.\"&r", "", "&f부서진 왕관에는 아직 그 빛의 온기가 남아 있습니다."]
+			icon: "moreup:keepers_crown"
 			id: "314478D9DD3A1534"
 			rewards: [
 				{
@@ -129,7 +143,6 @@
 			title: "&6&l[ ✦ 성주의 왕관 ]"
 			x: 5.25d
 			y: 0.0d
-			icon: "moreup:keepers_crown"
 		}
 		{
 			dependencies: ["33F7EA2AF2CF2EB6"]
@@ -139,6 +152,13 @@
 				"&f일곱 별의 궤적이 될 일곱 가지 보물을 모으십시오."
 				"&7겉날개, 네더의 별, 불사의 토템, 바다의 심장, 마법이 부여된 황금 사과, 전설 보스 정수, 신호기"
 			]
+			icon: {
+				Count: 1
+				id: "minecraft:elytra"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "4F6009C10ACFB639"
 			rewards: [
 				{
@@ -150,7 +170,13 @@
 			tasks: [
 				{
 					id: "65EC566ADEFCB760"
-					item: "minecraft:elytra"
+					item: {
+						Count: 1
+						id: "minecraft:elytra"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 				{
@@ -187,7 +213,6 @@
 			title: "&e&l[ ✦ 일곱 개의 궤적 ]"
 			x: 1.75d
 			y: 0.75d
-			icon: "minecraft:elytra"
 		}
 		{
 			dependencies: ["314478D9DD3A1534", "4F6009C10ACFB639"]
@@ -197,7 +222,10 @@
 				"&f세계와 왕관, 일곱 보물을 하나로 엮어 &6모어 업&f을 완성하십시오."
 				"&f과거로의 회귀가 아닙니다. 땀방울과 톱니바퀴, 피와 마법으로 벼려진 새로운 별자리의 탄생입니다."
 				"&e(이 아이템을 얻으면 팩 클리어)"
+				""
+				"&b▶ 보상의 「이야기 보기」를 누르면 이 장의 컷씬을 볼 수 있습니다 (사람마다 한 번). 다시 보기: 채팅에 &f/story"
 			]
+			icon: "moreup:more_up"
 			id: "61C5F1CCB42D1C3C"
 			rewards: [
 				{
@@ -208,11 +236,11 @@
 				{
 					auto: "enabled"
 					command: "/function scene:act5_end"
+					elevate_perms: true
 					exclude_from_claim_all: true
 					id: "78A2D1F6D6B250A4"
 					team_reward: true
 					type: "command"
-					elevate_perms: true
 				}
 				{
 					id: "671FD9E6378ED3E4"
@@ -238,7 +266,20 @@
 					}
 					type: "item"
 				}
+				{
+					auto: "disabled"
+					command: "/function scene:act5_end"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: "minecraft:ender_eye"
+					id: "11AE9E21E479155E"
+					team_reward: false
+					title: "&b▶ 이야기 보기"
+					type: "command"
+				}
 			]
+			shape: "gear"
+			size: 1.5d
 			tasks: [
 				{
 					id: "472334E32477476B"
@@ -249,9 +290,6 @@
 			title: "&6&l[ ★ MORE UP : Remaster 0 ]"
 			x: 7.0d
 			y: 0.0d
-			icon: "moreup:more_up"
-			shape: "gear"
-			size: 1.5d
 		}
 	]
 	title: "&6&l제5장 ☾ 황혼의 끝, 빛의 포효"

@@ -5,11 +5,12 @@
 	group: "7E05AA7C371599AC"
 	icon: "deeperdarker:heart_of_the_deep"
 	id: "7AAB1BEAB74FA68A"
-	order_index: 20
+	order_index: 21
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["35D936CDEFB2943D"]
+			icon: "undergarden:cloggrum_ingot"
 			id: "7876ABD5F9C120BC"
 			rewards: [
 				{
@@ -35,10 +36,10 @@
 			title: "&7&l[ ✦ 클로그럼 ]"
 			x: 0.0d
 			y: -2.25d
-			icon: "undergarden:cloggrum_ingot"
 		}
 		{
 			dependencies: ["7876ABD5F9C120BC"]
+			icon: "undergarden:froststeel_ingot"
 			id: "65456DFD54D50E64"
 			rewards: [
 				{
@@ -64,10 +65,10 @@
 			title: "&b&l[ ✦ 서리강철 ]"
 			x: 1.75d
 			y: -6.75d
-			icon: "undergarden:froststeel_ingot"
 		}
 		{
 			dependencies: ["65456DFD54D50E64"]
+			icon: "undergarden:utherium_crystal"
 			id: "05244DC9ACE1CF00"
 			rewards: [
 				{
@@ -93,10 +94,10 @@
 			title: "&c&l[ ✦ 유테리움 ]"
 			x: 3.5d
 			y: -3.75d
-			icon: "undergarden:utherium_crystal"
 		}
 		{
 			dependencies: ["65456DFD54D50E64"]
+			icon: "undergarden:forgotten_ingot"
 			id: "1611B988DBCD38B1"
 			rewards: [
 				{
@@ -117,6 +118,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "undergarden:forgotten_guardian"
@@ -128,11 +130,10 @@
 			title: "&7&l[ ⚔ 잊혀진 수호자 ]"
 			x: 3.5d
 			y: -2.25d
-			icon: "undergarden:forgotten_ingot"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["1611B988DBCD38B1"]
+			icon: "undergarden:forgotten_ingot"
 			id: "739A51735BCFA106"
 			rewards: [
 				{
@@ -158,10 +159,10 @@
 			title: "&6&l[ ✦ 잊혀진 주괴 ]"
 			x: 5.25d
 			y: -3.0d
-			icon: "undergarden:forgotten_ingot"
 		}
 		{
 			dependencies: ["77D016018B146B0B"]
+			icon: "deeperdarker:reinforced_echo_shard"
 			id: "4C5CEAD9A830FE42"
 			rewards: [
 				{
@@ -187,10 +188,10 @@
 			title: "&3&l[ ✦ 강화된 메아리 조각 ]"
 			x: 0.0d
 			y: -0.75d
-			icon: "deeperdarker:reinforced_echo_shard"
 		}
 		{
 			dependencies: ["4C5CEAD9A830FE42"]
+			icon: "deeperdarker:soul_crystal"
 			id: "74FE7FF368FE0AE1"
 			rewards: [
 				{
@@ -216,10 +217,10 @@
 			title: "&b&l[ ✦ 영혼 결정 ]"
 			x: 1.75d
 			y: -5.25d
-			icon: "deeperdarker:soul_crystal"
 		}
 		{
 			dependencies: ["74FE7FF368FE0AE1"]
+			icon: "deeperdarker:warden_carapace"
 			id: "77F426BFB3CFC66F"
 			rewards: [
 				{
@@ -244,10 +245,10 @@
 			title: "&3&l[ ✦ 워든 갑각 ]"
 			x: 3.5d
 			y: -0.75d
-			icon: "deeperdarker:warden_carapace"
 		}
 		{
 			dependencies: ["77F426BFB3CFC66F"]
+			icon: "deeperdarker:heart_of_the_deep"
 			id: "73BD64501B799273"
 			rewards: [
 				{
@@ -272,9 +273,9 @@
 			title: "&3&l[ ✦ 심연의 심장 ]"
 			x: 5.25d
 			y: -1.5d
-			icon: "deeperdarker:heart_of_the_deep"
 		}
 		{
+			icon: "theabyss:abyss_crystal_shard"
 			id: "7C5FCBF3A77254C5"
 			rewards: [
 				{
@@ -288,6 +289,7 @@
 					type: "item"
 				}
 			]
+			shape: "diamond"
 			tasks: [
 				{
 					dimension: "theabyss:the_abyss"
@@ -298,11 +300,10 @@
 			title: "&5&l[ ✧ 심연 (The Abyss) ]"
 			x: 0.0d
 			y: 0.75d
-			icon: "theabyss:abyss_crystal_shard"
-			shape: "diamond"
 		}
 		{
 			dependencies: ["7C5FCBF3A77254C5"]
+			icon: "theabyss:abyss_crystal_shard"
 			id: "7D0EC8295AD0F9BD"
 			rewards: [
 				{
@@ -327,10 +328,10 @@
 			title: "&5&l[ ✦ 심연 결정 조각 ]"
 			x: 1.75d
 			y: -3.75d
-			icon: "theabyss:abyss_crystal_shard"
 		}
 		{
 			dependencies: ["7D0EC8295AD0F9BD"]
+			icon: "theabyss:the_roka_spawn_egg"
 			id: "07A9F9C0712699B5"
 			rewards: [
 				{
@@ -350,6 +351,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "theabyss:the_roka"
@@ -361,12 +363,11 @@
 			title: "&4&l[ ⚔ 로카 ]"
 			x: 3.5d
 			y: 0.75d
-			icon: "theabyss:the_roka_spawn_egg"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["07A9F9C0712699B5"]
 			description: ["심연의 2티어 보스."]
+			icon: "theabyss:nightblade_boss_spawn_egg"
 			id: "757A0A048BE5DE35"
 			rewards: [
 				{
@@ -387,6 +388,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "theabyss:nightblade_boss"
@@ -398,12 +400,11 @@
 			title: "&5&l[ ⚔ 나이트블레이드 ]"
 			x: 5.25d
 			y: 0.0d
-			icon: "theabyss:nightblade_boss_spawn_egg"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["739A51735BCFA106", "73BD64501B799273", "7D0EC8295AD0F9BD"]
 			description: ["&e세계의 파편: 심연&r의 재료를 모았다."]
+			icon: "undergarden:forgotten_ingot"
 			id: "03C9E6467D3660BD"
 			rewards: [
 				{
@@ -456,10 +457,16 @@
 			title: "&8&l[ ✦ 심연의 증표 ]"
 			x: 7.0d
 			y: -1.5d
-			icon: "undergarden:forgotten_ingot"
 		}
 		{
 			dependencies: ["7876ABD5F9C120BC"]
+			icon: {
+				Count: 1
+				id: "undergarden:cloggrum_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "7F6D4A11E858B3A3"
 			rewards: [
 				{
@@ -477,17 +484,29 @@
 			tasks: [
 				{
 					id: "7DB98FDE4FD76FCD"
-					item: "undergarden:cloggrum_chestplate"
+					item: {
+						Count: 1
+						id: "undergarden:cloggrum_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
 			title: "&7&l[ ✦ 크로그룸 갑옷 ]"
 			x: 1.75d
 			y: -2.25d
-			icon: "undergarden:cloggrum_chestplate"
 		}
 		{
 			dependencies: ["65456DFD54D50E64"]
+			icon: {
+				Count: 1
+				id: "undergarden:froststeel_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "7808011C16BC7287"
 			rewards: [
 				{
@@ -505,17 +524,23 @@
 			tasks: [
 				{
 					id: "74EBA80509504189"
-					item: "undergarden:froststeel_chestplate"
+					item: {
+						Count: 1
+						id: "undergarden:froststeel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
 			title: "&b&l[ ✦ 서리철 갑옷 ]"
 			x: 3.5d
 			y: 2.25d
-			icon: "undergarden:froststeel_chestplate"
 		}
 		{
 			dependencies: ["7876ABD5F9C120BC"]
+			icon: "undergarden:regalium_crystal"
 			id: "57F0840F018E7F95"
 			rewards: [
 				{
@@ -541,10 +566,16 @@
 			title: "&e&l[ ✦ 레갈륨 수정 ]"
 			x: 1.75d
 			y: -0.75d
-			icon: "undergarden:regalium_crystal"
 		}
 		{
 			dependencies: ["739A51735BCFA106"]
+			icon: {
+				Count: 1
+				id: "undergarden:forgotten_sword"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "03FF82E0F645C8F5"
 			rewards: [
 				{
@@ -561,17 +592,23 @@
 			tasks: [
 				{
 					id: "2D063958AFDAB6A6"
-					item: "undergarden:forgotten_sword"
+					item: {
+						Count: 1
+						id: "undergarden:forgotten_sword"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
 			title: "&a&l[ ✦ 잊혀진 검 ]"
 			x: 7.0d
 			y: 0.0d
-			icon: "undergarden:forgotten_sword"
 		}
 		{
 			dependencies: ["4C5CEAD9A830FE42"]
+			icon: "deeperdarker:crystallized_amber"
 			id: "7D87107B343385A7"
 			rewards: [
 				{
@@ -597,10 +634,16 @@
 			title: "&6&l[ ✦ 결정화된 호박석 ]"
 			x: 1.75d
 			y: 0.75d
-			icon: "deeperdarker:crystallized_amber"
 		}
 		{
 			dependencies: ["4C5CEAD9A830FE42"]
+			icon: {
+				Count: 1
+				id: "deeperdarker:resonarium_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "39890E876FE45FA4"
 			rewards: [
 				{
@@ -618,18 +661,30 @@
 			tasks: [
 				{
 					id: "2A6A357D1CB931EF"
-					item: "deeperdarker:resonarium_chestplate"
+					item: {
+						Count: 1
+						id: "deeperdarker:resonarium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
 			title: "&3&l[ ✦ 레조나리움 흉갑 ]"
 			x: 1.75d
 			y: 2.25d
-			icon: "deeperdarker:resonarium_chestplate"
 		}
 		{
 			dependencies: ["77F426BFB3CFC66F"]
 			description: ["워든 껍데기로 만든 장비."]
+			icon: {
+				Count: 1
+				id: "deeperdarker:warden_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "29BFCCC3D8B4B131"
 			rewards: [
 				{
@@ -647,17 +702,29 @@
 			tasks: [
 				{
 					id: "78615BC9D5F6ECA5"
-					item: "deeperdarker:warden_chestplate"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
 			title: "&3&l[ ✦ 워든 흉갑 ]"
 			x: 5.25d
 			y: 1.5d
-			icon: "deeperdarker:warden_chestplate"
 		}
 		{
 			dependencies: ["73BD64501B799273"]
+			icon: {
+				Count: 1
+				id: "deeperdarker:sonorous_staff"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "35D91ADFA70E42F1"
 			rewards: [
 				{
@@ -675,17 +742,23 @@
 			tasks: [
 				{
 					id: "7CE33125A5869617"
-					item: "deeperdarker:sonorous_staff"
+					item: {
+						Count: 1
+						id: "deeperdarker:sonorous_staff"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
 			title: "&b&l[ ✦ 울림의 지팡이 ]"
 			x: 7.0d
 			y: 1.5d
-			icon: "deeperdarker:sonorous_staff"
 		}
 		{
 			dependencies: ["7D0EC8295AD0F9BD"]
+			icon: "theabyss:aberythe_gem"
 			id: "7D39FA2713E105E1"
 			rewards: [
 				{
@@ -711,10 +784,16 @@
 			title: "&5&l[ ✦ 아베리스 보석 ]"
 			x: 3.5d
 			y: 3.75d
-			icon: "theabyss:aberythe_gem"
 		}
 		{
 			dependencies: ["7D39FA2713E105E1"]
+			icon: {
+				Count: 1
+				id: "theabyss:aberythe_armor_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "248F1F20E4AD24B6"
 			rewards: [
 				{
@@ -732,17 +811,23 @@
 			tasks: [
 				{
 					id: "26F2D8FDCDA3A9E9"
-					item: "theabyss:aberythe_armor_chestplate"
+					item: {
+						Count: 1
+						id: "theabyss:aberythe_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
 			title: "&5&l[ ✦ 아베리스 흉갑 ]"
 			x: 5.25d
 			y: 3.0d
-			icon: "theabyss:aberythe_armor_chestplate"
 		}
 		{
 			dependencies: ["7C5FCBF3A77254C5"]
+			icon: "theabyss:aurel_crystal_shard"
 			id: "12327FED1DA2EE0B"
 			rewards: [
 				{
@@ -768,10 +853,10 @@
 			title: "&e&l[ ✦ 아우렐 수정 파편 ]"
 			x: 1.75d
 			y: 3.75d
-			icon: "theabyss:aurel_crystal_shard"
 		}
 		{
 			description: ["하늘에 떠 있는 고리 모양 차원."]
+			icon: "edenring:guide_book"
 			id: "717EAE1D330C63DC"
 			rewards: [
 				{
@@ -786,6 +871,7 @@
 					type: "item"
 				}
 			]
+			shape: "diamond"
 			tasks: [
 				{
 					dimension: "edenring:edenring"
@@ -796,11 +882,16 @@
 			title: "&d&l[ ✧ 에덴링 ]"
 			x: 0.0d
 			y: 2.25d
-			icon: "edenring:guide_book"
-			shape: "diamond"
 		}
 		{
 			dependencies: ["717EAE1D330C63DC"]
+			icon: {
+				Count: 1
+				id: "edenring:astrallium_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "7A7BF653111E5FD0"
 			rewards: [
 				{
@@ -818,17 +909,23 @@
 			tasks: [
 				{
 					id: "756C8B1992D3CB80"
-					item: "edenring:astrallium_chestplate"
+					item: {
+						Count: 1
+						id: "edenring:astrallium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
 			title: "&b&l[ ✦ 아스트랄륨 흉갑 ]"
 			x: 1.75d
 			y: 5.25d
-			icon: "edenring:astrallium_chestplate"
 		}
 		{
 			dependencies: ["717EAE1D330C63DC"]
+			icon: "edenring:gravilite_lamp"
 			id: "35F68D069CDDD809"
 			rewards: [
 				{
@@ -853,7 +950,6 @@
 			title: "&d&l[ ✦ 그래빌라이트 램프 ]"
 			x: 1.75d
 			y: 6.75d
-			icon: "edenring:gravilite_lamp"
 		}
 	]
 	title: "&b&l✦ 깊은 곳의 세계"

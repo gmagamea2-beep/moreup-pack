@@ -10,6 +10,7 @@
 	quests: [
 		{
 			dependencies: ["5B84FEAB5F9562A6"]
+			icon: "aether:zanite_gemstone"
 			id: "78564FA608BCF286"
 			rewards: [
 				{
@@ -35,10 +36,10 @@
 			title: "&5&l[ ✦ 자나이트 ]"
 			x: 0.0d
 			y: 0.0d
-			icon: "aether:zanite_gemstone"
 		}
 		{
 			dependencies: ["78564FA608BCF286"]
+			icon: "aether:ambrosium_shard"
 			id: "51D60BA23BCF7286"
 			rewards: [
 				{
@@ -64,11 +65,11 @@
 			title: "&e&l[ ✦ 앰브로시움 ]"
 			x: 1.75d
 			y: -3.0d
-			icon: "aether:ambrosium_shard"
 		}
 		{
 			dependencies: ["78564FA608BCF286"]
 			description: ["청동 던전의 수호자."]
+			icon: "aether:bronze_dungeon_key"
 			id: "7BEF2AA3ADA4BF36"
 			rewards: [
 				{
@@ -89,6 +90,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "aether:slider"
@@ -100,12 +102,11 @@
 			title: "&7&l[ ⚔ 슬라이더 ]"
 			x: 1.75d
 			y: -1.5d
-			icon: "aether:bronze_dungeon_key"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["7BEF2AA3ADA4BF36"]
 			description: ["은빛 던전의 지배자."]
+			icon: "aether:silver_dungeon_key"
 			id: "28BFB76740046B90"
 			rewards: [
 				{
@@ -126,6 +127,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "aether:valkyrie_queen"
@@ -137,12 +139,11 @@
 			title: "&b&l[ ⚔ 발키리 여왕 ]"
 			x: 3.5d
 			y: -2.25d
-			icon: "aether:silver_dungeon_key"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["28BFB76740046B90"]
 			description: ["발키리를 쓰러뜨리고 얻는 메달."]
+			icon: "aether:victory_medal"
 			id: "7D8546C1290BEEF7"
 			rewards: [
 				{
@@ -168,11 +169,11 @@
 			title: "&b&l[ ✦ 승리의 메달 ]"
 			x: 5.25d
 			y: -3.0d
-			icon: "aether:victory_medal"
 		}
 		{
 			dependencies: ["28BFB76740046B90"]
 			description: ["황금 던전의 주인."]
+			icon: "aether:gold_dungeon_key"
 			id: "79749B5A238CD020"
 			rewards: [
 				{
@@ -193,6 +194,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "aether:sun_spirit"
@@ -204,11 +206,10 @@
 			title: "&6&l[ ⚔ 태양 정령 ]"
 			x: 5.25d
 			y: -1.5d
-			icon: "aether:gold_dungeon_key"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["79749B5A238CD020"]
+			icon: "aether:enchanted_gravitite"
 			id: "704FC6970C0C65C1"
 			rewards: [
 				{
@@ -234,11 +235,11 @@
 			title: "&d&l[ ✦ 인챈트 그래비타이트 ]"
 			x: 7.0d
 			y: -2.25d
-			icon: "aether:enchanted_gravitite"
 		}
 		{
 			dependencies: ["704FC6970C0C65C1"]
 			description: ["황금 오크에서 얻는 송진."]
+			icon: "aether:golden_amber"
 			id: "79D636729BFFA5A7"
 			rewards: [
 				{
@@ -264,11 +265,11 @@
 			title: "&6&l[ ✦ 황금 호박 ]"
 			x: 8.75d
 			y: -2.25d
-			icon: "aether:golden_amber"
 		}
 		{
 			dependencies: ["79749B5A238CD020"]
 			description: ["하늘의 거대 고래. 플래티넘 열쇠를 남긴다."]
+			icon: "lost_aether_content:platinum_key"
 			id: "21CB6659B57E1431"
 			rewards: [
 				{
@@ -289,6 +290,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					entity: "lost_aether_content:aerwhale_king"
@@ -300,12 +302,11 @@
 			title: "&b&l[ ⚔ 에어웨일 킹 ]"
 			x: 7.0d
 			y: -0.75d
-			icon: "lost_aether_content:platinum_key"
-			shape: "hexagon"
 		}
 		{
 			dependencies: ["21CB6659B57E1431"]
 			description: ["&e세계의 파편: 하늘&r의 재료."]
+			icon: "lost_aether_content:platinum_key"
 			id: "5D7DB051193CCF44"
 			rewards: [
 				{
@@ -330,11 +331,11 @@
 			title: "&f&l[ ✦ 플래티넘 열쇠 ]"
 			x: 8.75d
 			y: -0.75d
-			icon: "lost_aether_content:platinum_key"
 		}
 		{
 			dependencies: ["78564FA608BCF286"]
 			description: ["에테르 아이템에 마법을 부여하고 수리한다."]
+			icon: "aether:altar"
 			id: "7218B1B96D63CF0A"
 			rewards: [
 				{
@@ -359,11 +360,11 @@
 			title: "&e&l[ ✦ 제단 ]"
 			x: 1.75d
 			y: 0.0d
-			icon: "aether:altar"
 		}
 		{
 			dependencies: ["7218B1B96D63CF0A"]
 			description: ["얼림 상자로 얼음을 만들고, 부화기로 모아 알을 부화시킨다."]
+			icon: "aether:freezer"
 			id: "7A72C99C99AF3F8E"
 			rewards: [
 				{
@@ -393,11 +394,11 @@
 			title: "&b&l[ ✦ 얼림 상자와 부화기 ]"
 			x: 3.5d
 			y: -0.75d
-			icon: "aether:freezer"
 		}
 		{
 			dependencies: ["7A72C99C99AF3F8E"]
 			description: ["부화기에 넣으면 타고 다니는 모아가 태어난다."]
+			icon: "aether:blue_moa_egg"
 			id: "795A23C00952E4D4"
 			rewards: [
 				{
@@ -422,11 +423,17 @@
 			title: "&b&l[ ✦ 파란 모아 알 ]"
 			x: 5.25d
 			y: 0.0d
-			icon: "aether:blue_moa_egg"
 		}
 		{
 			dependencies: ["78564FA608BCF286"]
 			description: ["쓸수록 강해지는 자나이트 도구와 갑옷."]
+			icon: {
+				Count: 1
+				id: "aether:zanite_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "0F525908B45BA2ED"
 			rewards: [
 				{
@@ -444,28 +451,46 @@
 			tasks: [
 				{
 					id: "7B32FEE8FF9A179B"
-					item: "aether:zanite_pickaxe"
+					item: {
+						Count: 1
+						id: "aether:zanite_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 				{
 					id: "727096DD26334550"
-					item: "aether:zanite_chestplate"
+					item: {
+						Count: 1
+						id: "aether:zanite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 				{
 					id: "532A09F0957736DD"
-					item: "aether:zanite_gloves"
+					item: {
+						Count: 1
+						id: "aether:zanite_gloves"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
 			title: "&b&l[ ✦ 자나이트 장비 ]"
 			x: 1.75d
 			y: 1.5d
-			icon: "aether:zanite_pickaxe"
 		}
 		{
 			dependencies: ["78564FA608BCF286"]
 			description: ["에테르 장신구 칸에 끼운다."]
+			icon: "aether:golden_pendant"
 			id: "34989CC037759E82"
 			rewards: [
 				{
@@ -495,11 +520,17 @@
 			title: "&e&l[ ✦ 목걸이와 반지 ]"
 			x: 1.75d
 			y: 3.0d
-			icon: "aether:golden_pendant"
 		}
 		{
 			dependencies: ["28BFB76740046B90"]
 			description: ["발키리 여왕의 던전에서 나온다."]
+			icon: {
+				Count: 1
+				id: "aether:valkyrie_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "78A1F1713EE357FB"
 			rewards: [
 				{
@@ -517,18 +548,24 @@
 			tasks: [
 				{
 					id: "7A00DC4BB4E12197"
-					item: "aether:valkyrie_chestplate"
+					item: {
+						Count: 1
+						id: "aether:valkyrie_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
 			title: "&f&l[ ✦ 발키리 장비 ]"
 			x: 5.25d
 			y: 1.5d
-			icon: "aether:valkyrie_chestplate"
 		}
 		{
 			dependencies: ["28BFB76740046B90"]
 			description: ["착용하면 천천히 떨어진다."]
+			icon: "aether:golden_feather"
 			id: "28F7B331D823AF1F"
 			rewards: [
 				{
@@ -553,11 +590,17 @@
 			title: "&e&l[ ✦ 황금 깃털 ]"
 			x: 5.25d
 			y: 3.0d
-			icon: "aether:golden_feather"
 		}
 		{
 			dependencies: ["79749B5A238CD020"]
 			description: ["태양의 정령 던전의 갑옷. 불과 용암을 견딘다."]
+			icon: {
+				Count: 1
+				id: "aether:phoenix_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "79A3E73662BFDB8B"
 			rewards: [
 				{
@@ -575,17 +618,29 @@
 			tasks: [
 				{
 					id: "4A8A1F3C1CAA678F"
-					item: "aether:phoenix_chestplate"
+					item: {
+						Count: 1
+						id: "aether:phoenix_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
 			title: "&c&l[ ✦ 불사조 흉갑 ]"
 			x: 7.0d
 			y: 0.75d
-			icon: "aether:phoenix_chestplate"
 		}
 		{
 			dependencies: ["704FC6970C0C65C1"]
+			icon: {
+				Count: 1
+				id: "aether:gravitite_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "1E031CFB504145DB"
 			rewards: [
 				{
@@ -603,18 +658,24 @@
 			tasks: [
 				{
 					id: "09FA29F9EA1C8705"
-					item: "aether:gravitite_chestplate"
+					item: {
+						Count: 1
+						id: "aether:gravitite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
 			title: "&d&l[ ✦ 그라비타이트 흉갑 ]"
 			x: 8.75d
 			y: 0.75d
-			icon: "aether:gravitite_chestplate"
 		}
 		{
 			dependencies: ["7BEF2AA3ADA4BF36"]
 			description: ["착용하면 체력이 천천히 회복된다."]
+			icon: "aether:regeneration_stone"
 			id: "7D0BFDCB8C96F61E"
 			rewards: [
 				{
@@ -639,10 +700,16 @@
 			title: "&a&l[ ✦ 재생의 돌 ]"
 			x: 3.5d
 			y: 0.75d
-			icon: "aether:regeneration_stone"
 		}
 		{
 			dependencies: ["704FC6970C0C65C1"]
+			icon: {
+				Count: 1
+				id: "lost_aether_content:zanite_shield"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "7BDC14DA5CB7C433"
 			rewards: [
 				{
@@ -660,22 +727,40 @@
 			tasks: [
 				{
 					id: "0FE4513670ABC153"
-					item: "lost_aether_content:zanite_shield"
+					item: {
+						Count: 1
+						id: "lost_aether_content:zanite_shield"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 				{
 					id: "57C7B647130C5FB2"
-					item: "lost_aether_content:gravitite_shield"
+					item: {
+						Count: 1
+						id: "lost_aether_content:gravitite_shield"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
 			title: "&b&l[ ✦ 에테르의 방패 (Lost Aether) ]"
 			x: 8.75d
 			y: 2.25d
-			icon: "lost_aether_content:zanite_shield"
 		}
 		{
 			dependencies: ["79749B5A238CD020"]
+			icon: {
+				Count: 1
+				id: "lost_aether_content:phoenix_sword"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "79B6D35300D6FBA2"
 			rewards: [
 				{
@@ -693,17 +778,29 @@
 			tasks: [
 				{
 					id: "616A784650B9E826"
-					item: "lost_aether_content:phoenix_sword"
+					item: {
+						Count: 1
+						id: "lost_aether_content:phoenix_sword"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
 			title: "&c&l[ ✦ 피닉스의 검 ]"
 			x: 7.0d
 			y: 2.25d
-			icon: "lost_aether_content:phoenix_sword"
 		}
 		{
 			dependencies: ["7BEF2AA3ADA4BF36"]
+			icon: {
+				Count: 1
+				id: "lost_aether_content:power_gloves"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "47E32B75924094F4"
 			rewards: [
 				{
@@ -721,17 +818,29 @@
 			tasks: [
 				{
 					id: "7B928AB7358C53A3"
-					item: "lost_aether_content:power_gloves"
+					item: {
+						Count: 1
+						id: "lost_aether_content:power_gloves"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
 			title: "&e&l[ ✦ 힘의 장갑 ]"
 			x: 3.5d
 			y: 2.25d
-			icon: "lost_aether_content:power_gloves"
 		}
 		{
 			dependencies: ["5D7DB051193CCF44"]
+			icon: {
+				Count: 1
+				id: "lost_aether_content:agility_boots"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "01988427568C92EA"
 			rewards: [
 				{
@@ -749,14 +858,19 @@
 			tasks: [
 				{
 					id: "126A025D105787A0"
-					item: "lost_aether_content:agility_boots"
+					item: {
+						Count: 1
+						id: "lost_aether_content:agility_boots"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
 			title: "&b&l[ ✦ 민첩의 부츠 ]"
 			x: 10.5d
 			y: 0.0d
-			icon: "lost_aether_content:agility_boots"
 		}
 	]
 	title: "&b&l✦ 에테르"

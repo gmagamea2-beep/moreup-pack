@@ -1,7 +1,6 @@
 #Early window height
 earlyWindowHeight = 768
 #Enable forge global version checking
-# More Up: 모드 업데이트 확인 끔 (2026-10-29, 1.5.5). 시작할 때마다 모드 수십 개가 인터넷에 새 버전을 물어보고 실패·대기하던 것 제거
 versionCheck = false
 #Should we control the window. Disabling this disables new GL features and can be bad for mods that rely on them.
 earlyWindowControl = true

@@ -11,6 +11,7 @@
 		{
 			dependencies: ["7DE1414B6277C041"]
 			description: ["모어 머신의 선반·압연기·스탬퍼. 모어 머신 기계와 부품 재료를 만든다."]
+			icon: "mekmm:cnc_lathe"
 			id: "75DFFD04F4D3F29B"
 			rewards: [
 				{
@@ -45,11 +46,11 @@
 			title: "&7&l[ ✦ CNC 가공 ]"
 			x: 0.0d
 			y: 0.0d
-			icon: "mekmm:cnc_lathe"
 		}
 		{
 			dependencies: ["75DFFD04F4D3F29B"]
 			description: ["CNC 기계도 메카니즘 시스템처럼 여러 칸을 한 번에 처리하는 판이 있다."]
+			icon: "mekmm:basic_lathing_factory"
 			id: "63F3AD62CB72F60B"
 			rewards: [
 				{
@@ -64,21 +65,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "401C68B8944CE0FA"
-					item: "mekmm:basic_lathing_factory"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "401C68B8944CE0FA"
+				item: "mekmm:basic_lathing_factory"
+				type: "item"
+			}]
 			title: "&6&l[ ✦ CNC 시스템 ]"
 			x: 1.75d
 			y: -3.75d
-			icon: "mekmm:basic_lathing_factory"
 		}
 		{
 			dependencies: ["75DFFD04F4D3F29B"]
 			description: ["쓸모없는 아이템을 갈아 고철로 만든다."]
+			icon: "mekmm:recycler"
 			id: "27A056581F3A8E46"
 			rewards: [
 				{
@@ -109,11 +108,11 @@
 			title: "&8&l[ ✦ 재활용기 ]"
 			x: 1.75d
 			y: -2.25d
-			icon: "mekmm:recycler"
 		}
 		{
 			dependencies: ["27A056581F3A8E46"]
 			description: ["고철을 뭉친 상자. 열면 무엇이 나올지 모른다."]
+			icon: "mekmm:scrap_box"
 			id: "79CEF973BC97074A"
 			rewards: [
 				{
@@ -128,21 +127,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "18A1D76CA9816DA7"
-					item: "mekmm:scrap_box"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "18A1D76CA9816DA7"
+				item: "mekmm:scrap_box"
+				type: "item"
+			}]
 			title: "&8&l[ ✦ 고철 상자 ]"
 			x: 3.5d
 			y: -1.5d
-			icon: "mekmm:scrap_box"
 		}
 		{
 			dependencies: ["75DFFD04F4D3F29B"]
 			description: ["씨앗과 묘목을 자동으로 키워 수확물을 내놓는다."]
+			icon: "mekmm:planting_station"
 			id: "75AE897FECC8AA54"
 			rewards: [
 				{
@@ -157,21 +154,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "70B89AF4A7E8CCD6"
-					item: "mekmm:planting_station"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "70B89AF4A7E8CCD6"
+				item: "mekmm:planting_station"
+				type: "item"
+			}]
 			title: "&a&l[ ✦ 식재 스테이션 ]"
 			x: 1.75d
 			y: -0.75d
-			icon: "mekmm:planting_station"
 		}
 		{
 			dependencies: ["75DFFD04F4D3F29B"]
 			description: ["주변 공기에서 기체를 모은다."]
+			icon: "mekmm:ambient_gas_collector"
 			id: "7E75F8E7C557A445"
 			rewards: [
 				{
@@ -186,21 +181,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "3B0327133F432B90"
-					item: "mekmm:ambient_gas_collector"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3B0327133F432B90"
+				item: "mekmm:ambient_gas_collector"
+				type: "item"
+			}]
 			title: "&b&l[ ✦ 주변 기체 수집기 ]"
 			x: 1.75d
 			y: 0.75d
-			icon: "mekmm:ambient_gas_collector"
 		}
 		{
 			dependencies: ["75DFFD04F4D3F29B"]
 			description: ["기본 화학 탱크보다 훨씬 많이 담는다."]
+			icon: "mekmm:basic_max_chemical_tank"
 			id: "771D7B17BF0B275F"
 			rewards: [
 				{
@@ -215,21 +208,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "1236DD327FE103C8"
-					item: "mekmm:basic_max_chemical_tank"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1236DD327FE103C8"
+				item: "mekmm:basic_max_chemical_tank"
+				type: "item"
+			}]
 			title: "&9&l[ ✦ 대형 화학 탱크 ]"
 			x: 1.75d
 			y: 2.25d
-			icon: "mekmm:basic_max_chemical_tank"
 		}
 		{
 			dependencies: ["75DFFD04F4D3F29B"]
 			description: ["주변 플레이어의 장비를 선 없이 충전한다."]
+			icon: "mekmm:wireless_charging_station"
 			id: "7CBD47BC1516D360"
 			rewards: [
 				{
@@ -244,21 +235,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "11228C5906F64ED6"
-					item: "mekmm:wireless_charging_station"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "11228C5906F64ED6"
+				item: "mekmm:wireless_charging_station"
+				type: "item"
+			}]
 			title: "&e&l[ ✦ 무선 충전 스테이션 ]"
 			x: 1.75d
 			y: 3.75d
-			icon: "mekmm:wireless_charging_station"
 		}
 		{
 			dependencies: ["7E75F8E7C557A445"]
 			description: ["모어 머신의 고급 부품."]
+			icon: "mekmm:advanced_electrolysis_core"
 			id: "50A622D7F64CBBDA"
 			rewards: [
 				{
@@ -273,21 +262,22 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "59748F94F1A316B3"
-					item: "mekmm:advanced_electrolysis_core"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "59748F94F1A316B3"
+				item: "mekmm:advanced_electrolysis_core"
+				type: "item"
+			}]
 			title: "&9&l[ ✦ 고급 전기분해 코어 ]"
 			x: 3.5d
 			y: 0.0d
-			icon: "mekmm:advanced_electrolysis_core"
 		}
 		{
-			dependencies: ["27A056581F3A8E46", "77049C5F22AE702B"]
+			dependencies: [
+				"27A056581F3A8E46"
+				"77049C5F22AE702B"
+			]
 			description: ["UU 물질로 아이템과 액체를 복제한다. 모어 머신의 최종 기계."]
+			icon: "mekmm:uu_matter"
 			id: "768C798178EE9102"
 			rewards: [
 				{
@@ -323,7 +313,6 @@
 			title: "&d&l[ ✦ UU 물질과 복제기 ]"
 			x: 3.5d
 			y: 1.5d
-			icon: "mekmm:uu_matter"
 		}
 	]
 	title: "&b&l✦ 메카니즘: 모어 머신"

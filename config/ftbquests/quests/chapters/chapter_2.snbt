@@ -25,6 +25,8 @@
 				"핏빛 성채에서 기다리는 '파괴의 화신'을 찢어발길 힘이 완성될 것입니다."
 				""
 				"&c[퀘스트를 클릭하여 강철의 심장을 깨우십시오.]"
+				""
+				"&b▶ 보상의 「이야기 보기」를 누르면 이 장의 컷씬을 볼 수 있습니다 (사람마다 한 번). 다시 보기: 채팅에 &f/story"
 			]
 			icon: "ebwizardry:charm_black_hole"
 			id: "506A6FA0CF4F16F3"
@@ -32,17 +34,28 @@
 				{
 					auto: "enabled"
 					command: "/function scene:act2_start"
+					elevate_perms: true
 					icon: "ebwizardry:charm_black_hole"
 					id: "5618DB3920A6FCA3"
 					team_reward: true
 					title: "&l 제2장"
 					type: "command"
-					elevate_perms: true
 				}
 				{
 					id: "677F5AD5A1F071A8"
 					type: "xp_levels"
 					xp_levels: 10
+				}
+				{
+					auto: "disabled"
+					command: "/function scene:act2_start"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: "minecraft:ender_eye"
+					id: "67E0106FFC22AB0C"
+					team_reward: false
+					title: "&b▶ 이야기 보기"
+					type: "command"
 				}
 			]
 			shape: "gear"
@@ -79,7 +92,7 @@
 					type: "item"
 				}
 				{
-					id: "BEDD7A28C3110D1E"
+					id: "4C36CE58404A61A4"
 					type: "xp_levels"
 					xp_levels: 10
 				}
@@ -208,7 +221,7 @@
 					type: "item"
 				}
 				{
-					id: "8A46CCF9EEE9368A"
+					id: "263604695949A219"
 					type: "xp_levels"
 					xp_levels: 10
 				}
@@ -240,7 +253,7 @@
 					type: "item"
 				}
 				{
-					id: "8798B67F27D61424"
+					id: "389A3B2678EC8A4A"
 					type: "xp_levels"
 					xp_levels: 10
 				}
@@ -284,7 +297,7 @@
 					type: "item"
 				}
 				{
-					id: "A9CF05AC2D7FBE03"
+					id: "2EC8EA569F3990C0"
 					type: "xp_levels"
 					xp_levels: 10
 				}
@@ -318,7 +331,7 @@
 					type: "item"
 				}
 				{
-					id: "806A3DD2F4E7DF77"
+					id: "38EA1C406A554731"
 					type: "xp_levels"
 					xp_levels: 10
 				}
@@ -397,7 +410,7 @@
 					type: "item"
 				}
 				{
-					id: "90944054A3E3E12B"
+					id: "7E983ECC029D27D4"
 					type: "xp_levels"
 					xp_levels: 10
 				}

@@ -11,6 +11,7 @@
 		{
 			dependencies: ["7FA75A851A6E065B"]
 			description: ["Create Crafts & Additions: 회전력을 전기로, 전기를 회전력으로 바꾼다. 단자끼리 전선으로 잇는다."]
+			icon: "createaddition:copper_spool"
 			id: "738FBFB556ADAC68"
 			rewards: [
 				{
@@ -41,11 +42,11 @@
 			title: "&6&l[ ✦ 구리 전선과 단자 ]"
 			x: 0.0d
 			y: -12.75d
-			icon: "createaddition:copper_spool"
 		}
 		{
 			dependencies: ["7FA75A851A6E065B"]
 			description: ["주괴를 봉과 철사로 민다."]
+			icon: "createaddition:rolling_mill"
 			id: "7DC7F3F1A57F8B17"
 			rewards: [
 				{
@@ -60,21 +61,22 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "21BA75B647C643EA"
-					item: "createaddition:rolling_mill"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "21BA75B647C643EA"
+				item: "createaddition:rolling_mill"
+				type: "item"
+			}]
 			title: "&7&l[ ✦ 압연기 ]"
 			x: 0.0d
 			y: -11.25d
-			icon: "createaddition:rolling_mill"
 		}
 		{
-			dependencies: ["738FBFB556ADAC68", "7FC60659B4349DDA"]
+			dependencies: [
+				"738FBFB556ADAC68"
+				"7FC60659B4349DDA"
+			]
 			description: ["교류발전기는 회전력으로 전기를, 전기 모터는 전기로 회전력을 만든다."]
+			icon: "createaddition:alternator"
 			id: "7C70EFC127886EA9"
 			rewards: [
 				{
@@ -104,11 +106,11 @@
 			title: "&e&l[ ✦ 교류발전기와 전기 모터 ]"
 			x: 1.75d
 			y: -2.25d
-			icon: "createaddition:alternator"
 		}
 		{
 			dependencies: ["7C70EFC127886EA9"]
 			description: ["전기를 모아 둔다."]
+			icon: "createaddition:modular_accumulator"
 			id: "74B4BCE1AEEFC543"
 			rewards: [
 				{
@@ -123,22 +125,20 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					count: 2L
-					id: "4E30C86EEA2AD6AD"
-					item: "createaddition:modular_accumulator"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 2L
+				id: "4E30C86EEA2AD6AD"
+				item: "createaddition:modular_accumulator"
+				type: "item"
+			}]
 			title: "&e&l[ ✦ 축전지 ]"
 			x: 3.5d
 			y: -0.75d
-			icon: "createaddition:modular_accumulator"
 		}
 		{
 			dependencies: ["74B4BCE1AEEFC543"]
 			description: ["주변 아이템을 충전하고, 가까이 온 몹을 감전시킨다."]
+			icon: "createaddition:tesla_coil"
 			id: "764FB8A18FFCCD69"
 			rewards: [
 				{
@@ -153,20 +153,18 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "7201B8213D395185"
-					item: "createaddition:tesla_coil"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7201B8213D395185"
+				item: "createaddition:tesla_coil"
+				type: "item"
+			}]
 			title: "&b&l[ ✦ 테슬라 코일 ]"
 			x: 5.25d
 			y: 0.0d
-			icon: "createaddition:tesla_coil"
 		}
 		{
 			dependencies: ["7DC7F3F1A57F8B17"]
+			icon: "createaddition:electrum_ingot"
 			id: "1D71C73E3FCA118C"
 			rewards: [
 				{
@@ -181,22 +179,20 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					count: 8L
-					id: "780E6742320A6F11"
-					item: "createaddition:electrum_ingot"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 8L
+				id: "780E6742320A6F11"
+				item: "createaddition:electrum_ingot"
+				type: "item"
+			}]
 			title: "&e&l[ ✦ 호박금 주괴 ]"
 			x: 1.75d
 			y: -0.75d
-			icon: "createaddition:electrum_ingot"
 		}
 		{
 			dependencies: ["44957A3AC2113E69"]
 			description: ["식물성 연료. 블레이즈 버너에 넣는다."]
+			icon: "createaddition:biomass_pellet"
 			id: "79384CD7C223F7BB"
 			rewards: [
 				{
@@ -211,21 +207,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					count: 16L
-					id: "7B7175344E31519E"
-					item: "createaddition:biomass_pellet"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 16L
+				id: "7B7175344E31519E"
+				item: "createaddition:biomass_pellet"
+				type: "item"
+			}]
 			title: "&a&l[ ✦ 바이오매스 알갱이 ]"
 			x: 0.0d
 			y: -9.75d
-			icon: "createaddition:biomass_pellet"
 		}
 		{
 			dependencies: ["7DC7F3F1A57F8B17"]
+			icon: "createaddition:barbed_wire"
 			id: "5D17B7805B14591A"
 			rewards: [
 				{
@@ -240,22 +234,20 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					count: 8L
-					id: "039A6629F9B900EB"
-					item: "createaddition:barbed_wire"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 8L
+				id: "039A6629F9B900EB"
+				item: "createaddition:barbed_wire"
+				type: "item"
+			}]
 			title: "&7&l[ ✦ 철조망 ]"
 			x: 1.75d
 			y: 0.75d
-			icon: "createaddition:barbed_wire"
 		}
 		{
 			dependencies: ["222CE97E5BE37866"]
 			description: ["Create Stuff & Additions: 산소통의 공기로 나는 제트팩."]
+			icon: "create_sa:andesite_jetpack_chestplate"
 			id: "77374F0FC47B8EA6"
 			rewards: [
 				{
@@ -270,20 +262,21 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "16A5CF7CFF7A3C60"
-					item: "create_sa:andesite_jetpack_chestplate"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "16A5CF7CFF7A3C60"
+				item: "create_sa:andesite_jetpack_chestplate"
+				type: "item"
+			}]
 			title: "&6&l[ ✦ 안산암 제트팩 ]"
 			x: 0.0d
 			y: -8.25d
-			icon: "create_sa:andesite_jetpack_chestplate"
 		}
 		{
-			dependencies: ["77374F0FC47B8EA6", "7FC60659B4349DDA"]
+			dependencies: [
+				"77374F0FC47B8EA6"
+				"7FC60659B4349DDA"
+			]
+			icon: "create_sa:brass_jetpack_chestplate"
 			id: "59D6CCC1B7F0DDB6"
 			rewards: [
 				{
@@ -298,20 +291,21 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "1F4C2D03C6561AE3"
-					item: "create_sa:brass_jetpack_chestplate"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1F4C2D03C6561AE3"
+				item: "create_sa:brass_jetpack_chestplate"
+				type: "item"
+			}]
 			title: "&6&l[ ✦ 황동 제트팩 ]"
 			x: 1.75d
 			y: 2.25d
-			icon: "create_sa:brass_jetpack_chestplate"
 		}
 		{
-			dependencies: ["59D6CCC1B7F0DDB6", "5A3E28816C3BA8BD"]
+			dependencies: [
+				"59D6CCC1B7F0DDB6"
+				"5A3E28816C3BA8BD"
+			]
+			icon: "create_sa:netherite_jetpack_chestplate"
 			id: "77BBC4A1943A1F44"
 			rewards: [
 				{
@@ -326,20 +320,18 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "7D678DA9257B9BBB"
-					item: "create_sa:netherite_jetpack_chestplate"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7D678DA9257B9BBB"
+				item: "create_sa:netherite_jetpack_chestplate"
+				type: "item"
+			}]
 			title: "&8&l[ ✦ 네더라이트 제트팩 ]"
 			x: 3.5d
 			y: 0.75d
-			icon: "create_sa:netherite_jetpack_chestplate"
 		}
 		{
 			dependencies: ["7FC60659B4349DDA"]
+			icon: "create_sa:brass_exoskeleton_chestplate"
 			id: "7AC492FF004B5732"
 			rewards: [
 				{
@@ -354,21 +346,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "258227A66A9D6337"
-					item: "create_sa:brass_exoskeleton_chestplate"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "258227A66A9D6337"
+				item: "create_sa:brass_exoskeleton_chestplate"
+				type: "item"
+			}]
 			title: "&6&l[ ✦ 황동 외골격 ]"
 			x: 0.0d
 			y: -6.75d
-			icon: "create_sa:brass_exoskeleton_chestplate"
 		}
 		{
 			dependencies: ["4DB7F2AEA13DC084"]
 			description: ["들고 다니는 드릴."]
+			icon: "create_sa:portable_drill"
 			id: "54122034EE50707E"
 			rewards: [
 				{
@@ -383,20 +373,18 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "3B375EAA094B9F01"
-					item: "create_sa:portable_drill"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3B375EAA094B9F01"
+				item: "create_sa:portable_drill"
+				type: "item"
+			}]
 			title: "&e&l[ ✦ §e휴대용 드릴 ]"
 			x: 0.0d
 			y: -5.25d
-			icon: "create_sa:portable_drill"
 		}
 		{
 			dependencies: ["7FA75A851A6E065B"]
+			icon: "create_sa:copper_magnet"
 			id: "740375F42550F3F2"
 			rewards: [
 				{
@@ -411,20 +399,18 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "7B4825DDDD491737"
-					item: "create_sa:copper_magnet"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7B4825DDDD491737"
+				item: "create_sa:copper_magnet"
+				type: "item"
+			}]
 			title: "&c&l[ ✦ §e구리 자석 ]"
 			x: 0.0d
 			y: -3.75d
-			icon: "create_sa:copper_magnet"
 		}
 		{
 			dependencies: ["4DB7F2AEA13DC084"]
+			icon: "create_sa:grapplin_whisk"
 			id: "77F18C55ED7AC4E3"
 			rewards: [
 				{
@@ -439,20 +425,18 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "774E62DD4808B70E"
-					item: "create_sa:grapplin_whisk"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "774E62DD4808B70E"
+				item: "create_sa:grapplin_whisk"
+				type: "item"
+			}]
 			title: "&e&l[ ✦ §e그래플링 휘스크 ]"
 			x: 0.0d
 			y: -2.25d
-			icon: "create_sa:grapplin_whisk"
 		}
 		{
 			dependencies: ["4DB7F2AEA13DC084"]
+			icon: "create_sa:brass_drone_item"
 			id: "7BF9B9B6549E2274"
 			rewards: [
 				{
@@ -482,11 +466,11 @@
 			title: "&6&l[ ✦ 황동 드론 ]"
 			x: 0.0d
 			y: -0.75d
-			icon: "create_sa:brass_drone_item"
 		}
 		{
 			dependencies: ["7FC60659B4349DDA"]
 			description: ["Create: Connected — 회전력을 담아 두는 배터리."]
+			icon: "create_connected:kinetic_battery"
 			id: "78F7A2B1DE4B346D"
 			rewards: [
 				{
@@ -501,20 +485,18 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "5CB083879A39ED99"
-					item: "create_connected:kinetic_battery"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5CB083879A39ED99"
+				item: "create_connected:kinetic_battery"
+				type: "item"
+			}]
 			title: "&e&l[ ✦ 키네틱 배터리 ]"
 			x: 0.0d
 			y: 0.75d
-			icon: "create_connected:kinetic_battery"
 		}
 		{
 			dependencies: ["63255824B4DCB7EF"]
+			icon: "create_connected:parallel_gearbox"
 			id: "7E704801FC4BEBFF"
 			rewards: [
 				{
@@ -544,10 +526,10 @@
 			title: "&7&l[ ✦ 동방향·6방향 기어박스 ]"
 			x: 0.0d
 			y: 2.25d
-			icon: "create_connected:parallel_gearbox"
 		}
 		{
 			dependencies: ["76D43B6AE86797DD"]
+			icon: "create_connected:item_silo"
 			id: "717CF083C6F7A991"
 			rewards: [
 				{
@@ -562,22 +544,20 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					count: 4L
-					id: "7CAF0F959BAF6CFB"
-					item: "create_connected:item_silo"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 4L
+				id: "7CAF0F959BAF6CFB"
+				item: "create_connected:item_silo"
+				type: "item"
+			}]
 			title: "&7&l[ ✦ 아이템 저장고 ]"
 			x: 0.0d
 			y: 3.75d
-			icon: "create_connected:item_silo"
 		}
 		{
 			dependencies: ["648C72B201DBAF90"]
 			description: ["선풍기 앞에 두면 불·물 없이 제련·세척 처리를 한다."]
+			icon: "create_connected:fan_blasting_catalyst"
 			id: "74E0BD7CA7E96800"
 			rewards: [
 				{
@@ -607,11 +587,11 @@
 			title: "&b&l[ ✦ 선풍기 촉매 ]"
 			x: 0.0d
 			y: 5.25d
-			icon: "create_connected:fan_blasting_catalyst"
 		}
 		{
 			dependencies: ["7FC60659B4349DDA"]
 			description: ["다른 블록의 모양을 흉내 낸다."]
+			icon: "create_connected:copycat_block"
 			id: "71C8512EC86CA811"
 			rewards: [
 				{
@@ -643,11 +623,11 @@
 			title: "&7&l[ ✦ 모방 블록 ]"
 			x: 0.0d
 			y: 6.75d
-			icon: "create_connected:copycat_block"
 		}
 		{
 			dependencies: ["0B9477E22432EB77"]
 			description: ["Create Enchantment Industry: 마법을 경험치로 되돌리고, 마법 책을 복사한다."]
+			icon: "create_enchantment_industry:disenchanter"
 			id: "32D27FCCD60BFB28"
 			rewards: [
 				{
@@ -677,11 +657,11 @@
 			title: "&d&l[ ✦ 마법 해제대와 인쇄기 ]"
 			x: 0.0d
 			y: 8.25d
-			icon: "create_enchantment_industry:disenchanter"
 		}
 		{
 			dependencies: ["7FA75A851A6E065B"]
 			description: ["Slice & Dice: 칼로 음식 재료를 자동으로 썬다."]
+			icon: "sliceanddice:slicer"
 			id: "7192313B25D7B3EE"
 			rewards: [
 				{
@@ -696,21 +676,25 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "498EAE8D3285E5BA"
-					item: "sliceanddice:slicer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "498EAE8D3285E5BA"
+				item: "sliceanddice:slicer"
+				type: "item"
+			}]
 			title: "&a&l[ ✦ 슬라이서 ]"
 			x: 0.0d
 			y: 9.75d
-			icon: "sliceanddice:slicer"
 		}
 		{
 			dependencies: ["73FACA38068F8DA2"]
 			description: ["Create Goggles: 투구에 고글을 붙인다."]
+			icon: {
+				Count: 1
+				id: "creategoggles:goggle_iron_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "58B82EB7E1D29DAB"
 			rewards: [
 				{
@@ -725,21 +709,25 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "35279403CB3BC2E5"
-					item: "creategoggles:goggle_iron_helmet"
-					type: "item"
+			tasks: [{
+				id: "35279403CB3BC2E5"
+				item: {
+					Count: 1
+					id: "creategoggles:goggle_iron_helmet"
+					tag: {
+						Damage: 0
+					}
 				}
-			]
+				type: "item"
+			}]
 			title: "&e&l[ ✦ 고글 철 투구 ]"
 			x: 0.0d
 			y: 11.25d
-			icon: "creategoggles:goggle_iron_helmet"
 		}
 		{
 			dependencies: ["7FA75A851A6E065B"]
 			description: ["용암과 물로 돌을 자동으로 만든다."]
+			icon: "create_mechanical_extruder:mechanical_extruder"
 			id: "7E8B1FDFCF06B828"
 			rewards: [
 				{
@@ -754,17 +742,14 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "78E5F9F499C80769"
-					item: "create_mechanical_extruder:mechanical_extruder"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "78E5F9F499C80769"
+				item: "create_mechanical_extruder:mechanical_extruder"
+				type: "item"
+			}]
 			title: "&7&l[ ✦ 압출기 ]"
 			x: 0.0d
 			y: 12.75d
-			icon: "create_mechanical_extruder:mechanical_extruder"
 		}
 	]
 	title: "&b&l✦ Create 애드온"

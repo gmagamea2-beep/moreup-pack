@@ -5,11 +5,12 @@
 	group: "7E05AA7C371599AC"
 	icon: "bhc:red_heart_canister"
 	id: "774ADF6C893DC0A8"
-	order_index: 22
+	order_index: 23
 	quest_links: [ ]
 	quests: [
 		{
 			description: ["몹에게서 얻는 빨간 하트로 최대 체력을 늘린다."]
+			icon: "bhc:red_heart_canister"
 			id: "7C7CC95C7EFBA9FA"
 			rewards: [
 				{
@@ -24,20 +25,18 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "2D1D33EF6F006944"
-					item: "bhc:red_heart_canister"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2D1D33EF6F006944"
+				item: "bhc:red_heart_canister"
+				type: "item"
+			}]
 			title: "&c&l[ ✦ 빨간 하트 캐니스터 ]"
 			x: 0.0d
 			y: -1.5d
-			icon: "bhc:red_heart_canister"
 		}
 		{
 			dependencies: ["7C7CC95C7EFBA9FA"]
+			icon: "bhc:yellow_heart_canister"
 			id: "7CAA0BD4D6BE47AA"
 			rewards: [
 				{
@@ -52,20 +51,18 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "78EC9B5F0271C848"
-					item: "bhc:yellow_heart_canister"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "78EC9B5F0271C848"
+				item: "bhc:yellow_heart_canister"
+				type: "item"
+			}]
 			title: "&e&l[ ✦ 노란 하트 캐니스터 ]"
 			x: 1.75d
 			y: -10.5d
-			icon: "bhc:yellow_heart_canister"
 		}
 		{
 			dependencies: ["7CAA0BD4D6BE47AA"]
+			icon: "bhc:green_heart_canister"
 			id: "4DFBEC9F0CA45B09"
 			rewards: [
 				{
@@ -79,20 +76,18 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "7FE2C1000BC0AC09"
-					item: "bhc:green_heart_canister"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7FE2C1000BC0AC09"
+				item: "bhc:green_heart_canister"
+				type: "item"
+			}]
 			title: "&a&l[ ✦ 초록 하트 캐니스터 ]"
 			x: 3.5d
 			y: -2.25d
-			icon: "bhc:green_heart_canister"
 		}
 		{
 			dependencies: ["4DFBEC9F0CA45B09"]
+			icon: "bhc:blue_heart_canister"
 			id: "548097AC2C8AD85B"
 			rewards: [
 				{
@@ -107,20 +102,18 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "706DF7E878D3BDBF"
-					item: "bhc:blue_heart_canister"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "706DF7E878D3BDBF"
+				item: "bhc:blue_heart_canister"
+				type: "item"
+			}]
 			title: "&b&l[ ✦ 파란 하트 캐니스터 ]"
 			x: 5.25d
 			y: -2.25d
-			icon: "bhc:blue_heart_canister"
 		}
 		{
 			description: ["Artifacts. 공중에서 한 번 더 점프."]
+			icon: "artifacts:cloud_in_a_bottle"
 			id: "7F311BB37688063A"
 			rewards: [
 				{
@@ -135,20 +128,18 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "282A845BDBF819E5"
-					item: "artifacts:cloud_in_a_bottle"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "282A845BDBF819E5"
+				item: "artifacts:cloud_in_a_bottle"
+				type: "item"
+			}]
 			title: "&f&l[ ✦ 병 속의 구름 ]"
 			x: 0.0d
 			y: 0.0d
-			icon: "artifacts:cloud_in_a_bottle"
 		}
 		{
 			dependencies: ["7F311BB37688063A"]
+			icon: "artifacts:running_shoes"
 			id: "71FA200049F783DD"
 			rewards: [
 				{
@@ -163,20 +154,18 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "510BDBC9A34E6E5C"
-					item: "artifacts:running_shoes"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "510BDBC9A34E6E5C"
+				item: "artifacts:running_shoes"
+				type: "item"
+			}]
 			title: "&e&l[ ✦ 달리기 신발 ]"
 			x: 1.75d
 			y: -9.0d
-			icon: "artifacts:running_shoes"
 		}
 		{
 			dependencies: ["7F311BB37688063A"]
+			icon: "artifacts:power_glove"
 			id: "76199CAA49F71A99"
 			rewards: [
 				{
@@ -191,20 +180,18 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "76126C7E96E78134"
-					item: "artifacts:power_glove"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "76126C7E96E78134"
+				item: "artifacts:power_glove"
+				type: "item"
+			}]
 			title: "&6&l[ ✦ 힘의 장갑 ]"
 			x: 1.75d
 			y: -7.5d
-			icon: "artifacts:power_glove"
 		}
 		{
 			dependencies: ["7F311BB37688063A"]
+			icon: "artifacts:crystal_heart"
 			id: "23A68A67E7DFC27C"
 			rewards: [
 				{
@@ -219,20 +206,18 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "7626497BFC7464C8"
-					item: "artifacts:crystal_heart"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7626497BFC7464C8"
+				item: "artifacts:crystal_heart"
+				type: "item"
+			}]
 			title: "&c&l[ ✦ 수정 심장 ]"
 			x: 1.75d
 			y: -6.0d
-			icon: "artifacts:crystal_heart"
 		}
 		{
 			description: ["Relics. 유물을 연구하면 능력이 성장한다."]
+			icon: "relics:researching_table"
 			id: "376B22463F3CDB46"
 			rewards: [
 				{
@@ -247,20 +232,18 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "5AEB4BD12548B55F"
-					item: "relics:researching_table"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5AEB4BD12548B55F"
+				item: "relics:researching_table"
+				type: "item"
+			}]
 			title: "&d&l[ ✦ 유물 연구대 ]"
 			x: 0.0d
 			y: 1.5d
-			icon: "relics:researching_table"
 		}
 		{
 			dependencies: ["376B22463F3CDB46"]
+			icon: "relics:leather_belt"
 			id: "725B032F5C5524CD"
 			rewards: [
 				{
@@ -275,20 +258,18 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "10DE65B03A22EE92"
-					item: "relics:leather_belt"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "10DE65B03A22EE92"
+				item: "relics:leather_belt"
+				type: "item"
+			}]
 			title: "&6&l[ ✦ 가죽 벨트 ]"
 			x: 1.75d
 			y: -4.5d
-			icon: "relics:leather_belt"
 		}
 		{
 			dependencies: ["376B22463F3CDB46"]
+			icon: "relics:magic_mirror"
 			id: "5D819FA951989459"
 			rewards: [
 				{
@@ -303,21 +284,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "6C4C11078355CD3B"
-					item: "relics:magic_mirror"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6C4C11078355CD3B"
+				item: "relics:magic_mirror"
+				type: "item"
+			}]
 			title: "&b&l[ ✦ 마법 거울 ]"
 			x: 1.75d
 			y: -3.0d
-			icon: "relics:magic_mirror"
 		}
 		{
 			dependencies: ["7F311BB37688063A"]
 			description: ["캐는 속도와 공격 속도가 오른다."]
+			icon: "artifacts:digging_claws"
 			id: "261E94FC454CBEB6"
 			rewards: [
 				{
@@ -347,11 +326,11 @@
 			title: "&7&l[ ✦ 두더쥐 발톱과 야생 발톱 ]"
 			x: 1.75d
 			y: -1.5d
-			icon: "artifacts:digging_claws"
 		}
 		{
 			dependencies: ["7F311BB37688063A"]
 			description: ["물속에서 빠르게 헤엄친다."]
+			icon: "artifacts:flippers"
 			id: "75B8EBCDD1184AD4"
 			rewards: [
 				{
@@ -366,20 +345,18 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "7E75670D4263B586"
-					item: "artifacts:flippers"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7E75670D4263B586"
+				item: "artifacts:flippers"
+				type: "item"
+			}]
 			title: "&9&l[ ✦ 오리발 ]"
 			x: 1.75d
 			y: 0.0d
-			icon: "artifacts:flippers"
 		}
 		{
 			dependencies: ["7F311BB37688063A"]
+			icon: "artifacts:night_vision_goggles"
 			id: "0459D7DF09B640B9"
 			rewards: [
 				{
@@ -394,21 +371,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "7261D60CB58B94C8"
-					item: "artifacts:night_vision_goggles"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7261D60CB58B94C8"
+				item: "artifacts:night_vision_goggles"
+				type: "item"
+			}]
 			title: "&a&l[ ✦ 야간투시경 ]"
 			x: 1.75d
 			y: 1.5d
-			icon: "artifacts:night_vision_goggles"
 		}
 		{
 			dependencies: ["7F311BB37688063A"]
 			description: ["불에 처음 닿으면 잠시 화염 저항이 생긴다."]
+			icon: "artifacts:obsidian_skull"
 			id: "278FE69DFAE1197E"
 			rewards: [
 				{
@@ -423,21 +398,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "5C6A2A033421A16F"
-					item: "artifacts:obsidian_skull"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5C6A2A033421A16F"
+				item: "artifacts:obsidian_skull"
+				type: "item"
+			}]
 			title: "&8&l[ ✦ 흑요석 해골 ]"
 			x: 1.75d
 			y: 3.0d
-			icon: "artifacts:obsidian_skull"
 		}
 		{
 			dependencies: ["7F311BB37688063A"]
 			description: ["근처 아이템을 끌어당긴다."]
+			icon: "artifacts:universal_attractor"
 			id: "4B97A8FEC89722B7"
 			rewards: [
 				{
@@ -452,21 +425,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "78C455ECD7E8D9DF"
-					item: "artifacts:universal_attractor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "78C455ECD7E8D9DF"
+				item: "artifacts:universal_attractor"
+				type: "item"
+			}]
 			title: "&b&l[ ✦ 아이템 자석 ]"
 			x: 1.75d
 			y: 4.5d
-			icon: "artifacts:universal_attractor"
 		}
 		{
 			dependencies: ["376B22463F3CDB46"]
 			description: ["화살을 많이 담는 화살통."]
+			icon: "relics:arrow_quiver"
 			id: "02E9F38DE1D42C82"
 			rewards: [
 				{
@@ -481,20 +452,18 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "3A173A11A1C2368F"
-					item: "relics:arrow_quiver"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3A173A11A1C2368F"
+				item: "relics:arrow_quiver"
+				type: "item"
+			}]
 			title: "&6&l[ ✦ 화살통 ]"
 			x: 1.75d
 			y: 6.0d
-			icon: "relics:arrow_quiver"
 		}
 		{
 			dependencies: ["376B22463F3CDB46"]
+			icon: "relics:enders_hand"
 			id: "52BBB1601B67C954"
 			rewards: [
 				{
@@ -509,20 +478,18 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "75C9800550644F9C"
-					item: "relics:enders_hand"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "75C9800550644F9C"
+				item: "relics:enders_hand"
+				type: "item"
+			}]
 			title: "&5&l[ ✦ 엔더 핸드 ]"
 			x: 1.75d
 			y: 7.5d
-			icon: "relics:enders_hand"
 		}
 		{
 			dependencies: ["376B22463F3CDB46"]
+			icon: "relics:holy_locket"
 			id: "799254ADAEACB375"
 			rewards: [
 				{
@@ -537,20 +504,18 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "4241D74E4EE50F95"
-					item: "relics:holy_locket"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4241D74E4EE50F95"
+				item: "relics:holy_locket"
+				type: "item"
+			}]
 			title: "&e&l[ ✦ 성스러운 로켓 ]"
 			x: 1.75d
 			y: 9.0d
-			icon: "relics:holy_locket"
 		}
 		{
 			dependencies: ["376B22463F3CDB46"]
+			icon: "relics:elytra_booster"
 			id: "783EB8E92CE14FAE"
 			rewards: [
 				{
@@ -565,20 +530,18 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "37AFEE644B831CB3"
-					item: "relics:elytra_booster"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "37AFEE644B831CB3"
+				item: "relics:elytra_booster"
+				type: "item"
+			}]
 			title: "&f&l[ ✦ 겉날개 부스터 ]"
 			x: 1.75d
 			y: 10.5d
-			icon: "relics:elytra_booster"
 		}
 		{
 			dependencies: ["23A68A67E7DFC27C"]
+			icon: "celestial_artifacts:flight_ring"
 			id: "75221C07C40FE189"
 			rewards: [
 				{
@@ -608,10 +571,10 @@
 			title: "&e&l[ ✦ 천상의 반지 (Celestial Artifacts) ]"
 			x: 3.5d
 			y: -0.75d
-			icon: "celestial_artifacts:flight_ring"
 		}
 		{
 			dependencies: ["75221C07C40FE189"]
+			icon: "celestial_artifacts:angel_heart"
 			id: "7B2C89DA67B7BF01"
 			rewards: [
 				{
@@ -626,20 +589,18 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "5689AC26C1A29817"
-					item: "celestial_artifacts:angel_heart"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5689AC26C1A29817"
+				item: "celestial_artifacts:angel_heart"
+				type: "item"
+			}]
 			title: "&f&l[ ✦ 천사의 심장 ]"
 			x: 5.25d
 			y: -0.75d
-			icon: "celestial_artifacts:angel_heart"
 		}
 		{
 			dependencies: ["75221C07C40FE189"]
+			icon: "celestial_artifacts:demon_heart"
 			id: "7D48A0D83EB4A761"
 			rewards: [
 				{
@@ -654,20 +615,18 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "7B748D71F518A1EA"
-					item: "celestial_artifacts:demon_heart"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7B748D71F518A1EA"
+				item: "celestial_artifacts:demon_heart"
+				type: "item"
+			}]
 			title: "&c&l[ ✦ 악마의 심장 ]"
 			x: 5.25d
 			y: 0.75d
-			icon: "celestial_artifacts:demon_heart"
 		}
 		{
 			dependencies: ["23A68A67E7DFC27C"]
+			icon: "curseofpandora:charm_of_health"
 			id: "5B6196A3BDAC363A"
 			rewards: [
 				{
@@ -697,10 +656,10 @@
 			title: "&d&l[ ✦ 판도라의 부적 (Curse of Pandora) ]"
 			x: 3.5d
 			y: 0.75d
-			icon: "curseofpandora:charm_of_health"
 		}
 		{
 			dependencies: ["5B6196A3BDAC363A"]
+			icon: "curseofpandora:angelic_feather"
 			id: "4FB059EA65852507"
 			rewards: [
 				{
@@ -715,20 +674,18 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "73379F619F16CBED"
-					item: "curseofpandora:angelic_feather"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "73379F619F16CBED"
+				item: "curseofpandora:angelic_feather"
+				type: "item"
+			}]
 			title: "&f&l[ ✦ 천사의 깃털 ]"
 			x: 5.25d
 			y: 2.25d
-			icon: "curseofpandora:angelic_feather"
 		}
 		{
 			dependencies: ["5D819FA951989459"]
+			icon: "l2complements:eternal_totem_of_dream"
 			id: "7221C0B898872FEE"
 			rewards: [
 				{
@@ -743,17 +700,14 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "734EC4A381B36E00"
-					item: "l2complements:eternal_totem_of_dream"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "734EC4A381B36E00"
+				item: "l2complements:eternal_totem_of_dream"
+				type: "item"
+			}]
 			title: "&6&l[ ✦ 영원한 꿈의 토템 ]"
 			x: 3.5d
 			y: 2.25d
-			icon: "l2complements:eternal_totem_of_dream"
 		}
 	]
 	title: "&b&l✦ 장신구와 성장"

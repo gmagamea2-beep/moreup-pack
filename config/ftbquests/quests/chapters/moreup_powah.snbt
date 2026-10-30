@@ -10,6 +10,7 @@
 	quests: [
 		{
 			description: ["방사능 광석. 땅속 깊은 곳에서 찾자."]
+			icon: "powah:uraninite"
 			id: "7D4198CE3AFE572A"
 			rewards: [
 				{
@@ -24,22 +25,20 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					count: 16L
-					id: "78E0EC648D7F7D15"
-					item: "powah:uraninite"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 16L
+				id: "78E0EC648D7F7D15"
+				item: "powah:uraninite"
+				type: "item"
+			}]
 			title: "&a&l[ ✦ 우라니나이트 ]"
 			x: 0.0d
 			y: 0.0d
-			icon: "powah:uraninite"
 		}
 		{
 			dependencies: ["7D4198CE3AFE572A"]
 			description: ["오브 주변에 막대를 세워 에너지를 주입한다."]
+			icon: "powah:energizing_orb"
 			id: "6D00FB8DA1A9C564"
 			rewards: [
 				{
@@ -70,10 +69,10 @@
 			title: "&e&l[ ✦ 에너지 부여 오브 ]"
 			x: 1.75d
 			y: -0.75d
-			icon: "powah:energizing_orb"
 		}
 		{
 			dependencies: ["6D00FB8DA1A9C564"]
+			icon: "powah:energy_cell_basic"
 			id: "4EAAA98591E9A4E8"
 			rewards: [
 				{
@@ -88,20 +87,18 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "3B09A03221AE13B2"
-					item: "powah:energy_cell_basic"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3B09A03221AE13B2"
+				item: "powah:energy_cell_basic"
+				type: "item"
+			}]
 			title: "&7&l[ ✦ 에너지 셀 ]"
 			x: 3.5d
 			y: -0.75d
-			icon: "powah:energy_cell_basic"
 		}
 		{
 			dependencies: ["6D00FB8DA1A9C564"]
+			icon: "powah:crystal_blazing"
 			id: "7B5E019761C1BD63"
 			rewards: [
 				{
@@ -116,22 +113,20 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					count: 8L
-					id: "5BB9273A1178DC8C"
-					item: "powah:crystal_blazing"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 8L
+				id: "5BB9273A1178DC8C"
+				item: "powah:crystal_blazing"
+				type: "item"
+			}]
 			title: "&6&l[ ✦ 블레이징 결정 ]"
 			x: 3.5d
 			y: 0.75d
-			icon: "powah:crystal_blazing"
 		}
 		{
 			dependencies: ["7B5E019761C1BD63"]
 			description: ["&a하급 보스 정수&r가 들어간다. 입문 보스를 잡아 보자."]
+			icon: "powah:crystal_niotic"
 			id: "792C3EED3CDD7250"
 			rewards: [
 				{
@@ -146,22 +141,20 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					count: 4L
-					id: "3D217E4A4FF4F1C1"
-					item: "powah:crystal_niotic"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 4L
+				id: "3D217E4A4FF4F1C1"
+				item: "powah:crystal_niotic"
+				type: "item"
+			}]
 			title: "&b&l[ ✦ 니오틱 결정 ]"
 			x: 5.25d
 			y: -5.25d
-			icon: "powah:crystal_niotic"
 		}
 		{
 			dependencies: ["792C3EED3CDD7250"]
 			description: ["&d중급 보스 정수&r가 필요하다."]
+			icon: "powah:crystal_spirited"
 			id: "24227ADCCF570755"
 			rewards: [
 				{
@@ -176,22 +169,20 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					count: 4L
-					id: "7BFB3D4491E1EEC7"
-					item: "powah:crystal_spirited"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 4L
+				id: "7BFB3D4491E1EEC7"
+				item: "powah:crystal_spirited"
+				type: "item"
+			}]
 			title: "&a&l[ ✦ 스피리티드 결정 ]"
 			x: 7.0d
 			y: -2.25d
-			icon: "powah:crystal_spirited"
 		}
 		{
 			dependencies: ["24227ADCCF570755"]
 			description: ["&6상급 보스 정수&r가 필요하다. 니트로 결정 블록은 &e세계의 파편: 기술&r 재료."]
+			icon: "powah:crystal_nitro"
 			id: "7F086DDFD1416442"
 			rewards: [
 				{
@@ -206,21 +197,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					count: 9L
-					id: "7C3CAD352D235F99"
-					item: "powah:crystal_nitro"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 9L
+				id: "7C3CAD352D235F99"
+				item: "powah:crystal_nitro"
+				type: "item"
+			}]
 			title: "&c&l[ ✦ 니트로 결정 ]"
 			x: 8.75d
 			y: -0.75d
-			icon: "powah:crystal_nitro"
 		}
 		{
 			dependencies: ["4EAAA98591E9A4E8"]
+			icon: "powah:solar_panel_basic"
 			id: "736B795E6FA53DCD"
 			rewards: [
 				{
@@ -235,21 +224,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "0F0C4C3F46E2E969"
-					item: "powah:solar_panel_basic"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0F0C4C3F46E2E969"
+				item: "powah:solar_panel_basic"
+				type: "item"
+			}]
 			title: "&e&l[ ✦ 태양광 패널 ]"
 			x: 5.25d
 			y: -3.75d
-			icon: "powah:solar_panel_basic"
 		}
 		{
 			dependencies: ["7B5E019761C1BD63"]
 			description: ["우라니나이트를 태워 큰 전력을 얻는 다중 블록."]
+			icon: "powah:reactor_basic"
 			id: "76D082C3246A89D0"
 			rewards: [
 				{
@@ -264,22 +251,20 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					count: 36L
-					id: "173F4495F64BFC0C"
-					item: "powah:reactor_basic"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 36L
+				id: "173F4495F64BFC0C"
+				item: "powah:reactor_basic"
+				type: "item"
+			}]
 			title: "&a&l[ ✦ 원자로 ]"
 			x: 5.25d
 			y: -2.25d
-			icon: "powah:reactor_basic"
 		}
 		{
 			dependencies: ["24227ADCCF570755"]
 			description: ["상급 정수가 필요하다."]
+			icon: "powah:reactor_spirited"
 			id: "7A26F6BDECEF52D5"
 			rewards: [
 				{
@@ -294,22 +279,20 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					count: 36L
-					id: "15C007C666BE38FD"
-					item: "powah:reactor_spirited"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 36L
+				id: "15C007C666BE38FD"
+				item: "powah:reactor_spirited"
+				type: "item"
+			}]
 			title: "&a&l[ ✦ 스피리티드 원자로 ]"
 			x: 8.75d
 			y: 0.75d
-			icon: "powah:reactor_spirited"
 		}
 		{
 			dependencies: ["7F086DDFD1416442"]
 			description: ["전설 정수가 필요한 최상위 원자로."]
+			icon: "powah:reactor_nitro"
 			id: "07987F762A73E16B"
 			rewards: [
 				{
@@ -324,22 +307,20 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					count: 36L
-					id: "2AC8C42C82FFB0BE"
-					item: "powah:reactor_nitro"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 36L
+				id: "2AC8C42C82FFB0BE"
+				item: "powah:reactor_nitro"
+				type: "item"
+			}]
 			title: "&c&l[ ✦ 니트로 원자로 ]"
 			x: 10.5d
 			y: -0.75d
-			icon: "powah:reactor_nitro"
 		}
 		{
 			dependencies: ["4EAAA98591E9A4E8"]
 			description: ["들고 다니는 장비를 원격 충전."]
+			icon: "powah:player_transmitter_basic"
 			id: "74CDAC1CC9CFEF61"
 			rewards: [
 				{
@@ -354,21 +335,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "75AD75AC022A9B79"
-					item: "powah:player_transmitter_basic"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "75AD75AC022A9B79"
+				item: "powah:player_transmitter_basic"
+				type: "item"
+			}]
 			title: "&b&l[ ✦ 플레이어 송신기 ]"
 			x: 5.25d
 			y: -0.75d
-			icon: "powah:player_transmitter_basic"
 		}
 		{
 			dependencies: ["7D4198CE3AFE572A"]
 			description: ["Powah 기계의 기본 재료."]
+			icon: "powah:dielectric_paste"
 			id: "7DAD746EBF666A23"
 			rewards: [
 				{
@@ -400,11 +379,11 @@
 			title: "&7&l[ ✦ 유전체 재료 ]"
 			x: 1.75d
 			y: 0.75d
-			icon: "powah:dielectric_paste"
 		}
 		{
 			dependencies: ["4EAAA98591E9A4E8"]
 			description: ["연료를 태우는 퍼네이터, 용암의 마그메이터, 열원 위의 열 발전기."]
+			icon: "powah:furnator_basic"
 			id: "73E0BFF313269032"
 			rewards: [
 				{
@@ -439,11 +418,11 @@
 			title: "&c&l[ ✦ 발전기 3종 ]"
 			x: 5.25d
 			y: 0.75d
-			icon: "powah:furnator_basic"
 		}
 		{
 			dependencies: ["4EAAA98591E9A4E8"]
 			description: ["들고 다니면 장비를 충전한다."]
+			icon: "powah:battery_basic"
 			id: "3A63AE7FE006DB26"
 			rewards: [
 				{
@@ -458,21 +437,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "75A9C67E0F4E0DAB"
-					item: "powah:battery_basic"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "75A9C67E0F4E0DAB"
+				item: "powah:battery_basic"
+				type: "item"
+			}]
 			title: "&e&l[ ✦ 배터리 (기초) ]"
 			x: 5.25d
 			y: 2.25d
-			icon: "powah:battery_basic"
 		}
 		{
 			dependencies: ["4EAAA98591E9A4E8"]
 			description: ["같은 채널끼리 전기를 공유한다."]
+			icon: "powah:ender_cell_basic"
 			id: "73BE32F73993E78F"
 			rewards: [
 				{
@@ -502,11 +479,11 @@
 			title: "&5&l[ ✦ 엔더 셀과 엔더 게이트 ]"
 			x: 5.25d
 			y: 3.75d
-			icon: "powah:ender_cell_basic"
 		}
 		{
 			dependencies: ["74CDAC1CC9CFEF61"]
 			description: ["플레이어 전송기에 플레이어를 묶는다."]
+			icon: "powah:binding_card"
 			id: "17C2895F0887555D"
 			rewards: [
 				{
@@ -521,21 +498,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "65EE330BB0F744BF"
-					item: "powah:binding_card"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "65EE330BB0F744BF"
+				item: "powah:binding_card"
+				type: "item"
+			}]
 			title: "&b&l[ ✦ 바인딩 카드 ]"
 			x: 7.0d
 			y: -0.75d
-			icon: "powah:binding_card"
 		}
 		{
 			dependencies: ["4EAAA98591E9A4E8"]
 			description: ["아이템의 전기를 빼내거나 호퍼처럼 충전한다."]
+			icon: "powah:energy_discharger_basic"
 			id: "764E0F0D85AFB9E9"
 			rewards: [
 				{
@@ -565,11 +540,11 @@
 			title: "&e&l[ ✦ 충전·방전 장치 ]"
 			x: 5.25d
 			y: 5.25d
-			icon: "powah:energy_discharger_basic"
 		}
 		{
 			dependencies: ["792C3EED3CDD7250"]
 			description: ["에너자이징 오브를 빠르게 한다."]
+			icon: "powah:energizing_rod_niotic"
 			id: "286E35F69F30C13D"
 			rewards: [
 				{
@@ -584,20 +559,18 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "702489A327BAC88F"
-					item: "powah:energizing_rod_niotic"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "702489A327BAC88F"
+				item: "powah:energizing_rod_niotic"
+				type: "item"
+			}]
 			title: "&b&l[ ✦ 에너자이징 로드 (니오틱) ]"
 			x: 7.0d
 			y: 0.75d
-			icon: "powah:energizing_rod_niotic"
 		}
 		{
 			dependencies: ["792C3EED3CDD7250"]
+			icon: "powah:aerial_pearl"
 			id: "14A2D09A31C5F786"
 			rewards: [
 				{
@@ -612,22 +585,20 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					count: 4L
-					id: "7B97BD6F3A7704DA"
-					item: "powah:aerial_pearl"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 4L
+				id: "7B97BD6F3A7704DA"
+				item: "powah:aerial_pearl"
+				type: "item"
+			}]
 			title: "&b&l[ ✦ 에어리얼 진주 ]"
 			x: 7.0d
 			y: 2.25d
-			icon: "powah:aerial_pearl"
 		}
 		{
 			dependencies: ["7F086DDFD1416442"]
 			description: ["최고 등급의 태양광 패널과 에너지 셀."]
+			icon: "powah:solar_panel_nitro"
 			id: "216E5564C1DB371A"
 			rewards: [
 				{
@@ -657,7 +628,6 @@
 			title: "&c&l[ ✦ 니트로 장비 ]"
 			x: 10.5d
 			y: 0.75d
-			icon: "powah:solar_panel_nitro"
 		}
 	]
 	title: "&b&l✦ 파워 (Powah)"

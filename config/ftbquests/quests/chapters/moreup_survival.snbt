@@ -10,6 +10,7 @@
 	quests: [
 		{
 			description: ["그냥 떠 온 물은 배탈이 난다. 끓이거나 정수해서 마시자. (Tough As Nails)"]
+			icon: "toughasnails:purified_water_bottle"
 			id: "5C13A3708E0FA0E1"
 			rewards: [
 				{
@@ -24,21 +25,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "1BEDCAF0EB8839A4"
-					item: "toughasnails:purified_water_bottle"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1BEDCAF0EB8839A4"
+				item: "toughasnails:purified_water_bottle"
+				type: "item"
+			}]
 			title: "&b&l[ ✦ 깨끗한 물 ]"
 			x: 0.0d
 			y: -0.75d
-			icon: "toughasnails:purified_water_bottle"
 		}
 		{
 			dependencies: ["5C13A3708E0FA0E1"]
 			description: ["더위와 추위가 생명을 위협한다. 온도계로 주변 온도를 확인하자."]
+			icon: "toughasnails:thermometer"
 			id: "7DB04746F0F35BF6"
 			rewards: [
 				{
@@ -53,21 +52,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "7757D66069F521CB"
-					item: "toughasnails:thermometer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7757D66069F521CB"
+				item: "toughasnails:thermometer"
+				type: "item"
+			}]
 			title: "&e&l[ ✦ 체온 관리 ]"
 			x: 1.75d
 			y: -1.5d
-			icon: "toughasnails:thermometer"
 		}
 		{
 			dependencies: ["7DB04746F0F35BF6"]
 			description: ["계절에 따라 자라는 작물이 다르다. 달력으로 지금 계절을 확인하자. (Serene Seasons)"]
+			icon: "sereneseasons:calendar"
 			id: "483E45251BE8BD0F"
 			rewards: [
 				{
@@ -82,21 +79,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "7CFAA568C8AEAAD7"
-					item: "sereneseasons:calendar"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7CFAA568C8AEAAD7"
+				item: "sereneseasons:calendar"
+				type: "item"
+			}]
 			title: "&6&l[ ✦ 사계절 ]"
 			x: 3.5d
 			y: -4.5d
-			icon: "sereneseasons:calendar"
 		}
 		{
 			dependencies: ["483E45251BE8BD0F"]
 			description: ["새로운 음식을 먹을수록 최대 체력이 늘어난다. 음식 일지로 기록을 보자. (Spice of Life)"]
+			icon: "solcarrot:food_book"
 			id: "17FCBA5DABC70753"
 			rewards: [
 				{
@@ -111,21 +106,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "6F1D5DAA8C297945"
-					item: "solcarrot:food_book"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6F1D5DAA8C297945"
+				item: "solcarrot:food_book"
+				type: "item"
+			}]
 			title: "&d&l[ ✦ 다양한 식단 ]"
 			x: 5.25d
 			y: -3.75d
-			icon: "solcarrot:food_book"
 		}
 		{
 			dependencies: ["5C13A3708E0FA0E1"]
 			description: ["가방은 모험가의 기본. (Sophisticated Backpacks)"]
+			icon: "sophisticatedbackpacks:backpack"
 			id: "76657BF90F8D5159"
 			rewards: [
 				{
@@ -141,21 +134,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "73B3BAD031DA8F5F"
-					item: "sophisticatedbackpacks:backpack"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "73B3BAD031DA8F5F"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
 			title: "&6&l[ ✦ 첫 배낭 ]"
 			x: 1.75d
 			y: 0.0d
-			icon: "sophisticatedbackpacks:backpack"
 		}
 		{
 			dependencies: ["3FB64505F8970852"]
 			description: ["자석 업그레이드는 주변 아이템을 자동으로 주워 준다."]
+			icon: "sophisticatedbackpacks:magnet_upgrade"
 			id: "721241A1D1DD1CAB"
 			rewards: [
 				{
@@ -170,21 +161,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "74B897112BD03097"
-					item: "sophisticatedbackpacks:magnet_upgrade"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "74B897112BD03097"
+				item: "sophisticatedbackpacks:magnet_upgrade"
+				type: "item"
+			}]
 			title: "&b&l[ ✦ 끌어당기는 힘 ]"
 			x: 0.0d
 			y: 0.75d
-			icon: "sophisticatedbackpacks:magnet_upgrade"
 		}
 		{
 			dependencies: ["76657BF90F8D5159"]
 			description: ["웨이스톤을 세우면 언제든 돌아올 수 있다. 마을에서도 찾을 수 있다."]
+			icon: "waystones:waystone"
 			id: "06342A873923DC35"
 			rewards: [
 				{
@@ -200,21 +189,25 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "6C2FF126693ED2A1"
-					item: "waystones:waystone"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6C2FF126693ED2A1"
+				item: "waystones:waystone"
+				type: "item"
+			}]
 			title: "&5&l[ ✦ 길잡이 돌 ]"
 			x: 3.5d
 			y: -3.0d
-			icon: "waystones:waystone"
 		}
 		{
 			dependencies: ["06342A873923DC35"]
 			description: ["워프 스톤으로 어디서든 웨이스톤으로 순간이동한다."]
+			icon: {
+				Count: 1
+				id: "waystones:warp_stone"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "07256B69B8FC27FB"
 			rewards: [
 				{
@@ -229,21 +222,25 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "7B64DD02542C5980"
-					item: "waystones:warp_stone"
-					type: "item"
+			tasks: [{
+				id: "7B64DD02542C5980"
+				item: {
+					Count: 1
+					id: "waystones:warp_stone"
+					tag: {
+						Damage: 0
+					}
 				}
-			]
+				type: "item"
+			}]
 			title: "&d&l[ ✦ 휴대용 귀환 ]"
 			x: 5.25d
 			y: -2.25d
-			icon: "waystones:warp_stone"
 		}
 		{
 			dependencies: ["76657BF90F8D5159"]
 			description: ["패러글라이더로 높은 곳에서 활공하자. 여신상에서 기력을 늘릴 수 있다."]
+			icon: "paraglider:paraglider"
 			id: "70A0789056451C68"
 			rewards: [
 				{
@@ -258,21 +255,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "79624D40BE3BC169"
-					item: "paraglider:paraglider"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "79624D40BE3BC169"
+				item: "paraglider:paraglider"
+				type: "item"
+			}]
 			title: "&f&l[ ✦ 하늘을 가르다 ]"
 			x: 3.5d
 			y: -1.5d
-			icon: "paraglider:paraglider"
 		}
 		{
 			dependencies: ["76657BF90F8D5159"]
 			description: ["자주 쓰는 도구를 허리에 차자."]
+			icon: "toolbelt:belt"
 			id: "7A050CD7E6713DC1"
 			rewards: [
 				{
@@ -287,21 +282,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "796A2AEA432A3D95"
-					item: "toolbelt:belt"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "796A2AEA432A3D95"
+				item: "toolbelt:belt"
+				type: "item"
+			}]
 			title: "&7&l[ ✦ 공구 벨트 ]"
 			x: 3.5d
 			y: 0.0d
-			icon: "toolbelt:belt"
 		}
 		{
 			dependencies: ["70A0789056451C68"]
 			description: ["원하는 구조물을 찾아 주는 나침반."]
+			icon: "explorerscompass:explorerscompass"
 			id: "7179D6863AB01BDE"
 			rewards: [
 				{
@@ -316,21 +309,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "714AE34E443FD921"
-					item: "explorerscompass:explorerscompass"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "714AE34E443FD921"
+				item: "explorerscompass:explorerscompass"
+				type: "item"
+			}]
 			title: "&e&l[ ✦ 탐험가의 나침반 ]"
 			x: 5.25d
 			y: -0.75d
-			icon: "explorerscompass:explorerscompass"
 		}
 		{
 			dependencies: ["7179D6863AB01BDE"]
 			description: ["현상금 게시판의 의뢰를 해결하면 보상을 받는다. 마을에서 찾거나 만들자."]
+			icon: "bountiful:bountyboard"
 			id: "735BED236C5FC171"
 			rewards: [
 				{
@@ -345,21 +336,25 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "7A0F3410470AED03"
-					item: "bountiful:bountyboard"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7A0F3410470AED03"
+				item: "bountiful:bountyboard"
+				type: "item"
+			}]
 			title: "&6&l[ ✦ 현상금 사냥꾼 ]"
 			x: 7.0d
 			y: 0.0d
-			icon: "bountiful:bountyboard"
 		}
 		{
 			dependencies: ["5C13A3708E0FA0E1"]
 			description: ["물병보다 많이 담는다. 정화한 물을 채워 다니면 갈증 걱정이 줄어든다."]
+			icon: {
+				Count: 1
+				id: "toughasnails:empty_leather_canteen"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "7887C765AEE68A0F"
 			rewards: [
 				{
@@ -374,21 +369,25 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "5218AF918D77BC25"
-					item: "toughasnails:empty_leather_canteen"
-					type: "item"
+			tasks: [{
+				id: "5218AF918D77BC25"
+				item: {
+					Count: 1
+					id: "toughasnails:empty_leather_canteen"
+					tag: {
+						Damage: 0
+					}
 				}
-			]
+				type: "item"
+			}]
 			title: "&b&l[ ✦ 수통 ]"
 			x: 1.75d
 			y: 1.5d
-			icon: "toughasnails:empty_leather_canteen"
 		}
 		{
 			dependencies: ["7DB04746F0F35BF6"]
 			description: ["더운 곳에서 먹으면 몸이 식는다."]
+			icon: "toughasnails:ice_cream"
 			id: "42B2619A167EDBAA"
 			rewards: [
 				{
@@ -403,21 +402,22 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "7674EFB236CE863F"
-					item: "toughasnails:ice_cream"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7674EFB236CE863F"
+				item: "toughasnails:ice_cream"
+				type: "item"
+			}]
 			title: "&f&l[ ✦ 아이스크림 ]"
 			x: 3.5d
 			y: 1.5d
-			icon: "toughasnails:ice_cream"
 		}
 		{
-			dependencies: ["76657BF90F8D5159", "63CC3024E33185EE"]
+			dependencies: [
+				"76657BF90F8D5159"
+				"63CC3024E33185EE"
+			]
 			description: ["불에 타지 않는 최고 등급 배낭."]
+			icon: "sophisticatedbackpacks:netherite_backpack"
 			id: "7F4D982F1D9C2C8B"
 			rewards: [
 				{
@@ -432,21 +432,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "509DC5DAEA6FF8C3"
-					item: "sophisticatedbackpacks:netherite_backpack"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "509DC5DAEA6FF8C3"
+				item: "sophisticatedbackpacks:netherite_backpack"
+				type: "item"
+			}]
 			title: "&8&l[ ✦ 네더라이트 배낭 ]"
 			x: 3.5d
 			y: 3.0d
-			icon: "sophisticatedbackpacks:netherite_backpack"
 		}
 		{
 			dependencies: ["76657BF90F8D5159"]
 			description: ["떨어진 아이템을 자동으로 줍고, 배낭 안에서 바로 조합한다."]
+			icon: "sophisticatedbackpacks:pickup_upgrade"
 			id: "70AD212A05DBBB18"
 			rewards: [
 				{
@@ -476,11 +474,11 @@
 			title: "&a&l[ ✦ 줍기·제작대 기능 ]"
 			x: 3.5d
 			y: 4.5d
-			icon: "sophisticatedbackpacks:pickup_upgrade"
 		}
 		{
 			dependencies: ["70AD212A05DBBB18"]
 			description: ["배고프면 알아서 먹고, 넣은 광석을 알아서 굽는다."]
+			icon: "sophisticatedbackpacks:feeding_upgrade"
 			id: "7EBF5B3917C26097"
 			rewards: [
 				{
@@ -510,11 +508,11 @@
 			title: "&6&l[ ✦ 식사·자동 화로 기능 ]"
 			x: 5.25d
 			y: 0.75d
-			icon: "sophisticatedbackpacks:feeding_upgrade"
 		}
 		{
 			dependencies: ["70AD212A05DBBB18"]
 			description: ["주괴를 블록으로 압축하고, 액체를 배낭에 담는다."]
+			icon: "sophisticatedbackpacks:compacting_upgrade"
 			id: "1D56F9F8B1EAFA93"
 			rewards: [
 				{
@@ -544,11 +542,11 @@
 			title: "&7&l[ ✦ 압축·탱크 기능 ]"
 			x: 5.25d
 			y: 2.25d
-			icon: "sophisticatedbackpacks:compacting_upgrade"
 		}
 		{
 			dependencies: ["7F4D982F1D9C2C8B"]
 			description: ["영구 기능을 단 배낭은 떨어져도 사라지지 않는다. 배낭 보관 기능으로 배낭 안에 배낭을 넣는다."]
+			icon: "sophisticatedbackpacks:everlasting_upgrade"
 			id: "772CC32598391951"
 			rewards: [
 				{
@@ -578,7 +576,6 @@
 			title: "&5&l[ ✦ 영구·배낭 보관 기능 ]"
 			x: 5.25d
 			y: 3.75d
-			icon: "sophisticatedbackpacks:everlasting_upgrade"
 		}
 	]
 	title: "&b&l✦ 생존과 준비"

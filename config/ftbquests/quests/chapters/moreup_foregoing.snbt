@@ -10,6 +10,7 @@
 	quests: [
 		{
 			description: ["나무에서 라텍스를 뽑아 고무와 플라스틱을 만든다."]
+			icon: "industrialforegoing:latex_processing_unit"
 			id: "7ED715F8FBA9103E"
 			rewards: [
 				{
@@ -24,20 +25,18 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "26A88307D6A3BBC9"
-					item: "industrialforegoing:latex_processing_unit"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "26A88307D6A3BBC9"
+				item: "industrialforegoing:latex_processing_unit"
+				type: "item"
+			}]
 			title: "&7&l[ ✦ 라텍스 처리 ]"
 			x: 0.0d
 			y: 0.0d
-			icon: "industrialforegoing:latex_processing_unit"
 		}
 		{
 			dependencies: ["7ED715F8FBA9103E"]
+			icon: "industrialforegoing:plastic"
 			id: "7D52880048BC8E59"
 			rewards: [
 				{
@@ -52,21 +51,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					count: 16L
-					id: "386017B0085221FB"
-					item: "industrialforegoing:plastic"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 16L
+				id: "386017B0085221FB"
+				item: "industrialforegoing:plastic"
+				type: "item"
+			}]
 			title: "&f&l[ ✦ 플라스틱 ]"
 			x: 1.75d
 			y: 0.0d
-			icon: "industrialforegoing:plastic"
 		}
 		{
 			dependencies: ["7D52880048BC8E59"]
+			icon: "industrialforegoing:machine_frame_simple"
 			id: "7903D76302831440"
 			rewards: [
 				{
@@ -81,21 +78,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "7A8761D183528CB3"
-					item: "industrialforegoing:machine_frame_simple"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7A8761D183528CB3"
+				item: "industrialforegoing:machine_frame_simple"
+				type: "item"
+			}]
 			title: "&7&l[ ✦ 간단한 기계 틀 ]"
 			x: 3.5d
 			y: 0.0d
-			icon: "industrialforegoing:machine_frame_simple"
 		}
 		{
 			dependencies: ["7903D76302831440"]
 			description: ["바이오 반응로로 연료를 만들어 발전기를 돌리자."]
+			icon: "industrialforegoing:bioreactor"
 			id: "7230BDCFC8BCB425"
 			rewards: [
 				{
@@ -124,11 +119,11 @@
 			title: "&a&l[ ✦ 바이오 연료 ]"
 			x: 5.25d
 			y: -4.5d
-			icon: "industrialforegoing:bioreactor"
 		}
 		{
 			dependencies: ["7903D76302831440"]
 			description: ["파종기와 수확기로 농사를 맡기자."]
+			icon: "industrialforegoing:plant_sower"
 			id: "7387E1A1E332CE20"
 			rewards: [
 				{
@@ -158,10 +153,10 @@
 			title: "&2&l[ ✦ 자동 농장 ]"
 			x: 5.25d
 			y: -3.0d
-			icon: "industrialforegoing:plant_sower"
 		}
 		{
 			dependencies: ["7903D76302831440"]
+			icon: "industrialforegoing:machine_frame_advanced"
 			id: "5C4FB4342FC0B612"
 			rewards: [
 				{
@@ -176,21 +171,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "773D1682E8008381"
-					item: "industrialforegoing:machine_frame_advanced"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "773D1682E8008381"
+				item: "industrialforegoing:machine_frame_advanced"
+				type: "item"
+			}]
 			title: "&6&l[ ✦ 고급 기계 틀 ]"
 			x: 5.25d
 			y: -1.5d
-			icon: "industrialforegoing:machine_frame_advanced"
 		}
 		{
 			dependencies: ["5C4FB4342FC0B612"]
 			description: ["고급 재료의 대부분이 여기서 나온다."]
+			icon: "industrialforegoing:dissolution_chamber"
 			id: "7A21A39A13B82D8F"
 			rewards: [
 				{
@@ -205,21 +198,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "70A0482669874191"
-					item: "industrialforegoing:dissolution_chamber"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "70A0482669874191"
+				item: "industrialforegoing:dissolution_chamber"
+				type: "item"
+			}]
 			title: "&b&l[ ✦ 용해 챔버 ]"
 			x: 7.0d
 			y: -3.75d
-			icon: "industrialforegoing:dissolution_chamber"
 		}
 		{
 			dependencies: ["7A21A39A13B82D8F"]
 			description: ["광석 레이저 기반과 렌즈로 광석을 뽑아낸다."]
+			icon: "industrialforegoing:ore_laser_base"
 			id: "7526243A9479F4C4"
 			rewards: [
 				{
@@ -250,10 +241,10 @@
 			title: "&c&l[ ✦ 레이저 드릴 ]"
 			x: 8.75d
 			y: -3.0d
-			icon: "industrialforegoing:ore_laser_base"
 		}
 		{
 			dependencies: ["5C4FB4342FC0B612"]
+			icon: "industrialforegoing:enchantment_extractor"
 			id: "7F2D478476B76422"
 			rewards: [
 				{
@@ -282,11 +273,11 @@
 			title: "&d&l[ ✦ 마법 부여 추출기 ]"
 			x: 7.0d
 			y: -2.25d
-			icon: "industrialforegoing:enchantment_extractor"
 		}
 		{
 			dependencies: ["5C4FB4342FC0B612"]
 			description: ["한 종류의 아이템을 거의 무한히 담는다."]
+			icon: "industrialforegoing:common_black_hole_unit"
 			id: "790043C80671631B"
 			rewards: [
 				{
@@ -301,21 +292,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "24DDCD6E16B1EB80"
-					item: "industrialforegoing:common_black_hole_unit"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "24DDCD6E16B1EB80"
+				item: "industrialforegoing:common_black_hole_unit"
+				type: "item"
+			}]
 			title: "&5&l[ ✦ 블랙홀 저장 장치 ]"
 			x: 7.0d
 			y: -0.75d
-			icon: "industrialforegoing:common_black_hole_unit"
 		}
 		{
 			dependencies: ["7A21A39A13B82D8F"]
 			description: ["&e세계의 파편: 기술&r의 재료."]
+			icon: "industrialforegoing:machine_frame_supreme"
 			id: "76EAA3F596D952EE"
 			rewards: [
 				{
@@ -330,21 +319,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "7FB27DFEE8E35823"
-					item: "industrialforegoing:machine_frame_supreme"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7FB27DFEE8E35823"
+				item: "industrialforegoing:machine_frame_supreme"
+				type: "item"
+			}]
 			title: "&6&l[ ✦ 최상급 기계 틀 ]"
 			x: 8.75d
 			y: -1.5d
-			icon: "industrialforegoing:machine_frame_supreme"
 		}
 		{
 			dependencies: ["7903D76302831440"]
 			description: ["산업의 길 기계 재료."]
+			icon: "industrialforegoing:iron_gear"
 			id: "704127AF7CB4DECF"
 			rewards: [
 				{
@@ -381,11 +368,11 @@
 			title: "&7&l[ ✦ 톱니바퀴 ]"
 			x: 5.25d
 			y: 0.0d
-			icon: "industrialforegoing:iron_gear"
 		}
 		{
 			dependencies: ["7903D76302831440"]
 			description: ["아이템과 몹을 옮기는 벨트. 업그레이드로 넣고 빼기를 한다."]
+			icon: "industrialforegoing:conveyor"
 			id: "6F3DF7C5B10E5FBD"
 			rewards: [
 				{
@@ -400,21 +387,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					count: 16L
-					id: "707A17DEE74934BC"
-					item: "industrialforegoing:conveyor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 16L
+				id: "707A17DEE74934BC"
+				item: "industrialforegoing:conveyor"
+				type: "item"
+			}]
 			title: "&e&l[ ✦ 컨베이어 벨트 ]"
 			x: 5.25d
 			y: 1.5d
-			icon: "industrialforegoing:conveyor"
 		}
 		{
 			dependencies: ["7903D76302831440"]
+			icon: "industrialforegoing:block_breaker"
 			id: "7078587511FA7DE2"
 			rewards: [
 				{
@@ -444,11 +429,11 @@
 			title: "&7&l[ ✦ 블록 파괴기와 설치기 ]"
 			x: 5.25d
 			y: 3.0d
-			icon: "industrialforegoing:block_breaker"
 		}
 		{
 			dependencies: ["7903D76302831440"]
 			description: ["동물을 먹여 번식시키고, 우유·양털을 자동으로 얻는다."]
+			icon: "industrialforegoing:animal_feeder"
 			id: "7E8417507E75663C"
 			rewards: [
 				{
@@ -478,11 +463,11 @@
 			title: "&a&l[ ✦ 동물 사료 공급기와 목장기 ]"
 			x: 5.25d
 			y: 4.5d
-			icon: "industrialforegoing:animal_feeder"
 		}
 		{
 			dependencies: ["7387E1A1E332CE20"]
 			description: ["흙 없이 작물을 키운다."]
+			icon: "industrialforegoing:hydroponic_bed"
 			id: "7445CC926E54AA14"
 			rewards: [
 				{
@@ -497,21 +482,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "7A47ECA20540B933"
-					item: "industrialforegoing:hydroponic_bed"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7A47ECA20540B933"
+				item: "industrialforegoing:hydroponic_bed"
+				type: "item"
+			}]
 			title: "&a&l[ ✦ 수경 재배 침대 ]"
 			x: 7.0d
 			y: 0.75d
-			icon: "industrialforegoing:hydroponic_bed"
 		}
 		{
 			dependencies: ["7A21A39A13B82D8F"]
 			description: ["분홍 슬라임으로 만드는 고급 재료."]
+			icon: "industrialforegoing:pink_slime_ingot"
 			id: "42241A5DB4249A15"
 			rewards: [
 				{
@@ -526,22 +509,20 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					count: 4L
-					id: "742143447270C0A2"
-					item: "industrialforegoing:pink_slime_ingot"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 4L
+				id: "742143447270C0A2"
+				item: "industrialforegoing:pink_slime_ingot"
+				type: "item"
+			}]
 			title: "&d&l[ ✦ 분홍 슬라임 주괴 ]"
 			x: 8.75d
 			y: 0.0d
-			icon: "industrialforegoing:pink_slime_ingot"
 		}
 		{
 			dependencies: ["5C4FB4342FC0B612"]
 			description: ["몹을 처치해 드롭과 경험치를 모은다."]
+			icon: "industrialforegoing:mob_crusher"
 			id: "157A1B6332638181"
 			rewards: [
 				{
@@ -556,21 +537,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "7D85BEF4F3E19743"
-					item: "industrialforegoing:mob_crusher"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7D85BEF4F3E19743"
+				item: "industrialforegoing:mob_crusher"
+				type: "item"
+			}]
 			title: "&c&l[ ✦ 몹 분쇄기 ]"
 			x: 7.0d
 			y: 2.25d
-			icon: "industrialforegoing:mob_crusher"
 		}
 		{
 			dependencies: ["5C4FB4342FC0B612"]
 			description: ["여러 가지를 태워 전기를 만든다. 원자로는 모든 균사체 발전기를 합친 것."]
+			icon: "industrialforegoing:mycelial_furnace"
 			id: "77B7D80E933C392E"
 			rewards: [
 				{
@@ -600,11 +579,11 @@
 			title: "&5&l[ ✦ 균사체 발전기 ]"
 			x: 7.0d
 			y: 3.75d
-			icon: "industrialforegoing:mycelial_furnace"
 		}
 		{
 			dependencies: ["7526243A9479F4C4"]
 			description: ["레이저 드릴로 액체를 뽑는다."]
+			icon: "industrialforegoing:fluid_laser_base"
 			id: "1D4F2CDD38880BC7"
 			rewards: [
 				{
@@ -619,21 +598,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "7FFF86049D9704FA"
-					item: "industrialforegoing:fluid_laser_base"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7FFF86049D9704FA"
+				item: "industrialforegoing:fluid_laser_base"
+				type: "item"
+			}]
 			title: "&9&l[ ✦ 유체 레이저 기반 ]"
 			x: 10.5d
 			y: -0.75d
-			icon: "industrialforegoing:fluid_laser_base"
 		}
 		{
 			dependencies: ["7F2D478476B76422"]
 			description: ["경험치 액체로 책에 마법을 부여하고, 마법 책을 나눈다."]
+			icon: "industrialforegoing:enchantment_factory"
 			id: "7D6CEDC15012DC66"
 			rewards: [
 				{
@@ -663,10 +640,10 @@
 			title: "&d&l[ ✦ 마법 부여 공장과 분류기 ]"
 			x: 8.75d
 			y: 1.5d
-			icon: "industrialforegoing:enchantment_factory"
 		}
 		{
 			dependencies: ["790043C80671631B"]
+			icon: "industrialforegoing:advanced_black_hole_unit"
 			id: "162B226E92C439E4"
 			rewards: [
 				{
@@ -696,11 +673,11 @@
 			title: "&5&l[ ✦ 고급 블랙홀과 제어기 ]"
 			x: 8.75d
 			y: 3.0d
-			icon: "industrialforegoing:advanced_black_hole_unit"
 		}
 		{
 			dependencies: ["76EAA3F596D952EE"]
 			description: ["전기로 넓은 범위를 한 번에 캐고 벤다."]
+			icon: "industrialforegoing:infinity_drill"
 			id: "493078DE6A23E297"
 			rewards: [
 				{
@@ -730,10 +707,10 @@
 			title: "&6&l[ ✦ 무한 드릴과 무한 톱 ]"
 			x: 10.5d
 			y: 0.75d
-			icon: "industrialforegoing:infinity_drill"
 		}
 		{
 			dependencies: ["493078DE6A23E297"]
+			icon: "industrialforegoing:infinity_backpack"
 			id: "74974224D95D0B39"
 			rewards: [
 				{
@@ -747,17 +724,14 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "73A288A5EBBC595F"
-					item: "industrialforegoing:infinity_backpack"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "73A288A5EBBC595F"
+				item: "industrialforegoing:infinity_backpack"
+				type: "item"
+			}]
 			title: "&6&l[ ✦ 무한 배낭 ]"
 			x: 12.25d
 			y: 0.0d
-			icon: "industrialforegoing:infinity_backpack"
 		}
 	]
 	title: "&b&l✦ 산업의 길 (Industrial Foregoing)"

@@ -10,6 +10,7 @@
 	quests: [
 		{
 			description: ["운석 주변이나 동굴에서 찾자. 성장 가속기로 키울 수도 있다."]
+			icon: "ae2:certus_quartz_crystal"
 			id: "145160E7475B843F"
 			rewards: [
 				{
@@ -24,22 +25,20 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					count: 16L
-					id: "7978AA0A1DC57EFA"
-					item: "ae2:certus_quartz_crystal"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 16L
+				id: "7978AA0A1DC57EFA"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
 			title: "&b&l[ ✦ 서티스 석영 ]"
 			x: 0.0d
 			y: 0.0d
-			icon: "ae2:certus_quartz_crystal"
 		}
 		{
 			dependencies: ["145160E7475B843F"]
 			description: ["충전된 석영과 플루익스의 시작."]
+			icon: "ae2:charger"
 			id: "7AD998BF41753745"
 			rewards: [
 				{
@@ -54,20 +53,18 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "77D90D82A330C693"
-					item: "ae2:charger"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "77D90D82A330C693"
+				item: "ae2:charger"
+				type: "item"
+			}]
 			title: "&e&l[ ✦ 충전기 ]"
 			x: 1.75d
 			y: -0.75d
-			icon: "ae2:charger"
 		}
 		{
 			dependencies: ["7AD998BF41753745"]
+			icon: "ae2:fluix_crystal"
 			id: "7F079D006CB58461"
 			rewards: [
 				{
@@ -82,22 +79,20 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					count: 16L
-					id: "7A8EF70519852F54"
-					item: "ae2:fluix_crystal"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 16L
+				id: "7A8EF70519852F54"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
 			title: "&5&l[ ✦ 플루익스 ]"
 			x: 3.5d
 			y: 0.0d
-			icon: "ae2:fluix_crystal"
 		}
 		{
 			dependencies: ["7F079D006CB58461"]
 			description: ["운석 안의 각인판으로 처리기를 찍는다."]
+			icon: "ae2:inscriber"
 			id: "1F4ED68D16500A17"
 			rewards: [
 				{
@@ -112,21 +107,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "7F614DFDDC0E59F7"
-					item: "ae2:inscriber"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7F614DFDDC0E59F7"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
 			title: "&7&l[ ✦ 각인기 ]"
 			x: 5.25d
 			y: 0.0d
-			icon: "ae2:inscriber"
 		}
 		{
 			dependencies: ["1F4ED68D16500A17"]
 			description: ["논리·계산·공학 처리기."]
+			icon: "ae2:logic_processor"
 			id: "39AC8E55AF871B49"
 			rewards: [
 				{
@@ -164,11 +157,11 @@
 			title: "&6&l[ ✦ 세 가지 처리기 ]"
 			x: 7.0d
 			y: 0.0d
-			icon: "ae2:logic_processor"
 		}
 		{
 			dependencies: ["39AC8E55AF871B49"]
 			description: ["네트워크의 심장."]
+			icon: "ae2:controller"
 			id: "261E2AA89C430B7C"
 			rewards: [
 				{
@@ -183,20 +176,18 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "70E75A235040801F"
-					item: "ae2:controller"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "70E75A235040801F"
+				item: "ae2:controller"
+				type: "item"
+			}]
 			title: "&3&l[ ✦ ME 컨트롤러 ]"
 			x: 8.75d
 			y: 0.0d
-			icon: "ae2:controller"
 		}
 		{
 			dependencies: ["261E2AA89C430B7C"]
+			icon: "ae2:drive"
 			id: "564496AE7B925E5D"
 			rewards: [
 				{
@@ -226,11 +217,11 @@
 			title: "&7&l[ ✦ ME 드라이브 ]"
 			x: 10.5d
 			y: -5.25d
-			icon: "ae2:drive"
 		}
 		{
 			dependencies: ["564496AE7B925E5D"]
 			description: ["네트워크 안의 모든 아이템을 한눈에."]
+			icon: "ae2:crafting_terminal"
 			id: "6F08E08F3AA382D5"
 			rewards: [
 				{
@@ -245,21 +236,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "337CF9703DC69C77"
-					item: "ae2:crafting_terminal"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "337CF9703DC69C77"
+				item: "ae2:crafting_terminal"
+				type: "item"
+			}]
 			title: "&b&l[ ✦ 조합 터미널 ]"
 			x: 12.25d
 			y: -5.25d
-			icon: "ae2:crafting_terminal"
 		}
 		{
 			dependencies: ["6F08E08F3AA382D5"]
 			description: ["패턴 제공기, 분자 조립기, 조합 유닛으로 자동 조합을 시작하자."]
+			icon: "ae2:pattern_provider"
 			id: "2E390AF9C3FB53A0"
 			rewards: [
 				{
@@ -301,10 +290,10 @@
 			title: "&6&l[ ✦ 자동 조합 ]"
 			x: 14.0d
 			y: -2.25d
-			icon: "ae2:pattern_provider"
 		}
 		{
 			dependencies: ["564496AE7B925E5D"]
+			icon: "ae2:item_storage_cell_64k"
 			id: "489EA03F7B50F407"
 			rewards: [
 				{
@@ -319,20 +308,18 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "719C0A0A8E64D196"
-					item: "ae2:item_storage_cell_64k"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "719C0A0A8E64D196"
+				item: "ae2:item_storage_cell_64k"
+				type: "item"
+			}]
 			title: "&e&l[ ✦ 64k 저장 셀 ]"
 			x: 12.25d
 			y: -3.75d
-			icon: "ae2:item_storage_cell_64k"
 		}
 		{
 			dependencies: ["489EA03F7B50F407"]
+			icon: "ae2:item_storage_cell_256k"
 			id: "7EEDB63444829D48"
 			rewards: [
 				{
@@ -347,21 +334,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "795956D5A6FEC6E2"
-					item: "ae2:item_storage_cell_256k"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "795956D5A6FEC6E2"
+				item: "ae2:item_storage_cell_256k"
+				type: "item"
+			}]
 			title: "&e&l[ ✦ 256k 저장 셀 ]"
 			x: 14.0d
 			y: -0.75d
-			icon: "ae2:item_storage_cell_256k"
 		}
 		{
 			dependencies: ["6F08E08F3AA382D5"]
 			description: ["어디서든 네트워크에 접속."]
+			icon: "ae2:wireless_access_point"
 			id: "14317CBC946BE50E"
 			rewards: [
 				{
@@ -391,11 +376,11 @@
 			title: "&b&l[ ✦ 무선 터미널 ]"
 			x: 14.0d
 			y: 0.75d
-			icon: "ae2:wireless_access_point"
 		}
 		{
 			dependencies: ["7EEDB63444829D48"]
 			description: ["물질을 압축한 특이점. &e세계의 파편: 기술&r의 재료다."]
+			icon: "ae2:singularity"
 			id: "3956BB3E3DB68042"
 			rewards: [
 				{
@@ -410,21 +395,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "7A4A69FF0A801D95"
-					item: "ae2:singularity"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7A4A69FF0A801D95"
+				item: "ae2:singularity"
+				type: "item"
+			}]
 			title: "&5&l[ ✦ 특이점 ]"
 			x: 15.75d
 			y: -3.75d
-			icon: "ae2:singularity"
 		}
 		{
 			dependencies: ["7EEDB63444829D48"]
 			description: ["MEGA Cells로 저장 용량을 크게 늘리자."]
+			icon: "megacells:item_storage_cell_1m"
 			id: "7E5C0CA9F970CD7F"
 			rewards: [
 				{
@@ -439,21 +422,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "717A28971301A14E"
-					item: "megacells:item_storage_cell_1m"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "717A28971301A14E"
+				item: "megacells:item_storage_cell_1m"
+				type: "item"
+			}]
 			title: "&d&l[ ✦ MEGA 셀 ]"
 			x: 15.75d
 			y: -2.25d
-			icon: "megacells:item_storage_cell_1m"
 		}
 		{
 			dependencies: ["7E5C0CA9F970CD7F"]
 			description: ["&e세계의 파편: 기술&r의 재료."]
+			icon: "megacells:cell_component_256m"
 			id: "4CB7AE57A0EC32B0"
 			rewards: [
 				{
@@ -468,21 +449,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "7FCA747D5B396878"
-					item: "megacells:cell_component_256m"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7FCA747D5B396878"
+				item: "megacells:cell_component_256m"
+				type: "item"
+			}]
 			title: "&d&l[ ✦ 256M 저장 부품 ]"
 			x: 17.5d
 			y: -5.25d
-			icon: "megacells:cell_component_256m"
 		}
 		{
 			dependencies: ["4CB7AE57A0EC32B0"]
 			description: ["Bigger AE2의 끝판 저장 셀."]
+			icon: "bigger_ae2:quantum_item_storage_cell"
 			id: "70E0D845059EB8C2"
 			rewards: [
 				{
@@ -497,21 +476,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "7EDFEA718010869F"
-					item: "bigger_ae2:quantum_item_storage_cell"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7EDFEA718010869F"
+				item: "bigger_ae2:quantum_item_storage_cell"
+				type: "item"
+			}]
 			title: "&5&l[ ✦ 양자 저장 셀 ]"
 			x: 19.25d
 			y: 0.0d
-			icon: "bigger_ae2:quantum_item_storage_cell"
 		}
 		{
 			dependencies: ["261E2AA89C430B7C"]
 			description: ["기계에서 아이템을 끌어오고 내보낸다."]
+			icon: "ae2:import_bus"
 			id: "6ECF3B8F8B16D7AB"
 			rewards: [
 				{
@@ -541,11 +518,11 @@
 			title: "&3&l[ ✦ 유입·유출 버스 ]"
 			x: 10.5d
 			y: -3.75d
-			icon: "ae2:import_bus"
 		}
 		{
 			dependencies: ["261E2AA89C430B7C"]
 			description: ["옆에 붙은 상자를 ME 저장소처럼 쓴다."]
+			icon: "ae2:storage_bus"
 			id: "7E28278F88E340A7"
 			rewards: [
 				{
@@ -560,21 +537,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "6FDB55AC2AC3268F"
-					item: "ae2:storage_bus"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6FDB55AC2AC3268F"
+				item: "ae2:storage_bus"
+				type: "item"
+			}]
 			title: "&3&l[ ✦ ME 저장 버스 ]"
 			x: 10.5d
 			y: -2.25d
-			icon: "ae2:storage_bus"
 		}
 		{
 			dependencies: ["261E2AA89C430B7C"]
 			description: ["재고를 일정하게 채워 두거나 자동 조합 결과를 받는다."]
+			icon: "ae2:interface"
 			id: "701C9CEE75346B12"
 			rewards: [
 				{
@@ -589,21 +564,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "7647F679F1650C09"
-					item: "ae2:interface"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7647F679F1650C09"
+				item: "ae2:interface"
+				type: "item"
+			}]
 			title: "&3&l[ ✦ ME 인터페이스 ]"
 			x: 10.5d
 			y: -0.75d
-			icon: "ae2:interface"
 		}
 		{
 			dependencies: ["6ECF3B8F8B16D7AB"]
 			description: ["저장된 양에 따라 레드스톤 신호를 낸다."]
+			icon: "ae2:level_emitter"
 			id: "7E9550BFD8917D19"
 			rewards: [
 				{
@@ -618,21 +591,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "014D5021D545D860"
-					item: "ae2:level_emitter"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "014D5021D545D860"
+				item: "ae2:level_emitter"
+				type: "item"
+			}]
 			title: "&c&l[ ✦ ME 레벨 측정기 ]"
 			x: 12.25d
 			y: -2.25d
-			icon: "ae2:level_emitter"
 		}
 		{
 			dependencies: ["6ECF3B8F8B16D7AB"]
 			description: ["앞의 블록을 부숴 넣거나, 저장된 블록을 설치한다."]
+			icon: "ae2:annihilation_plane"
 			id: "75CC21188725F5C1"
 			rewards: [
 				{
@@ -662,11 +633,11 @@
 			title: "&5&l[ ✦ 소멸 평면과 생성면 ]"
 			x: 12.25d
 			y: -0.75d
-			icon: "ae2:annihilation_plane"
 		}
 		{
 			dependencies: ["261E2AA89C430B7C"]
 			description: ["한 채널로 아이템·액체·에너지·ME 연결을 멀리 보낸다."]
+			icon: "ae2:me_p2p_tunnel"
 			id: "7F4508B3A85247D3"
 			rewards: [
 				{
@@ -696,11 +667,11 @@
 			title: "&b&l[ ✦ P2P 터널 ]"
 			x: 10.5d
 			y: 0.75d
-			icon: "ae2:me_p2p_tunnel"
 		}
 		{
 			dependencies: ["261E2AA89C430B7C"]
 			description: ["ME 네트워크에 전기를 모아 둔다."]
+			icon: "ae2:energy_cell"
 			id: "476EC1CD81AC5E7C"
 			rewards: [
 				{
@@ -730,11 +701,11 @@
 			title: "&e&l[ ✦ 에너지 셀 ]"
 			x: 10.5d
 			y: 2.25d
-			icon: "ae2:energy_cell"
 		}
 		{
 			dependencies: ["261E2AA89C430B7C"]
 			description: ["설정을 복사해 붙이고, 네트워크 상태를 본다."]
+			icon: "ae2:memory_card"
 			id: "0F1ADEB5FE1EF103"
 			rewards: [
 				{
@@ -764,11 +735,11 @@
 			title: "&7&l[ ✦ 메모리 카드와 네트워크 도구 ]"
 			x: 10.5d
 			y: 3.75d
-			icon: "ae2:memory_card"
 		}
 		{
 			dependencies: ["145160E7475B843F"]
 			description: ["옆의 서티스 석영 싹이 훨씬 빨리 자란다."]
+			icon: "ae2:growth_accelerator"
 			id: "6817562734BC568B"
 			rewards: [
 				{
@@ -783,21 +754,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "79A40CCB883E12B5"
-					item: "ae2:growth_accelerator"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "79A40CCB883E12B5"
+				item: "ae2:growth_accelerator"
+				type: "item"
+			}]
 			title: "&a&l[ ✦ 성장 가속기 ]"
 			x: 1.75d
 			y: 0.75d
-			icon: "ae2:growth_accelerator"
 		}
 		{
 			dependencies: ["564496AE7B925E5D"]
 			description: ["저장 셀의 내용을 다른 셀로 옮긴다."]
+			icon: "ae2:io_port"
 			id: "5E66BB93F20AA566"
 			rewards: [
 				{
@@ -812,21 +781,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "7489E7C3C8403ECB"
-					item: "ae2:io_port"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7489E7C3C8403ECB"
+				item: "ae2:io_port"
+				type: "item"
+			}]
 			title: "&7&l[ ✦ ME 입출력 포트 ]"
 			x: 12.25d
 			y: 0.75d
-			icon: "ae2:io_port"
 		}
 		{
 			dependencies: ["2E390AF9C3FB53A0"]
 			description: ["자동 조합 패턴을 쉽게 만든다."]
+			icon: "ae2:pattern_encoding_terminal"
 			id: "5993302992FBD251"
 			rewards: [
 				{
@@ -841,21 +808,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "7F4B84133A44DC02"
-					item: "ae2:pattern_encoding_terminal"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7F4B84133A44DC02"
+				item: "ae2:pattern_encoding_terminal"
+				type: "item"
+			}]
 			title: "&6&l[ ✦ ME 패턴 터미널 ]"
 			x: 15.75d
 			y: -0.75d
-			icon: "ae2:pattern_encoding_terminal"
 		}
 		{
 			dependencies: ["2E390AF9C3FB53A0"]
 			description: ["조합 CPU에 붙이면 동시에 여러 작업을 한다."]
+			icon: "ae2:crafting_accelerator"
 			id: "73D9C7A9679227C3"
 			rewards: [
 				{
@@ -886,11 +851,11 @@
 			title: "&6&l[ ✦ 조합 보조처리 유닛 ]"
 			x: 15.75d
 			y: 0.75d
-			icon: "ae2:crafting_accelerator"
 		}
 		{
 			dependencies: ["489EA03F7B50F407"]
 			description: ["액체를 저장하는 셀."]
+			icon: "ae2:fluid_storage_cell_64k"
 			id: "75F6F6A814938295"
 			rewards: [
 				{
@@ -905,21 +870,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "796DC8155406C87C"
-					item: "ae2:fluid_storage_cell_64k"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "796DC8155406C87C"
+				item: "ae2:fluid_storage_cell_64k"
+				type: "item"
+			}]
 			title: "&9&l[ ✦ 64k ME 액체 저장 셀 ]"
 			x: 14.0d
 			y: 2.25d
-			icon: "ae2:fluid_storage_cell_64k"
 		}
 		{
 			dependencies: ["7EEDB63444829D48"]
 			description: ["아이템을 물질로 바꾼다. 특이점을 만드는 기계."]
+			icon: "ae2:condenser"
 			id: "7641D5DCC49D8965"
 			rewards: [
 				{
@@ -934,21 +897,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "23E27DC7CE351330"
-					item: "ae2:condenser"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "23E27DC7CE351330"
+				item: "ae2:condenser"
+				type: "item"
+			}]
 			title: "&5&l[ ✦ 물질 응축기 ]"
 			x: 15.75d
 			y: 2.25d
-			icon: "ae2:condenser"
 		}
 		{
 			dependencies: ["3956BB3E3DB68042"]
 			description: ["특이점으로 묶은 두 브리지는 차원을 넘어 네트워크를 잇는다."]
+			icon: "ae2:quantum_ring"
 			id: "57A95975026DA889"
 			rewards: [
 				{
@@ -980,11 +941,11 @@
 			title: "&5&l[ ✦ 양자 네트워크 브리지 ]"
 			x: 17.5d
 			y: -3.75d
-			icon: "ae2:quantum_ring"
 		}
 		{
 			dependencies: ["261E2AA89C430B7C"]
 			description: ["공간 저장 셀에 구역을 통째로 담아 옮긴다."]
+			icon: "ae2:spatial_io_port"
 			id: "2217BBEF3EEDFBE7"
 			rewards: [
 				{
@@ -1020,11 +981,11 @@
 			title: "&d&l[ ✦ 공간 저장 ]"
 			x: 10.5d
 			y: 5.25d
-			icon: "ae2:spatial_io_port"
 		}
 		{
 			dependencies: ["14317CBC946BE50E"]
 			description: ["무선 접속 지점의 범위를 넓힌다."]
+			icon: "ae2:wireless_booster"
 			id: "583BE41515AF8BA1"
 			rewards: [
 				{
@@ -1039,22 +1000,20 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					count: 4L
-					id: "7FDD0FD2D472CAA2"
-					item: "ae2:wireless_booster"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 4L
+				id: "7FDD0FD2D472CAA2"
+				item: "ae2:wireless_booster"
+				type: "item"
+			}]
 			title: "&b&l[ ✦ 무선 기지국 ]"
 			x: 15.75d
 			y: 3.75d
-			icon: "ae2:wireless_booster"
 		}
 		{
 			dependencies: ["564496AE7B925E5D"]
 			description: ["종류 제한 없이 담는 DISK 드라이브."]
+			icon: "ae2things:disk_drive_1k"
 			id: "728BE6A12FF467AC"
 			rewards: [
 				{
@@ -1069,21 +1028,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "7D31E77C20C6BC61"
-					item: "ae2things:disk_drive_1k"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7D31E77C20C6BC61"
+				item: "ae2things:disk_drive_1k"
+				type: "item"
+			}]
 			title: "&b&l[ ✦ ME DISK 드라이브 (AE2 Things) ]"
 			x: 12.25d
 			y: 2.25d
-			icon: "ae2things:disk_drive_1k"
 		}
 		{
 			dependencies: ["6ECF3B8F8B16D7AB"]
 			description: ["인터페이스에 끼워 버스 없이 아이템을 넣고 뺀다."]
+			icon: "ae2insertexportcard:insert_card"
 			id: "70D483CAC259AF27"
 			rewards: [
 				{
@@ -1113,11 +1070,11 @@
 			title: "&3&l[ ✦ 가져오기·내보내기 카드 ]"
 			x: 12.25d
 			y: 3.75d
-			icon: "ae2insertexportcard:insert_card"
 		}
 		{
 			dependencies: ["0F1ADEB5FE1EF103"]
 			description: ["네트워크 연결과 채널을 눈으로 보여 준다."]
+			icon: "ae2netanalyser:network_analyser"
 			id: "34EF5DA746A10807"
 			rewards: [
 				{
@@ -1132,21 +1089,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "7EDE572CB5DBA460"
-					item: "ae2netanalyser:network_analyser"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7EDE572CB5DBA460"
+				item: "ae2netanalyser:network_analyser"
+				type: "item"
+			}]
 			title: "&7&l[ ✦ ME 네트워크 분석기 ]"
 			x: 12.25d
 			y: 5.25d
-			icon: "ae2netanalyser:network_analyser"
 		}
 		{
 			dependencies: ["7E5C0CA9F970CD7F"]
 			description: ["더 큰 조합 CPU를 만드는 MEGA 부품."]
+			icon: "megacells:mega_crafting_unit"
 			id: "74332E714AFE4440"
 			rewards: [
 				{
@@ -1176,10 +1131,10 @@
 			title: "&d&l[ ✦ MEGA 조합 유닛 ]"
 			x: 17.5d
 			y: -2.25d
-			icon: "megacells:mega_crafting_unit"
 		}
 		{
 			dependencies: ["7E5C0CA9F970CD7F"]
+			icon: "megacells:mega_energy_cell"
 			id: "3A8F19DB0FC86398"
 			rewards: [
 				{
@@ -1194,21 +1149,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "73053AE5D7E8028D"
-					item: "megacells:mega_energy_cell"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "73053AE5D7E8028D"
+				item: "megacells:mega_energy_cell"
+				type: "item"
+			}]
 			title: "&e&l[ ✦ 초고밀도 에너지 셀 ]"
 			x: 17.5d
 			y: -0.75d
-			icon: "megacells:mega_energy_cell"
 		}
 		{
 			dependencies: ["7E5C0CA9F970CD7F"]
 			description: ["칸이 두 배인 인터페이스와 패턴 공급기."]
+			icon: "megacells:mega_interface"
 			id: "7D9D8B998BECFD2F"
 			rewards: [
 				{
@@ -1238,11 +1191,11 @@
 			title: "&d&l[ ✦ MEGA 인터페이스와 패턴 공급기 ]"
 			x: 17.5d
 			y: 0.75d
-			icon: "megacells:mega_interface"
 		}
 		{
 			dependencies: ["7E5C0CA9F970CD7F"]
 			description: ["한 종류만 끝없이 담는 대량 셀."]
+			icon: "megacells:bulk_item_cell"
 			id: "70FDDB723EEA6CBF"
 			rewards: [
 				{
@@ -1257,20 +1210,21 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "6DCB713D67F1BC1E"
-					item: "megacells:bulk_item_cell"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6DCB713D67F1BC1E"
+				item: "megacells:bulk_item_cell"
+				type: "item"
+			}]
 			title: "&d&l[ ✦ MEGA 대량 아이템 저장 셀 ]"
 			x: 17.5d
 			y: 2.25d
-			icon: "megacells:bulk_item_cell"
 		}
 		{
-			dependencies: ["728BE6A12FF467AC", "7E5C0CA9F970CD7F"]
+			dependencies: [
+				"728BE6A12FF467AC"
+				"7E5C0CA9F970CD7F"
+			]
+			icon: "ae2_mega_things:item_disk_drive_1m"
 			id: "7F15427F41EF9D00"
 			rewards: [
 				{
@@ -1285,21 +1239,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "77AD0EEBB6F1498E"
-					item: "ae2_mega_things:item_disk_drive_1m"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "77AD0EEBB6F1498E"
+				item: "ae2_mega_things:item_disk_drive_1m"
+				type: "item"
+			}]
 			title: "&d&l[ ✦ MEGA DISK 드라이브 ]"
 			x: 17.5d
 			y: 3.75d
-			icon: "ae2_mega_things:item_disk_drive_1m"
 		}
 		{
 			dependencies: ["73D9C7A9679227C3"]
 			description: ["코어 수가 많은 조합 가속기 (Bigger AE2)."]
+			icon: "bigger_ae2:64_core_crafting_accelerator"
 			id: "7C28A598385F219D"
 			rewards: [
 				{
@@ -1314,17 +1266,14 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "735317195C0AAFC2"
-					item: "bigger_ae2:64_core_crafting_accelerator"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "735317195C0AAFC2"
+				item: "bigger_ae2:64_core_crafting_accelerator"
+				type: "item"
+			}]
 			title: "&6&l[ ✦ 64코어 제작 가속기 ]"
 			x: 17.5d
 			y: 5.25d
-			icon: "bigger_ae2:64_core_crafting_accelerator"
 		}
 	]
 	title: "&b&l✦ 응용 에너지 (AE2)"
