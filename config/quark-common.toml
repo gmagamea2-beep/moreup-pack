@@ -556,7 +556,6 @@
 
 	[tweaks.automatic_recipe_unlock]
 		#A list of recipe names that should NOT be added in by default
-		# More Up: Stellarity 주문서는 레시피 해금을 '책을 썼다'는 신호로 쓴다. 자동 해금되면 접속할 때마다 주문서 4권(지식의 책)이 공짜로 들어온다 (2026-10-30)
 		"Ignored Recipes" = ["stellarity:events/spellbooks/use_conveyance", "stellarity:events/spellbooks/use_light", "stellarity:events/spellbooks/use_natures_wrath", "stellarity:events/spellbooks/use_updraft"]
 		"Force Limited Crafting" = false
 		"Disable Recipe Book" = false
