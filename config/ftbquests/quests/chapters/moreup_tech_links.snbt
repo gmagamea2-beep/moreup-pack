@@ -1,0 +1,464 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "moreup_tech_links"
+	group: "7E05AA7C371599AC"
+	icon: "fluxnetworks:flux_controller"
+	id: "7DE757BAC7C6FCF3"
+	order_index: 26
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Flux Networks 의 시작이다. 만드는 법은 JEI 에서 확인한다."]
+			id: "7C2F5A7D52DE9318"
+			rewards: [
+				{
+					id: "708F18A45A86C65B"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 6
+					id: "0CDAD237DBD95B6A"
+					item: "minecraft:bread"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "78E4DDFDBCC9A486"
+					item: "fluxnetworks:flux_dust"
+					type: "item"
+				}
+			]
+			title: "&c&l[ ✦ 플럭스 가루 ]"
+			x: 0.0d
+			y: -2.25d
+			icon: "fluxnetworks:flux_dust"
+		}
+		{
+			dependencies: ["7C2F5A7D52DE9318"]
+			description: ["이 팩에서는 AE2 플루익스 수정이 들어간다."]
+			id: "75E0536A4A696A1F"
+			rewards: [
+				{
+					id: "76CA96ACD68044B5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 8
+					id: "23FF466E49B3FE62"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "7105311DA91DC39D"
+					item: "fluxnetworks:flux_core"
+					type: "item"
+				}
+			]
+			title: "&c&l[ ✦ 플럭스 코어 ]"
+			x: 1.75d
+			y: -2.25d
+			icon: "fluxnetworks:flux_core"
+		}
+		{
+			dependencies: ["75E0536A4A696A1F"]
+			description: ["플러그로 전기를 넣고 포인트로 뺀다. 떨어진 곳끼리 선 없이 전기를 보낸다."]
+			id: "72645C9362D93FA2"
+			rewards: [
+				{
+					id: "393E8DA69A96B269"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 8
+					id: "0423ECC1A830AF5A"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "697508102D5CA88A"
+					item: "fluxnetworks:flux_plug"
+					type: "item"
+				}
+				{
+					id: "664E6A920D7623E3"
+					item: "fluxnetworks:flux_point"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 플럭스 플러그와 포인트 ]"
+			x: 3.5d
+			y: -1.5d
+			icon: "fluxnetworks:flux_plug"
+		}
+		{
+			dependencies: ["72645C9362D93FA2"]
+			description: ["네트워크에 전기를 저장한다."]
+			id: "748F69A7C183BC22"
+			rewards: [
+				{
+					id: "7A9E791CCDB26909"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 16
+					id: "2ADD88A091176AED"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1789C830C534F8ED"
+					item: "fluxnetworks:basic_flux_storage"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 플럭스 저장소 ]"
+			x: 5.25d
+			y: -2.25d
+			icon: "fluxnetworks:basic_flux_storage"
+		}
+		{
+			dependencies: ["72645C9362D93FA2"]
+			description: ["관문: 중급 보스 정수가 필요하다. 근처 플레이어의 물건을 무선으로 충전한다."]
+			id: "7F7BFF1FC7C81CF1"
+			rewards: [
+				{
+					id: "75A6AFFD740EA794"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 8
+					id: "7D18D477A3FAAE81"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7B44F67EF854F2E5"
+					item: "fluxnetworks:flux_controller"
+					type: "item"
+				}
+			]
+			title: "&5&l[ ✦ 플럭스 컨트롤러 ]"
+			x: 5.25d
+			y: -0.75d
+			icon: "fluxnetworks:flux_controller"
+		}
+		{
+			description: ["LaserIO 의 시작이다. 규석 수정이 들어간 원판을 화로에 굽는다."]
+			id: "7C89CBB5BEA33C8B"
+			rewards: [
+				{
+					id: "5EF308770C072732"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 6
+					id: "1C7E6CBF3F49F7B4"
+					item: "minecraft:bread"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "6B8215012B38DFFE"
+					item: "laserio:logic_chip"
+					type: "item"
+				}
+			]
+			title: "&a&l[ ✦ 논리 칩 ]"
+			x: 0.0d
+			y: -0.75d
+			icon: "laserio:logic_chip"
+		}
+		{
+			dependencies: ["7C89CBB5BEA33C8B"]
+			description: ["레이저로 이어지는 노드의 재료다."]
+			id: "79E171B4FF3DC80E"
+			rewards: [
+				{
+					id: "589646760AA4C4BC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "56C86783162EE622"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "7A5DE78CA8A6DE96"
+					item: "laserio:laser_connector"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 레이저 커넥터 ]"
+			x: 1.75d
+			y: -0.75d
+			icon: "laserio:laser_connector"
+		}
+		{
+			dependencies: ["79E171B4FF3DC80E"]
+			description: ["노드끼리 레이저로 연결된다. 블록 여섯 면 모두에 카드를 꽂을 수 있다."]
+			id: "72586BEE42D47C43"
+			rewards: [
+				{
+					id: "5BFD9B476554C15B"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 8
+					id: "73FCD62C61D5CA6C"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "4440DFE4961191EA"
+					item: "laserio:laser_node"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 레이저 노드 ]"
+			x: 3.5d
+			y: 0.0d
+			icon: "laserio:laser_node"
+		}
+		{
+			dependencies: ["72586BEE42D47C43"]
+			description: ["아이템·액체·전기를 나눠서 옮긴다."]
+			id: "401F44FC9B8152D5"
+			rewards: [
+				{
+					id: "79A52AA0506AC5E8"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 16
+					id: "4DF0B1F1999E8C64"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "39E462F4F3819C67"
+					item: "laserio:card_item"
+					type: "item"
+				}
+				{
+					id: "779A03F61B5D844C"
+					item: "laserio:card_fluid"
+					type: "item"
+				}
+				{
+					id: "4EDA92229CAE06D6"
+					item: "laserio:card_energy"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 전송 카드 ]"
+			x: 5.25d
+			y: 0.75d
+			icon: "laserio:card_item"
+		}
+		{
+			dependencies: ["72586BEE42D47C43"]
+			description: ["이 팩에서는 Mekanism 고급 회로가 들어간다. 먼 거리까지 닿는다."]
+			id: "7DCEBC779AA8F40D"
+			rewards: [
+				{
+					id: "3AD9BAEB38FEC11C"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 4
+					id: "26DF6232885323A0"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7FBB93A6813E9522"
+					item: "laserio:laser_connector_advanced"
+					type: "item"
+				}
+			]
+			title: "&d&l[ ✦ 고급 커넥터 ]"
+			x: 5.25d
+			y: 2.25d
+			icon: "laserio:laser_connector_advanced"
+		}
+		{
+			description: ["Applied Mekanistics: AE2 에 Mekanism 기체를 저장한다."]
+			id: "25F3E02D5CDA0442"
+			rewards: [
+				{
+					id: "75DA8EDA243AA8CF"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 4
+					id: "3478E70E2F7B2621"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5045A7C54C15FC2A"
+					item: "appmek:chemical_cell_housing"
+					type: "item"
+				}
+			]
+			title: "&d&l[ ✦ 화학 셀 외장 ]"
+			x: 0.0d
+			y: 0.75d
+			icon: "appmek:chemical_cell_housing"
+		}
+		{
+			dependencies: ["25F3E02D5CDA0442"]
+			description: ["ME 네트워크가 Mekanism 기체를 다룰 수 있게 된다."]
+			id: "7509426C8CF7645F"
+			rewards: [
+				{
+					id: "74E6537EDD94A66F"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 8
+					id: "71DA0C3DFEA1F24B"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7C755710553B24CD"
+					item: "appmek:chemical_storage_cell_1k"
+					type: "item"
+				}
+			]
+			title: "&d&l[ ✦ 화학 저장 셀 ]"
+			x: 1.75d
+			y: 0.75d
+			icon: "appmek:chemical_storage_cell_1k"
+		}
+		{
+			description: ["Applied Flux 의 핵심 부품이다."]
+			id: "6D1AF127E9C5554F"
+			rewards: [
+				{
+					id: "7E81E1FA1D355622"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 8
+					id: "7A178FE9E4BC8267"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "511D718EF62E6B37"
+					item: "appflux:energy_processor"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 에너지 처리기 ]"
+			x: 0.0d
+			y: 2.25d
+			icon: "appflux:energy_processor"
+		}
+		{
+			dependencies: ["6D1AF127E9C5554F"]
+			description: ["ME 네트워크로 전기를 주고받는다. Thermal RF 코일이 들어간다."]
+			id: "0F751CE9838AEF54"
+			rewards: [
+				{
+					id: "7E3052CE529DCB24"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 4
+					id: "50A297D97708889F"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "033FCCD73439FED9"
+					item: "appflux:flux_accessor"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 플럭스 접속기 ]"
+			x: 1.75d
+			y: 2.25d
+			icon: "appflux:flux_accessor"
+		}
+		{
+			dependencies: ["0F751CE9838AEF54"]
+			description: ["ME 드라이브에 전기를 저장한다."]
+			id: "1760395D1447E904"
+			rewards: [
+				{
+					id: "6478BB544E30B47B"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 4
+					id: "77177EBC5356517F"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7D3CB2CDD285F258"
+					item: "appflux:fe_1k_cell"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ FE 저장 셀 ]"
+			x: 3.5d
+			y: 1.5d
+			icon: "appflux:fe_1k_cell"
+		}
+	]
+	title: "&b&l✦ 기계 연결"
+}

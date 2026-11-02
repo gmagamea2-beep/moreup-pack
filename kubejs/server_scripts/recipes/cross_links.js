@@ -47,6 +47,36 @@ const MOREUP_CROSS_LINKS = [
       pattern: ['ICI', 'ATA', 'ICI'], key: { I: 'deeperdarker:reinforced_echo_shard', C: '#forge:circuits/ultimate', A: '#mekanism:alloys/atomic', T: 'mekanism:teleportation_core' },
       note: 'Mekanism 양자 얽힘 장치 ← Deeper Darker 강화된 메아리 조각 (정제 흑요석 → 메아리 조각)' },
 
+    // ---------- 1.7 새 기계 모드 (Thermal·PneumaticCraft·Flux Networks·LaserIO·Applied Flux, 2026-11-02) ----------
+    // soft: 아직 모드가 없는 서버에서는 오류 없이 건너뛴다. 원본 모양은 테스트 서버 덤프로 확인 (docs/tech_expansion.md)
+    { id: 'thermal_machine_frame', remove: 'thermal:machine_frame', result: 'thermal:machine_frame', soft: true,
+      pattern: ['IGI', 'GTG', 'IGI'], key: { I: '#forge:ingots/iron', G: '#forge:glass', T: 'create:andesite_casing' },
+      note: 'Thermal 입구 ← Create (주석 톱니 → 안산암 케이스)' },
+    { id: 'thermal_energy_cell_frame', remove: 'thermal:energy_cell_frame', result: 'thermal:energy_cell_frame', soft: true,
+      pattern: ['IGI', 'GEG', 'IGI'], key: { I: '#forge:ingots/lead', G: '#forge:glass', E: '#forge:circuits/basic' },
+      note: 'Thermal 전력 저장 ← Mekanism 기본 회로 (금은 톱니 → 회로)' },
+    { id: 'pnc_air_compressor', remove: 'pneumaticcraft:air_compressor', result: 'pneumaticcraft:air_compressor', soft: true,
+      pattern: ['III', 'I T', 'IFI'], key: { I: '#pneumaticcraft:reinforced_stone_bricks', T: 'pneumaticcraft:pressure_tube', F: 'create:fluid_tank' },
+      note: 'PneumaticCraft 입구 ← Create 유체 탱크 (용광로 → 유체 탱크)' },
+    { id: 'pnc_flux_compressor', remove: 'pneumaticcraft:flux_compressor', result: 'pneumaticcraft:flux_compressor', soft: true,
+      pattern: ['GCP', 'FRT', 'GQP'], key: { G: '#forge:dusts/redstone', C: 'pneumaticcraft:compressed_iron_gear', P: 'pneumaticcraft:printed_circuit_board', F: '#forge:storage_blocks/redstone', R: 'pneumaticcraft:turbine_rotor', T: 'pneumaticcraft:advanced_pressure_tube', Q: 'thermal:machine_frame' },
+      note: '전력 → 공기압 ← Thermal 기계 프레임 (용광로 → 기계 프레임)' },
+    { id: 'pnc_pneumatic_dynamo', remove: 'pneumaticcraft:pneumatic_dynamo', result: 'pneumaticcraft:pneumatic_dynamo', soft: true,
+      pattern: [' T ', 'GCG', 'IPI'], key: { T: 'pneumaticcraft:advanced_pressure_tube', G: 'pneumaticcraft:compressed_iron_gear', C: 'thermal:rf_coil', I: '#forge:ingots/compressed_iron', P: 'pneumaticcraft:printed_circuit_board' },
+      note: '공기압 → 전력 ← Thermal RF 코일 (가운데 압축 철 → RF 코일)' },
+    { id: 'flux_core', remove: 'fluxnetworks:fluxcore', result: '4x fluxnetworks:flux_core', soft: true,
+      pattern: ['fof', 'oeo', 'fof'], key: { f: 'fluxnetworks:flux_dust', o: 'ae2:fluix_crystal', e: 'minecraft:ender_eye' },
+      note: 'Flux Networks ← AE2 플루익스 수정 (흑요석 → 플루익스 수정)' },
+    { id: 'laserio_logic_chip_raw', remove: 'laserio:logic_chip_raw', result: '4x laserio:logic_chip_raw', soft: true,
+      pattern: ['rgr', 'cqc', 'rgr'], key: { r: '#forge:dusts/redstone', g: '#forge:nuggets/gold', c: 'minecraft:clay_ball', q: 'ae2:certus_quartz_crystal' },
+      note: 'LaserIO ← AE2 규석 (석영 블록 → 규석 수정)' },
+    { id: 'laserio_connector_advanced', remove: 'laserio:laser_connector_advanced', result: 'laserio:laser_connector_advanced', soft: true,
+      pattern: ['ede', 'rbr', 'iii'], key: { e: '#forge:ender_pearls', d: '#forge:circuits/advanced', r: '#forge:dusts/redstone', b: 'laserio:laser_connector', i: '#forge:ingots/gold' },
+      note: 'LaserIO 고급 커넥터 ← Mekanism 고급 회로 (다이아몬드 → 회로)' },
+    { id: 'appflux_flux_accessor', remove: 'appflux:flux_accessor', result: 'appflux:flux_accessor', soft: true,
+      pattern: ['DPD', 'IMI', 'DPD'], key: { D: '#forge:dusts/glowstone', P: 'appflux:energy_processor', I: 'thermal:rf_coil', M: 'ae2:energy_acceptor' },
+      note: 'Applied Flux ← Thermal RF 코일 (구리 → RF 코일)' },
+
     // ---------- 비행기: Create 동력 부품 ----------
     { id: 'aircraft_engine', remove: 'immersive_aircraft:engine', result: 'immersive_aircraft:engine',
       pattern: [' C ', 'PFP', 'CIC'], key: { C: 'minecraft:cobblestone', P: 'minecraft:piston', F: 'create:steam_engine', I: 'immersive_aircraft:boiler' },
@@ -83,15 +113,20 @@ function moreupLinkMissing(r) {
 
 ServerEvents.recipes(event => {
     let applied = 0
-    // 결과 개수는 원래 레시피와 같게 유지한다 (덤프로 확인: 동적 탱크만 4개, 나머지 1개)
+    let skipped = 0
+    // 결과 개수는 원래 레시피와 같게 유지한다 (덤프로 확인: 동적 탱크·플럭스 코어·논리 칩 원판만 4개, 나머지 1개)
     MOREUP_CROSS_LINKS.forEach(r => {
         try {
             let missing = moreupLinkMissing(r)
-            if (missing.length > 0) { console.error(`[MoreUp] 연계 레시피 ${r.id} 재료 없음 (원래 레시피 유지): ${missing.join(', ')}`); return }
+            if (missing.length > 0) {
+                if (r.soft) { skipped++; return }   // 아직 설치되지 않은 모드
+                console.error(`[MoreUp] 연계 레시피 ${r.id} 재료 없음 (원래 레시피 유지): ${missing.join(', ')}`)
+                return
+            }
             event.remove({ id: r.remove })
             event.shaped(r.result, r.pattern, r.key).id(`moreup:link/${r.id}`)
             applied++
         } catch (e) { console.error(`[MoreUp] 연계 레시피 실패 (${r.id}): ${e}`) }
     })
-    console.info(`[MoreUp] 모드 연계 레시피 ${applied}/${MOREUP_CROSS_LINKS.length}개 적용`)
+    console.info(`[MoreUp] 모드 연계 레시피 ${applied}/${MOREUP_CROSS_LINKS.length}개 적용 (모드 없어 건너뜀 ${skipped})`)
 })

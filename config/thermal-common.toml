@@ -1,0 +1,45 @@
+
+[World]
+
+	[World.Features]
+
+		[World.Features."Oil Sand"]
+			#Whether this feature should naturally spawn in the world.
+			Enable = true
+
+		[World.Features.Silver]
+			#Whether this feature should naturally spawn in the world.
+			# More Up: 금속 광석은 AllTheOres 가 생성한다. 같은 광석이 겹치지 않게 끔 (2026-11-02)
+			Enable = false
+
+		[World.Features.Lead]
+			#Whether this feature should naturally spawn in the world.
+			# More Up: 금속 광석은 AllTheOres 가 생성한다. 같은 광석이 겹치지 않게 끔 (2026-11-02)
+			Enable = false
+
+		[World.Features.Nickel]
+			#Whether this feature should naturally spawn in the world.
+			# More Up: 금속 광석은 AllTheOres 가 생성한다. 같은 광석이 겹치지 않게 끔 (2026-11-02)
+			Enable = false
+
+		[World.Features."Rubberwood Trees"]
+			#Whether this feature should naturally spawn in the world.
+			Enable = true
+
+		[World.Features.Cinnabar]
+			#Whether this feature should naturally spawn in the world.
+			Enable = true
+
+		[World.Features.Sulfur]
+			#Whether this feature should naturally spawn in the world.
+			Enable = true
+
+		[World.Features.Tin]
+			#Whether this feature should naturally spawn in the world.
+			# More Up: 금속 광석은 AllTheOres 가 생성한다. 같은 광석이 겹치지 않게 끔 (2026-11-02)
+			Enable = false
+
+		[World.Features.Niter]
+			#Whether this feature should naturally spawn in the world.
+			Enable = true
+

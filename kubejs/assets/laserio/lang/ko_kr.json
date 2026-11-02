@@ -1,0 +1,21 @@
+{
+  "block.laserio.laser_connector": "레이저 커넥터",
+  "block.laserio.laser_connector_advanced": "고급 레이저 커넥터",
+  "block.laserio.laser_node": "레이저 노드",
+  "item.laserio.card_cloner": "카드 복제기",
+  "item.laserio.card_energy": "에너지 카드",
+  "item.laserio.card_fluid": "유체 카드",
+  "item.laserio.card_holder": "카드 보관함",
+  "item.laserio.card_item": "아이템 카드",
+  "item.laserio.card_redstone": "레드스톤 카드",
+  "item.laserio.filter_basic": "기본 필터",
+  "item.laserio.filter_count": "개수 필터",
+  "item.laserio.filter_mod": "모드 필터",
+  "item.laserio.filter_nbt": "NBT 필터",
+  "item.laserio.filter_tag": "태그 필터",
+  "item.laserio.laser_wrench": "레이저 렌치",
+  "item.laserio.logic_chip": "논리 칩",
+  "item.laserio.logic_chip_raw": "논리 칩 원판",
+  "item.laserio.overclocker_card": "카드 오버클럭",
+  "item.laserio.overclocker_node": "노드 오버클럭"
+}

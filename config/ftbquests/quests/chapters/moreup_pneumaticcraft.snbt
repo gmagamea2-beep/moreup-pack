@@ -1,0 +1,463 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "moreup_pneumaticcraft"
+	group: "7E05AA7C371599AC"
+	icon: "pneumaticcraft:air_compressor"
+	id: "3735C759FB3898B4"
+	order_index: 25
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["철을 폭발시켜 만들거나, Create 압축기에 열을 주어 철 2개로 만든다."]
+			id: "400CECEB574C651A"
+			rewards: [
+				{
+					id: "5F7E7CB8D4D78BBD"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 8
+					id: "72370CC6E5415B90"
+					item: "minecraft:coal"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "5BC9FBECAAA58D1E"
+					item: "pneumaticcraft:ingot_iron_compressed"
+					type: "item"
+				}
+			]
+			title: "&7&l[ ✦ 압축 철 ]"
+			x: 0.0d
+			y: 0.0d
+			icon: "pneumaticcraft:ingot_iron_compressed"
+		}
+		{
+			dependencies: ["400CECEB574C651A"]
+			description: ["공기를 옮기는 관이다. 압력 게이지로 압력을 볼 수 있다."]
+			id: "194656928D34BAE6"
+			rewards: [
+				{
+					id: "70B2E30A45C4B2AF"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 8
+					id: "63346FEFACDBFE31"
+					item: "minecraft:coal"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "141E8122CE19895C"
+					item: "pneumaticcraft:pressure_tube"
+					type: "item"
+				}
+				{
+					id: "7C62BA6D36B43A22"
+					item: "pneumaticcraft:pressure_gauge"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 압력 튜브 ]"
+			x: 1.75d
+			y: 0.0d
+			icon: "pneumaticcraft:pressure_tube"
+		}
+		{
+			dependencies: ["194656928D34BAE6"]
+			description: ["이 팩에서는 Create 유체 탱크로 만든다. 연료를 태워 공기압을 만든다."]
+			id: "46DA9236F704E166"
+			rewards: [
+				{
+					id: "7B57C99F1F1E0EF2"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 16
+					id: "7F9BE3ECFEB93627"
+					item: "minecraft:torch"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7D3F0F1D317B0032"
+					item: "pneumaticcraft:air_compressor"
+					type: "item"
+				}
+			]
+			title: "&c&l[ ✦ 공기 압축기 ]"
+			x: 3.5d
+			y: 0.0d
+			icon: "pneumaticcraft:air_compressor"
+		}
+		{
+			dependencies: ["46DA9236F704E166"]
+			description: ["벽을 속이 빈 정육면체로 쌓고 밸브를 달면 완성된다. 안에 재료를 넣고 압력을 높이면 가공된다."]
+			id: "00947C89BE355B03"
+			rewards: [
+				{
+					id: "1EDB466CEE77CB23"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 8
+					id: "790EDFE079447757"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "64FA9C9AB25D553F"
+					item: "pneumaticcraft:pressure_chamber_wall"
+					type: "item"
+				}
+				{
+					id: "710E55D7093936A0"
+					item: "pneumaticcraft:pressure_chamber_valve"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 압력실 ]"
+			x: 5.25d
+			y: -0.75d
+			icon: "pneumaticcraft:pressure_chamber_wall"
+		}
+		{
+			dependencies: ["46DA9236F704E166"]
+			description: ["기름 웅덩이에서 기름을 얻어 경유·등유·휘발유·LPG 로 나눈다."]
+			id: "7F94D2912E42FF6A"
+			rewards: [
+				{
+					id: "69072F2C20922B73"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 4
+					id: "74E400AC7A721131"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7C5C78FBF09455C8"
+					item: "pneumaticcraft:refinery"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 정유 시설 ]"
+			x: 5.25d
+			y: 0.75d
+			icon: "pneumaticcraft:refinery"
+		}
+		{
+			dependencies: ["7F94D2912E42FF6A"]
+			description: ["열과 압력으로 액체를 가공한다."]
+			id: "74B1D23EA07866A5"
+			rewards: [
+				{
+					id: "76E4DA463AB3D8AB"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 4
+					id: "7A7AB2083F68A806"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "79C84E97CBB93362"
+					item: "pneumaticcraft:thermopneumatic_processing_plant"
+					type: "item"
+				}
+			]
+			title: "&c&l[ ✦ 열공압 처리기 ]"
+			x: 7.0d
+			y: 0.0d
+			icon: "pneumaticcraft:thermopneumatic_processing_plant"
+		}
+		{
+			dependencies: ["74B1D23EA07866A5"]
+			description: ["다른 모드의 플라스틱 대신 쓸 수 있다."]
+			id: "74558AB02EA70C39"
+			rewards: [
+				{
+					id: "53576391B582D4D3"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 8
+					id: "79901B5E7096ABCB"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "700E8B63519610AC"
+					item: "pneumaticcraft:plastic"
+					type: "item"
+				}
+			]
+			title: "&f&l[ ✦ 플라스틱 ]"
+			x: 8.75d
+			y: 0.0d
+			icon: "pneumaticcraft:plastic"
+		}
+		{
+			dependencies: ["74558AB02EA70C39", "00947C89BE355B03"]
+			description: ["드론과 고급 기계의 핵심 부품이다."]
+			id: "4886CE2BD305EACA"
+			rewards: [
+				{
+					id: "5301BDB374C08DE0"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 8
+					id: "70D2377A4E714DD4"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "0E9FF79A9876BE70"
+					item: "pneumaticcraft:printed_circuit_board"
+					type: "item"
+				}
+			]
+			title: "&a&l[ ✦ 인쇄 회로 기판 ]"
+			x: 10.5d
+			y: 0.0d
+			icon: "pneumaticcraft:printed_circuit_board"
+		}
+		{
+			dependencies: ["4886CE2BD305EACA"]
+			description: ["관문: 제어기에 하급 보스 정수가 필요하다. 기판을 자동으로 만든다."]
+			id: "5F4CAF80F4E1A7F1"
+			rewards: [
+				{
+					id: "706399FE28838FF5"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 4
+					id: "7E5E4B23581CD4E1"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "42B96EDA126A9FF8"
+					item: "pneumaticcraft:assembly_controller"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 조립 라인 ]"
+			x: 12.25d
+			y: -3.75d
+			icon: "pneumaticcraft:assembly_controller"
+		}
+		{
+			dependencies: ["4886CE2BD305EACA"]
+			description: ["관문: 중급 보스 정수가 필요하다."]
+			id: "71F41AC3AE4B214F"
+			rewards: [
+				{
+					id: "7E76D3281E7893DB"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 4
+					id: "7560EDF70DE48131"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6A03B7E26BA330D3"
+					item: "pneumaticcraft:advanced_air_compressor"
+					type: "item"
+				}
+			]
+			title: "&c&l[ ✦ 고급 공기 압축기 ]"
+			x: 12.25d
+			y: -2.25d
+			icon: "pneumaticcraft:advanced_air_compressor"
+		}
+		{
+			dependencies: ["4886CE2BD305EACA"]
+			description: ["공기압을 전기로 바꾼다. Thermal RF 코일이 들어간다."]
+			id: "5DA28D7D5DFDE2A8"
+			rewards: [
+				{
+					id: "7DE37F32E3C29151"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 8
+					id: "7C933966C193F203"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7BECE765A7A2D367"
+					item: "pneumaticcraft:pneumatic_dynamo"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 공압 다이나모 ]"
+			x: 12.25d
+			y: -0.75d
+			icon: "pneumaticcraft:pneumatic_dynamo"
+		}
+		{
+			dependencies: ["4886CE2BD305EACA"]
+			description: ["전기를 공기압으로 바꾼다. Thermal 기계 프레임이 들어간다."]
+			id: "79820A03798D6A5A"
+			rewards: [
+				{
+					id: "7EC33EEDA43BBEFC"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 8
+					id: "2866936E87CE29C0"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2B127D0541BD03DD"
+					item: "pneumaticcraft:flux_compressor"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 플럭스 압축기 ]"
+			x: 12.25d
+			y: 0.75d
+			icon: "pneumaticcraft:flux_compressor"
+		}
+		{
+			dependencies: ["4886CE2BD305EACA"]
+			description: ["공기로 움직이는 방어구의 시작이다."]
+			id: "7103DAC154395CDC"
+			rewards: [
+				{
+					id: "623348475BBB2973"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 16
+					id: "7A7565751C24D80C"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "32B462C90E41E661"
+					item: "pneumaticcraft:pneumatic_helmet"
+					type: "item"
+				}
+			]
+			title: "&7&l[ ✦ 공압 투구 ]"
+			x: 12.25d
+			y: 2.25d
+			icon: "pneumaticcraft:pneumatic_helmet"
+		}
+		{
+			dependencies: ["4886CE2BD305EACA"]
+			description: ["프로그래밍한 대로 일하는 비행 일꾼이다."]
+			id: "33F420F1ECA49839"
+			rewards: [
+				{
+					id: "79C39D0FC1B7E627"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "7CE2A503C39ED8A4"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "795B3B020AA30FCA"
+					item: "pneumaticcraft:drone"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 드론 ]"
+			x: 12.25d
+			y: 3.75d
+			icon: "pneumaticcraft:drone"
+		}
+		{
+			dependencies: ["33F420F1ECA49839"]
+			description: ["관문: 상급 보스 정수가 필요하다. 드론 없이 블록 하나로 드론 프로그램을 돌린다."]
+			id: "75F9E0D7E542EF28"
+			rewards: [
+				{
+					id: "72B1B279565360F1"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 8
+					id: "77B48C0BB97167C7"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "70FCC06BF0171143"
+					item: "pneumaticcraft:programmable_controller"
+					type: "item"
+				}
+			]
+			title: "&5&l[ ★ 프로그래밍 제어기 ]"
+			x: 14.0d
+			y: 0.0d
+			icon: "pneumaticcraft:programmable_controller"
+			shape: "gear"
+			size: 1.5d
+		}
+	]
+	title: "&b&l✦ PneumaticCraft"
+}

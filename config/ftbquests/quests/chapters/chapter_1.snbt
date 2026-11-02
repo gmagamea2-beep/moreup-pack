@@ -65,13 +65,11 @@
 			]
 			shape: "gear"
 			size: 1.5d
-			tasks: [
-				{
-					id: "4E6316A640FB86EF"
-					title: "&f&l✧ &6&l[ 윤회의 닻을 내리다 ]"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4E6316A640FB86EF"
+				title: "&f&l✧ &6&l[ 윤회의 닻을 내리다 ]"
+				type: "checkmark"
+			}]
 			title: "&6&l[ ⚡ 추락한 빛 ]"
 			x: 0.0d
 			y: 0.0d
@@ -81,24 +79,17 @@
 			description: ["&7\"주변을 둘러보십시오. 고대의 숲이 당신을 반깁니다. 육신을 보호할 최소한의 자원을 확보하십시오.\""]
 			icon: "minecraft:oak_log"
 			id: "712C87AAC338AFFF"
-			rewards: [
-				{
-					id: "16816912ECB3747D"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
-			tasks: [
-				{
-					count: 16L
-					id: "12BC3DAF8B64A63D"
-					item: {
-						Count: 16
-						id: "minecraft:oak_log"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "16816912ECB3747D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 16L
+				id: "12BC3DAF8B64A63D"
+				item: { Count: 16, id: "minecraft:oak_log" }
+				type: "item"
+			}]
 			title: "&a&l[ 🌱 깨어난 육신 ]"
 			x: 0.0d
 			y: -3.0d
@@ -126,22 +117,20 @@
 					xp_levels: 5
 				}
 			]
-			tasks: [
-				{
-					id: "26500924DCC968FD"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"ebwizardry:imbuement_enchant": { }
-						}
-						id: "minecraft:stone_pickaxe"
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "26500924DCC968FD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"ebwizardry:imbuement_enchant": { }
 					}
-					type: "item"
+					id: "minecraft:stone_pickaxe"
+					tag: {
+						Damage: 0
+					}
 				}
-			]
+				type: "item"
+			}]
 			title: "&7&l[ ⛏ 필멸자의 도구 ]"
 			x: 0.0d
 			y: -5.0d
@@ -164,13 +153,11 @@
 					xp_levels: 5
 				}
 			]
-			tasks: [
-				{
-					id: "732AA013763DAED8"
-					item: "minecraft:campfire"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "732AA013763DAED8"
+				item: "minecraft:campfire"
+				type: "item"
+			}]
 			title: "&c&l[ 🔥 온기의 흔적 ]"
 			x: 0.0d
 			y: -7.0d
@@ -199,17 +186,12 @@
 					xp_levels: 5
 				}
 			]
-			tasks: [
-				{
-					count: 12L
-					id: "45EF58D90B0E3B10"
-					item: {
-						Count: 12
-						id: "minecraft:iron_ingot"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 12L
+				id: "45EF58D90B0E3B10"
+				item: { Count: 12, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
 			title: "&f&l[ ⚒ 강철을 꿈꾸며 ]"
 			x: 0.0d
 			y: -9.0d
@@ -231,17 +213,12 @@
 					xp_levels: 5
 				}
 			]
-			tasks: [
-				{
-					count: 16L
-					id: "5B68608C34A1664C"
-					item: {
-						Count: 16
-						id: "create:andesite_alloy"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 16L
+				id: "5B68608C34A1664C"
+				item: { Count: 16, id: "create:andesite_alloy" }
+				type: "item"
+			}]
 			title: "&b&l[ ⚙ 첫 번째 심장 박동 ]"
 			x: 2.5d
 			y: -9.0d
@@ -270,22 +247,20 @@
 					xp_levels: 5
 				}
 			]
-			tasks: [
-				{
-					id: "6595A265A1C142FA"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"ebwizardry:imbuement_enchant": { }
-						}
-						id: "minecraft:diamond_pickaxe"
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "6595A265A1C142FA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"ebwizardry:imbuement_enchant": { }
 					}
-					type: "item"
+					id: "minecraft:diamond_pickaxe"
+					tag: {
+						Damage: 0
+					}
 				}
-			]
+				type: "item"
+			}]
 			title: "&b&l[ 💎 대지의 가장 단단한 뼈 ]"
 			x: 1.5d
 			y: -7.5d
@@ -295,24 +270,17 @@
 			description: ["&7\"다이아몬드 곡괭이로 흑요석(Obsidian)을 캐내고 부싯돌로 불을 붙이십시오. 일그러진 차원의 문 너머, 네더(Nether)가 당신을 기다립니다.\""]
 			icon: "minecraft:obsidian"
 			id: "6C5D8D4C21486E36"
-			rewards: [
-				{
-					id: "378FAE9FF5651E84"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
-			tasks: [
-				{
-					count: 14L
-					id: "6A2ECAA74263752B"
-					item: {
-						Count: 14
-						id: "minecraft:obsidian"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "378FAE9FF5651E84"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 14L
+				id: "6A2ECAA74263752B"
+				item: { Count: 14, id: "minecraft:obsidian" }
+				type: "item"
+			}]
 			title: "&5&l[ 🌌 차원의 균열 ]"
 			x: 3.0d
 			y: -6.0d
@@ -335,15 +303,13 @@
 					xp_levels: 5
 				}
 			]
-			tasks: [
-				{
-					icon: "quark:nether_brick_chest"
-					id: "1D720D16CD5247EF"
-					structure: "betterfortresses:fortress"
-					title: "&4&l[ 맹화의 시련 ]"
-					type: "structure"
-				}
-			]
+			tasks: [{
+				icon: "quark:nether_brick_chest"
+				id: "1D720D16CD5247EF"
+				structure: "betterfortresses:fortress"
+				title: "&4&l[ 맹화의 시련 ]"
+				type: "structure"
+			}]
 			title: "&4&l[ 맹화의 시련 ]"
 			x: 4.5d
 			y: -4.5d
@@ -387,10 +353,7 @@
 				{
 					count: 4L
 					id: "64E098DDCE04B2D9"
-					item: {
-						Count: 4
-						id: "minecraft:nether_wart"
-					}
+					item: { Count: 4, id: "minecraft:nether_wart" }
 					type: "item"
 				}
 			]
@@ -426,19 +389,17 @@
 					xp_levels: 5
 				}
 			]
-			tasks: [
-				{
-					id: "379872952D85FD5A"
-					item: {
-						Count: 1
-						id: "minecraft:potion"
-						tag: {
-							Potion: "minecraft:water_breathing"
-						}
+			tasks: [{
+				id: "379872952D85FD5A"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:water_breathing"
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			title: "&9&l[ 🌊 심해의 호흡 ]"
 			x: 7.5d
 			y: -1.5d
@@ -472,16 +433,14 @@
 				}
 			]
 			shape: "hexagon"
-			tasks: [
-				{
-					entity: "minecraft:elder_guardian"
-					icon: "minecraft:elder_guardian_spawn_egg"
-					id: "66757A9073E37D53"
-					title: "&4&l[ 🔱 신의 파수꾼 처치 ]"
-					type: "kill"
-					value: 1L
-				}
-			]
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				icon: "minecraft:elder_guardian_spawn_egg"
+				id: "66757A9073E37D53"
+				title: "&4&l[ 🔱 신의 파수꾼 처치 ]"
+				type: "kill"
+				value: 1L
+			}]
 			title: "&4&l[ 🔱 신의 파수꾼 처치 ]"
 			x: 9.0d
 			y: 0.0d
@@ -504,20 +463,18 @@
 					xp_levels: 5
 				}
 			]
-			tasks: [
-				{
-					id: "3EC2F27887277092"
-					item: {
-						Count: 1
-						id: "sophisticatedbackpacks:iron_backpack"
-						tag: {
-							inventorySlots: 54
-							upgradeSlots: 2
-						}
+			tasks: [{
+				id: "3EC2F27887277092"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:iron_backpack"
+					tag: {
+						inventorySlots: 54
+						upgradeSlots: 2
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			title: "&f&l[ 🎒 철의 수납장 ]"
 			x: 4.5d
 			y: -7.5d
@@ -539,20 +496,18 @@
 					xp_levels: 5
 				}
 			]
-			tasks: [
-				{
-					id: "257C18D610A9181A"
-					item: {
-						Count: 1
-						id: "sophisticatedbackpacks:gold_backpack"
-						tag: {
-							inventorySlots: 81
-							upgradeSlots: 3
-						}
+			tasks: [{
+				id: "257C18D610A9181A"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:gold_backpack"
+					tag: {
+						inventorySlots: 81
+						upgradeSlots: 3
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			title: "&e&l[ 🎒 황금빛 탐욕 ]"
 			x: 7.5d
 			y: -7.5d
@@ -574,20 +529,18 @@
 					xp_levels: 5
 				}
 			]
-			tasks: [
-				{
-					id: "7C0ED32C2AAA574E"
-					item: {
-						Count: 1
-						id: "sophisticatedbackpacks:diamond_backpack"
-						tag: {
-							inventorySlots: 108
-							upgradeSlots: 5
-						}
+			tasks: [{
+				id: "7C0ED32C2AAA574E"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:diamond_backpack"
+					tag: {
+						inventorySlots: 108
+						upgradeSlots: 5
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			title: "&b&l[ 🎒 대지의 보물고 ]"
 			x: 7.5d
 			y: -9.5d

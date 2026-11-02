@@ -81,17 +81,27 @@ const MOREUP_ENDGAME_RECIPES = [
         T: 'moreup:fragment_tech', M: 'moreup:fragment_magic', W: 'moreup:fragment_war',
         D: 'moreup:fragment_dragon', S: 'moreup:fragment_sky', L: 'moreup:fragment_twilight',
         P: 'moreup:fragment_depths', H: 'moreup:fragment_harvest', E: 'moreup:fragment_end' } },
-    // ---------- 모어 업: 세계 + 좋은 아이템 8개 (성주의 왕관 = 최종 보스 보상) ----------
-    { id: 'more_up', result: 'moreup:more_up', pattern: ['ECN', 'TWH', 'GLB'], key: {
-        E: 'minecraft:elytra',
+    // ---------- 모어 업: 기계식 조합기 5x5 (2026-11-02 사용자 요청: 제작 난이도 상향) ----------
+    // 세계 + 성주의 왕관 + 이야기의 일곱 보물은 그대로 두고, 각 분야 최종 재료를 둘러 넣었다.
+    // 작업대로는 못 만든다 (Create 기계식 조합기 25대 필요). 재료 원가 표: docs/endgame.md
+    { id: 'more_up', result: 'moreup:more_up', mechanical: true,
+      pattern: ['LPCPL', 'SENTS', 'DHWGD', 'SBNQS', 'LPRPL'], key: {
+        W: 'moreup:world',
         C: 'moreup:keepers_crown',                   // 최종 보스 Castle Keeper 보상
+        // 일곱 보물
+        E: 'minecraft:elytra',
         N: 'minecraft:nether_star',
         T: 'minecraft:totem_of_undying',
-        W: 'moreup:world',
         H: 'minecraft:heart_of_the_sea',
         G: 'minecraft:enchanted_golden_apple',
         L: 'moreup:boss_essence_legendary',
-        B: 'minecraft:beacon' } }
+        B: 'minecraft:beacon',
+        // 분야 최종 재료
+        P: 'mekanism:pellet_antimatter',             // Mekanism 반물질 (SPS, 전설 정수 관문)
+        S: 'powah:nitro_crystal_block',              // Powah 니트로 결정 블록
+        D: 'forbidden_arcanus:dark_nether_star',     // 어둠의 네더의 별
+        Q: 'ae2:singularity',                        // AE2 특이점
+        R: 'thermal:enderium_block' } }              // Thermal 엔더륨 블록
 ]
 
 ServerEvents.recipes(event => {
@@ -105,7 +115,14 @@ ServerEvents.recipes(event => {
                 console.error(`[MoreUp] 최종 레시피 ${r.id} 재료 없음: ${missing.join(', ')}`)
                 return
             }
-            event.shaped(r.result, r.pattern, r.key).id(`moreup:endgame/${r.id}`)
+            if (r.mechanical) {
+                let key = {}
+                for (let k in r.key) key[k] = { item: r.key[k] }
+                event.custom({ type: 'create:mechanical_crafting', pattern: r.pattern, key: key, result: { item: r.result }, acceptMirrored: false })
+                    .id(`moreup:endgame/${r.id}`)
+            } else {
+                event.shaped(r.result, r.pattern, r.key).id(`moreup:endgame/${r.id}`)
+            }
             applied++
         } catch (e) {
             console.error(`[MoreUp] 최종 레시피 등록 실패 (${r.id}): ${e}`)

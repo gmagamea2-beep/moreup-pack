@@ -100,6 +100,49 @@ const MOREUP_GATED_RECIPES = [
             key: { '#': { item: 'mekanism:alloy_atomic' }, A: { tag: 'forge:pellets/antimatter' }, C: { tag: 'forge:circuits/ultimate' }, X: MOREUP_E_LEGENDARY },
             result: { item: 'mekanism:antiprotonic_nucleosynthesizer' } }
     },
+    // ---------- 1.7 새 기계 모드 (needs: 그 모드가 없으면 건너뛴다, 원본은 테스트 서버 덤프로 확인) ----------
+    {
+        // Thermal 3단계 강화재: 석영 1자리 → 중급 정수
+        id: 'thermal_upgrade_augment_2', needs: 'thermal:upgrade_augment_2', removeOutput: 'thermal:upgrade_augment_2',
+        json: { type: 'minecraft:crafting_shaped', pattern: ['IEI', 'RXR', 'IGI'],
+            key: { E: MOREUP_E_MID, G: { tag: 'forge:gems/quartz' }, I: { tag: 'forge:ingots/electrum' }, R: { tag: 'forge:gears/signalum' }, X: { item: 'thermal:upgrade_augment_1' } },
+            result: { item: 'thermal:upgrade_augment_2' } }
+    },
+    {
+        // Thermal 최고 강화재: 강화 유리 1자리 → 상급 정수
+        id: 'thermal_upgrade_augment_3', needs: 'thermal:upgrade_augment_3', removeOutput: 'thermal:upgrade_augment_3',
+        json: { type: 'minecraft:crafting_shaped', pattern: ['IEI', 'RXR', 'IGI'],
+            key: { E: MOREUP_E_HIGH, G: { tag: 'thermal:glass/hardened' }, I: { tag: 'forge:ingots/enderium' }, R: { tag: 'forge:gears/lumium' }, X: { item: 'thermal:upgrade_augment_2' } },
+            result: { item: 'thermal:upgrade_augment_3' } }
+    },
+    {
+        // 조립 라인 제어기: 압축 철 1자리 → 하급 정수
+        id: 'pnc_assembly_controller', needs: 'pneumaticcraft:assembly_controller', removeOutput: 'pneumaticcraft:assembly_controller',
+        json: { type: 'minecraft:crafting_shaped', pattern: [' B ', 'TBB', 'IEI'],
+            key: { B: { item: 'pneumaticcraft:printed_circuit_board' }, E: MOREUP_E_LOW, I: { tag: 'forge:ingots/compressed_iron' }, T: { item: 'pneumaticcraft:pressure_tube' } },
+            result: { item: 'pneumaticcraft:assembly_controller' } }
+    },
+    {
+        // 고급 공기 압축기: 아래 가운데 재료는 유지하고 압축 철 1자리 → 중급 정수 (압축기 강화 전용 조합)
+        id: 'pnc_advanced_air_compressor', needs: 'pneumaticcraft:advanced_air_compressor', removeOutput: 'pneumaticcraft:advanced_air_compressor',
+        json: { type: 'pneumaticcraft:compressor_upgrade_crafting', pattern: ['IEI', 'I T', 'ICI'],
+            key: { C: { item: 'pneumaticcraft:air_compressor' }, E: MOREUP_E_MID, I: { tag: 'forge:ingots/compressed_iron' }, T: { item: 'pneumaticcraft:advanced_pressure_tube' } },
+            result: { item: 'pneumaticcraft:advanced_air_compressor' } }
+    },
+    {
+        // 프로그래밍 제어기: 압축 철 1자리 → 상급 정수 (드론 자동화의 끝)
+        id: 'pnc_programmable_controller', needs: 'pneumaticcraft:programmable_controller', removeOutput: 'pneumaticcraft:programmable_controller',
+        json: { type: 'minecraft:crafting_shaped', pattern: ['ERI', 'CDP', 'INI'],
+            key: { C: { item: 'pneumaticcraft:printed_circuit_board' }, D: { item: 'pneumaticcraft:drone' }, E: MOREUP_E_HIGH, I: { tag: 'forge:ingots/compressed_iron' }, N: { item: 'pneumaticcraft:network_registry' }, P: { item: 'pneumaticcraft:advanced_pressure_tube' }, R: { item: 'pneumaticcraft:remote' } },
+            result: { item: 'pneumaticcraft:programmable_controller' } }
+    },
+    {
+        // 플럭스 컨트롤러: 네트워크마다 1개만 있으면 된다. 아래 가운데 플럭스 블록 → 중급 정수
+        id: 'flux_controller', needs: 'fluxnetworks:flux_controller', removeOutput: 'fluxnetworks:flux_controller',
+        json: { type: 'minecraft:crafting_shaped', pattern: ['bcb', 'f f', 'bEb'],
+            key: { b: { item: 'fluxnetworks:flux_block' }, c: { item: 'fluxnetworks:flux_core' }, E: MOREUP_E_MID, f: { item: 'fluxnetworks:flux_dust' } },
+            result: { item: 'fluxnetworks:flux_controller' } }
+    },
     // ---------- Powah 결정 (에너자이징): 정수 1개 + 원재료 4개 → 결정 4개 (원재료 대비 비율과 전력은 원본과 같음) ----------
     {
         id: 'powah_niotic_crystal', removeId: 'powah:energizing/niotic_crystal',
@@ -140,6 +183,7 @@ ServerEvents.recipes(event => {
     let applied = 0
     MOREUP_GATED_RECIPES.forEach(r => {
         try {
+            if (r.needs && Item.of(r.needs).isEmpty()) return   // 아직 설치되지 않은 모드
             if (r.removeOutput) event.remove({ output: r.removeOutput })
             if (r.removeId) event.remove({ id: r.removeId })
             event.custom(r.json).id(`moreup:gating/${r.id}`)

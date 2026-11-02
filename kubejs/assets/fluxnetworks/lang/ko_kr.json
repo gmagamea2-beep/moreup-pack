@@ -1,0 +1,14 @@
+{
+  "block.fluxnetworks.basic_flux_storage": "기본 플럭스 저장소",
+  "block.fluxnetworks.flux_block": "플럭스 블록",
+  "block.fluxnetworks.flux_controller": "플럭스 컨트롤러",
+  "block.fluxnetworks.flux_plug": "플럭스 플러그",
+  "block.fluxnetworks.flux_point": "플럭스 포인트",
+  "block.fluxnetworks.gargantuan_flux_storage": "초대형 플럭스 저장소",
+  "block.fluxnetworks.herculean_flux_storage": "대형 플럭스 저장소",
+  "item.fluxnetworks.admin_configurator": "관리자 설정기",
+  "item.fluxnetworks.flux_configurator": "플럭스 설정기",
+  "item.fluxnetworks.flux_core": "플럭스 코어",
+  "item.fluxnetworks.flux_dust": "플럭스 가루",
+  "itemGroup.fluxnetworks": "플럭스 네트워크"
+}

@@ -1,0 +1,721 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "moreup_thermal"
+	group: "7E05AA7C371599AC"
+	icon: "thermal:machine_frame"
+	id: "5A10F719258C10A8"
+	order_index: 24
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Thermal 기계의 뼈대다. 이 팩에서는 Create 안산암 케이스로 만든다."]
+			id: "7D471F334A59C130"
+			rewards: [
+				{
+					id: "7B2F5D33D3DD30AA"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 4
+					id: "5D537646E5FC88A9"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "72FB06ECDBD9941E"
+					item: "thermal:machine_frame"
+					type: "item"
+				}
+			]
+			title: "&7&l[ ✦ 기계 프레임 ]"
+			x: 0.0d
+			y: 0.0d
+			icon: "thermal:machine_frame"
+		}
+		{
+			dependencies: ["7D471F334A59C130"]
+			description: ["거의 모든 Thermal 기계에 들어가는 부품이다."]
+			id: "53D830F78518FC70"
+			rewards: [
+				{
+					id: "33557630487A01CE"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 16
+					id: "66BE9B28A2A0FF47"
+					item: "minecraft:torch"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "3C1F9D67A68B969A"
+					item: "thermal:rf_coil"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "75C2B10FCAF81C60"
+					item: "thermal:redstone_servo"
+					type: "item"
+				}
+			]
+			title: "&c&l[ ✦ RF 코일과 서보 ]"
+			x: 1.75d
+			y: 0.0d
+			icon: "thermal:rf_coil"
+		}
+		{
+			dependencies: ["53D830F78518FC70"]
+			description: ["석탄이나 나무를 태워 전기를 만든다. Thermal 전기는 다른 모드 기계에도 그대로 쓸 수 있다."]
+			id: "72142C183E0017F8"
+			rewards: [
+				{
+					id: "71623A1C59E58449"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 6
+					id: "733CC683FAA71102"
+					item: "minecraft:bread"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4585E98F84A527C6"
+					item: "thermal:dynamo_stirling"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 스털링 다이나모 ]"
+			x: 3.5d
+			y: 0.0d
+			icon: "thermal:dynamo_stirling"
+		}
+		{
+			dependencies: ["72142C183E0017F8"]
+			description: ["전기와 액체를 옮기는 관이다. 관 대신 Flux Networks 나 LaserIO 를 써도 된다."]
+			id: "03D6CD7997EB6A80"
+			rewards: [
+				{
+					id: "6753F05B32D4B23F"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 4
+					id: "758AAA4152FDB874"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "154B6CC07A9B368F"
+					item: "thermal:energy_duct"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7168A84F0F0DCDB4"
+					item: "thermal:fluid_duct"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 덕트 ]"
+			x: 5.25d
+			y: -3.75d
+			icon: "thermal:energy_duct"
+		}
+		{
+			dependencies: ["72142C183E0017F8"]
+			description: ["전기를 저장한다. 셀 프레임에 Mekanism 기본 회로가 들어간다."]
+			id: "18C3E5DD2C9F64C0"
+			rewards: [
+				{
+					id: "7529729C6930BA88"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "6E090A08C2F5773F"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7D0AF835C734928F"
+					item: "thermal:energy_cell"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 에너지 셀 ]"
+			x: 5.25d
+			y: -2.25d
+			icon: "thermal:energy_cell"
+		}
+		{
+			dependencies: ["72142C183E0017F8"]
+			description: ["전기로 굽는다."]
+			id: "475857F9FC457A62"
+			rewards: [
+				{
+					id: "7335404CAAA9AE16"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 6
+					id: "39A5357DB0446C88"
+					item: "minecraft:bread"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7A11ED615FCCA7EE"
+					item: "thermal:machine_furnace"
+					type: "item"
+				}
+			]
+			title: "&c&l[ ✦ 레드스톤 화로 ]"
+			x: 5.25d
+			y: -0.75d
+			icon: "thermal:machine_furnace"
+		}
+		{
+			dependencies: ["72142C183E0017F8"]
+			description: ["광석을 가루로 부순다. 이 팩의 모든 광석을 처리할 수 있고, 유황·초석 같은 부산물도 나온다."]
+			id: "7AFAE3D11A9F0795"
+			rewards: [
+				{
+					id: "7789A8C8C0EA8C8E"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 6
+					id: "7B5F7CE019F14EA1"
+					item: "minecraft:bread"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6A7ED801EA26748D"
+					item: "thermal:machine_pulverizer"
+					type: "item"
+				}
+			]
+			title: "&7&l[ ✦ 분쇄기 ]"
+			x: 5.25d
+			y: 0.75d
+			icon: "thermal:machine_pulverizer"
+		}
+		{
+			dependencies: ["72142C183E0017F8"]
+			description: ["통나무에서 판자를 더 많이 뽑는다."]
+			id: "0FBD593B07556F0C"
+			rewards: [
+				{
+					id: "7A0B036CCAF92800"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 6
+					id: "7F3844473605BCC6"
+					item: "minecraft:bread"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "78F1BDAF803DFB6C"
+					item: "thermal:machine_sawmill"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 제재기 ]"
+			x: 5.25d
+			y: 2.25d
+			icon: "thermal:machine_sawmill"
+		}
+		{
+			dependencies: ["72142C183E0017F8"]
+			description: ["작물을 흙 없이 키운다."]
+			id: "3EE22BC015B20A83"
+			rewards: [
+				{
+					id: "525AEBF34F74C01D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "18175517A983040A"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "58E8FB642E6FA48F"
+					item: "thermal:machine_insolator"
+					type: "item"
+				}
+			]
+			title: "&a&l[ ✦ 광합성 장치 ]"
+			x: 5.25d
+			y: 3.75d
+			icon: "thermal:machine_insolator"
+		}
+		{
+			dependencies: ["7AFAE3D11A9F0795"]
+			description: ["합금을 만드는 기계다."]
+			id: "7F713C5D821BF2E1"
+			rewards: [
+				{
+					id: "706FBB131D2DFBE6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "774BCF51F5C026A9"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "776EC1E6F583102F"
+					item: "thermal:machine_smelter"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 유도 제련기 ]"
+			x: 7.0d
+			y: 0.0d
+			icon: "thermal:machine_smelter"
+		}
+		{
+			dependencies: ["7F713C5D821BF2E1"]
+			description: ["청동·일렉트럼·인바·콘스탄탄. Create 혼합기에 열을 주어 만들어도 된다."]
+			id: "7211482C63C0066F"
+			rewards: [
+				{
+					id: "367DE0CBECE04BCE"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 8
+					id: "04DF22EDFAADF93B"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "74CFAC7E84831CC7"
+					item: "thermal:bronze_ingot"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "792A54F9B16AC9F2"
+					item: "thermal:electrum_ingot"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "72E442B6DC25F232"
+					item: "thermal:invar_ingot"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "70176AB12029F7B8"
+					item: "thermal:constantan_ingot"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 기본 합금 ]"
+			x: 8.75d
+			y: -2.25d
+			icon: "thermal:bronze_ingot"
+		}
+		{
+			dependencies: ["7211482C63C0066F"]
+			description: ["붉게 빛나는 합금이다. 2단계 강화재에 쓴다."]
+			id: "2756778CC12FE390"
+			rewards: [
+				{
+					id: "7D736B4B15A74932"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 4
+					id: "76C3D279CE6A09BD"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "7CD689E87E0C4902"
+					item: "thermal:signalum_ingot"
+					type: "item"
+				}
+			]
+			title: "&c&l[ ✦ 시그널럼 ]"
+			x: 10.5d
+			y: -3.0d
+			icon: "thermal:signalum_ingot"
+		}
+		{
+			dependencies: ["7211482C63C0066F"]
+			description: ["빛나는 합금이다."]
+			id: "7AF111ADB2856F73"
+			rewards: [
+				{
+					id: "735CDA62DE2986BC"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 16
+					id: "73E7D30FFD8DE738"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "56088CA07D37FE78"
+					item: "thermal:lumium_ingot"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 루미움 ]"
+			x: 10.5d
+			y: -1.5d
+			icon: "thermal:lumium_ingot"
+		}
+		{
+			dependencies: ["2756778CC12FE390", "7AF111ADB2856F73"]
+			description: ["Thermal 최고의 합금이다."]
+			id: "73F85F9AA9D12A82"
+			rewards: [
+				{
+					id: "7AD43001F8C79563"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 4
+					id: "014FA9DCB4EFAEED"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "710165D5FA207A99"
+					item: "thermal:enderium_ingot"
+					type: "item"
+				}
+			]
+			title: "&5&l[ ✦ 엔더륨 ]"
+			x: 12.25d
+			y: -1.5d
+			icon: "thermal:enderium_ingot"
+		}
+		{
+			dependencies: ["7211482C63C0066F"]
+			description: ["기계·다이나모에 넣으면 성능이 오른다."]
+			id: "7BBD4F5D5A4ED629"
+			rewards: [
+				{
+					id: "7F344CEA45D2DD9F"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 16
+					id: "732CF23DE4CC2F3E"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "46116BA83F795C3B"
+					item: "thermal:upgrade_augment_1"
+					type: "item"
+				}
+			]
+			title: "&a&l[ ✦ 강화재 1 ]"
+			x: 10.5d
+			y: 0.0d
+			icon: "thermal:upgrade_augment_1"
+		}
+		{
+			dependencies: ["7BBD4F5D5A4ED629", "2756778CC12FE390"]
+			description: ["관문: 중급 보스 정수가 필요하다."]
+			id: "727A9A26464F263D"
+			rewards: [
+				{
+					id: "108B858609260616"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "7EF36A458DBF392C"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7254510640711F0B"
+					item: "thermal:upgrade_augment_2"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 강화재 2 ]"
+			x: 12.25d
+			y: 0.0d
+			icon: "thermal:upgrade_augment_2"
+		}
+		{
+			dependencies: ["727A9A26464F263D", "73F85F9AA9D12A82"]
+			description: ["관문: 상급 보스 정수가 필요하다."]
+			id: "7B2B6B380D194F56"
+			rewards: [
+				{
+					id: "782B28A83D181789"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 2
+					id: "77E2715A5E42AEF3"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "21F321044DBB8292"
+					item: "thermal:upgrade_augment_3"
+					type: "item"
+				}
+			]
+			title: "&5&l[ ★ 강화재 3 ]"
+			x: 14.0d
+			y: 0.0d
+			icon: "thermal:upgrade_augment_3"
+			shape: "gear"
+			size: 1.5d
+		}
+		{
+			dependencies: ["7F713C5D821BF2E1"]
+			description: ["돌과 금속을 녹여 액체로 만든다."]
+			id: "1772EC4249B3C102"
+			rewards: [
+				{
+					id: "34D377B1E61C87B9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 8
+					id: "0218618901AE4AEB"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "71F2AF23AC44348F"
+					item: "thermal:machine_crucible"
+					type: "item"
+				}
+			]
+			title: "&c&l[ ✦ 마그마 도가니 ]"
+			x: 8.75d
+			y: -0.75d
+			icon: "thermal:machine_crucible"
+		}
+		{
+			dependencies: ["1772EC4249B3C102"]
+			description: ["액체를 굳혀 다시 고체로 만든다."]
+			id: "7C93508EA9BD0A13"
+			rewards: [
+				{
+					id: "28CFB354875A853A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "7AB0DD7C0D676D38"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "70E0465BD5D1EA3E"
+					item: "thermal:machine_chiller"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 급속 냉각기 ]"
+			x: 10.5d
+			y: 1.5d
+			icon: "thermal:machine_chiller"
+		}
+		{
+			dependencies: ["7F713C5D821BF2E1"]
+			description: ["판과 톱니를 찍어 낸다."]
+			id: "71B0429AAA75D788"
+			rewards: [
+				{
+					id: "79A3B69AEC5254FB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 8
+					id: "63718E572BCC83AC"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "744BEF77C4020482"
+					item: "thermal:machine_press"
+					type: "item"
+				}
+			]
+			title: "&7&l[ ✦ 다목적 압착기 ]"
+			x: 8.75d
+			y: 0.75d
+			icon: "thermal:machine_press"
+		}
+		{
+			dependencies: ["7F713C5D821BF2E1"]
+			description: ["기름을 정제한다. PneumaticCraft 기름도 같은 원유로 쓸 수 있다."]
+			id: "72E4AD30C898E0F4"
+			rewards: [
+				{
+					id: "2D5BDA0C47AF9FB5"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 8
+					id: "7756E050820485A3"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "491D3915C07842D9"
+					item: "thermal:machine_refinery"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 분별 증류기 ]"
+			x: 8.75d
+			y: 2.25d
+			icon: "thermal:machine_refinery"
+		}
+		{
+			dependencies: ["72E4AD30C898E0F4"]
+			description: ["액체 연료를 태운다. Industrial Foregoing 바이오 연료, PneumaticCraft 연료도 쓸 수 있다."]
+			id: "48DEC9911FA2F4F7"
+			rewards: [
+				{
+					id: "367EB4C24ADAC876"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 8
+					id: "3751F8764CE632BC"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "71D4C4F9E5CBCF82"
+					item: "thermal:dynamo_compression"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 압축 다이나모 ]"
+			x: 10.5d
+			y: 3.0d
+			icon: "thermal:dynamo_compression"
+		}
+		{
+			dependencies: ["7BBD4F5D5A4ED629"]
+			description: ["전기로 움직이는 드릴과 톱이다."]
+			id: "745DC4850F64C0A1"
+			rewards: [
+				{
+					id: "76899E0D837475C7"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 16
+					id: "7FE3B0B10552B222"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7F46B4397B049220"
+					item: "thermal:flux_drill"
+					type: "item"
+				}
+				{
+					id: "5136A8945EB25B4E"
+					item: "thermal:flux_saw"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 플럭스 도구 ]"
+			x: 12.25d
+			y: 1.5d
+			icon: "thermal:flux_drill"
+		}
+	]
+	title: "&b&l✦ Thermal 기계"
+}
