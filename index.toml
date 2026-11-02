@@ -4954,7 +4954,7 @@ metafile = true
 
 [[files]]
 file = "mods/moreup-core.pw.toml"
-hash = "a21a6650330f7566b62e34b0641a758235334f6d6a9f9d070437868256c3cf95"
+hash = "9de4a50927a7b898256ca1466b3a54304b64613204637bddf93f07afc19a9d02"
 metafile = true
 
 [[files]]
