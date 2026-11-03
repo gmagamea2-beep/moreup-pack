@@ -24,6 +24,17 @@
 					item: "create:andesite_alloy"
 					type: "item"
 				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 20"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "73D3068B774D9012"
+					team_reward: false
+					title: "&e★ 별빛 +20"
+					type: "command"
+				}
 			]
 			tasks: [
 				{
@@ -59,6 +70,17 @@
 					item: "create:copper_sheet"
 					type: "item"
 				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 20"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "2A4DF7C4CF423E5C"
+					team_reward: false
+					title: "&e★ 별빛 +20"
+					type: "command"
+				}
 			]
 			tasks: [
 				{
@@ -87,6 +109,17 @@
 					id: "7225273E2DF6A61E"
 					item: "create:brass_ingot"
 					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 40"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7541D88C206AB4D8"
+					team_reward: false
+					title: "&e★ 별빛 +40"
+					type: "command"
 				}
 			]
 			tasks: [
@@ -122,6 +155,17 @@
 					item: "create:zinc_ingot"
 					type: "item"
 				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 25"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7E7BE69F8351A508"
+					team_reward: false
+					title: "&e★ 별빛 +25"
+					type: "command"
+				}
 			]
 			tasks: [
 				{
@@ -152,6 +196,17 @@
 					item: "create:zinc_ingot"
 					type: "item"
 				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 40"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7D2E61159E51D05B"
+					team_reward: false
+					title: "&e★ 별빛 +40"
+					type: "command"
+				}
 			]
 			tasks: [
 				{
@@ -179,6 +234,17 @@
 					id: "4EBEEAA2B4DDE767"
 					item: "create:andesite_alloy"
 					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 20"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "65E561CDC61A6092"
+					team_reward: false
+					title: "&e★ 별빛 +20"
+					type: "command"
 				}
 			]
 			tasks: [
@@ -210,6 +276,17 @@
 					item: "create:copper_sheet"
 					type: "item"
 				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 15"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7E77BAF4964E8A7B"
+					team_reward: false
+					title: "&e★ 별빛 +15"
+					type: "command"
+				}
 			]
 			tasks: [
 				{
@@ -238,6 +315,17 @@
 					id: "7D0D9D908E776C41"
 					item: "create:andesite_alloy"
 					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 15"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7E13295C16DE1C23"
+					team_reward: false
+					title: "&e★ 별빛 +15"
+					type: "command"
 				}
 			]
 			tasks: [
@@ -269,6 +357,17 @@
 					item: "create:iron_sheet"
 					type: "item"
 				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 30"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "76CACBF6FDA6F661"
+					team_reward: false
+					title: "&e★ 별빛 +30"
+					type: "command"
+				}
 			]
 			tasks: [
 				{
@@ -296,6 +395,17 @@
 					id: "78D12904FE00EEA9"
 					item: "create:zinc_ingot"
 					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 40"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "5F0FDF2C9E9A3242"
+					team_reward: false
+					title: "&e★ 별빛 +40"
+					type: "command"
 				}
 			]
 			tasks: [
@@ -325,6 +435,17 @@
 					item: "create:polished_rose_quartz"
 					type: "item"
 				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 60"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "3F9EB3404A9F7380"
+					team_reward: false
+					title: "&e★ 별빛 +60"
+					type: "command"
+				}
 			]
 			tasks: [
 				{
@@ -352,6 +473,17 @@
 					id: "7842A984A856523C"
 					item: "create:zinc_ingot"
 					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 40"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "3AF193926B682832"
+					team_reward: false
+					title: "&e★ 별빛 +40"
+					type: "command"
 				}
 			]
 			tasks: [
@@ -382,6 +514,17 @@
 					item: "create:iron_sheet"
 					type: "item"
 				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 30"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "794E37964ABEB345"
+					team_reward: false
+					title: "&e★ 별빛 +30"
+					type: "command"
+				}
 			]
 			tasks: [
 				{
@@ -409,6 +552,17 @@
 					id: "400B4FBAB5F26694"
 					item: "create:copper_sheet"
 					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 20"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "54A86821225CF5B9"
+					team_reward: false
+					title: "&e★ 별빛 +20"
+					type: "command"
 				}
 			]
 			tasks: [
@@ -438,6 +592,17 @@
 					item: "create:iron_sheet"
 					type: "item"
 				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 30"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "2D03DF696C660D1E"
+					team_reward: false
+					title: "&e★ 별빛 +30"
+					type: "command"
+				}
 			]
 			tasks: [
 				{
@@ -465,6 +630,17 @@
 					id: "6578438E00A2F000"
 					item: "create:iron_sheet"
 					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 40"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7FCF81437085D33A"
+					team_reward: false
+					title: "&e★ 별빛 +40"
+					type: "command"
 				}
 			]
 			tasks: [
@@ -500,6 +676,17 @@
 					item: "create:brass_ingot"
 					type: "item"
 				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 30"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "57581486C9AE7F02"
+					team_reward: false
+					title: "&e★ 별빛 +30"
+					type: "command"
+				}
 			]
 			tasks: [
 				{
@@ -527,6 +714,17 @@
 					id: "00273DCE5F641418"
 					item: "create:copper_sheet"
 					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 15"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "79FCA305201C9975"
+					team_reward: false
+					title: "&e★ 별빛 +15"
+					type: "command"
 				}
 			]
 			tasks: [
@@ -561,6 +759,17 @@
 					item: "create:copper_sheet"
 					type: "item"
 				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 20"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7DA2C2ACEEDC68E3"
+					team_reward: false
+					title: "&e★ 별빛 +20"
+					type: "command"
+				}
 			]
 			tasks: [
 				{
@@ -590,6 +799,17 @@
 					id: "06EB0DBB7F1CF777"
 					item: "create:copper_sheet"
 					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 20"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7A52FB26CA72F193"
+					team_reward: false
+					title: "&e★ 별빛 +20"
+					type: "command"
 				}
 			]
 			tasks: [
@@ -624,6 +844,17 @@
 					id: "7996BB8EE2D456A3"
 					item: "create:andesite_alloy"
 					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 15"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "76829A4FF6C345F3"
+					team_reward: false
+					title: "&e★ 별빛 +15"
+					type: "command"
 				}
 			]
 			tasks: [
@@ -661,6 +892,17 @@
 					item: "create:polished_rose_quartz"
 					type: "item"
 				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 50"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7FB1A4806E2F7345"
+					team_reward: false
+					title: "&e★ 별빛 +50"
+					type: "command"
+				}
 			]
 			tasks: [
 				{
@@ -695,6 +937,17 @@
 					item: "create:iron_sheet"
 					type: "item"
 				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 25"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7763990779D5C265"
+					team_reward: false
+					title: "&e★ 별빛 +25"
+					type: "command"
+				}
 			]
 			tasks: [
 				{
@@ -724,6 +977,17 @@
 					item: "create:andesite_alloy"
 					type: "item"
 				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 15"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "2CE7DC16A144C59C"
+					team_reward: false
+					title: "&e★ 별빛 +15"
+					type: "command"
+				}
 			]
 			tasks: [
 				{
@@ -752,6 +1016,17 @@
 					id: "799DA4F3F209374C"
 					item: "create:brass_ingot"
 					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 25"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7C1351DA3732BBEF"
+					team_reward: false
+					title: "&e★ 별빛 +25"
+					type: "command"
 				}
 			]
 			tasks: [

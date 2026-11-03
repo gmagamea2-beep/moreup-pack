@@ -23,6 +23,17 @@
 					item: "minecraft:redstone"
 					type: "item"
 				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 25"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "710EE44787BD93AB"
+					team_reward: false
+					title: "&e★ 별빛 +25"
+					type: "command"
+				}
 			]
 			tasks: [
 				{
@@ -53,6 +64,17 @@
 					item: "minecraft:lapis_lazuli"
 					type: "item"
 				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 25"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "6B73E68DC94B5FC5"
+					team_reward: false
+					title: "&e★ 별빛 +25"
+					type: "command"
+				}
 			]
 			tasks: [
 				{
@@ -80,6 +102,17 @@
 					id: "7BEE7BB7CCE4E394"
 					item: "minecraft:iron_ingot"
 					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 25"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "0EDD02F8CBDC35A9"
+					team_reward: false
+					title: "&e★ 별빛 +25"
+					type: "command"
 				}
 			]
 			tasks: [
@@ -109,6 +142,17 @@
 					item: "minecraft:golden_apple"
 					type: "item"
 				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 50"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7CFEAEA45CDBD873"
+					team_reward: false
+					title: "&e★ 별빛 +50"
+					type: "command"
+				}
 			]
 			tasks: [
 				{
@@ -136,6 +180,17 @@
 					id: "715870D3C4DCED16"
 					item: "minecraft:golden_apple"
 					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 50"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "79187AEA96842F5A"
+					team_reward: false
+					title: "&e★ 별빛 +50"
+					type: "command"
 				}
 			]
 			tasks: [
@@ -166,6 +221,17 @@
 					item: "minecraft:emerald"
 					type: "item"
 				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 50"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "2DF02CBAE6314A0D"
+					team_reward: false
+					title: "&e★ 별빛 +50"
+					type: "command"
+				}
 			]
 			tasks: [
 				{
@@ -192,6 +258,17 @@
 					id: "7D380B0AC9635964"
 					item: "minecraft:golden_apple"
 					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 50"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "768D9C4F5C2436A4"
+					team_reward: false
+					title: "&e★ 별빛 +50"
+					type: "command"
 				}
 			]
 			tasks: [
@@ -221,6 +298,17 @@
 					id: "72E944CB1167BC60"
 					item: "minecraft:diamond"
 					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 75"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7EDAB5AA0A7EC4E0"
+					team_reward: false
+					title: "&e★ 별빛 +75"
+					type: "command"
 				}
 			]
 			tasks: [

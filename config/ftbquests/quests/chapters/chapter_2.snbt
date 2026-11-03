@@ -57,6 +57,17 @@
 					title: "&b▶ 이야기 보기"
 					type: "command"
 				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 50"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7AB487225003F34D"
+					team_reward: false
+					title: "&e★ 별빛 +50"
+					type: "command"
+				}
 			]
 			shape: "gear"
 			size: 1.5d
@@ -96,6 +107,17 @@
 					type: "xp_levels"
 					xp_levels: 10
 				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 50"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "70D6D80E57C87CFA"
+					team_reward: false
+					title: "&e★ 별빛 +50"
+					type: "command"
+				}
 			]
 			tasks: [
 				{
@@ -125,6 +147,17 @@
 					id: "2689FA1492440338"
 					item: "enchantinginfuser:enchanting_infuser"
 					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 150"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "4F63A80206708557"
+					team_reward: false
+					title: "&e★ 별빛 +150"
+					type: "command"
 				}
 			]
 			shape: "hexagon"
@@ -157,6 +190,17 @@
 					id: "6B931D3EDFFB3E19"
 					type: "xp_levels"
 					xp_levels: 10
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 50"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "38291AF41988860B"
+					team_reward: false
+					title: "&e★ 별빛 +50"
+					type: "command"
 				}
 			]
 			tasks: [
@@ -225,6 +269,17 @@
 					type: "xp_levels"
 					xp_levels: 10
 				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 50"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7C91878064DD0A42"
+					team_reward: false
+					title: "&e★ 별빛 +50"
+					type: "command"
+				}
 			]
 			shape: "diamond"
 			tasks: [
@@ -256,6 +311,17 @@
 					id: "389A3B2678EC8A4A"
 					type: "xp_levels"
 					xp_levels: 10
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 50"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7E63437C1C1E16E2"
+					team_reward: false
+					title: "&e★ 별빛 +50"
+					type: "command"
 				}
 			]
 			tasks: [
@@ -301,6 +367,17 @@
 					type: "xp_levels"
 					xp_levels: 10
 				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 50"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "75BBBD3167C6D0A5"
+					team_reward: false
+					title: "&e★ 별빛 +50"
+					type: "command"
+				}
 			]
 			shape: "hexagon"
 			tasks: [
@@ -334,6 +411,17 @@
 					id: "38EA1C406A554731"
 					type: "xp_levels"
 					xp_levels: 10
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 50"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "672E6E1FFA530809"
+					team_reward: false
+					title: "&e★ 별빛 +50"
+					type: "command"
 				}
 				{
 					count: 1
@@ -413,6 +501,17 @@
 					id: "7E983ECC029D27D4"
 					type: "xp_levels"
 					xp_levels: 10
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 50"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "64F9318CC0C5C8DD"
+					team_reward: false
+					title: "&e★ 별빛 +50"
+					type: "command"
 				}
 			]
 			tasks: [

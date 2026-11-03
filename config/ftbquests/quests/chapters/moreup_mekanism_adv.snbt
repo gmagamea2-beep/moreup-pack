@@ -24,6 +24,17 @@
 					item: "mekanism:alloy_infused"
 					type: "item"
 				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 25"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7AE420E8B3D3A6C2"
+					team_reward: false
+					title: "&e★ 별빛 +25"
+					type: "command"
+				}
 			]
 			tasks: [
 				{
@@ -52,6 +63,17 @@
 					id: "72EB958569647908"
 					item: "mekanism:alloy_infused"
 					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 40"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "18E9237845BD092E"
+					team_reward: false
+					title: "&e★ 별빛 +40"
+					type: "command"
 				}
 			]
 			tasks: [
@@ -83,6 +105,17 @@
 					item: "mekanism:alloy_reinforced"
 					type: "item"
 				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 75"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "0A49FAB42A481805"
+					team_reward: false
+					title: "&e★ 별빛 +75"
+					type: "command"
+				}
 			]
 			tasks: [
 				{
@@ -111,6 +144,17 @@
 					id: "737ADD80C19A1261"
 					item: "mekanism:alloy_reinforced"
 					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 50"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7B3FA7654E24D68B"
+					team_reward: false
+					title: "&e★ 별빛 +50"
+					type: "command"
 				}
 			]
 			tasks: [
@@ -147,6 +191,17 @@
 					item: "mekanism:alloy_infused"
 					type: "item"
 				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 40"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7EF82D8CF64AE308"
+					team_reward: false
+					title: "&e★ 별빛 +40"
+					type: "command"
+				}
 			]
 			tasks: [
 				{
@@ -175,6 +230,17 @@
 					id: "56977280AA11E179"
 					item: "mekanism:ingot_refined_obsidian"
 					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 50"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "74DA9AF096CCD315"
+					team_reward: false
+					title: "&e★ 별빛 +50"
+					type: "command"
 				}
 			]
 			tasks: [
@@ -210,6 +276,17 @@
 					item: "mekanism:advanced_control_circuit"
 					type: "item"
 				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 50"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7934A94B1E9B6508"
+					team_reward: false
+					title: "&e★ 별빛 +50"
+					type: "command"
+				}
 			]
 			tasks: [
 				{
@@ -237,6 +314,17 @@
 					id: "795AD56FCD8F4AEF"
 					item: "mekanism:alloy_reinforced"
 					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 50"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7DE8A3EA5FA1577C"
+					team_reward: false
+					title: "&e★ 별빛 +50"
+					type: "command"
 				}
 			]
 			tasks: [
@@ -266,6 +354,17 @@
 					id: "169D11CD62E925A9"
 					item: "mekanism:advanced_control_circuit"
 					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 75"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "6CCD1FCA98937BCC"
+					team_reward: false
+					title: "&e★ 별빛 +75"
+					type: "command"
 				}
 			]
 			tasks: [
@@ -301,6 +400,17 @@
 					item: "mekanism:alloy_reinforced"
 					type: "item"
 				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 75"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "28A732A067FAEAEF"
+					team_reward: false
+					title: "&e★ 별빛 +75"
+					type: "command"
+				}
 			]
 			tasks: [
 				{
@@ -334,6 +444,17 @@
 					id: "78C8D5E0A44B117E"
 					item: "mekanism:elite_control_circuit"
 					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 125"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7BF957B19C7CF00E"
+					team_reward: false
+					title: "&e★ 별빛 +125"
+					type: "command"
 				}
 			]
 			tasks: [
@@ -370,6 +491,17 @@
 					item: "mekanism:alloy_atomic"
 					type: "item"
 				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 100"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "728169D844E6FB69"
+					team_reward: false
+					title: "&e★ 별빛 +100"
+					type: "command"
+				}
 			]
 			tasks: [
 				{
@@ -405,6 +537,17 @@
 					item: "mekanism:alloy_atomic"
 					type: "item"
 				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 150"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "25D48D34996E7BAA"
+					team_reward: false
+					title: "&e★ 별빛 +150"
+					type: "command"
+				}
 			]
 			tasks: [
 				{
@@ -433,6 +576,17 @@
 					id: "5D530C7F544057DA"
 					item: "mekanism:elite_control_circuit"
 					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 100"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "0E59990B82D4BAFF"
+					team_reward: false
+					title: "&e★ 별빛 +100"
+					type: "command"
 				}
 			]
 			tasks: [
@@ -468,6 +622,17 @@
 					item: "mekanism:elite_control_circuit"
 					type: "item"
 				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 100"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "4972EB2A8574B93F"
+					team_reward: false
+					title: "&e★ 별빛 +100"
+					type: "command"
+				}
 			]
 			tasks: [
 				{
@@ -496,6 +661,17 @@
 					id: "7BC317DDC98EDAAA"
 					item: "mekanism:alloy_infused"
 					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 30"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7DACCD69AA9658DF"
+					team_reward: false
+					title: "&e★ 별빛 +30"
+					type: "command"
 				}
 			]
 			tasks: [
@@ -526,6 +702,17 @@
 					item: "mekanism:alloy_infused"
 					type: "item"
 				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 40"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7BABC3853EBEB2FF"
+					team_reward: false
+					title: "&e★ 별빛 +40"
+					type: "command"
+				}
 			]
 			tasks: [
 				{
@@ -554,6 +741,17 @@
 					id: "7DDE69807D5E37B1"
 					item: "mekanism:ingot_refined_obsidian"
 					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 60"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7A7E24AF6ECEBDEE"
+					team_reward: false
+					title: "&e★ 별빛 +60"
+					type: "command"
 				}
 			]
 			tasks: [
@@ -600,6 +798,17 @@
 					item: "mekanism:ingot_steel"
 					type: "item"
 				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 25"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7B74A1033596B601"
+					team_reward: false
+					title: "&e★ 별빛 +25"
+					type: "command"
+				}
 			]
 			tasks: [
 				{
@@ -628,6 +837,17 @@
 					id: "75A8BAE334A642AD"
 					item: "mekanism:basic_control_circuit"
 					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 25"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "73AEA4A0A500C9C9"
+					team_reward: false
+					title: "&e★ 별빛 +25"
+					type: "command"
 				}
 			]
 			tasks: [
@@ -665,6 +885,17 @@
 					item: "mekanism:ingot_steel"
 					type: "item"
 				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 25"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "23096E5B0856F5D2"
+					team_reward: false
+					title: "&e★ 별빛 +25"
+					type: "command"
+				}
 			]
 			tasks: [
 				{
@@ -700,6 +931,17 @@
 					item: "mekanism:ingot_osmium"
 					type: "item"
 				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 20"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "08712A281CA10E57"
+					team_reward: false
+					title: "&e★ 별빛 +20"
+					type: "command"
+				}
 			]
 			tasks: [
 				{
@@ -734,6 +976,17 @@
 					item: "mekanism:ingot_tin"
 					type: "item"
 				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 15"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "4C902E32E6DF7EDB"
+					team_reward: false
+					title: "&e★ 별빛 +15"
+					type: "command"
+				}
 			]
 			tasks: [
 				{
@@ -767,6 +1020,17 @@
 					id: "72CB7963DEABC503"
 					item: "mekanism:advanced_control_circuit"
 					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 50"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "23DC029FF777F8FD"
+					team_reward: false
+					title: "&e★ 별빛 +50"
+					type: "command"
 				}
 			]
 			tasks: [
@@ -803,6 +1067,17 @@
 					item: "mekanism:basic_control_circuit"
 					type: "item"
 				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 25"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "74F23973A738A37D"
+					team_reward: false
+					title: "&e★ 별빛 +25"
+					type: "command"
+				}
 			]
 			tasks: [
 				{
@@ -831,6 +1106,17 @@
 					id: "03246D99F58CA527"
 					item: "mekanism:alloy_reinforced"
 					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 60"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "2FD4122D7F3A8C83"
+					team_reward: false
+					title: "&e★ 별빛 +60"
+					type: "command"
 				}
 			]
 			tasks: [
@@ -868,6 +1154,17 @@
 					item: "mekanism:ingot_steel"
 					type: "item"
 				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 25"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "45A32E1445C6B685"
+					team_reward: false
+					title: "&e★ 별빛 +25"
+					type: "command"
+				}
 			]
 			tasks: [
 				{
@@ -896,6 +1193,17 @@
 					id: "6D193E541F52818F"
 					item: "mekanism:alloy_infused"
 					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 40"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "4EAFADEC99671CA4"
+					team_reward: false
+					title: "&e★ 별빛 +40"
+					type: "command"
 				}
 			]
 			tasks: [
@@ -931,6 +1239,17 @@
 					item: "mekanism:alloy_infused"
 					type: "item"
 				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 30"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "773077C3D52A6A8A"
+					team_reward: false
+					title: "&e★ 별빛 +30"
+					type: "command"
+				}
 			]
 			tasks: [
 				{
@@ -959,6 +1278,17 @@
 					id: "7E5066CA50210996"
 					item: "mekanism:ingot_steel"
 					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 25"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "516EC5792AD63B4F"
+					team_reward: false
+					title: "&e★ 별빛 +25"
+					type: "command"
 				}
 			]
 			tasks: [
@@ -994,6 +1324,17 @@
 					item: "mekanism:basic_control_circuit"
 					type: "item"
 				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 30"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7D6F33A54862D4F7"
+					team_reward: false
+					title: "&e★ 별빛 +30"
+					type: "command"
+				}
 			]
 			tasks: [
 				{
@@ -1024,6 +1365,17 @@
 					item: "mekanism:ingot_refined_obsidian"
 					type: "item"
 				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 75"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "4D190F6CD09CFD71"
+					team_reward: false
+					title: "&e★ 별빛 +75"
+					type: "command"
+				}
 			]
 			tasks: [
 				{
@@ -1053,6 +1405,17 @@
 					item: "mekanism:ingot_steel"
 					type: "item"
 				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 40"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "78AF48B70A852890"
+					team_reward: false
+					title: "&e★ 별빛 +40"
+					type: "command"
+				}
 			]
 			tasks: [
 				{
@@ -1081,6 +1444,17 @@
 					id: "211B16B3AB1AF64A"
 					item: "mekanism:advanced_control_circuit"
 					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 50"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "78334B7826A4C9CB"
+					team_reward: false
+					title: "&e★ 별빛 +50"
+					type: "command"
 				}
 			]
 			tasks: [
@@ -1112,6 +1486,17 @@
 					item: "mekanism:alloy_infused"
 					type: "item"
 				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 30"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "762EDC4AC7B9C9D1"
+					team_reward: false
+					title: "&e★ 별빛 +30"
+					type: "command"
+				}
 			]
 			tasks: [
 				{
@@ -1140,6 +1525,17 @@
 					id: "50992F440B6F0A29"
 					item: "mekanism:alloy_reinforced"
 					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 75"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "756FAA9C6824C704"
+					team_reward: false
+					title: "&e★ 별빛 +75"
+					type: "command"
 				}
 			]
 			tasks: [
@@ -1180,6 +1576,17 @@
 					item: "mekanism:alloy_reinforced"
 					type: "item"
 				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 75"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "71FF9551774C2682"
+					team_reward: false
+					title: "&e★ 별빛 +75"
+					type: "command"
+				}
 			]
 			tasks: [
 				{
@@ -1209,6 +1616,17 @@
 					item: "mekanism:elite_control_circuit"
 					type: "item"
 				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 100"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7122AC9744A7CDD1"
+					team_reward: false
+					title: "&e★ 별빛 +100"
+					type: "command"
+				}
 			]
 			tasks: [
 				{
@@ -1237,6 +1655,17 @@
 					id: "1F0F7EA31DA1E88A"
 					item: "mekanism:ingot_osmium"
 					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 20"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "44E08178A06B2D40"
+					team_reward: false
+					title: "&e★ 별빛 +20"
+					type: "command"
 				}
 			]
 			tasks: [
@@ -1274,6 +1703,17 @@
 					item: "mekanism:ingot_tin"
 					type: "item"
 				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 15"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "794D3A61531F0945"
+					team_reward: false
+					title: "&e★ 별빛 +15"
+					type: "command"
+				}
 			]
 			tasks: [
 				{
@@ -1309,6 +1749,17 @@
 					item: "mekanism:ingot_osmium"
 					type: "item"
 				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 15"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7D9BE4E73635A278"
+					team_reward: false
+					title: "&e★ 별빛 +15"
+					type: "command"
+				}
 			]
 			tasks: [
 				{
@@ -1338,6 +1789,17 @@
 					item: "mekanism:ingot_osmium"
 					type: "item"
 				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 20"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "48B9E36CE6CC0EE5"
+					team_reward: false
+					title: "&e★ 별빛 +20"
+					type: "command"
+				}
 			]
 			tasks: [
 				{
@@ -1366,6 +1828,17 @@
 					id: "3C86A5ADCDA30629"
 					item: "mekanism:ingot_refined_obsidian"
 					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 50"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "4AFEF7C6B3AE6429"
+					team_reward: false
+					title: "&e★ 별빛 +50"
+					type: "command"
 				}
 			]
 			tasks: [
@@ -1982,6 +2455,7 @@
 			x: -13.0d
 			y: 0.0d
 			icon: "mekanism:atomic_disassembler"
+			rewards: [ ]
 		}
 		{
 			id: "7D213D217E5E532D"

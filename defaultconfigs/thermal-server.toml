@@ -246,8 +246,8 @@
 	[Dynamos.Stirling]
 		#This sets the base power generation (RF/t) for the Stirling Dynamo.
 		#Range: 10 ~ 32000
-		# More Up: 발전 x1.2 (팩 전체 규칙)
-		"Base Power" = 48
+		# More Up: 초반 발전기라 x2 (2026-11-03 "초반 전기 생산이 힘듦")
+		"Base Power" = 80
 
 	[Dynamos.Compression]
 		#This sets the base power generation (RF/t) for the Compression Dynamo.

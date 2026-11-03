@@ -23,6 +23,17 @@
 					item: "integrateddynamics:crystalized_menril_chunk"
 					type: "item"
 				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 10"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "71108F195B5034C6"
+					team_reward: false
+					title: "&e★ 별빛 +10"
+					type: "command"
+				}
 			]
 			tasks: [
 				{
@@ -52,6 +63,17 @@
 					item: "integrateddynamics:crystalized_menril_chunk"
 					type: "item"
 				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 20"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7D61379F48F1F091"
+					team_reward: false
+					title: "&e★ 별빛 +20"
+					type: "command"
+				}
 			]
 			tasks: [
 				{
@@ -80,6 +102,17 @@
 					id: "0A196196646882EE"
 					item: "integrateddynamics:crystalized_menril_chunk"
 					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 15"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7EA8E9B398FB286C"
+					team_reward: false
+					title: "&e★ 별빛 +15"
+					type: "command"
 				}
 			]
 			tasks: [
@@ -113,6 +146,17 @@
 					id: "739FCC11E33C27C2"
 					item: "integrateddynamics:crystalized_menril_chunk"
 					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 15"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "3FDED4AB56F9C272"
+					team_reward: false
+					title: "&e★ 별빛 +15"
+					type: "command"
 				}
 			]
 			tasks: [
@@ -149,6 +193,17 @@
 					item: "integrateddynamics:crystalized_menril_chunk"
 					type: "item"
 				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 20"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "77CEFBACDC03E019"
+					team_reward: false
+					title: "&e★ 별빛 +20"
+					type: "command"
+				}
 			]
 			tasks: [
 				{
@@ -177,6 +232,17 @@
 					id: "7D0FF65D15F3FCCA"
 					item: "minecraft:redstone"
 					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 30"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "0935EC5BB9695C60"
+					team_reward: false
+					title: "&e★ 별빛 +30"
+					type: "command"
 				}
 			]
 			tasks: [
@@ -213,6 +279,17 @@
 					item: "integrateddynamics:crystalized_menril_chunk"
 					type: "item"
 				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 20"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "3DE2C2CF42D0F6D6"
+					team_reward: false
+					title: "&e★ 별빛 +20"
+					type: "command"
+				}
 			]
 			tasks: [
 				{
@@ -242,6 +319,17 @@
 					item: "integrateddynamics:crystalized_menril_chunk"
 					type: "item"
 				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 20"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "625E5349594C9183"
+					team_reward: false
+					title: "&e★ 별빛 +20"
+					type: "command"
+				}
 			]
 			tasks: [
 				{
@@ -269,6 +357,17 @@
 					id: "7DAE3EB60DED6A3B"
 					item: "integrateddynamics:crystalized_menril_chunk"
 					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 20"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7FF6E6D1C342F3E1"
+					team_reward: false
+					title: "&e★ 별빛 +20"
+					type: "command"
 				}
 			]
 			tasks: [
@@ -303,6 +402,17 @@
 					id: "7505AC5B18BA7E59"
 					item: "minecraft:gold_ingot"
 					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 30"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7C3568C4D5848F62"
+					team_reward: false
+					title: "&e★ 별빛 +30"
+					type: "command"
 				}
 			]
 			tasks: [

@@ -60,8 +60,8 @@
 				"nitro": 160000
 			},
 			"generation_rates": {
-				"starter": 24,
-				"basic": 96,
+				"starter": 60,
+				"basic": 120,
 				"hardened": 240,
 				"blazing": 960,
 				"niotic": 2400,
@@ -89,8 +89,8 @@
 				"nitro": 160000
 			},
 			"generation_rates": {
-				"starter": 24,
-				"basic": 96,
+				"starter": 60,
+				"basic": 120,
 				"hardened": 240,
 				"blazing": 960,
 				"niotic": 2400,
@@ -118,8 +118,8 @@
 				"nitro": 2000000
 			},
 			"generation_rates": {
-				"starter": 300,
-				"basic": 1200,
+				"starter": 750,
+				"basic": 1500,
 				"hardened": 3000,
 				"blazing": 12000,
 				"niotic": 30000,
@@ -147,8 +147,8 @@
 				"nitro": 160000
 			},
 			"generation_rates": {
-				"starter": 24,
-				"basic": 72,
+				"starter": 60,
+				"basic": 90,
 				"hardened": 120,
 				"blazing": 240,
 				"niotic": 480,
@@ -176,8 +176,8 @@
 				"nitro": 160000
 			},
 			"generation_rates": {
-				"starter": 24,
-				"basic": 72,
+				"starter": 60,
+				"basic": 90,
 				"hardened": 120,
 				"blazing": 240,
 				"niotic": 480,

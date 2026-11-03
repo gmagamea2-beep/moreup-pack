@@ -4,7 +4,7 @@
 	#Affects the Injection Rate, Max Temp, and Ignition Temp.
 	energyPerFusionFuel = "12000000"
 	#Peak output for the Solar Generator. Note: It can go higher than this value in some extreme environments.
-	solarGeneration = "60"
+	solarGeneration = "150"
 	#Peak output for the Advanced Solar Generator. Note: It can go higher than this value in some extreme environments.
 	advancedSolarGeneration = "360"
 
@@ -19,7 +19,7 @@
 	#Heat Generator Settings
 	[generators.heat_generator]
 		#Amount of energy in Joules the Heat Generator produces per tick. heatGeneration + heatGenerationLava * lavaSides + heatGenerationNether. Note: lavaSides is how many sides are adjacent to lava, this includes the block itself if it is lava logged allowing for a max of 7 "sides".
-		heatGeneration = "240"
+		heatGeneration = "400"
 		#Multiplier of effectiveness of Lava that is adjacent to the Heat Generator.
 		heatGenerationLava = "36"
 		#Add this amount of Joules to the energy produced by a heat generator if it is in an 'ultrawarm' dimension, in vanilla this is just the Nether.

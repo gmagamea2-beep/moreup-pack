@@ -195,6 +195,7 @@
 			title: "&f&l[ 👁 1. 고대의 눈 (Old Eye) ]"
 			x: 10.5d
 			y: -7.0d
+			rewards: [ ]
 		}
 		{
 			description: ["&7\"지옥의 타오르는 불길 속에서 응집된, 분노로 가득 찬 시선입니다.\""]
@@ -222,6 +223,7 @@
 			title: "&c&l[ 👁 2. 네더의 눈 (Nether Eye) ]"
 			x: 8.5d
 			y: -6.5d
+			rewards: [ ]
 		}
 		{
 			description: ["&7\"영원한 빙하 속, 차가운 침묵을 지키던 얼어붙은 시선을 되찾으십시오.\""]
@@ -249,6 +251,7 @@
 			title: "&b&l[ 👁 3. 차가운 눈 (Cold Eye) ]"
 			x: 6.5d
 			y: -5.5d
+			rewards: [ ]
 		}
 		{
 			icon: {
@@ -275,6 +278,7 @@
 			title: "&8&l[ 👁 4. 방랑자의 눈 (Rogue Eye) ]"
 			x: 5.5d
 			y: -3.5d
+			rewards: [ ]
 		}
 		{
 			description: ["&7\"빛조차 굴복시킨 어둠의 응집체, 심연의 본질이 담긴 눈입니다.\""]
@@ -302,6 +306,7 @@
 			title: "&0&l[ 👁 5. 검은 눈 (Black Eye) ]"
 			x: 4.5d
 			y: -1.5d
+			rewards: [ ]
 		}
 		{
 			description: ["&7\"차원의 마력이 휘몰아치는 곳에서 발견된, 비전의 에너지가 넘치는 눈입니다.\""]
@@ -329,6 +334,7 @@
 			title: "&d&l[ 👁 6. 마법의 눈 (Magical Eye) ]"
 			x: 5.0d
 			y: 0.5d
+			rewards: [ ]
 		}
 		{
 			description: ["&7\"역사의 저편으로 사라져 그 누구도 기억하지 못하는 고고학의 파편입니다.\""]
@@ -356,6 +362,7 @@
 			title: "&f&l[ 👁 7. 잃어버린 눈 (Lost Eye) ]"
 			x: 6.0d
 			y: 2.5d
+			rewards: [ ]
 		}
 		{
 			description: ["&7\"거짓된 왕의 지배 아래 오염되어 버린, 비극의 기록이 담긴 눈입니다.\""]
@@ -383,6 +390,7 @@
 			title: "&5&l[ 👁 8. 타락한 눈 (Corrupted Eye) ]"
 			x: 8.0d
 			y: 3.5d
+			rewards: [ ]
 		}
 		{
 			description: ["&7\"파괴의 화신, 위더의 저주가 응집된 죽음의 시선입니다.\""]
@@ -410,6 +418,7 @@
 			title: "&4&l[ 👁 9. 위더의 눈 (Wither Eye) ]"
 			x: 10.5d
 			y: 4.5d
+			rewards: [ ]
 		}
 		{
 			description: ["&7\"심해의 깊은 곳, 신성한 성역을 지키던 파수꾼의 눈을 취하십시오.\""]
@@ -437,6 +446,7 @@
 			title: "&3&l[ 👁 10. 수호자의 눈 (Guardian Eye) ]"
 			x: 13.0d
 			y: 3.5d
+			rewards: [ ]
 		}
 		{
 			description: ["&7\"금지된 비약을 끓이던 마녀의 가마솥에서 나온, 저주받은 통찰의 눈입니다.\""]
@@ -464,6 +474,7 @@
 			title: "&2&l[ 👁 11. 마녀의 눈 (Witch Eye) ]"
 			x: 15.0d
 			y: 2.5d
+			rewards: [ ]
 		}
 		{
 			description: ["&7\"누군가의 한 맺힌 기억이 깃들어 있는, 저주받은 권능의 조각입니다.\""]
@@ -491,6 +502,7 @@
 			title: "&5&l[ 👁 12. 저주받은 눈 (Cursed Eye) ]"
 			x: 16.0d
 			y: 0.5d
+			rewards: [ ]
 		}
 		{
 			description: ["&7\"당신의 차원이 아닌, 미지의 먼 곳에서 날아온 낯설고 신비로운 힘의 눈입니다.\""]
@@ -518,6 +530,7 @@
 			title: "&e&l[ 👁 13. 이국적인 눈 (Exotic Eye) ]"
 			x: 16.5d
 			y: -1.5d
+			rewards: [ ]
 		}
 		{
 			description: ["&7\"질투와 악의로 물든 시선, 모든 선한 것을 부정하는 사악한 힘의 눈입니다.\""]
@@ -545,6 +558,7 @@
 			title: "&c&l[ 👁 14. 사악한 눈 (Evil Eye) ]"
 			x: 15.5d
 			y: -3.5d
+			rewards: [ ]
 		}
 		{
 			description: ["&7\"죽음을 넘어선 뒤에도 눈을 뜨고 있는, 부패한 시체들의 시선입니다.\""]
@@ -572,6 +586,7 @@
 			title: "&7&l[ 👁 15. 언데드의 눈 (Undead Eye) ]"
 			x: 14.5d
 			y: -5.5d
+			rewards: [ ]
 		}
 		{
 			description: ["&7\"마침내 모든 눈이 모였습니다. 이제 거짓된 세계의 진실을 꿰뚫어 볼 마지막 눈입니다.\""]
@@ -599,6 +614,7 @@
 			title: "&b&l[ 👁 16. 신비한 눈 (Cryptic Eye) ]"
 			x: 12.5d
 			y: -6.5d
+			rewards: [ ]
 		}
 		{
 			icon: "edenring:guide_book"
@@ -676,6 +692,7 @@
 			title: "&f&l[ ✧ 깨어진 세계 ]"
 			x: 0.0d
 			y: -5.0d
+			rewards: [ ]
 		}
 		{
 			icon: "minecraft:bundle"
@@ -692,6 +709,7 @@
 			title: "&f&l[ ✧ 주머니 ]"
 			x: 0.0d
 			y: 5.5d
+			rewards: [ ]
 		}
 		{
 			icon: "ae2:singularity"
@@ -738,6 +756,7 @@
 			title: "&f&l[ ✧ 스펙트랄 월드 ]"
 			x: 20.0d
 			y: 3.0d
+			rewards: [ ]
 		}
 		{
 			icon: "celestial_artifacts:abyss_core"
@@ -831,6 +850,7 @@
 			title: "&f&l[ ✧ 에덴 ]"
 			x: 20.0d
 			y: -2.5d
+			rewards: [ ]
 		}
 		{
 			icon: {
@@ -853,6 +873,7 @@
 			title: "&f&l[ ✧ 지하세계 ]"
 			x: 20.0d
 			y: -5.5d
+			rewards: [ ]
 		}
 	]
 	title: "&6&l제3장 ⟡ 다차원의 성전"

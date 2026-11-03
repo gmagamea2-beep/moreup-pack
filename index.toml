@@ -42,7 +42,7 @@ hash = "b3c50755f421aff5ba6b23a9b1aa8dddf9be0d200b363635134db3ee68e11338"
 
 [[files]]
 file = "config/Mekanism/generators.toml"
-hash = "b2c73b1f23cdf896f12f61c441cd1bd8d5bf67a0fcc7d37a1fdf53b53e7047b1"
+hash = "6d32c4b651490249dd1e44ff92799827487685ce80df4a5f3e78bd1d411dec9f"
 
 [[files]]
 file = "config/Mekanism/machine-storage.toml"
@@ -534,7 +534,7 @@ hash = "2449bfa0cb198934e900eaa412d2bc4c7cc49798a12717f9fff6b49a7da3b472"
 
 [[files]]
 file = "config/createaddition-common.toml"
-hash = "24626a0d6f0c26f1c8b02973560d7f8f53bde33929e5b1b4a8ce7c81af828193"
+hash = "c88f99aabc954e383818893442782693d6887b22ebf22128c2665070cd8b321f"
 
 [[files]]
 file = "config/creategoggles-client.toml"
@@ -998,79 +998,79 @@ hash = "1e52a6032e7959cb74aa356462b50f69c30332d29f347182c772f633eae6de4e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/593182E579CF4F4F.snbt"
-hash = "a1383c39ea81d02f1346d7e0d6214fb716fe4e8ac5735439d23402e38d5f5148"
+hash = "52932b367eaf4c2dfee92b61c8a1f3884a0b8f0dca6230d37c941e3ec3862728"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chapter_1.snbt"
-hash = "604e15230f41ba986089c086f95142d08fbaf6585134a4f3c461cb862febdca8"
+hash = "49b8927fa4ae5188f93259378b5455871df5394fb34101212d13bfdbeb57f132"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chapter_2.snbt"
-hash = "25aaae3b73fec131482da2ba3e27e49675d7b5aa886c537258d40d8538896be5"
+hash = "2ec1cc7d58bc2cfee9fb28afe1ed7a1413bcdc75436a54c31a35ed3fe620f038"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chapter_3.snbt"
-hash = "647973b58feb8ac3807d9ef524af4f2e900979b74fc9beff443625d9a90604b9"
+hash = "34e5ea933000bf45d1fe1299d6976a4f733748a5766e515062ba590b3c0c0c86"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chapter_4.snbt"
-hash = "b9a41beb2260eef6fb1e9f8b69154dec6e22f0ae2bdfa4063d2d94f39199ef9e"
+hash = "c8f2960b5f5768de908bb2b274fac21af9f8a652188220f578608425ed90d176"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chapter_5.snbt"
-hash = "e93a58fd2eabd50659bdf70d4b777361bf46e00fbc92a93569a34f9b324e8135"
+hash = "500811ff6b16daa1daa37c0873c976a242835499d0b825af789b609fed94cee7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chapter_6.snbt"
-hash = "23b7aa3ef20a86399f0274b563ac850b76f0dd85c24b05da8bf3d8b959316231"
+hash = "361919703810dc78eaa0cd6c71598247b45659081f56179bd1894d0f42522713"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chapter_7.snbt"
-hash = "994057883a690ef2514b7ee32bf9609b321f0594a72c3f530a3e3978cae4fac5"
+hash = "278833f09901142ac39da3790d2155f25bba399d58ea8cb7e870f782dc9ceab5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/moreup_accessories.snbt"
-hash = "c9c7b84560e4a9d72be6cbb9002dc5daaab7417e9e07015483e55d420d37b3b4"
+hash = "cad604670480a7c562c4070ce1ed1682658118b6f928b96d97ce89ae2cc2531a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/moreup_ae2.snbt"
-hash = "ed90cb34c1afa4ec91f5cf4eff3fc5ac01e1be1118d935fa8ad3d67fad6900e6"
+hash = "af1f581641e9ca6dfc69dc75ada56be7e0ad9189be6e09884730cd884d4d378b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/moreup_aether.snbt"
-hash = "be1b7a2bcda971efdc68ec51ab0c664feb3e36f2787bbedd738c43f64e571f89"
+hash = "412fb58d1dec72de065dad3e4227ddb44592dc8f76abbc3b2bfcdae0d14d823b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/moreup_aircraft.snbt"
-hash = "dcaace4776a01620a19529ca5f9d1fcefa42579cd5b371a4e702809aef2ddd08"
+hash = "70e9a42226c9064d47e93ffd2e8b2e9704a49837066015d8f5c89b086bfdc0cc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/moreup_bossominium.snbt"
-hash = "3138486b917d73c8faac454b34cb316b2768c367476013e0595317aa586ebf90"
+hash = "448410caeb18c65b54106bc0fccf6dae0b143b2b4620ea38ffc88f5101115b83"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/moreup_cataclysm.snbt"
-hash = "0b8633c7564f00c0e89ab42375841ca5cc5fabb90ab4dea2572bdc0d0ba1d372"
+hash = "9c8a370023de605fbac1229ab1bcaf40637d569eb083675e6dc8abb5645da464"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/moreup_cooking.snbt"
-hash = "72cdbb93d173662c26c9f984c9f6c9d17a6ea37da2841e42a53ee2ec746c43eb"
+hash = "b73404eb906ca65c0c9a47afed18fa6306cb120550209bb8954b739c458a133f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/moreup_cooking_addons.snbt"
-hash = "c2a325900a965c5158a376f83d80145bbae37fa98518bdfd601e87fb269c2804"
+hash = "c1b10cbd7c316af147a5e061ff5890db604303768eec62df1ac3be679c265dd5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/moreup_create.snbt"
-hash = "0a3c79cefe1f77c33451379dd264b5a6c3d4cbe7f78ac1336c8692f9383ba591"
+hash = "b9716ad115dd8320746093a3a0ede139c1d5fd6977256d2a94a8401e9107ab70"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/moreup_create_addons.snbt"
-hash = "c53ce8bd942cb30861e140f26d3ca9d7e1e3c07f01f5c8963361ab144eb2a24c"
+hash = "2c8ad9db342769aa2805c1fe5526be5e0d0df5cb0e0697d5f421ae786a495752"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/moreup_depths.snbt"
-hash = "c45a593be6ea26e2489f62f6dde84ac3db60261baec6cddd57f656688b431642"
+hash = "bc9812ad70b45fca29546ec0fd580729b3216a26614873460ad62769f205e271"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/moreup_essence_bounty.snbt"
@@ -1078,67 +1078,67 @@ hash = "1349bb5099202e1146ce789c0f8dfd0e56e19b59fa4e9cc1966b049340ec45a4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/moreup_fishing.snbt"
-hash = "6f3f8dc101fd97b3badba590e46472717f02944781b61618d341637edff52e1e"
+hash = "f33cc11f9e507234b24c7657af20ec32f983777fdd8759542cca0de3ac7ae390"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/moreup_foregoing.snbt"
-hash = "ffc201bb7942d6243215506beaddf55c6917297c9a3680c4584a2696fcc1300c"
+hash = "2db18d9ae523c03ccd913cb07b7d04bbea69aebf07ed1e3ea43ff06e158d2d27"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/moreup_iceandfire.snbt"
-hash = "1cea3c5c4bb23d2189fca1743a268e0628bf8960ae752623a710b1d331c2eb77"
+hash = "1042f66d353aa1a927e8bb2981eeb06273047be3776e40b6766ffda44dc57e43"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/moreup_integrated.snbt"
-hash = "e05c3605eb3ff2aaf32312b4ee820d37e9adcc35c1ec9fad73736244bfcc8fe9"
+hash = "399b902d4acd77b6cd5a8589c2880e5948ab14eddf94f4ede2b9e49ab56b69ec"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/moreup_mekanism_adv.snbt"
-hash = "02fc4cffbdbcdac2362df54bf80215a7e098fa812fecf6a3a783c5874cffa8cc"
+hash = "52c18eaf18dcf5049e56a9e28e24cc2a23327b2c9f4867097bb30f34e70d08c1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/moreup_mekanism_extras.snbt"
-hash = "016dd6c05f388ff55256e67768cb3a370b2d879f6fc75f6a6b358095b1712422"
+hash = "1ae6b1ffabe932c71df04a39785d5ac16df2f40ae537f202bc008a9bbc8d9be8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/moreup_mekanism_gen.snbt"
-hash = "ddb93665cf910ad936feabd8314f50ea99478c0dc03cc8fc25782cd24ef6e53e"
+hash = "b1173176da1ab38295a9e75b333af5e669db8ad645e8952b76b02e2dc7b7a86f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/moreup_mekanism_mm.snbt"
-hash = "5525724488efdcdb42402368b3a178843a802db46df6e2a89913407062fd75a3"
+hash = "3fc2cd75fedc5870047e98f1cea15763cdaef4d978e4c1991db78501107fe672"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/moreup_pneumaticcraft.snbt"
-hash = "73b79bb89f4a7640345a687a6ed3cce72eb2a136b3a6dbc2ec699433bcc646fd"
+hash = "04986157a051349117132f42905c0c6a5c1201e9360b11a54c2202f0d3de99e0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/moreup_powah.snbt"
-hash = "81604202a7521cc7c8236bc581353161e6ed5b9c53ee9e75073db7bf5f27b259"
+hash = "e527fea6673edbbcea8e9c83b6af2509c1c16399eff1af4f297afbe4ce521a87"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/moreup_survival.snbt"
-hash = "b9bc7910ce1ccaf05e7fde3a6f1bdd1241425059f8e37eae6c77991213fb7879"
+hash = "6444c5cb60b4ff35c4386d1994a146dd01a7a88dd9285d758974ca1dfcca4664"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/moreup_tech_links.snbt"
-hash = "4f0f23660df62f4cb70a69a1e44aeeea3e165ee1d2c96f8766a047918cd3e590"
+hash = "b5aaa9962b3ae7cda4f6155260e7160f20c7fc2da827192396a460adcb63a950"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/moreup_thermal.snbt"
-hash = "48c5279878496b4f0b4278a0c9398a4d7dd8af20eb059ab37585dfa1a1d9d1ea"
+hash = "c5e55afeb1b9a7d569963d768b04508a07e37ebdbaba8ddfbe9f41e26eefd04d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/moreup_twilight.snbt"
-hash = "d5c517e2c0197bb9e4a09b7fe5e18522f03daf4cd5be2bc8ec0f5c7860059bb0"
+hash = "27068d94fbabcad64167657d21f2ec2b96591cc43b02cafe39b1c330bb9b8508"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/moreup_wandering_bosses.snbt"
-hash = "e0eb09673bc37141f7dbe96b7e242ac78b2ae5e968abb7e86c258fd61453164e"
+hash = "25ea45bb0498bede7839e7d817a298f20cd3a4d2b4cdb5f572deb8dd709a6d46"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/moreup_weapons.snbt"
-hash = "f3bf2e27b788ccb9230cb45231de4aba43699297e5aa95a5ed72cd98a413f35c"
+hash = "cd484a6824708c6d4a91b9ff9ddde0db8f9828a489a4483a2ddd5d28fe01afa5"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -1518,23 +1518,23 @@ hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 
 [[files]]
 file = "config/industrialforegoing/machine-agriculture-husbandry.toml"
-hash = "b4a6612c75f16deeec92b748ffd28c811c23c83a8a9408111d43944b98cdf58f"
+hash = "7888be964d07d82acba457c7cfb86300bed683eb6b9dea4b0996fbe3c99560ea"
 
 [[files]]
 file = "config/industrialforegoing/machine-core.toml"
-hash = "4eb31ba58f2909f2551066c62a6ee0e0ce83bedc4a1460c5dfbd75647ea5c1a2"
+hash = "ef478fc398bdcebc10e0a77e64e478183399f0444005f457942c5b35e0011ebb"
 
 [[files]]
 file = "config/industrialforegoing/machine-generator.toml"
-hash = "90def9413a44d30f2235ad18fd6e3286715d80b3c1c1a0d2f545069b9051df3d"
+hash = "613a96d21aa1726f5532ffdd21de05db32bc6c99df4f8d109137e4e4b7b0519e"
 
 [[files]]
 file = "config/industrialforegoing/machine-misc.toml"
-hash = "66050ab57207cc988a4450593fdc9384486cac2d3ce9f16dbd6b1da91966d67c"
+hash = "97f8a404aaf8ac7d86d232e7bc8b9581d5b66b803578ebbf534195a2883b055a"
 
 [[files]]
 file = "config/industrialforegoing/machine-resource-production.toml"
-hash = "9af35fd3604ba524c84328702c683d4b1be610adf16b4f6fa304a2d10ef96a27"
+hash = "92c6f5c442e47c6641a10e5133dc5aec0f809aae8673120987897fdc686bc70a"
 
 [[files]]
 file = "config/insanelib.toml"
@@ -1878,7 +1878,7 @@ hash = "56291af4bc3506692c79f5c0155c47cce8577d0aae6ed5930c9074d5cb9bc5c8"
 
 [[files]]
 file = "config/powah.json5"
-hash = "2c91f545ef514740fc4ad4742c2f8df122949a172b8fc707cab3c9f7458fd93a"
+hash = "41d157de94a5436588c11a93cde1b2ec3bc07f69a2a528b4f3a538a6c1e3339a"
 
 [[files]]
 file = "config/progressivebosses-common.toml"
@@ -2330,7 +2330,7 @@ hash = "2e2eca7cc918c80381d6ab504f37a085848b80302060889a401cf12fc03965cd"
 
 [[files]]
 file = "defaultconfigs/thermal-server.toml"
-hash = "7a6b4e413545355ea80d55b1a5ad8ef979d8d4f5949a5a287d75c7bc40b4efd1"
+hash = "d55e7e084487c513b632f86676774b4d0e7067241b33230183344a1824b818df"
 
 [[files]]
 file = "kubejs/README.txt"
@@ -3629,6 +3629,10 @@ file = "kubejs/data/moreup/damage_type/dusk_judgment.json"
 hash = "524c5e70a851be7c7914a3e4985f22ccd70c5c892e69fb235e7fd0753e13e965"
 
 [[files]]
+file = "kubejs/data/moreup/moreup_growth/bestiary_hints.json"
+hash = "6640cdcd1dcf37ea6de71a8f07ad1601ab3d1c2a1175185f8794ef15ed631be8"
+
+[[files]]
 file = "kubejs/data/moreup/moreup_guide/guide.json"
 hash = "1b4350d3ef36023881842b799adea7a542102f44943e18d3b7796941f0a016e7"
 
@@ -3743,6 +3747,10 @@ hash = "6f27a527d57c59096fc59caf8e22142c5d4abe5bcbe6eaab555f2a58b18bc206"
 [[files]]
 file = "kubejs/server_scripts/tags/dusk_gear.js"
 hash = "10bcdfa7ef9264b9b3ddfe9285d8ee4da421b7c8865e7b7abf670351a4ffacd6"
+
+[[files]]
+file = "kubejs/server_scripts/tags/growth_tags.js"
+hash = "9e301994778723e304a6b96dcd72cb3955c3c2691be4e0673a503ccfdd341a9b"
 
 [[files]]
 file = "kubejs/startup_scripts/moreup_armor_balance.js"
@@ -4954,7 +4962,7 @@ metafile = true
 
 [[files]]
 file = "mods/moreup-core.pw.toml"
-hash = "9de4a50927a7b898256ca1466b3a54304b64613204637bddf93f07afc19a9d02"
+hash = "493505d81a291bf396a1a2917520c3944469bc6f08e75d38818ff4e5a7ce2b72"
 metafile = true
 
 [[files]]

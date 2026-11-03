@@ -13,7 +13,7 @@
 
 	[MachineGeneratorConfig.PitifulGeneratorConfig]
 		#Amount of Power Produced per Tick - Default: [400FE]
-		powerPerTick = 25
+		powerPerTick = 63
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 100000
 		#Amount of FE/t extracted from the Pitiful Generator
