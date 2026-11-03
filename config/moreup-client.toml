@@ -15,6 +15,11 @@
 	rotate = false
 	#미니맵 아래에 좌표 표시
 	showCoords = true
+	#미니맵 모양 (SQUARE 사각, CIRCLE 원)
+	#Allowed Values: SQUARE, CIRCLE
+	shape = "SQUARE"
+	#미니맵 테두리에 동서남북 표시
+	compass = true
 
 [waypoints]
 	#월드에 웨이포인트 이름·거리 표시
@@ -35,19 +40,29 @@
 	team = true
 	#발견한 웨이스톤 표시 (Waystones)
 	waystones = true
-	#가까운 보스·정예 몬스터 표시
+	#가까운 보스 표시
 	bosses = true
 	#집(/sethome) 표시
 	homes = true
 	#팀 핑을 월드에도 표시
 	pingsInWorld = true
-	#지나간 길 기록·표시
+	#지나간 길 기록
 	trail = true
 	#차원마다 기억할 지나간 길 점 개수 (점 사이 약 4블록)
 	#Range: 100 ~ 20000
 	trailMaxPoints = 3000
 	#탐험가의 나침반(Explorer's Compass)이 찾은 구조물을 웨이포인트로 자동 저장
 	compassWaypoints = true
+	#가까운 정예 몬스터 표시
+	elites = true
+	#내 웨이포인트를 지도에 표시
+	waypoints = true
+	#사망 지점을 지도에 표시
+	deaths = true
+	#FTB Chunks 차지를 큰 지도에 표시
+	claims = false
+	#지나간 길을 지도에 표시 (꺼도 기록은 계속한다)
+	trailVisible = true
 
 [performance]
 	#틱마다 지도에 반영할 최대 청크 수 (메인 스레드 부담)
@@ -59,4 +74,19 @@
 	#메모리에 올려 둘 지도 타일(256x256 블록) 최대 개수. 타일 1개 ≈ 256KB + 같은 크기의 GPU 메모리
 	#Range: 32 ~ 1024
 	maxLoadedTiles = 160
+
+#별빛 레벨·숙련도·도감 표시
+[growth]
+	#핫바와 경험치 막대 사이의 얇은 별빛 막대
+	hudBar = true
+	#경험치 막대 오른쪽의 별빛 레벨 숫자
+	hudLevel = true
+	#인벤토리 화면의 별빛 버튼
+	inventoryButton = true
+	#인벤토리 버튼 위치: 인벤토리 오른쪽 위 모서리 기준 가로 이동 (다른 모드 버튼과 겹치면 조정)
+	#Range: -400 ~ 400
+	inventoryButtonX = 0
+	#인벤토리 버튼 위치: 세로 이동
+	#Range: -400 ~ 400
+	inventoryButtonY = 0
 

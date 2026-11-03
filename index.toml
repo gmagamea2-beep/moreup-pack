@@ -241,6 +241,10 @@ file = "config/apoli-common.toml"
 hash = "b15934d497ae5837e88013c5ec03754904eea2d010a7e557734dd9f049510538"
 
 [[files]]
+file = "config/appflux-common.toml"
+hash = "0001e065fd56cbc7f63768b7678495221cbccde4ede73ebd7f70e9464d6c9611"
+
+[[files]]
 file = "config/appleskin-client.toml"
 hash = "b477c8c493b28366a6b282f29f46c9415e3a4a2a23fff6e09331644c435dfd48"
 
@@ -266,7 +270,7 @@ hash = "736bec8c910558091bb749ac7adb013822a253a02f1f70637eb193952768d2b1"
 
 [[files]]
 file = "config/attributefix.json"
-hash = "e8bde4cdbfbed3beb227e6e0e0ca3c7cbc8505b5fa08da79a393f6ed5f7c00d5"
+hash = "93da14bc961637ec38bf5f7b5f62003266d9e55b6b80739cb70ee87e98ad9f8f"
 
 [[files]]
 file = "config/attributeslib.cfg"
@@ -290,7 +294,7 @@ hash = "2be2af5e5a1049775fb6e2a54fa9ce164d94083097753e9edfebed7f42354015"
 
 [[files]]
 file = "config/badmobs-common.toml"
-hash = "329b6ae6093bf9c7782b24e3ab6e15a8aea29d3b3b20d3b6cfb9954f26a65b4c"
+hash = "8d2857c94edd87211cdab1375d4299d1c86544634fb22af380d76d2fa96b5708"
 
 [[files]]
 file = "config/badoptimizations.txt"
@@ -441,6 +445,14 @@ file = "config/citadel-common.toml"
 hash = "3fcd8013137a86c00953d4be1e56945b84b87594be722bbf3b3be8d752e2577f"
 
 [[files]]
+file = "config/cofh_core-client.toml"
+hash = "c683eaf3dcb24312ce939ad6580490cde2dc5477349cd87e9b3ae45575f21a6b"
+
+[[files]]
+file = "config/cofh_core-common.toml"
+hash = "e254fd10199336dd0e0c1c3f20a8daa1fdf9ca026b02dd9c0064ae1f058b9393"
+
+[[files]]
 file = "config/collective.json5"
 hash = "92809d098b5efeca95c37ec4fef9184bd169160d18efecf81f395c4030c0f83f"
 
@@ -534,7 +546,7 @@ hash = "2449bfa0cb198934e900eaa412d2bc4c7cc49798a12717f9fff6b49a7da3b472"
 
 [[files]]
 file = "config/createaddition-common.toml"
-hash = "c88f99aabc954e383818893442782693d6887b22ebf22128c2665070cd8b321f"
+hash = "a77230e30560d2c1c5cc4bcf02a07f0da517e227ae60c47d97f1a408be2e5341"
 
 [[files]]
 file = "config/creategoggles-client.toml"
@@ -771,6 +783,14 @@ hash = "44198ad591572d87a9f71b0b636229d91508a8c971f9dca907bed3c6d6754193"
 [[files]]
 file = "config/ferritecore-mixin.toml"
 hash = "d392b200106db588f840e4b88691e91aa94bfa344d0becfc6d4e7407df739fb0"
+
+[[files]]
+file = "config/fluxnetworks-client.toml"
+hash = "a4d5d1dbd640f1cfe4daa2f78ad76f4fe2a939937bbcec2b157b54ecda4e7d6e"
+
+[[files]]
+file = "config/fluxnetworks-common.toml"
+hash = "a67d3281d40aefa23a85aec7b69bc9b0dee81496793d9c33cd7d25e879bf41a1"
 
 [[files]]
 file = "config/flywheel-client.toml"
@@ -1518,23 +1538,23 @@ hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 
 [[files]]
 file = "config/industrialforegoing/machine-agriculture-husbandry.toml"
-hash = "7888be964d07d82acba457c7cfb86300bed683eb6b9dea4b0996fbe3c99560ea"
+hash = "b4a6612c75f16deeec92b748ffd28c811c23c83a8a9408111d43944b98cdf58f"
 
 [[files]]
 file = "config/industrialforegoing/machine-core.toml"
-hash = "ef478fc398bdcebc10e0a77e64e478183399f0444005f457942c5b35e0011ebb"
+hash = "4eb31ba58f2909f2551066c62a6ee0e0ce83bedc4a1460c5dfbd75647ea5c1a2"
 
 [[files]]
 file = "config/industrialforegoing/machine-generator.toml"
-hash = "613a96d21aa1726f5532ffdd21de05db32bc6c99df4f8d109137e4e4b7b0519e"
+hash = "d2f54447be74e2c1b35bc2dd65987df956b063dc055e8842a2eba7b3b15ece8f"
 
 [[files]]
 file = "config/industrialforegoing/machine-misc.toml"
-hash = "97f8a404aaf8ac7d86d232e7bc8b9581d5b66b803578ebbf534195a2883b055a"
+hash = "66050ab57207cc988a4450593fdc9384486cac2d3ce9f16dbd6b1da91966d67c"
 
 [[files]]
 file = "config/industrialforegoing/machine-resource-production.toml"
-hash = "92c6f5c442e47c6641a10e5133dc5aec0f809aae8673120987897fdc686bc70a"
+hash = "9af35fd3604ba524c84328702c683d4b1be610adf16b4f6fa304a2d10ef96a27"
 
 [[files]]
 file = "config/insanelib.toml"
@@ -1574,7 +1594,7 @@ hash = "04cb5f4fb2c096912c34cc2a2e72ba4df401fb712fba9e0db54ffdaea43b964c"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "6f22ee95b14e9ede37d0b719f8b83bdb1242cce08b8e6d9eaac8104764e983c5"
+hash = "845bad9204a80376083579d2b88792c2645de91de0cc40192b45716ac1c5bfd0"
 
 [[files]]
 file = "config/jade/server-plugin-overrides.json"
@@ -1582,7 +1602,7 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "config/jade/sort-order.json"
-hash = "e55b8cf04882bd5ccce1715140b295f909af92c285170bedb76417932ba6ee1a"
+hash = "7ff697b3419406a1453c075f8ca51b688a748f590d0d8500ecb7c81741ee70b6"
 
 [[files]]
 file = "config/jamlib/known_suspicious_jars.txt"
@@ -1762,7 +1782,7 @@ hash = "02cd35fbcc371cf63303ae1264ad9f4613b3f73ace93417af825baf7d3ac7baf"
 
 [[files]]
 file = "config/moreup-client.toml"
-hash = "4b672b76bd40a69b77be8c1dd6077f273647eaddcd10fca7329642b180f9089a"
+hash = "adae03207bfdede7a0b505eb98cafb4368b674644318cca0c09e685f8398831e"
 
 [[files]]
 file = "config/mowziesmobs-client.toml"
@@ -1802,7 +1822,7 @@ hash = "0d3c92ba50e31505475a5866dc81086230c3e3e683dc8ff2536b850f64ef9b54"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "881ca8a219b81f7a167d30a38b0fb6e1209eb32b6ffe61143eb66df3ceaa213b"
+hash = "5bef8c3e29444264ad78c800b251b1709f716a96a5e608013fcc22df110f74d7"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -1869,6 +1889,34 @@ file = "config/pmlconfig.toml"
 hash = "f8cd5e78ccb217513bbe8d5ab071066a7108b39a8acd50b7bb4ba7dcb5e90f04"
 
 [[files]]
+file = "config/pneumaticcraft-client.toml"
+hash = "5bf93a3e928906316ed4c2538e333b496ad61bbdc140a9cc6c7c1b4630465c97"
+
+[[files]]
+file = "config/pneumaticcraft-common.toml"
+hash = "72a800d878606ae8438c06ccd174ebf8e745fd3c386a6dfa349cca7c6bfb3f1c"
+
+[[files]]
+file = "config/pneumaticcraft/ArmorFeatureStatus.cfg"
+hash = "3260c358de448f81835cefd85f2da6a53e4bdcd2be2451c04c0a163e2c0e20be"
+
+[[files]]
+file = "config/pneumaticcraft/MicromissileDefaults.cfg"
+hash = "cf52b07316b17e5217bcd9983b8b5060683d0fe0ed26376e41011bf40e3ea997"
+
+[[files]]
+file = "config/pneumaticcraft/PneumaticArmorHUDLayout.cfg"
+hash = "052d37ccd8ea50a41b1313430b3b85690ae130e6fde53c1c4902ab40e51afb4f"
+
+[[files]]
+file = "config/pneumaticcraft/ProgrammingPuzzleBlacklist.cfg"
+hash = "dbf7e597284cb34c451872fadf82fbeb705e4d66d8e17ac358b5cc10cfb7a321"
+
+[[files]]
+file = "config/pneumaticcraft/thirdparty.cfg"
+hash = "8a456f5bdac4e667bea52c6b0027aa43aa13401b8783b4a95d2ae28bdbee7ced"
+
+[[files]]
 file = "config/polymorph-integrations.toml"
 hash = "43a7425a314be7d78c2e31d44ab8f46c5ee824ab10906ab8909923d23646b6ad"
 
@@ -1878,7 +1926,7 @@ hash = "56291af4bc3506692c79f5c0155c47cce8577d0aae6ed5930c9074d5cb9bc5c8"
 
 [[files]]
 file = "config/powah.json5"
-hash = "41d157de94a5436588c11a93cde1b2ec3bc07f69a2a528b4f3a538a6c1e3339a"
+hash = "366e6299bae68ccfb77cf220a47146c7d4fa3885bf96b6a9f62009ed7c1a2041"
 
 [[files]]
 file = "config/progressivebosses-common.toml"
@@ -2030,7 +2078,7 @@ hash = "e26b00784bb6239988759ed1a64551b9f301dc33c5a855d91e976ee4bf40ac8a"
 
 [[files]]
 file = "config/sound_physics_remastered/sound_rates.properties"
-hash = "391d30f9a867100a8052aa273985b3e217d4536952f7caa83154ec915acef807"
+hash = "0a4ae1994326af778c23adc01bd9c10d77afa65e28ffdc807ef6a54727a0087c"
 
 [[files]]
 file = "config/sound_physics_remastered/soundphysics.properties"
@@ -2117,8 +2165,12 @@ file = "config/terrablender.toml"
 hash = "59d79e8bc4a42e678196a7164e5841a9803f8684f1b52b9944ce554c9f353691"
 
 [[files]]
+file = "config/thermal-client.toml"
+hash = "36436c2d8e9cc35f54f353529d30f300e54818368f32227e2246d22744152ba2"
+
+[[files]]
 file = "config/thermal-common.toml"
-hash = "701c254034dc0018c3920403950dbf1162a65b624158c9a50a11ccf6c0d00892"
+hash = "6a77dcad4376b6083018d82e5c1509a2044ac187d3b6244d28cb25863f1113bb"
 
 [[files]]
 file = "config/titanium/titanium-tags.toml"
@@ -4702,7 +4754,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "6bd9e89474d4fa930d476b89499a02a07f750eec60bb47d4b216254ce48c5efa"
+hash = "5f7c3cf35124bf96e880cc8562fc44ac15990a89b07db299aed9a88ce3752cb1"
 metafile = true
 
 [[files]]
@@ -4933,11 +4985,6 @@ metafile = true
 [[files]]
 file = "mods/mekanism.pw.toml"
 hash = "7c411a566d022680769ddb8323984fff292ddeb35e7d8fcfe2cc41b9885d9557"
-metafile = true
-
-[[files]]
-file = "mods/mezzconfig.pw.toml"
-hash = "b9eea39bcf3797fe6221c607070e0910e7425a555afadd60badde8c83932dcbc"
 metafile = true
 
 [[files]]
@@ -5552,7 +5599,7 @@ preserve = true
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.8.1.zip.txt"
-hash = "869d9b29cfc8710eeeb9d4d615885af1cf63b51e263daf7b893db067c3c23655"
+hash = "f04c0077963445268242ccb04723890d6b81f4efefb659844563a75e09019263"
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"
