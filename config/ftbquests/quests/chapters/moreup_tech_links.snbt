@@ -5,7 +5,7 @@
 	group: "7E05AA7C371599AC"
 	icon: "fluxnetworks:flux_controller"
 	id: "7DE757BAC7C6FCF3"
-	order_index: 26
+	order_index: 27
 	quest_links: [ ]
 	quests: [
 		{

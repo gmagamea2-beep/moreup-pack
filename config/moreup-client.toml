@@ -4,7 +4,7 @@
 	enabled = true
 	#미니맵 한 변 크기 (GUI 픽셀)
 	#Range: 64 ~ 256
-	size = 120
+	size = 200
 	#미니맵 위치
 	#Allowed Values: TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
 	corner = "TOP_RIGHT"
@@ -12,12 +12,12 @@
 	#Range: 0.25 ~ 8.0
 	scale = 0.5
 	#플레이어 방향에 맞춰 미니맵 회전
-	rotate = false
+	rotate = true
 	#미니맵 아래에 좌표 표시
 	showCoords = true
 	#미니맵 모양 (SQUARE 사각, CIRCLE 원)
 	#Allowed Values: SQUARE, CIRCLE
-	shape = "SQUARE"
+	shape = "CIRCLE"
 	#미니맵 테두리에 동서남북 표시
 	compass = true
 
@@ -62,7 +62,7 @@
 	#FTB Chunks 차지를 큰 지도에 표시
 	claims = false
 	#지나간 길을 지도에 표시 (꺼도 기록은 계속한다)
-	trailVisible = true
+	trailVisible = false
 
 [performance]
 	#틱마다 지도에 반영할 최대 청크 수 (메인 스레드 부담)

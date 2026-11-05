@@ -1,0 +1,245 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "moreup_constellation"
+	group: "7E05AA7C371599AC"
+	icon: "moreup:engraving_dragon"
+	id: "76654C8BB3247F91"
+	order_index: 23
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&f별빛 레벨 &e5&f가 되면 일곱 영혼의 별 가운데 하나를 고를 수 있다."
+				"&f인벤토리 ★ 버튼(또는 &e/별자리&f) → 「별자리」 탭 가운데."
+				""
+				"&7용비늘(방어) · 불꽃검(근접) · 하늘활(투사체) · 망치(채굴) · 등불(주문) · 나침반(이동) · 샘물(회복)"
+				"&b공명&f: 32칸 안 팀원이 나와 다른 별자리면 서로 주는 피해가 오르고 받는 피해가 줄어든다."
+				"&7처음 한 번은 무료로 바꿀 수 있고, 그 뒤로는 중급 보스 정수 3개와 하루가 걸린다."
+			]
+			id: "7EB8F47307CBE7B5"
+			rewards: [
+				{
+					id: "710CA9A8DD44FA64"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 8
+					id: "796A8BF9A7CCD12D"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 50"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "784CDE2701EBAE50"
+					team_reward: false
+					title: "&e★ 별빛 +50"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "140B705072309B95"
+					type: "checkmark"
+				}
+			]
+			title: "&9&l[ ★ 수호 별자리 ]"
+			icon: "moreup:engraving_spring"
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			size: 1.5d
+		}
+		{
+			dependencies: ["7EB8F47307CBE7B5"]
+			description: [
+				"&f별빛 레벨이 오르고 도감·창세의 길이 채워질수록 &e별 조각&f이 생긴다."
+				"&f「별자리」 탭의 밤하늘에서 별을 이어서 켠다. 별자리 다섯 개(전투·수호·기술·마법·생존)를 다 켤 만큼은 모이지 않으니 길을 골라야 한다."
+				"&7별자리 하나를 끝까지 켜면 핵심별의 큰 효과가 붙는다. 초기화는 처음 한 번 무료."
+			]
+			id: "74C83A40545B8438"
+			rewards: [
+				{
+					id: "0400971F4F50E66E"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "498AE4EAEF0B6515"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 50"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7F3218405C69E8C7"
+					team_reward: false
+					title: "&e★ 별빛 +50"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "49F2ECB111F96E00"
+					type: "checkmark"
+				}
+			]
+			title: "&b&l[ ❂ 별자리 판 ]"
+			icon: "moreup:engraving_compass"
+			x: 1.75d
+			y: -0.75d
+			shape: "gear"
+			size: 1.5d
+		}
+		{
+			dependencies: ["7EB8F47307CBE7B5"]
+			description: [
+				"&f자수정 조각 4 + 중급 보스 정수 + 별자리 재료로 각인석을 만든다 (JEI 에서 「각인석」 검색)."
+				"&7재료: 용비늘=용 비늘, 불꽃검=블레이즈 막대, 하늘활=깃털, 망치=철 블록, 등불=청금석 블록, 나침반=나침반, 샘물=반짝이는 수박 조각"
+			]
+			id: "379CD4A562B61D5E"
+			rewards: [
+				{
+					id: "7E324B0E717C8073"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 4
+					id: "7F58C52EFEC198DA"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "753520D9B50E687D"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 75"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "72E8D64D3D7C5F37"
+					team_reward: false
+					title: "&e★ 별빛 +75"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "7255A915CE9CAEAA"
+					type: "checkmark"
+				}
+			]
+			title: "&d&l[ ❂ 각인석 만들기 ]"
+			icon: "moreup:engraving_lamp"
+			x: 1.75d
+			y: 0.75d
+			shape: "gear"
+			size: 1.5d
+		}
+		{
+			dependencies: ["379CD4A562B61D5E"]
+			description: [
+				"&f모루 왼쪽에 무기·방어구, 오른쪽에 각인석을 놓는다 (경험치 5레벨)."
+				"&f툴팁 첫 줄에 「✦ ○○자리 각인」이 보이면 성공이다. 다시 새기면 덮어쓴다."
+				"&e수호 별자리와 같은 각인&f이면 효과가 1.5배가 된다."
+			]
+			id: "71A79E3D509A9E60"
+			rewards: [
+				{
+					id: "46157AC04BA0ECBE"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "73BA55AF798DDC60"
+					item: "moreup:boss_essence_mid"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6C292D303D55F02D"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 100"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "5F4B4796D492F275"
+					team_reward: false
+					title: "&e★ 별빛 +100"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "3B50BC8839B3F12E"
+					type: "checkmark"
+				}
+			]
+			title: "&6&l[ ❂ 장비에 새기기 ]"
+			icon: "moreup:engraving_flame"
+			x: 3.5d
+			y: 0.0d
+			shape: "gear"
+			size: 1.5d
+		}
+		{
+			dependencies: ["71A79E3D509A9E60"]
+			description: ["&f방어구 네 부위 가운데 같은 각인을 2부위, 4부위 맞추면 세트 효과가 붙는다.", "&7예: 용비늘 4부위 — 받는 피해 -8%"]
+			id: "70E4A6A8BA65F515"
+			rewards: [
+				{
+					id: "742D8CDE393B50BF"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "2A86A590589FC8A6"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 150"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "5DEEF47E711D5C4B"
+					team_reward: false
+					title: "&e★ 별빛 +150"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "7E133B0DF91821EC"
+					type: "checkmark"
+				}
+			]
+			title: "&e&l[ ★ 별자리 세트 ]"
+			icon: "moreup:engraving_dragon"
+			x: 5.25d
+			y: 0.0d
+			shape: "gear"
+			size: 1.5d
+		}
+	]
+	title: "&b&l✦ 별자리"
+}

@@ -18,7 +18,7 @@ hash = "4338312bb3adfdecfa567ccb08b8a303ebc2c2dfa4b203383fd3ed99afac2bb2"
 
 [[files]]
 file = "config/Mekanism/client.toml"
-hash = "76132360abda99a40eccbead1433ccb688f5cca9b39cae1f568eb823947b576c"
+hash = "31528ab3e12f1a0e080d66afa1c1a3a8ae73c704e385315295fb4e3857c2bcd4"
 
 [[files]]
 file = "config/Mekanism/common.toml"
@@ -670,7 +670,7 @@ hash = "c3e3dc0ed0730b0dda31f3588635347dfde296f0a55239cc2a5b68d1917e6ee5"
 
 [[files]]
 file = "config/embeddium-fingerprint.json"
-hash = "9d2de7cc07eaa0aae831780a9e9ca202de186e41f2e9fa2fb220d5b07e7a60d1"
+hash = "cd08bce42158023202ec561178c9cd35ccd234440f23fcd20b7d000a9cfa8bb3"
 
 [[files]]
 file = "config/embeddium-mixins.properties"
@@ -678,7 +678,7 @@ hash = "09ff183e061d93b79514bc171bf9118497578757e7a5c45946039487656e2619"
 
 [[files]]
 file = "config/embeddium-options.json"
-hash = "1c96784dc5b21d24be54bdc6a44913a48dae80908c0504f820d650b3ded0d139"
+hash = "4d91dc7e2fa16f24e9f34de6ad240e3755938dde96d2d07b36a0b866adb1e234"
 
 [[files]]
 file = "config/enchantinginfuser-server.toml"
@@ -1042,7 +1042,7 @@ hash = "500811ff6b16daa1daa37c0873c976a242835499d0b825af789b609fed94cee7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chapter_6.snbt"
-hash = "361919703810dc78eaa0cd6c71598247b45659081f56179bd1894d0f42522713"
+hash = "44e1623d3345789572314ce28c5d0acd1638e42c2e778fe6961c2e962deb4d93"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chapter_7.snbt"
@@ -1073,6 +1073,10 @@ file = "config/ftbquests/quests/chapters/moreup_cataclysm.snbt"
 hash = "9c8a370023de605fbac1229ab1bcaf40637d569eb083675e6dc8abb5645da464"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/moreup_constellation.snbt"
+hash = "6092f2d205caed79d3dbd51d18887dbd9ac14fcfbce738f70e4060e52c88b543"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/moreup_cooking.snbt"
 hash = "b73404eb906ca65c0c9a47afed18fa6306cb120550209bb8954b739c458a133f"
 
@@ -1094,7 +1098,7 @@ hash = "bc9812ad70b45fca29546ec0fd580729b3216a26614873460ad62769f205e271"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/moreup_essence_bounty.snbt"
-hash = "1349bb5099202e1146ce789c0f8dfd0e56e19b59fa4e9cc1966b049340ec45a4"
+hash = "5c51d89d60a42d62b7ad80087171f7edec19508e9a0209afd5d5b0d5a0188098"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/moreup_fishing.snbt"
@@ -1130,7 +1134,7 @@ hash = "3fc2cd75fedc5870047e98f1cea15763cdaef4d978e4c1991db78501107fe672"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/moreup_pneumaticcraft.snbt"
-hash = "04986157a051349117132f42905c0c6a5c1201e9360b11a54c2202f0d3de99e0"
+hash = "d79807bc85b3054e129788d5969574871a81ebb06ec25bf2639ec1e4a411b02e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/moreup_powah.snbt"
@@ -1142,11 +1146,11 @@ hash = "6444c5cb60b4ff35c4386d1994a146dd01a7a88dd9285d758974ca1dfcca4664"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/moreup_tech_links.snbt"
-hash = "b5aaa9962b3ae7cda4f6155260e7160f20c7fc2da827192396a460adcb63a950"
+hash = "09a0552c0d0d2e753d101deaf7a9ce77b8121d5f5edb430845b902c2d6bdfbbb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/moreup_thermal.snbt"
-hash = "c5e55afeb1b9a7d569963d768b04508a07e37ebdbaba8ddfbe9f41e26eefd04d"
+hash = "59d71c24cfa6b51c0d6d6f217904824c9643b2352081c290d20d91741084206e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/moreup_twilight.snbt"
@@ -1158,7 +1162,7 @@ hash = "25ea45bb0498bede7839e7d817a298f20cd3a4d2b4cdb5f572deb8dd709a6d46"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/moreup_weapons.snbt"
-hash = "cd484a6824708c6d4a91b9ff9ddde0db8f9828a489a4483a2ddd5d28fe01afa5"
+hash = "becfe0418c4c31c550cf5874263882ba83498eda001a2395ceeee9cef1912b60"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -1609,16 +1613,28 @@ file = "config/jamlib/known_suspicious_jars.txt"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
+file = "config/jecalculation/config.toml"
+hash = "e26125514cb0d408b8c70eef89f373eef615605a9c656b7aee564c2d9b6437bd"
+
+[[files]]
+file = "config/jecalculation/record.json"
+hash = "acce474a241b39ab544821c40acfa2a67901fd6a19266aec97539416364579ef"
+
+[[files]]
+file = "config/jeed-client.toml"
+hash = "b444836f74e487bd1a4df35e31d38917a40a7d7afc111f9d348e95bada8ed6bf"
+
+[[files]]
 file = "config/jei/blacklist.cfg"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "dfdb330162d0c24345d17283d0dad4ec79448a4a1b293295bb534aa5b7e5a7cf"
+hash = "f523375f28ca44b1ee194b5c373f4aa2ace1ab864fb4a7013e5a32e5b49f0031"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
-hash = "c601e30a3a7109fccda83317421cfba49eaf85a2f23934e22b28c5660a83ae7d"
+hash = "65d51ec1bae4c6109f0d07e1c3025e519d3900d9c5f02b5bddc65759849c8ac8"
 
 [[files]]
 file = "config/jei/jei-client.ini"
@@ -1638,11 +1654,23 @@ hash = "326b4f9b813ca8183bfaeee184cf7248c7a75c4d85b59322e349c0e964c253f3"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "f0c2ef2d74ec22aa4461d82930c3d79b4b1d48e0abb9dba2ec87e88d6665ffc0"
+hash = "492f3c3252e0ec9fd6b4baca4c3ac90bfa410b2e0531101a21c9208afcb40b35"
 
 [[files]]
 file = "config/jei_mekanism_multiblocks-client.toml"
 hash = "992af970893d812c07cf9a650d116ce8ab2109646c49c5ca0fa62c8902496e8b"
+
+[[files]]
+file = "config/jeiintegration-client.toml"
+hash = "c6cf2a1f253bff9c24251312b981d31869b2dcb676f399a7ca2a7756cfb8f76d"
+
+[[files]]
+file = "config/jeresources-common.toml"
+hash = "9dbe8c6973dc932be6dd20cb63381276740b23c75349dbe870fc8098c8529989"
+
+[[files]]
+file = "config/jeresources.toml"
+hash = "9dbe8c6973dc932be6dd20cb63381276740b23c75349dbe870fc8098c8529989"
 
 [[files]]
 file = "config/jlme.toml"
@@ -1655,6 +1683,14 @@ hash = "917347d0c772d74dadd18f700985f0bc549c796559131b638ba8ef14d6b281fb"
 [[files]]
 file = "config/journeymapteams-server.json"
 hash = "bd99b3b87d20d84448105482ea59fe808c35fce0ecda3282002c35bd7448515d"
+
+[[files]]
+file = "config/justenoughbreeding-offsets.json"
+hash = "a1d6c7261526c48721e40fa1b9380f4a7da1be0e7e149ce2672705509e3203b6"
+
+[[files]]
+file = "config/justenoughbreeding.json"
+hash = "3b3519f38d850e4eb869d00d75b5e4dc664950959564aaf90c7ab7ccc6448a3c"
 
 [[files]]
 file = "config/koreanpatch.json5"
@@ -1782,7 +1818,7 @@ hash = "02cd35fbcc371cf63303ae1264ad9f4613b3f73ace93417af825baf7d3ac7baf"
 
 [[files]]
 file = "config/moreup-client.toml"
-hash = "adae03207bfdede7a0b505eb98cafb4368b674644318cca0c09e685f8398831e"
+hash = "c432767dd8033114d8a279e7846d01b425490ee114acb8e5d4a40840006b7da3"
 
 [[files]]
 file = "config/mowziesmobs-client.toml"
@@ -1822,7 +1858,7 @@ hash = "0d3c92ba50e31505475a5866dc81086230c3e3e683dc8ff2536b850f64ef9b54"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "5bef8c3e29444264ad78c800b251b1709f716a96a5e608013fcc22df110f74d7"
+hash = "c293e3052e605b57b98435fabe35b9b60297fc73c68aa74760deec4c8d23cee9"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -1955,10 +1991,6 @@ hash = "77d4b1625ba1754bc129bc47a98186ad1869e86737867dac98cabd8621ed916f"
 [[files]]
 file = "config/relics.yaml"
 hash = "4411078ac8d2107482e0f717576b1d9e1fa6c0938d11135a2541f4d8c2518278"
-
-[[files]]
-file = "config/rendi-common.toml"
-hash = "ce9fc18abff2a4fe406ae8c38e3da1869840ceb07630481d08a8f10f073589ba"
 
 [[files]]
 file = "config/replaymod.json"
@@ -2306,7 +2338,7 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "config/voicechat/voicechat-client.properties"
-hash = "c649d6245e5e4f685585b0759fef5e1c85bda0aeee331a7502e24b5800afbdd8"
+hash = "2e5e5c6db5759156e25af0b870bc03e662016993e01329af88f8e33459733594"
 
 [[files]]
 file = "config/voicechat/voicechat-server.properties"
@@ -2379,6 +2411,10 @@ hash = "9e5046ac0b9f6d27945b689657835bff24310aec7b11f7461c972b514d0e0658"
 [[files]]
 file = "defaultconfigs/gravestone-server.toml"
 hash = "2e2eca7cc918c80381d6ab504f37a085848b80302060889a401cf12fc03965cd"
+
+[[files]]
+file = "defaultconfigs/so_many_enchants-server.toml"
+hash = "9b4e3d6a8cefe6728a367c1d4df545d6bdb29da1024610e5ed0a99de42358798"
 
 [[files]]
 file = "defaultconfigs/thermal-server.toml"
@@ -3726,7 +3762,11 @@ hash = "2e1932f20384a77012c825d2ec2188eb5da6ef0a7e5b96cc4ed0f082778583cc"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/balance_fixes.js"
-hash = "08661ddf1620af796a742899dd842fb2d07d4e94ac6f71a80f4bb0044c385821"
+hash = "d478d36c8d04f5162ddf1dd5f0b9bca18b61289d84e378a5521955abc7d8d686"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/constellation.js"
+hash = "471181019110237ab9db443da5acd273c5ed69f92953738280b85d5d682cfe4d"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cross_links.js"
@@ -3793,6 +3833,10 @@ file = "kubejs/server_scripts/tags/boss_blacklist.js"
 hash = "634f83a5218c3a2f30fa0ae86509efdbf8ea92c5d377e5ae837c9a688e1abf54"
 
 [[files]]
+file = "kubejs/server_scripts/tags/constellation_tags.js"
+hash = "fa75c4141ddfa204be15005e4f6530bb17c03fdb7f0057cac152a0fa4df6a164"
+
+[[files]]
 file = "kubejs/server_scripts/tags/data_fixes.js"
 hash = "6f27a527d57c59096fc59caf8e22142c5d4abe5bcbe6eaab555f2a58b18bc206"
 
@@ -3806,7 +3850,7 @@ hash = "9e301994778723e304a6b96dcd72cb3955c3c2691be4e0673a503ccfdd341a9b"
 
 [[files]]
 file = "kubejs/startup_scripts/moreup_armor_balance.js"
-hash = "e3f46ecf3f66d32c10773b1b6e2fbff52c23576f7af1cd4d33c654a8bff9f4a2"
+hash = "2ca3ec623763b544f0b060f39635b6a2aa8396fa19d6128303390ed0070f5053"
 
 [[files]]
 file = "kubejs/startup_scripts/moreup_balance.js"
@@ -4753,6 +4797,11 @@ hash = "61d777de1b0ee4650940eb4f72f3847a219a494204c30522c2a02fc6785f38da"
 metafile = true
 
 [[files]]
+file = "mods/jei-integration.pw.toml"
+hash = "442cae37babbae85c15c5b33d03ad40587d5c780fccd9f5baddfacceb5167e4b"
+metafile = true
+
+[[files]]
 file = "mods/jei.pw.toml"
 hash = "5f7c3cf35124bf96e880cc8562fc44ac15990a89b07db299aed9a88ce3752cb1"
 metafile = true
@@ -4763,6 +4812,16 @@ hash = "2f5ae26ff06614ca2ec7987e16de60eb636431ffffaaea6eed0e3867d265daf2"
 metafile = true
 
 [[files]]
+file = "mods/just-enough-calculation.pw.toml"
+hash = "712ac3e3cca6cd0478dfeafac21f7926dba0c54763144ae168ed200d894e6464"
+metafile = true
+
+[[files]]
+file = "mods/just-enough-effect-descriptions-jeed.pw.toml"
+hash = "731fc151b58c1164a1d4cc9bad107dfedd7765e594d8e694e7512bad49ed17bb"
+metafile = true
+
+[[files]]
 file = "mods/just-enough-mekanism-multiblocks.pw.toml"
 hash = "4cc78cedebc917f8063a01d5c920a324e0889cdaf35beb63d4a8313d4607cbc5"
 metafile = true
@@ -4770,6 +4829,16 @@ metafile = true
 [[files]]
 file = "mods/just-enough-professions-jep.pw.toml"
 hash = "08a365f0717fbd5561ff746bc6c41185b0c84582a1cd834115b933266328a5ff"
+metafile = true
+
+[[files]]
+file = "mods/just-enough-resources-jer.pw.toml"
+hash = "3e3a275ab58bd1939d2eebe22095b5db265e33716113ebdee659a78d392b6072"
+metafile = true
+
+[[files]]
+file = "mods/justenoughbreeding.pw.toml"
+hash = "89e6c2a594dda816314c6af972f244d50b8eb172f1716d9c38220b9cc2d8c021"
 metafile = true
 
 [[files]]
@@ -5009,7 +5078,7 @@ metafile = true
 
 [[files]]
 file = "mods/moreup-core.pw.toml"
-hash = "493505d81a291bf396a1a2917520c3944469bc6f08e75d38818ff4e5a7ce2b72"
+hash = "0e40556ee88b543ed087c86179afd09842630d79f296919d943c95b1aaa665d4"
 metafile = true
 
 [[files]]
@@ -5185,11 +5254,6 @@ metafile = true
 [[files]]
 file = "mods/relics-mod.pw.toml"
 hash = "fa3c0a19b839ec89df408368ae4886ffa36179c1973335ce7cd4654f2fa842ca"
-metafile = true
-
-[[files]]
-file = "mods/rendi.pw.toml"
-hash = "c24eba919c192fb6431171b30cccbdf54198f6bbe8a7b08fc2eb4437d74cef41"
 metafile = true
 
 [[files]]
@@ -5599,7 +5663,7 @@ preserve = true
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.8.1.zip.txt"
-hash = "f04c0077963445268242ccb04723890d6b81f4efefb659844563a75e09019263"
+hash = "70ff3c64ef1b74a0e635238a62f1ca2033f540d5e1850eba4783579020326928"
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"

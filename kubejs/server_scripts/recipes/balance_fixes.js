@@ -17,7 +17,7 @@ const MOREUP_BALANCE_REPLACE = [
     // 불사의 토템: 에메랄드 2 + 금 4 + 엔드 수정(Stellarity가 가스트 눈물을 뺌)이라 보스전 목숨을 무한히 찍어 낼 수 있었다
     { id: 'totem_of_undying', remove: 'craftabletotemofundying:totem_of_undying', result: 'minecraft:totem_of_undying',
       pattern: ['EGE', 'GCG', 'EME'], key: { E: 'minecraft:emerald_block', G: 'minecraft:gold_block', C: 'minecraft:end_crystal', M: MOREUP_ESSENCE_MID } },
-    // 흡혈 장갑: 가죽 + 레드스톤 블록. 피격 무적 시간이 없는 팩(ReNDI)이라 흡혈이 매우 강하다
+    // 흡혈 장갑: 가죽 + 레드스톤 블록. 피격 무적 시간이 없던 시절(ReNDI, 2026-11-05 제거)에 흡혈이 매우 강해 정수를 넣었다
     { id: 'vampiric_glove', remove: 'artifactscrafting:vampiric_glove', result: 'artifacts:vampiric_glove',
       pattern: ['aba', 'aea', ' a '], key: { a: 'minecraft:leather', b: 'minecraft:redstone_block', e: MOREUP_ESSENCE_MID } },
     // 수정 심장: 최대 체력 크게 증가. 다이아몬드 자리에 중급 정수

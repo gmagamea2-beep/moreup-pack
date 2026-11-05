@@ -22,6 +22,9 @@ const MOREUP_ARMOR_MULTIPLIER = 2.0
 const MOREUP_ARMOR_TOUGHNESS_MULTIPLIER = 2.0
 // 배율을 걸지 않는 아이템 ID 앞부분 (2026-10-30, More Up Core 성룡 방어구)
 const MOREUP_ARMOR_SKIP_PREFIX = 'moreup:star_'
+// 배율을 걸지 않는 수정치 이름 (2026-11-04, More Up Core 1.4 별자리 각인 — 모드가 정한 최종값이고,
+// 모드 리스너와 이 스크립트의 실행 순서가 정해져 있지 않아 이름으로 뺀다)
+const MOREUP_ARMOR_SKIP_MODIFIER_NAME = 'More Up engraving'
 
 const $MoreUpArmorItem = Java.loadClass('net.minecraft.world.item.ArmorItem')
 const $MoreUpArmorModifier = Java.loadClass('net.minecraft.world.entity.ai.attributes.AttributeModifier')
@@ -42,7 +45,9 @@ function moreupScaleArmorAttribute(event, attribute, multiplier) {
     let iterator = current.iterator()
     while (iterator.hasNext()) {
         let modifier = iterator.next()
-        if ($MoreUpArmorOperation.ADDITION.equals(modifier.getOperation())) targets.push(modifier)
+        if (!$MoreUpArmorOperation.ADDITION.equals(modifier.getOperation())) continue
+        if (MOREUP_ARMOR_SKIP_MODIFIER_NAME === String(modifier.getName())) continue
+        targets.push(modifier)
     }
 
     for (let i = 0; i < targets.length; i++) {

@@ -5,7 +5,7 @@
 	group: "7E05AA7C371599AC"
 	icon: "thermal:machine_frame"
 	id: "5A10F719258C10A8"
-	order_index: 24
+	order_index: 25
 	quest_links: [ ]
 	quests: [
 		{
