@@ -1858,7 +1858,7 @@ hash = "0d3c92ba50e31505475a5866dc81086230c3e3e683dc8ff2536b850f64ef9b54"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "c293e3052e605b57b98435fabe35b9b60297fc73c68aa74760deec4c8d23cee9"
+hash = "e71877e44b4dc9f0a8c975138ae840b85947042b8ff4dece0ba6e8552d7ad4d3"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -1962,7 +1962,7 @@ hash = "56291af4bc3506692c79f5c0155c47cce8577d0aae6ed5930c9074d5cb9bc5c8"
 
 [[files]]
 file = "config/powah.json5"
-hash = "366e6299bae68ccfb77cf220a47146c7d4fa3885bf96b6a9f62009ed7c1a2041"
+hash = "41d157de94a5436588c11a93cde1b2ec3bc07f69a2a528b4f3a538a6c1e3339a"
 
 [[files]]
 file = "config/progressivebosses-common.toml"
@@ -5078,7 +5078,7 @@ metafile = true
 
 [[files]]
 file = "mods/moreup-core.pw.toml"
-hash = "0e40556ee88b543ed087c86179afd09842630d79f296919d943c95b1aaa665d4"
+hash = "925b7acbfa45a611a2f68e90311d7f513952a6e2bc808e680ff4c1e2c1256d55"
 metafile = true
 
 [[files]]
@@ -5663,7 +5663,7 @@ preserve = true
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.8.1.zip.txt"
-hash = "70ff3c64ef1b74a0e635238a62f1ca2033f540d5e1850eba4783579020326928"
+hash = "325d8154223589eaa09b3508bbf0cae9c7b76ff9adaed047a6b505c88e0b4cb7"
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"
