@@ -1,0 +1,13 @@
+name = "AEInfinityBooster"
+filename = "aeinfinitybooster-forge-2.1.2-mc1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "450f27d4892f9e0b82df135be728acfa437812ba"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9483350
+project-id = 559313

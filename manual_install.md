@@ -1,4 +1,4 @@
-# More Up 1.11.0 — CurseForge zip 에 들어가지 않는 파일
+# More Up 1.12.0 — CurseForge zip 에 들어가지 않는 파일
 
 제작자가 모드팩 배포를 막았거나(배포 금지) 아직 허용 여부를 확인하지 못한(미확인) 파일이다. 이 빌드 스크립트가 만든 목록이라 직접 고치지 않는다.
 
@@ -25,4 +25,4 @@
 
 지인 공유용 CurseForge zip 에는 jar 가 overrides/mods 로 들어 있다. 공개용 zip 으로 가져왔거나 빠져 있으면 인스턴스 폴더의 `More Up 업데이트.bat` 을 한 번 실행하면 받아진다.
 
-- More Up Core — `moreup-core-1.5.0.jar` **필수**
+- More Up Core — `moreup-core-1.5.1.jar` **필수**

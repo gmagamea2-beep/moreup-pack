@@ -141,6 +141,14 @@ file = "config/adhooks-common.toml"
 hash = "9af29ddd51df5e502bcfd183691b8bc9149cbf13d54c90c247f45b62cf61bda7"
 
 [[files]]
+file = "config/advanced_ae-client.toml"
+hash = "c272dc30942cbf7367668db820d2dc63370cdcfc07ad413334d295222db10e87"
+
+[[files]]
+file = "config/advanced_ae-common.toml"
+hash = "61e6db66f8919d7b988d9ada0247b6f55875ababa6e43773b1ffcd31c5a06c46"
+
+[[files]]
 file = "config/advancementplaques-common.toml"
 hash = "b7812dd0a3535dea9871f2695b363727bb0abde965d365ca41e8c63b8bd67884"
 
@@ -159,6 +167,14 @@ hash = "06674779662632deddc1e67bd5c771c01f44b41fa85b6321ed447953fe62b112"
 [[files]]
 file = "config/ae2ct-client.toml"
 hash = "e625c910239f91e0717acad7b1c36aa7ace2450503c94c9608a725a86efa4887"
+
+[[files]]
+file = "config/ae2utility-client.toml"
+hash = "26cd5e9de7343166b58ef9fb2c17a0e4cd6063b0828494f22be6aeca3c1d89d9"
+
+[[files]]
+file = "config/aeinfinitybooster-common.toml"
+hash = "eebc1733db476b7cdb1744be01cf72d636cc3b9287b9f5abb1e22d39f4ad52bc"
 
 [[files]]
 file = "config/aeroblender-common.toml"
@@ -593,6 +609,10 @@ file = "config/dc_dp-common.toml"
 hash = "7e82b269fc0161bd7c6529a499cf4fc236671d12b7da0f0568eecb1c9262f1f4"
 
 [[files]]
+file = "config/de/mari_023/ae2wtlib.json5"
+hash = "e9838cc6c67a746008e2c8bc88577be4c350d4f990ee5ca4861f07bce76e36ea"
+
+[[files]]
 file = "config/deeperdarker-common.toml"
 hash = "8cbd895ecaf34f553f3fc87b5009edcfad3f22fbc44c85d2364b3dd50b38d1b5"
 
@@ -682,7 +702,7 @@ hash = "4d91dc7e2fa16f24e9f34de6ad240e3755938dde96d2d07b36a0b866adb1e234"
 
 [[files]]
 file = "config/enchantinginfuser-server.toml"
-hash = "e2359b3381662011c1cca7768d276a1beb299be0206fbceed5df12141d685c95"
+hash = "7f108815ff95d1124bcf69d3615a5b7c7386065a7f408769e7227585a7d00005"
 
 [[files]]
 file = "config/enchdesc.json"
@@ -743,6 +763,14 @@ hash = "8a7aa9aac651b1f3431bab86e6b2156b97c24a23172a0c550ff51fec4aafccc1"
 [[files]]
 file = "config/entityculling.json"
 hash = "d826b07c0163d3d70c4ea96b6a2ea38a55e8f1abf2ad23700abea6075f44a4d1"
+
+[[files]]
+file = "config/expandedae-common.toml"
+hash = "97c5cdd5050b269a6a0c4bfa67641ff4ca095920317ef45a413b278c47370305"
+
+[[files]]
+file = "config/expatternprovider-common.toml"
+hash = "04555ae40db6358bc2a2353e137f87a60718ab5243892ca925871c41e5958710"
 
 [[files]]
 file = "config/explorerscompass-client.toml"
@@ -1054,7 +1082,7 @@ hash = "cad604670480a7c562c4070ce1ed1682658118b6f928b96d97ce89ae2cc2531a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/moreup_ae2.snbt"
-hash = "af1f581641e9ca6dfc69dc75ada56be7e0ad9189be6e09884730cd884d4d378b"
+hash = "acfde00421f5e3cec9760ab82a64d4772fae18e66e7064442cc11577c042d3d0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/moreup_aether.snbt"
@@ -1598,7 +1626,7 @@ hash = "04cb5f4fb2c096912c34cc2a2e72ba4df401fb712fba9e0db54ffdaea43b964c"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "845bad9204a80376083579d2b88792c2645de91de0cc40192b45716ac1c5bfd0"
+hash = "317932dfce55ab5c782f5a8a0667b2d10b1f90f6a44fbb98beda1d958ab99a47"
 
 [[files]]
 file = "config/jade/server-plugin-overrides.json"
@@ -1606,7 +1634,7 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "config/jade/sort-order.json"
-hash = "7ff697b3419406a1453c075f8ca51b688a748f590d0d8500ecb7c81741ee70b6"
+hash = "b226f83fc4e258a55d7c642460f68a52b331254f748762516a353283b6926f0a"
 
 [[files]]
 file = "config/jamlib/known_suspicious_jars.txt"
@@ -1618,7 +1646,7 @@ hash = "e26125514cb0d408b8c70eef89f373eef615605a9c656b7aee564c2d9b6437bd"
 
 [[files]]
 file = "config/jecalculation/record.json"
-hash = "acce474a241b39ab544821c40acfa2a67901fd6a19266aec97539416364579ef"
+hash = "f4a599dff73103baa63c2142cc5f990d6ffecf62d04bc69b51b27f3a560cf235"
 
 [[files]]
 file = "config/jeed-client.toml"
@@ -1793,6 +1821,10 @@ file = "config/megacells.json"
 hash = "b9d8a859859ce598ea852230e4d18726756f89b371c03dce59c9ffe5025318d2"
 
 [[files]]
+file = "config/merequester-common.toml"
+hash = "a87e0e5a2bacb1c4c5399265ba2615d6b697f1a23513dad44044b18d400f1015"
+
+[[files]]
 file = "config/midnightlib.json"
 hash = "9bcdd9f5ae6c9fecc3a0dfee7507bf17c56702f14e40db9cdde90148f1d3b387"
 
@@ -1858,7 +1890,7 @@ hash = "0d3c92ba50e31505475a5866dc81086230c3e3e683dc8ff2536b850f64ef9b54"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "e71877e44b4dc9f0a8c975138ae840b85947042b8ff4dece0ba6e8552d7ad4d3"
+hash = "c962e7975000a367253db846cd3e4192e1de88578b50d2f2179871746ed5dd70"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -1962,7 +1994,7 @@ hash = "56291af4bc3506692c79f5c0155c47cce8577d0aae6ed5930c9074d5cb9bc5c8"
 
 [[files]]
 file = "config/powah.json5"
-hash = "41d157de94a5436588c11a93cde1b2ec3bc07f69a2a528b4f3a538a6c1e3339a"
+hash = "5a9e084b833a3ff3ca50d9d1b6fb3610762175a61f29418d5bd2aec9652aa19e"
 
 [[files]]
 file = "config/progressivebosses-common.toml"
@@ -3761,6 +3793,10 @@ file = "kubejs/server_scripts/loot/essence_chests.js"
 hash = "2e1932f20384a77012c825d2ec2188eb5da6ef0a7e5b96cc4ed0f082778583cc"
 
 [[files]]
+file = "kubejs/server_scripts/recipes/ae2_early.js"
+hash = "277954c40e5808bef9192e670ee14ea50dbd97688a2b40383bcba8c091088cc0"
+
+[[files]]
 file = "kubejs/server_scripts/recipes/balance_fixes.js"
 hash = "d478d36c8d04f5162ddf1dd5f0b9bca18b61289d84e378a5521955abc7d8d686"
 
@@ -3770,7 +3806,7 @@ hash = "471181019110237ab9db443da5acd273c5ed69f92953738280b85d5d682cfe4d"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/cross_links.js"
-hash = "7fc8ef0711b0ba89c0757e7be58e61a300b54fe7368004085cfcd0eea67bb285"
+hash = "862691332f0622e772d89c969bac9f5b1bb05c1b68fb21d98c0885de5b435379"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/disabled_items.js"
@@ -3887,6 +3923,11 @@ hash = "584916db35ef21e8cf96eef717944aec964dee569568360dc798db154a49cd2b"
 metafile = true
 
 [[files]]
+file = "mods/advancedae.pw.toml"
+hash = "389be7e5e5f4367b92da7fd39aecd0f32ad1c36cf3309a284287e2e55d256dc1"
+metafile = true
+
+[[files]]
 file = "mods/advancement-plaques.pw.toml"
 hash = "f131905d113ba9dd127abf3c9f897aaf4ecf59657c415752533893d44cb584df"
 metafile = true
@@ -3894,6 +3935,11 @@ metafile = true
 [[files]]
 file = "mods/ae2-crafting-tree.pw.toml"
 hash = "810f804314506f9cb248a13f41ae7ef1e50679bfd9dcb0888d50ae70da4a4181"
+metafile = true
+
+[[files]]
+file = "mods/ae2-extras.pw.toml"
+hash = "f8ead8b37a37227e4726cf4d9a0efb986a66365ed7d77552f793f402e16efa64"
 metafile = true
 
 [[files]]
@@ -3912,8 +3958,23 @@ hash = "59b441c02123a358b138b0e1421fdb085b8138392f2a65ff479e09d3f10098f2"
 metafile = true
 
 [[files]]
+file = "mods/ae2-qol-recipes.pw.toml"
+hash = "c42744b14e47cb90c7349723ea0aea498d809e1d5b9dfa961ade2e72b74ff265"
+metafile = true
+
+[[files]]
 file = "mods/ae2-things-forge.pw.toml"
 hash = "8f7696617249a4be35a9d1a2caecce4e17bbffe823f904d10c6fc8b72c4352ca"
+metafile = true
+
+[[files]]
+file = "mods/ae2-utility.pw.toml"
+hash = "a91b14f087fb18decb86e31480691726c34b4f947d8f64024405350743c9fc78"
+metafile = true
+
+[[files]]
+file = "mods/aeinfinitybooster.pw.toml"
+hash = "ee40ed5fd4dff41219d5feac131b201e652cc470f35e0c0a1b4af80b78bc3e85"
 metafile = true
 
 [[files]]
@@ -3959,6 +4020,11 @@ metafile = true
 [[files]]
 file = "mods/appleskin.pw.toml"
 hash = "8d0321177fed4a0b48554c40158b43db62f6cdaa768f584ef6a11575dfaa6223"
+metafile = true
+
+[[files]]
+file = "mods/applied-energistics-2-wireless-terminals.pw.toml"
+hash = "f3ddc5ed65361138c4c66fd4abd05b6050b24362dc7bb83a5ca54eafb74dd181"
 metafile = true
 
 [[files]]
@@ -4537,6 +4603,16 @@ hash = "4f05bfbc03bec3ba78c9c790e493a79ffd216671517dbfa491e7c5765f2c96f9"
 metafile = true
 
 [[files]]
+file = "mods/ex-pattern-provider.pw.toml"
+hash = "6ad309b0b938305fab3ac8551d7f75396e25fdbc6734ae278ecc9b2bcd8d739f"
+metafile = true
+
+[[files]]
+file = "mods/expanded-ae.pw.toml"
+hash = "231c8ad14566c7eaa6396198f6f91ddf18a657b52decfbc05fbdca61640c692b"
+metafile = true
+
+[[files]]
 file = "mods/explorers-compass.pw.toml"
 hash = "0db85b53cd32bb1d23c33273deaef58bd0f0429a180d171e3f02fe0ab86b0fe2"
 metafile = true
@@ -5057,6 +5133,11 @@ hash = "7c411a566d022680769ddb8323984fff292ddeb35e7d8fcfe2cc41b9885d9557"
 metafile = true
 
 [[files]]
+file = "mods/merequester.pw.toml"
+hash = "edd3084dd2c10ae697ace9bb2c6a249c6a9d4d92a6d02247169fdab60e55b286"
+metafile = true
+
+[[files]]
 file = "mods/mmmmmmmmmmmm.pw.toml"
 hash = "230b5d280d6d121701c8f275ae47dca348e806738d03767aa8e450e7267ef908"
 metafile = true
@@ -5078,7 +5159,7 @@ metafile = true
 
 [[files]]
 file = "mods/moreup-core.pw.toml"
-hash = "925b7acbfa45a611a2f68e90311d7f513952a6e2bc808e680ff4c1e2c1256d55"
+hash = "2904f5668009a814d52a6405171f727b7601cfe736bf1183ed36a292091c3cf8"
 metafile = true
 
 [[files]]
@@ -5204,6 +5285,11 @@ metafile = true
 [[files]]
 file = "mods/polymorph.pw.toml"
 hash = "8137ae469feb0f5eececfccf030cd467f985696bd27021795f722d0308347fb2"
+metafile = true
+
+[[files]]
+file = "mods/polymorphic-energistics.pw.toml"
+hash = "2d47877684bd91ad4c597b68bae4a8af3964011bfc0fd52e004469368f23b834"
 metafile = true
 
 [[files]]
@@ -5663,7 +5749,7 @@ preserve = true
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.8.1.zip.txt"
-hash = "325d8154223589eaa09b3508bbf0cae9c7b76ff9adaed047a6b505c88e0b4cb7"
+hash = "f5a89092a1292e7c5ed9b792bd23d9f31e9ec2c85387e2f96f61fa0025a0fd14"
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"

@@ -25,12 +25,7 @@ const MOREUP_CROSS_LINKS = [
     { id: 'charger', remove: 'ae2:network/blocks/crystal_processing_charger', result: 'ae2:charger',
       pattern: ['aba', 'a  ', 'aba'], key: { a: '#forge:ingots/iron', b: 'create:electron_tube' },
       note: 'AE2 입구(충전기) ← Create 전자관 (구리 → 전자관)' },
-    { id: 'me_controller', remove: 'ae2:network/blocks/controller', result: 'ae2:controller',
-      pattern: ['aba', 'bcb', 'dbd'], key: { a: 'ae2:smooth_sky_stone_block', b: 'ae2:fluix_crystal', c: 'ae2:engineering_processor', d: '#forge:ingots/steel' },
-      note: 'AE2 컨트롤러 ← Mekanism 강철 (아래 하늘돌 2 → 강철 2)' },
-    { id: 'molecular_assembler', remove: 'ae2:network/crafting/molecular_assembler', result: 'ae2:molecular_assembler',
-      pattern: ['aba', 'cde', 'aba'], key: { a: '#forge:ingots/iron', b: 'ae2:quartz_glass', c: 'ae2:annihilation_core', d: 'create:mechanical_crafter', e: 'ae2:formation_core' },
-      note: 'AE2 자동 조합 ← Create 기계식 조합기 (작업대 → 기계식 조합기)' },
+    // AE2 컨트롤러(강철)·분자 조립기(Create 기계식 조합기) 연계는 2026-11-07 사용자 요청 "AE2 초반 쉽게"로 빼서 원래 레시피로 되돌렸다 (ae2_early.js)
     { id: 'quantum_ring', remove: 'ae2:network/blocks/quantum_ring', result: 'ae2:quantum_ring',
       pattern: ['aba', 'cde', 'aba'], key: { a: 'twilightforest:knightmetal_ingot', b: 'ae2:logic_processor', c: 'ae2:engineering_processor', d: 'ae2:energy_cell', e: '#ae2:smart_dense_cable' },
       note: 'AE2 양자 고리 ← 황혼의 숲 기사 금속 (철 → 기사 금속)' },

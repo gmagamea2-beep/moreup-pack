@@ -1,0 +1,4 @@
+#If true (default), JEI encode works when you carry a wireless encoding terminal without opening it.
+#If false, require an open pattern-encoding menu (AE-style).
+allowJeiPatternEncodeWithoutOpenTerminal = true
+

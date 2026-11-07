@@ -263,6 +263,7 @@
 		}
 		{
 			dependencies: ["261E2AA89C430B7C"]
+			description: ["&f저장 셀을 꽂는 곳. 보상으로 4k 저장 셀 2개를 준다.", "&7초반 용량이 모자라면 저장 부품 4개 + 석영 유리로 한 단계 큰 부품을 만들 수 있다."]
 			id: "564496AE7B925E5D"
 			rewards: [
 				{
@@ -271,8 +272,14 @@
 					xp_levels: 8
 				}
 				{
-					count: 8
+					count: 2
 					id: "710353FDD61DB60F"
+					item: "ae2:item_storage_cell_4k"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "502E303D34F19D16"
 					item: "ae2:fluix_crystal"
 					type: "item"
 				}
@@ -307,7 +314,7 @@
 		}
 		{
 			dependencies: ["564496AE7B925E5D"]
-			description: ["네트워크 안의 모든 아이템을 한눈에."]
+			description: ["&f네트워크 안의 모든 아이템을 한눈에.", "&f보상: AE2 Things 4k DISK — 아이템 종류 수 제한(셀당 63종)이 없는 저장 장치다. DISK 드라이브는 다이아몬드로 만든다."]
 			id: "6F08E08F3AA382D5"
 			rewards: [
 				{
@@ -316,8 +323,13 @@
 					xp_levels: 8
 				}
 				{
-					count: 16
 					id: "69E07809F756D37F"
+					item: "ae2things:disk_drive_4k"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7365BA6C4096CF09"
 					item: "ae2:fluix_glass_cable"
 					type: "item"
 				}
