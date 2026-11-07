@@ -18,7 +18,7 @@ hash = "4338312bb3adfdecfa567ccb08b8a303ebc2c2dfa4b203383fd3ed99afac2bb2"
 
 [[files]]
 file = "config/Mekanism/client.toml"
-hash = "31528ab3e12f1a0e080d66afa1c1a3a8ae73c704e385315295fb4e3857c2bcd4"
+hash = "76132360abda99a40eccbead1433ccb688f5cca9b39cae1f568eb823947b576c"
 
 [[files]]
 file = "config/Mekanism/common.toml"
@@ -1194,7 +1194,7 @@ hash = "becfe0418c4c31c550cf5874263882ba83498eda001a2395ceeee9cef1912b60"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
-hash = "ed7875116d2c86b1e8c58e9a714c1566043be46ff1c927f8ab31b2a806c50acc"
+hash = "8fb0681403966b0761072d546fe852bcc270b1ad431c571adab55e458f9e11fc"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/02e01717b1bc2a7a.snbt"
@@ -1658,7 +1658,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "f523375f28ca44b1ee194b5c373f4aa2ace1ab864fb4a7013e5a32e5b49f0031"
+hash = "ab786abd4e8849a08bfadc19f9ae1671e0c769cee6707942bbc8ecc566f1511f"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -1682,7 +1682,7 @@ hash = "326b4f9b813ca8183bfaeee184cf7248c7a75c4d85b59322e349c0e964c253f3"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "492f3c3252e0ec9fd6b4baca4c3ac90bfa410b2e0531101a21c9208afcb40b35"
+hash = "bbcaa989a8b12a6c143324a396f9327c69317d8b4a9b415a02857058d0a52cf8"
 
 [[files]]
 file = "config/jei_mekanism_multiblocks-client.toml"
@@ -1890,7 +1890,7 @@ hash = "0d3c92ba50e31505475a5866dc81086230c3e3e683dc8ff2536b850f64ef9b54"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "c962e7975000a367253db846cd3e4192e1de88578b50d2f2179871746ed5dd70"
+hash = "a86e155b9b97f0dac0fd18f8bf30f362730d67c3deb146b57178a7c8aba47ecd"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -1994,7 +1994,7 @@ hash = "56291af4bc3506692c79f5c0155c47cce8577d0aae6ed5930c9074d5cb9bc5c8"
 
 [[files]]
 file = "config/powah.json5"
-hash = "5a9e084b833a3ff3ca50d9d1b6fb3610762175a61f29418d5bd2aec9652aa19e"
+hash = "73097fdf1a9015d7900e8c49c588dedec9f123fca0a066bc94acbb757b6033a1"
 
 [[files]]
 file = "config/progressivebosses-common.toml"
@@ -2367,10 +2367,6 @@ hash = "693643b1d393cbb3ea7f062afc4474fcd66e4036c4f8d7c056434979cbf512d1"
 [[files]]
 file = "config/voicechat/username-cache.json"
 hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
-
-[[files]]
-file = "config/voicechat/voicechat-client.properties"
-hash = "2e5e5c6db5759156e25af0b870bc03e662016993e01329af88f8e33459733594"
 
 [[files]]
 file = "config/voicechat/voicechat-server.properties"
@@ -3863,6 +3859,14 @@ hash = "b9a767f5f08ac5b65c07db0ddaeeb7281dd3a2c4968dddd1bf8bca69bd980a57"
 [[files]]
 file = "kubejs/server_scripts/systems/pregen_guard.js"
 hash = "58f95ec91795844378bfabd5c6275c1bb9ccc13199832813a3e406f229814282"
+
+[[files]]
+file = "kubejs/server_scripts/systems/quest_retro.js"
+hash = "87c87281cb753a0fb08b9c5ce424b0726d52d446ab93313f38ef75106a229041"
+
+[[files]]
+file = "kubejs/server_scripts/systems/quest_retro_data.js"
+hash = "f2a14f1a39d62caf2cb71a65528bda0a87d69baac08e852e43e9d6e3630711f8"
 
 [[files]]
 file = "kubejs/server_scripts/tags/boss_blacklist.js"
@@ -5749,7 +5753,7 @@ preserve = true
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.8.1.zip.txt"
-hash = "f5a89092a1292e7c5ed9b792bd23d9f31e9ec2c85387e2f96f61fa0025a0fd14"
+hash = "a5f713c3ef4341b7043d21f7cfc4ab7d45b4d99dd65d1106d98558835c0d16a2"
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"
