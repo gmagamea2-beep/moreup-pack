@@ -18,7 +18,7 @@ hash = "4338312bb3adfdecfa567ccb08b8a303ebc2c2dfa4b203383fd3ed99afac2bb2"
 
 [[files]]
 file = "config/Mekanism/client.toml"
-hash = "76132360abda99a40eccbead1433ccb688f5cca9b39cae1f568eb823947b576c"
+hash = "31528ab3e12f1a0e080d66afa1c1a3a8ae73c704e385315295fb4e3857c2bcd4"
 
 [[files]]
 file = "config/Mekanism/common.toml"
@@ -1030,7 +1030,7 @@ hash = "220957c61e5d48ef78f3f1f83f6e014b9dfdb5b7950a87fac6be1622c8cb47e8"
 
 [[files]]
 file = "config/forgeendertech/cached.dat"
-hash = "6f0f94f4ae1e8d1c6d9b0d57fc952cbded3265a24d40b8f595d1b19bff6290c9"
+hash = "9175bff315c9a754e2f6c3b3fc4eba6f22608ab69b5069fb5b14ed4548ae42a2"
 
 [[files]]
 file = "config/friendsandfoes.json"
@@ -1890,7 +1890,7 @@ hash = "0d3c92ba50e31505475a5866dc81086230c3e3e683dc8ff2536b850f64ef9b54"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "a86e155b9b97f0dac0fd18f8bf30f362730d67c3deb146b57178a7c8aba47ecd"
+hash = "b75e33f5a6fff940e91f6f71b812348993c53d264bbc41bb920fc37c6735157a"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -1994,7 +1994,7 @@ hash = "56291af4bc3506692c79f5c0155c47cce8577d0aae6ed5930c9074d5cb9bc5c8"
 
 [[files]]
 file = "config/powah.json5"
-hash = "73097fdf1a9015d7900e8c49c588dedec9f123fca0a066bc94acbb757b6033a1"
+hash = "3f0152180aeef977fbe854f25ff222d96a2a47fb19cc308962c2c929310bfe3f"
 
 [[files]]
 file = "config/progressivebosses-common.toml"
@@ -3787,6 +3787,10 @@ hash = "8ac78276d1cff5acd271a39af6c69b3d7cbd3202b56948e6632ac9dc53eeec5e"
 [[files]]
 file = "kubejs/server_scripts/loot/essence_chests.js"
 hash = "2e1932f20384a77012c825d2ec2188eb5da6ef0a7e5b96cc4ed0f082778583cc"
+
+[[files]]
+file = "kubejs/server_scripts/loot/wither_eye_fix.js"
+hash = "81e1903c6ef094f98d31ef3f8b05d39da8c9792a41c0a410c09f5029826e9649"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/ae2_early.js"
@@ -5753,7 +5757,7 @@ preserve = true
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.8.1.zip.txt"
-hash = "a5f713c3ef4341b7043d21f7cfc4ab7d45b4d99dd65d1106d98558835c0d16a2"
+hash = "a71aa04602b88d2ac06c41ead9cfda6efcb84ad2d4829f2dfb57c3458fbfa5c1"
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"
