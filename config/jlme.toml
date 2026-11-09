@@ -3,18 +3,18 @@
 	#Activates or disables enchantment
 	Active = true
 	#Chance of blocking an attack 0.15 at default.
-	Chance = 0.15
+	Chance = 0.1005
 
 [Evasive]
 	#Activates or disables enchantment
 	Active = true
-	Chance = 0.25
+	Chance = 0.15
 
 [Agility]
 	#Activates or disables enchantment
 	Active = true
 	#Speed per level of enchantment
-	Speed = 0.01
+	Speed = 0.007
 	#Max level of enchantment
 	"Max Level" = 2
 
@@ -22,7 +22,7 @@
 	#Activates or disables enchantment
 	Active = true
 	#Percentage of damage healed per level.
-	Percentage = 0.1
+	Percentage = 0.06
 	#Max level of enchantment
 	"Max Level" = 1
 
@@ -44,7 +44,7 @@
 	#Max level of enchantment
 	"Max Level" = 5
 	#Percentual amount of health per level
-	Health = 0.1
+	Health = 0.07
 
 [Purge]
 	#Activates or disables enchantment
@@ -52,7 +52,7 @@
 	#Max level of enchantment
 	"Max Level" = 5
 	#Chance per level
-	Chance = 0.1
+	Chance = 0.07
 	#Base bonus damage when purging a positive effect
 	"Base dmg" = 2.5
 	#Damage bonus per level of purge
@@ -142,7 +142,7 @@
 	#Max level of enchantment
 	"Max Level" = 4
 	#Percentage of damage that ignores reductions per level
-	Percentage = 0.25
+	Percentage = 0.175
 
 ["Advanced Protection"]
 	#Activates or disables enchantment
@@ -228,13 +228,13 @@
 	#Activates or disables enchantment
 	Active = true
 	#Chance of ignoring iframes
-	Chance = 0.05
+	Chance = 0.035
 
 [Range]
 	#Activates or disables enchantment
 	Active = true
 	#Multiplier Speed for arrows, below 1 will cause arrows to be slower
-	Boost = 1.25
+	Boost = 1.15
 
 ["Advanced Power"]
 	#Activates or disables enchantment
@@ -248,7 +248,7 @@
 	#Max level of enchantment
 	"Max Level" = 4
 	#Percentage of damage that ignores reductions per level
-	Percentage = 0.25
+	Percentage = 0.175
 
 [Vulnerability]
 	#Activates or disables enchantment
@@ -256,7 +256,7 @@
 	#Max level of enchantment
 	"Max Level" = 4
 	#Percentage of damage increased per level
-	Percentage = 0.08
+	Percentage = 0.052
 
 ["Double Edge"]
 	#Activates or disables enchantment
@@ -272,7 +272,7 @@
 	#Max level of enchantment
 	"Max Level" = 5
 	#Attack Speed Decrease
-	Percentage = 0.2
+	Percentage = 0.14
 
 ["Advanced Smite"]
 	#Activates or disables enchantment
@@ -300,9 +300,9 @@
 	#Max level of enchantment
 	"Max Level" = 4
 	#Base percentage of damage that ignores armor
-	Base = 0.15
+	Base = 0.1005
 	#Percentage of damage that ignores armor per level
-	Percentage = 0.15
+	Percentage = 0.1005
 
 ["Magic Piercing"]
 	#Activates or disables enchantment
@@ -310,9 +310,9 @@
 	#Max level of enchantment
 	"Max Level" = 4
 	#Base percentage of damage that ignores armor
-	Base = 0.15
+	Base = 0.1005
 	#Percentage of damage that ignores enchantments per level
-	Percentage = 0.15
+	Percentage = 0.1005
 
 ["Critical Strike"]
 	#Activates or disables enchantment
@@ -356,7 +356,7 @@
 	#Max level of enchantment
 	"Max Level" = 5
 	#Max amount of absorption per level
-	Absorption = 2.0
+	Absorption = 1.5
 
 [Heating]
 	#Activates or disables enchantment

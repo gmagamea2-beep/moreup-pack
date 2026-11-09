@@ -1,0 +1,774 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "moreup_enderio"
+	group: "7E05AA7C371599AC"
+	icon: "enderio:alloy_smelter"
+	id: "7032D9FDF1562CB0"
+	order_index: 30
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["연료로 도는 첫 합금로다."]
+			id: "33ED41A2EDC07B9E"
+			rewards: [
+				{
+					id: "7E39D4ED416EFA9C"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 2
+					id: "7284D35562E7554B"
+					item: "enderio:copper_alloy_ingot"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 15"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7075678DDB017995"
+					team_reward: false
+					title: "&e★ 별빛 +15"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "7B09EEEB8027CFF9"
+					item: "enderio:primitive_alloy_smelter"
+					type: "item"
+				}
+			]
+			title: "&7&l[ ✦ 원시 합금 제련로 ]"
+			x: 0.0d
+			y: -0.75d
+			icon: "enderio:primitive_alloy_smelter"
+		}
+		{
+			dependencies: ["33ED41A2EDC07B9E"]
+			description: ["Ender IO 기계의 기본 재료다."]
+			id: "7D26A8EE5C54FA1E"
+			rewards: [
+				{
+					id: "7C29B4CAEE4BDB8E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 8
+					id: "5596E54B926FA5B8"
+					item: "enderio:silicon"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 25"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7315B3BC0BB23060"
+					team_reward: false
+					title: "&e★ 별빛 +25"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "553B391BA97C76FA"
+					item: "enderio:copper_alloy_ingot"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7E53659A98DFAEB6"
+					item: "enderio:redstone_alloy_ingot"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "225CBD81E220A0A6"
+					item: "enderio:conductive_alloy_ingot"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 기본 합금 ]"
+			x: 1.75d
+			y: 0.0d
+			icon: "enderio:copper_alloy_ingot"
+		}
+		{
+			description: ["섀시와 여러 기계에 들어간다. 만드는 법은 JEI 에서 확인한다."]
+			id: "186A97C0A09FABD3"
+			rewards: [
+				{
+					id: "06BA6E63FE8E6FA7"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 2
+					id: "734831CAD9F9475D"
+					item: "enderio:copper_alloy_ingot"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 20"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7124487626FED687"
+					team_reward: false
+					title: "&e★ 별빛 +20"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "421BC350CE6196D3"
+					item: "enderio:grains_of_infinity"
+					type: "item"
+				}
+			]
+			title: "&8&l[ ✦ 무한의 알갱이 ]"
+			x: 0.0d
+			y: 0.75d
+			icon: "enderio:grains_of_infinity"
+		}
+		{
+			dependencies: ["7D26A8EE5C54FA1E", "186A97C0A09FABD3"]
+			description: ["Ender IO 기계의 뼈대다. 이 팩에서는 철창 대신 IE 철 금속판이 들어간다."]
+			id: "686C762550516979"
+			rewards: [
+				{
+					id: "7C538165B1779733"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "7FF35CF4563244C8"
+					item: "enderio:conductive_alloy_ingot"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 25"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7DA5C9D90F646103"
+					team_reward: false
+					title: "&e★ 별빛 +25"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "27AE2F161ED09F03"
+					item: "enderio:void_chassis"
+					type: "item"
+				}
+			]
+			title: "&7&l[ ✦ 빈 섀시 ]"
+			x: 3.5d
+			y: -1.5d
+			icon: "enderio:void_chassis"
+		}
+		{
+			dependencies: ["686C762550516979"]
+			description: ["연료를 태워 전기를 만든다."]
+			id: "7F369EEB937EBF5F"
+			rewards: [
+				{
+					id: "7B23B2A90B67E9C2"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 2
+					id: "0AF02BBA23BB8D1E"
+					item: "enderio:copper_alloy_ingot"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 20"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "13609171A7710E60"
+					team_reward: false
+					title: "&e★ 별빛 +20"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "5916C9949002B8B7"
+					item: "enderio:stirling_generator"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 스털링 발전기 ]"
+			x: 5.25d
+			y: -2.25d
+			icon: "enderio:stirling_generator"
+		}
+		{
+			dependencies: ["686C762550516979"]
+			description: ["전기로 도는 합금로다. 일반 화로 역할도 한다."]
+			id: "7FAC847A3279B50D"
+			rewards: [
+				{
+					id: "28168592DAB3DC13"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "0DC32DE9ED3D9177"
+					item: "enderio:conductive_alloy_ingot"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 25"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7B9AA7AFEFBED4EC"
+					team_reward: false
+					title: "&e★ 별빛 +25"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "78343ACF76C07344"
+					item: "enderio:alloy_smelter"
+					type: "item"
+				}
+			]
+			title: "&c&l[ ✦ 합금 제련로 ]"
+			x: 5.25d
+			y: -0.75d
+			icon: "enderio:alloy_smelter"
+		}
+		{
+			dependencies: ["686C762550516979"]
+			description: ["광석을 가루로 부순다. 연마 공을 넣으면 더 많이 나온다."]
+			id: "148F31FA008FDD40"
+			rewards: [
+				{
+					id: "0DF525380ECFEFCC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "60652A33BA20CD8F"
+					item: "enderio:conductive_alloy_ingot"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 25"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "09E0E648581C76A1"
+					team_reward: false
+					title: "&e★ 별빛 +25"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "40FACBB13BEACDEC"
+					item: "enderio:sag_mill"
+					type: "item"
+				}
+			]
+			title: "&7&l[ ✦ SAG 분쇄기 ]"
+			x: 5.25d
+			y: 0.75d
+			icon: "enderio:sag_mill"
+		}
+		{
+			dependencies: ["7D26A8EE5C54FA1E"]
+			description: ["기계에 끼우면 성능이 오른다."]
+			id: "7B8ACEE5D2930E23"
+			rewards: [
+				{
+					id: "7BFAB92368AFFB49"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 2
+					id: "79DBDB640810A19E"
+					item: "enderio:copper_alloy_ingot"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 20"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "5EC67A18DEBDCF54"
+					team_reward: false
+					title: "&e★ 별빛 +20"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "7DF9C91530AF3E4C"
+					item: "enderio:basic_capacitor"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 축전기 ]"
+			x: 3.5d
+			y: 0.0d
+			icon: "enderio:basic_capacitor"
+		}
+		{
+			dependencies: ["7B8ACEE5D2930E23", "7FAC847A3279B50D"]
+			description: ["더 좋은 축전기다."]
+			id: "025793B2A30D9045"
+			rewards: [
+				{
+					id: "777F64B369EB9E6F"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 8
+					id: "10F8C502C1B326D2"
+					item: "enderio:silicon"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 30"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "0B66D115FF102330"
+					team_reward: false
+					title: "&e★ 별빛 +30"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "722C87C22EF3EBE2"
+					item: "enderio:double_layer_capacitor"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 2중 축전기 ]"
+			x: 7.0d
+			y: -1.5d
+			icon: "enderio:double_layer_capacitor"
+		}
+		{
+			dependencies: ["7D26A8EE5C54FA1E"]
+			description: ["한 칸에 전기·아이템·액체 도관을 함께 지나가게 할 수 있다."]
+			id: "26A2B831A69A2DA5"
+			rewards: [
+				{
+					id: "7FE32769E6499A17"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "385B253B187F65ED"
+					item: "enderio:conductive_alloy_ingot"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 25"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "13D353412DAFE1A0"
+					team_reward: false
+					title: "&e★ 별빛 +25"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "3C2E12AA077D4B47"
+					item: "enderio:energy_conduit"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "3E6652D3DF40E84A"
+					item: "enderio:item_conduit"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "78DF41B268324853"
+					item: "enderio:fluid_conduit"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 도관 ]"
+			x: 3.5d
+			y: 1.5d
+			icon: "enderio:energy_conduit"
+		}
+		{
+			dependencies: ["7B8ACEE5D2930E23"]
+			description: ["여러 개를 붙이면 하나의 큰 배터리가 된다."]
+			id: "4089BA2A4445FFA4"
+			rewards: [
+				{
+					id: "76CD92459D3E66E3"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 2
+					id: "751EAA736793CAED"
+					item: "enderio:conductive_alloy_ingot"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 30"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "0F60F41072F9E19B"
+					team_reward: false
+					title: "&e★ 별빛 +30"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "789DD5D4DBC1CBE8"
+					item: "enderio:basic_capacitor_bank"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 축전기 뱅크 ]"
+			x: 5.25d
+			y: 2.25d
+			icon: "enderio:basic_capacitor_bank"
+		}
+		{
+			dependencies: ["7FAC847A3279B50D"]
+			description: ["에너지 합금과 진동 합금이다."]
+			id: "7EA0C02AAE419003"
+			rewards: [
+				{
+					id: "7BF4C7763F7F8E25"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+				{
+					count: 2
+					id: "52CC02ED5F90DB0D"
+					item: "enderio:conductive_alloy_ingot"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 35"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "76A90175D0EB66C4"
+					team_reward: false
+					title: "&e★ 별빛 +35"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "762B6D379679F698"
+					item: "enderio:energetic_alloy_ingot"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "21B80D51022A2CE3"
+					item: "enderio:vibrant_alloy_ingot"
+					type: "item"
+				}
+			]
+			title: "&a&l[ ✦ 고급 합금 ]"
+			x: 7.0d
+			y: 0.0d
+			icon: "enderio:energetic_alloy_ingot"
+		}
+		{
+			dependencies: ["7FAC847A3279B50D"]
+			description: ["단단한 합금이다. 영혼 기계에 들어간다."]
+			id: "046D99D230E251CE"
+			rewards: [
+				{
+					id: "72CEFDBBB711BEEB"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+				{
+					count: 8
+					id: "72B9B8681A3CFD38"
+					item: "enderio:silicon"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 35"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "70C48B3DD8CD59F1"
+					team_reward: false
+					title: "&e★ 별빛 +35"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "20F9131A0FE958F6"
+					item: "enderio:dark_steel_ingot"
+					type: "item"
+				}
+			]
+			title: "&8&l[ ✦ 암흑 강철 ]"
+			x: 7.0d
+			y: 1.5d
+			icon: "enderio:dark_steel_ingot"
+		}
+		{
+			dependencies: ["7EA0C02AAE419003"]
+			description: ["Ender IO 태양광 판이다."]
+			id: "7694E5A43164A52B"
+			rewards: [
+				{
+					id: "7886E11B32C6314A"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 8
+					id: "779EC343A86D82C4"
+					item: "enderio:silicon"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 40"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7572DDA318839C4C"
+					team_reward: false
+					title: "&e★ 별빛 +40"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "7234DB1349EE346D"
+					item: "enderio:energetic_photovoltaic_module"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 태양광 모듈 ]"
+			x: 8.75d
+			y: -2.25d
+			icon: "enderio:energetic_photovoltaic_module"
+		}
+		{
+			dependencies: ["7EA0C02AAE419003"]
+			description: ["이동 닻 사이를 순간 이동한다."]
+			id: "7BA24DAD48060E22"
+			rewards: [
+				{
+					id: "72ED6B45DD5C4195"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "75BCFDB015EE64CB"
+					item: "enderio:energetic_alloy_ingot"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 50"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "78DBCE5CBC7C15D8"
+					team_reward: false
+					title: "&e★ 별빛 +50"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "64085E2D4A678AFD"
+					item: "enderio:travel_anchor"
+					type: "item"
+				}
+				{
+					id: "74CB182BC6023262"
+					item: "enderio:staff_of_travelling"
+					type: "item"
+				}
+			]
+			title: "&d&l[ ✦ 이동 지팡이 ]"
+			x: 8.75d
+			y: -0.75d
+			icon: "enderio:travel_anchor"
+		}
+		{
+			dependencies: ["025793B2A30D9045", "7EA0C02AAE419003"]
+			description: ["가장 좋은 일반 축전기다."]
+			id: "667D6DC42E66F63E"
+			rewards: [
+				{
+					id: "6C7ECFCCB1D99B6E"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "7117A2904AF065C4"
+					item: "enderio:energetic_alloy_ingot"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 50"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "791CF5FC192A1DB0"
+					team_reward: false
+					title: "&e★ 별빛 +50"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "2324BD9DB5352CC2"
+					item: "enderio:octadic_capacitor"
+					type: "item"
+				}
+			]
+			title: "&d&l[ ✦ 8중 축전기 ]"
+			x: 8.75d
+			y: 0.75d
+			icon: "enderio:octadic_capacitor"
+		}
+		{
+			dependencies: ["046D99D230E251CE"]
+			description: ["관문: 이 팩에서는 빈 영혼 병 대신 하급 보스 정수가 들어간다."]
+			id: "786F7BF0E2A156AB"
+			rewards: [
+				{
+					id: "1903C75BBAB82DCA"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "6253F950F0D12C31"
+					item: "enderio:basic_capacitor"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 50"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7F30AD96059A057A"
+					team_reward: false
+					title: "&e★ 별빛 +50"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "33C50E27E8658730"
+					item: "enderio:soul_binder"
+					type: "item"
+				}
+			]
+			title: "&5&l[ ✦ 영혼 결합기 ]"
+			x: 8.75d
+			y: 2.25d
+			icon: "enderio:soul_binder"
+		}
+		{
+			dependencies: ["786F7BF0E2A156AB"]
+			description: ["전기로 몹을 만들어 내는 기계다. 쓰는 법은 JEI 에서 확인한다."]
+			id: "7B995EE00DF2CDCD"
+			rewards: [
+				{
+					id: "766635DF56E115E9"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 2
+					id: "5212574BFF89D40B"
+					item: "enderio:energetic_alloy_ingot"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 75"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "5D780799BF728B24"
+					team_reward: false
+					title: "&e★ 별빛 +75"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "70A53F3E7DD8BB8A"
+					item: "enderio:powered_spawner"
+					type: "item"
+				}
+			]
+			title: "&5&l[ ★ 전력 스포너 ]"
+			x: 10.5d
+			y: 0.0d
+			icon: "enderio:powered_spawner"
+			shape: "gear"
+			size: 1.5d
+		}
+	]
+	title: "&b&l✦ Ender IO"
+}

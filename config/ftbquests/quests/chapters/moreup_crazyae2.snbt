@@ -1,0 +1,391 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "moreup_crazyae2"
+	group: "7E05AA7C371599AC"
+	icon: "crazyae2addons:crazy_pattern_provider"
+	id: "726A9602FFD3F668"
+	order_index: 34
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["일반 패턴 공급기보다 패턴을 많이 담는다."]
+			id: "6DC1F0FEAE3B4225"
+			rewards: [
+				{
+					id: "708DC4EE519BC221"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 2
+					id: "48082757EB1A3F7D"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 40"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "2F27F7F8E2CAFD08"
+					team_reward: false
+					title: "&e★ 별빛 +40"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "7C63B5D42F64DDC3"
+					item: "crazyae2addons:crazy_pattern_provider"
+					type: "item"
+				}
+			]
+			title: "&d&l[ ✦ 크레이지 패턴 공급기 ]"
+			x: 0.0d
+			y: -2.25d
+			icon: "crazyae2addons:crazy_pattern_provider"
+		}
+		{
+			dependencies: ["6DC1F0FEAE3B4225"]
+			description: ["관문: 고급 카드 대신 중급 보스 정수가 들어간다. 크레이지 패턴 공급기의 칸을 늘린다."]
+			id: "79C2FFBC6FEA2892"
+			rewards: [
+				{
+					id: "7D851AF2273C337A"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 2
+					id: "72321DE928AC96F3"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 60"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "6524E6ADE1E3CDE8"
+					team_reward: false
+					title: "&e★ 별빛 +60"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "78DBF87252285584"
+					item: "crazyae2addons:crazy_upgrade"
+					type: "item"
+				}
+			]
+			title: "&5&l[ ★ 크레이지 강화 ]"
+			x: 1.75d
+			y: -2.25d
+			icon: "crazyae2addons:crazy_upgrade"
+			shape: "gear"
+			size: 1.5d
+		}
+		{
+			dependencies: ["6DC1F0FEAE3B4225"]
+			description: ["패턴의 재료·결과 개수를 한꺼번에 곱한다."]
+			id: "54125A1B512989D9"
+			rewards: [
+				{
+					id: "20F7BF285B3028AC"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 2
+					id: "6F5E1A4DC9B4A922"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 30"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "417B6D46FCF503EB"
+					team_reward: false
+					title: "&e★ 별빛 +30"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "2FD45FF4C9E2DC00"
+					item: "crazyae2addons:pattern_multiplier"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 패턴 배수기 ]"
+			x: 1.75d
+			y: -0.75d
+			icon: "crazyae2addons:pattern_multiplier"
+		}
+		{
+			description: ["여러 출구에 아이템·액체를 차례로 나눠 보낸다."]
+			id: "764A3266B255A3DF"
+			rewards: [
+				{
+					id: "1A7FE39B8FDE4976"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 2
+					id: "7062D74AA428FA17"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 30"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "606ECD8614536613"
+					team_reward: false
+					title: "&e★ 별빛 +30"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "5FCE35D0C4291FCA"
+					item: "crazyae2addons:round_robin_item_p2p_tunnel"
+					type: "item"
+				}
+				{
+					id: "2ADC5EAFD2398037"
+					item: "crazyae2addons:round_robin_fluid_p2p_tunnel"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 순환 P2P 터널 ]"
+			x: 0.0d
+			y: -0.75d
+			icon: "crazyae2addons:round_robin_item_p2p_tunnel"
+		}
+		{
+			description: ["저장량 단계마다 다른 레드스톤 신호를 낸다."]
+			id: "11EBDA7FCEF2B47B"
+			rewards: [
+				{
+					id: "7ACF08A48AB68834"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 8
+					id: "552A6DF446F8F0D7"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 30"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "662F5BBE13582651"
+					team_reward: false
+					title: "&e★ 별빛 +30"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "7FC5F869B659F01A"
+					item: "crazyae2addons:multi_level_emitter"
+					type: "item"
+				}
+				{
+					id: "7B2F47A06E9327DD"
+					item: "crazyae2addons:tag_level_emitter"
+					type: "item"
+				}
+			]
+			title: "&c&l[ ✦ 다단계 방출기 ]"
+			x: 0.0d
+			y: 0.75d
+			icon: "crazyae2addons:multi_level_emitter"
+		}
+		{
+			dependencies: ["11EBDA7FCEF2B47B"]
+			description: ["네트워크의 레드스톤 신호를 한 화면에서 다룬다."]
+			id: "3F551DE004646895"
+			rewards: [
+				{
+					id: "75F46A2E9DD101EB"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 2
+					id: "4DA917FD4A097139"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 30"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "77B4FB32A324C705"
+					team_reward: false
+					title: "&e★ 별빛 +30"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "74A0B1FBAE1AB039"
+					item: "crazyae2addons:redstone_emitter"
+					type: "item"
+				}
+				{
+					id: "717EF137B78977C7"
+					item: "crazyae2addons:redstone_terminal"
+					type: "item"
+				}
+			]
+			title: "&c&l[ ✦ 레드스톤 터미널 ]"
+			x: 1.75d
+			y: 0.75d
+			icon: "crazyae2addons:redstone_emitter"
+		}
+		{
+			dependencies: ["3F551DE004646895"]
+			description: ["들고 다니며 신호와 알림을 본다."]
+			id: "67748810DFB20209"
+			rewards: [
+				{
+					id: "29252AF0FF8B01E6"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 8
+					id: "7C101871CB424136"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 40"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "2D0A229A65BBB605"
+					team_reward: false
+					title: "&e★ 별빛 +40"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "7DE027A93DB13CE9"
+					item: "crazyae2addons:wireless_redstone_terminal"
+					type: "item"
+				}
+				{
+					id: "7A6A1149D2A1173D"
+					item: "crazyae2addons:wireless_notification_terminal"
+					type: "item"
+				}
+			]
+			title: "&d&l[ ✦ 무선 터미널 ]"
+			x: 3.5d
+			y: 0.0d
+			icon: "crazyae2addons:wireless_redstone_terminal"
+		}
+		{
+			description: ["네트워크 정보를 벽에 띄운다."]
+			id: "703D20A3A81A0EFF"
+			rewards: [
+				{
+					id: "7912CD51EE38B0BE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 8
+					id: "7E8C33A29DA7E64D"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 25"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7970ED544FB5F38F"
+					team_reward: false
+					title: "&e★ 별빛 +25"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "705337126D01BF49"
+					item: "crazyae2addons:display"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 디스플레이 ]"
+			x: 0.0d
+			y: 2.25d
+			icon: "crazyae2addons:display"
+		}
+		{
+			dependencies: ["6DC1F0FEAE3B4225"]
+			description: ["제작 CPU 의 우선순위를 정한다."]
+			id: "7AEF66607BD74810"
+			rewards: [
+				{
+					id: "72961074D7F80F24"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 2
+					id: "73A76B36C68E184C"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 30"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "79FC066E1112F518"
+					team_reward: false
+					title: "&e★ 별빛 +30"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "7169BBB4AA31FD42"
+					item: "crazyae2addons:cpu_priority_tuner"
+					type: "item"
+				}
+			]
+			title: "&7&l[ ✦ CPU 우선순위 조정기 ]"
+			x: 1.75d
+			y: 2.25d
+			icon: "crazyae2addons:cpu_priority_tuner"
+		}
+	]
+	title: "&b&l✦ Crazy AE2 Addons"
+}

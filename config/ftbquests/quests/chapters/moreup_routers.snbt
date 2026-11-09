@@ -1,0 +1,446 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "moreup_routers"
+	group: "7E05AA7C371599AC"
+	icon: "modularrouters:modular_router"
+	id: "701C5A5C5B3665B9"
+	order_index: 33
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["모듈을 끼워 물건을 옮기고, 블록을 캐고, 놓는 만능 블록이다."]
+			id: "7430339F5883560B"
+			rewards: [
+				{
+					id: "70B771904617275C"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 16
+					id: "432762720B92B7FD"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 20"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7FA11595221AB34B"
+					team_reward: false
+					title: "&e★ 별빛 +20"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "703B76A208E1E5DD"
+					item: "modularrouters:modular_router"
+					type: "item"
+				}
+			]
+			title: "&7&l[ ✦ 모듈 라우터 ]"
+			x: 0.0d
+			y: 0.0d
+			icon: "modularrouters:modular_router"
+		}
+		{
+			dependencies: ["7430339F5883560B"]
+			description: ["모든 모듈의 재료다."]
+			id: "2FEF53F4D28954DC"
+			rewards: [
+				{
+					id: "0F2A85F2A10D848C"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 16
+					id: "7C8589221C4F65DE"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 15"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "284363C5562D00F9"
+					team_reward: false
+					title: "&e★ 별빛 +15"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "7000F05CD6CF2473"
+					item: "modularrouters:blank_module"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "68367760EBAC1011"
+					item: "modularrouters:blank_upgrade"
+					type: "item"
+				}
+			]
+			title: "&7&l[ ✦ 빈 모듈 ]"
+			x: 1.75d
+			y: 0.0d
+			icon: "modularrouters:blank_module"
+		}
+		{
+			dependencies: ["2FEF53F4D28954DC"]
+			description: ["라우터 사이, 인벤토리 사이로 물건을 옮긴다."]
+			id: "74D1C4CF66790774"
+			rewards: [
+				{
+					id: "7E55E45A706A931C"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 16
+					id: "74F72295DD4FC43B"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 20"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "1EB2AD7AA108BF48"
+					team_reward: false
+					title: "&e★ 별빛 +20"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "7325897B7C406341"
+					item: "modularrouters:sender_module_1"
+					type: "item"
+				}
+				{
+					id: "713F62C71B2D286A"
+					item: "modularrouters:puller_module_1"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 보내기·당기기 ]"
+			x: 3.5d
+			y: -2.25d
+			icon: "modularrouters:sender_module_1"
+		}
+		{
+			dependencies: ["2FEF53F4D28954DC"]
+			description: ["앞의 블록을 캐거나 놓는다. 자동 채석장·농장에 쓴다."]
+			id: "7F576514FFD134AB"
+			rewards: [
+				{
+					id: "759F78A486A4AE4C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 32
+					id: "7DDA64A17D835CCE"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 25"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7A9F2FFB9B3EB0A3"
+					team_reward: false
+					title: "&e★ 별빛 +25"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "26DE8F28E7842BB3"
+					item: "modularrouters:breaker_module"
+					type: "item"
+				}
+				{
+					id: "75252C39F81DB033"
+					item: "modularrouters:placer_module"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 캐기·놓기 ]"
+			x: 3.5d
+			y: -0.75d
+			icon: "modularrouters:breaker_module"
+		}
+		{
+			dependencies: ["2FEF53F4D28954DC"]
+			description: ["주변에 떨어진 물건을 빨아들인다."]
+			id: "593C18B2E26ADDCB"
+			rewards: [
+				{
+					id: "606484F4AB6C9018"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "71A4AD85D44C9254"
+					item: "modularrouters:speed_upgrade"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 25"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "75CA2112195D7EA7"
+					team_reward: false
+					title: "&e★ 별빛 +25"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "7F6263E166B4F1A5"
+					item: "modularrouters:vacuum_module"
+					type: "item"
+				}
+			]
+			title: "&a&l[ ✦ 흡입 모듈 ]"
+			x: 3.5d
+			y: 0.75d
+			icon: "modularrouters:vacuum_module"
+		}
+		{
+			dependencies: ["74D1C4CF66790774"]
+			description: ["더 빨리, 더 많이 옮긴다."]
+			id: "7E6AE860C49B73D8"
+			rewards: [
+				{
+					id: "76D72684A8D0F71E"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 32
+					id: "7778B9EB191CAA81"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 30"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "724F2F96FA0DB0FC"
+					team_reward: false
+					title: "&e★ 별빛 +30"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "7AD0A073C4D6F831"
+					item: "modularrouters:speed_upgrade"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "77AADE7D385E84E9"
+					item: "modularrouters:stack_upgrade"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 속도·묶음 강화 ]"
+			x: 5.25d
+			y: -1.5d
+			icon: "modularrouters:speed_upgrade"
+		}
+		{
+			dependencies: ["74D1C4CF66790774"]
+			description: ["태그나 이름 패턴으로 옮길 물건을 고른다."]
+			id: "7802FD1BD709823A"
+			rewards: [
+				{
+					id: "7BEDA3F045FA0659"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 32
+					id: "6554E59160DC5A56"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 25"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "76CD247DCD57BBBF"
+					team_reward: false
+					title: "&e★ 별빛 +25"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "72DC0A6172E7C93E"
+					item: "modularrouters:tag_filter"
+					type: "item"
+				}
+				{
+					id: "75FC04C106BC52C8"
+					item: "modularrouters:regex_filter"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 필터 ]"
+			x: 5.25d
+			y: 0.0d
+			icon: "modularrouters:tag_filter"
+		}
+		{
+			dependencies: ["74D1C4CF66790774"]
+			description: ["여러 곳에 골고루 나눠 보낸다."]
+			id: "7A017051633311AC"
+			rewards: [
+				{
+					id: "782CCE5FD86AD763"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 32
+					id: "7A9E971530C2F46F"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 30"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "5B48B624A6D2AE51"
+					team_reward: false
+					title: "&e★ 별빛 +30"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "7FCBA7EAF0BE1EE8"
+					item: "modularrouters:distributor_module"
+					type: "item"
+				}
+			]
+			title: "&d&l[ ✦ 분배 모듈 ]"
+			x: 5.25d
+			y: 1.5d
+			icon: "modularrouters:distributor_module"
+		}
+		{
+			dependencies: ["7E6AE860C49B73D8"]
+			description: ["다른 차원까지 보낸다."]
+			id: "0B82DB4B20C4F4A9"
+			rewards: [
+				{
+					id: "7CF0916632ABA836"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 8
+					id: "7FBE3154BF41FD85"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 50"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7B34A2C8FC0831B0"
+					team_reward: false
+					title: "&e★ 별빛 +50"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "78B91D50AE132340"
+					item: "modularrouters:sender_module_3"
+					type: "item"
+				}
+			]
+			title: "&5&l[ ✦ 보내기 모듈 3 ]"
+			x: 7.0d
+			y: 0.0d
+			icon: "modularrouters:sender_module_3"
+		}
+		{
+			dependencies: ["2FEF53F4D28954DC"]
+			description: ["라우터로 전기를 보내고 나눈다."]
+			id: "1148EFBC144F3F84"
+			rewards: [
+				{
+					id: "779996B154DC09B4"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 32
+					id: "7B93E84E2E6EBD80"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 30"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7678A3D49CB2B328"
+					team_reward: false
+					title: "&e★ 별빛 +30"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "6DB9C4A9D641DEDA"
+					item: "modularrouters:energy_output_module"
+					type: "item"
+				}
+				{
+					id: "1DECC0AE8376F044"
+					item: "modularrouters:energy_upgrade"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 전기 모듈 ]"
+			x: 3.5d
+			y: 2.25d
+			icon: "modularrouters:energy_output_module"
+		}
+	]
+	title: "&b&l✦ Modular Routers"
+}

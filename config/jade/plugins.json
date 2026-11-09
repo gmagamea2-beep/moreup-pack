@@ -65,6 +65,9 @@
     "camo": true,
     "semiblock": true
   },
+  "immersiveengineering": {
+    "multiblock_icon": true
+  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,
@@ -76,6 +79,9 @@
   "expatternprovider": {
     "jade_chamber": true,
     "jade_wireless": true
+  },
+  "functionalstorage": {
+    "armory": true
   },
   "balm": {
     "jade": true
@@ -99,6 +105,12 @@
     "power_storage": true,
     "crafting_monitor": true,
     "part_name": true
+  },
+  "modularrouters": {
+    "router": true
+  },
+  "hammerlib": {
+    "root": true
   },
   "mekanism": {
     "infuse_type": true,

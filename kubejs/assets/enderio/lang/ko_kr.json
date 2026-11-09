@@ -1,0 +1,18 @@
+{
+  "block.enderio.aversion_obelisk": "기피 오벨리스크",
+  "gui.enderio.conduit.priority": "우선순위",
+  "gui.enderio.conduit_probe.message.copied": "데이터를 복사했습니다: %s",
+  "gui.enderio.conduit_probe.message.pasted": "데이터를 붙여 넣었습니다: %s",
+  "gui.enderio.conduit_probe.mode.switched": "도관 탐침 모드를 %s(으)로 바꿨습니다",
+  "item.enderio.conduit.chemical.multi": "한 줄로 여러 종류의 화학 물질을 옮길 수 있다",
+  "item.enderio.conduit_probe": "도관 탐침",
+  "item.enderio.entity_filter": "영혼 필터",
+  "keybinding.enderio.category": "EnderIO",
+  "keybinding.enderio.probe_mode": "탐침 모드 바꾸기",
+  "tooltip.enderio.conduit.fluid.multi": "한 줄로 여러 액체를 옮길 수 있다",
+  "tooltip.enderio.conduit.fluid.rate": "전송 속도 %s mB/t",
+  "tooltip.enderio.conduit_probe.mode": "모드: %s",
+  "tooltip.enderio.conduit_probe.mode.contains_copied": "복사한 도관 데이터:",
+  "tooltip.enderio.conduit_probe.mode.copy_paste": "복사/붙여넣기",
+  "tooltip.enderio.conduit_probe.mode.probe": "탐침"
+}

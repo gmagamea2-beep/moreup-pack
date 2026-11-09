@@ -1,7 +1,7 @@
 {
   "general": {
     "debug": false,
-    "itemModNameTooltip": true,
+    "itemModNameTooltip": false,
     "bossBarOverlapMode": "PUSH_DOWN",
     "builtinCamouflage": true,
     "ttsMode": "PRESS",
@@ -10,7 +10,7 @@
     "displayEntities": true,
     "displayBosses": true,
     "displayMode": "TOGGLE",
-    "displayTooltip": false,
+    "displayTooltip": true,
     "displayBlocks": true,
     "hideFromDebug": true,
     "hideFromTabList": true,

@@ -1,0 +1,6 @@
+{
+  "item.modularrouters.tag_filter": "태그 필터",
+  "modularrouters.chatText.targetValidation.BAD_DIMENSION": "§c✘ 금지된 차원",
+  "modularrouters.guiText.label.noTags": "아이템 태그 없음",
+  "modularrouters.guiText.label.selectTag": "아이템 태그 고르기"
+}

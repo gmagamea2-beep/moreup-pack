@@ -1,0 +1,422 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "moreup_immersive_petro"
+	group: "7E05AA7C371599AC"
+	icon: "immersivepetroleum:oil_can"
+	id: "734E29D0ABFF5900"
+	order_index: 29
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6007AABD6B70E30B"]
+			description: ["땅속 원유 저장층을 찾는다. 원유는 정해진 곳에만 있다."]
+			id: "10769AFAC4595BA0"
+			rewards: [
+				{
+					id: "7A1BE1C09DFE3A22"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "79850A6107814939"
+					item: "immersiveengineering:ingot_steel"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 25"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7088A96F091EDD6E"
+					team_reward: false
+					title: "&e★ 별빛 +25"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "79A6E6D2ECD8B95F"
+					item: "immersivepetroleum:seismic_survey"
+					type: "item"
+				}
+			]
+			title: "&7&l[ ✦ 지진파 탐사기 ]"
+			x: 0.0d
+			y: 0.0d
+			icon: "immersivepetroleum:seismic_survey"
+		}
+		{
+			dependencies: ["10769AFAC4595BA0"]
+			description: ["지을 멀티블록의 모양을 미리 보여 준다. 큰 구조물이 많아 거의 필수다."]
+			id: "6EE15FCE6009EDBA"
+			rewards: [
+				{
+					id: "7640B3B1E0BACF87"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 8
+					id: "7F76DD980AD32F26"
+					item: "immersiveengineering:coal_coke"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 20"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7FE5D7AF0F45CD41"
+					team_reward: false
+					title: "&e★ 별빛 +20"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "7BCFBE4F4D71BD05"
+					item: "immersivepetroleum:projector"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 멀티블록 투영기 ]"
+			x: 1.75d
+			y: 0.0d
+			icon: "immersivepetroleum:projector"
+		}
+		{
+			dependencies: ["6EE15FCE6009EDBA", "72518DAD2FAF6D47"]
+			description: ["원유 저장층 위에 세운다."]
+			id: "484AEC8BED521208"
+			rewards: [
+				{
+					id: "77D176978CD6E586"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "2CE056B59B42F29D"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 50"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7737105FC39F4B47"
+					team_reward: false
+					title: "&e★ 별빛 +50"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "614A5AD04BAB3375"
+					title: "펌프잭 완성"
+					type: "checkmark"
+				}
+			]
+			title: "&6&l[ ❂ 펌프잭 ]"
+			icon: "immersivepetroleum:crudeoil_bucket"
+			x: 3.5d
+			y: 0.0d
+			shape: "gear"
+			size: 1.5d
+		}
+		{
+			dependencies: ["484AEC8BED521208"]
+			description: ["펌프잭이 뽑아 올린다."]
+			id: "1D31C6082AF84C73"
+			rewards: [
+				{
+					id: "7482DB3E6259EFF5"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 4
+					id: "7B5893C4CF8F3E91"
+					item: "immersiveengineering:ingot_steel"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 30"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "5B87C2C66E649303"
+					team_reward: false
+					title: "&e★ 별빛 +30"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "7776339AB894F056"
+					item: "immersivepetroleum:crudeoil_bucket"
+					type: "item"
+				}
+			]
+			title: "&8&l[ ✦ 원유 ]"
+			x: 5.25d
+			y: 0.0d
+			icon: "immersivepetroleum:crudeoil_bucket"
+		}
+		{
+			dependencies: ["1D31C6082AF84C73"]
+			description: ["원유를 여러 연료와 윤활유로 나눈다."]
+			id: "05D4C46B5B9E08FA"
+			rewards: [
+				{
+					id: "09365E8BE2597C24"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					id: "41171D739DE5246F"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 60"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7CBE375A19864608"
+					team_reward: false
+					title: "&e★ 별빛 +60"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "7605A72AC4BF250E"
+					title: "증류탑 완성"
+					type: "checkmark"
+				}
+			]
+			title: "&7&l[ ❂ 증류탑 ]"
+			icon: "immersivepetroleum:lubricant_bucket"
+			x: 7.0d
+			y: 0.0d
+			shape: "gear"
+			size: 1.5d
+		}
+		{
+			dependencies: ["05D4C46B5B9E08FA"]
+			description: ["윤활기에 넣어 기계를 더 빠르게 돌린다."]
+			id: "07796355D95D698F"
+			rewards: [
+				{
+					id: "177242074CE5AC80"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 4
+					id: "413EC8492BF8F552"
+					item: "immersiveengineering:ingot_steel"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 40"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "1C2CDD5FD15A168A"
+					team_reward: false
+					title: "&e★ 별빛 +40"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "7CE1A49459271EEE"
+					item: "immersivepetroleum:lubricant_bucket"
+					type: "item"
+				}
+				{
+					id: "7813714C140EE6B0"
+					item: "immersivepetroleum:auto_lubricator"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 윤활유 ]"
+			x: 8.75d
+			y: -1.5d
+			icon: "immersivepetroleum:lubricant_bucket"
+		}
+		{
+			dependencies: ["07796355D95D698F"]
+			description: ["윤활유를 기계에 직접 뿌린다."]
+			id: "79B9AB3A6CCA71B9"
+			rewards: [
+				{
+					id: "7DAE804FA904224C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "3BB9A64527FBC354"
+					item: "immersiveengineering:ingot_steel"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 25"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "6BD4D46DB47C3609"
+					team_reward: false
+					title: "&e★ 별빛 +25"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "14CA4EF64E59C326"
+					item: "immersivepetroleum:oil_can"
+					type: "item"
+				}
+			]
+			title: "&7&l[ ✦ 기름통 ]"
+			x: 10.5d
+			y: -0.75d
+			icon: "immersivepetroleum:oil_can"
+		}
+		{
+			dependencies: ["05D4C46B5B9E08FA"]
+			description: ["액체 연료를 태워 전기를 만든다."]
+			id: "7F2E3EF890052DFD"
+			rewards: [
+				{
+					id: "2D59EBC419E7EC66"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 4
+					id: "4CD445BC80394FEF"
+					item: "immersiveengineering:ingot_steel"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 40"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "74C03DD0718DA28E"
+					team_reward: false
+					title: "&e★ 별빛 +40"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "627E620B8F7AE078"
+					item: "immersivepetroleum:gas_generator"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 휴대용 발전기 ]"
+			x: 8.75d
+			y: 0.0d
+			icon: "immersivepetroleum:gas_generator"
+		}
+		{
+			dependencies: ["05D4C46B5B9E08FA"]
+			description: ["역청(찌꺼기)을 석유 코크스로 바꾼다."]
+			id: "5B513E98ABB98A44"
+			rewards: [
+				{
+					id: "7BDC286AD2DC527A"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "1A161B52F9344CAF"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 50"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7A07372232FC79E9"
+					team_reward: false
+					title: "&e★ 별빛 +50"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "761F910ACD2F8281"
+					title: "코커 장치 완성"
+					type: "checkmark"
+				}
+			]
+			title: "&8&l[ ❂ 코커 장치 ]"
+			icon: "immersivepetroleum:petcoke"
+			x: 8.75d
+			y: 1.5d
+			shape: "gear"
+			size: 1.5d
+		}
+		{
+			dependencies: ["7F2E3EF890052DFD"]
+			description: ["연료로 달리는 빠른 배다."]
+			id: "71348C43E5845507"
+			rewards: [
+				{
+					id: "75D9B3829EB41F0B"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 4
+					id: "3C20322D4ADACD71"
+					item: "immersiveengineering:ingot_steel"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 40"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "76DC2B522F768D11"
+					team_reward: false
+					title: "&e★ 별빛 +40"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "0023EEBD7DA58988"
+					item: "immersivepetroleum:speedboat"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 모터보트 ]"
+			x: 10.5d
+			y: 0.75d
+			icon: "immersivepetroleum:speedboat"
+		}
+	]
+	title: "&b&l✦ Immersive Petroleum"
+}

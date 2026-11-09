@@ -36,7 +36,7 @@
 		/* Multiplier to the required energy applied after an energizing recipe is read.
 		   Use this to adjust the cost of ALL energizing recipes.
 		*/
-		"energizing_energy_ratio": 0.5
+		"energizing_energy_ratio": 0.4
 	},
 	// Configuration of energy values for generators.
 	"generators": {
@@ -60,13 +60,13 @@
 				"nitro": 160000
 			},
 			"generation_rates": {
-				"starter": 60,
-				"basic": 120,
-				"hardened": 240,
-				"blazing": 960,
-				"niotic": 2400,
-				"spirited": 9600,
-				"nitro": 48000
+				"starter": 75,
+				"basic": 150,
+				"hardened": 300,
+				"blazing": 1200,
+				"niotic": 3000,
+				"spirited": 12000,
+				"nitro": 60000
 			}
 		},
 		"magmators": {
@@ -89,13 +89,13 @@
 				"nitro": 160000
 			},
 			"generation_rates": {
-				"starter": 60,
-				"basic": 120,
-				"hardened": 240,
-				"blazing": 960,
-				"niotic": 2400,
-				"spirited": 9600,
-				"nitro": 48000
+				"starter": 75,
+				"basic": 150,
+				"hardened": 300,
+				"blazing": 1200,
+				"niotic": 3000,
+				"spirited": 12000,
+				"nitro": 60000
 			}
 		},
 		"reactors": {
@@ -118,13 +118,13 @@
 				"nitro": 2000000
 			},
 			"generation_rates": {
-				"starter": 750,
-				"basic": 1500,
-				"hardened": 3000,
-				"blazing": 12000,
-				"niotic": 30000,
-				"spirited": 120000,
-				"nitro": 600000
+				"starter": 938,
+				"basic": 1875,
+				"hardened": 3750,
+				"blazing": 15000,
+				"niotic": 37500,
+				"spirited": 150000,
+				"nitro": 750000
 			}
 		},
 		"solar_panels": {
@@ -147,13 +147,13 @@
 				"nitro": 160000
 			},
 			"generation_rates": {
-				"starter": 60,
-				"basic": 90,
-				"hardened": 120,
-				"blazing": 240,
-				"niotic": 480,
-				"spirited": 960,
-				"nitro": 2400
+				"starter": 75,
+				"basic": 112,
+				"hardened": 150,
+				"blazing": 300,
+				"niotic": 600,
+				"spirited": 1200,
+				"nitro": 3000
 			}
 		},
 		"thermo_generators": {
@@ -176,13 +176,13 @@
 				"nitro": 160000
 			},
 			"generation_rates": {
-				"starter": 60,
-				"basic": 90,
-				"hardened": 120,
-				"blazing": 240,
-				"niotic": 480,
-				"spirited": 960,
-				"nitro": 2400
+				"starter": 75,
+				"basic": 112,
+				"hardened": 150,
+				"blazing": 300,
+				"niotic": 600,
+				"spirited": 1200,
+				"nitro": 3000
 			}
 		}
 	},

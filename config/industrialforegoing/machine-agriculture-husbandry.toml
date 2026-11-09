@@ -5,7 +5,7 @@
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
 		maxProgress = 160
 		#Amount of Power Consumed per Operation - Default: [400FE]
-		powerPerOperation = 420
+		powerPerOperation = 336
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
 
@@ -13,7 +13,7 @@
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
 		maxProgress = 64
 		#Amount of Power Consumer per Operation - Default: [400FE]
-		powerPerOperation = 420
+		powerPerOperation = 336
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
 		#Max Amount of Stored Fluid for 'Sludge Tank' - Default: [8000mB]
@@ -25,7 +25,7 @@
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
 		maxProgress = 160
 		#Amount of Power Consumed per Operation - Default: [400FE]
-		powerPerOperation = 420
+		powerPerOperation = 336
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
 		#Max Amount of Stored Fluid - Default: [8000mB]
@@ -37,7 +37,7 @@
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
 		maxProgress = 160
 		#Amount of Power Consumed per Tick - Default: [40FE]
-		powerPerTick = 42
+		powerPerTick = 34
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
 		#Max Amount of Stored Fluid - Default: [8000mB]
@@ -47,7 +47,7 @@
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
 		maxProgress = 80
 		#Amount of Power Consumer per Operation - Default: [400FE]
-		powerPerOperation = 1050
+		powerPerOperation = 840
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
 
@@ -55,7 +55,7 @@
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
 		maxProgress = 160
 		#Amount of Power Consumed per Operation - Default: [400FE]
-		powerPerOperation = 420
+		powerPerOperation = 336
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
 		#How many animals there need to be in the area to stop the machine from working
@@ -65,7 +65,7 @@
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
 		maxProgress = 160
 		#Amount of Power Consumed per Operation - Default: [400FE]
-		powerPerOperation = 420
+		powerPerOperation = 336
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
 		#Max Amount of Stored Fluid - Default: [8000mB]
@@ -75,7 +75,7 @@
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
 		maxProgress = 99
 		#Amount of Power Consumed per Operation - Default: [400FE]
-		powerPerOperation = 5250
+		powerPerOperation = 4200
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 50000
 		#Max Essence [mb] - Default: [8000 mb]
@@ -89,7 +89,7 @@
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
 		maxProgress = 64
 		#Amount of Power Consumer per Operation - Default: [1000FE]
-		powerPerOperation = 1050
+		powerPerOperation = 840
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
 
@@ -97,7 +97,7 @@
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [40 (5s)]
 		maxProgress = 64
 		#Amount of Power Consumed per Operation - Default: [500FE]
-		powerPerOperation = 21000
+		powerPerOperation = 16800
 		#Max Stored Power [FE] - Default: [70000 FE]
 		maxStoredPower = 70000
 
@@ -105,7 +105,7 @@
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
 		maxProgress = 160
 		#Amount of Power Consumed per Operation - Default: [10FE] - This is Calculated as [VALUE * (amount + 1)]
-		powerPerOperation = 10
+		powerPerOperation = 8
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
 		#Max Amount of Stored Fluid - Default: [8000mB]
@@ -117,7 +117,7 @@
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [50 (2.5s)]
 		maxProgress = 160
 		#Amount of Power Consumed per Tick - Default: [40FE]
-		powerPerOperation = 52
+		powerPerOperation = 42
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
 		#Max Essence [mb] - Default: [32000 mb]

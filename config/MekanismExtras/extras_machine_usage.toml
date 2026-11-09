@@ -2,5 +2,5 @@
 #Machine Energy Usage Config. This config is synced from server to client.
 [usage]
 	#Energy per operation tick (Joules).
-	advanceElectricPump = "700"
+	advanceElectricPump = "560"
 

@@ -76,5 +76,15 @@
   "item.sophisticatedbackpacks.chipped.tinkering_table_upgrade": "Chipped: 수리 작업대 강화",
   "item.sophisticatedbackpacks.chipped.tinkering_table_upgrade.tooltip": "강화 탭에 Chipped 수리 작업대",
   "gui.sophisticatedbackpacks.upgrades.smithing": "대장장이",
-  "gui.sophisticatedbackpacks.upgrades.smithing.tooltip": "대장장이"
+  "gui.sophisticatedbackpacks.upgrades.smithing.tooltip": "대장장이",
+  "item.sophisticatedbackpacks.stack_upgrade_starter_tier_to_tier_1_conversion": "쌓기 기능 변환: 0.5단계 → 1단계",
+  "item.sophisticatedbackpacks.stack_upgrade_starter_tier_to_tier_2_conversion": "쌓기 기능 변환: 0.5단계 → 2단계",
+  "item.sophisticatedbackpacks.stack_upgrade_starter_tier_to_tier_3_conversion": "쌓기 기능 변환: 0.5단계 → 3단계",
+  "item.sophisticatedbackpacks.stack_upgrade_starter_tier_to_tier_4_conversion": "쌓기 기능 변환: 0.5단계 → 4단계",
+  "item.sophisticatedbackpacks.stack_upgrade_tier_1_to_tier_2_conversion": "쌓기 기능 변환: 1단계 → 2단계",
+  "item.sophisticatedbackpacks.stack_upgrade_tier_1_to_tier_3_conversion": "쌓기 기능 변환: 1단계 → 3단계",
+  "item.sophisticatedbackpacks.stack_upgrade_tier_1_to_tier_4_conversion": "쌓기 기능 변환: 1단계 → 4단계",
+  "item.sophisticatedbackpacks.stack_upgrade_tier_2_to_tier_3_conversion": "쌓기 기능 변환: 2단계 → 3단계",
+  "item.sophisticatedbackpacks.stack_upgrade_tier_2_to_tier_4_conversion": "쌓기 기능 변환: 2단계 → 4단계",
+  "item.sophisticatedbackpacks.stack_upgrade_tier_3_to_tier_4_conversion": "쌓기 기능 변환: 3단계 → 4단계"
 }

@@ -1,0 +1,766 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "moreup_storage"
+	group: "7E05AA7C371599AC"
+	icon: "sophisticatedstorage:diamond_chest"
+	id: "7FAEF98EF531DD17"
+	order_index: 32
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Sophisticated Storage 상자다. 등급을 올리면 칸이 늘고 강화 슬롯이 생긴다."]
+			id: "742C2E2B202E6C67"
+			rewards: [
+				{
+					id: "434969398E0F09E5"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 4
+					id: "65DC9CDA5DE5AB8E"
+					item: "minecraft:barrel"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 15"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "75AE0A12CA844065"
+					team_reward: false
+					title: "&e★ 별빛 +15"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "72033D18FF11F5FD"
+					item: "sophisticatedstorage:chest"
+					type: "item"
+				}
+				{
+					id: "712AD2136AC266AB"
+					item: "sophisticatedstorage:barrel"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 나무 상자 ]"
+			x: 0.0d
+			y: -0.75d
+			icon: "sophisticatedstorage:chest"
+		}
+		{
+			dependencies: ["742C2E2B202E6C67"]
+			description: ["구리 등급은 조합대에서 바로 올린다."]
+			id: "739DFD5643B5A0E6"
+			rewards: [
+				{
+					id: "71EF29F36F2AEBFD"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 4
+					id: "790E29E6BAB7BDEF"
+					item: "minecraft:barrel"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 20"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7E620FE4A06EA26A"
+					team_reward: false
+					title: "&e★ 별빛 +20"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "7C712950C14FE269"
+					item: "sophisticatedstorage:copper_chest"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 구리 상자 ]"
+			x: 1.75d
+			y: -3.75d
+			icon: "sophisticatedstorage:copper_chest"
+		}
+		{
+			dependencies: ["739DFD5643B5A0E6"]
+			description: ["철 등급부터는 상자를 조합대에서 바로 올릴 수 없다. 철판이 들어간 등급 강화 키트를 만들어 설치한 상자에 쓴다."]
+			id: "724ED0052EA568C0"
+			rewards: [
+				{
+					id: "7B4E02F0E67A75C1"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 4
+					id: "7FA045350CA59D27"
+					item: "create:golden_sheet"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 30"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7E057D465C2E1A37"
+					team_reward: false
+					title: "&e★ 별빛 +30"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "20D053DF51269A6C"
+					item: "sophisticatedstorage:iron_chest"
+					type: "item"
+				}
+			]
+			title: "&7&l[ ✦ 철 상자 ]"
+			x: 3.5d
+			y: -2.25d
+			icon: "sophisticatedstorage:iron_chest"
+		}
+		{
+			dependencies: ["724ED0052EA568C0"]
+			description: ["금판이 들어간 강화 키트로 올린다."]
+			id: "20AF8C56227156C8"
+			rewards: [
+				{
+					id: "48D1683DD2818098"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 8
+					id: "3B8B154945787416"
+					item: "create:iron_sheet"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 40"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "5CCB849BEED5118B"
+					team_reward: false
+					title: "&e★ 별빛 +40"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "7C1D84CF20EF2227"
+					item: "sophisticatedstorage:gold_chest"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 금 상자 ]"
+			x: 5.25d
+			y: -1.5d
+			icon: "sophisticatedstorage:gold_chest"
+		}
+		{
+			dependencies: ["20AF8C56227156C8"]
+			description: ["Create 정밀 기계 장치가 들어간 강화 키트로 올린다. 중반에 노려볼 만한 큰 상자다."]
+			id: "79E74C3A8388B438"
+			rewards: [
+				{
+					id: "7CE92C6A848AA33D"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 4
+					id: "4930B8FAD6542470"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 50"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "095A297B4F924929"
+					team_reward: false
+					title: "&e★ 별빛 +50"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "76121EB830C0B754"
+					item: "sophisticatedstorage:diamond_chest"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 다이아 상자 ]"
+			x: 7.0d
+			y: -0.75d
+			icon: "sophisticatedstorage:diamond_chest"
+		}
+		{
+			dependencies: ["79E74C3A8388B438"]
+			description: ["관문: 다이아→네더라이트 강화 키트에 중급 보스 정수가 들어간다."]
+			id: "71AD686831EFA35D"
+			rewards: [
+				{
+					id: "29C6BE282AF73A26"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 8
+					id: "1B8707B619BFBC0D"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 75"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7EB739CE12EE0D92"
+					team_reward: false
+					title: "&e★ 별빛 +75"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "063BDAFDF71DA8B0"
+					item: "sophisticatedstorage:netherite_chest"
+					type: "item"
+				}
+			]
+			title: "&5&l[ ★ 네더라이트 상자 ]"
+			x: 8.75d
+			y: 0.0d
+			icon: "sophisticatedstorage:netherite_chest"
+			shape: "gear"
+			size: 1.5d
+		}
+		{
+			dependencies: ["742C2E2B202E6C67"]
+			description: ["모든 상자 강화의 바탕이다."]
+			id: "1FD425900E9FE1FB"
+			rewards: [
+				{
+					id: "75C9192A554C07AB"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 4
+					id: "366ABE9DEC1D2092"
+					item: "minecraft:chest"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 15"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "128410E19C1B72D0"
+					team_reward: false
+					title: "&e★ 별빛 +15"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "3934BCCE21D31B5F"
+					item: "sophisticatedstorage:upgrade_base"
+					type: "item"
+				}
+			]
+			title: "&7&l[ ✦ 강화 틀 ]"
+			x: 1.75d
+			y: -2.25d
+			icon: "sophisticatedstorage:upgrade_base"
+		}
+		{
+			dependencies: ["1FD425900E9FE1FB", "724ED0052EA568C0"]
+			description: ["한 칸에 더 많이 쌓인다."]
+			id: "71C6864CF6852D05"
+			rewards: [
+				{
+					id: "7E4F8D147CE1C7F3"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 8
+					id: "5C66A55D33219F5E"
+					item: "create:iron_sheet"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 30"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "5437701B3373C642"
+					team_reward: false
+					title: "&e★ 별빛 +30"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "752DE5812ED77619"
+					item: "sophisticatedstorage:stack_upgrade_tier_1"
+					type: "item"
+				}
+			]
+			title: "&a&l[ ✦ 묶음 강화 1 ]"
+			x: 5.25d
+			y: 0.0d
+			icon: "sophisticatedstorage:stack_upgrade_tier_1"
+		}
+		{
+			dependencies: ["71C6864CF6852D05", "20AF8C56227156C8"]
+			id: "5E82F58F9BB5C08C"
+			rewards: [
+				{
+					id: "7F9163BFF3174C57"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "434C947FE48183A5"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 50"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7E4FC1FDA9011185"
+					team_reward: false
+					title: "&e★ 별빛 +50"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "75C16CFBB26FF91D"
+					item: "sophisticatedstorage:stack_upgrade_tier_2"
+					type: "item"
+				}
+			]
+			title: "&a&l[ ✦ 묶음 강화 2 ]"
+			x: 7.0d
+			y: 0.75d
+			icon: "sophisticatedstorage:stack_upgrade_tier_2"
+		}
+		{
+			dependencies: ["1FD425900E9FE1FB"]
+			description: ["들어온 물건을 블록으로 압축하거나 넘치는 것을 버린다."]
+			id: "244953B8718EE2B0"
+			rewards: [
+				{
+					id: "7A43358193B94B80"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 4
+					id: "7A2D5916911C123A"
+					item: "create:golden_sheet"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 30"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "40681E3A7923CB9D"
+					team_reward: false
+					title: "&e★ 별빛 +30"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "743005D2D0399854"
+					item: "sophisticatedstorage:compacting_upgrade"
+					type: "item"
+				}
+				{
+					id: "7C03EBAB81409013"
+					item: "sophisticatedstorage:void_upgrade"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 압축·버리기 강화 ]"
+			x: 3.5d
+			y: -0.75d
+			icon: "sophisticatedstorage:compacting_upgrade"
+		}
+		{
+			dependencies: ["742C2E2B202E6C67"]
+			description: ["상자를 내용물째 들고 옮긴다."]
+			id: "5ABCC6C903636746"
+			rewards: [
+				{
+					id: "7B86D6295FA0354B"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 4
+					id: "492A7C518C910EE9"
+					item: "minecraft:barrel"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 15"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "750223EEB8D0CFB4"
+					team_reward: false
+					title: "&e★ 별빛 +15"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "705F7596396A8DEC"
+					item: "sophisticatedstorage:packing_tape"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 포장 테이프 ]"
+			x: 1.75d
+			y: -0.75d
+			icon: "sophisticatedstorage:packing_tape"
+		}
+		{
+			dependencies: ["724ED0052EA568C0"]
+			description: ["주변 상자를 하나로 묶어 꺼내고 넣는다. 이 팩에서는 비교기 대신 AE2 논리 처리기가 들어간다."]
+			id: "7E8D3C95E3F739E6"
+			rewards: [
+				{
+					id: "757EDC1C2B7AF30D"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 8
+					id: "7C788B7EA50DA4CE"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 50"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "785B5487E626CB26"
+					team_reward: false
+					title: "&e★ 별빛 +50"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "7D92A7BD1700229E"
+					item: "sophisticatedstorage:controller"
+					type: "item"
+				}
+				{
+					id: "7570379A84F3705A"
+					item: "sophisticatedstorage:storage_link"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 저장소 제어기 ]"
+			x: 5.25d
+			y: 1.5d
+			icon: "sophisticatedstorage:controller"
+		}
+		{
+			description: ["Functional Storage 서랍이다. 한 종류의 물건을 많이 담는다."]
+			id: "7027E42BD778A862"
+			rewards: [
+				{
+					id: "79D7DB06FB038FB7"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 4
+					id: "7750E9119801DA6B"
+					item: "minecraft:chest"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 15"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "0F9886253C64E0FD"
+					team_reward: false
+					title: "&e★ 별빛 +15"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "581A05C46EC13DD2"
+					item: "functionalstorage:oak_1"
+					type: "item"
+				}
+				{
+					id: "5271AF9293B4C23B"
+					item: "functionalstorage:oak_4"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 서랍 ]"
+			x: 0.0d
+			y: 0.75d
+			icon: "functionalstorage:oak_1"
+		}
+		{
+			dependencies: ["7027E42BD778A862"]
+			description: ["주괴·조각·블록을 자동으로 바꿔 담는다."]
+			id: "7E7080BE485FE947"
+			rewards: [
+				{
+					id: "582C319A33344D95"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 8
+					id: "7E6D1E48AC4260C8"
+					item: "create:iron_sheet"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 25"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "798D67A7F99DFA1C"
+					team_reward: false
+					title: "&e★ 별빛 +25"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "17800E84D2F72606"
+					item: "functionalstorage:compacting_drawer"
+					type: "item"
+				}
+			]
+			title: "&7&l[ ✦ 압축 서랍 ]"
+			x: 1.75d
+			y: 0.75d
+			icon: "functionalstorage:compacting_drawer"
+		}
+		{
+			dependencies: ["7027E42BD778A862"]
+			description: ["서랍 용량을 늘린다."]
+			id: "7247F471F068360F"
+			rewards: [
+				{
+					id: "7303D11338212DF8"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 4
+					id: "2F074E9AA34F9A63"
+					item: "create:golden_sheet"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 30"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "2378E173E4940AD5"
+					team_reward: false
+					title: "&e★ 별빛 +30"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "7BDEEAC5C5963DA3"
+					item: "functionalstorage:copper_upgrade"
+					type: "item"
+				}
+				{
+					id: "7D02F5B70F7B5C87"
+					item: "functionalstorage:gold_upgrade"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 서랍 강화 ]"
+			x: 1.75d
+			y: 2.25d
+			icon: "functionalstorage:copper_upgrade"
+		}
+		{
+			dependencies: ["7247F471F068360F"]
+			id: "71D6FF78B9265E7E"
+			rewards: [
+				{
+					id: "7868DFB55F3896A5"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 8
+					id: "3A39E830340F9603"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 60"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7B7D57BA1F0EFB18"
+					team_reward: false
+					title: "&e★ 별빛 +60"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "18715ACB12904A9D"
+					item: "functionalstorage:diamond_upgrade"
+					type: "item"
+				}
+				{
+					id: "7D13EFB7CBB0A2B4"
+					item: "functionalstorage:netherite_upgrade"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 다이아·네더라이트 서랍 강화 ]"
+			x: 3.5d
+			y: 0.75d
+			icon: "functionalstorage:diamond_upgrade"
+		}
+		{
+			dependencies: ["7247F471F068360F"]
+			description: ["연결한 서랍 전체를 한 곳에서 넣고 뺀다. 이 팩에서는 비교기 대신 AE2 논리 처리기가 들어간다."]
+			id: "738E7A9AE30180E9"
+			rewards: [
+				{
+					id: "72D464DE9A58B077"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "34208F2212779D67"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 50"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "3630C56C057D064C"
+					team_reward: false
+					title: "&e★ 별빛 +50"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "0E02265D3BBF845E"
+					item: "functionalstorage:storage_controller"
+					type: "item"
+				}
+				{
+					id: "70A9DC3A6E563AC4"
+					item: "functionalstorage:linking_tool"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 서랍 컨트롤러 ]"
+			x: 3.5d
+			y: 2.25d
+			icon: "functionalstorage:storage_controller"
+		}
+		{
+			dependencies: ["7027E42BD778A862"]
+			description: ["장비처럼 겹치지 않는 물건을 많이 담는다."]
+			id: "76BE232155C71CBE"
+			rewards: [
+				{
+					id: "7BE62262D1EC7AF9"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 8
+					id: "700123E52FAAC051"
+					item: "create:iron_sheet"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 30"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "76DF8300234BD0E0"
+					team_reward: false
+					title: "&e★ 별빛 +30"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "393821649E5F94FD"
+					item: "functionalstorage:armory_cabinet"
+					type: "item"
+				}
+			]
+			title: "&7&l[ ✦ 무기고 ]"
+			x: 1.75d
+			y: 3.75d
+			icon: "functionalstorage:armory_cabinet"
+		}
+	]
+	title: "&b&l✦ 저장 창고"
+}

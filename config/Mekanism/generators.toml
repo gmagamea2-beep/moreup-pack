@@ -2,16 +2,16 @@
 #Mekanism Generators Config. This config is synced between server and client.
 [generators]
 	#Affects the Injection Rate, Max Temp, and Ignition Temp.
-	energyPerFusionFuel = "12000000"
+	energyPerFusionFuel = "15000000"
 	#Peak output for the Solar Generator. Note: It can go higher than this value in some extreme environments.
-	solarGeneration = "150"
+	solarGeneration = "188"
 	#Peak output for the Advanced Solar Generator. Note: It can go higher than this value in some extreme environments.
-	advancedSolarGeneration = "360"
+	advancedSolarGeneration = "450"
 
 	#Bio Generator Settings
 	[generators.bio_generator]
 		#Amount of energy in Joules the Bio Generator produces per tick.
-		bioGeneration = "420"
+		bioGeneration = "525"
 		#The capacity in mB of the fluid tank in the Bio Generator.
 		#Range: > 1
 		tankCapacity = 24000
@@ -19,11 +19,11 @@
 	#Heat Generator Settings
 	[generators.heat_generator]
 		#Amount of energy in Joules the Heat Generator produces per tick. heatGeneration + heatGenerationLava * lavaSides + heatGenerationNether. Note: lavaSides is how many sides are adjacent to lava, this includes the block itself if it is lava logged allowing for a max of 7 "sides".
-		heatGeneration = "400"
+		heatGeneration = "500"
 		#Multiplier of effectiveness of Lava that is adjacent to the Heat Generator.
-		heatGenerationLava = "36"
+		heatGenerationLava = "45"
 		#Add this amount of Joules to the energy produced by a heat generator if it is in an 'ultrawarm' dimension, in vanilla this is just the Nether.
-		heatGenerationNether = "120"
+		heatGenerationNether = "150"
 		#The capacity in mB of the fluid tank in the Heat Generator.
 		#Range: > 1
 		tankCapacity = 24000
@@ -39,7 +39,7 @@
 		#Range: > 1
 		ethyleneBurnTicks = 40
 		#Multiplier for calculating the energy density of Ethylene (1 mB Hydrogen + 2 * bioGeneration * densityMultiplier).
-		ethyleneDensityMultiplier = "48"
+		ethyleneDensityMultiplier = "60"
 
 	#Turbine Settings
 	[generators.turbine]
@@ -64,9 +64,9 @@
 	#Wind Generator Settings
 	[generators.wind_generator]
 		#Minimum base generation value of the Wind Generator.
-		windGenerationMin = "72"
+		windGenerationMin = "90"
 		#Maximum base generation value of the Wind Generator.
-		generationMax = "576"
+		generationMax = "720"
 		#The minimum Y value that affects the Wind Generators Power generation. This value gets clamped at the world's min height.
 		#Range: -2032 ~ 2030
 		minY = 24
@@ -110,7 +110,7 @@
 	#Fission Reactor Settings
 	[generators.fission_reactor]
 		#Amount of energy created (in heat) from each whole mB of fission fuel.
-		energyPerFissionFuel = "1200000"
+		energyPerFissionFuel = "1500000"
 		#The heat capacity added to a Fission Reactor by a single casing block. Increase to require more energy to raise the reactor temperature.
 		#Range: 1.0 ~ 1000000.0
 		casingHeatCapacity = 1000.0

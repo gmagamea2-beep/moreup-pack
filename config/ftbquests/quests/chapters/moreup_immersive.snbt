@@ -1,0 +1,1198 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "moreup_immersive"
+	group: "7E05AA7C371599AC"
+	icon: "immersiveengineering:hammer"
+	id: "53089EA8D40A0B69"
+	order_index: 28
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["멀티블록을 완성할 때 쓰는 망치다. 블록을 모양대로 쌓고 망치로 치면 하나의 기계가 된다."]
+			id: "2B90A4AA4152A22C"
+			rewards: [
+				{
+					id: "7CFD67360CD67B53"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 8
+					id: "2AE8BF96C74C3053"
+					item: "immersiveengineering:treated_wood_horizontal"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 15"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "78B148E20E48C1DE"
+					team_reward: false
+					title: "&e★ 별빛 +15"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "1A28A951ABA3B533"
+					item: "immersiveengineering:hammer"
+					type: "item"
+				}
+			]
+			title: "&7&l[ ✦ 공학자의 망치 ]"
+			x: 0.0d
+			y: 0.0d
+			icon: "immersiveengineering:hammer"
+		}
+		{
+			dependencies: ["2B90A4AA4152A22C"]
+			description: ["모든 멀티블록의 모양과 재료가 들어 있다. 막히면 여기부터 본다."]
+			id: "496096733BAABD93"
+			rewards: [
+				{
+					id: "116B0BBDC0067D8D"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 8
+					id: "74B9143A1612FA7C"
+					item: "immersiveengineering:coal_coke"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 10"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "74AE55F62886DAA5"
+					team_reward: false
+					title: "&e★ 별빛 +10"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "71D9B582A284FF33"
+					item: "immersiveengineering:manual"
+					type: "item"
+				}
+			]
+			title: "&f&l[ ✦ 공학자 설명서 ]"
+			x: 1.75d
+			y: -1.5d
+			icon: "immersiveengineering:manual"
+		}
+		{
+			dependencies: ["2B90A4AA4152A22C"]
+			description: ["코크스 오븐 벽돌이다. 27개를 3x3x3 으로 쌓고 가운데 면을 망치로 치면 코크스 오븐이 된다."]
+			id: "29D2A0764386C8F5"
+			rewards: [
+				{
+					id: "70BCBE696E4A1AFB"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 8
+					id: "75B53B16929C19D3"
+					item: "immersiveengineering:treated_wood_horizontal"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 20"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "413D483E8BC0E7F1"
+					team_reward: false
+					title: "&e★ 별빛 +20"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					count: 27L
+					id: "744CA354D8755EF0"
+					item: "immersiveengineering:cokebrick"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 코크스 벽돌 ]"
+			x: 1.75d
+			y: 0.0d
+			icon: "immersiveengineering:cokebrick"
+		}
+		{
+			dependencies: ["29D2A0764386C8F5"]
+			description: ["오븐에 석탄을 넣으면 코크스와 크레오소트 기름이 나온다."]
+			id: "0DADDBCD1546533F"
+			rewards: [
+				{
+					id: "71068A93589D3126"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 8
+					id: "2DC3B817D10B8DB5"
+					item: "immersiveengineering:coal_coke"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 20"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "57F7FC7335B7F3D7"
+					team_reward: false
+					title: "&e★ 별빛 +20"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "6EB4A7F5B5A15CFD"
+					item: "immersiveengineering:coal_coke"
+					type: "item"
+				}
+				{
+					id: "1524580E6397F2EE"
+					item: "immersiveengineering:creosote_bucket"
+					type: "item"
+				}
+			]
+			title: "&8&l[ ✦ 코크스와 크레오소트 ]"
+			x: 3.5d
+			y: -1.5d
+			icon: "immersiveengineering:coal_coke"
+		}
+		{
+			dependencies: ["0DADDBCD1546533F"]
+			description: ["크레오소트를 바른 나무다. 작업대와 많은 구조물에 들어간다."]
+			id: "7C99A53C23993FD8"
+			rewards: [
+				{
+					id: "7C258F9F1CB616D4"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 8
+					id: "5DA938F70E55789F"
+					item: "immersiveengineering:coal_coke"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 15"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "72E7F0B51FA19F38"
+					team_reward: false
+					title: "&e★ 별빛 +15"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "7AFDF344F64C74A3"
+					item: "immersiveengineering:treated_wood_horizontal"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 방부 처리 목재 ]"
+			x: 5.25d
+			y: -2.25d
+			icon: "immersiveengineering:treated_wood_horizontal"
+		}
+		{
+			dependencies: ["0DADDBCD1546533F"]
+			description: ["27개를 3x3x3 으로 쌓고 망치로 치면 고로가 된다. 연료는 코크스다."]
+			id: "32E5DC9C1C582511"
+			rewards: [
+				{
+					id: "312F00844CC1B71A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "28B16A747574A2B4"
+					item: "immersiveengineering:ingot_steel"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 25"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "1F99EAE0488BD917"
+					team_reward: false
+					title: "&e★ 별빛 +25"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					count: 27L
+					id: "71BBC7C31BF4A650"
+					item: "immersiveengineering:blastbrick"
+					type: "item"
+				}
+			]
+			title: "&c&l[ ✦ 고로 벽돌 ]"
+			x: 5.25d
+			y: -0.75d
+			icon: "immersiveengineering:blastbrick"
+		}
+		{
+			dependencies: ["32E5DC9C1C582511"]
+			description: ["고로에서 철을 강철로 만든다. IE 의 거의 모든 기계가 강철을 쓴다."]
+			id: "6007AABD6B70E30B"
+			rewards: [
+				{
+					id: "758512FF62965F67"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "747608843247ECFF"
+					item: "immersiveengineering:ingot_steel"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 25"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "1E077382B35E3ED2"
+					team_reward: false
+					title: "&e★ 별빛 +25"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "7A2CF216A9E8F7AE"
+					item: "immersiveengineering:ingot_steel"
+					type: "item"
+				}
+			]
+			title: "&7&l[ ✦ 강철 ]"
+			x: 7.0d
+			y: 0.0d
+			icon: "immersiveengineering:ingot_steel"
+		}
+		{
+			dependencies: ["7C99A53C23993FD8", "6007AABD6B70E30B"]
+			description: ["설계도를 놓고 부품·탄약을 만든다."]
+			id: "75DB25F07B76F9CD"
+			rewards: [
+				{
+					id: "51AFFB71B701E6DF"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 8
+					id: "17C304BC7667E6DC"
+					item: "immersiveengineering:coal_coke"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 20"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7327250763FEAAB6"
+					team_reward: false
+					title: "&e★ 별빛 +20"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "66697883D98ED65F"
+					item: "immersiveengineering:workbench"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 공학자 작업대 ]"
+			x: 8.75d
+			y: -0.75d
+			icon: "immersiveengineering:workbench"
+		}
+		{
+			dependencies: ["6007AABD6B70E30B"]
+			description: ["철 부품과 강철 부품이다. 강철 부품은 이 팩에서 Create 디젤 엔진에도 들어간다."]
+			id: "710A3359DF9BA906"
+			rewards: [
+				{
+					id: "3464FAA81386FBA8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "73FD5D0144BBC969"
+					item: "immersiveengineering:ingot_steel"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 25"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "79333D3B62EDF86C"
+					team_reward: false
+					title: "&e★ 별빛 +25"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "7E30E6818EE00652"
+					item: "immersiveengineering:component_iron"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7AB0EA0581DE1F01"
+					item: "immersiveengineering:component_steel"
+					type: "item"
+				}
+			]
+			title: "&7&l[ ✦ 기계 부품 ]"
+			x: 8.75d
+			y: 0.75d
+			icon: "immersiveengineering:component_iron"
+		}
+		{
+			dependencies: ["2B90A4AA4152A22C"]
+			description: ["커넥터끼리 전선으로 이어 전기를 보낸다. 저전압(LV) 전선이다."]
+			id: "163678DA25F8F4BE"
+			rewards: [
+				{
+					id: "7528EAD2C9063F17"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 8
+					id: "6D0CDBCDA8196C45"
+					item: "immersiveengineering:coal_coke"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 20"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "1ABBAF9A5A4A3325"
+					team_reward: false
+					title: "&e★ 별빛 +20"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "7D83B2EE6B2FED9F"
+					item: "immersiveengineering:wirecoil_copper"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7DA79A18D0E02576"
+					item: "immersiveengineering:connector_lv"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 구리 전선 ]"
+			x: 1.75d
+			y: 1.5d
+			icon: "immersiveengineering:wirecoil_copper"
+		}
+		{
+			dependencies: ["163678DA25F8F4BE"]
+			description: ["전기를 저장한다."]
+			id: "7178EC9EB46795BD"
+			rewards: [
+				{
+					id: "728BCC56F575DAB0"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 8
+					id: "56FF9A94C777FAA5"
+					item: "immersiveengineering:coal_coke"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 20"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "77CF59DAC595885A"
+					team_reward: false
+					title: "&e★ 별빛 +20"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "2C186E299F8E2FD2"
+					item: "immersiveengineering:capacitor_lv"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 축전기 ]"
+			x: 3.5d
+			y: 0.0d
+			icon: "immersiveengineering:capacitor_lv"
+		}
+		{
+			dependencies: ["163678DA25F8F4BE"]
+			description: ["회전을 전기로 바꾼다. 물레방아나 풍차를 이어 붙인다."]
+			id: "7097A5197342A63B"
+			rewards: [
+				{
+					id: "6860F93664D3918C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "4F256E1C0DD40D2E"
+					item: "immersiveengineering:ingot_steel"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 25"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "20A1EC5F4FA7459C"
+					team_reward: false
+					title: "&e★ 별빛 +25"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "7734BB4BC78FCFFC"
+					item: "immersiveengineering:dynamo"
+					type: "item"
+				}
+				{
+					id: "73FC4573EB04D999"
+					item: "immersiveengineering:watermill"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 키네틱 발전기 ]"
+			x: 3.5d
+			y: 1.5d
+			icon: "immersiveengineering:dynamo"
+		}
+		{
+			dependencies: ["7097A5197342A63B"]
+			description: ["뜨거운 것과 차가운 것 사이에 두면 전기를 만든다."]
+			id: "183F8DB408FB0552"
+			rewards: [
+				{
+					id: "5F3F2E80D52CD3CC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "57FCAA0E0A6CDCAB"
+					item: "immersiveengineering:ingot_steel"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 25"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "72017BA79BD16812"
+					team_reward: false
+					title: "&e★ 별빛 +25"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "08DBC014A04E9058"
+					item: "immersiveengineering:thermoelectric_generator"
+					type: "item"
+				}
+			]
+			title: "&c&l[ ✦ 열전 발전기 ]"
+			x: 5.25d
+			y: 0.75d
+			icon: "immersiveengineering:thermoelectric_generator"
+		}
+		{
+			dependencies: ["710A3359DF9BA906"]
+			description: ["이 팩에서는 가운데 구리 대신 Create 안산암 케이스가 들어간다."]
+			id: "74E5F826C3DD8B21"
+			rewards: [
+				{
+					id: "4932509237DDBB49"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "7DBB02B62E6169FC"
+					item: "immersiveengineering:ingot_steel"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 25"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "0BC232413D59400E"
+					team_reward: false
+					title: "&e★ 별빛 +25"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "5D1FBE9017E3D5EF"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+			]
+			title: "&7&l[ ✦ 경공학 블록 ]"
+			x: 10.5d
+			y: -2.25d
+			icon: "immersiveengineering:light_engineering"
+		}
+		{
+			dependencies: ["74E5F826C3DD8B21"]
+			description: ["이 팩에서는 일렉트럼 대신 Create 정밀 기계 장치가 들어간다. 큰 기계의 핵심 블록이다."]
+			id: "72518DAD2FAF6D47"
+			rewards: [
+				{
+					id: "514F22AEFB5CAAC1"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+				{
+					count: 4
+					id: "78C0DB6A641F9654"
+					item: "immersiveengineering:ingot_steel"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 35"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "6FF3DD32072695ED"
+					team_reward: false
+					title: "&e★ 별빛 +35"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "743004E2371CD826"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+			]
+			title: "&8&l[ ✦ 중공학 블록 ]"
+			x: 12.25d
+			y: -2.25d
+			icon: "immersiveengineering:heavy_engineering"
+		}
+		{
+			dependencies: ["74E5F826C3DD8B21"]
+			description: ["판·막대·톱니를 찍어 내는 멀티블록이다. 짓는 법은 설명서에 있다."]
+			id: "77EDAD3F613F25C0"
+			rewards: [
+				{
+					id: "74579EC8106C7E72"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 2
+					id: "188AF3CA65B05DDD"
+					item: "immersiveengineering:wirecoil_copper"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 30"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "762567E9356DBEF2"
+					team_reward: false
+					title: "&e★ 별빛 +30"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "376672021BF29A17"
+					title: "금속 압착기 완성"
+					type: "checkmark"
+				}
+			]
+			title: "&7&l[ ❂ 금속 압착기 ]"
+			icon: "immersiveengineering:plate_steel"
+			x: 12.25d
+			y: -0.75d
+			shape: "gear"
+			size: 1.5d
+		}
+		{
+			dependencies: ["72518DAD2FAF6D47"]
+			description: ["광석을 가루로 부순다. 큰 전기 기계의 시작이다."]
+			id: "7F442DB7546A9EB5"
+			rewards: [
+				{
+					id: "72A765920D177A31"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+				{
+					count: 2
+					id: "4A4294D7E288CBA2"
+					item: "immersiveengineering:wirecoil_copper"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 35"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7C38EC5EF7F4D750"
+					team_reward: false
+					title: "&e★ 별빛 +35"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "2B5F2A3AC4720133"
+					title: "분쇄기 완성"
+					type: "checkmark"
+				}
+			]
+			title: "&7&l[ ❂ 분쇄기 ]"
+			icon: "immersiveengineering:dust_iron"
+			x: 14.0d
+			y: -2.25d
+			shape: "gear"
+			size: 1.5d
+		}
+		{
+			dependencies: ["75DB25F07B76F9CD"]
+			description: ["이 팩에서는 Advanced Generators 조작 회로에 들어간다. 만드는 법은 JEI 에서 확인한다."]
+			id: "725643871F4EA963"
+			rewards: [
+				{
+					id: "79741E3D3E53EBDD"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 4
+					id: "704446B698D52089"
+					item: "immersiveengineering:ingot_steel"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 30"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "72CF4D839E703618"
+					team_reward: false
+					title: "&e★ 별빛 +30"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "16C4CD88EC01F548"
+					item: "immersiveengineering:component_electronic"
+					type: "item"
+				}
+			]
+			title: "&a&l[ ✦ 전자 부품 ]"
+			x: 10.5d
+			y: -0.75d
+			icon: "immersiveengineering:component_electronic"
+		}
+		{
+			dependencies: ["725643871F4EA963"]
+			description: ["상위 부품이다."]
+			id: "711649EEC0ADAA9E"
+			rewards: [
+				{
+					id: "7D469D4FC97178EA"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 4
+					id: "7B6CAB319FB6F9EF"
+					item: "immersiveengineering:ingot_steel"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 40"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7E7FBBFCE7F19394"
+					team_reward: false
+					title: "&e★ 별빛 +40"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "128B00379C3A8DF7"
+					item: "immersiveengineering:electron_tube"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4D770A3652C35916"
+					item: "immersiveengineering:circuit_board"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 진공관과 회로 기판 ]"
+			x: 12.25d
+			y: 0.75d
+			icon: "immersiveengineering:electron_tube"
+		}
+		{
+			dependencies: ["7178EC9EB46795BD"]
+			description: ["일렉트럼 전선으로 더 많은 전기를 보낸다."]
+			id: "7D09729269534D9E"
+			rewards: [
+				{
+					id: "7EC404973ED34B31"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 4
+					id: "7B0AF23084006EA0"
+					item: "immersiveengineering:ingot_steel"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 30"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7353EAFF90F22FB7"
+					team_reward: false
+					title: "&e★ 별빛 +30"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "745FBDDADACA0BF2"
+					item: "immersiveengineering:wirecoil_electrum"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7D5820FBE251F110"
+					item: "immersiveengineering:connector_mv"
+					type: "item"
+				}
+				{
+					id: "701133B79B7FFFE5"
+					item: "immersiveengineering:capacitor_mv"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 중전압 전선 ]"
+			x: 5.25d
+			y: 2.25d
+			icon: "immersiveengineering:wirecoil_electrum"
+		}
+		{
+			dependencies: ["72518DAD2FAF6D47", "7D09729269534D9E"]
+			description: ["흑연 전극으로 금속을 녹이는 큰 멀티블록이다. 합금도 만든다."]
+			id: "7C83663BE71833FA"
+			rewards: [
+				{
+					id: "2ECCD22575A13AFD"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "7020C48494F7A6EC"
+					item: "immersiveengineering:component_steel"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 50"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7F49F6C6BEBE3112"
+					team_reward: false
+					title: "&e★ 별빛 +50"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "736ED1578FC28BDC"
+					item: "immersiveengineering:graphite_electrode"
+					type: "item"
+				}
+			]
+			title: "&c&l[ ✦ 아크로 ]"
+			x: 14.0d
+			y: -0.75d
+			icon: "immersiveengineering:graphite_electrode"
+		}
+		{
+			dependencies: ["72518DAD2FAF6D47"]
+			description: ["땅속 광맥을 조사한다. 굴착기를 놓을 자리를 찾는다."]
+			id: "5D47C7C7B9B928BD"
+			rewards: [
+				{
+					id: "231D8C2B255EA370"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 4
+					id: "11E7C2195419357E"
+					item: "immersiveengineering:ingot_steel"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 30"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7B9A19FFF2AC2AD9"
+					team_reward: false
+					title: "&e★ 별빛 +30"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "363AC68C8D1A091D"
+					item: "immersiveengineering:sample_drill"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 코어 시료 시추기 ]"
+			x: 14.0d
+			y: 0.75d
+			icon: "immersiveengineering:sample_drill"
+		}
+		{
+			dependencies: ["5D47C7C7B9B928BD", "7C83663BE71833FA"]
+			description: ["조사한 광맥을 끝없이 캐는 거대한 멀티블록이다."]
+			id: "7B132D882E29B20E"
+			rewards: [
+				{
+					id: "71C4785FE7CFB2EC"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 2
+					id: "7B943C0A33F81E06"
+					item: "immersiveengineering:component_steel"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 60"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "4B0B889C20C3AD28"
+					team_reward: false
+					title: "&e★ 별빛 +60"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "32B1FB0922752172"
+					title: "굴착기 완성"
+					type: "checkmark"
+				}
+			]
+			title: "&6&l[ ★ 굴착기 ]"
+			icon: "immersiveengineering:drillhead_steel"
+			x: 15.75d
+			y: -0.75d
+			shape: "gear"
+			size: 1.5d
+		}
+		{
+			dependencies: ["72518DAD2FAF6D47"]
+			description: ["착즙기·발효기로 식물 기름과 에탄올을 만들고, 정제기에서 섞는다."]
+			id: "786565FBAC66CE9E"
+			rewards: [
+				{
+					id: "7B309D6081A8FD67"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 2
+					id: "362BEDEB41F165C1"
+					item: "immersiveengineering:wirecoil_copper"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 40"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "70D6A27CCF95B656"
+					team_reward: false
+					title: "&e★ 별빛 +40"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "6FCE103E0CB69137"
+					item: "immersiveengineering:biodiesel_bucket"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 바이오디젤 ]"
+			x: 14.0d
+			y: 2.25d
+			icon: "immersiveengineering:biodiesel_bucket"
+		}
+		{
+			dependencies: ["786565FBAC66CE9E"]
+			description: ["바이오디젤을 태워 많은 전기를 만든다."]
+			id: "7819BB4B75842D59"
+			rewards: [
+				{
+					id: "655FEAE9FB602984"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "7EDBC48A456E5231"
+					item: "immersiveengineering:component_steel"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 50"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "773947D846BE4302"
+					team_reward: false
+					title: "&e★ 별빛 +50"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "7DB8A042D711B750"
+					title: "디젤 발전기 완성"
+					type: "checkmark"
+				}
+			]
+			title: "&6&l[ ❂ 디젤 발전기 ]"
+			icon: "immersiveengineering:biodiesel_bucket"
+			x: 15.75d
+			y: 0.75d
+			shape: "gear"
+			size: 1.5d
+		}
+		{
+			dependencies: ["710A3359DF9BA906"]
+			description: ["전기 없이 연료로 도는 드릴이다. 강화 부품을 끼운다."]
+			id: "6AFF1F97EF802920"
+			rewards: [
+				{
+					id: "7D0FDBB84A0DFECF"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 4
+					id: "7BF4FD0A4E1742B2"
+					item: "immersiveengineering:ingot_steel"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 40"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "78F6E6A5D8BC64AB"
+					team_reward: false
+					title: "&e★ 별빛 +40"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "5F88DECD8488242C"
+					item: "immersiveengineering:drill"
+					type: "item"
+				}
+				{
+					id: "795955504D9C7AA2"
+					item: "immersiveengineering:drillhead_steel"
+					type: "item"
+				}
+			]
+			title: "&7&l[ ✦ 기계 드릴 ]"
+			x: 10.5d
+			y: 0.75d
+			icon: "immersiveengineering:drill"
+		}
+		{
+			dependencies: ["75DB25F07B76F9CD", "710A3359DF9BA906"]
+			description: ["공학자 작업대에서 탄약을 만든다."]
+			id: "76F8768364DDFB73"
+			rewards: [
+				{
+					id: "7FB310BE0222F731"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 4
+					id: "59D88872AA3FFE04"
+					item: "immersiveengineering:ingot_steel"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 40"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "412A7D1A2A223E5B"
+					team_reward: false
+					title: "&e★ 별빛 +40"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "7BEA0DF1C9617B87"
+					item: "immersiveengineering:revolver"
+					type: "item"
+				}
+			]
+			title: "&8&l[ ✦ 리볼버 ]"
+			x: 10.5d
+			y: 2.25d
+			icon: "immersiveengineering:revolver"
+		}
+		{
+			dependencies: ["76F8768364DDFB73", "7D09729269534D9E"]
+			description: ["IE 최고의 무기다. 강철 막대를 쏜다."]
+			id: "0F62877DE7597E61"
+			rewards: [
+				{
+					id: "76C11FDFC72E3C39"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 2
+					id: "6EEA297CC21980FD"
+					item: "immersiveengineering:component_electronic"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 75"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "791E9D7F3B297C88"
+					team_reward: false
+					title: "&e★ 별빛 +75"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "75A2F8309E10C372"
+					item: "immersiveengineering:railgun"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ★ 레일건 ]"
+			x: 12.25d
+			y: 2.25d
+			icon: "immersiveengineering:railgun"
+			shape: "gear"
+			size: 1.5d
+		}
+	]
+	title: "&b&l✦ Immersive Engineering"
+}
