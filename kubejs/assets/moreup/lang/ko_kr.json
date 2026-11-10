@@ -11,7 +11,6 @@
   "jei.moreup.boss_essence_mid": "7~6티어 보스(히드라, 우르가스트, 프로스트모, 고르곤, 사이클롭스 등)를 처치하면 근처(64블록) 플레이어 1명당 2~4개가 떨어진다. 하급 정수 4개로 만들거나, 순서 조립(하급 3개 + 중급 보스 트로피)으로 자동화할 수 있다.",
   "jei.moreup.boss_essence_high": "5~4티어 보스(위더, 엔더 드래곤, 성체 드래곤, Ender Guardian 등)를 처치하면 근처(64블록) 플레이어 1명당 2~4개가 떨어진다. 중급 정수 4개로 만들거나, 순서 조립(중급 3개 + 엔더 드래곤 머리 또는 네더의 별)으로 자동화할 수 있다.",
   "jei.moreup.boss_essence_legendary": "3~1티어 보스(Cataclysm 대보스, Nightblade, 이그니스, 영원한 황혼의 군주 모어)를 처치하면 근처(64블록) 플레이어 1명당 2~6개가 떨어진다. 상급 정수 4개로도 만든다.",
-
   "item.moreup.keepers_crown": "성주의 왕관",
   "item.moreup.fragment_tech": "세계의 파편: 기술",
   "item.moreup.fragment_magic": "세계의 파편: 마법",
@@ -38,7 +37,6 @@
   "tooltip.moreup.more_up": "모든 것을 이룬 자의 증표. 획득하면 More Up 클리어!",
   "jei.moreup.keepers_crown": "최종 보스 영원한 황혼의 군주 모어(트와일라잇 포레스트 최종 보스)를 처치하면 근처(64블록) 플레이어마다 1개씩 떨어진다.",
   "jei.moreup.more_up": "세계의 파편 9종 → 세계 → 세계 + 좋은 아이템 8개(성주의 왕관 포함) → 모어 업. 얻으면 팩 클리어.",
-
   "advancements.moreup.root.title": "모어 업",
   "advancements.moreup.root.description": "아홉 분야의 세계의 파편을 모아 세계를 만들고, 모어 업을 완성하자",
   "advancements.moreup.fragment_tech.title": "기술의 정점",
@@ -138,5 +136,14 @@
   "advancements.moreup.star_armor.title": "다시 몸을 감싼 비늘",
   "advancements.moreup.star_armor.description": "성룡의 투구·흉갑·각반·장화를 모두 만든다",
   "advancements.moreup.star_wings.title": "하늘을 건너는 별",
-  "advancements.moreup.star_wings.description": "성룡의 날개를 만든다"
+  "advancements.moreup.star_wings.description": "성룡의 날개를 만든다",
+  "message.moreup.portal_link.bad_name": "이름은 1~%s글자로 정해 주세요.",
+  "message.moreup.portal_link.too_big": "상자 한 변은 %s칸까지만 됩니다.",
+  "message.moreup.portal_link.full": "고정 연결은 %s개까지 만들 수 있습니다.",
+  "message.moreup.portal_link.added": "고정 연결 '%s' 상자 등록: %s %s ~ %s. 이제 /포탈고정 도착 으로 도착점을 정하세요.",
+  "message.moreup.portal_link.no_such": "'%s' 이름의 고정 연결이 없습니다.",
+  "message.moreup.portal_link.dest": "고정 연결 '%s' 도착점: %s %s",
+  "message.moreup.portal_link.empty": "등록된 고정 연결이 없습니다.",
+  "message.moreup.portal_link.entry": "%s [%s] %s %s ~ %s → %s",
+  "message.moreup.portal_link.removed": "고정 연결 '%s' 삭제"
 }

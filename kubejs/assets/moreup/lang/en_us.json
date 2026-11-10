@@ -11,7 +11,6 @@
   "jei.moreup.boss_essence_mid": "Dropped by tier 7-6 bosses (Hydra, Ur-Ghast, Frostmaw, Gorgon, Cyclops...). One per nearby player (64 blocks).",
   "jei.moreup.boss_essence_high": "Dropped by tier 5-4 bosses (Wither, Ender Dragon, adult dragons, Ender Guardian...). One per nearby player (64 blocks).",
   "jei.moreup.boss_essence_legendary": "Dropped by tier 3-1 bosses (Cataclysm bosses, Nightblade, Ignis, Mor, Eternal Lord of Twilight). One per nearby player (64 blocks).",
-
   "item.moreup.keepers_crown": "Keeper's Crown",
   "item.moreup.fragment_tech": "World Fragment: Technology",
   "item.moreup.fragment_magic": "World Fragment: Magic",
@@ -38,7 +37,6 @@
   "tooltip.moreup.more_up": "Proof of having done it all. Obtain it to clear More Up!",
   "jei.moreup.keepers_crown": "Dropped by the final boss, Mor, Eternal Lord of Twilight (Twilight Forest Final Boss): one per nearby player (64 blocks).",
   "jei.moreup.more_up": "Nine World Fragments -> The World -> The World + 8 treasures (incl. Keeper's Crown) -> More Up. Obtaining it clears the pack.",
-
   "advancements.moreup.root.title": "More Up",
   "advancements.moreup.root.description": "Gather the nine World Fragments, forge The World, and complete More Up",
   "advancements.moreup.fragment_tech.title": "Peak of Technology",
@@ -138,5 +136,14 @@
   "advancements.moreup.star_armor.title": "Scales Reborn",
   "advancements.moreup.star_armor.description": "Craft the Star Dragon helm, chestplate, leggings and boots",
   "advancements.moreup.star_wings.title": "Star Across the Sky",
-  "advancements.moreup.star_wings.description": "Craft the Star Dragon Wings"
+  "advancements.moreup.star_wings.description": "Craft the Star Dragon Wings",
+  "message.moreup.portal_link.bad_name": "Name must be 1-%s characters.",
+  "message.moreup.portal_link.too_big": "A box side can be at most %s blocks.",
+  "message.moreup.portal_link.full": "You can have at most %s portal links.",
+  "message.moreup.portal_link.added": "Portal link '%s' box set: %s %s ~ %s. Now set the destination with /포탈고정 도착.",
+  "message.moreup.portal_link.no_such": "No portal link named '%s'.",
+  "message.moreup.portal_link.dest": "Portal link '%s' destination: %s %s",
+  "message.moreup.portal_link.empty": "No portal links.",
+  "message.moreup.portal_link.entry": "%s [%s] %s %s ~ %s -> %s",
+  "message.moreup.portal_link.removed": "Portal link '%s' removed"
 }

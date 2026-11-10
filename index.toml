@@ -714,7 +714,7 @@ hash = "09ff183e061d93b79514bc171bf9118497578757e7a5c45946039487656e2619"
 
 [[files]]
 file = "config/embeddium-options.json"
-hash = "4d91dc7e2fa16f24e9f34de6ad240e3755938dde96d2d07b36a0b866adb1e234"
+hash = "34413a53a76e928f62cbca614a6118cdcae6f3cd2e88f6c413f27f6f9ecb21b0"
 
 [[files]]
 file = "config/enchantinginfuser-server.toml"
@@ -1762,11 +1762,11 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "ab786abd4e8849a08bfadc19f9ae1671e0c769cee6707942bbc8ecc566f1511f"
+hash = "821dc488a1c3d982720dc7e3a50c920e9e64cb40608213bf87cc4375d25b2f7f"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
-hash = "65d51ec1bae4c6109f0d07e1c3025e519d3900d9c5f02b5bddc65759849c8ac8"
+hash = "3de692f2b3cc8dc6b7c759ad2e551cce29f535a0e689b1280dc65dbab0624047"
 
 [[files]]
 file = "config/jei/jei-client.ini"
@@ -1786,7 +1786,7 @@ hash = "326b4f9b813ca8183bfaeee184cf7248c7a75c4d85b59322e349c0e964c253f3"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "bbcaa989a8b12a6c143324a396f9327c69317d8b4a9b415a02857058d0a52cf8"
+hash = "87d68b5a2e036006a8aaf6b3d9cdf1198d0c6b2c5aa27fea437abc80479d35b0"
 
 [[files]]
 file = "config/jei_mekanism_multiblocks-client.toml"
@@ -1874,7 +1874,7 @@ hash = "9d42e18efeab548b64e049df59dd2bf987873b5294aca0ef7739208a6056d588"
 
 [[files]]
 file = "config/languagereload-client.toml"
-hash = "152435d0428fda5079d70f6118f62d78a953165d728c79ed48c164da166f442d"
+hash = "e0988118db136072c85e72549d02bb20fb69d056a9f81fcd9505677c8f57ec77"
 
 [[files]]
 file = "config/legendarytooltips-common.toml"
@@ -2002,7 +2002,7 @@ hash = "0d3c92ba50e31505475a5866dc81086230c3e3e683dc8ff2536b850f64ef9b54"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "ec62543fee3fbb44d1c8b13f38e9fd833e6466adba310c22aec342134f234024"
+hash = "c98a27fff4ed7fb798977242789a15c3c27a1c74947da0ab9be25258f874f0a9"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -2106,7 +2106,7 @@ hash = "56291af4bc3506692c79f5c0155c47cce8577d0aae6ed5930c9074d5cb9bc5c8"
 
 [[files]]
 file = "config/powah.json5"
-hash = "890475ab8390614d93cb38c84defcc8b3956ce8f12ec6fe4d7c930748da8f249"
+hash = "8ac9b03a900f3b13dd725147cfed456d5302616b4b1f0ddd8aefcca5e12ab1ce"
 
 [[files]]
 file = "config/progressivebosses-common.toml"
@@ -2270,7 +2270,7 @@ hash = "3175ac14ac1da55ba706d1f0321c0b5620cd968a381e60323b283778e7b6d9e6"
 
 [[files]]
 file = "config/sophisticatedcore-common.toml"
-hash = "6690bcad435f020a7719fd37ee32baf091e087fe4eccd1ed57b4c12157f699e0"
+hash = "82bef9de2aa11780b2fa47698d69d3a052fc375378c22106aa75b7bb9f22d239"
 
 [[files]]
 file = "config/sophisticatedstorage-client.toml"
@@ -3334,11 +3334,11 @@ hash = "585c40a9252b04a5d6213794865205660dad72cb27d19297ad3da703e2dfd35b"
 
 [[files]]
 file = "kubejs/assets/moreup/lang/en_us.json"
-hash = "e9d51b9ec1e935257b0dd057cbcf1e09be78a9dd54c96a8a49302d1c202143dc"
+hash = "ba7247dec65181b9586c73b892a55ff6f1c37eda28ef0a8a14c8460bacf0a678"
 
 [[files]]
 file = "kubejs/assets/moreup/lang/ko_kr.json"
-hash = "eeaf5c884d6bd16541e419a68bd2f5234df8217d5f59b651acf2ffa05f71f9b1"
+hash = "36e44ce5f7e709c44ebd7e79b15ba2d62602b4d5705f35297ad88e305adb42a3"
 
 [[files]]
 file = "kubejs/assets/moreup/models/item/dusk_bow.json"
@@ -4077,6 +4077,10 @@ file = "kubejs/server_scripts/systems/player_armor_bonus.js"
 hash = "b9a767f5f08ac5b65c07db0ddaeeb7281dd3a2c4968dddd1bf8bca69bd980a57"
 
 [[files]]
+file = "kubejs/server_scripts/systems/portal_links.js"
+hash = "06f36b9920ddedca46eabcb3a19fc6ad5dbc17274d96c54a9ca155407d039929"
+
+[[files]]
 file = "kubejs/server_scripts/systems/pregen_guard.js"
 hash = "58f95ec91795844378bfabd5c6275c1bb9ccc13199832813a3e406f229814282"
 
@@ -4131,6 +4135,10 @@ hash = "85b912cc38fd9ba468e98c4810b51ae9c57be0183da4f7243cecdbf21c18336c"
 [[files]]
 file = "kubejs/startup_scripts/moreup_endgame_items.js"
 hash = "064e63e114fe9deb36f0ac9c16fd752bd0d75e2f5fd6b6fc2fd1a3591d16c914"
+
+[[files]]
+file = "kubejs/startup_scripts/moreup_portal_links.js"
+hash = "b711c1a81c98f22cf89d28f192434960361534a893e69822d6852de2b14c44ce"
 
 [[files]]
 file = "kubejs/startup_scripts/moreup_weapon_balance.js"
@@ -6058,7 +6066,7 @@ preserve = true
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.8.1.zip.txt"
-hash = "22bc3e0d4d517fe0883f4f62591fd1ff45f1e9809384ea514b61e8d9726fb120"
+hash = "7ac397c6623e241f8e7e4fbedd878c43836fd0528a57208c3bce06372d1f77cd"
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"

@@ -1,6 +1,6 @@
 multilingualItemSearch = true
 fallbacks = ["en_us"]
-previousFallbacks = []
+previousFallbacks = ["ko_kr"]
 language = "ko_kr"
 previousLanguage = "en_us"
 
