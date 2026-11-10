@@ -145,5 +145,7 @@
   "message.moreup.portal_link.dest": "고정 연결 '%s' 도착점: %s %s",
   "message.moreup.portal_link.empty": "등록된 고정 연결이 없습니다.",
   "message.moreup.portal_link.entry": "%s [%s] %s %s ~ %s → %s",
-  "message.moreup.portal_link.removed": "고정 연결 '%s' 삭제"
+  "message.moreup.portal_link.removed": "고정 연결 '%s' 삭제",
+  "message.moreup.end_dragon_fix.started": "엔더 드래곤 복구를 시작했습니다. 몇 초 뒤 출구 포탈과 드래곤이 생깁니다.",
+  "message.moreup.end_dragon_fix.busy": "이미 엔더 드래곤 복구가 진행 중입니다."
 }

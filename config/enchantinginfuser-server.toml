@@ -22,17 +22,14 @@
 		#This option takes precedence over option for treasure enchantments (as curses are also treasure enchantments internally).
 		allow_curses_enchantments = false
 		#Allow treasure enchantments (e.g. mending) to be applied using the enchanting infuser.
-		# More Up: 2026-11-06 사용자 요청 — 향상된 보호(jlme, 보물·미발견·거래 불가)를 주입기에서 고를 수 있게 일반·고급 모두 허용
 		allow_treasure_enchantments = true
 		#Allow untradeable enchantments (e.g. soul speed) to be applied using the enchanting infuser.
 		#This option takes precedence over other options for treasure and curse enchantments.
-		# More Up: 2026-11-06 사용자 요청 — 향상된 보호(jlme, 보물·미발견·거래 불가)를 주입기에서 고를 수 있게 일반·고급 모두 허용
 		allow_untradeable_enchantments = true
 		#Allow enchantments that can normally not be obtained from an enchanting table, but can be put on the item in an anvil (e.g. sharpness on an axe).
 		allow_anvil_enchantments = true
 		#Allow undiscoverable enchantments (e.g. soul speed) to be applied using the enchanting infuser.
 		#This option takes precedence over other options for treasure, curse and tradeable enchantments.
-		# More Up: 2026-11-06 사용자 요청 — 향상된 보호(jlme, 보물·미발견·거래 불가)를 주입기에서 고를 수 있게 일반·고급 모두 허용
 		allow_undiscoverable_enchantments = true
 
 	[advanced_infuser.repair]
@@ -124,17 +121,14 @@
 		#This option takes precedence over option for treasure enchantments (as curses are also treasure enchantments internally).
 		allow_curses_enchantments = false
 		#Allow treasure enchantments (e.g. mending) to be applied using the enchanting infuser.
-		# More Up: 2026-11-06 사용자 요청 — 향상된 보호(jlme, 보물·미발견·거래 불가)를 주입기에서 고를 수 있게 일반·고급 모두 허용
 		allow_treasure_enchantments = true
 		#Allow untradeable enchantments (e.g. soul speed) to be applied using the enchanting infuser.
 		#This option takes precedence over other options for treasure and curse enchantments.
-		# More Up: 2026-11-06 사용자 요청 — 향상된 보호(jlme, 보물·미발견·거래 불가)를 주입기에서 고를 수 있게 일반·고급 모두 허용
 		allow_untradeable_enchantments = true
 		#Allow enchantments that can normally not be obtained from an enchanting table, but can be put on the item in an anvil (e.g. sharpness on an axe).
 		allow_anvil_enchantments = false
 		#Allow undiscoverable enchantments (e.g. soul speed) to be applied using the enchanting infuser.
 		#This option takes precedence over other options for treasure, curse and tradeable enchantments.
-		# More Up: 2026-11-06 사용자 요청 — 향상된 보호(jlme, 보물·미발견·거래 불가)를 주입기에서 고를 수 있게 일반·고급 모두 허용
 		allow_undiscoverable_enchantments = true
 
 	[normal_infuser.repair]

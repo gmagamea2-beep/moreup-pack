@@ -145,5 +145,7 @@
   "message.moreup.portal_link.dest": "Portal link '%s' destination: %s %s",
   "message.moreup.portal_link.empty": "No portal links.",
   "message.moreup.portal_link.entry": "%s [%s] %s %s ~ %s -> %s",
-  "message.moreup.portal_link.removed": "Portal link '%s' removed"
+  "message.moreup.portal_link.removed": "Portal link '%s' removed",
+  "message.moreup.end_dragon_fix.started": "Started Ender Dragon repair. The exit portal and dragon appear in a few seconds.",
+  "message.moreup.end_dragon_fix.busy": "Ender Dragon repair is already running."
 }
