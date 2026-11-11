@@ -1742,7 +1742,7 @@ hash = "22b4560c3dc05da35a70bb6611da0ce04cff295ab8c663afd58e725c396a24b3"
 
 [[files]]
 file = "config/jade/jade.json"
-hash = "de837497827adce8019d26871e0fb902456b5d64580ae12f6da78bf5357f7e7d"
+hash = "66254bb8b5b2e686618ef2b7d09008a311558305c946ddde6f22a87374453fa0"
 
 [[files]]
 file = "config/jade/plugins.json"
@@ -2018,7 +2018,7 @@ hash = "0d3c92ba50e31505475a5866dc81086230c3e3e683dc8ff2536b850f64ef9b54"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "5c59b0b42dc685150d9bc1232bd9065d25cfd44374b5a148829b15915919cc65"
+hash = "65afab6e384dd5a9023ed52d74d01633ac3d29089e33105e0640da736dedb924"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -4013,6 +4013,10 @@ file = "kubejs/data/scene/functions/act6_start.mcfunction"
 hash = "8ac78276d1cff5acd271a39af6c69b3d7cbd3202b56948e6632ac9dc53eeec5e"
 
 [[files]]
+file = "kubejs/server_scripts/loot/ender_dragon_drops_fix.js"
+hash = "926b4fa0768e00e6ecbfbc21bbb7f842b72d58a874922dc34973b84684975c17"
+
+[[files]]
 file = "kubejs/server_scripts/loot/essence_chests.js"
 hash = "2e1932f20384a77012c825d2ec2188eb5da6ef0a7e5b96cc4ed0f082778583cc"
 
@@ -5519,6 +5523,11 @@ hash = "b113e6ff91fdeddf7bc9cf4a8d08d19f3c45a5396ec6979f6af3ee5397f8fbf7"
 metafile = true
 
 [[files]]
+file = "mods/netherportalfix.pw.toml"
+hash = "820d6b97344411476b96ae2bc8a3e4b9e30e15dfd15d8d0c945726b0011928d4"
+metafile = true
+
+[[files]]
 file = "mods/nethers-delight.pw.toml"
 hash = "43ff48404322ec170ef9a931bc2f95cc9b488e2834934e2af6c5e0ebebc5fb9c"
 metafile = true
@@ -6090,7 +6099,7 @@ preserve = true
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.8.1.zip.txt"
-hash = "25eec657d6ac309c96cfd1a8da6350be4570833d4d33fbdf39f3243ce450df26"
+hash = "03c2e07da8c438abb6b529eb9129b2691e099b7fd2909ad4aa55ed1adac36dcf"
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"
