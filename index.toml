@@ -314,7 +314,7 @@ hash = "2be2af5e5a1049775fb6e2a54fa9ce164d94083097753e9edfebed7f42354015"
 
 [[files]]
 file = "config/badmobs-common.toml"
-hash = "c8830aba9905dd8b6ec30d0c16e7fb161a112805a26e6c3485f619ee9f62c1b4"
+hash = "d51f1bf643faf97839aa67c1c818a940a8bfc20c5008b507173897694510d8ac"
 
 [[files]]
 file = "config/badoptimizations.txt"
@@ -411,6 +411,10 @@ hash = "7564bd719243a64b1d00424eb4602b85415e578905de5a9587f5f10ff2427d1f"
 [[files]]
 file = "config/bountiful/bountiful.json"
 hash = "d9d47ef737d069382da1d2bb2b16d52a0f27401fd5c0992a62b7e601b0e0eeea"
+
+[[files]]
+file = "config/brutalbosses.json"
+hash = "d92afa95fc6e938526c43b9fde18ed84339fdeb50b07591c5a904d094c80b012"
 
 [[files]]
 file = "config/c2me.toml"
@@ -631,6 +635,14 @@ hash = "e9838cc6c67a746008e2c8bc88577be4c350d4f990ee5ca4861f07bce76e36ea"
 [[files]]
 file = "config/deeperdarker-common.toml"
 hash = "8cbd895ecaf34f553f3fc87b5009edcfad3f22fbc44c85d2364b3dd50b38d1b5"
+
+[[files]]
+file = "config/dimdungeons-client.toml"
+hash = "20600765596db3b473f4981bef94561a5324a1d91191bd97222163b2492eecbc"
+
+[[files]]
+file = "config/dimdungeons-common-r207.toml"
+hash = "0d9887d65dfaabbfa4f9a753e142dd2bbc508154ef26d4f4eb6fc5fe3ecd9dc5"
 
 [[files]]
 file = "config/ding.toml"
@@ -1122,7 +1134,7 @@ hash = "6857826c7ec4138aed3ced2288d12ee2c11e924ea8c17926576427d38e4dcbd7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chapter_7.snbt"
-hash = "278833f09901142ac39da3790d2155f25bba399d58ea8cb7e870f782dc9ceab5"
+hash = "50e14a0f0519c4d3120a736310fd91282689ba8258c95188e725cfd1e33582e6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/moreup_accessories.snbt"
@@ -1162,7 +1174,7 @@ hash = "c1b10cbd7c316af147a5e061ff5890db604303768eec62df1ac3be679c265dd5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/moreup_crazyae2.snbt"
-hash = "c0d67fd90bc02b411d91a1ca3d74f998dec0cd3d4ac2a3a9d2e95ff594bc5f00"
+hash = "18029a2252278dc438c288c7840ef6fbd9abaf6206727317e8e7ae7329782153"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/moreup_create.snbt"
@@ -1178,11 +1190,11 @@ hash = "bc9812ad70b45fca29546ec0fd580729b3216a26614873460ad62769f205e271"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/moreup_enderio.snbt"
-hash = "eda7c4e145af8b7a5939c0efeea217afbd0723d8ff496e04b0cdc2e664d433e0"
+hash = "d37e8cd6d1c934c415ec8457ec89b2545244fdf6c2be2836fd511845ab870812"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/moreup_essence_bounty.snbt"
-hash = "7b1be4cc204fe34b74d11758ac434b80e03bcd56fa8f782dd64d93abf0ac2b5f"
+hash = "fd6a435c6c5e667f514886def69eeee63d5c4e6928555e30dc68f88aa3e1790f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/moreup_fishing.snbt"
@@ -1198,11 +1210,11 @@ hash = "1042f66d353aa1a927e8bb2981eeb06273047be3776e40b6766ffda44dc57e43"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/moreup_immersive.snbt"
-hash = "b7115028bd25a228a8582e6a4ec4f112f464df7e7cffde2406bdc81a45b38110"
+hash = "66bec4aa4cbd1cc83de631f9ba8ee732f503b487db593b4fd7bd29737af747c5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/moreup_immersive_petro.snbt"
-hash = "dc7c7506561be5cf9fc64e88b632e24f8a2255e303a22e22902a5d4f3e1a9c17"
+hash = "bc6ce0407a9b6fe22e0eb8efed0623f124766ded3d0b0475bd4282a5126fb3bf"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/moreup_integrated.snbt"
@@ -1226,7 +1238,7 @@ hash = "3fc2cd75fedc5870047e98f1cea15763cdaef4d978e4c1991db78501107fe672"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/moreup_pneumaticcraft.snbt"
-hash = "d79807bc85b3054e129788d5969574871a81ebb06ec25bf2639ec1e4a411b02e"
+hash = "6a60a8254d4e76f79195d680d929a56d43c2693e644dca600dc6f7871f5600a4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/moreup_powah.snbt"
@@ -1234,15 +1246,19 @@ hash = "e527fea6673edbbcea8e9c83b6af2509c1c16399eff1af4f297afbe4ce521a87"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/moreup_power_plants.snbt"
-hash = "46828e0cd37460097347dde8999e426b6fd8b37f0ccffc99c584fcc760add027"
+hash = "4317f372f63a5fa3e162acdeb0ef0f703fd4227cd30ac9b0ee1ea076e48bef8c"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/moreup_raid.snbt"
+hash = "79113a05c4a556bf7a230a61832c20c9128dddb5ae04bb57d2f435f751f30f83"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/moreup_routers.snbt"
-hash = "4e0de3b1ce2bb0473f66697350b33239693d03911a7c397014bbb448e2882bb5"
+hash = "b37183f57844ab8a1af2e1301e7df44f0cda18d61672cd201d3fb5fc57969b1f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/moreup_storage.snbt"
-hash = "0d7e783538da4b128f3940d49df301429891918a6a48bb917e05b6bd8d8bd78a"
+hash = "1717826d88708859a956ed7e7122067d8bdcb88e43e2ed3507190c02e26aeba7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/moreup_survival.snbt"
@@ -1250,11 +1266,11 @@ hash = "6444c5cb60b4ff35c4386d1994a146dd01a7a88dd9285d758974ca1dfcca4664"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/moreup_tech_links.snbt"
-hash = "09a0552c0d0d2e753d101deaf7a9ce77b8121d5f5edb430845b902c2d6bdfbbb"
+hash = "be344f243a80f5eaf6cff17f49ec4f3197fee37829a519200c65c29b448e516c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/moreup_thermal.snbt"
-hash = "59d71c24cfa6b51c0d6d6f217904824c9643b2352081c290d20d91741084206e"
+hash = "100b35a9865a1c51d304523a4d24556b81e6c37fcb2231e410bd68384ace8f28"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/moreup_twilight.snbt"
@@ -1266,7 +1282,7 @@ hash = "25ea45bb0498bede7839e7d817a298f20cd3a4d2b4cdb5f572deb8dd709a6d46"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/moreup_weapons.snbt"
-hash = "becfe0418c4c31c550cf5874263882ba83498eda001a2395ceeee9cef1912b60"
+hash = "01816bcaecd0b3c7a7eab76bf05433693e4ef80f2aff8913db783431027d2950"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -1742,7 +1758,7 @@ hash = "22b4560c3dc05da35a70bb6611da0ce04cff295ab8c663afd58e725c396a24b3"
 
 [[files]]
 file = "config/jade/jade.json"
-hash = "66254bb8b5b2e686618ef2b7d09008a311558305c946ddde6f22a87374453fa0"
+hash = "56ccc3dbbae7669af78a0ab59fe7bc435f52265438af8ee5d534a96635c3d766"
 
 [[files]]
 file = "config/jade/plugins.json"
@@ -1798,7 +1814,7 @@ hash = "ee9bb0f0f8465629951fe9a532f3ebe3327671a12d4cc6395860d7f7494b970b"
 
 [[files]]
 file = "config/jei/jei-mod-id-format.ini"
-hash = "326b4f9b813ca8183bfaeee184cf7248c7a75c4d85b59322e349c0e964c253f3"
+hash = "722d70719c26d187fec23e1636fc699b6d5bc8476a7025859f918184fde53885"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
@@ -1891,6 +1907,10 @@ hash = "9d42e18efeab548b64e049df59dd2bf987873b5294aca0ef7739208a6056d588"
 [[files]]
 file = "config/languagereload-client.toml"
 hash = "e0988118db136072c85e72549d02bb20fb69d056a9f81fcd9505677c8f57ec77"
+
+[[files]]
+file = "config/legendary_monsters-common.toml"
+hash = "6af5b9459b5a2c22919009246c05d7bba724734f28b53da92ceb4d1025d36041"
 
 [[files]]
 file = "config/legendarytooltips-common.toml"
@@ -2018,7 +2038,7 @@ hash = "0d3c92ba50e31505475a5866dc81086230c3e3e683dc8ff2536b850f64ef9b54"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "65afab6e384dd5a9023ed52d74d01633ac3d29089e33105e0640da736dedb924"
+hash = "03fe703ab390f8da1878125c51ae00b70b910fb28aeb39243a859d64f285b3e6"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -2122,7 +2142,7 @@ hash = "56291af4bc3506692c79f5c0155c47cce8577d0aae6ed5930c9074d5cb9bc5c8"
 
 [[files]]
 file = "config/powah.json5"
-hash = "890475ab8390614d93cb38c84defcc8b3956ce8f12ec6fe4d7c930748da8f249"
+hash = "ebef18c784845d4c5922f47a219133753315ea57061dc77e9242fb6e9b6582ac"
 
 [[files]]
 file = "config/progressivebosses-common.toml"
@@ -2306,7 +2326,7 @@ hash = "e26b00784bb6239988759ed1a64551b9f301dc33c5a855d91e976ee4bf40ac8a"
 
 [[files]]
 file = "config/sound_physics_remastered/sound_rates.properties"
-hash = "53d68690f6f1caf5285991c1365d5e98133adc54b7ce0f178693264c4a9b98da"
+hash = "3973af54124ff0ba2ac932f4534997f4d2d6e51a8fd84b34707b6a2e89574603"
 
 [[files]]
 file = "config/sound_physics_remastered/soundphysics.properties"
@@ -2765,6 +2785,10 @@ file = "kubejs/assets/bountiful/lang/ko_kr.json"
 hash = "22f98e21ba8360e664eec37cefea82cf5f89c4a985cb1b241c47a53db09f2cc0"
 
 [[files]]
+file = "kubejs/assets/brutalbosses/lang/ko_kr.json"
+hash = "245d950ed2e588a8e39bd06ffbdd5a7fa5363c4171ce404197c3465aea405e1d"
+
+[[files]]
 file = "kubejs/assets/camera/lang/ko_kr.json"
 hash = "ff375cc82e77608db2406f476115b4c66465b1497f57541bcc26929dd9fc2ee5"
 
@@ -2895,6 +2919,10 @@ hash = "c3d3b1a255017960c347c475b8de7e7d2f76ebc4d4f261f30fa7145d2366ee7b"
 [[files]]
 file = "kubejs/assets/deeperdarker/lang/ko_kr.json"
 hash = "aecdac4ade08a73ebf85a6f5124110fb258b5bf332f493744694faf39a93cac2"
+
+[[files]]
+file = "kubejs/assets/dimdungeons/lang/ko_kr.json"
+hash = "4c22a659d35d181e037d7d29747ee1a9a0cfd910466845def0877ec55b175ef5"
 
 [[files]]
 file = "kubejs/assets/ding/lang/ko_kr.json"
@@ -3337,6 +3365,10 @@ file = "kubejs/assets/mekmm/lang/ko_kr.json"
 hash = "06672204a32f1af0ee5d64603ce4723b5fdfa96e24c4fbcde0368566a8ea1b93"
 
 [[files]]
+file = "kubejs/assets/mining_dimension/lang/ko_kr.json"
+hash = "c1b748080568fc4a1737b0df0e1471fe36102847632dc26b52e4d44f7aaa2629"
+
+[[files]]
 file = "kubejs/assets/modernfix/lang/ko_kr.json"
 hash = "5a0f73f269ff3da2201d768ebe3d7c46f3fdfc6c98c2009768cbb18554dc906f"
 
@@ -3519,6 +3551,14 @@ hash = "e9bd32ffd3887e2cd2b5dd9c223b7b7ad7a4a7618c9903a1d1769228694c56eb"
 [[files]]
 file = "kubejs/assets/moreup/textures/models/armor/dusk_layer_2.png"
 hash = "1b6324ef99a64ee9bc1e6bd12c83dff73b26f5757f6eb8923e119deb8ef84c5e"
+
+[[files]]
+file = "kubejs/assets/moreup_modnames/lang/en_us.json"
+hash = "bd18158b2097d12f2f38de8f31295276356cd6a0b9135eca79883b69bd5ddd11"
+
+[[files]]
+file = "kubejs/assets/moreup_modnames/lang/ko_kr.json"
+hash = "bd18158b2097d12f2f38de8f31295276356cd6a0b9135eca79883b69bd5ddd11"
 
 [[files]]
 file = "kubejs/assets/moreup_shader/lang/ko_kr.json"
@@ -3805,6 +3845,10 @@ file = "kubejs/assets/zeta/lang/ko_kr.json"
 hash = "8835b55a14ad16f61a9785ce8d64eda9ac07477003ed616faca8f19203724d57"
 
 [[files]]
+file = "kubejs/client_scripts/jade_always_on.js"
+hash = "e9bdf71a06bbb95b1852ee3d3aa1cda5dad5de1fdc9809156cb15b277b241ded"
+
+[[files]]
 file = "kubejs/client_scripts/jei_hide.js"
 hash = "1979a2c05efbaea916610359b465a134dc5222b7338cf28c45b13426b6061d4e"
 
@@ -3973,6 +4017,10 @@ file = "kubejs/data/moreup/damage_type/dusk_judgment.json"
 hash = "524c5e70a851be7c7914a3e4985f22ccd70c5c892e69fb235e7fd0753e13e965"
 
 [[files]]
+file = "kubejs/data/moreup/forge/biome_modifier/mining_dimension_ores.json"
+hash = "2886fb26fcda6332e1fd669655cf31dbc9d7cdceea3c1f15cd81dcee003d278a"
+
+[[files]]
 file = "kubejs/data/moreup/moreup_growth/bestiary_hints.json"
 hash = "6640cdcd1dcf37ea6de71a8f07ad1601ab3d1c2a1175185f8794ef15ed631be8"
 
@@ -4065,16 +4113,24 @@ file = "kubejs/server_scripts/recipes/essence_exchange.js"
 hash = "b726d43ac04b8311a8b46697385d81110bc278d01dcedcc5237cfe08ff09f2db"
 
 [[files]]
+file = "kubejs/server_scripts/recipes/raid.js"
+hash = "bff43936c35733ddf5c3ba570a7a9880a2df81a07680ca50548bbfafbead07c5"
+
+[[files]]
 file = "kubejs/server_scripts/recipes/tech_compat.js"
 hash = "a1e95dd63d6df3c77614c9288c7781068b13d9b32aebbcdb13fd5fa48756abb9"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/tech_gating.js"
-hash = "33b500d75b2157faac03d2fefe39c285c3bdf8c459e2a4c2a14a9bc835fe97ba"
+hash = "531dedf46f77c4b66e1e64043f31135180e06279bf5d4b3bdab851834d7da6a0"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/tech_patch.js"
 hash = "29961d47eecd47fcb9a233c571e6dd9725edb1ecb25815be292b7cd6820d12d0"
+
+[[files]]
+file = "kubejs/server_scripts/systems/compensation_20261111.js"
+hash = "977c71f9b4ed2c9a098e4279fb93f8641a3de8d1283c27fc857fd059defe65ee"
 
 [[files]]
 file = "kubejs/server_scripts/systems/dusk_sigil.js"
@@ -4082,7 +4138,7 @@ hash = "54953f7d3d5d57032b4f9855e5af8c6daadddf7c6713b040d919834ff689043f"
 
 [[files]]
 file = "kubejs/server_scripts/systems/end_dragon_fix.js"
-hash = "c9abe62ea949ae206eb9206d080628ea30239cbd4c1c1c1f7ef8557ab62d6f6a"
+hash = "01169db37c7e807eea88d015ed7e2936c642a62022e3536d8eeb9fb0cb7c6e13"
 
 [[files]]
 file = "kubejs/server_scripts/systems/gamerules.js"
@@ -4142,11 +4198,11 @@ hash = "9e301994778723e304a6b96dcd72cb3955c3c2691be4e0673a503ccfdd341a9b"
 
 [[files]]
 file = "kubejs/startup_scripts/moreup_armor_balance.js"
-hash = "2ca3ec623763b544f0b060f39635b6a2aa8396fa19d6128303390ed0070f5053"
+hash = "7355fca22c8b1f6e09b8294b9e3367a9955525cdcd01e1d2c7c2ccc6e464a38e"
 
 [[files]]
 file = "kubejs/startup_scripts/moreup_balance.js"
-hash = "528e57e0a7beaca363b50847271a64dd96107f033074f0304ad6dfdd2f893781"
+hash = "23f9aee3eb7ac8b9bc3f25e3200ccb18f38d8cb2ba09e14ab0a63fea003be93a"
 
 [[files]]
 file = "kubejs/startup_scripts/moreup_boss_damage.js"
@@ -4185,6 +4241,11 @@ metafile = true
 [[files]]
 file = "mods/advanced-hook-launchers.pw.toml"
 hash = "584916db35ef21e8cf96eef717944aec964dee569568360dc798db154a49cd2b"
+metafile = true
+
+[[files]]
+file = "mods/advanced-mining-dimension.pw.toml"
+hash = "c086607d9dd7248285513ea317cf1351a488a13d13d0dfcad09a0b483795b5f9"
 metafile = true
 
 [[files]]
@@ -4319,7 +4380,7 @@ metafile = true
 
 [[files]]
 file = "mods/aquamirae.pw.toml"
-hash = "e34da6bc5a98a497074d6e3153bce58c9219fb95d467d96bf0d335d783cf1c49"
+hash = "e1741c7c1057a565824786d010e11d4a34ccdfaed7926a938dc59b4ef5b06456"
 metafile = true
 
 [[files]]
@@ -4450,6 +4511,11 @@ metafile = true
 [[files]]
 file = "mods/bountiful.pw.toml"
 hash = "2798fc9c61947e92e1e43c8b031429b811e45aa79a421b7fba9fe81754e319a2"
+metafile = true
+
+[[files]]
+file = "mods/brutal-bosses-dungeon-bosses.pw.toml"
+hash = "f017ec49378fbaae8a764b0f55fedf00d462e948047c76565ba2f864b329dfa5"
 metafile = true
 
 [[files]]
@@ -4710,6 +4776,11 @@ metafile = true
 [[files]]
 file = "mods/delight-lib.pw.toml"
 hash = "3e6e3303d896bd62cec15d5c154a591b7448abcfe7960e74ef351b29e090a68a"
+metafile = true
+
+[[files]]
+file = "mods/dimensional-dungeons.pw.toml"
+hash = "f9a5ebd0b89b1e98499b4d4687ec35697ff00d49aef7d1f704e47595e411553e"
 metafile = true
 
 [[files]]
@@ -5293,6 +5364,11 @@ hash = "8f100c7527759b5c79c0a305c39f94717d1ac1373338254f5d3c078abfd4b2a6"
 metafile = true
 
 [[files]]
+file = "mods/legendary-monsters.pw.toml"
+hash = "7f0728d16b34ce3c54519fc9305d47efb2b1dbd12ad691c9efe78c02bbcd12ec"
+metafile = true
+
+[[files]]
 file = "mods/lendercataclysm.pw.toml"
 hash = "fbf967b492d575d65f066941652400dc32b998a16ac477a4b8f0efc2f681296a"
 metafile = true
@@ -5479,7 +5555,7 @@ metafile = true
 
 [[files]]
 file = "mods/moreup-core.pw.toml"
-hash = "3db07a086c083546409e4481d592157900d436b7aecb6f03e984f21db32bfab2"
+hash = "878e8507741012cf6fe00574a33044e6316e5c544f977ae6b717de51af5736c6"
 metafile = true
 
 [[files]]
@@ -6099,7 +6175,7 @@ preserve = true
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.8.1.zip.txt"
-hash = "03c2e07da8c438abb6b529eb9129b2691e099b7fd2909ad4aa55ed1adac36dcf"
+hash = "0e454dce8536985c1e8d3429c346a541e76e60e5d885d007378629db13c3bf33"
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"

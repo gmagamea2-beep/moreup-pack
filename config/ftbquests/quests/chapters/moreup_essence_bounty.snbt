@@ -5,7 +5,7 @@
 	group: "7E05AA7C371599AC"
 	icon: "moreup:boss_essence_mid"
 	id: "7002C592C0317C4B"
-	order_index: 35
+	order_index: 36
 	quest_links: [ ]
 	quests: [
 		{

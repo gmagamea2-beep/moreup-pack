@@ -1,0 +1,527 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "moreup_raid"
+	group: "7E05AA7C371599AC"
+	icon: "moreup:raid_altar"
+	id: "7D1C6476399800AD"
+	order_index: 24
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&f친구들과 함께 하는 &c파티 레이드&f. 제단을 놓고 &e레이드 인장&f을 들고 우클릭하면 시작된다."
+				"&f준비 10초 → &c1웨이브 &f→ &c2웨이브 + 중간 보스 &f→ &4레이드 보스&f. 보스바에 남은 적과 시간이 보인다."
+				""
+				"&7제단 32칸 안에 있던 사람과 경기장(24칸)에 들어온 사람이 참가자. 인원이 많을수록 몹이 늘고 보스가 단단해진다."
+				"&7경기장(48칸)에 15초 동안 아무도 없거나, 시간이 다 되거나, 제단이 부서지면 실패 — 인장은 돌아오지 않는다."
+				"&7레이드 몹은 아이템을 떨구지 않는다. 보상은 끝날 때 경기장에 있던 사람마다 「토벌 전리품 주머니」로."
+				""
+				"&e제작: 깎은 윤나는 흑암 5 + 금 주괴 2 + 하급 보스 정수 + 자석석"
+			]
+			id: "41CEE615F4D38A55"
+			rewards: [
+				{
+					id: "1AA9124124705B0A"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "799D5E182F42CE16"
+					item: "moreup:boss_essence_low"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0E9B476E315867D2"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 50"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "0E65A3A5E3EBD3A1"
+					team_reward: false
+					title: "&e★ 별빛 +50"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "121670E691D2E413"
+					item: "moreup:raid_altar"
+					type: "item"
+				}
+			]
+			title: "&c&l[ ★ 레이드 제단 ]"
+			icon: "moreup:raid_altar"
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			size: 1.5d
+		}
+		{
+			dependencies: ["41CEE615F4D38A55"]
+			description: [
+				"&f인장 등급이 레이드 등급이다. 시작할 때 인장 하나가 사라진다."
+				"&7하급 = 하급 정수 4 + 금 블록 · 중급 = 중급 정수 3 + 다이아몬드 블록"
+				"&7상급 = 상급 정수 2 + 네더라이트 주괴 · 전설 = 전설 정수 1 + 성룡의 비늘 4"
+				"&7서버가 레이드 도중 다시 시작되면 시작한 사람이 다음에 접속할 때 인장을 돌려받는다."
+			]
+			id: "20093DB673CE17D2"
+			rewards: [
+				{
+					id: "706B07F292D65AB9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "6FD1B25DE6D4D2EE"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 25"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "4626AFA754B88FB9"
+					team_reward: false
+					title: "&e★ 별빛 +25"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "1DBC6C9D97B04F80"
+					item: "moreup:raid_key_low"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 레이드 인장 ]"
+			icon: "moreup:raid_key_low"
+			x: 1.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["20093DB673CE17D2"]
+			description: ["&f하급 레이드를 끝까지 버텨 &a하급 토벌 전리품 주머니&f를 받는다.", "&7주머니를 열면 하급 정수 2~3, 토벌 증표 3~5, 아주 낮은 확률로 레이드 장비.", "&7별빛 120도 함께 받는다."]
+			id: "177A29A39D16EFAF"
+			rewards: [
+				{
+					id: "674394F3117C89C0"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "7879C40E4F8A9F45"
+					item: "moreup:boss_essence_low"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7CA500493BD3A8C0"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 50"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7C2FD76949655F56"
+					team_reward: false
+					title: "&e★ 별빛 +50"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "4CADCB5EF61AB613"
+					item: "moreup:raid_pouch_low"
+					type: "item"
+				}
+			]
+			title: "&a&l[ ✦ 하급 레이드 성공 ]"
+			icon: "moreup:raid_pouch_low"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["177A29A39D16EFAF"]
+			description: ["&f네더·황혼의 숲 몹과 6~7티어 보스. 레이드 보스에 정예 특성 1개.", "&7주머니: 중급 정수 2~3, 증표 6~9, 토벌 결정 10%, 레이드 장비 6%. 별빛 300."]
+			id: "725CD5B54AF39482"
+			rewards: [
+				{
+					id: "748359F5174349DC"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "754A228934347DA9"
+					item: "moreup:boss_essence_mid"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6ABB73850F4A052F"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 75"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "54BEDE0A38479648"
+					team_reward: false
+					title: "&e★ 별빛 +75"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "3C9AF2635ABE6F37"
+					item: "moreup:raid_pouch_mid"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 중급 레이드 성공 ]"
+			icon: "moreup:raid_pouch_mid"
+			x: 5.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["725CD5B54AF39482"]
+			description: ["&f정예 특성 2개짜리 몹 무리와 4~5티어 보스 (체력 x1.75).", "&7주머니: 상급 정수 1~2, 증표 10~14, 토벌 결정 35%, 레이드 장비 12%. 별빛 700."]
+			id: "73D09406553C7783"
+			rewards: [
+				{
+					id: "7BA9FAD0CECE121F"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "73D162CFACE39CC6"
+					item: "moreup:boss_essence_high"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7EFCF63EBA00C85A"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 125"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "73796A60BF23D184"
+					team_reward: false
+					title: "&e★ 별빛 +125"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "40B9F3335DAC436B"
+					item: "moreup:raid_pouch_high"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 상급 레이드 성공 ]"
+			icon: "moreup:raid_pouch_high"
+			x: 7.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["73D09406553C7783"]
+			description: ["&f3티어 보스 (체력 x2, 특성 2). 혼자서는 거의 불가능하다.", "&7주머니: 전설 정수 1, 증표 18~24, 토벌 결정 1~2, 레이드 장비 25%. 별빛 1500."]
+			id: "16FAA9533DCB6C04"
+			rewards: [
+				{
+					id: "0B6D21912573F74E"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+				{
+					count: 4
+					id: "58283881163E0F83"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 200"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7315F8E4289C8C80"
+					team_reward: false
+					title: "&e★ 별빛 +200"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "3AF06D57702E996A"
+					item: "moreup:raid_pouch_legendary"
+					type: "item"
+				}
+			]
+			title: "&d&l[ ★ 전설 레이드 성공 ]"
+			icon: "moreup:raid_pouch_legendary"
+			x: 8.75d
+			y: -3.0d
+			shape: "gear"
+			size: 1.5d
+		}
+		{
+			dependencies: ["725CD5B54AF39482"]
+			description: ["&f중급 이상 레이드 주머니에서 나오는 붉은 결정. 레이드 장비의 핵심 재료다."]
+			id: "7FD567B3C265C58D"
+			rewards: [
+				{
+					id: "2A06B267144DA998"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "4B695035EB4C3EA7"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 50"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "1172CE1F83DF8244"
+					team_reward: false
+					title: "&e★ 별빛 +50"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "7062B2EDF36FED34"
+					item: "moreup:raid_crystal"
+					type: "item"
+				}
+			]
+			title: "&c&l[ ✦ 토벌 결정 ]"
+			icon: "moreup:raid_crystal"
+			x: 7.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["7FD567B3C265C58D"]
+			description: [
+				"&f토벌 결정 3 + 중급 보스 정수로 만드는 8번째 각인석 (수호 별자리 없음)."
+				"&f무기: 16칸 안에 팀원이 있으면 주는 피해 +6% · 방어구: 부위마다 +1.5%, 2부위 +4%"
+				"&f4부위: 16칸 안 팀원이 받는 피해의 10%를 대신 받는다 (최대 50%)."
+				"&7팀 = FTB 팀. 팀이 없으면 효과가 없다."
+			]
+			id: "7124A47BFC951C8D"
+			rewards: [
+				{
+					id: "29BA803D127DD20C"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 16
+					id: "07C365E16709F20D"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 100"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "710D65F6738BA4E4"
+					team_reward: false
+					title: "&e★ 별빛 +100"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "72B87F5052ECE9EC"
+					item: "moreup:engraving_bond"
+					type: "item"
+				}
+			]
+			title: "&3&l[ ✦ 결속 각인석 ]"
+			icon: "moreup:engraving_bond"
+			x: 8.75d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7FD567B3C265C58D"]
+			description: [
+				"&f토벌 증표 24 + 토벌 결정 2 → &3결속의 반지"
+				"&7[반지] 16칸 안 팀원 한 명마다 주는 피해 +3% (최대 4명)."
+				""
+				"&7반복 교환입니다. 보상을 받으면 바로 다시 할 수 있습니다."
+				"&c제출한 아이템은 사라집니다."
+			]
+			id: "715C28BB57DD4D8A"
+			rewards: [
+				{
+					id: "788C1A5F151F98A8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3A10A6EEFA2761B5"
+					item: "moreup:raid_ring_bond"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2FA2E04B29503542"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 24L
+					id: "3EC8EBCB4A2771C8"
+					item: "moreup:raid_token"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "72E078B2229AE6EC"
+					item: "moreup:raid_crystal"
+					type: "item"
+				}
+			]
+			can_repeat: true
+			title: "&3&l[ ✦ 결속의 반지 교환 ]"
+			icon: "moreup:raid_ring_bond"
+			x: 8.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7FD567B3C265C58D"]
+			description: [
+				"&f토벌 증표 24 + 토벌 결정 2 → &9수호의 반지"
+				"&7[반지] 16칸 안 팀원 한 명마다 받는 피해 -3% (최대 4명)."
+				""
+				"&7반복 교환입니다. 보상을 받으면 바로 다시 할 수 있습니다."
+				"&c제출한 아이템은 사라집니다."
+			]
+			id: "7B355EEE67FE8CDA"
+			rewards: [
+				{
+					id: "7AD11664C9432662"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "05107A90A3B9015F"
+					item: "moreup:raid_ring_guard"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "18D7D389A8A3CD7F"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 24L
+					id: "71303022B43C9715"
+					item: "moreup:raid_token"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "78E7B7715B3F5C1F"
+					item: "moreup:raid_crystal"
+					type: "item"
+				}
+			]
+			can_repeat: true
+			title: "&9&l[ ✦ 수호의 반지 교환 ]"
+			icon: "moreup:raid_ring_guard"
+			x: 8.75d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7FD567B3C265C58D"]
+			description: [
+				"&f토벌 증표 40 + 토벌 결정 4 → &c토벌대 깃발"
+				"&7설치한 사람과 그 팀원에게 16칸 안에서 재생 I·힘 I, 진행 중인 레이드 경기장 안이면 II."
+				""
+				"&7반복 교환입니다. 보상을 받으면 바로 다시 할 수 있습니다."
+				"&c제출한 아이템은 사라집니다."
+			]
+			id: "700BE2BC7BBFFF57"
+			rewards: [
+				{
+					id: "729DFBEE53FFD93A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3F00C219A8F3A13C"
+					item: "moreup:raid_banner"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "05DD6735C2A0FA26"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 40L
+					id: "6210C9904C9688E0"
+					item: "moreup:raid_token"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "011CB55E573F8341"
+					item: "moreup:raid_crystal"
+					type: "item"
+				}
+			]
+			can_repeat: true
+			title: "&c&l[ ✦ 토벌대 깃발 교환 ]"
+			icon: "moreup:raid_banner"
+			x: 8.75d
+			y: 3.0d
+		}
+	]
+	title: "&b&l✦ ⚔ 토벌대"
+}

@@ -3,7 +3,7 @@
 // More Up: 전투 밸런스 (2026-10-26 패치, 2026-10-27 마법 상향)
 // 경로: kubejs/startup_scripts/moreup_balance.js
 //
-// 1) 몹(플레이어가 아닌 모든 생명체, 투사체는 쏜 쪽 기준)이 플레이어에게 주는 피해를 15% 줄인다.
+// 1) 몹(플레이어가 아닌 모든 생명체, 투사체는 쏜 쪽 기준)이 플레이어에게 주는 피해 배율 (1.14 부터 1.0 = 그대로, 이전 0.85).
 //    보스 피해 배율(moreup_boss_damage.js, 모어 x2)과 곱으로 함께 적용된다.
 // 2) 플레이어가 쓴 주문(Electroblob's Wizardry Redux 와 애드온 Myth Wizardry)의 피해 x2 (2026-10-27 사용자 요청: 마법 공격력 대폭 증가)
 //    주문 피해는 ebwizardry 피해 타입 10종(message_id 가 전부 "wizardry_" 로 시작)으로 들어온다. Myth Wizardry 도 같은 피해 타입을 쓴다.
@@ -12,7 +12,8 @@
 // 값을 바꾼 뒤에는 게임/서버를 재시작해야 한다 (startup 스크립트).
 // ============================================================
 
-const MOREUP_MOB_DAMAGE_TO_PLAYER = 0.85
+// 2026-11-11 1.14 난이도 전체 강화(A 중간안, 사용자 결정): 0.85 → 1.0 (몹 피해 감소 없앰). 근거 docs/power_audit_1.14.md
+const MOREUP_MOB_DAMAGE_TO_PLAYER = 1.0
 const MOREUP_PLAYER_SPELL_DAMAGE = 2.0
 const MOREUP_SPELL_MSG_PREFIX = 'wizardry_'
 

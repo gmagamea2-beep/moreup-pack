@@ -1,15 +1,19 @@
-# More Up 1.13.3 — CurseForge zip 에 들어가지 않는 파일
+# More Up 1.14.0 — CurseForge zip 에 들어가지 않는 파일
 
 제작자가 모드팩 배포를 막았거나(배포 금지) 아직 허용 여부를 확인하지 못한(미확인) 파일이다. 이 빌드 스크립트가 만든 목록이라 직접 고치지 않는다.
 
 | 구분 | 이름 | 파일 | 필요 | 상태 | 링크 |
 |---|---|---|---|---|---|
 | mods | [NoCube's] Undergarden Delight (A Farmer's Delight Add-on) | `undergardendelight-2.0.2-forge-1.20.1.jar` | **필수**(없으면 서버 접속 불가) | 배포 금지 | https://www.curseforge.com/minecraft/mc-mods/undergarden-delight/files/8397969 |
+| mods | Advanced Mining Dimension | `mining-dimension-forge-1.20.1-1.1.0.jar` | **필수**(없으면 서버 접속 불가) | 미확인 | https://www.curseforge.com/minecraft/mc-mods/advanced-mining-dimension/files/4973562 |
 | mods | Aether Delight (A Farmer's Delight Add-on) | `aether_delight_1.0.0_forge_1.20.1.jar` | **필수**(없으면 서버 접속 불가) | 배포 금지 | https://www.curseforge.com/minecraft/mc-mods/aether-delight/files/5029396 |
+| mods | Brutal Bosses | `brutalbosses-1.20.1-8.5.jar` | **필수**(없으면 서버 접속 불가) | 미확인 | https://www.curseforge.com/minecraft/mc-mods/brutal-bosses-dungeon-bosses/files/7654710 |
 | mods | Create: Structures Arise | `create_structures_arise-176.49.48 Forge 1.20.1.jar` | **필수**(없으면 서버 접속 불가) | 배포 금지 | https://www.curseforge.com/minecraft/mc-mods/create-structures-arise/files/8138503 |
+| mods | Dimensional Dungeons | `dimdungeons-207-neoforge-1.20.1.jar` | **필수**(없으면 서버 접속 불가) | 미확인 | https://www.curseforge.com/minecraft/mc-mods/dimensional-dungeons/files/7072245 |
 | mods | Entity Culling Fabric/Forge | `entityculling-forge-1.10.5-mc1.20.1.jar` | 선택 | 배포 금지 | https://www.curseforge.com/minecraft/mc-mods/entityculling/files/8287086 |
 | mods | Hot and Cold Curios | `HotandColdCurios-v1.4.0_forge-1.20.1.jar` | **필수**(없으면 서버 접속 불가) | 배포 금지 | https://www.curseforge.com/minecraft/mc-mods/hot-and-cold-curios/files/8376285 |
 | mods | Korean Chat Patch | `koreanpatch-forge-1.9.6+mc1.20.1.jar` | 선택 | 배포 금지 | https://www.curseforge.com/minecraft/mc-mods/korean-patch-fabric/files/8221008 |
+| mods | Legendary Monsters | `legendarymonsters-2.2.4 MC 1.20.1.jar` | **필수**(없으면 서버 접속 불가) | 미확인 | https://www.curseforge.com/minecraft/mc-mods/legendary-monsters/files/9301655 |
 | mods | Lucky's Tough As Nails Compat | `tough_as_nails_compat-1.0.5-1.20.1.jar` | **필수**(없으면 서버 접속 불가) | 배포 금지 | https://www.curseforge.com/minecraft/mc-mods/tough-as-nails-compat/files/5084144 |
 | mods | Quark Delight | `quark_delight_1.0.0_forge_1.20.1.jar` | **필수**(없으면 서버 접속 불가) | 배포 금지 | https://www.curseforge.com/minecraft/mc-mods/quark-delight/files/5052580 |
 | mods | Rice Delight (A Farmer's Delight Add-on) | `ricedelight-1.5.1-forge-1.20.1.jar` | **필수**(없으면 서버 접속 불가) | 배포 금지 | https://www.curseforge.com/minecraft/mc-mods/rice-delight/files/7512670 |
@@ -25,4 +29,4 @@
 
 지인 공유용 CurseForge zip 에는 jar 가 overrides/mods 로 들어 있다. 공개용 zip 으로 가져왔거나 빠져 있으면 인스턴스 폴더의 `More Up 업데이트.bat` 을 한 번 실행하면 받아진다.
 
-- More Up Core — `moreup-core-1.5.2.jar` **필수**
+- More Up Core — `moreup-core-1.7.0.jar` **필수**

@@ -5,7 +5,7 @@
 	group: "7E05AA7C371599AC"
 	icon: "bigreactors:basic_reactorcontroller"
 	id: "7211B824C4280CC0"
-	order_index: 31
+	order_index: 32
 	quest_links: [ ]
 	quests: [
 		{

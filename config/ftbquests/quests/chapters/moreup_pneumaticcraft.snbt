@@ -5,7 +5,7 @@
 	group: "7E05AA7C371599AC"
 	icon: "pneumaticcraft:air_compressor"
 	id: "3735C759FB3898B4"
-	order_index: 26
+	order_index: 27
 	quest_links: [ ]
 	quests: [
 		{

@@ -175,6 +175,14 @@ const MOREUP_GATED_RECIPES = [
         json: { type: 'minecraft:crafting_shaped', pattern: ['rlr', 'lul', 'rlr'],
             key: { u: MOREUP_E_LEGENDARY, l: { item: 'powah:capacitor_nitro' }, r: { item: 'powah:reactor_spirited' } },
             result: { item: 'powah:reactor_nitro', count: 4 } }
+    },
+    // ---------- 1.14 채굴 차원 (Advanced Mining Dimension 1.20.1-1.1.0, 사용자 결정 "정수 관문" 2026-11-12) ----------
+    {
+        // 채굴 차원 텔레포터: 원본(원목 4 + 판자 4 + 가운데 돌 곡괭이, jar 의 recipes/teleporter.json)에서 위 가운데 판자 → 하급 정수
+        id: 'mining_dimension_teleporter', needs: 'mining_dimension:teleporter', removeOutput: 'mining_dimension:teleporter',
+        json: { type: 'minecraft:crafting_shaped', pattern: ['LEL', 'PIP', 'LPL'],
+            key: { L: { tag: 'minecraft:logs' }, P: { tag: 'minecraft:planks' }, I: { item: 'minecraft:stone_pickaxe' }, E: MOREUP_E_LOW },
+            result: { item: 'mining_dimension:teleporter' } }
     }
 ]
 

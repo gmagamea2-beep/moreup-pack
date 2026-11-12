@@ -1,0 +1,13 @@
+name = "Advanced Mining Dimension"
+filename = "mining-dimension-forge-1.20.1-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8238abf30567e348635a3bcd959aee73556d07b0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4973562
+project-id = 332640
