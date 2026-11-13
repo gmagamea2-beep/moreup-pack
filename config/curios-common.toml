@@ -1,5 +1,6 @@
 #List of slots to create or modify.
 #See documentation for syntax: https://docs.illusivesoulworks.com/curios/configuration#slot-configuration
 #
-slots = ["id=ring;size=4", "id=charm;size=2", "id=bracelet;size=2", "id=necklace;size=1", "id=curio;size=2", "id=back;size=1"]
+# More Up: back(등) 1 → 2 (1.14.1, Elytra Slot 겉날개 + 배낭·화살통을 같이 끼도록). 이 설정은 데이터팩 슬롯 파일보다 나중에 적용돼 덮어쓴다
+slots = ["id=ring;size=4", "id=charm;size=2", "id=bracelet;size=2", "id=necklace;size=1", "id=curio;size=2", "id=back;size=2"]
 

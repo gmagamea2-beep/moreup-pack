@@ -618,7 +618,7 @@ hash = "ebc96c813d601e9c61b6929a8490e71fa990dc64918c19e1f9937bb275510abc"
 
 [[files]]
 file = "config/curios-common.toml"
-hash = "a6f2676793234c4e69059c40176ade57d569b9be0571442606af0584e1db1197"
+hash = "0a3199228c4172fbc5c5405874a49968fad082d0605da1cadecfc72c8f9cb945"
 
 [[files]]
 file = "config/cyclopscore-common.toml"
@@ -1794,7 +1794,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "821dc488a1c3d982720dc7e3a50c920e9e64cb40608213bf87cc4375d25b2f7f"
+hash = "85b3bbbee9fc12d6d7efc663fce1eb8b6b7b6a02c78c28c56a13eda4f11ca08b"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -1969,6 +1969,10 @@ file = "config/midnightlib.json"
 hash = "9bcdd9f5ae6c9fecc3a0dfee7507bf17c56702f14e40db9cdde90148f1d3b387"
 
 [[files]]
+file = "config/mining_dimension-client.toml"
+hash = "40854996875f10cd30d5393818b46cdba66674cddbf09132d5df9e9ad0f01440"
+
+[[files]]
 file = "config/mna-client.toml"
 hash = "d64b5297cb0cc648bf273533d76bc7287f0152a15996c7ff254c31f95051d857"
 
@@ -2038,7 +2042,7 @@ hash = "0d3c92ba50e31505475a5866dc81086230c3e3e683dc8ff2536b850f64ef9b54"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "03fe703ab390f8da1878125c51ae00b70b910fb28aeb39243a859d64f285b3e6"
+hash = "8bd6de1953a7ae6b55c9f9ac44d06701e741651596fb674c4b46de37e0f6ed94"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -2142,7 +2146,7 @@ hash = "56291af4bc3506692c79f5c0155c47cce8577d0aae6ed5930c9074d5cb9bc5c8"
 
 [[files]]
 file = "config/powah.json5"
-hash = "ebef18c784845d4c5922f47a219133753315ea57061dc77e9242fb6e9b6582ac"
+hash = "938d352fe17f9fb7848a0ea6944dea979c685a5120d59133ceeef08c461296f1"
 
 [[files]]
 file = "config/progressivebosses-common.toml"
@@ -4514,8 +4518,8 @@ hash = "2798fc9c61947e92e1e43c8b031429b811e45aa79a421b7fba9fe81754e319a2"
 metafile = true
 
 [[files]]
-file = "mods/brutal-bosses-dungeon-bosses.pw.toml"
-hash = "f017ec49378fbaae8a764b0f55fedf00d462e948047c76565ba2f864b329dfa5"
+file = "mods/brutal-bosses-dungeon.pw.toml"
+hash = "3cb4af19e3be751330bc3b8123e1268553ca1837676732d58e468dcabcfe5835"
 metafile = true
 
 [[files]]
@@ -4866,6 +4870,11 @@ metafile = true
 [[files]]
 file = "mods/electroblobs-wizardry-redux.pw.toml"
 hash = "f77f4140b2687baf00329369675aeb9a11037b2deecb30b2a1d0246aa7a679a7"
+metafile = true
+
+[[files]]
+file = "mods/elytra-slot.pw.toml"
+hash = "c94b9427a8d7f0e6aa0a1779c68bde63b98b4adc1968b48adad521f51bde84f3"
 metafile = true
 
 [[files]]
@@ -6175,7 +6184,7 @@ preserve = true
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.8.1.zip.txt"
-hash = "0e454dce8536985c1e8d3429c346a541e76e60e5d885d007378629db13c3bf33"
+hash = "0c1d50519953860030a7bd7c1f05623b760228c5212b257ed2c040baf1eb00a5"
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"
