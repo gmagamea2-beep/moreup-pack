@@ -134,7 +134,7 @@ hash = "e046845737179e207688839c0362b31f1d9a7783df0ff9636f042af6e6abaf4a"
 
 [[files]]
 file = "config/TwilightForestFinalBoss-common.toml"
-hash = "3e250b5df889ef13b0d023aee1ae505b537fc270b8e75740e93dbeee1a105f02"
+hash = "3f90dd567ddde02b2faa754489622d8be2c7ff56c205476680332c2b56330e7e"
 
 [[files]]
 file = "config/adhooks-common.toml"
@@ -618,7 +618,7 @@ hash = "ebc96c813d601e9c61b6929a8490e71fa990dc64918c19e1f9937bb275510abc"
 
 [[files]]
 file = "config/curios-common.toml"
-hash = "0a3199228c4172fbc5c5405874a49968fad082d0605da1cadecfc72c8f9cb945"
+hash = "4b057b6d268dcdf5d0b4c1972fb86bee1b60ba1f5e1c670eb352876c2353e12f"
 
 [[files]]
 file = "config/cyclopscore-common.toml"
@@ -1758,7 +1758,7 @@ hash = "22b4560c3dc05da35a70bb6611da0ce04cff295ab8c663afd58e725c396a24b3"
 
 [[files]]
 file = "config/jade/jade.json"
-hash = "56ccc3dbbae7669af78a0ab59fe7bc435f52265438af8ee5d534a96635c3d766"
+hash = "04cb5f4fb2c096912c34cc2a2e72ba4df401fb712fba9e0db54ffdaea43b964c"
 
 [[files]]
 file = "config/jade/plugins.json"
@@ -2042,7 +2042,7 @@ hash = "0d3c92ba50e31505475a5866dc81086230c3e3e683dc8ff2536b850f64ef9b54"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "8bd6de1953a7ae6b55c9f9ac44d06701e741651596fb674c4b46de37e0f6ed94"
+hash = "beae98d8382ac3a212ab0cc1cb8c302c506653e3461c0c2b83549409ae23637c"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -2146,7 +2146,7 @@ hash = "56291af4bc3506692c79f5c0155c47cce8577d0aae6ed5930c9074d5cb9bc5c8"
 
 [[files]]
 file = "config/powah.json5"
-hash = "938d352fe17f9fb7848a0ea6944dea979c685a5120d59133ceeef08c461296f1"
+hash = "890475ab8390614d93cb38c84defcc8b3956ce8f12ec6fe4d7c930748da8f249"
 
 [[files]]
 file = "config/progressivebosses-common.toml"
@@ -3386,11 +3386,11 @@ hash = "585c40a9252b04a5d6213794865205660dad72cb27d19297ad3da703e2dfd35b"
 
 [[files]]
 file = "kubejs/assets/moreup/lang/en_us.json"
-hash = "4782c5cbb4bbc8124805ee6ab30d19a64056966fa84a3955dc668e4ddbe7771d"
+hash = "82a95af343c0255b209c55a4ca821f9d97cbdc42509a4ced124f6f15ec66a481"
 
 [[files]]
 file = "kubejs/assets/moreup/lang/ko_kr.json"
-hash = "3567c4a2581e2ceda1e2a8b1ad8f0136b7b544992114e2aade0818175ee2f071"
+hash = "d7dd29aaa9cb5d6d8ceb8aeded2db036b02a24642bb26d91e399acfdc4211d38"
 
 [[files]]
 file = "kubejs/assets/moreup/models/item/dusk_bow.json"
@@ -4154,7 +4154,7 @@ hash = "c0f0835b6f3758bcd44a652cb7d043a7da2d0c623f28aa00057215d209dbbc8c"
 
 [[files]]
 file = "kubejs/server_scripts/systems/more_boss_patterns.js"
-hash = "2781fb72e85b633b669cf1cf61de4dc8316260456cf642b9968f005403b83a2a"
+hash = "7af0aa3305fc3b43628c8971d17090eb7887670b68bd0b650fee820a590800b0"
 
 [[files]]
 file = "kubejs/server_scripts/systems/more_up_clear.js"
@@ -6184,7 +6184,7 @@ preserve = true
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.8.1.zip.txt"
-hash = "0c1d50519953860030a7bd7c1f05623b760228c5212b257ed2c040baf1eb00a5"
+hash = "c12cdafdc0d7143ebf371be0bdff5659c2afd513f0f58e71cc53b4f1fbd36953"
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"

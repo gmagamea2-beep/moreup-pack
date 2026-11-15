@@ -1,15 +1,22 @@
 // priority: 0
 // ============================================================
-// More Up: 최종 보스 모어(castle_keeper) 추가 전투 패턴 10종
+// More Up: 최종 보스 모어(castle_keeper) 추가 전투 패턴 + 평타 강화
 // 경로: kubejs/server_scripts/systems/more_boss_patterns.js
 // 설계·수치: MoreUp/docs/boss_fight_more.md
 //
-// 모드 원래 공격(발구르기, 화염구, 위더 해골, 소멸의 큐브, 황혼 보스 소환)은 그대로 두고,
+// 모드 원래 공격(발구르기, 화염구, 위더 해골, 소멸의 큐브)은 그대로 두고,
 // 그 위에 예고(파티클·소리·액션바)가 있는 패턴을 몇 초마다 하나씩 쓴다.
-//   1단계(체력 100~66%): 황혼 낙인, 유성우, 별의 고리, 그림자 도약
-//   2단계(66~33%)     : + 중력 붕괴, 영혼 사슬, 황혼의 장막, 황혼의 수호병
-//   3단계(33% 이하)   : + 시간 역행, 기존 패턴 강화
+//   1단계(체력 100~66%): 황혼 낙인, 유성우, 별의 고리, 그림자 도약, 황혼의 창, 월식
+//   2단계(66~33%)     : + 중력 붕괴, 영혼 사슬, 황혼의 장막, 흩어지는 별빛, 황혼의 눈
+//   3단계(33% 이하)   : + 시간 역행, 심판의 운석, 기존 패턴 강화
 //   체력 20%·8%       : 최후의 황혼 (안전 지대 밖에 있으면 큰 피해, 한 번씩)
+//
+// 1.14.2 (2026-11-13 사용자 요청 "평타 데미지 2.5배, 공격 빈도 2배, 기술 5개 추가, 하수인 없애줘"):
+//   - 평타(근접) 공격력 x2.5: 공격력 속성에 고정 UUID 수정치(MULTIPLY_TOTAL +1.5)를 등록할 때 건다
+//   - 평타 빈도 x2: 근접 공격 대기 시간(MeleeAttackGoal, 20틱)을 틱마다 1씩 더 줄여 10틱으로
+//   - 기술 5개 추가: 황혼의 창, 월식, 흩어지는 별빛, 황혼의 눈, 심판의 운석
+//   - 하수인 제거: 황혼의 수호병(망령 소환) 끔. 모드 쪽 하수인 소환 4종(하빈저 큐브·추종자·
+//     황혼의 숲 주요 보스·미니 보스)은 config/TwilightForestFinalBoss-common.toml 에서 끔
 //
 // 피해는 커스텀 피해 타입 moreup:dusk_judgment (방어력·방패 무시, 보호 마법 부여는 적용,
 // 난이도 배율 없음)으로 "by 보스"를 붙여 준다. startup_scripts/moreup_boss_damage.js 의 보스 피해 x2 가
@@ -38,8 +45,17 @@ const MOREUP_MORE_PHASE3 = 0.33
 const MOREUP_MORE_LAST_DUSK_AT = [0.20, 0.08] // 최후의 황혼 발동 체력 비율 (각각 한 번)
 const MOREUP_MORE_QUEUE_LIMIT = 3000
 const MOREUP_MORE_RING_POINTS_MAX = 40       // 원 하나에 찍는 파티클 명령 수 상한
+const MOREUP_MORE_LINE_POINTS_MAX = 24       // 선 하나에 찍는 파티클 명령 수 상한
 // KubeJS 6 Rhino 에서는 Math.PI 가 undefined 다 (테스트 서버에서 확인). 직접 상수로 둔다
 const MOREUP_MORE_TAU = 6.283185307179586
+const MOREUP_MORE_DEG = MOREUP_MORE_TAU / 360
+const MOREUP_MORE_EYE_HEIGHT = 3.0           // 모어 눈 높이 (몸 크기 1 x 3.6)
+
+// 평타(근접) 강화. 1 이면 끈다 (수정치를 떼고 대기 시간도 건드리지 않는다)
+const MOREUP_MORE_MELEE_DAMAGE = 2.5         // 공격력 속성 배율 (원래 6 → 15, 보스 피해 x2·난이도 배율 전)
+const MOREUP_MORE_MELEE_SPEED = 2            // 근접 공격 빈도 배율 (정수). 대기 20틱 → 20/배율 틱
+const MOREUP_MORE_MELEE_ID = '7d3c2a91-5b6e-4f08-9c1d-2e4f6a8b0c55'
+const MOREUP_MORE_MELEE_NAME = 'More Up Mor melee'
 
 // 패턴 표. damage 는 보스 피해 x2 전 값, cooldown 은 초
 const MOREUP_MORE_PATTERNS = {
@@ -50,9 +66,16 @@ const MOREUP_MORE_PATTERNS = {
     gravity_well: { enabled: true, weight: 8,  minPhase: 2, cooldown: 22, damage: 10, radius: 7.0, pullRange: 32, duration: 40 },
     soul_chain:   { enabled: true, weight: 7,  minPhase: 2, cooldown: 30, damage: 3,  maxDistance: 10, duration: 120 },
     dusk_veil:    { enabled: true, weight: 6,  minPhase: 2, cooldown: 35, darkness: 8, invisible: 6 },
-    dusk_guard:   { enabled: true, weight: 5,  minPhase: 2, cooldown: 60, maxGuards: 5, duration: 400, entity: 'twilightforest:wraith' },
+    // 1.14.2: 하수인 소환이라 끔 (사용자 요청 "스폰하는 하수인들 없애줘"). 다시 쓰려면 enabled: true
+    dusk_guard:   { enabled: false, weight: 5, minPhase: 2, cooldown: 60, maxGuards: 5, duration: 400, entity: 'twilightforest:wraith' },
     time_rewind:  { enabled: true, weight: 7,  minPhase: 3, cooldown: 40, delay: 100 },
-    last_dusk:    { enabled: true, damage: 25, channel: 160, zoneRadius: 3.2 } // 체력 비율로 발동, 무작위 선택에서 제외
+    last_dusk:    { enabled: true, damage: 25, channel: 160, zoneRadius: 3.2 }, // 체력 비율로 발동, 무작위 선택에서 제외
+    // 1.14.2 추가 기술 5종
+    dusk_lance:      { enabled: true, weight: 10, minPhase: 1, cooldown: 14, damage: 8,  length: 28, width: 1.3, delay: 30 },
+    eclipse:         { enabled: true, weight: 9,  minPhase: 1, cooldown: 18, damage: 10, delay: 50, flipDelay: 35 },
+    star_scatter:    { enabled: true, weight: 8,  minPhase: 2, cooldown: 22, damage: 8,  radius: 4.0, delay: 60, maxMarks: 8 },
+    dusk_gaze:       { enabled: true, weight: 8,  minPhase: 2, cooldown: 28, damage: 9,  delay: 50, angle: 60, slowSeconds: 3 },
+    judgment_meteor: { enabled: true, weight: 8,  minPhase: 3, cooldown: 26, damage: 10, radius: 4.0, delay: 70, need: 3, failMultiplier: 1.5, minShare: 0.3 }
 }
 
 // 테스트 서버 전용: 이 태그가 붙은 엔티티도 대상에 넣는다 (평소에는 null)
@@ -170,6 +193,51 @@ function moreupMoreCircle(rec, type, x, y, z, r, points) {
         let a = MOREUP_MORE_TAU * i / n
         moreupMoreParticle(rec, type, x + Math.cos(a) * r, y, z + Math.sin(a) * r, 0, 0, 0, 0, 1)
     }
+}
+
+// 호(arc): 각도 a0 → a1 (라디안)
+function moreupMoreArc(rec, type, x, y, z, r, a0, a1, points) {
+    let n = Math.min(MOREUP_MORE_RING_POINTS_MAX, Math.max(6, Math.ceil(points)))
+    for (let i = 0; i <= n; i++) {
+        let a = a0 + (a1 - a0) * i / n
+        moreupMoreParticle(rec, type, x + Math.cos(a) * r, y, z + Math.sin(a) * r, 0, 0, 0, 0, 1)
+    }
+}
+
+// 수평 선분 l = {x1, z1, x2, z2, y}
+function moreupMoreLine(rec, type, l, spacing, count) {
+    let dx = l.x2 - l.x1
+    let dz = l.z2 - l.z1
+    let len = Math.sqrt(dx * dx + dz * dz)
+    let n = Math.min(MOREUP_MORE_LINE_POINTS_MAX, Math.max(2, Math.ceil(len / spacing)))
+    for (let i = 0; i <= n; i++) {
+        moreupMoreParticle(rec, type, l.x1 + dx * i / n, l.y + 0.2, l.z1 + dz * i / n, 0.05, 0.05, 0.05, 0, count || 1)
+    }
+}
+
+// 점에서 수평 선분까지 거리의 제곱
+function moreupMoreSegDist2(px, pz, l) {
+    let dx = l.x2 - l.x1
+    let dz = l.z2 - l.z1
+    let len2 = dx * dx + dz * dz
+    let t = len2 > 0 ? ((px - l.x1) * dx + (pz - l.z1) * dz) / len2 : 0
+    t = Math.max(0, Math.min(1, t))
+    return moreupMoreDist2(px, pz, l.x1 + dx * t, l.z1 + dz * t)
+}
+
+// 대상이 모어(눈 높이)를 바라보고 있는지: 시선과 모어 방향 사이 각이 cosLimit 의 각보다 작으면 true
+function moreupMoreLooksAt(t, boss, cosLimit) {
+    let yaw = Number(t.yaw) * MOREUP_MORE_DEG
+    let pitch = Number(t.pitch) * MOREUP_MORE_DEG
+    let lx = -Math.sin(yaw) * Math.cos(pitch)
+    let ly = -Math.sin(pitch)
+    let lz = Math.cos(yaw) * Math.cos(pitch)
+    let bx = boss.x - t.x
+    let by = boss.y + MOREUP_MORE_EYE_HEIGHT - (t.y + 1.6)
+    let bz = boss.z - t.z
+    let len = Math.sqrt(bx * bx + by * by + bz * bz)
+    if (len < 0.5) return true
+    return (lx * bx + ly * by + lz * bz) / len >= cosLimit
 }
 
 function moreupMoreSound(rec, sound, x, y, z, volume, pitch) {
@@ -552,6 +620,298 @@ MOREUP_MORE_PATTERN_FNS.last_dusk = (rec, boss, targets, phase) => {
     return cfg.channel + 20
 }
 
+// 11. 황혼의 창 (1.14.2): 모어에서 플레이어 쪽으로 보라색 선을 긋고 1.5초 뒤 그 선을 따라 창이 꿰뚫는다.
+//     옆으로 비켜야 한다. 2단계부터 창 하나 더, 3단계는 다시 조준해 두 번
+MOREUP_MORE_PATTERN_FNS.dusk_lance = (rec, boss, targets, phase) => {
+    let cfg = MOREUP_MORE_PATTERNS.dusk_lance
+    moreupMoreWarn(targets, 'message.moreup.more.dusk_lance')
+    moreupMoreSound(rec, 'minecraft:item.trident.return', boss.x, boss.y, boss.z, 2, 0.5)
+    let waves = phase >= 3 ? 2 : 1
+    for (let w = 0; w < waves; w++) moreupMoreLanceWave(rec, w * (cfg.delay + 12), cfg, phase)
+    return waves * (cfg.delay + 12) + 10
+}
+function moreupMoreLanceWave(rec, start, cfg, phase) {
+    // 조준은 물결이 시작할 때의 플레이어 위치로 한다 (3단계 두 번째 물결은 다시 겨눈다)
+    moreupMoreLater(rec, start, b => {
+        let ts = moreupMoreTargets(b)
+        if (ts.length === 0) return
+        let max = phase >= 2 ? 5 : 3
+        let n = Math.min(max, ts.length + (phase >= 2 ? 1 : 0))
+        let picks = moreupMoreShuffle(ts.slice())
+        let lances = []
+        for (let i = 0; i < n; i++) {
+            let t = picks[i % picks.length]
+            let a = Math.atan2(t.z - b.z, t.x - b.x)
+            if (moreupMoreDist2(t.x, t.z, b.x, b.z) < 0.25) a = Math.random() * MOREUP_MORE_TAU
+            // 같은 사람을 두 번째로 겨눌 때는 각도를 비틀어 퍼뜨린다
+            if (i >= picks.length) a += (i % 2 === 0 ? 0.45 : -0.45)
+            lances.push({ x1: b.x, z1: b.z, x2: b.x + Math.cos(a) * cfg.length, z2: b.z + Math.sin(a) * cfg.length, y: b.y })
+        }
+        moreupMoreSound(rec, 'minecraft:entity.evoker.prepare_attack', b.x, b.y, b.z, 1.5, 0.6)
+        moreupMoreRepeat(rec, 0, Math.floor(cfg.delay / 5), 5, (b2, i) => {
+            lances.forEach(l => moreupMoreLine(rec, 'minecraft:dust 0.45 0.1 0.75 1.4', l, 1.6))
+        })
+        moreupMoreLater(rec, cfg.delay, b2 => {
+            let hit = {}
+            moreupMoreSound(rec, 'minecraft:item.trident.thunder', b2.x, b2.y, b2.z, 2, 1.2)
+            lances.forEach(l => {
+                moreupMoreLine(rec, 'minecraft:end_rod', l, 1.2, 2)
+                moreupMoreTargets(b2).forEach(t => {
+                    let key = String(t.stringUuid)
+                    if (hit[key] || Math.abs(t.y - l.y) > 3) return
+                    if (moreupMoreSegDist2(t.x, t.z, l) > cfg.width * cfg.width) return
+                    hit[key] = true
+                    moreupMoreHurt(rec, t, cfg.damage)
+                    // 창 방향과 수직으로 밀어 낸다
+                    let dx = l.x2 - l.x1
+                    let dz = l.z2 - l.z1
+                    let len = Math.sqrt(dx * dx + dz * dz)
+                    let side = ((t.x - l.x1) * -dz + (t.z - l.z1) * dx) >= 0 ? 1 : -1
+                    moreupMorePush(t, -dz / len * 0.6 * side, 0.3, dx / len * 0.6 * side)
+                })
+            })
+        })
+    })
+}
+
+// 12. 월식 (1.14.2): 모어를 지나는 금빛 선으로 투기장을 반으로 가르고, 그림자 쪽 절반이 2.5초 뒤 무너진다.
+//     금빛 선 반대편(밝은 쪽)으로 건너가야 한다. 3단계는 곧바로 반대쪽도 무너진다
+MOREUP_MORE_PATTERN_FNS.eclipse = (rec, boss, targets, phase) => {
+    let cfg = MOREUP_MORE_PATTERNS.eclipse
+    let c = { x: boss.x, y: boss.y, z: boss.z }
+    let a = Math.random() * MOREUP_MORE_TAU
+    moreupMoreWarn(targets, 'message.moreup.more.eclipse')
+    moreupMoreSound(rec, 'minecraft:block.beacon.deactivate', c.x, c.y, c.z, 2, 0.5)
+    moreupMoreEclipseWave(rec, c, a, 0, cfg.delay, cfg)
+    if (phase < 3) return cfg.delay + 15
+    moreupMoreEclipseWave(rec, c, a + MOREUP_MORE_TAU / 2, cfg.delay + 10, cfg.flipDelay, cfg)
+    return cfg.delay + 10 + cfg.flipDelay + 15
+}
+function moreupMoreEclipseWave(rec, c, a, start, delay, cfg) {
+    let nx = Math.cos(a)
+    let nz = Math.sin(a)
+    let border = { x1: c.x - nz * 24, z1: c.z + nx * 24, x2: c.x + nz * 24, z2: c.z - nx * 24, y: c.y }
+    moreupMoreRepeat(rec, start, Math.max(1, Math.floor(delay / 10)), 10, (b, i) => {
+        if (i === 0 && start > 0) moreupMoreWarn(moreupMoreTargets(b), 'message.moreup.more.eclipse')
+        for (let r = 6; r <= 20; r += 7) {
+            moreupMoreArc(rec, 'minecraft:dust 0.15 0.0 0.25 2.0', c.x, c.y + 0.2, c.z, r, a - MOREUP_MORE_TAU / 4, a + MOREUP_MORE_TAU / 4, r * 1.2)
+        }
+        moreupMoreLine(rec, 'minecraft:dust 1.0 0.85 0.4 1.6', border, 2)
+        moreupMoreParticle(rec, 'minecraft:squid_ink', c.x + nx * 10, c.y + 1, c.z + nz * 10, 6, 1, 6, 0.01, 30)
+    })
+    moreupMoreLater(rec, start + delay, b => {
+        moreupMoreSound(rec, 'minecraft:entity.generic.explode', c.x + nx * 10, c.y, c.z + nz * 10, 3, 0.5)
+        moreupMoreParticle(rec, 'minecraft:large_smoke', c.x + nx * 12, c.y + 1, c.z + nz * 12, 8, 1.5, 8, 0.02, 120)
+        moreupMoreParticle(rec, 'minecraft:explosion', c.x + nx * 12, c.y + 1, c.z + nz * 12, 8, 1, 8, 0, 12)
+        moreupMoreTargets(b).forEach(t => {
+            if ((t.x - c.x) * nx + (t.z - c.z) * nz <= 0) return
+            moreupMoreHurt(rec, t, cfg.damage)
+            moreupMoreRun(`effect give ${t.stringUuid} minecraft:darkness 2 0 true`)
+        })
+    })
+}
+
+// 13. 흩어지는 별빛 (1.14.2): 여러 사람 발밑에 푸른 별 원이 따라붙고 3초 뒤 터진다.
+//     원 안에 다른 사람이 있으면 그 사람과 원 주인이 함께 맞는다 → 서로 떨어져야 한다. 혼자일 때는 쓰지 않는다
+MOREUP_MORE_PATTERN_FNS.star_scatter = (rec, boss, targets, phase) => {
+    let cfg = MOREUP_MORE_PATTERNS.star_scatter
+    if (targets.length < 2) return 0
+    let r = phase >= 3 ? cfg.radius + 1 : cfg.radius
+    let marked = moreupMoreShuffle(targets.slice()).slice(0, cfg.maxMarks).map(t => t.uuid)
+    moreupMoreWarn(targets, 'message.moreup.more.star_scatter')
+    moreupMoreSound(rec, 'minecraft:block.amethyst_block.resonate', boss.x, boss.y, boss.z, 2, 0.8)
+    moreupMoreRepeat(rec, 0, Math.floor(cfg.delay / 5), 5, (b, i) => {
+        marked.forEach(u => {
+            let t = moreupMoreFind(rec, u)
+            if (t == null) return
+            moreupMoreCircle(rec, 'minecraft:dust 0.4 0.8 1.0 1.4', t.x, t.y + 0.15, t.z, r, r * 4)
+            moreupMoreParticle(rec, 'minecraft:end_rod', t.x, t.y + 2.4, t.z, 0.1, 0.1, 0.1, 0, 2)
+        })
+    })
+    moreupMoreLater(rec, cfg.delay, b => {
+        let all = moreupMoreTargets(b)
+        let hits = {}
+        marked.forEach(u => {
+            let m = moreupMoreFind(rec, u)
+            if (m == null) return
+            let mk = String(m.stringUuid)
+            moreupMoreParticle(rec, 'minecraft:firework', m.x, m.y + 1, m.z, r / 2, 0.5, r / 2, 0.05, 40)
+            moreupMoreSound(rec, 'minecraft:entity.firework_rocket.blast', m.x, m.y, m.z, 1.5, 0.7)
+            let others = all.filter(t => String(t.stringUuid) !== mk && Math.abs(t.y - m.y) <= 3 &&
+                moreupMoreDist2(t.x, t.z, m.x, m.z) <= r * r)
+            if (others.length === 0) return
+            hits[mk] = (hits[mk] || 0) + 1
+            others.forEach(t => { let k = String(t.stringUuid); hits[k] = (hits[k] || 0) + 1 })
+        })
+        // 여러 원이 겹쳐도 한 사람에게 최대 3번까지만
+        all.forEach(t => {
+            let n = hits[String(t.stringUuid)]
+            if (n) moreupMoreHurt(rec, t, cfg.damage * Math.min(n, 3))
+        })
+    })
+    return cfg.delay + 10
+}
+
+// 14. 황혼의 눈 (1.14.2): 모어의 눈이 2.5초 동안 빛을 모은 뒤 열린다. 그때 모어를 바라보고 있으면
+//     피해 + 구속. 고개를 돌리면 피한다. 3단계는 두 번
+MOREUP_MORE_PATTERN_FNS.dusk_gaze = (rec, boss, targets, phase) => {
+    let cfg = MOREUP_MORE_PATTERNS.dusk_gaze
+    let cosLimit = Math.cos(cfg.angle * MOREUP_MORE_DEG)
+    let times = phase >= 3 ? 2 : 1
+    moreupMoreWarn(targets, 'message.moreup.more.dusk_gaze')
+    moreupMoreSound(rec, 'minecraft:entity.elder_guardian.curse', boss.x, boss.y, boss.z, 2, 0.6)
+    for (let k = 0; k < times; k++) moreupMoreGazeOnce(rec, k * (cfg.delay + 12), cfg, cosLimit)
+    return times * (cfg.delay + 12) + 10
+}
+function moreupMoreGazeOnce(rec, start, cfg, cosLimit) {
+    moreupMoreRepeat(rec, start, Math.floor(cfg.delay / 5), 5, (b, i) => {
+        moreupMoreParticle(rec, 'minecraft:dust 1.0 0.2 0.3 2.5', b.x, b.y + MOREUP_MORE_EYE_HEIGHT + 0.6, b.z, 0.25, 0.25, 0.25, 0, 6)
+        moreupMoreParticle(rec, 'minecraft:enchant', b.x, b.y + MOREUP_MORE_EYE_HEIGHT, b.z, 1.5, 1, 1.5, 1, 20)
+        if (i % 4 === 0) {
+            let left = Math.max(1, Math.ceil((cfg.delay - i * 5) / 20))
+            moreupMoreWarn(moreupMoreTargets(b), 'message.moreup.more.dusk_gaze.count', [String(left)])
+        }
+    })
+    moreupMoreLater(rec, start + cfg.delay, b => {
+        moreupMoreSound(rec, 'minecraft:entity.warden.sonic_boom', b.x, b.y, b.z, 2, 1.4)
+        moreupMoreParticle(rec, 'minecraft:flash', b.x, b.y + MOREUP_MORE_EYE_HEIGHT, b.z, 0, 0, 0, 0, 1)
+        moreupMoreTargets(b).forEach(t => {
+            if (!moreupMoreLooksAt(t, b, cosLimit)) return
+            moreupMoreHurt(rec, t, cfg.damage)
+            moreupMoreRun(`effect give ${t.stringUuid} minecraft:slowness ${cfg.slowSeconds} 1 true`)
+        })
+    })
+}
+
+// 15. 심판의 운석 (1.14.2): 한 사람 자리에 금빛 원을 그리고 3.5초 뒤 운석이 떨어진다.
+//     원 안에 모인 사람끼리 피해를 나눈다 (need 명 기준, 적게 모이면 한 사람당 더 크게). 아무도 없으면 전원이 큰 피해.
+//     3단계·4명 이상이면 원 두 개
+MOREUP_MORE_PATTERN_FNS.judgment_meteor = (rec, boss, targets, phase) => {
+    let cfg = MOREUP_MORE_PATTERNS.judgment_meteor
+    let level = boss.level
+    let count = phase >= 3 && targets.length >= 4 ? 2 : 1
+    let spots = moreupMoreShuffle(targets.slice()).slice(0, count).map(t => ({ x: t.x, y: moreupMoreGroundY(level, t.x, t.y, t.z), z: t.z }))
+    let need = Math.max(1, Math.min(cfg.need, Math.floor(targets.length / spots.length)))
+    moreupMoreWarn(targets, 'message.moreup.more.judgment_meteor')
+    moreupMoreSound(rec, 'minecraft:block.respawn_anchor.charge', boss.x, boss.y, boss.z, 2, 0.5)
+    moreupMoreRepeat(rec, 0, Math.floor(cfg.delay / 5), 5, (b, i) => {
+        spots.forEach(s => {
+            moreupMoreCircle(rec, 'minecraft:dust 1.0 0.75 0.1 1.8', s.x, s.y + 0.15, s.z, cfg.radius, cfg.radius * 5)
+            moreupMoreParticle(rec, 'minecraft:flame', s.x, s.y + 16 - i, s.z, 0.6, 0.6, 0.6, 0.02, 10)
+        })
+        if (i % 4 === 0) {
+            let left = Math.max(1, Math.ceil((cfg.delay - i * 5) / 20))
+            moreupMoreWarn(moreupMoreTargets(b), 'message.moreup.more.judgment_meteor.count', [String(left), String(need)])
+        }
+    })
+    moreupMoreLater(rec, cfg.delay, b => {
+        let all = moreupMoreTargets(b)
+        spots.forEach(s => {
+            moreupMoreParticle(rec, 'minecraft:explosion_emitter', s.x, s.y + 0.5, s.z, 0, 0, 0, 0, 1)
+            moreupMoreParticle(rec, 'minecraft:lava', s.x, s.y + 0.5, s.z, cfg.radius / 2, 0.3, cfg.radius / 2, 0, 30)
+            moreupMoreSound(rec, 'minecraft:entity.generic.explode', s.x, s.y, s.z, 3, 0.6)
+            let inside = all.filter(t => Math.abs(t.y - s.y) <= 3 && moreupMoreDist2(t.x, t.z, s.x, s.z) <= cfg.radius * cfg.radius)
+            if (inside.length === 0) {
+                all.forEach(t => moreupMoreHurt(rec, t, cfg.damage * cfg.failMultiplier))
+                return
+            }
+            let per = Math.max(cfg.damage * cfg.minShare, cfg.damage * need / inside.length)
+            inside.forEach(t => {
+                moreupMoreHurt(rec, t, per)
+                moreupMorePushFrom(t, s.x, s.z, 0.3, 0.5)
+            })
+        })
+    })
+    return cfg.delay + 15
+}
+
+// ---------- 평타 강화 (1.14.2) ----------
+
+const $MoreUpMoreUUID = Java.loadClass('java.util.UUID')
+const $MoreUpMoreAttributes = Java.loadClass('net.minecraft.world.entity.ai.attributes.Attributes')
+const $MoreUpMoreModifier = Java.loadClass('net.minecraft.world.entity.ai.attributes.AttributeModifier')
+const $MoreUpMoreOperation = Java.loadClass('net.minecraft.world.entity.ai.attributes.AttributeModifier$Operation')
+const $MoreUpMoreMeleeGoal = Java.loadClass('net.minecraft.world.entity.ai.goal.MeleeAttackGoal')
+const MOREUP_MORE_MELEE_UUID = $MoreUpMoreUUID.fromString(MOREUP_MORE_MELEE_ID)
+
+// 공격력 속성 수정치: 같은 UUID 를 쓰므로 여러 번 불러도 겹치지 않는다. 값이 바뀌었으면 교체
+function moreupMoreApplyMeleeDamage(boss) {
+    let inst = boss.getAttribute($MoreUpMoreAttributes.ATTACK_DAMAGE)
+    if (!inst) return
+    let amount = MOREUP_MORE_MELEE_DAMAGE - 1
+    let existing = inst.getModifier(MOREUP_MORE_MELEE_UUID)
+    if (existing && Math.abs(existing.getAmount() - amount) < 0.000001) return
+    if (existing) inst.removeModifier(MOREUP_MORE_MELEE_UUID)
+    if (Math.abs(amount) < 0.000001) return
+    inst.addPermanentModifier(new $MoreUpMoreModifier(MOREUP_MORE_MELEE_UUID, MOREUP_MORE_MELEE_NAME, amount, $MoreUpMoreOperation.MULTIPLY_TOTAL))
+}
+
+// 근접 공격 대기 시간 리플렉션 (Forge 1.20.1 실행 환경 SRG 이름, 서버 jar 에서 확인):
+//   Mob.goalSelector = f_21345_, GoalSelector.getAvailableGoals() = m_148105_, WrappedGoal.getGoal() = m_26015_,
+//   MeleeAttackGoal.ticksUntilNextAttack = f_25548_ (공격 뒤 20, 틱마다 1씩 줄어 0 이면 다시 공격),
+//   MeleeAttackGoal.lastCanUseCheck = f_25550_ (canUse 는 Level.getGameTime() = m_46467_ 기준 20틱에 한 번만 통과)
+// 대상 옆에 서서 때릴 때는 길찾기가 끝나 목표가 멈췄다가 canUse 로 다시 시작하며(시작할 때 대기 0) 때린다.
+// 그래서 공격 대기만 줄이면 움직이는 동안만 빨라지고 서서 때릴 때는 20틱에 한 번이다 (2026-11-13 시험 서버 확인).
+// 두 대기를 같은 배율로 줄인다
+let moreupMoreMeleeRefl = null // null = 아직, false = 쓸 수 없음
+const MOREUP_MORE_CAN_USE_WAIT = 20 // MeleeAttackGoal 의 canUse 재검사 간격 (바닐라 상수)
+function moreupMoreFindDeclared(className, name, isField) {
+    let c = Java.loadClass(className).__javaObject__
+    let list = isField ? c.getDeclaredFields() : c.getDeclaredMethods()
+    for (let i = 0; i < list.length; i++) {
+        if (String(list[i].getName()) === name) {
+            list[i].setAccessible(true)
+            return list[i]
+        }
+    }
+    throw new Error(`${className}#${name} 없음`)
+}
+function moreupMoreMeleeReady() {
+    if (moreupMoreMeleeRefl !== null) return moreupMoreMeleeRefl !== false
+    try {
+        moreupMoreMeleeRefl = {
+            selector: moreupMoreFindDeclared('net.minecraft.world.entity.Mob', 'f_21345_', true),
+            goals: moreupMoreFindDeclared('net.minecraft.world.entity.ai.goal.GoalSelector', 'm_148105_', false),
+            goal: moreupMoreFindDeclared('net.minecraft.world.entity.ai.goal.WrappedGoal', 'm_26015_', false),
+            cooldown: moreupMoreFindDeclared('net.minecraft.world.entity.ai.goal.MeleeAttackGoal', 'f_25548_', true),
+            lastCheck: moreupMoreFindDeclared('net.minecraft.world.entity.ai.goal.MeleeAttackGoal', 'f_25550_', true),
+            gameTime: moreupMoreFindDeclared('net.minecraft.world.level.Level', 'm_46467_', false)
+        }
+        return true
+    } catch (e) {
+        moreupMoreMeleeRefl = false
+        console.error(`[MoreUp] 모어 평타 빈도 강화를 쓸 수 없습니다: ${e}`)
+        return false
+    }
+}
+
+// 매 틱: 전투 중인 모어의 근접 공격 대기와 canUse 재검사 대기를 (배율 - 1) 만큼 더 줄인다
+// (시간이 1 흐르므로 합쳐서 배율만큼). 재검사 대기는 원래 간격(20틱)을 넘겨 당기지 않는다
+function moreupMoreMeleeTick() {
+    let extra = Math.round(MOREUP_MORE_MELEE_SPEED) - 1
+    if (extra <= 0) return
+    for (let key in moreupMoreBosses) {
+        let rec = moreupMoreBosses[key]
+        if (!rec.engaged) continue
+        let boss = moreupMoreFind(rec, rec.uuid)
+        if (boss == null) continue
+        if (!moreupMoreMeleeReady()) return
+        let R = moreupMoreMeleeRefl
+        let now = Number(R.gameTime.invoke(boss.level))
+        R.goals.invoke(R.selector.get(boss)).forEach(wrapped => {
+            let g = R.goal.invoke(wrapped)
+            if (!(g instanceof $MoreUpMoreMeleeGoal)) return
+            let left = R.cooldown.getInt(g)
+            if (left > 0) R.cooldown.setInt(g, Math.max(0, left - extra))
+            let last = Number(R.lastCheck.getLong(g))
+            let waited = now - last
+            if (waited >= 0 && waited < MOREUP_MORE_CAN_USE_WAIT) {
+                R.lastCheck.setLong(g, Math.max(now - MOREUP_MORE_CAN_USE_WAIT, last - extra))
+            }
+        })
+    }
+}
+
 // ---------- 전투 진행 ----------
 
 function moreupMoreRegister(entity) {
@@ -573,6 +933,8 @@ function moreupMoreRegister(entity) {
     // 서버가 꺼질 때 남아 있던 이 보스의 수호병 정리 (같은 보스는 같은 태그).
     // 엔티티가 월드에 들어오는 도중에 명령을 돌리지 않도록 tick 에서 처리한다
     moreupMorePendingKills.push(moreupMoreBosses[key].guardTag)
+    // 평타 공격력 (등록될 때마다 확인: 소환·청크 로드·/reload 뒤 첫 피격)
+    try { moreupMoreApplyMeleeDamage(entity) } catch (e) { moreupMoreError('평타 공격력', e) }
 }
 
 function moreupMorePhaseOf(boss) {
@@ -692,6 +1054,11 @@ if ($MoreUpMoreRegistries.ENTITY_TYPES.containsKey(new $MoreUpMoreRL(MOREUP_MORE
         } catch (e) {
             moreupMoreError('tick', e)
         }
+        try {
+            moreupMoreMeleeTick()
+        } catch (e) {
+            moreupMoreError('평타 빈도', e)
+        }
     })
 
     ServerEvents.commandRegistry(event => {
@@ -700,7 +1067,7 @@ if ($MoreUpMoreRegistries.ENTITY_TYPES.containsKey(new $MoreUpMoreRL(MOREUP_MORE
         for (let id in MOREUP_MORE_PATTERN_FNS) root = root.then(moreupMoreTestCommand(Commands, id))
         event.register(root)
     })
-    console.info(`[MoreUp] 모어 추가 패턴 ${Object.keys(MOREUP_MORE_PATTERN_FNS).length}종 등록`)
+    console.info(`[MoreUp] 모어 추가 패턴 ${Object.keys(MOREUP_MORE_PATTERN_FNS).filter(id => MOREUP_MORE_PATTERNS[id].enabled !== false).length}종 사용 (전체 ${Object.keys(MOREUP_MORE_PATTERN_FNS).length}), 평타 공격력 x${MOREUP_MORE_MELEE_DAMAGE}·빈도 x${MOREUP_MORE_MELEE_SPEED}`)
 } else {
     console.warn(`[MoreUp] ${MOREUP_MORE_ID} 가 없어 모어 추가 패턴을 건너뜀`)
 }
@@ -712,6 +1079,10 @@ function moreupMoreTestCommand(Commands, id) {
             let player = ctx.source.player
             if (player == null) return 0
             moreupMoreServer = ctx.source.server
+            if (MOREUP_MORE_PATTERNS[id].enabled === false) {
+                player.tell(Text.translate('message.moreup.more.test.fail', id).lightPurple())
+                return 0
+            }
             let best = null
             for (let key in moreupMoreBosses) {
                 let rec = moreupMoreBosses[key]
