@@ -451,7 +451,9 @@
 [Saturation]
 	#Enchantment configuration for Saturation
 	# Whether the mod changes these enchantments
-	isEnabled = true
+	# More Up: 2026-11-21 포화 마법 뺌 (사용자 요청 "마법부여 포화마법 빼줘", 원래 true)
+	#   false 면 마법부여대·책·상자 보상에 안 나오고, 이미 붙은 장비도 포화 효과를 주지 않는다 (모드 jar 확인)
+	isEnabled = false
 	# The maximum enchantment level
 	#Range: 1 ~ 5
 	# More Up: 2026-11-09 인챈트 너프(중간) (원래 3)

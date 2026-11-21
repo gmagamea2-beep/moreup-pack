@@ -2646,7 +2646,7 @@ hash = "9c26a1e56247780dc90da89cca31d6430f605bc766fc9a7db77124b5575467b9"
 
 [[files]]
 file = "defaultconfigs/so_many_enchants-server.toml"
-hash = "1b66282e058a396b2cf77e5dcd034273842ca360042ef6274698f28f3e038fcc"
+hash = "55c3b629180c7351119901b8c0802585b11bf1509fff4fa5e81ab211792c2f78"
 
 [[files]]
 file = "defaultconfigs/sophisticatedstorage-server.toml"
@@ -3386,11 +3386,11 @@ hash = "585c40a9252b04a5d6213794865205660dad72cb27d19297ad3da703e2dfd35b"
 
 [[files]]
 file = "kubejs/assets/moreup/lang/en_us.json"
-hash = "82a95af343c0255b209c55a4ca821f9d97cbdc42509a4ced124f6f15ec66a481"
+hash = "565befee66fc4442e96c28c4f6205aa73bdf157641cbace0d330a9224648a017"
 
 [[files]]
 file = "kubejs/assets/moreup/lang/ko_kr.json"
-hash = "d7dd29aaa9cb5d6d8ceb8aeded2db036b02a24642bb26d91e399acfdc4211d38"
+hash = "dc6f7195efc70ce60b793c79dd29d282c848c00eae07378e1cefd4d00a419d05"
 
 [[files]]
 file = "kubejs/assets/moreup/models/item/dusk_bow.json"

@@ -153,6 +153,8 @@
   "message.moreup.portal_link.empty": "등록된 고정 연결이 없습니다.",
   "message.moreup.portal_link.entry": "%s [%s] %s %s ~ %s → %s",
   "message.moreup.portal_link.removed": "고정 연결 '%s' 삭제",
+  "message.moreup.portal_link.not_owner": "고정 연결 '%s' 은(는) 다른 사람이 만든 것이라 바꿀 수 없습니다. (관리자에게 부탁하세요)",
   "message.moreup.end_dragon_fix.started": "엔더 드래곤 복구를 시작했습니다. 몇 초 뒤 출구 포탈과 드래곤이 생깁니다.",
-  "message.moreup.end_dragon_fix.busy": "이미 엔더 드래곤 복구가 진행 중입니다."
+  "message.moreup.end_dragon_fix.busy": "이미 엔더 드래곤 복구가 진행 중입니다.",
+  "message.moreup.server_update.requested": "서버 업데이트 요청을 남겼습니다. 5분 안에 GitHub 와 맞추고, 바뀐 설정은 서버 재시작(또는 /reload) 뒤 적용됩니다."
 }
