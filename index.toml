@@ -2646,7 +2646,7 @@ hash = "9c26a1e56247780dc90da89cca31d6430f605bc766fc9a7db77124b5575467b9"
 
 [[files]]
 file = "defaultconfigs/so_many_enchants-server.toml"
-hash = "1b66282e058a396b2cf77e5dcd034273842ca360042ef6274698f28f3e038fcc"
+hash = "55c3b629180c7351119901b8c0802585b11bf1509fff4fa5e81ab211792c2f78"
 
 [[files]]
 file = "defaultconfigs/sophisticatedstorage-server.toml"
