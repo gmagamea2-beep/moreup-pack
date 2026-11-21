@@ -3386,11 +3386,11 @@ hash = "585c40a9252b04a5d6213794865205660dad72cb27d19297ad3da703e2dfd35b"
 
 [[files]]
 file = "kubejs/assets/moreup/lang/en_us.json"
-hash = "82a95af343c0255b209c55a4ca821f9d97cbdc42509a4ced124f6f15ec66a481"
+hash = "565befee66fc4442e96c28c4f6205aa73bdf157641cbace0d330a9224648a017"
 
 [[files]]
 file = "kubejs/assets/moreup/lang/ko_kr.json"
-hash = "d7dd29aaa9cb5d6d8ceb8aeded2db036b02a24642bb26d91e399acfdc4211d38"
+hash = "dc6f7195efc70ce60b793c79dd29d282c848c00eae07378e1cefd4d00a419d05"
 
 [[files]]
 file = "kubejs/assets/moreup/models/item/dusk_bow.json"
