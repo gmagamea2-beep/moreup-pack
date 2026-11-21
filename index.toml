@@ -3793,6 +3793,10 @@ file = "kubejs/assets/thermal/lang/ko_kr.json"
 hash = "0d8b14dc1de01c576343c700b52b763b30b5dc609ca54e9cae60fa9ef06a5a12"
 
 [[files]]
+file = "kubejs/assets/thermal_extra/lang/ko_kr.json"
+hash = "65be47f8623192ef0da38ada52cd87203a62c9a27f0cb7575f32ee2bad94f116"
+
+[[files]]
 file = "kubejs/assets/titanium/lang/ko_kr.json"
 hash = "6e3e26f9e69d329a5f65262197ae894f59eddc4b5bc3c831005857c42334cee7"
 
@@ -4131,6 +4135,10 @@ hash = "531dedf46f77c4b66e1e64043f31135180e06279bf5d4b3bdab851834d7da6a0"
 [[files]]
 file = "kubejs/server_scripts/recipes/tech_patch.js"
 hash = "29961d47eecd47fcb9a233c571e6dd9725edb1ecb25815be292b7cd6820d12d0"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/thermal_extra.js"
+hash = "96b2dbb2faee3f909f8c8d059c2e1468fb02cb503f1404de3679fb65f0c48dc5"
 
 [[files]]
 file = "kubejs/server_scripts/systems/compensation_20261111.js"
@@ -5985,6 +5993,11 @@ metafile = true
 [[files]]
 file = "mods/thermal-expansion.pw.toml"
 hash = "1603a2d57a71762925e57c61ae45649bf6aab128295a31efec214b0676c79024"
+metafile = true
+
+[[files]]
+file = "mods/thermal-extra.pw.toml"
+hash = "7a264c389f7f0ce14d109061b7f4ff5927aab946f1e02b821012c54c02369609"
 metafile = true
 
 [[files]]
