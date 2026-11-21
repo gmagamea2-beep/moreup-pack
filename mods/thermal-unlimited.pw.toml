@@ -1,0 +1,13 @@
+name = "Thermal Unlimited"
+filename = "thermal-unlimited1.20.1-2.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f58dd339147fcc9e9ca89616db3cd035d566ba03"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5963202
+project-id = 1148039

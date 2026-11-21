@@ -115,6 +115,44 @@ const MOREUP_GATED_RECIPES = [
             key: { E: MOREUP_E_HIGH, G: { tag: 'thermal:glass/hardened' }, I: { tag: 'forge:ingots/enderium' }, R: { tag: 'forge:gears/lumium' }, X: { item: 'thermal:upgrade_augment_2' } },
             result: { item: 'thermal:upgrade_augment_3' } }
     },
+    // ---------- 2026-11-21 Thermal 애드온 강화재 (Thermal Extra·Thermal Endergy, 사용자 요청 "커스텀 조합법에 맞게 조합법까지 수정") ----------
+    // Thermal 강화재 3(상급 정수)보다 위 단계라 Mekanism Extras 설치기처럼 모두 전설 정수. 위 가운데 칸 → 전설 정수 (원본은 각 jar 의 JSON)
+    // 기본 배율: Thermal 1·2·3 = 2·3·4 / Extra 드래곤스틸 5 → 심연 6 / Endergy 프리스말리움 6 → 멜로디움 8.5 → 스텔라리움 12
+    {
+        // Thermal Extra 강화재 4 (드래곤스틸): 위 가운데 드래곤스틸 톱니바퀴 → 전설 정수
+        id: 'thermal_extra_upgrade_augment', needs: 'thermal_extra:upgrade_augment', removeOutput: 'thermal_extra:upgrade_augment',
+        json: { type: 'minecraft:crafting_shaped', pattern: ['IEI', 'GXG', 'IGI'],
+            key: { E: MOREUP_E_LEGENDARY, G: { tag: 'forge:gears/dragonsteel' }, I: { item: 'thermal_extra:ancient_dust' }, X: { item: 'thermal:upgrade_augment_3' } },
+            result: { item: 'thermal_extra:upgrade_augment' } }
+    },
+    {
+        // Thermal Extra 강화재 5 (심연): 위 가운데 심연 톱니바퀴 → 전설 정수
+        id: 'thermal_extra_abyssal_upgrade_augment', needs: 'thermal_extra:abyssal_upgrade_augment', removeOutput: 'thermal_extra:abyssal_upgrade_augment',
+        json: { type: 'minecraft:crafting_shaped', pattern: ['IEI', 'GXG', 'IGI'],
+            key: { E: MOREUP_E_LEGENDARY, G: { tag: 'forge:gears/abyssal' }, I: { item: 'thermal_extra:ancient_dust' }, X: { item: 'thermal_extra:upgrade_augment' } },
+            result: { item: 'thermal_extra:abyssal_upgrade_augment' } }
+    },
+    {
+        // Thermal Endergy 프리스말리움 강화재: 위 가운데 엔더의 눈 → 전설 정수 (C 는 원본처럼 thermal:upgrade_augment_3 이 든 태그)
+        id: 'thermalendergy_upgrade_1', needs: 'thermalendergy:endergy_upgrade_1', removeOutput: 'thermalendergy:endergy_upgrade_1',
+        json: { type: 'minecraft:crafting_shaped', pattern: ['IEI', 'GCG', 'IXI'],
+            key: { C: { tag: 'thermalendergy:upgrade_3' }, E: MOREUP_E_LEGENDARY, G: { tag: 'forge:gears/enderium' }, I: { tag: 'forge:ingots/prismalium' }, X: { item: 'minecraft:ender_eye' } },
+            result: { item: 'thermalendergy:endergy_upgrade_1' } }
+    },
+    {
+        // Thermal Endergy 멜로디움 강화재: 위 가운데 셜커 껍데기 → 전설 정수
+        id: 'thermalendergy_upgrade_2', needs: 'thermalendergy:endergy_upgrade_2', removeOutput: 'thermalendergy:endergy_upgrade_2',
+        json: { type: 'minecraft:crafting_shaped', pattern: ['IEI', 'GCG', 'IXI'],
+            key: { C: { item: 'thermalendergy:endergy_upgrade_1' }, E: MOREUP_E_LEGENDARY, G: { tag: 'forge:gears/prismalium' }, I: { tag: 'forge:ingots/melodium' }, X: { item: 'minecraft:shulker_shell' } },
+            result: { item: 'thermalendergy:endergy_upgrade_2' } }
+    },
+    {
+        // Thermal Endergy 스텔라리움 강화재: 위 가운데 점토 블록 → 전설 정수
+        id: 'thermalendergy_upgrade_3', needs: 'thermalendergy:endergy_upgrade_3', removeOutput: 'thermalendergy:endergy_upgrade_3',
+        json: { type: 'minecraft:crafting_shaped', pattern: ['IEI', 'GCG', 'IXI'],
+            key: { C: { item: 'thermalendergy:endergy_upgrade_2' }, E: MOREUP_E_LEGENDARY, G: { tag: 'forge:gears/melodium' }, I: { tag: 'forge:ingots/stellarium' }, X: { item: 'minecraft:clay' } },
+            result: { item: 'thermalendergy:endergy_upgrade_3' } }
+    },
     {
         // 조립 라인 제어기: 압축 철 1자리 → 하급 정수
         id: 'pnc_assembly_controller', needs: 'pneumaticcraft:assembly_controller', removeOutput: 'pneumaticcraft:assembly_controller',
