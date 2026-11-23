@@ -22,7 +22,8 @@
   },
   {
     "mod": ["cataclysm", "iceandfire", "mowziesmobs"],
-    "player": false,
+    "realplayer": false,
+    "fakeplayer": false,
     "removeall": true
   }
 ]

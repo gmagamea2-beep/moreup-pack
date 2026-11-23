@@ -134,7 +134,7 @@ hash = "e046845737179e207688839c0362b31f1d9a7783df0ff9636f042af6e6abaf4a"
 
 [[files]]
 file = "config/TwilightForestFinalBoss-common.toml"
-hash = "3f90dd567ddde02b2faa754489622d8be2c7ff56c205476680332c2b56330e7e"
+hash = "8befb8b116cf6bbb00d8d48afaff4681c512cb0497db6a329f13a45c0294408c"
 
 [[files]]
 file = "config/adhooks-common.toml"
@@ -901,6 +901,14 @@ file = "config/forgeendertech-common.toml"
 hash = "1bd283bb6d79f9f552d19990857bcd6741ac247af768af200cd08a1b68432fbc"
 
 [[files]]
+file = "config/forgeendertech/Biomes/blueprint$original_source_marker.cfg"
+hash = "dfc327f20621c8d570421875147be9b43d37c3653fd7661564bde981ec217be8"
+
+[[files]]
+file = "config/forgeendertech/Biomes/deeperdarker$overcast_columns.cfg"
+hash = "60809ea6e40bf75e1702dd749b3240b859854d9f52c2f457068cc94a5267c715"
+
+[[files]]
 file = "config/forgeendertech/Biomes/edenring$empty_cave.cfg"
 hash = "102acf85a1bc6f5ff8334a4e150c77d5ec03cc8a1527d5c674aba61ba259eb8c"
 
@@ -1021,6 +1029,10 @@ file = "config/forgeendertech/Biomes/natures_spirit$sparse_tropical_woods.cfg"
 hash = "4c6607d9510accf310534cd3df35444d4a5249e5691371a773bcabb4685e7efb"
 
 [[files]]
+file = "config/forgeendertech/Biomes/natures_spirit$sugi_forest.cfg"
+hash = "c684b781e092bb586b4e955eec6b06ea650f31188ba307e7dbf21702099a5d2c"
+
+[[files]]
 file = "config/forgeendertech/Biomes/natures_spirit$tropical_basin.cfg"
 hash = "4faf154ffe9d50e2ec23eb74a8d9f5b8e2f796b644268bfb29e3ee1580244337"
 
@@ -1057,6 +1069,10 @@ file = "config/forgeendertech/Biomes/regions_unexplored$spires.cfg"
 hash = "dfd1927bff915f377a560fe1acf58fb7c4d605598aad660947c11ce36834f782"
 
 [[files]]
+file = "config/forgeendertech/Biomes/stellarity$frosted_hills.cfg"
+hash = "35747db02619c26a78a8ce7b6669d61f2b9ffdd42923a0383c41d331fe4bffb5"
+
+[[files]]
 file = "config/forgeendertech/Biomes/stellarity$sculk_growth.cfg"
 hash = "2d277ac072ea44a14c560910bb16b5079e8f4f49c7f24eba2c4015921e87cbd8"
 
@@ -1085,12 +1101,52 @@ file = "config/forgeendertech/Biomes/undergarden$forgotten_field.cfg"
 hash = "25c05402d7e11ba2c2acb95cab0e5adc7762451ed21f5dad3e590c720367b89d"
 
 [[files]]
+file = "config/forgeendertech/Biomes/undergarden$ink_mushroom_bog.cfg"
+hash = "c8a7a9eec276d30a228355d9d4fa3ee9655dbf9834b7b56a533dd7b933bf5b7b"
+
+[[files]]
 file = "config/forgeendertech/Wind.cfg"
 hash = "220957c61e5d48ef78f3f1f83f6e014b9dfdb5b7950a87fac6be1622c8cb47e8"
 
 [[files]]
 file = "config/forgeendertech/cached.dat"
 hash = "9175bff315c9a754e2f6c3b3fc4eba6f22608ab69b5069fb5b14ed4548ae42a2"
+
+[[files]]
+file = "config/forgematica.json"
+hash = "ef3d4538809833c66847ec111bad221d3af2c1cfebdcc3242109c02791604217"
+
+[[files]]
+file = "config/forgematica/forgematica_______.json"
+hash = "c5084e511824ed9f2f38764243b970bd4c7d1047c5fa450b4f4e1c6a2cf9622e"
+
+[[files]]
+file = "config/forgematica/forgematica________dim_minecraft_overworld.json"
+hash = "d8d2b453cb4afdc0c2a8182da8b098ec2da7709ec67c6d72c679d9210090e972"
+
+[[files]]
+file = "config/forgematica/forgematica________dim_minecraft_the_nether.json"
+hash = "6187944e15fffc92c8c28cb2c9d96c3da1839a9dabf17a1ef530e6f269656d0f"
+
+[[files]]
+file = "config/forgematica/forgematica_more-up1121.kro.kr.json"
+hash = "12174fd2e7b7105aa4aa98a486df7baa470fd770ff30a731cf314c4fd571701a"
+
+[[files]]
+file = "config/forgematica/forgematica_more-up1121.kro.kr_dim_minecraft_overworld.json"
+hash = "4a6809e2e3fd89774626b695a48533eaeee73131af4f27333f09af1807eae2bf"
+
+[[files]]
+file = "config/forgematica/forgematica_more-up1121.kro.kr_dim_minecraft_the_end.json"
+hash = "4a6809e2e3fd89774626b695a48533eaeee73131af4f27333f09af1807eae2bf"
+
+[[files]]
+file = "config/forgematica/forgematica_more-up1121.kro.kr_dim_minecraft_the_nether.json"
+hash = "4a6809e2e3fd89774626b695a48533eaeee73131af4f27333f09af1807eae2bf"
+
+[[files]]
+file = "config/forgematica/forgematica_more-up1121.kro.kr_dim_mining_dimension_mining.json"
+hash = "4a6809e2e3fd89774626b695a48533eaeee73131af4f27333f09af1807eae2bf"
 
 [[files]]
 file = "config/friendsandfoes.json"
@@ -1678,7 +1734,7 @@ hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 
 [[files]]
 file = "config/incontrol/loot.json"
-hash = "84fe033c31c48baeb24661692a38840c6ef5b7778a358fa50eed763f65dcfda8"
+hash = "8f071aa1fdb1021ff0bb8dd2a0a7648eb227153639ace7c609517b35a6cd24e4"
 
 [[files]]
 file = "config/incontrol/phases.json"
@@ -1758,7 +1814,7 @@ hash = "22b4560c3dc05da35a70bb6611da0ce04cff295ab8c663afd58e725c396a24b3"
 
 [[files]]
 file = "config/jade/jade.json"
-hash = "04cb5f4fb2c096912c34cc2a2e72ba4df401fb712fba9e0db54ffdaea43b964c"
+hash = "36c2ee0b36722aa4e8366bbe42ff6f9883949c3ef6d53913ba465f75ee0d9626"
 
 [[files]]
 file = "config/jade/plugins.json"
@@ -1794,7 +1850,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "85b3bbbee9fc12d6d7efc663fce1eb8b6b7b6a02c78c28c56a13eda4f11ca08b"
+hash = "f41d8ef3634622f187c837b54fab00e30c21a45ad672fca446afcca3bb24abbd"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -1818,7 +1874,7 @@ hash = "722d70719c26d187fec23e1636fc699b6d5bc8476a7025859f918184fde53885"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "87d68b5a2e036006a8aaf6b3d9cdf1198d0c6b2c5aa27fea437abc80479d35b0"
+hash = "46b4019b5fa0b161d6ab8c7a077bf4a950fc606dcb7c88bd07f0afc330adcf6e"
 
 [[files]]
 file = "config/jei_mekanism_multiblocks-client.toml"
@@ -1949,6 +2005,10 @@ file = "config/lunarshaders-client.toml"
 hash = "0a7f39febd4c9dba1a74001842bdafc3e463dedde86412f90ceef68984775b8d"
 
 [[files]]
+file = "config/mafglib.json"
+hash = "a4976d6a5206a02939ee0ad164b06eb0bd0530dc5ffff42c9372327d1f5e5b64"
+
+[[files]]
 file = "config/mantle-client.toml"
 hash = "fb2b6378aac5723f9bcb0fe195fefc42f675f59467c98ae65df13bd872949e95"
 
@@ -2042,7 +2102,7 @@ hash = "0d3c92ba50e31505475a5866dc81086230c3e3e683dc8ff2536b850f64ef9b54"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "beae98d8382ac3a212ab0cc1cb8c302c506653e3461c0c2b83549409ae23637c"
+hash = "874673cc33a122ee67b68ded4247de3b82b24f0007d803fefedeb5940a8e4fe9"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -2146,7 +2206,7 @@ hash = "56291af4bc3506692c79f5c0155c47cce8577d0aae6ed5930c9074d5cb9bc5c8"
 
 [[files]]
 file = "config/powah.json5"
-hash = "890475ab8390614d93cb38c84defcc8b3956ce8f12ec6fe4d7c930748da8f249"
+hash = "8ac9b03a900f3b13dd725147cfed456d5302616b4b1f0ddd8aefcca5e12ab1ce"
 
 [[files]]
 file = "config/progressivebosses-common.toml"
@@ -2427,6 +2487,10 @@ hash = "6a77dcad4376b6083018d82e5c1509a2044ac187d3b6244d28cb25863f1113bb"
 [[files]]
 file = "config/thermal_integration-common.toml"
 hash = "eae3406965d400447e833c3e1498c80e9118b5209b7374af924a6c768f107041"
+
+[[files]]
+file = "config/thermal_unlimited-common.toml"
+hash = "3d29f1312d2c893a7938e977f3ca03ddeffd1c787e7405459601f252dc2c6f24"
 
 [[files]]
 file = "config/titanium/titanium-tags.toml"
@@ -3077,6 +3141,10 @@ file = "kubejs/assets/forbidden_arcanus_js/lang/ko_kr.json"
 hash = "87003bdb4f1dfb6a8f6bd592f4eeade1d9ce429fa9e8f820241362164fc318d5"
 
 [[files]]
+file = "kubejs/assets/forgematica/lang/ko_kr.json"
+hash = "840402bc131331bca3608d3d0b765a9513fdfa39eea36b30971cc453a0a72683"
+
+[[files]]
 file = "kubejs/assets/fragmentum/lang/ko_kr.json"
 hash = "e78dfde5a1b539960f10486abe790ba93a4e11c594b782d78a7636a4ec49f91d"
 
@@ -3261,6 +3329,10 @@ file = "kubejs/assets/lionfishapi/lang/ko_kr.json"
 hash = "bd94d97337c57fbd50469074918da409bf1f80e571522d00e296a85264936f5c"
 
 [[files]]
+file = "kubejs/assets/litematica/lang/ko_kr.json"
+hash = "142658969e48d2b5f65a18dddb3a39e97204bd133e3002ebfddd7eae09fabfc4"
+
+[[files]]
 file = "kubejs/assets/lollipop/lang/ko_kr.json"
 hash = "83813561b49e8e6a4151b14a674e9dde283156836e6055d2dbb5e6756fc12128"
 
@@ -3275,6 +3347,10 @@ hash = "271afce52deb5528a5da4a56f25541ceab7870d660ab042bb686424ad12e8235"
 [[files]]
 file = "kubejs/assets/lost_aether_content/lang/ko_kr.json"
 hash = "0d3f6d2ba3af764d00f9c2a23608d4ad29ae143bc2d550c3b6261e5c2edb33d8"
+
+[[files]]
+file = "kubejs/assets/mafglib/lang/ko_kr.json"
+hash = "1f47cd34ffd4bcbcc9b41ddf5c26c753e868b04e53c3b20d4e9f9bc890f1e5ef"
 
 [[files]]
 file = "kubejs/assets/mantle/lang/ko_kr.json"
@@ -3793,6 +3869,14 @@ file = "kubejs/assets/thermal/lang/ko_kr.json"
 hash = "0d8b14dc1de01c576343c700b52b763b30b5dc609ca54e9cae60fa9ef06a5a12"
 
 [[files]]
+file = "kubejs/assets/thermal_extra/lang/ko_kr.json"
+hash = "4fdbfe9523cbada2c8268311c59e6d067e40db01a7bb17ed13be404ed7b50fec"
+
+[[files]]
+file = "kubejs/assets/thermalendergy/lang/ko_kr.json"
+hash = "473993b2ffd60d613198d0dae90bf89fc357fe90d6f478c37cffa2de2f116950"
+
+[[files]]
 file = "kubejs/assets/titanium/lang/ko_kr.json"
 hash = "6e3e26f9e69d329a5f65262197ae894f59eddc4b5bc3c831005857c42334cee7"
 
@@ -4077,6 +4161,10 @@ file = "kubejs/server_scripts/loot/progressive_wither_reward.js"
 hash = "a04ceaa915fe34f1ecb7cf0de7dfcc56b7f9792fd9fa90cb684d95029513f31e"
 
 [[files]]
+file = "kubejs/server_scripts/loot/progressive_wither_vessel.js"
+hash = "49a803229302c0f29b9c2ab7f725c0f7b274b1a4d1bbfe656b886fdf34062853"
+
+[[files]]
 file = "kubejs/server_scripts/loot/wither_eye_fix.js"
 hash = "81e1903c6ef094f98d31ef3f8b05d39da8c9792a41c0a410c09f5029826e9649"
 
@@ -4126,11 +4214,15 @@ hash = "a1e95dd63d6df3c77614c9288c7781068b13d9b32aebbcdb13fd5fa48756abb9"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/tech_gating.js"
-hash = "531dedf46f77c4b66e1e64043f31135180e06279bf5d4b3bdab851834d7da6a0"
+hash = "397949ed580706aec859fad145f40fdba297d05bf25b2d75c4e83dd4143679d2"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/tech_patch.js"
 hash = "29961d47eecd47fcb9a233c571e6dd9725edb1ecb25815be292b7cd6820d12d0"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/thermal_addons.js"
+hash = "b2fc6866f7fb445690d50385219a2b6460ee879ea9410052f474bea81642e9af"
 
 [[files]]
 file = "kubejs/server_scripts/systems/compensation_20261111.js"
@@ -4142,7 +4234,7 @@ hash = "54953f7d3d5d57032b4f9855e5af8c6daadddf7c6713b040d919834ff689043f"
 
 [[files]]
 file = "kubejs/server_scripts/systems/end_dragon_fix.js"
-hash = "01169db37c7e807eea88d015ed7e2936c642a62022e3536d8eeb9fb0cb7c6e13"
+hash = "02cede7509f438a00ebaf9de399b1e1ee136d013eb00fe2fb6cfb82b413efa0a"
 
 [[files]]
 file = "kubejs/server_scripts/systems/gamerules.js"
@@ -4166,7 +4258,7 @@ hash = "b9a767f5f08ac5b65c07db0ddaeeb7281dd3a2c4968dddd1bf8bca69bd980a57"
 
 [[files]]
 file = "kubejs/server_scripts/systems/portal_links.js"
-hash = "06f36b9920ddedca46eabcb3a19fc6ad5dbc17274d96c54a9ca155407d039929"
+hash = "6d72e11ad47eec23b5203fe5956a3de7103b7d4d78a76ac9e5d6eec311fd4b6b"
 
 [[files]]
 file = "kubejs/server_scripts/systems/pregen_guard.js"
@@ -4179,6 +4271,18 @@ hash = "87c87281cb753a0fb08b9c5ce424b0726d52d446ab93313f38ef75106a229041"
 [[files]]
 file = "kubejs/server_scripts/systems/quest_retro_data.js"
 hash = "f2a14f1a39d62caf2cb71a65528bda0a87d69baac08e852e43e9d6e3630711f8"
+
+[[files]]
+file = "kubejs/server_scripts/systems/schematicannon_boost.js"
+hash = "4b894a0a94f6e83fe85c12c8b0d5a54140aa339005d470354598e87fdcec5378"
+
+[[files]]
+file = "kubejs/server_scripts/systems/server_update.js"
+hash = "febb908889c446bbfa480dfc27daa370ecb6d57c26e374444885d19a3370e738"
+
+[[files]]
+file = "kubejs/server_scripts/systems/sme_attribute_fix.js"
+hash = "c827ccf9d6755bc353d5a1e9588c91dc35dea3a07751ec6771369147429d7d41"
 
 [[files]]
 file = "kubejs/server_scripts/tags/boss_blacklist.js"
@@ -4209,12 +4313,16 @@ file = "kubejs/startup_scripts/moreup_balance.js"
 hash = "23f9aee3eb7ac8b9bc3f25e3200ccb18f38d8cb2ba09e14ab0a63fea003be93a"
 
 [[files]]
+file = "kubejs/startup_scripts/moreup_bless_tooltip.js"
+hash = "3973d87637c2e9b135a751dfd0e6e345425f49794a25563633d2bed351ec87b4"
+
+[[files]]
 file = "kubejs/startup_scripts/moreup_boss_damage.js"
 hash = "f121680e1799442aea7cfadb91fc5a98d8dd6d79e6b5252846dfc57726398a12"
 
 [[files]]
 file = "kubejs/startup_scripts/moreup_disabled_items.js"
-hash = "02fb72db7df47a776f3f06320ce838a111f46012e439ada9007dbd4f9c2aaf8f"
+hash = "2248e8f377948036375164ab220ec77a9a40ecd9568d9c1ca7c86972ffc89cbb"
 
 [[files]]
 file = "kubejs/startup_scripts/moreup_dusk_gear.js"
@@ -4223,6 +4331,10 @@ hash = "85b912cc38fd9ba468e98c4810b51ae9c57be0183da4f7243cecdbf21c18336c"
 [[files]]
 file = "kubejs/startup_scripts/moreup_endgame_items.js"
 hash = "064e63e114fe9deb36f0ac9c16fd752bd0d75e2f5fd6b6fc2fd1a3591d16c914"
+
+[[files]]
+file = "kubejs/startup_scripts/moreup_mage_widget_fix.js"
+hash = "7eee0ed5d8f15184bddf6f9d0c192e3a7bf3ad2ff1e9370c40e89b7f3f267430"
 
 [[files]]
 file = "kubejs/startup_scripts/moreup_portal_links.js"
@@ -5028,6 +5140,11 @@ hash = "3ba8805f4eccb4b8673b036096d7e128ffe0b0b94b226ba11970ccaa82f82168"
 metafile = true
 
 [[files]]
+file = "mods/forgematica.pw.toml"
+hash = "9c6c4d612dd6fa8344f0e85affb0ddae860b63cc752c4063e53feec528ab4beb"
+metafile = true
+
+[[files]]
 file = "mods/forgotten-nunchakus.pw.toml"
 hash = "a23b6c6db6a43f3ba65c650f7b80c6e6904f14cd9f406b7c1346c09e8ce990fb"
 metafile = true
@@ -5478,6 +5595,11 @@ hash = "8ee3776430187fb4d69278e645e10fefb7fe7342caee0a5861479ce25956713a"
 metafile = true
 
 [[files]]
+file = "mods/mafglib.pw.toml"
+hash = "d5caad546975a92bb92dbf72f773457b4fcdc024f7569115d931bd6b6938efed"
+metafile = true
+
+[[files]]
 file = "mods/mantle.pw.toml"
 hash = "6164ce697ea02e49911afd5666dcb1d5f83ed0fff9b290def0a7a7c440c1c39b"
 metafile = true
@@ -5564,7 +5686,7 @@ metafile = true
 
 [[files]]
 file = "mods/moreup-core.pw.toml"
-hash = "878e8507741012cf6fe00574a33044e6316e5c544f977ae6b717de51af5736c6"
+hash = "4b98d2bbd928f7a825aa3eadd793f095f0b025ead5932019c5fa87b61bbd6fc2"
 metafile = true
 
 [[files]]
@@ -5958,11 +6080,6 @@ hash = "fde3d3b1607636100e382dce1bba80ab4608ebfa1ef888a37b86bc8c7dcbafe5"
 metafile = true
 
 [[files]]
-file = "mods/the-abyss-chapter-ii.pw.toml"
-hash = "822f11bcde41071d6bc0d38b8eedfd4478fc108ab2e10da131d6034d539d7a5c"
-metafile = true
-
-[[files]]
 file = "mods/the-lost-castle.pw.toml"
 hash = "706c7143eeba0cee6ca9f099dc8473f6ab428c499a370b34bb5278f871e1877b"
 metafile = true
@@ -5978,13 +6095,28 @@ hash = "4a51e5a0f11ba9b7599dcea129862829bfd028c57bf9997f9513b38defbc7e51"
 metafile = true
 
 [[files]]
+file = "mods/theabyss.pw.toml"
+hash = "9e15af4c5917bc69ab14ad9c8ec81ed9030418d715469d7f5d7b1d5b9a07dbb1"
+metafile = true
+
+[[files]]
 file = "mods/thermal-dynamics.pw.toml"
 hash = "280fc16d8cbed28aff6aef45470a22b55cd64394f87eb6f59ce640e70fa27399"
 metafile = true
 
 [[files]]
+file = "mods/thermal-endergy.pw.toml"
+hash = "78133e139665d8ce7f789db6b290cd0a9bcb1b50c84d148c8935740d88eeb780"
+metafile = true
+
+[[files]]
 file = "mods/thermal-expansion.pw.toml"
 hash = "1603a2d57a71762925e57c61ae45649bf6aab128295a31efec214b0676c79024"
+metafile = true
+
+[[files]]
+file = "mods/thermal-extra.pw.toml"
+hash = "7a264c389f7f0ce14d109061b7f4ff5927aab946f1e02b821012c54c02369609"
 metafile = true
 
 [[files]]
@@ -6000,6 +6132,11 @@ metafile = true
 [[files]]
 file = "mods/thermal-integration.pw.toml"
 hash = "ed869df5d51c4496840f3d5fb2c9d86bab6cf25f8b12eb7dda139aaa65b18d05"
+metafile = true
+
+[[files]]
+file = "mods/thermal-unlimited.pw.toml"
+hash = "cf512edfd7c3f08d219d01e3fa1d745f4c5a9b3ed05b838d5f1cfb2f2e7b60c9"
 metafile = true
 
 [[files]]
@@ -6184,7 +6321,7 @@ preserve = true
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.8.1.zip.txt"
-hash = "c12cdafdc0d7143ebf371be0bdff5659c2afd513f0f58e71cc53b4f1fbd36953"
+hash = "686ea99e8b0ea67ba0940c148b3cdebecca4568d758a7b60c59bad043c53db68"
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"

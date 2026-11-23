@@ -1,8 +1,8 @@
 name = "More Up Core"
-filename = "moreup-core-1.7.0.jar"
+filename = "moreup-core-1.7.2.jar"
 side = "both"
 
 [download]
-url = "https://raw.githubusercontent.com/gmagamea2-beep/moreup-pack/main/files/mods/moreup-core-1.7.0.jar"
+url = "https://raw.githubusercontent.com/gmagamea2-beep/moreup-pack/main/files/mods/moreup-core-1.7.2.jar"
 hash-format = "sha256"
-hash = "341c9055afe1d4c557f59b2b57cc99050a6667ac82dd3cc0da55a4d610f4e66c"
+hash = "f115ad860bdfa3530b5560348aa9be68074bcb956c75ac30840261298c58c807"

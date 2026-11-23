@@ -35,18 +35,14 @@
 
 ["Final Boss Special Abilities"]
 	#Makes the Castle Keeper summon the main Twilight Forest bosses
-	# More Up: 1.14.2 하수인 소환 끔 (2026-11-13 사용자 요청 "스폰하는 하수인들 없애줘")
 	"Summon Main Bosses" = false
 	#Makes the Castle Keeper summon the mini bosses from Twilight Forest bosses
-	# More Up: 1.14.2 하수인 소환 끔 (2026-11-13 사용자 요청 "스폰하는 하수인들 없애줘")
 	"Summon Mini Bosses" = false
 	#Makes the Castle Keeper summon harbinger cubes randomly when hit
-	# More Up: 1.14.2 하수인 소환 끔 (2026-11-13 사용자 요청 "스폰하는 하수인들 없애줘")
 	"Summon Harbinger Cubes" = false
 	#Sets the chance for a harbinger cube to be summoned when the castle keeper is hit (0-1)
 	"Harbinger Cube Spawn Chance" = 0.3
 	#Makes the Castle Keeper summon adherents randomly when hit
-	# More Up: 1.14.2 하수인 소환 끔 (2026-11-13 사용자 요청 "스폰하는 하수인들 없애줘")
 	"Summon Adherents" = false
 	#Sets the chance for an adherent to be summoned when the Castle Keeper is hit (0-1)
 	"Adherent Spawn Chance" = 0.3

@@ -78,6 +78,20 @@ global.MOREUP_DISABLED_ITEMS = [
         recipeIds: ['immersive_aircraft:rotary_cannon', 'immersive_aircraft:heavy_crossbow', 'immersive_aircraft:bomb_bay']
     },
     {
+        // 2026-11-21 Thermal Extra 추가 때 같은 규칙 적용 (사용자 요청 "커스텀 조합법에 맞게"). 도끼·곡괭이·망치·칼·낫 같은 도구는 그대로 둔다
+        // 검은 다른 조합법의 재료로 쓰이지 않는다 (jar 확인: 유도 제련기 재활용 태그 forge:tools/* 에만 들어 있음)
+        group: 'Thermal Extra',
+        reason: '테크 모드 무기 (검)',
+        items: [
+            'thermal_extra:signalum_sword', 'thermal_extra:lumium_sword', 'thermal_extra:enderium_sword', 'thermal_extra:soul_infused_sword',
+            'thermal_extra:twinite_sword', 'thermal_extra:shellite_sword', 'thermal_extra:dragonsteel_sword', 'thermal_extra:abyssal_sword'
+        ],
+        recipeIds: [
+            'thermal_extra:signalum_sword', 'thermal_extra:lumium_sword', 'thermal_extra:enderium_sword', 'thermal_extra:soul_infused_sword',
+            'thermal_extra:twinite_sword', 'thermal_extra:shellite_sword', 'thermal_extra:dragonsteel_sword', 'thermal_extra:abyssal_sword'
+        ]
+    },
+    {
         group: 'Create: Creative',
         reason: '사기 루트: 무한 아이템(상자), 무한 유체(유체 탱크), 무한 회전력(모터)',
         items: ['create:creative_crate', 'create:creative_fluid_tank', 'create:creative_motor'],

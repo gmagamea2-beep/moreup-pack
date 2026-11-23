@@ -166,7 +166,7 @@ ServerEvents.commandRegistry(event => {
     const { commands: Commands } = event
     event.register(Commands.literal('드래곤복구').requires(src => src.hasPermission(2)).executes(ctx => {
         let ok = moreupEdfStart(ctx.source.server, '관리자 명령')
-        ctx.source.sendSuccess(() => Text.translate(ok ? 'message.moreup.end_dragon_fix.started' : 'message.moreup.end_dragon_fix.busy'), true)
+        ctx.source.sendSuccess(Text.translate(ok ? 'message.moreup.end_dragon_fix.started' : 'message.moreup.end_dragon_fix.busy'), true)
         return ok ? 1 : 0
     }))
 })
