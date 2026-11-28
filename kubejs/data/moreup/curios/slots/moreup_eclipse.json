@@ -1,0 +1,10 @@
+{
+  "size": 3,
+  "operation": "SET",
+  "order": 300,
+  "icon": "moreup:slot/empty_moreup_eclipse_slot",
+  "add_cosmetic": false,
+  "use_native_gui": true,
+  "render_toggle": false,
+  "replace": false
+}

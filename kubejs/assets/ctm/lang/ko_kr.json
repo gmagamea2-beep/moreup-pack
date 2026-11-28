@@ -1,0 +1,9 @@
+{
+  "ctm.configuration.title": "연결 텍스처(CTM) 설정",
+  "ctm.configuration.section.ctm.toml.title": "연결 텍스처(CTM) 설정",
+  "ctm.configuration.section.ctm.toml": "연결 텍스처(CTM) 설정",
+  "configuration.ctm.disable": "연결 텍스처 끄기",
+  "configuration.ctm.disable.tooltip": "블록끼리 이어지는 텍스처를 완전히 끕니다",
+  "configuration.ctm.connect_inside": "안쪽 모서리도 잇기",
+  "configuration.ctm.connect_inside.tooltip": "연결 텍스처 블록의 안쪽 모서리를 이을지 정합니다 - https://imgur.com/eUywLZ4"
+}

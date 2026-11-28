@@ -1162,7 +1162,7 @@ hash = "1e52a6032e7959cb74aa356462b50f69c30332d29f347182c772f633eae6de4e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/593182E579CF4F4F.snbt"
-hash = "52932b367eaf4c2dfee92b61c8a1f3884a0b8f0dca6230d37c941e3ec3862728"
+hash = "8e2a2ddacbeb95a72eff53832108da4565be3b436f02c13b9af764e5f14336d6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chapter_1.snbt"
@@ -2102,7 +2102,7 @@ hash = "0d3c92ba50e31505475a5866dc81086230c3e3e683dc8ff2536b850f64ef9b54"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "874673cc33a122ee67b68ded4247de3b82b24f0007d803fefedeb5940a8e4fe9"
+hash = "11467227da9affa6fa0cc63d5b4470627c0a96f879be7c20cfcffe2009817b04"
 
 [[files]]
 file = "config/origins-common.toml"
@@ -2206,7 +2206,7 @@ hash = "56291af4bc3506692c79f5c0155c47cce8577d0aae6ed5930c9074d5cb9bc5c8"
 
 [[files]]
 file = "config/powah.json5"
-hash = "8ac9b03a900f3b13dd725147cfed456d5302616b4b1f0ddd8aefcca5e12ab1ce"
+hash = "ade96205e48d74d092d885eccf4539388bde78bb03a4df14b97b6ec0fd7a1a20"
 
 [[files]]
 file = "config/progressivebosses-common.toml"
@@ -2885,6 +2885,10 @@ file = "kubejs/assets/chefsdelight/lang/ko_kr.json"
 hash = "cdbd166caf7a0e8468c9d046cce959d943c9117ad0051075316cb2ec3f60274d"
 
 [[files]]
+file = "kubejs/assets/chisel/lang/ko_kr.json"
+hash = "69a2f8c3d6cffbadcdbb68c829deaeb5751d0e12ec19282f2a65480a6720a542"
+
+[[files]]
 file = "kubejs/assets/chloride/lang/ko_kr.json"
 hash = "b09f9216700db6525f12305fcce39b6c03a4309afb97dd11f555bf2607bc2aa1"
 
@@ -2967,6 +2971,10 @@ hash = "550120677857be274fa94433fbaffc08acedafc19432ef612069853049100886"
 [[files]]
 file = "kubejs/assets/cristellib/lang/ko_kr.json"
 hash = "714eab645cd54cbeb0df768877692367d3efd86d3c10ff59b4406d900887038d"
+
+[[files]]
+file = "kubejs/assets/ctm/lang/ko_kr.json"
+hash = "431e23fead3a43616c8d4d1ff19495f4ef9c85bf6161099a08864d7ae912474d"
 
 [[files]]
 file = "kubejs/assets/culturaldelights/lang/ko_kr.json"
@@ -3462,11 +3470,11 @@ hash = "585c40a9252b04a5d6213794865205660dad72cb27d19297ad3da703e2dfd35b"
 
 [[files]]
 file = "kubejs/assets/moreup/lang/en_us.json"
-hash = "565befee66fc4442e96c28c4f6205aa73bdf157641cbace0d330a9224648a017"
+hash = "05a88e7e7806cbb28cdb8df7b8c5cedaeea25e82766e2678d1e995918dd8d6e8"
 
 [[files]]
 file = "kubejs/assets/moreup/lang/ko_kr.json"
-hash = "dc6f7195efc70ce60b793c79dd29d282c848c00eae07378e1cefd4d00a419d05"
+hash = "07c3717311aa01e07f830c6127a12ef6650a8debeeb941e7f7c3ca3a6ab6ef78"
 
 [[files]]
 file = "kubejs/assets/moreup/models/item/dusk_bow.json"
@@ -3569,6 +3577,30 @@ file = "kubejs/assets/moreup/textures/item/dusk_sword.png"
 hash = "b78d94bfc54dd9c4c1fe8a76455067ed57048ab1a1c7cc28a967d21f535c1397"
 
 [[files]]
+file = "kubejs/assets/moreup/textures/item/eclipse_banner.png"
+hash = "d1cb29514bc9ada9221bf33f819f1838bca5704bba42dc72307b99280f41c19b"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/item/eclipse_brand.png"
+hash = "64366f630113e7188deb4c2521b6a6d275b4be42f3cab5b43f096298de2a1f7f"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/item/eclipse_chain.png"
+hash = "f3aa9b6cc3681b4b521554d3196853300736575fe4690fdc740c8f2b332f0621"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/item/eclipse_core.png"
+hash = "d6928be069a500c79e913eb56b37941621c5afa2ceccd75d061e2f968ed0198a"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/item/eclipse_mirror.png"
+hash = "a939240aaf0a48a0231f87fb0910ad677bce543806697ae2e1a2d62dcdccbaec"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/item/eclipse_ward.png"
+hash = "5f7c383ac2081f6b33eee2e851779244e267234738e4f9c83d06157a381ca1da"
+
+[[files]]
 file = "kubejs/assets/moreup/textures/item/fragment_depths.png"
 hash = "4e4fda42707732f15f9cd0fe852fd7bc1c6b6926d2bf90e4c4934e405bbd75ed"
 
@@ -3621,6 +3653,50 @@ file = "kubejs/assets/moreup/textures/item/more_up.png"
 hash = "2f6c28aef794785442ddbc359bc793e68487251ee347b257ff4e5aa3e57df869"
 
 [[files]]
+file = "kubejs/assets/moreup/textures/item/stellar_anklet.png"
+hash = "930f9fd33b8ef9f95360aa182585bb5eabfe5a217fd93c9cf445c6ce57dd22fd"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/item/stellar_belt.png"
+hash = "9b7b94f5864648a9c6cd5f9cb1ef8621c284b28270e894ebbd1c7bc6579cc2a8"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/item/stellar_boots.png"
+hash = "1ad502e6971e931bbda55a472b0b58741c32ab1e42ba5f07da5c5b5e19cc995f"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/item/stellar_charm.png"
+hash = "d34d3ef6ff1c54da84b66baac9677628ca467097b5e46f73e04163fac511d434"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/item/stellar_chestplate.png"
+hash = "9b05fd2b226ee633ec0865d8b962bb7318a88ee94b6c4eb6e4e1c6cdf806b3ff"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/item/stellar_gauntlet.png"
+hash = "34f22fe55932fcfbdb192d352ff3fc330b2b2bce5c4259c565b159e5f4ff20dc"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/item/stellar_helmet.png"
+hash = "fc316456b694f3ca4197b218cb34174fecb655bb6c0568c1e4e0bdabda24d4dc"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/item/stellar_leggings.png"
+hash = "7fe3bd456fade5299a390d4c318528c66b47a450a768f5b0497ba3160c564423"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/item/stellar_pendant.png"
+hash = "0d9aaaa15737793b6f025290df21ff7adc1b33573c5cb3b4d1f0c6d44eb712d6"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/item/stellar_ring.png"
+hash = "19e2688397e73fc6f413224da2c94420f030a0996e511e64d67ee7634bc764bc"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/item/stellar_shard.png"
+hash = "c438a8f2f519ba595f76eacacf82ea150e4ba411c62eaa46f20498380b10dff2"
+
+[[files]]
 file = "kubejs/assets/moreup/textures/item/world.png"
 hash = "93d48133716b53d1f3fdb821e0c5ea305a4d8471ee2d24efa03c49ca44e0061c"
 
@@ -3631,6 +3707,18 @@ hash = "e9bd32ffd3887e2cd2b5dd9c223b7b7ad7a4a7618c9903a1d1769228694c56eb"
 [[files]]
 file = "kubejs/assets/moreup/textures/models/armor/dusk_layer_2.png"
 hash = "1b6324ef99a64ee9bc1e6bd12c83dff73b26f5757f6eb8923e119deb8ef84c5e"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/models/armor/stellar_layer_1.png"
+hash = "ed7dd9c902637560d0245d95017ddc80958712781511d9fbab5436f9bee4b0c3"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/models/armor/stellar_layer_2.png"
+hash = "29ca579df2c80464663fc6eb4e4cc23636af35c443e62290f0679ea1ac013405"
+
+[[files]]
+file = "kubejs/assets/moreup/textures/slot/empty_moreup_eclipse_slot.png"
+hash = "1993b477fa18cd27fea6e274582a82d9839a3375c5a8d8a8b915615f08760ccd"
 
 [[files]]
 file = "kubejs/assets/moreup_modnames/lang/en_us.json"
@@ -4101,6 +4189,14 @@ file = "kubejs/data/moreup/advancements/world.json"
 hash = "4cfdb1b3d802c24da0f7387a0a94b2dcdaebd44b2b49a25e7bbc6967b50f2cf1"
 
 [[files]]
+file = "kubejs/data/moreup/curios/entities/moreup_eclipse.json"
+hash = "6476c3843281161e2304b66e5eb40913f14df3830c945176de1717ff2f592eff"
+
+[[files]]
+file = "kubejs/data/moreup/curios/slots/moreup_eclipse.json"
+hash = "92a1a7bf9060586c8b8b3396de5b5c1b19f90fc26125896f91370c7c9b8f6eb5"
+
+[[files]]
 file = "kubejs/data/moreup/damage_type/dusk_judgment.json"
 hash = "524c5e70a851be7c7914a3e4985f22ccd70c5c892e69fb235e7fd0753e13e965"
 
@@ -4193,6 +4289,10 @@ file = "kubejs/server_scripts/recipes/dusk_gear.js"
 hash = "e089cef47fe3e0a9af92a383898188e1f57a985cb0654fc6f7ed5dbaa28a536d"
 
 [[files]]
+file = "kubejs/server_scripts/recipes/eclipse_relics.js"
+hash = "a8a497e8cd3879779ce43c15f7476fe457b26f14cd79e91e881d314f588889e2"
+
+[[files]]
 file = "kubejs/server_scripts/recipes/endgame.js"
 hash = "d942c95f97a38d6132124acccc570e1dc26c96d3a7137f90ac18a060910ccec8"
 
@@ -4207,6 +4307,10 @@ hash = "b726d43ac04b8311a8b46697385d81110bc278d01dcedcc5237cfe08ff09f2db"
 [[files]]
 file = "kubejs/server_scripts/recipes/raid.js"
 hash = "bff43936c35733ddf5c3ba570a7a9880a2df81a07680ca50548bbfafbead07c5"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/stellar_armor.js"
+hash = "d33c1156490fe69662d1a68e8e922ecf7087eba42173bbb7ee895504048f79f9"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/tech_compat.js"
@@ -4274,7 +4378,7 @@ hash = "f2a14f1a39d62caf2cb71a65528bda0a87d69baac08e852e43e9d6e3630711f8"
 
 [[files]]
 file = "kubejs/server_scripts/systems/schematicannon_boost.js"
-hash = "4b894a0a94f6e83fe85c12c8b0d5a54140aa339005d470354598e87fdcec5378"
+hash = "4395b731c9e39586c5a070d90ccd20a51db0a7654ecb5eed0a1b060bf9cf12bb"
 
 [[files]]
 file = "kubejs/server_scripts/systems/server_update.js"
@@ -4301,8 +4405,16 @@ file = "kubejs/server_scripts/tags/dusk_gear.js"
 hash = "10bcdfa7ef9264b9b3ddfe9285d8ee4da421b7c8865e7b7abf670351a4ffacd6"
 
 [[files]]
+file = "kubejs/server_scripts/tags/eclipse_tags.js"
+hash = "5561f8cdf4c92284e17814c659169928facb403c65d0864297c469ddc36231e6"
+
+[[files]]
 file = "kubejs/server_scripts/tags/growth_tags.js"
 hash = "9e301994778723e304a6b96dcd72cb3955c3c2691be4e0673a503ccfdd341a9b"
+
+[[files]]
+file = "kubejs/server_scripts/tags/stellar_tags.js"
+hash = "07f0ec40ff9796cd0cca465cc254e922a384130ac952db626175eeb7d9afb9a1"
 
 [[files]]
 file = "kubejs/startup_scripts/moreup_armor_balance.js"
@@ -4329,6 +4441,10 @@ file = "kubejs/startup_scripts/moreup_dusk_gear.js"
 hash = "85b912cc38fd9ba468e98c4810b51ae9c57be0183da4f7243cecdbf21c18336c"
 
 [[files]]
+file = "kubejs/startup_scripts/moreup_eclipse_relics.js"
+hash = "c62579bf465b5f6aee3667144eea0c7f8fc66f1271f751ab01021dfaacb62f07"
+
+[[files]]
 file = "kubejs/startup_scripts/moreup_endgame_items.js"
 hash = "064e63e114fe9deb36f0ac9c16fd752bd0d75e2f5fd6b6fc2fd1a3591d16c914"
 
@@ -4339,6 +4455,14 @@ hash = "7eee0ed5d8f15184bddf6f9d0c192e3a7bf3ad2ff1e9370c40e89b7f3f267430"
 [[files]]
 file = "kubejs/startup_scripts/moreup_portal_links.js"
 hash = "b711c1a81c98f22cf89d28f192434960361534a893e69822d6852de2b14c44ce"
+
+[[files]]
+file = "kubejs/startup_scripts/moreup_stellar_armor.js"
+hash = "2351fdee9f340b7b536069bd76d2aa65088fe8f22dcdc10c006ebd65318745be"
+
+[[files]]
+file = "kubejs/startup_scripts/moreup_stellar_relics.js"
+hash = "59b000b9457946f63d96e2f3b91389f90fbafe70e773ca7473f6443727b8be6f"
 
 [[files]]
 file = "kubejs/startup_scripts/moreup_weapon_balance.js"
@@ -4680,6 +4804,11 @@ hash = "c280846e9a6599055814a024ad5b5212344a8c02a955d0e779cca7aa2244fd4f"
 metafile = true
 
 [[files]]
+file = "mods/chisel-modern.pw.toml"
+hash = "734cb36de0d2b4594b82f2d6b8dbb91cc6cdde25cffb07fbb3c53efbf3489d75"
+metafile = true
+
+[[files]]
 file = "mods/chloride.pw.toml"
 hash = "337c8f6674efac5b3dba90de9512a9da4eb57652345da950f6b1ebc85bd763a9"
 metafile = true
@@ -4852,6 +4981,11 @@ metafile = true
 [[files]]
 file = "mods/cristel-lib.pw.toml"
 hash = "6a62d8663df5fe33f18c8a0d3784a3aab183b252c620c45fc98e677a71b06cde"
+metafile = true
+
+[[files]]
+file = "mods/ctm.pw.toml"
+hash = "ff55f6dd98968c446e32885ec0eae66ee882071f8a4efbf1486e57590778b2eb"
 metafile = true
 
 [[files]]
@@ -6321,7 +6455,7 @@ preserve = true
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.8.1.zip.txt"
-hash = "686ea99e8b0ea67ba0940c148b3cdebecca4568d758a7b60c59bad043c53db68"
+hash = "db4ebfbe1c80439f1e4cbaba24fa426a16b1e3568f189af3f6cfe3ffa13a7609"
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"

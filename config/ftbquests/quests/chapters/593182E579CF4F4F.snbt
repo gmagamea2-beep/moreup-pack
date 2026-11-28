@@ -1165,6 +1165,3941 @@
 			y: 0.0d
 			icon: "forbidden_arcanus:eternal_stella"
 		}
+		{
+			dependencies: ["1ABD64E64BB87D87"]
+			description: ["&7모든 마법의 바탕은 &b마법 수정&7이에요. 넉넉히 모아 두세요."]
+			icon: "ebwizardry:magic_crystal"
+			id: "9362DA5CC13DA58A"
+			rewards: [
+				{
+					id: "499B9335ACA14F21"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 20"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "C6908D21AD17CC63"
+					team_reward: false
+					title: "&e★ 별빛 +20"
+					type: "command"
+				}
+				{
+					count: 2
+					id: "454D4360175DE63C"
+					item: "ebwizardry:mana_flask_small"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 32L
+					id: "3717E83BF2429704"
+					item: "ebwizardry:magic_crystal"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 마나의 결정 ]"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["9362DA5CC13DA58A"]
+			description: ["&7마법 수정에 재료를 섞어 &c불&7·&b얼음&7·&e폭풍&7·&a대지&7·&8사령&7·&f치유&7·&d신비 &7수정을 만드세요."]
+			icon: "ebwizardry:magic_crystal_fire"
+			id: "F6FADFA7E5C15B62"
+			rewards: [
+				{
+					id: "9C6976CA6EBEBBAA"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 30"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "FBF44C52C408BB20"
+					team_reward: false
+					title: "&e★ 별빛 +30"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "93EB7DFCC9095E2C"
+					item: "ebwizardry:magic_crystal_earth"
+					type: "item"
+				}
+				{
+					id: "81178585EE15665F"
+					item: "ebwizardry:magic_crystal_fire"
+					type: "item"
+				}
+				{
+					id: "E47480CD1C4DA0C7"
+					item: "ebwizardry:magic_crystal_healing"
+					type: "item"
+				}
+				{
+					id: "1E992E70AAE3D6F1"
+					item: "ebwizardry:magic_crystal_ice"
+					type: "item"
+				}
+				{
+					id: "E4B48AB163450B68"
+					item: "ebwizardry:magic_crystal_lightning"
+					type: "item"
+				}
+				{
+					id: "6EE7D26BD214F9AE"
+					item: "ebwizardry:magic_crystal_necromancy"
+					type: "item"
+				}
+				{
+					id: "A67E30EDEE4A3A47"
+					item: "ebwizardry:magic_crystal_sorcery"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 일곱 원소 ]"
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["9362DA5CC13DA58A"]
+			description: ["&7지팡이 마나를 바로 채워 주는 비상약이에요."]
+			icon: "ebwizardry:mana_flask_small"
+			id: "7E6DDCE7A7ACE732"
+			rewards: [
+				{
+					id: "35BC3463EA695687"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 25"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "97335AADFB4E5A1F"
+					team_reward: false
+					title: "&e★ 별빛 +25"
+					type: "command"
+				}
+				{
+					count: 16
+					id: "4A5EF339C005D1BF"
+					item: "ebwizardry:magic_crystal"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6A095690C6BF534F"
+					item: "ebwizardry:mana_flask_small"
+					type: "item"
+				}
+				{
+					id: "9199253B8CE83518"
+					item: "ebwizardry:mana_flask_medium"
+					type: "item"
+				}
+				{
+					id: "2F8B5C0522C23A4D"
+					item: "ebwizardry:mana_flask_large"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 마나 플라스크 ]"
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["F6FADFA7E5C15B62"]
+			description: ["&7마나 없이도 던질 수 있는 폭탄 네 종류예요."]
+			icon: "ebwizardry:firebomb"
+			id: "2C63888F28F00481"
+			rewards: [
+				{
+					id: "92F97CCBF1F82B22"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 20"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "29061C654529C736"
+					team_reward: false
+					title: "&e★ 별빛 +20"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "A9211F54DD843048"
+					item: "ebwizardry:firebomb"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "8B2C3C4370C0D3A7"
+					item: "ebwizardry:poison_bomb"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "DCA4F658DF02C758"
+					item: "ebwizardry:smoke_bomb"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "25605538FC7E473C"
+					item: "ebwizardry:spark_bomb"
+					type: "item"
+				}
+			]
+			title: "&c&l[ ✦ 투척 마법 ]"
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7E6DDCE7A7ACE732"]
+			description: ["&7비단은 마법사 옷의, 빈 두루마리는 주문 두루마리의 재료예요."]
+			icon: "ebwizardry:magic_silk"
+			id: "8F7B7676D015B0DC"
+			rewards: [
+				{
+					id: "43A91E0EA1A79C5E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 20"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "E636A41E59FB2824"
+					team_reward: false
+					title: "&e★ 별빛 +20"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "3930125C960EAB6D"
+					item: "ebwizardry:magic_silk"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7D74859EBF520C11"
+					item: "ebwizardry:blank_scroll"
+					type: "item"
+				}
+			]
+			title: "&f&l[ ✦ 마법 비단 ]"
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["F6FADFA7E5C15B62"]
+			description: ["&7원소 수정으로 지팡이에 속성을 입히세요. 같은 원소 주문이 더 강해져요."]
+			icon: "ebwizardry:wand_novice_fire"
+			id: "8A119B9E16BC1732"
+			rewards: [
+				{
+					id: "5C3D364240CCDAB0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 25"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "3DE53CBE4D95761D"
+					team_reward: false
+					title: "&e★ 별빛 +25"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "A769200C52F888BA"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(ebwizardry:wand_novice_earth)item(ebwizardry:wand_novice_fire)item(ebwizardry:wand_novice_healing)item(ebwizardry:wand_novice_ice)item(ebwizardry:wand_novice_lightning)item(ebwizardry:wand_novice_necromancy)item(ebwizardry:wand_novice_sorcery))"
+						}
+					}
+					title: "아무 원소의 마법 지팡이"
+					type: "item"
+				}
+			]
+			title: "&c&l[ ✦ 원소의 지팡이 ]"
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["F6FADFA7E5C15B62"]
+			description: ["&7받침대에 원소 수정을 꽂아 &d주입의 재단&7 의식을 준비해요."]
+			icon: "ebwizardry:receptacle"
+			id: "609E467ADA679F81"
+			rewards: [
+				{
+					id: "9D711D8E65612807"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 30"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "DE5A90F6A4DFE13C"
+					team_reward: false
+					title: "&e★ 별빛 +30"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "6719BE919A62B80D"
+					item: "ebwizardry:receptacle"
+					type: "item"
+				}
+				{
+					id: "4EA578A6B5AE2D8A"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(ebwizardry:earth_runestone)item(ebwizardry:fire_runestone)item(ebwizardry:healing_runestone)item(ebwizardry:ice_runestone)item(ebwizardry:lightning_runestone)item(ebwizardry:necromancy_runestone)item(ebwizardry:sorcery_runestone))"
+						}
+					}
+					title: "아무 원소의 룬스톤"
+					type: "item"
+				}
+			]
+			title: "&7&l[ ✦ 원소의 받침대 ]"
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["609E467ADA679F81"]
+			description: ["&7마법 구조물에서 &d주입의 재단&7을 찾아 가져오세요.", "&7원소 장비와 신화의 비전 고서가 여기서 만들어져요."]
+			icon: "ebwizardry:imbuement_altar"
+			id: "BC67BA94637D6EFA"
+			rewards: [
+				{
+					id: "3FAE0F1443D57FFB"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 50"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "CFEE5C6A63D7E4B0"
+					team_reward: false
+					title: "&e★ 별빛 +50"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "9F41CAA2F503663D"
+					item: "ebwizardry:imbuement_altar"
+					type: "item"
+				}
+			]
+			title: "&d&l[ ✦ 주입의 재단 ]"
+			x: -8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["BC67BA94637D6EFA"]
+			description: ["&7주입의 재단에서 마법사 옷에 원소를 입히세요."]
+			icon: "ebwizardry:wizard_hat_fire"
+			id: "FAB36728A78BEB7E"
+			rewards: [
+				{
+					id: "BA9FCA5416FF0052"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 50"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "DCE0D0CE2DE264CF"
+					team_reward: false
+					title: "&e★ 별빛 +50"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "3A3EEE8AE9826776"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(ebwizardry:wizard_hat_earth)item(ebwizardry:wizard_hat_fire)item(ebwizardry:wizard_hat_healing)item(ebwizardry:wizard_hat_ice)item(ebwizardry:wizard_hat_lightning)item(ebwizardry:wizard_hat_necromancy)item(ebwizardry:wizard_hat_sorcery)item(ebwizardry:wizard_robe_earth)item(ebwizardry:wizard_robe_fire)item(ebwizardry:wizard_robe_healing)item(ebwizardry:wizard_robe_ice)item(ebwizardry:wizard_robe_lightning)item(ebwizardry:wizard_robe_necromancy)item(ebwizardry:wizard_robe_sorcery)item(ebwizardry:wizard_leggings_earth)item(ebwizardry:wizard_leggings_fire)item(ebwizardry:wizard_leggings_healing)item(ebwizardry:wizard_leggings_ice)item(ebwizardry:wizard_leggings_lightning)item(ebwizardry:wizard_leggings_necromancy)item(ebwizardry:wizard_leggings_sorcery)item(ebwizardry:wizard_boots_earth)item(ebwizardry:wizard_boots_fire)item(ebwizardry:wizard_boots_healing)item(ebwizardry:wizard_boots_ice)item(ebwizardry:wizard_boots_lightning)item(ebwizardry:wizard_boots_necromancy)item(ebwizardry:wizard_boots_sorcery))"
+						}
+					}
+					title: "원소 마법사 장비 4개"
+					type: "item"
+				}
+			]
+			title: "&d&l[ ✦ 원소 마법사 ]"
+			x: -10.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["FAB36728A78BEB7E"]
+			description: ["&7마나 효율에 특화된 학자 장비예요. 강화 재료는 아케인 작업대에서 써요."]
+			icon: "ebwizardry:sage_hat"
+			id: "19D5269512E74F7B"
+			rewards: [
+				{
+					id: "2A5FD50A1E567AC9"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 75"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "C70382F827AFFC00"
+					team_reward: false
+					title: "&e★ 별빛 +75"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "B3617B70AC9E918F"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(ebwizardry:sage_hat)item(ebwizardry:sage_robe)item(ebwizardry:sage_leggings)item(ebwizardry:sage_boots)item(ebwizardry:sage_hat_earth)item(ebwizardry:sage_hat_fire)item(ebwizardry:sage_hat_healing)item(ebwizardry:sage_hat_ice)item(ebwizardry:sage_hat_lightning)item(ebwizardry:sage_hat_necromancy)item(ebwizardry:sage_hat_sorcery)item(ebwizardry:sage_robe_earth)item(ebwizardry:sage_robe_fire)item(ebwizardry:sage_robe_healing)item(ebwizardry:sage_robe_ice)item(ebwizardry:sage_robe_lightning)item(ebwizardry:sage_robe_necromancy)item(ebwizardry:sage_robe_sorcery)item(ebwizardry:sage_leggings_earth)item(ebwizardry:sage_leggings_fire)item(ebwizardry:sage_leggings_healing)item(ebwizardry:sage_leggings_ice)item(ebwizardry:sage_leggings_lightning)item(ebwizardry:sage_leggings_necromancy)item(ebwizardry:sage_leggings_sorcery)item(ebwizardry:sage_boots_earth)item(ebwizardry:sage_boots_fire)item(ebwizardry:sage_boots_healing)item(ebwizardry:sage_boots_ice)item(ebwizardry:sage_boots_lightning)item(ebwizardry:sage_boots_necromancy)item(ebwizardry:sage_boots_sorcery))"
+						}
+					}
+					title: "학자 장비 4개"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 학자의 법복 ]"
+			x: -12.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["FAB36728A78BEB7E"]
+			description: ["&7주문 위력에 특화된 주술사 장비예요."]
+			icon: "ebwizardry:warlock_hood"
+			id: "A712755F6CACE4D5"
+			rewards: [
+				{
+					id: "6B637D5FE0888A2E"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 75"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "17D50929B16E800D"
+					team_reward: false
+					title: "&e★ 별빛 +75"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "19D6C6D86545069B"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(ebwizardry:warlock_hood)item(ebwizardry:warlock_robe)item(ebwizardry:warlock_leggings)item(ebwizardry:warlock_boots)item(ebwizardry:warlock_hood_earth)item(ebwizardry:warlock_hood_fire)item(ebwizardry:warlock_hood_healing)item(ebwizardry:warlock_hood_ice)item(ebwizardry:warlock_hood_lightning)item(ebwizardry:warlock_hood_necromancy)item(ebwizardry:warlock_hood_sorcery)item(ebwizardry:warlock_robe_earth)item(ebwizardry:warlock_robe_fire)item(ebwizardry:warlock_robe_healing)item(ebwizardry:warlock_robe_ice)item(ebwizardry:warlock_robe_lightning)item(ebwizardry:warlock_robe_necromancy)item(ebwizardry:warlock_robe_sorcery)item(ebwizardry:warlock_leggings_earth)item(ebwizardry:warlock_leggings_fire)item(ebwizardry:warlock_leggings_healing)item(ebwizardry:warlock_leggings_ice)item(ebwizardry:warlock_leggings_lightning)item(ebwizardry:warlock_leggings_necromancy)item(ebwizardry:warlock_leggings_sorcery)item(ebwizardry:warlock_boots_earth)item(ebwizardry:warlock_boots_fire)item(ebwizardry:warlock_boots_healing)item(ebwizardry:warlock_boots_ice)item(ebwizardry:warlock_boots_lightning)item(ebwizardry:warlock_boots_necromancy)item(ebwizardry:warlock_boots_sorcery))"
+						}
+					}
+					title: "주술사 장비 4개"
+					type: "item"
+				}
+			]
+			title: "&8&l[ ✦ 주술사의 법복 ]"
+			x: -12.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["FAB36728A78BEB7E"]
+			description: ["&7근접전과 마법을 함께 쓰는 전투법사 장비예요."]
+			icon: "ebwizardry:battlemage_helmet"
+			id: "BA2DDE83458BFED0"
+			rewards: [
+				{
+					id: "A1022EA8B99BBE8D"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 75"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "32C62340BF7E829B"
+					team_reward: false
+					title: "&e★ 별빛 +75"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "D34D0C19F904465A"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(ebwizardry:battlemage_helmet)item(ebwizardry:battlemage_chestplate)item(ebwizardry:battlemage_leggings)item(ebwizardry:battlemage_boots)item(ebwizardry:battlemage_helmet_earth)item(ebwizardry:battlemage_helmet_fire)item(ebwizardry:battlemage_helmet_healing)item(ebwizardry:battlemage_helmet_ice)item(ebwizardry:battlemage_helmet_lightning)item(ebwizardry:battlemage_helmet_necromancy)item(ebwizardry:battlemage_helmet_sorcery)item(ebwizardry:battlemage_chestplate_earth)item(ebwizardry:battlemage_chestplate_fire)item(ebwizardry:battlemage_chestplate_healing)item(ebwizardry:battlemage_chestplate_ice)item(ebwizardry:battlemage_chestplate_lightning)item(ebwizardry:battlemage_chestplate_necromancy)item(ebwizardry:battlemage_chestplate_sorcery)item(ebwizardry:battlemage_leggings_earth)item(ebwizardry:battlemage_leggings_fire)item(ebwizardry:battlemage_leggings_healing)item(ebwizardry:battlemage_leggings_ice)item(ebwizardry:battlemage_leggings_lightning)item(ebwizardry:battlemage_leggings_necromancy)item(ebwizardry:battlemage_leggings_sorcery)item(ebwizardry:battlemage_boots_earth)item(ebwizardry:battlemage_boots_fire)item(ebwizardry:battlemage_boots_healing)item(ebwizardry:battlemage_boots_ice)item(ebwizardry:battlemage_boots_lightning)item(ebwizardry:battlemage_boots_necromancy)item(ebwizardry:battlemage_boots_sorcery))"
+						}
+					}
+					title: "전투법사 장비 4개"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 전투법사의 갑주 ]"
+			x: -12.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["19D5269512E74F7B", "A712755F6CACE4D5", "BA2DDE83458BFED0"]
+			description: ["&7세 가지 법복을 모두 손에 넣은 마법사는 드물어요."]
+			icon: "ebwizardry:resplendent_thread"
+			id: "AC8EFE121C5989F1"
+			optional: true
+			rewards: [
+				{
+					id: "372E4047865B02CA"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 125"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "A0EE5DE072A43872"
+					team_reward: false
+					title: "&e★ 별빛 +125"
+					type: "command"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "BD858790DE8EF717"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(ebwizardry:sage_hat)item(ebwizardry:sage_robe)item(ebwizardry:sage_leggings)item(ebwizardry:sage_boots)item(ebwizardry:sage_hat_earth)item(ebwizardry:sage_hat_fire)item(ebwizardry:sage_hat_healing)item(ebwizardry:sage_hat_ice)item(ebwizardry:sage_hat_lightning)item(ebwizardry:sage_hat_necromancy)item(ebwizardry:sage_hat_sorcery)item(ebwizardry:sage_robe_earth)item(ebwizardry:sage_robe_fire)item(ebwizardry:sage_robe_healing)item(ebwizardry:sage_robe_ice)item(ebwizardry:sage_robe_lightning)item(ebwizardry:sage_robe_necromancy)item(ebwizardry:sage_robe_sorcery)item(ebwizardry:sage_leggings_earth)item(ebwizardry:sage_leggings_fire)item(ebwizardry:sage_leggings_healing)item(ebwizardry:sage_leggings_ice)item(ebwizardry:sage_leggings_lightning)item(ebwizardry:sage_leggings_necromancy)item(ebwizardry:sage_leggings_sorcery)item(ebwizardry:sage_boots_earth)item(ebwizardry:sage_boots_fire)item(ebwizardry:sage_boots_healing)item(ebwizardry:sage_boots_ice)item(ebwizardry:sage_boots_lightning)item(ebwizardry:sage_boots_necromancy)item(ebwizardry:sage_boots_sorcery))"
+						}
+					}
+					title: "학자 장비"
+					type: "item"
+				}
+				{
+					id: "5CB93DF4DDAE503B"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(ebwizardry:warlock_hood)item(ebwizardry:warlock_robe)item(ebwizardry:warlock_leggings)item(ebwizardry:warlock_boots)item(ebwizardry:warlock_hood_earth)item(ebwizardry:warlock_hood_fire)item(ebwizardry:warlock_hood_healing)item(ebwizardry:warlock_hood_ice)item(ebwizardry:warlock_hood_lightning)item(ebwizardry:warlock_hood_necromancy)item(ebwizardry:warlock_hood_sorcery)item(ebwizardry:warlock_robe_earth)item(ebwizardry:warlock_robe_fire)item(ebwizardry:warlock_robe_healing)item(ebwizardry:warlock_robe_ice)item(ebwizardry:warlock_robe_lightning)item(ebwizardry:warlock_robe_necromancy)item(ebwizardry:warlock_robe_sorcery)item(ebwizardry:warlock_leggings_earth)item(ebwizardry:warlock_leggings_fire)item(ebwizardry:warlock_leggings_healing)item(ebwizardry:warlock_leggings_ice)item(ebwizardry:warlock_leggings_lightning)item(ebwizardry:warlock_leggings_necromancy)item(ebwizardry:warlock_leggings_sorcery)item(ebwizardry:warlock_boots_earth)item(ebwizardry:warlock_boots_fire)item(ebwizardry:warlock_boots_healing)item(ebwizardry:warlock_boots_ice)item(ebwizardry:warlock_boots_lightning)item(ebwizardry:warlock_boots_necromancy)item(ebwizardry:warlock_boots_sorcery))"
+						}
+					}
+					title: "주술사 장비"
+					type: "item"
+				}
+				{
+					id: "1C5732062BA210D8"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(ebwizardry:battlemage_helmet)item(ebwizardry:battlemage_chestplate)item(ebwizardry:battlemage_leggings)item(ebwizardry:battlemage_boots)item(ebwizardry:battlemage_helmet_earth)item(ebwizardry:battlemage_helmet_fire)item(ebwizardry:battlemage_helmet_healing)item(ebwizardry:battlemage_helmet_ice)item(ebwizardry:battlemage_helmet_lightning)item(ebwizardry:battlemage_helmet_necromancy)item(ebwizardry:battlemage_helmet_sorcery)item(ebwizardry:battlemage_chestplate_earth)item(ebwizardry:battlemage_chestplate_fire)item(ebwizardry:battlemage_chestplate_healing)item(ebwizardry:battlemage_chestplate_ice)item(ebwizardry:battlemage_chestplate_lightning)item(ebwizardry:battlemage_chestplate_necromancy)item(ebwizardry:battlemage_chestplate_sorcery)item(ebwizardry:battlemage_leggings_earth)item(ebwizardry:battlemage_leggings_fire)item(ebwizardry:battlemage_leggings_healing)item(ebwizardry:battlemage_leggings_ice)item(ebwizardry:battlemage_leggings_lightning)item(ebwizardry:battlemage_leggings_necromancy)item(ebwizardry:battlemage_leggings_sorcery)item(ebwizardry:battlemage_boots_earth)item(ebwizardry:battlemage_boots_fire)item(ebwizardry:battlemage_boots_healing)item(ebwizardry:battlemage_boots_ice)item(ebwizardry:battlemage_boots_lightning)item(ebwizardry:battlemage_boots_necromancy)item(ebwizardry:battlemage_boots_sorcery))"
+						}
+					}
+					title: "전투법사 장비"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 세 갈래 법복 ]"
+			x: -14.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["BC67BA94637D6EFA"]
+			description: ["&7잔존체를 쓰러뜨리면 원소별 &5허상 가루&7가 떨어져요."]
+			icon: "ebwizardry:remnant_spawn_egg"
+			id: "5796A670482C590E"
+			rewards: [
+				{
+					id: "A2442FFDB75044E1"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 40"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "D59248AF00E41968"
+					team_reward: false
+					title: "&e★ 별빛 +40"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					entity: "ebwizardry:remnant"
+					id: "7F096629071ED370"
+					title: "잔존체 5마리"
+					type: "kill"
+					value: 5L
+				}
+			]
+			title: "&5&l[ ⚔ 잔존체 퇴치 ]"
+			x: -8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5796A670482C590E"]
+			description: ["&7대지·불·얼음·신비 허상 가루는 &6신화의 비전 고서&7 재료예요."]
+			icon: "ebwizardry:spectral_dust_sorcery"
+			id: "A93258EF7777682C"
+			rewards: [
+				{
+					id: "84356B6C7C8BCE25"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 60"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "72AA291C213D2E45"
+					team_reward: false
+					title: "&e★ 별빛 +60"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "D7FB371954558A0D"
+					item: "ebwizardry:spectral_dust_earth"
+					type: "item"
+				}
+				{
+					id: "4D5AE17A8CEBB116"
+					item: "ebwizardry:spectral_dust_fire"
+					type: "item"
+				}
+				{
+					id: "FCECC0ED086628E9"
+					item: "ebwizardry:spectral_dust_ice"
+					type: "item"
+				}
+				{
+					id: "999424010C11F880"
+					item: "ebwizardry:spectral_dust_sorcery"
+					type: "item"
+				}
+			]
+			title: "&5&l[ ✦ 허상 가루 ]"
+			x: -10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["70FDEBAEFFCB8748"]
+			description: ["&7아케인 작업대에서 지팡이에 &b견습 아르카나의 서&7를 써서 등급을 올리세요."]
+			icon: "ebwizardry:wand_apprentice"
+			id: "45AC16B9C20DBC21"
+			rewards: [
+				{
+					id: "72E6D4AA3BB1FFD0"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 30"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "B1C36695C55B578E"
+					team_reward: false
+					title: "&e★ 별빛 +30"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "62F7FF22BA95822F"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(ebwizardry:wand_apprentice)item(ebwizardry:wand_apprentice_earth)item(ebwizardry:wand_apprentice_fire)item(ebwizardry:wand_apprentice_healing)item(ebwizardry:wand_apprentice_ice)item(ebwizardry:wand_apprentice_lightning)item(ebwizardry:wand_apprentice_necromancy)item(ebwizardry:wand_apprentice_sorcery))"
+						}
+					}
+					title: "견습 등급 지팡이"
+					type: "item"
+				}
+			]
+			title: "&a&l[ ✦ 견습 지팡이 ]"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["45AC16B9C20DBC21"]
+			description: ["&7숙련 아르카나의 서로 한 등급 더 올리세요."]
+			icon: "ebwizardry:wand_advanced"
+			id: "789C1AF40CE8FCC9"
+			rewards: [
+				{
+					id: "6F923752A9BA323D"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 50"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "2389EA61F99CB86D"
+					team_reward: false
+					title: "&e★ 별빛 +50"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "C748B5FB6BE400CA"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(ebwizardry:wand_advanced)item(ebwizardry:wand_advanced_earth)item(ebwizardry:wand_advanced_fire)item(ebwizardry:wand_advanced_healing)item(ebwizardry:wand_advanced_ice)item(ebwizardry:wand_advanced_lightning)item(ebwizardry:wand_advanced_necromancy)item(ebwizardry:wand_advanced_sorcery))"
+						}
+					}
+					title: "숙련 등급 지팡이"
+					type: "item"
+				}
+			]
+			title: "&a&l[ ✦ 숙련 지팡이 ]"
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["789C1AF40CE8FCC9"]
+			description: ["&7대가 아르카나의 서로 지팡이를 완성하세요."]
+			icon: "ebwizardry:wand_master"
+			id: "DD2EE150D2840277"
+			rewards: [
+				{
+					id: "3AA3B80A42CDBF88"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 100"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "69D27A4064A9D9E2"
+					team_reward: false
+					title: "&e★ 별빛 +100"
+					type: "command"
+				}
+				{
+					id: "1D0FF7FD60BC3961"
+					item: "ebwizardry:magic_crystal_grand"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "C8E6C223C176C6E2"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(ebwizardry:wand_master)item(ebwizardry:wand_master_earth)item(ebwizardry:wand_master_fire)item(ebwizardry:wand_master_healing)item(ebwizardry:wand_master_ice)item(ebwizardry:wand_master_lightning)item(ebwizardry:wand_master_necromancy)item(ebwizardry:wand_master_sorcery))"
+						}
+					}
+					title: "대가 등급 지팡이"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 대가의 지팡이 ]"
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["45AC16B9C20DBC21"]
+			description: ["&7던전 상자에서 나오는 강화 부품을 아케인 작업대에서 지팡이에 붙이세요."]
+			icon: "ebwizardry:storage_upgrade"
+			id: "90B401A6C1CC0AFF"
+			rewards: [
+				{
+					id: "14BF45919DB5431B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 30"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "5A9D8212CD7095D8"
+					team_reward: false
+					title: "&e★ 별빛 +30"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "8E2841CFAE08E756"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(ebwizardry:storage_upgrade)item(ebwizardry:condenser_upgrade)item(ebwizardry:cooldown_upgrade)item(ebwizardry:duration_upgrade)item(ebwizardry:range_upgrade)item(ebwizardry:blast_upgrade)item(ebwizardry:attunement_upgrade)item(ebwizardry:melee_upgrade)item(ebwizardry:siphon_upgrade))"
+						}
+					}
+					title: "아무 지팡이 강화 부품"
+					type: "item"
+				}
+			]
+			title: "&a&l[ ✦ 지팡이 강화 ]"
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["90B401A6C1CC0AFF"]
+			description: ["&7아홉 가지 강화 부품을 모두 모으세요."]
+			icon: "ebwizardry:attunement_upgrade"
+			id: "3C3AE353FB14628E"
+			optional: true
+			rewards: [
+				{
+					id: "63D5A5B51E6A2148"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 125"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "E6C639FA273F360A"
+					team_reward: false
+					title: "&e★ 별빛 +125"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "672542F7A5D9489B"
+					item: "ebwizardry:storage_upgrade"
+					type: "item"
+				}
+				{
+					id: "8D90EC86B2E71036"
+					item: "ebwizardry:condenser_upgrade"
+					type: "item"
+				}
+				{
+					id: "28845ACB5E18BE01"
+					item: "ebwizardry:cooldown_upgrade"
+					type: "item"
+				}
+				{
+					id: "8B90744192C4D439"
+					item: "ebwizardry:duration_upgrade"
+					type: "item"
+				}
+				{
+					id: "E95EF86C5620CA7C"
+					item: "ebwizardry:range_upgrade"
+					type: "item"
+				}
+				{
+					id: "92111FE388DF10AA"
+					item: "ebwizardry:blast_upgrade"
+					type: "item"
+				}
+				{
+					id: "E66B4898EBD65281"
+					item: "ebwizardry:attunement_upgrade"
+					type: "item"
+				}
+				{
+					id: "5A38629FDA7F3AE8"
+					item: "ebwizardry:melee_upgrade"
+					type: "item"
+				}
+				{
+					id: "ABD0ED3F7E1029EE"
+					item: "ebwizardry:siphon_upgrade"
+					type: "item"
+				}
+			]
+			title: "&a&l[ ✦ 강화 부품 수집가 ]"
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7E6DDCE7A7ACE732"]
+			description: ["&7마법 구조물과 상자에서 &d반지 유물&7을 찾아보세요."]
+			icon: "ebwizardry:ring_condensing"
+			id: "D419C7723226DB94"
+			rewards: [
+				{
+					id: "4A004FB6F865C093"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 40"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7E550720BCDA22D9"
+					team_reward: false
+					title: "&e★ 별빛 +40"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "48875902A3FF08C7"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(ebwizardry:ring_arcane_frost)item(ebwizardry:ring_battlemage)item(ebwizardry:ring_blockwrangler)item(ebwizardry:ring_combustion)item(ebwizardry:ring_condensing)item(ebwizardry:ring_conjurer)item(ebwizardry:ring_defender)item(ebwizardry:ring_disintegration)item(ebwizardry:ring_earth_biome)item(ebwizardry:ring_earth_melee)item(ebwizardry:ring_evoker)item(ebwizardry:ring_extraction)item(ebwizardry:ring_fire_biome)item(ebwizardry:ring_fire_melee)item(ebwizardry:ring_full_moon)item(ebwizardry:ring_hammer)item(ebwizardry:ring_ice_biome)item(ebwizardry:ring_ice_melee)item(ebwizardry:ring_interdiction)item(ebwizardry:ring_leeching)item(ebwizardry:ring_lightning_melee)item(ebwizardry:ring_mana_return)item(ebwizardry:ring_meteor)item(ebwizardry:ring_mind_control)item(ebwizardry:ring_necromancy_melee)item(ebwizardry:ring_paladin)item(ebwizardry:ring_poison)item(ebwizardry:ring_seeking)item(ebwizardry:ring_shattering)item(ebwizardry:ring_siphoning)item(ebwizardry:ring_soulbinding)item(ebwizardry:ring_storm)item(ebwizardry:ring_stormcloud))"
+						}
+					}
+					title: "아무 마법 반지"
+					type: "item"
+				}
+			]
+			title: "&d&l[ ✦ 마법 반지 ]"
+			x: -8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["D419C7723226DB94"]
+			description: ["&7목걸이 유물은 생존과 방어에 강해요."]
+			icon: "ebwizardry:amulet_warding"
+			id: "B9C8B9FFE46ED627"
+			rewards: [
+				{
+					id: "708AC839DFA37C18"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 40"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "CA2B9BE81524F643"
+					team_reward: false
+					title: "&e★ 별빛 +40"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "19634E5E0D33F58B"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(ebwizardry:amulet_absorption)item(ebwizardry:amulet_anchoring)item(ebwizardry:amulet_arcane_defence)item(ebwizardry:amulet_auto_shield)item(ebwizardry:amulet_banishing)item(ebwizardry:amulet_channeling)item(ebwizardry:amulet_fire_cloaking)item(ebwizardry:amulet_fire_protection)item(ebwizardry:amulet_frost_warding)item(ebwizardry:amulet_ice_immunity)item(ebwizardry:amulet_ice_protection)item(ebwizardry:amulet_lich)item(ebwizardry:amulet_potential)item(ebwizardry:amulet_recovery)item(ebwizardry:amulet_resurrection)item(ebwizardry:amulet_transience)item(ebwizardry:amulet_warding)item(ebwizardry:amulet_wisdom)item(ebwizardry:amulet_wither_immunity))"
+						}
+					}
+					title: "아무 마법 목걸이"
+					type: "item"
+				}
+			]
+			title: "&d&l[ ✦ 마법 목걸이 ]"
+			x: -10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["B9C8B9FFE46ED627"]
+			description: ["&7부적 유물은 이동·채집 같은 편의 효과가 많아요."]
+			icon: "ebwizardry:charm_flight"
+			id: "96F0DA847A2A3B87"
+			rewards: [
+				{
+					id: "4A81B3B27663404F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 40"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "E7BB5FA0D809403A"
+					team_reward: false
+					title: "&e★ 별빛 +40"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "A6708189493E656B"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(ebwizardry:charm_abseiling)item(ebwizardry:charm_auto_smelt)item(ebwizardry:charm_black_hole)item(ebwizardry:charm_experience_tome)item(ebwizardry:charm_feeding)item(ebwizardry:charm_flight)item(ebwizardry:charm_growth)item(ebwizardry:charm_haggler)item(ebwizardry:charm_hunger_casting)item(ebwizardry:charm_lava_walking)item(ebwizardry:charm_light)item(ebwizardry:charm_minion_health)item(ebwizardry:charm_minion_variants)item(ebwizardry:charm_mount_teleporting)item(ebwizardry:charm_move_speed)item(ebwizardry:charm_silk_touch)item(ebwizardry:charm_sixth_sense)item(ebwizardry:charm_spell_discovery)item(ebwizardry:charm_stop_time)item(ebwizardry:charm_storm)item(ebwizardry:charm_transportation)item(ebwizardry:charm_undead_helmets))"
+						}
+					}
+					title: "아무 마법 부적"
+					type: "item"
+				}
+			]
+			title: "&d&l[ ✦ 마법 부적 ]"
+			x: -12.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["96F0DA847A2A3B87"]
+			description: ["&7반지·목걸이·부적을 합쳐 10개 모으세요."]
+			icon: "ebwizardry:charm_spell_discovery"
+			id: "BBEEB6361D33BC6D"
+			optional: true
+			rewards: [
+				{
+					id: "1075F4B4B495A074"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 150"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "96D8132E630DB4C3"
+					team_reward: false
+					title: "&e★ 별빛 +150"
+					type: "command"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					count: 10L
+					id: "1AF63C7261A9DDE7"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(ebwizardry:ring_arcane_frost)item(ebwizardry:ring_battlemage)item(ebwizardry:ring_blockwrangler)item(ebwizardry:ring_combustion)item(ebwizardry:ring_condensing)item(ebwizardry:ring_conjurer)item(ebwizardry:ring_defender)item(ebwizardry:ring_disintegration)item(ebwizardry:ring_earth_biome)item(ebwizardry:ring_earth_melee)item(ebwizardry:ring_evoker)item(ebwizardry:ring_extraction)item(ebwizardry:ring_fire_biome)item(ebwizardry:ring_fire_melee)item(ebwizardry:ring_full_moon)item(ebwizardry:ring_hammer)item(ebwizardry:ring_ice_biome)item(ebwizardry:ring_ice_melee)item(ebwizardry:ring_interdiction)item(ebwizardry:ring_leeching)item(ebwizardry:ring_lightning_melee)item(ebwizardry:ring_mana_return)item(ebwizardry:ring_meteor)item(ebwizardry:ring_mind_control)item(ebwizardry:ring_necromancy_melee)item(ebwizardry:ring_paladin)item(ebwizardry:ring_poison)item(ebwizardry:ring_seeking)item(ebwizardry:ring_shattering)item(ebwizardry:ring_siphoning)item(ebwizardry:ring_soulbinding)item(ebwizardry:ring_storm)item(ebwizardry:ring_stormcloud)item(ebwizardry:amulet_absorption)item(ebwizardry:amulet_anchoring)item(ebwizardry:amulet_arcane_defence)item(ebwizardry:amulet_auto_shield)item(ebwizardry:amulet_banishing)item(ebwizardry:amulet_channeling)item(ebwizardry:amulet_fire_cloaking)item(ebwizardry:amulet_fire_protection)item(ebwizardry:amulet_frost_warding)item(ebwizardry:amulet_ice_immunity)item(ebwizardry:amulet_ice_protection)item(ebwizardry:amulet_lich)item(ebwizardry:amulet_potential)item(ebwizardry:amulet_recovery)item(ebwizardry:amulet_resurrection)item(ebwizardry:amulet_transience)item(ebwizardry:amulet_warding)item(ebwizardry:amulet_wisdom)item(ebwizardry:amulet_wither_immunity)item(ebwizardry:charm_abseiling)item(ebwizardry:charm_auto_smelt)item(ebwizardry:charm_black_hole)item(ebwizardry:charm_experience_tome)item(ebwizardry:charm_feeding)item(ebwizardry:charm_flight)item(ebwizardry:charm_growth)item(ebwizardry:charm_haggler)item(ebwizardry:charm_hunger_casting)item(ebwizardry:charm_lava_walking)item(ebwizardry:charm_light)item(ebwizardry:charm_minion_health)item(ebwizardry:charm_minion_variants)item(ebwizardry:charm_mount_teleporting)item(ebwizardry:charm_move_speed)item(ebwizardry:charm_silk_touch)item(ebwizardry:charm_sixth_sense)item(ebwizardry:charm_spell_discovery)item(ebwizardry:charm_stop_time)item(ebwizardry:charm_storm)item(ebwizardry:charm_transportation)item(ebwizardry:charm_undead_helmets))"
+						}
+					}
+					title: "마법 유물 10개"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 유물 수집가 ]"
+			x: -14.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["58FF37D40C4F0F54"]
+			description: ["&7사악한 마법사를 더 많이 쓰러뜨리세요."]
+			icon: "ebwizardry:evil_wizard_spawn_egg"
+			id: "525A56C9A30F4300"
+			rewards: [
+				{
+					id: "104CC5750E95ADB3"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 60"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "CE82D11AB53C47A4"
+					team_reward: false
+					title: "&e★ 별빛 +60"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					entity: "ebwizardry:evil_wizard"
+					id: "C1008B536CFF2E9A"
+					title: "사악한 마법사 15명"
+					type: "kill"
+					value: 15L
+				}
+			]
+			title: "&4&l[ ⚔ 마법사 사냥꾼 ]"
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2DA4D63F5CE69A2B"]
+			description: ["&7&e거대 마법 수정&7으로 만드는 양손 지팡이예요.", "&7왼손을 비워야 쓸 수 있지만 주문 위력과 마나 효율이 높아요."]
+			icon: "myth_wizardry:staff_novice"
+			id: "68E58909CCB2B416"
+			rewards: [
+				{
+					id: "367B748EE115E633"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 30"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "46CE981CCD284DA6"
+					team_reward: false
+					title: "&e★ 별빛 +30"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "EA02C6C592451C3F"
+					item: "myth_wizardry:staff_novice"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 견습생 양손 지팡이 ]"
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["68E58909CCB2B416"]
+			description: ["&7양손 지팡이도 일반 지팡이처럼 아르카나의 서로 등급을 올려요."]
+			icon: "myth_wizardry:staff_apprentice"
+			id: "84C4B877678537A3"
+			rewards: [
+				{
+					id: "CBFA2ADA49B25F90"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 40"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "49AD5FDBA88FCB8A"
+					team_reward: false
+					title: "&e★ 별빛 +40"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "9DF9CD2B510F5F4D"
+					item: "myth_wizardry:staff_apprentice"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 수습생 양손 지팡이 ]"
+			x: 2.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["84C4B877678537A3"]
+			description: ["&7한 등급 더."]
+			icon: "myth_wizardry:staff_advanced"
+			id: "FF53A46F5EAD703A"
+			rewards: [
+				{
+					id: "4E58F41178D93986"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 50"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "21C871C4D7D2FF7D"
+					team_reward: false
+					title: "&e★ 별빛 +50"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "AF30F08BC7EC7DEE"
+					item: "myth_wizardry:staff_advanced"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 고급 양손 지팡이 ]"
+			x: 4.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["FF53A46F5EAD703A"]
+			description: ["&7대가 등급의 양손 지팡이예요."]
+			icon: "myth_wizardry:staff_master"
+			id: "9514B7DDE2AD0478"
+			rewards: [
+				{
+					id: "51740940D4EF2AB6"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 75"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "18F3B53DF1E13DF1"
+					team_reward: false
+					title: "&e★ 별빛 +75"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "626513A2D6598C73"
+					item: "myth_wizardry:staff_master"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 달인 양손 지팡이 ]"
+			x: 6.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["9514B7DDE2AD0478", "6BF993863FBAA052"]
+			description: ["&7신화의 비전 고서로 양손 지팡이를 신화 등급까지 올리세요."]
+			icon: "myth_wizardry:staff_mythical"
+			id: "E179F773A6E0F3C0"
+			rewards: [
+				{
+					id: "925308363E3C1BCE"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 150"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "F55DF3FC9B16512E"
+					team_reward: false
+					title: "&e★ 별빛 +150"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "12EE2A7EA2869A4F"
+					item: "myth_wizardry:staff_mythical"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 신화의 양손 지팡이 ]"
+			x: 8.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["6BF993863FBAA052"]
+			description: ["&7신화 등급은 대가보다 위의 등급이에요. 마나 용량과 회복, 주문 위력이 모두 올라가요."]
+			icon: "myth_wizardry:wand_mythical"
+			id: "64B936976B4B76B0"
+			rewards: [
+				{
+					id: "98648841D5687ECC"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 150"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "1F0C23D4ABC8A524"
+					team_reward: false
+					title: "&e★ 별빛 +150"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "9EA6A4E4E3FFA978"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(myth_wizardry:wand_mythical)item(myth_wizardry:wand_mythical_earth)item(myth_wizardry:wand_mythical_fire)item(myth_wizardry:wand_mythical_healing)item(myth_wizardry:wand_mythical_ice)item(myth_wizardry:wand_mythical_lightning)item(myth_wizardry:wand_mythical_necromancy)item(myth_wizardry:wand_mythical_sorcery))"
+						}
+					}
+					title: "신화 등급 지팡이"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 신화의 지팡이 ]"
+			x: 6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6BF993863FBAA052"]
+			description: ["&7고대 도시와 엔드 시티 상자에서 드물게 나와요.", "&7쓰면 최대 마나가 심장에 정해진 값으로 바뀌어요."]
+			icon: "myth_wizardry:mage_heart"
+			id: "8322905089933837"
+			optional: true
+			rewards: [
+				{
+					id: "C173093D33B9A72B"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 75"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "D695AF0B8B255427"
+					team_reward: false
+					title: "&e★ 별빛 +75"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "5C84CCE8CAACACBD"
+					item: "myth_wizardry:mage_heart"
+					type: "item"
+				}
+			]
+			title: "&c&l[ ✦ 마법사의 심장 ]"
+			x: 8.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["E179F773A6E0F3C0", "64B936976B4B76B0"]
+			description: ["&6신화 등급 지팡이와 양손 지팡이를 모두 손에 넣었어요."]
+			icon: "myth_wizardry:arcane_tome_mythical"
+			id: "A398D022D4351DF4"
+			rewards: [
+				{
+					id: "A1F09F549E1C2C57"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 200"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "C2AC9FB828EDB566"
+					team_reward: false
+					title: "&e★ 별빛 +200"
+					type: "command"
+				}
+				{
+					count: 2
+					id: "4D2CE3ED159EE2D1"
+					item: "ebwizardry:magic_crystal_grand"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "9270D664D5CFFF79"
+					title: "신화의 경지에 올랐다"
+					type: "checkmark"
+				}
+			]
+			title: "&6&l[ ✦ 신화의 대마법사 ]"
+			x: 10.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["54F91F5F632F3120"]
+			description: ["&7수많은 반지의 바탕이 되는 철 반지예요."]
+			icon: "enigmaticlegacy:iron_ring"
+			id: "4372A2A784A67245"
+			rewards: [
+				{
+					id: "23233C9EE9CC8C81"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 20"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "DE2479DA828AB1AD"
+					team_reward: false
+					title: "&e★ 별빛 +20"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "B4EA88224C48FBD4"
+					item: "enigmaticlegacy:iron_ring"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 철 반지 ]"
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4372A2A784A67245"]
+			description: ["&7금으로 다듬은 반지예요."]
+			icon: "enigmaticlegacy:golden_ring"
+			id: "4C8B1EB44F1EACCF"
+			rewards: [
+				{
+					id: "CC63E9705B3F061D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 25"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "ECBEFBF62B51473F"
+					team_reward: false
+					title: "&e★ 별빛 +25"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "4CA1A77308A1F531"
+					item: "enigmaticlegacy:golden_ring"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 정교한 반지 ]"
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4C8B1EB44F1EACCF"]
+			description: ["&7주변 아이템을 끌어당겨요."]
+			icon: "enigmaticlegacy:magnet_ring"
+			id: "AC9130F4547C17D3"
+			rewards: [
+				{
+					id: "7D30C6EE9B9D5902"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 40"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "C1DBF6B76004CB13"
+					team_reward: false
+					title: "&e★ 별빛 +40"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "77D284D8F36007DD"
+					item: "enigmaticlegacy:magnet_ring"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 자력의 반지 ]"
+			x: 4.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["AC9130F4547C17D3"]
+			description: ["&7더 멀리서, 더 빠르게 끌어당겨요."]
+			icon: "enigmaticlegacy:super_magnet_ring"
+			id: "7E9BF77C6519A9D5"
+			rewards: [
+				{
+					id: "9070D1A81A40BD8E"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 60"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "DABA7D9434160937"
+					team_reward: false
+					title: "&e★ 별빛 +60"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "6EAB333F747921D0"
+					item: "enigmaticlegacy:super_magnet_ring"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 변위의 반지 ]"
+			x: 6.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4C8B1EB44F1EACCF"]
+			description: ["&7어디서든 엔더 상자를 열어요."]
+			icon: "enigmaticlegacy:ender_ring"
+			id: "CA3AB343AC333B68"
+			rewards: [
+				{
+					id: "6392E22D073A65A3"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 50"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "ED47FB48C9C5879E"
+					team_reward: false
+					title: "&e★ 별빛 +50"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "21887AC43EEB98A5"
+					item: "enigmaticlegacy:ender_ring"
+					type: "item"
+				}
+			]
+			title: "&5&l[ ✦ 엔더의 반지 ]"
+			x: 4.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["4372A2A784A67245"]
+			description: ["&7채굴에 도움이 되는 부적이에요."]
+			icon: "enigmaticlegacy:mining_charm"
+			id: "38D889D2B47A5C1D"
+			rewards: [
+				{
+					id: "F26F0D6D65744D76"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 50"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "5E8C6D21D2FE8528"
+					team_reward: false
+					title: "&e★ 별빛 +50"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "5209CFD3E5180838"
+					item: "enigmaticlegacy:mining_charm"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 보물 사냥꾼 ]"
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["4372A2A784A67245"]
+			description: ["&7괴물과의 싸움에 강해지는 문장이에요."]
+			icon: "enigmaticlegacy:monster_charm"
+			id: "6C2386E5CC86BA64"
+			rewards: [
+				{
+					id: "8454BF1BC2DA90F2"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 50"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "31F36CE5424CAC35"
+					team_reward: false
+					title: "&e★ 별빛 +50"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "5DA956DDD49D0172"
+					item: "enigmaticlegacy:monster_charm"
+					type: "item"
+				}
+			]
+			title: "&c&l[ ✦ 괴물 학살자 ]"
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6C2386E5CC86BA64"]
+			description: ["&7체력이 낮을수록 강해지는 문장이에요."]
+			icon: "enigmaticlegacy:berserk_charm"
+			id: "77DDE229DF88AE4D"
+			rewards: [
+				{
+					id: "188CA7BE8694C4CC"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 60"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "92C7B234FC15B635"
+					team_reward: false
+					title: "&e★ 별빛 +60"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "EC55065C2AFFA6B6"
+					item: "enigmaticlegacy:berserk_charm"
+					type: "item"
+				}
+			]
+			title: "&4&l[ ✦ 피로 물든 용맹 ]"
+			x: 4.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["77DDE229DF88AE4D"]
+			description: ["&7불가사의한 휘장이에요."]
+			icon: "enigmaticlegacy:insignia"
+			id: "EC925F09A227F039"
+			rewards: [
+				{
+					id: "5A8DB3A619080319"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 75"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "8B295A1F5E7959E0"
+					team_reward: false
+					title: "&e★ 별빛 +75"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "CC56AC960562F06A"
+					item: "enigmaticlegacy:insignia"
+					type: "item"
+				}
+			]
+			title: "&d&l[ ✦ 고혹적인 휘장 ]"
+			x: 6.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["38D889D2B47A5C1D"]
+			description: ["&7강력한 주문서들의 바탕이에요."]
+			icon: "enigmaticlegacy:thicc_scroll"
+			id: "C3DD75F6808578E6"
+			rewards: [
+				{
+					id: "8DA112282AD2A3E0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 20"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "AFC9571F3E7E8EED"
+					team_reward: false
+					title: "&e★ 별빛 +20"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "E0AC035295A27162"
+					item: "enigmaticlegacy:thicc_scroll"
+					type: "item"
+				}
+			]
+			title: "&f&l[ ✦ 빈 주문서 ]"
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["C3DD75F6808578E6"]
+			description: ["&7경험치를 저장하고 꺼내 쓰는 주문서예요."]
+			icon: "enigmaticlegacy:xp_scroll"
+			id: "AA0336D98B8C82F1"
+			rewards: [
+				{
+					id: "A811B9FD48AAC4DF"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 40"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "D503C2E76327783F"
+					team_reward: false
+					title: "&e★ 별빛 +40"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "9E184DCBED595782"
+					item: "enigmaticlegacy:xp_scroll"
+					type: "item"
+				}
+			]
+			title: "&a&l[ ✦ 영원한 지혜 ]"
+			x: 2.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["AA0336D98B8C82F1"]
+			description: ["&7죽어도 아이템을 지켜 주는 주문서예요."]
+			icon: "enigmaticlegacy:escape_scroll"
+			id: "BB262A934CE15C61"
+			rewards: [
+				{
+					id: "A54CDAE04CC932BC"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 50"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "F303C8C30F0A17E1"
+					team_reward: false
+					title: "&e★ 별빛 +50"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "E0547653322652F0"
+					item: "enigmaticlegacy:escape_scroll"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 사망귀환 ]"
+			x: 4.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["BB262A934CE15C61"]
+			description: ["&7하늘을 나는 힘을 주는 주문서예요."]
+			icon: "enigmaticlegacy:heaven_scroll"
+			id: "307A6FC42FD7B23A"
+			rewards: [
+				{
+					id: "BC28AA0016455608"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 100"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "3CD2826DB845382C"
+					team_reward: false
+					title: "&e★ 별빛 +100"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "E51536370786AB9A"
+					item: "enigmaticlegacy:heaven_scroll"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 천국의 선물 ]"
+			x: 6.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["307A6FC42FD7B23A"]
+			description: ["&7천국의 선물보다 한 단계 위의 주문서예요."]
+			icon: "enigmaticlegacy:fabulous_scroll"
+			id: "B183256EA16EC121"
+			rewards: [
+				{
+					id: "BAA5459571D98F50"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 150"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "ACFCC64C93FBF140"
+					team_reward: false
+					title: "&e★ 별빛 +150"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "F02BF750FFB47025"
+					item: "enigmaticlegacy:fabulous_scroll"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 창조주의 은혜 ]"
+			x: 8.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["AA0336D98B8C82F1"]
+			description: ["&7더 많은 전리품을 얻게 해 주는 조약이에요."]
+			icon: "enigmaticlegacy:avarice_scroll"
+			id: "7891DA33E83A9D40"
+			rewards: [
+				{
+					id: "5E21D9FBECACA6A9"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 50"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "2A3E0AB9A6DE32D1"
+					team_reward: false
+					title: "&e★ 별빛 +50"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "3305563D50CA7F0A"
+					item: "enigmaticlegacy:avarice_scroll"
+					type: "item"
+				}
+			]
+			title: "&2&l[ ✦ 무한한 탐욕 ]"
+			x: 2.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["39D414F6E1603DBC"]
+			description: ["&7에테리움 주괴로 채굴 도구를 만드세요."]
+			icon: "enigmaticlegacy:etherium_pickaxe"
+			id: "8F39AAA5729AD53C"
+			rewards: [
+				{
+					id: "29BD65368AD7BE5C"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 75"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "DE684666F9F7BE66"
+					team_reward: false
+					title: "&e★ 별빛 +75"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "94AF8BA264D7E95D"
+					item: "enigmaticlegacy:etherium_pickaxe"
+					type: "item"
+				}
+				{
+					id: "D57CC6A13E49706C"
+					item: "enigmaticlegacy:etherium_shovel"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 에테리움 도구 ]"
+			x: 13.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["8F39AAA5729AD53C"]
+			description: ["&7대검·전쟁도끼·낫, 에테리움 무기 세 자루예요."]
+			icon: "enigmaticlegacy:etherium_sword"
+			id: "ADF438F7B27C1C74"
+			rewards: [
+				{
+					id: "E243C38317BB6896"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 100"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "77EBD6E8C1F39CF3"
+					team_reward: false
+					title: "&e★ 별빛 +100"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "938661E91050120F"
+					item: "enigmaticlegacy:etherium_sword"
+					type: "item"
+				}
+				{
+					id: "38A2EF4A498D691D"
+					item: "enigmaticlegacy:etherium_axe"
+					type: "item"
+				}
+				{
+					id: "F7976A9330ACAE1D"
+					item: "enigmaticlegacy:etherium_scythe"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 에테리움 무장 ]"
+			x: 15.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["39D414F6E1603DBC"]
+			description: ["&7체력이 낮을 때 보호막을 펼치는 갑옷이에요."]
+			icon: "enigmaticlegacy:etherium_chestplate"
+			id: "E5A9F6B1A29709BF"
+			rewards: [
+				{
+					id: "DC497100668DF0ED"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 100"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "8368B97A550CFD4F"
+					team_reward: false
+					title: "&e★ 별빛 +100"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "F18E579009526BE8"
+					item: "enigmaticlegacy:etherium_helmet"
+					type: "item"
+				}
+				{
+					id: "40E9FA99ED46312D"
+					item: "enigmaticlegacy:etherium_chestplate"
+					type: "item"
+				}
+				{
+					id: "4763B4517D8D1255"
+					item: "enigmaticlegacy:etherium_leggings"
+					type: "item"
+				}
+				{
+					id: "C05150103B751373"
+					item: "enigmaticlegacy:etherium_boots"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 에테리움 갑옷 ]"
+			x: 13.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["8F39AAA5729AD53C"]
+			description: ["&7넓은 범위를 한 번에 캐는 만능 도구예요."]
+			icon: "enigmaticlegacy:astral_breaker"
+			id: "D27CB2382BEDDA16"
+			rewards: [
+				{
+					id: "EC9F7681605854DD"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 100"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "2FE75D27EB7BA62A"
+					team_reward: false
+					title: "&e★ 별빛 +100"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "C70148B39BA04599"
+					item: "enigmaticlegacy:astral_breaker"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 천상의 파괴자 ]"
+			x: 15.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["E5A9F6B1A29709BF"]
+			description: ["&7Enigmatic Legacy의 특별한 겉날개예요."]
+			icon: "enigmaticlegacy:enigmatic_elytra"
+			id: "F1A38D3268340C65"
+			rewards: [
+				{
+					id: "517118033891B2E4"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 150"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "6D092F5755E2C919"
+					team_reward: false
+					title: "&e★ 별빛 +150"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "F166598AC2300883"
+					item: "enigmaticlegacy:enigmatic_elytra"
+					type: "item"
+				}
+			]
+			title: "&5&l[ ✦ 장엄한 겉날개 ]"
+			x: 15.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["ADF438F7B27C1C74"]
+			description: ["&7에테리움의 힘을 응축한 핵이에요."]
+			icon: "enigmaticaddons:etherium_core"
+			id: "D00F7B11205FE2F7"
+			rewards: [
+				{
+					id: "FBBDEDB38F2E86F9"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 75"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "BD437619E729F2EE"
+					team_reward: false
+					title: "&e★ 별빛 +75"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "23BCC814E2CCF022"
+					item: "enigmaticaddons:etherium_core"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 에테리움 핵 ]"
+			x: 17.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["133C3BF0A3C07B5A"]
+			description: ["&7저주받은 자의 길에 있는 물건들이에요.", "&8일부는 일곱 저주의 반지를 낀 사람만 만들거나 쓸 수 있어요."]
+			icon: "enigmaticlegacy:cursed_stone"
+			id: "ACB70DD842762334"
+			rewards: [
+				{
+					id: "E35A606F55C506EF"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 40"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "473FA2C9A8212BE0"
+					team_reward: false
+					title: "&e★ 별빛 +40"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "6F2B4ECB2FB408DF"
+					item: "enigmaticlegacy:cursed_stone"
+					type: "item"
+				}
+			]
+			title: "&4&l[ ✦ 불경한 돌 ]"
+			x: 0.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["ACB70DD842762334"]
+			description: ["&7비틀린 차원의 거울이에요."]
+			icon: "enigmaticlegacy:twisted_mirror"
+			id: "B21B1C2E1F61A1BC"
+			rewards: [
+				{
+					id: "589194EF209C3AB6"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 50"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "D655A621B8388898"
+					team_reward: false
+					title: "&e★ 별빛 +50"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "B0245B8E9EC79476"
+					item: "enigmaticlegacy:twisted_mirror"
+					type: "item"
+				}
+			]
+			title: "&4&l[ ✦ 비틀린 거울 ]"
+			x: 2.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["ACB70DD842762334"]
+			description: ["&7쓰러뜨린 적의 머리를 거두는 도끼예요."]
+			icon: "enigmaticlegacy:forbidden_axe"
+			id: "6D9336C0F9C4B930"
+			rewards: [
+				{
+					id: "FC21C01B2CE1D99A"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 60"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "E68E313AD984D361"
+					team_reward: false
+					title: "&e★ 별빛 +60"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "A7F49956350AFFB8"
+					item: "enigmaticlegacy:forbidden_axe"
+					type: "item"
+				}
+			]
+			title: "&4&l[ ✦ 처형자의 도끼 ]"
+			x: 2.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["B21B1C2E1F61A1BC"]
+			description: ["&7지옥불로 단련한 방패예요."]
+			icon: "enigmaticlegacy:infernal_shield"
+			id: "3CEB08318744EE92"
+			rewards: [
+				{
+					id: "3CDE55B493DE332F"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 75"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "2F4231682E6AFDCF"
+					team_reward: false
+					title: "&e★ 별빛 +75"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "6802969E38C9E5F0"
+					item: "enigmaticlegacy:infernal_shield"
+					type: "item"
+				}
+			]
+			title: "&4&l[ ✦ 불타는 자부심 ]"
+			x: 4.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["6D9336C0F9C4B930"]
+			description: ["&7주변 몬스터를 다스리는 반지예요."]
+			icon: "enigmaticlegacy:desolation_ring"
+			id: "29CA4BB956E78EC7"
+			rewards: [
+				{
+					id: "8B42ABB4CA7256AF"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 75"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "4BE275B61BA90E58"
+					team_reward: false
+					title: "&e★ 별빛 +75"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "90FC18FF0A0346C0"
+					item: "enigmaticlegacy:desolation_ring"
+					type: "item"
+				}
+			]
+			title: "&4&l[ ✦ 적막함의 부담 ]"
+			x: 4.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["3CEB08318744EE92", "29CA4BB956E78EC7"]
+			description: ["&7저주를 옮겨 담는 책이에요."]
+			icon: "enigmaticlegacy:curse_transposer"
+			id: "B338AFD6B776A568"
+			rewards: [
+				{
+					id: "18F0492465FA5AC5"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 75"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7AC43B093F404CB5"
+					team_reward: false
+					title: "&e★ 별빛 +75"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "B1CEB22A8B202BF1"
+					item: "enigmaticlegacy:curse_transposer"
+					type: "item"
+				}
+			]
+			title: "&4&l[ ✦ 삼켜진 악성 ]"
+			x: 6.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["B338AFD6B776A568"]
+			description: ["&7엔드의 존재들에게 치명적인 검이에요."]
+			icon: "enigmaticlegacy:ender_slayer"
+			id: "4B68DBA7A2BB831D"
+			rewards: [
+				{
+					id: "12799362E8C274B2"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 100"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "BD2613EA35073995"
+					team_reward: false
+					title: "&e★ 별빛 +100"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "E45DEC579D7D99E5"
+					item: "enigmaticlegacy:ender_slayer"
+					type: "item"
+				}
+			]
+			title: "&5&l[ ✦ 엔더 학살자 ]"
+			x: 8.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["4B68DBA7A2BB831D"]
+			description: ["&7적을 먹어 치우며 강해지는 기묘한 무기예요."]
+			icon: "enigmaticlegacy:eldritch_pan"
+			id: "EA44BD0D405EB311"
+			rewards: [
+				{
+					id: "E0219956C6C6CFE7"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 150"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "765694169F52B3FD"
+					team_reward: false
+					title: "&e★ 별빛 +150"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "12F4CC750913F097"
+					item: "enigmaticlegacy:eldritch_pan"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 탐욕스러운 프라이팬 ]"
+			x: 10.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["29CA4BB956E78EC7"]
+			description: ["&7잃어버린 영혼의 위치를 가리켜요."]
+			icon: "enigmaticlegacy:soul_compass"
+			id: "84BE37C1DFE6C55B"
+			rewards: [
+				{
+					id: "C18ED6BAEDD0D73B"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 40"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "547BFFB16FC9C4FF"
+					team_reward: false
+					title: "&e★ 별빛 +40"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "67A337BF22931C93"
+					item: "enigmaticlegacy:soul_compass"
+					type: "item"
+				}
+			]
+			title: "&8&l[ ✦ 저주받은 자의 길잡이 ]"
+			x: 6.0d
+			y: 19.5d
+		}
+		{
+			description: ["&7Enigmatic Addons의 첫걸음이에요."]
+			icon: "enigmaticaddons:quartz_ring"
+			id: "670C1CD355555E31"
+			rewards: [
+				{
+					id: "A130927853C2AF75"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 25"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "44EF50E26B097C2A"
+					team_reward: false
+					title: "&e★ 별빛 +25"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "60247394EC98E74D"
+					item: "enigmaticaddons:quartz_ring"
+					type: "item"
+				}
+			]
+			title: "&f&l[ ✦ 마법 석영 반지 ]"
+			x: 19.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["670C1CD355555E31"]
+			description: ["&7마법 석영으로 만든 홀이에요."]
+			icon: "enigmaticaddons:quartz_scepter"
+			id: "F0D379D72F8CBEB2"
+			rewards: [
+				{
+					id: "FF8321E4D624C2F7"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 40"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "E8F53748851B40E3"
+					team_reward: false
+					title: "&e★ 별빛 +40"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "98C5144B32AFAD2E"
+					item: "enigmaticaddons:quartz_scepter"
+					type: "item"
+				}
+			]
+			title: "&f&l[ ✦ 마법 석영 홀 ]"
+			x: 21.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["670C1CD355555E31"]
+			description: ["&7모험에 도움이 되는 문장이에요."]
+			icon: "enigmaticaddons:adventure_charm"
+			id: "6F877CA98A42827F"
+			rewards: [
+				{
+					id: "A6DFE63C6B7DF0A1"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 40"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "F44F8BAC02CAE0C8"
+					team_reward: false
+					title: "&e★ 별빛 +40"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "A34B6C2188CDAA10"
+					item: "enigmaticaddons:adventure_charm"
+					type: "item"
+				}
+			]
+			title: "&a&l[ ✦ 모험가의 문장 ]"
+			x: 19.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6F877CA98A42827F"]
+			description: ["&7태양의 힘을 담은 부적이에요."]
+			icon: "enigmaticaddons:scorched_charm"
+			id: "A7F8022A4EEDEF2A"
+			rewards: [
+				{
+					id: "77CF2138AAAE0DBD"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 60"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "EA470E3CD4F7F641"
+					team_reward: false
+					title: "&e★ 별빛 +60"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "D34B6A0DDE8B7210"
+					item: "enigmaticaddons:scorched_charm"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 타오르는 태양 ]"
+			x: 21.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["F0D379D72F8CBEB2", "D00F7B11205FE2F7"]
+			description: ["&7별의 힘이 깃든 창이에요."]
+			icon: "enigmaticaddons:astral_spear"
+			id: "ADFF32F535DD8954"
+			rewards: [
+				{
+					id: "BAAC842D718B5096"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 75"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7293F3844726792C"
+					team_reward: false
+					title: "&e★ 별빛 +75"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "6899E11EAEEFA9A0"
+					item: "enigmaticaddons:astral_spear"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 별의 창 ]"
+			x: 23.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["ADFF32F535DD8954"]
+			description: ["&7신들의 피, 이코르로 만든 창이에요."]
+			icon: "enigmaticaddons:ichor_spear"
+			id: "396DFA336763DF9C"
+			rewards: [
+				{
+					id: "36B205497DF1BCA0"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 100"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "CB1F4BF1FAA85854"
+					team_reward: false
+					title: "&e★ 별빛 +100"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "90E433D3BDD53984"
+					item: "enigmaticaddons:ichor_spear"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 이코르 창 ]"
+			x: 25.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["396DFA336763DF9C"]
+			description: ["&7재앙을 부르는 대검이에요."]
+			icon: "enigmaticaddons:disaster_sword"
+			id: "E615DC020B7EF25E"
+			rewards: [
+				{
+					id: "AB2A67E25A0E0119"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 125"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "3FF8B9D6660A5734"
+					team_reward: false
+					title: "&e★ 별빛 +125"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "9520DCCCFE91A12E"
+					item: "enigmaticaddons:disaster_sword"
+					type: "item"
+				}
+			]
+			title: "&4&l[ ✦ 재앙의 대검 ]"
+			x: 27.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["E615DC020B7EF25E"]
+			description: ["&7드래곤의 숨결을 쏘는 활이에요."]
+			icon: "enigmaticaddons:dragon_bow"
+			id: "7F11EE19D49DCA71"
+			rewards: [
+				{
+					id: "710929FEB99C203C"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 125"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "B486419FFBCDB862"
+					team_reward: false
+					title: "&e★ 별빛 +125"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "47446E49D9866BBF"
+					item: "enigmaticaddons:dragon_bow"
+					type: "item"
+				}
+			]
+			title: "&5&l[ ✦ 드래곤 숨결 활 ]"
+			x: 29.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["F0D379D72F8CBEB2"]
+			description: ["&7차원 너머에 닿는 홀이에요."]
+			icon: "enigmaticaddons:extradimensional_scepter"
+			id: "391363081216B6DC"
+			rewards: [
+				{
+					id: "1C14A9268950C3B4"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 75"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "1D605C1E7A339AD9"
+					team_reward: false
+					title: "&e★ 별빛 +75"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "97C78F115716564B"
+					item: "enigmaticaddons:extradimensional_scepter"
+					type: "item"
+				}
+			]
+			title: "&d&l[ ✦ 이차원의 홀 ]"
+			x: 23.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["391363081216B6DC"]
+			description: ["&7티 없이 맑은 심장이에요."]
+			icon: "enigmaticaddons:pure_heart"
+			id: "76DCA866649B3809"
+			rewards: [
+				{
+					id: "A0FC39D0E4459062"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 100"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "363346BBEFA8E870"
+					team_reward: false
+					title: "&e★ 별빛 +100"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "35BC50230734EDD4"
+					item: "enigmaticaddons:pure_heart"
+					type: "item"
+				}
+			]
+			title: "&f&l[ ✦ 순수한 심장 ]"
+			x: 25.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["76DCA866649B3809"]
+			description: ["&7대지와 맺은 약속이에요."]
+			icon: "enigmaticaddons:earth_promise"
+			id: "F1C8046A3C6DD345"
+			rewards: [
+				{
+					id: "B4FE225F0A0991F0"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 100"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "4A68A9088A4C68B1"
+					team_reward: false
+					title: "&e★ 별빛 +100"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "BC03064587E629E7"
+					item: "enigmaticaddons:earth_promise"
+					type: "item"
+				}
+			]
+			title: "&2&l[ ✦ 대지의 약속 ]"
+			x: 27.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7F11EE19D49DCA71", "F1C8046A3C6DD345"]
+			description: ["&7Enigmatic Addons 최고의 겉날개예요."]
+			icon: "enigmaticaddons:chaos_elytra"
+			id: "7C77833F338FCAAB"
+			rewards: [
+				{
+					id: "C6153393A9C34AA9"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 200"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "AAFDD838A68F70B1"
+					team_reward: false
+					title: "&e★ 별빛 +200"
+					type: "command"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "C1DC51AD2796A95F"
+					item: "enigmaticaddons:chaos_elytra"
+					type: "item"
+				}
+			]
+			title: "&5&l[ ✦ 혼돈의 오만 ]"
+			x: 29.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6F877CA98A42827F"]
+			description: ["&7탐험을 돕는 두루마리예요."]
+			icon: "enigmaticaddons:explorer_scroll"
+			id: "A886904732DCE811"
+			rewards: [
+				{
+					id: "A98CAD658C61FF93"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 40"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "DD652F481D0632A1"
+					team_reward: false
+					title: "&e★ 별빛 +40"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "F2DDC956DEF2B1A7"
+					item: "enigmaticaddons:explorer_scroll"
+					type: "item"
+				}
+			]
+			title: "&a&l[ ✦ 탐험가의 두루마리 ]"
+			x: 19.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["A886904732DCE811"]
+			description: ["&7사냥을 돕는 두루마리예요."]
+			icon: "enigmaticaddons:hunter_scroll"
+			id: "E4631B553FDE05B4"
+			rewards: [
+				{
+					id: "64E157758D04852E"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 50"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "42394B5B165B6265"
+					team_reward: false
+					title: "&e★ 별빛 +50"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "6CDB4682172656FE"
+					item: "enigmaticaddons:hunter_scroll"
+					type: "item"
+				}
+			]
+			title: "&c&l[ ✦ 사냥꾼의 두루마리 ]"
+			x: 21.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["E4631B553FDE05B4"]
+			description: ["&7살아남는 힘을 주는 두루마리예요."]
+			icon: "enigmaticaddons:survivor_scroll"
+			id: "559C11D466F6D437"
+			rewards: [
+				{
+					id: "F38F2ADBFE13139A"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 50"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "7A2A2E8832605606"
+					team_reward: false
+					title: "&e★ 별빛 +50"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "A853C4C41421EA4E"
+					item: "enigmaticaddons:survivor_scroll"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 생존자의 두루마리 ]"
+			x: 23.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["559C11D466F6D437"]
+			description: ["&7천둥을 다루는 두루마리예요."]
+			icon: "enigmaticaddons:thunder_scroll"
+			id: "C86308A3429B6DEF"
+			rewards: [
+				{
+					id: "13AA0AC7B00FD39F"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 60"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "4E125E4DF282C9CF"
+					team_reward: false
+					title: "&e★ 별빛 +60"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "B202E68C163EB5EB"
+					item: "enigmaticaddons:thunder_scroll"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 천둥 포옹 ]"
+			x: 25.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["C86308A3429B6DEF"]
+			description: ["&7밤의 힘을 빌리는 서약이에요."]
+			icon: "enigmaticaddons:night_scroll"
+			id: "4E692BF19B26BE74"
+			rewards: [
+				{
+					id: "69E38423194AF9D5"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 75"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "68E5335057E3930E"
+					team_reward: false
+					title: "&e★ 별빛 +75"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "49705BD1D9B80BFA"
+					item: "enigmaticaddons:night_scroll"
+					type: "item"
+				}
+			]
+			title: "&8&l[ ✦ 어둠의 밤의 서약 ]"
+			x: 27.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["4E692BF19B26BE74"]
+			description: ["&7대장장이의 비밀이 담긴 보석이에요."]
+			icon: "enigmaticaddons:forger_gem"
+			id: "513B7C4FD711CAD0"
+			rewards: [
+				{
+					id: "B491831F8354D5A0"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 100"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "CA383D35B31462C6"
+					team_reward: false
+					title: "&e★ 별빛 +100"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "77ED162440529FF8"
+					item: "enigmaticaddons:forger_gem"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 대장장이의 보석 ]"
+			x: 29.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["7B85F979150CFF1F"]
+			description: ["&7헤파이스토스 대장간 의식에 꼭 필요한 망치예요."]
+			icon: "forbidden_arcanus:iron_blacksmith_gavel"
+			id: "CF6F4DB354971BDA"
+			rewards: [
+				{
+					id: "4728FD8B1400AE21"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 25"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "48E4B60C72B63FE3"
+					team_reward: false
+					title: "&e★ 별빛 +25"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "B2BE1A3AE80B434A"
+					item: "forbidden_arcanus:iron_blacksmith_gavel"
+					type: "item"
+				}
+			]
+			title: "&7&l[ ✦ 대장장이 망치 ]"
+			x: 18.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["CF6F4DB354971BDA"]
+			description: ["&7금단의 의식을 치르는 대장간이에요.", "&7만드는 법은 JEI나 모드 안내서를 확인하세요."]
+			icon: "forbidden_arcanus:hephaestus_forge"
+			id: "36EC730B5AB4E22F"
+			rewards: [
+				{
+					id: "A946A98121FD31DD"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 60"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "A45FA7860E893DEB"
+					team_reward: false
+					title: "&e★ 별빛 +60"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "BD76E4D45BBA2EB5"
+					item: "forbidden_arcanus:hephaestus_forge"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 헤파이스토스 대장간 ]"
+			x: 20.25d
+			y: 3.5d
+		}
+		{
+			dependencies: ["36EC730B5AB4E22F"]
+			description: ["&7대장간 주위에 받침대를 두고 의식 재료를 올려요."]
+			icon: "forbidden_arcanus:darkstone_pedestal"
+			id: "52C78612CC650109"
+			rewards: [
+				{
+					id: "1DD141F2FC2F77D5"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 40"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "EA78F64871F49C51"
+					team_reward: false
+					title: "&e★ 별빛 +40"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "678DD00BCC4BA95E"
+					item: "forbidden_arcanus:darkstone_pedestal"
+					type: "item"
+				}
+			]
+			title: "&8&l[ ✦ 의식의 받침대 ]"
+			x: 22.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["36EC730B5AB4E22F"]
+			description: ["&7아우레알을 채워 주는 병이에요."]
+			icon: "forbidden_arcanus:aureal_bottle"
+			id: "FF2EA35374D7A291"
+			rewards: [
+				{
+					id: "389D2096F1A11A5E"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 40"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "2BFE413AC7283B19"
+					team_reward: false
+					title: "&e★ 별빛 +40"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "D0F78318B3340C33"
+					item: "forbidden_arcanus:aureal_bottle"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 아우레알 병 ]"
+			x: 22.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["36EC730B5AB4E22F"]
+			description: ["&7대장간 의식으로 만드는 혼합물이에요."]
+			icon: "forbidden_arcanus:ferrognetic_mixture"
+			id: "265AAD9D9891BEFE"
+			rewards: [
+				{
+					id: "3E1C6E5501B72FAF"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 50"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "4879BB56E7B3DC31"
+					team_reward: false
+					title: "&e★ 별빛 +50"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "A90A12BD6D4E0CC3"
+					item: "forbidden_arcanus:ferrognetic_mixture"
+					type: "item"
+				}
+			]
+			title: "&7&l[ ✦ 철자성 혼합물 ]"
+			x: 23.75d
+			y: 3.5d
+		}
+		{
+			dependencies: ["265AAD9D9891BEFE"]
+			description: ["&7제련·회오리·바다·대지 강타 프리즘 중 하나를 의식으로 만드세요."]
+			icon: "forbidden_arcanus:smelter_prism"
+			id: "5C6419B18D885ADD"
+			rewards: [
+				{
+					id: "4251EB3D5BF79CCB"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 75"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "B6D9EB8818159AA8"
+					team_reward: false
+					title: "&e★ 별빛 +75"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "4F8615EDBD5FCE0B"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(forbidden_arcanus:smelter_prism)item(forbidden_arcanus:whirlwind_prism)item(forbidden_arcanus:sea_prism)item(forbidden_arcanus:terrastomp_prism))"
+						}
+					}
+					title: "아무 프리즘"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 원소 프리즘 ]"
+			x: 25.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5C6419B18D885ADD"]
+			description: ["&7네 가지 프리즘을 모두 모으세요."]
+			icon: "forbidden_arcanus:whirlwind_prism"
+			id: "CE3BDD3E61EAAD36"
+			optional: true
+			rewards: [
+				{
+					id: "A903B4A5E28D7B1F"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 125"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "E66287875DD58F07"
+					team_reward: false
+					title: "&e★ 별빛 +125"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "CA30E97DC1860256"
+					item: "forbidden_arcanus:smelter_prism"
+					type: "item"
+				}
+				{
+					id: "5467314B899392AA"
+					item: "forbidden_arcanus:whirlwind_prism"
+					type: "item"
+				}
+				{
+					id: "87D36986FA9474B7"
+					item: "forbidden_arcanus:sea_prism"
+					type: "item"
+				}
+				{
+					id: "11E6DA8D484D82D1"
+					item: "forbidden_arcanus:terrastomp_prism"
+					type: "item"
+				}
+			]
+			title: "&b&l[ ✦ 프리즘 수집가 ]"
+			x: 27.25d
+			y: 3.0d
+		}
+		{
+			dependencies: ["CF6F4DB354971BDA"]
+			description: ["&7생물도, 액체도 담는 신비한 양동이예요."]
+			icon: "forbidden_arcanus:edelwood_bucket"
+			id: "95CB93899543CBA6"
+			rewards: [
+				{
+					id: "7ACB0E4A08F9BC92"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 25"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "EB871A4619419919"
+					team_reward: false
+					title: "&e★ 별빛 +25"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "5D6C5C7F9E2B82FE"
+					item: "forbidden_arcanus:edelwood_bucket"
+					type: "item"
+				}
+			]
+			title: "&a&l[ ✦ 에델나무 양동이 ]"
+			x: 18.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["95CB93899543CBA6"]
+			description: ["&7생물을 붙잡아 옮기는 장치예요."]
+			icon: "forbidden_arcanus:quantum_catcher"
+			id: "B766CA85187904C8"
+			rewards: [
+				{
+					id: "9EF90B60B2C560E7"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 60"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "D46B42FB47DFB39B"
+					team_reward: false
+					title: "&e★ 별빛 +60"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "27A131C8EF615A5F"
+					item: "forbidden_arcanus:quantum_catcher"
+					type: "item"
+				}
+			]
+			title: "&d&l[ ✦ 양자 포획기 ]"
+			x: 20.25d
+			y: 6.0d
+		}
+		{
+			dependencies: ["FF2EA35374D7A291"]
+			description: ["&7영혼을 뽑아내는 장치예요."]
+			icon: "forbidden_arcanus:soul_extractor"
+			id: "A38462746892D473"
+			rewards: [
+				{
+					id: "1748214E0EC03004"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 60"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "ABC9716F6D23E649"
+					team_reward: false
+					title: "&e★ 별빛 +60"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "3E3DDF7EDF1BE0D1"
+					item: "forbidden_arcanus:soul_extractor"
+					type: "item"
+				}
+			]
+			title: "&5&l[ ✦ 영혼 추출기 ]"
+			x: 22.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["FF2EA35374D7A291"]
+			description: ["&7숨겨진 진실을 비추는 렌즈예요."]
+			icon: "forbidden_arcanus:lens_of_veritatis"
+			id: "B05F1DFA80C64AA5"
+			rewards: [
+				{
+					id: "24003ECD913FB77D"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 50"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "5970DF0CB4E821B2"
+					team_reward: false
+					title: "&e★ 별빛 +50"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "B441C28ED0ED06D7"
+					item: "forbidden_arcanus:lens_of_veritatis"
+					type: "item"
+				}
+			]
+			title: "&e&l[ ✦ 베리타티스의 렌즈 ]"
+			x: 23.75d
+			y: 5.5d
+		}
+		{
+			dependencies: ["B05F1DFA80C64AA5"]
+			description: ["&7보이지 않는 것을 보게 해 주는 부적이에요."]
+			icon: "forbidden_arcanus:spectral_eye_amulet"
+			id: "F63FCDE5157A1268"
+			rewards: [
+				{
+					id: "53C632CBE00C5962"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 75"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "ED9696BC6E68602D"
+					team_reward: false
+					title: "&e★ 별빛 +75"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "37774BE679C826A0"
+					item: "forbidden_arcanus:spectral_eye_amulet"
+					type: "item"
+				}
+			]
+			title: "&d&l[ ✦ 영체의 눈 부적 ]"
+			x: 25.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["B05F1DFA80C64AA5"]
+			description: ["&7정신력을 재는 도구예요."]
+			icon: "forbidden_arcanus:sanity_meter"
+			id: "20BA87065065C310"
+			rewards: [
+				{
+					id: "2F27A8247192A61F"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 40"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "1E1522DDE720D294"
+					team_reward: false
+					title: "&e★ 별빛 +40"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "D5C3C1C09834C457"
+					item: "forbidden_arcanus:sanity_meter"
+					type: "item"
+				}
+			]
+			title: "&c&l[ ✦ 정신력 측정기 ]"
+			x: 25.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4F7B2570634A2B41"]
+			description: ["&7죽음의 기운을 두른 갑옷이에요."]
+			icon: "forbidden_arcanus:mortem_chestplate"
+			id: "E002031C1E81F5E1"
+			rewards: [
+				{
+					id: "45B9F708C93B942C"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 75"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "D1CBC09CFE384A97"
+					team_reward: false
+					title: "&e★ 별빛 +75"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "85AA25BE9D3BFA86"
+					item: "forbidden_arcanus:mortem_helmet"
+					type: "item"
+				}
+				{
+					id: "240FFF6797CEF084"
+					item: "forbidden_arcanus:mortem_chestplate"
+					type: "item"
+				}
+				{
+					id: "2BCF05005EC782E0"
+					item: "forbidden_arcanus:mortem_leggings"
+					type: "item"
+				}
+				{
+					id: "FBDA243E3AAD4E3D"
+					item: "forbidden_arcanus:mortem_boots"
+					type: "item"
+				}
+			]
+			title: "&8&l[ ✦ 모르템 갑옷 ]"
+			x: 20.25d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7315B97CA93418C6"]
+			description: ["&7타락한 힘을 담은 가루와 어두운 룬이에요."]
+			icon: "forbidden_arcanus:dark_rune"
+			id: "301AC8795595E972"
+			rewards: [
+				{
+					id: "BCC4EEAFFD30FFA2"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 50"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "5480CD8ABF059B8E"
+					team_reward: false
+					title: "&e★ 별빛 +50"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "C22C874E3CCECAE1"
+					item: "forbidden_arcanus:corrupti_dust"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "27235C83069CC0B4"
+					item: "forbidden_arcanus:dark_rune"
+					type: "item"
+				}
+			]
+			title: "&5&l[ ✦ 타락의 가루 ]"
+			x: 22.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["035D083D8EB4F7AE"]
+			description: ["&7데오룸으로 빚은 전사의 갑옷이에요."]
+			icon: "forbidden_arcanus:tyr_chestplate"
+			id: "81BD940D5331A905"
+			rewards: [
+				{
+					id: "1DAE2A51F3AEB773"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 100"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "387E37BC2A9603EE"
+					team_reward: false
+					title: "&e★ 별빛 +100"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "FEFFDD911B2A2CF5"
+					item: "forbidden_arcanus:tyr_helmet"
+					type: "item"
+				}
+				{
+					id: "2FDEEC2FF7951BF5"
+					item: "forbidden_arcanus:tyr_chestplate"
+					type: "item"
+				}
+				{
+					id: "AD01BBAE4982EF67"
+					item: "forbidden_arcanus:tyr_leggings"
+					type: "item"
+				}
+				{
+					id: "E6990F57B108111D"
+					item: "forbidden_arcanus:tyr_boots"
+					type: "item"
+				}
+			]
+			title: "&6&l[ ✦ 티르 갑옷 ]"
+			x: 23.75d
+			y: -2.5d
+		}
+		{
+			dependencies: ["727891BFE77F5147"]
+			description: ["&7드라코 아르카누스 장비의 핵심 재료예요."]
+			icon: "forbidden_arcanus:dragon_scale"
+			id: "816F116C9967C0F4"
+			rewards: [
+				{
+					id: "BBC1EB210FFB78F3"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 75"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "8CD6FE94365B825F"
+					team_reward: false
+					title: "&e★ 별빛 +75"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "2AC821EE27104A6A"
+					item: "forbidden_arcanus:dragon_scale"
+					type: "item"
+				}
+			]
+			title: "&5&l[ ✦ 드래곤 비늘 ]"
+			x: 25.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["816F116C9967C0F4"]
+			description: ["&7드래곤의 힘을 두른 최상급 갑옷이에요."]
+			icon: "forbidden_arcanus:draco_arcanus_chestplate"
+			id: "6B29507F90F6FC3A"
+			rewards: [
+				{
+					id: "AFEE974FC48E3A48"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 150"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "62D7163D416C0132"
+					team_reward: false
+					title: "&e★ 별빛 +150"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "3835F434792D6A8C"
+					item: "forbidden_arcanus:draco_arcanus_helmet"
+					type: "item"
+				}
+				{
+					id: "BFA3E8AFF1AE4B6E"
+					item: "forbidden_arcanus:draco_arcanus_chestplate"
+					type: "item"
+				}
+				{
+					id: "4E93295011DB3DEF"
+					item: "forbidden_arcanus:draco_arcanus_leggings"
+					type: "item"
+				}
+				{
+					id: "27038CB4D707D187"
+					item: "forbidden_arcanus:draco_arcanus_boots"
+					type: "item"
+				}
+			]
+			title: "&5&l[ ✦ 드라코 아르카누스 갑옷 ]"
+			x: 27.25d
+			y: -3.5d
+		}
+		{
+			dependencies: ["816F116C9967C0F4"]
+			description: ["&7드래곤의 힘을 다루는 홀과 지팡이예요."]
+			icon: "forbidden_arcanus:draco_arcanus_staff"
+			id: "C0C0B85B5155063A"
+			rewards: [
+				{
+					id: "8102BC562FD3BE0C"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 125"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "CD4168B9B2A12C7A"
+					team_reward: false
+					title: "&e★ 별빛 +125"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "808B4299AC73386B"
+					item: "forbidden_arcanus:draco_arcanus_scepter"
+					type: "item"
+				}
+				{
+					id: "149F97BE63863E47"
+					item: "forbidden_arcanus:draco_arcanus_staff"
+					type: "item"
+				}
+			]
+			title: "&5&l[ ✦ 드라코 아르카누스 지팡이 ]"
+			x: 29.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["301AC8795595E972"]
+			description: ["&7의식에 쓰이는 단검이에요."]
+			icon: "forbidden_arcanus:mystical_dagger"
+			id: "3ECDFB0717CF7C93"
+			rewards: [
+				{
+					id: "6746B138B6CA003C"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 50"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "86E4B73D887EFEC2"
+					team_reward: false
+					title: "&e★ 별빛 +50"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "EA87E01360AB1E0D"
+					item: "forbidden_arcanus:mystical_dagger"
+					type: "item"
+				}
+			]
+			title: "&7&l[ ✦ 신비한 단검 ]"
+			x: 22.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["301AC8795595E972"]
+			description: ["&7빛조차 삼키는 물질이에요."]
+			icon: "forbidden_arcanus:dark_matter"
+			id: "B54FCF6EFC92EC14"
+			rewards: [
+				{
+					id: "CD402475441ED2AD"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 100"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "E13084F0A925E72C"
+					team_reward: false
+					title: "&e★ 별빛 +100"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "A9B82A6577567D48"
+					item: "forbidden_arcanus:dark_matter"
+					type: "item"
+				}
+			]
+			title: "&0&l[ ✦ 암흑 물질 ]"
+			x: 25.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["A398D022D4351DF4", "6A086B11DE602557", "347EA5CF81811596", "B183256EA16EC121", "6B29507F90F6FC3A", "DD2EE150D2840277", "7C77833F338FCAAB", "EA44BD0D405EB311"]
+			description: ["&6지팡이, 저주, 금단의 비전까지 모든 마법의 길을 걸었어요.", "  &e&o\"이제 당신이 곧 신화예요.\"&r"]
+			icon: "ebwizardry:wand_master"
+			id: "3152826B0672A2D5"
+			rewards: [
+				{
+					id: "35B0965F0C5B5877"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					auto: "enabled"
+					command: "/starlight add @s 300"
+					elevate_perms: true
+					exclude_from_claim_all: false
+					icon: "minecraft:nether_star"
+					id: "44CAD65531D9E10D"
+					team_reward: false
+					title: "&e★ 별빛 +300"
+					type: "command"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "286BDCAD9BEA118D"
+					title: "마법과 신화의 모든 길을 걸었다"
+					type: "checkmark"
+				}
+			]
+			title: "&6&l[ ✦ 마법과 신화의 정점 ✦ ]"
+			x: 33.0d
+			y: 0.0d
+		}
 	]
 	title: "&b&l✦ 마법과 신화의 대가"
 }
